@@ -1,0 +1,173 @@
+# Project information
+site_name: DAVINCI 6
+site_description: 'DAVINCI 6 Dokumentation'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https:/doc.davinci6.stueber.de'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https:/github.com/stuebersystems/doc.davinci6.de'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    direction:
+    feature:
+        tabs: true
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: true
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+
+# Plugins    
+plugins:
+    - search
+    - img2fig
+
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Allgemein:
+  - Einführung: index.md
+  - Änderungen:
+    - Was ist neu?: 00.allgemein/changelog.md
+    - Geplante Änderungen: 00.allgemein/changelog-next.md
+    - Änderungen 2018: 00.allgemein/changelog-2018.md
+    - Änderungen 2017: 00.allgemein/changelog-2017.md
+    - Änderungen 2016: 00.allgemein/changelog-2016.md
+    - Änderungen 2015: 00.allgemein/changelog-2015.md
+    - Änderungen 2014 und früher: 00.allgemein/changelog-archive.md
+  - Installation und Updates:
+    - Voraussetzungen: 00.allgemein/requirements.md
+    - Installation: 00.allgemein/installation.md
+    - Lizenzieren: 00.allgemein/lizenzieren.md
+    - Pathdatei: 00.allgemein/pathdatei.md
+    - Update: 00.allgemein/update.md
+    - Die Update-Infodatei: 00.allgemein/updateinfo.md
+  - Regionales: 
+    - Bayern: 10.regionales/bayern.md
+    - Bremen: 10.regionales/bremen.md
+    - Hessen: 
+      - Landesstatistik LUSD: 10.regionales/hes-lusd.md
+      - LANiS Export: 10.regionales/hes-lanis.md
+    - Niedersachsen: 10.regionales/niedersachsen.md
+    - Nordrhein-Westfalen: 10.regionales/nordrhein-westfalen.md
+    - Rheinland-Pfalz: 
+      - edoo.sys: 10.regionales/rlp-edoosys.md
+    - Sachsen: 10.regionales/sachsen.md
+    - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
+- STUNDENPLAN: 
+  - Stundenplan: 01.stundenplan/index.md
+  - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
+  - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
+  - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
+  - Stammdaten: 01.stundenplan/stammdaten.md
+  - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
+  - Stundenplan erstellen: 
+    - Allgemeines: 01.stundenplan/allgemeines.md
+    - Programmansichten einstellen: 01.stundenplan/ansichten.md
+    - Auswahl-Fenster: 01.stundenplan/das-auswahl-fenster.md
+    - Unterrichtsveranstaltungen: 01.stundenplan/unterrichtsveranstaltungen.md
+    - Lehrereinsatz bestimmen: 01.stundenplan/lehrereinsatz-bestimmen.md
+    - Raumbelegung festlegen: 01.stundenplan/raumzuweisung.md
+    - Dialogfenster "Veranstaltung": 01.stundenplan/veranstaltungen.md
+    - Teilnehmer: 01.stundenplan/teilnehmer-zuweisen.md
+    - Termindaten: 01.stundenplan/termindaten-bearbeiten.md
+    - Die Unterrichtsmatrix: 01.stundenplan/die-unterrichtsmatrix.md
+    - Zeitpräferenzen erfassen: 01.stundenplan/zeitpraferenzen-erfassen.md
+    - Termine zeitlich verplanen: 01.stundenplan/termine-zeitlich-verplanen.md
+    - Terminkonflikte behandeln: 01.stundenplan/terminkonflikte-behandeln.md
+    - Raumzuweisung: 01.stundenplan/raumzuweisung.md
+    - Manuelles Setzen: 01.stundenplan/setzen.md
+    - Einstellungen für das manuelle Planen: 01.stundenplan/einstellungen-fur-das-manuelle-planen.md
+    - Mit der Automatik planen: 01.stundenplan/automatik-planen.md
+    - Planungsfenster: 01.stundenplan/planungsfenster.md
+  - Stundensummen ermitteln: 01.stundenplan/stundensummen-ermitteln.md
+  - Aufsichtspläne erstellen: 01.stundenplan/aufsichtsplane-erstellen.md
+  - Übersichten: 01.stundenplan/uebersichten.md
+  - Publizieren: 
+    - Allgemeines: 01.stundenplan/stundenplaene-drucken.md
+    - Drucken: 01.stundenplan/drucken.md
+    - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
+    - HTML-Export: 01.stundenplan/html-export.md
+  - Mit dem Kalender planen: 01.stundenplan/kalender.md
+  - Referenzen:
+    - Symbole: 01.stundenplan/ubersicht-symbole.md
+    - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
+- VERTRETUNGSPLAN:
+  - Allgemein: 02.vertretungsplan/allgemein.md
+  - Fehlzeiten erfassen: 02.vertretungsplan/fehlzeiten.md
+  - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
+  - Veröffentlichungen: 02.vertretungsplan/veroeffentlichung.md
+- KURSPLAN: 
+  - Allgemein: 03.kursplan/allgemeines.md
+  - Fachwahlen eingeben: 03.kursplan/fachwahlen.md
+  - Kursangebot erstellen: 03.kursplan/kursangebot.md
+  - Blocken und Verteilen: 03.kursplan/blocken_verteilen.md
+  - Schülerpläne: 03.kursplan/schuelerplaene.md
+  - Spezielles: 03.kursplan/spezielles.md
+- RESSOURCENPLAN: 
+  - So gehen Sie vor: 04.ressourcen/allgemeines.md
+- LOOK: 
+  - So gehen Sie vor: 05.look/allgemeines.md
+- SERVER: 
+  - So gehen Sie vor: 06.server/allgemeines.md
+- EXPLORER: 
+  - So gehen Sie vor: 07.explorer/allgemeines.md
+- ANALYTICS: 
+    - Allgemein: 08.analytics/allgemeines.md
+    - Änderungen: 08.analytics/aenderungen.md
+    - Unterricht: 08.analytics/unterricht.md
+    - Unterrichtsstatistik: 08.analytics/unterrichtsstatistik.md
+    - Lehrer Arbeitstage: 08.analytics/lehrer_arbeitstage.md
+    - Lehrer Mehrarbeit: 08.analytics/lehrermehrarbeit.md
+    - Ausfallstatistik: 08.analytics/ausfallstatistik.md
+- INFOSERVER: 
+  - Allgemein: 09.infoserver/index.md
+  - Einrichtung:
+    - 1. Web-Server: 
+      - Allgemeines: 09.infoserver/setup-webserver/README.md
+      - Apache: 09.infoserver/setup-webserver/apache.md
+      - IIS 10: 09.infoserver/setup-webserver/iis-10.md
+      - IIS 8.5: 09.infoserver/setup-webserver/iis-8-5.md
+      - IIS 8: 09.infoserver/setup-webserver/iis-8.md
+      - IIS 7.5: 09.infoserver/setup-webserver/iis-7-5.md
+      - IIS 7: 09.infoserver/setup-webserver/iis-7.md
+    - 2. Benutzerverwaltung: 09.infoserver/user-management.md
+    - 3. DAVINCI INFOSERVER: 
+      - Allgemein: 09.infoserver/setup-infoserver/README.md
+      - Apache: 09.infoserver/setup-infoserver/apache.md
+      - IIS 10: 09.infoserver/setup-infoserver/iis-10.md
+      - IIS 10: 09.infoserver/setup-infoserver/iis-8-5.md
+      - IIS 7.5: 09.infoserver/setup-infoserver/iis-7-5.md
+    - 4. DAVINCI WEBBOX: 
+      - Allgemein: 09.infoserver/setup-webbox/README.md
+      - Apache: 09.infoserver/setup-webbox/apache.md
+      - IIS 10: 09.infoserver/setup-webbox/iis-10.md
+    - 5. DAVINCI-MOBILE: 
+      - Allgemein: 09.infoserver/setup-mobile/README.md
+      - Voraussetzungen: 09.infoserver/setup-mobile/README.md
+  - Sicherheit: 09.infoserver/security.md
+  - Netzwerktipps: 09.infoserver/network-configuration.md
+  - Netzwerke verbinden: 09.infoserver/powershell.md
+  - Update: 09.infoserver/infoserver-und-webbox-aktualisieren.md

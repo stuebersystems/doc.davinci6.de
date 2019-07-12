@@ -1,0 +1,343 @@
+# Der DAVINCI SERVER
+
+## Allgemein
+
+Der DAVINCI SERVER erweitert eine lokale DAVINCI-Installation um ein serverbasiertes Datei- und Nutzer-Management. Mehrere Stundenplaner können von verschiedenen Orten aus gleichzeitig gemeinsam an einem oder mehreren Stundenplänen arbeiten. Die Aufgabe, die Anfragen und Eingaben der teilnehmenden Anwender zu koordinierenden, leistet der DAVINCI-SERVER. Dieser wird auf einem zentralen Serverrechner oder zusätzlich zum DAVINCI-Hauptprogramm auf einem normalen PC im Netzwerk installiert.
+
+In einem Serverszenario greift der Stundenplaner also nicht mehr wie im klassischen Desktopeinsatz
+direkt auf eine lokale oder entfernte DAVINCI Datei zu. An die Stelle dieses Modells tritt ein Client-Server-Modell. Der Arbeitsplatz-PC des Stundenplaners fungiert in diesem Szenario als Client. Alle am Client bearbeiteten Daten werden vom DAVINCI SERVER bereitgestellt und verwaltet. Werden an einem Client Änderungen vorgenommen, gleicht der DAVINCI SERVER diese Änderungen mit den Eingaben der anderen Teilnehmer ab und entscheidet auf dieser Basis, ob die Änderungen für alle übernommen werden können oder ob ein Konflikt besteht. Ein Konflikt kann vorliegen, wenn unterschiedliche Nutzer zum gleichen Zeitpunkt auf dasselbe Planelement zugegriffen haben. In diesem Fall wird statt die Änderung allen Nutzern direkt anzuzeigen, wie es der Regelfall ist, eine Konfliktmeldung ausgegeben, so dass die Nutzer auf die Überschneidung innerhalb Ihrer Planungsaufgaben aufmerksam werden.
+
+Die Vorteile, den Zugriff auf Ihre Pläne und Termine vom DAVINCI-SERVER verwalten zu lassen sind offenkundig: Die parallele Zusammenarbeit über das Netzwerk erlaubt die einfache Koordination von Planern an verschiedenen Standorten, alle Änderungen und Informationen stehen den beteiligten Personen sofort zur Verfügung und die Benutzerverwaltung erlaubt es, z. B. Verwaltungsmitarbeiter und das Lehrerkollegium mit eingeschränkten Rechten, direkt in den Informationsaustausch oder Terminfindungsprozess einzubinden, ohne dass Datenschutz oder Datensicherheit beeinträchtigt werden.
+
+Zum Verwalten von Benutzern, Mandenten und Plandateien auf dem DAVINCI SERVER steht Ihnen der DAVINCI-EXPLORER zur Verfügung. Eine ausführliche Beschreibung des DAVINCI EXPLORERS finden Sie im Kapitel `DAVINCI EXPLORER`.
+
+## Installation
+
+Gehen Sie wie folgt vor:
+
+* Öffnen Sie die Webseite [davinci.stueber.de/download.php] in Ihren Web-Browser.
+
+* Klicken Sie unterhalb von DAVINCI-SERVER auf die Schaltfläche `Download`, um die Installationsdatei `davinci6server.msi` herunterzuladen.
+
+* Starten Sie die Installationsdatei ``davinci6server.msi`` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
+
+![Start der Installation](/assets/images/welcome-server.png)
+
+Das Installationsprogramm gibt Ihnen die Möglichkeit, das Installationsverzeichnis zu ändern.
+
+![Installationsverzeichnis spezifizieren](/assets/images/enter-folder-server.png)
+  
+Wenn Sie das Installationsverzeichnis nicht geändert haben, befinden sich die Dateien nach Abschluß der Installation standardmäßig in folgendem Ordner auf Ihrem Computer:
+
+### Programmdaten (z.B. daVinciServer.exe)
+
+Betriebssystem             | Pfad
+-------------------------- | -------------
+Windows Vista / 7 / 8 / 10 | C:\Program Files\Stueber Systems\daVinci 6
+Windows XP                 | C:\Programme\Stueber Systems\daVinci 6
+
+Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren.
+
+## Starten
+
+Nach der Installation wird der DAVINCI SERVER automatisch als Dienst im Hintergrund gestartet.
+
+Um Änderung an der Konfiguration des Servers vorzunehmen, müssen Sie das DAVINCI-SERVER CONTROL aufrufen:
+
+* Öffnen Sie die Windows-Systemsteuerung
+
+* Doppelklicken Sie auf `daVinci-Server (32-Bit)`.
+
+Im sich öffnenden Fenster können Sie u.a. die Vorgaben für den Speicherort der auf dem Server angelegten Benutzer und Stundenplandateien sowie für die Netzwerkeinstellungen an die Gegebenheiten ihres Systems anpassen. Eine detaillierte Beschreibung hierzu finden Sie im Kapitel [Den DAVINCI-SERVER konfigurieren]. Sollte der Server nicht ordnungsgemäß starten oder nicht erreichbar sein, prüfen Sie bitte die dort gemachten Angaben.
+
+## Updates
+
+Gehen Sie wie folgt vor:
+
+* Öffnen Sie die Webseite [davinci.stueber.de/download.php] in Ihrem Web-Browser.
+
+* klicken Sie unterhalb von DAVINCI-SERVER auf die Schaltfläche `Download`, um die aktuellste Installationsdatei `davinci6server.msi` herunterzuladen.
+
+* Starten Sie die Installationsdatei ``davinci6server.msi`` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
+
+!!! info "Hinweis"
+
+    Das Installationsprogramm erkennt automatisch, ob es eine bestehende DAVINCI-SERVER-Version aktualisieren oder eine Neuinstallation durchführen muss.
+
+## Verbinden
+
+### DAVINCI EXPLORER verbinden
+
+Da nach der Erstinstallation noch keine Benutzerkonten für Ihre Stundenplaner eingerichtet sind und
+auch noch keine Plandateien vorhanden sind, mit denen Ihre Stundenplaner arbeiten können, sollten
+Sie sich zunächst mit dem DAVINCI-EXPLORER am gerade installierten DAVINCI-SERVER anmelden, um
+Benutzerkonten, Mandanten und Plandateien anzulegen:
+
+Unter Windows XP / Vista / 7
+
+* Klicken Sie auf das Windows-Startmenü und dann auf `Programme > STÜBER SYSTEMS > daVinci-Explorer 6`, um den DAVINCI-EXPLORER zu starten.
+
+Unter Windows 8:
+
+* Öffnen Sie die Windows-App-Ansicht und klicken Sie dann auf `STÜBER SYSTEMS > daVinci-Explorer 6`, um den DAVINCI-EXPLORER zu starten.
+
+Unter Windows 10:
+
+* Klicken Sie auf das Windows-Startmenü und dann auf `Alle Apps > STÜBER SYSTEMS > daVinci-Explorer 6`, um den DAVINCI-EXPLORER zu starten.
+
+Unmittelbar nach dem Start wird der Dialog „Mit DAVINCI Server verbinden“ wird angezeigt wird. Da bei einer Erstinstallation noch kein DAVINCI-SERVER eingetragen ist, mit dem Sie sich verbinden können, müssen Sie zunächst im Anmeldedialog auf das Symbol unten links klicken, um eine Serververbindung manuell oder automatisch einzurichten einrichten.
+
+![Bei der Erstanmeldung ist noch kein Server eingetragen](/assets/images/server1.png)
+
+Sobald Sie eine Serververbindung eingetragen haben, können Sie sich mit dem Systemkonto, d. h. mit dem Benutzernamen „admin“ und einem leeren Passwort mit dem DAVINCI Explorer am DAVINCI Server anmelden. Um neben dem Systemkonto „admin“ weitere Benutzer hinzuzufügen klicken Sie anschließend auf der Registerkarte „Benutzer“ auf den Menüpunkt „Hinzufügen“ und folgen dem Dialog zum Anlegen eines neuen Benutzers. Eine genaue Erklärung finden Sie im Kapitel [Der DAVINCI-EXPLORER]. Hier erfahren Sie auch, wie Sie das Systemkonto „admin“ mit einem Passwort schützen, indem Sie im Dialog „Eigenschaften“ auf „Ein neues Kennwort definieren klicken“ – Dies sollten Sie unbedingt tun und ein ausreichend langes und sicheres Passwort wählen, denn dieses Konto kennt jeder, der dieses Kapitel gelesen hat.
+
+Nach dem Eintragen weiterer Benutzerkonten, müssen Sie für die Aufnahme des Planungsbetriebs Ihren Mitplanern noch Plandateien zur Verfügung stellen. Dies tun Sie, indem Sie im DAVINCI-EXPLORER auf die Registerkarte „Plandateien“ wechseln, auf „Hinzufügen“ klicken und einen Namen und optional eine Beschreibung für Ihren Plan eingeben. Möchten Sie bei der Planung nicht mit einem völlig leeren Plan von null beginnen, sondern mit einer bereits lokal vorbereiteten Datei im Mehrbenutzerbetrieb weiterplanen, müssen Sie anschließend noch den gerade hinzugefügten Plan aus der Liste der Plandateien auswählen und „Hochladen“ klicken, um den Inhalt Ihrer lokalen Datei in den neu angelegten Plan zu übertragen.
+
+![Mit dem Explorer eine Plandatei auf den Server laden](/assets/images/server2.png)
+
+!!! info "Hinweis"
+
+    Vollständige Anleitungen zu Organisation Ihrer Pläne auf dem Server finden Sie ebenfalls im Kapitel [Der DAVINCI EXPLORER].
+
+### DAVINCI verbinden
+
+Nachdem Sie Benutzer eingerichtet und Plandateien auf dem Server angelegt haben, können Sie sich mit dem DAVINCI Hauptprogramm am Server anmelden und nach der Anmeldung im Prinzip wie bei der lokalen Planung auf Ihre Plandatei zugreifen. Dazu starten Sie DAVINCI und wählen im Anmeldedialog die gerade eingerichtete Server-Verbindung aus. Wenn Sie sich auf der genutzten Arbeitsstation noch nie mit einem DAVINCI SERVER verbunden haben, bietet der Anmeldedialog wie im vorangehenden Abschnitt keinen Server zur Auswahl, so dass Sie ebenfalls zunächst auf die Schaltfläche „DAVINCI Server verwalten“ unten links klicken müssen und wie oben erklärt zunächst eine Serververbindung einrichten müssen. Anschließend können Sie sich mit dem Benutzernamen und dem Passwort eines zuvor mit dem DAVINCI EXPLORER angelegten Benutzerkontos mit dem DAVINCI Hauptprogramm am Server anmelden. Bei einer Erstinstallation erscheint jetzt der Dialog „Datei von DAVINCI Server öffnen“ und Sie können die zuvor mit dem DAVINCI EXPLORER bereitgestellte Datei jetzt auswählen und mit OK bestätigen, um diese mit dem Clientprogramm zu laden und wie gewohnt mit der Planung zu beginnen. Alles Weitere zur Arbeit mit dem DAVINCI Hauptprogramm finden Sie im Abschnitt Mit DAVINCI ENTERPRISE arbeiten detailliert beschrieben.
+
+![Eine Datei vom Server öffnen](/assets/images/server3.png)
+
+## Konfiguration
+
+Der DAVINCI-SERVER wird auf dem Netzwerkrechner installiert, auf dem sich die von den verschiedenen
+Arbeitsplätzen über das Netzwerk genutzten DAVINCI-Plandateien befinden. Hinsichtlich der Leistungsanforderungen kann es sich dabei um eine der beteiligten Arbeitsstationen oder einen speziellen Server-Rechner handeln. Da alle Informationen zur Stundenplanung nun zentral auf diesem Computer gespeichert werden, sollte bei der Wahl dieses Rechners zudem bedacht werden, ob sich hierdurch besondere Anforderungen an die Zugriffs und Datensicherheit stellen, wie die Einrichtung regelmäßiger Backups und die Aufstellung in einem abschließbaren Raum. Zusätzlich muss der Computer, auf dem der DAVINCI Server läuft, natürlich über ein lokales Netzwerk oder über das Internet von allen Arbeitsplätzen, die auf die vom Server verwalteten Pläne und Termine zugreifen wollen, erreichbar sein.
+Bereits bei der Installation legt der DAVINCI-SERVER zu diesem Zweck unter dem Namen „DAVINCI 6 Server“ entsprechende Ausnahme-Regeln für die Windows-eigene Firewall an, so dass die mit dem Netzwerk verbundenen Arbeitsplätze sich später problemlos mit dem Server verbinden können. Sie können diese Regel über die Verwaltungsoberfläche der Windows-Firewall in der Systemsteuerung ansehen und überprüfen.
+
+Der DAVINCI-SERVER wird nicht als „normales“ Programm installiert, das mit Hilfe des Windows-Startmenüs
+gestartet wird, sondern als Windows-Dienst. Hierdurch ist der DAVINCI-SERVER nach der Installation standardmäßig so konfiguriert, dass er beim Hochfahren des Rechners immer automatisch gestartet wird. Daher eignet er sich auch für die Installation auf Windows Server-Betriebssystemen, an denen sich kein lokaler Nutzer anmelden muss.
+
+## DAVINCI SERVER Control
+
+Zur Bearbeitung der Einstellungen des DAVINCI-SERVERS steht Ihnen ein eigenes Dialogfenster zur Verfügung, das Sie über ein eigenes Programm-Icon in der Systemsteuerung des Server-Rechners aufrufen können. Gehen Sie dazu bitte folgendermaßen vor:
+
+* Betätigen Sie die Schaltfläche `Start` in der Taskleiste des Server-Rechners.
+
+* Klicken Sie im erscheinenden Startmenü auf den Eintrag `Systemsteuerung`.
+
+* Wählen Sie aus der sich öffnenden Liste die Kategorie `System und Sicherheit`.
+
+* Klicken auf das Programmsymbol des DAVINCI-SERVERS.
+
+Das Dialogfenster `DAVINCI Server` öffnet sich. In diesem Dialogfenster können Sie die Konfiguration
+des DAVINCI-SERVER-Dienstes anpassen. 
+
+## Das Programmfenster
+
+![Das Programmfenster des DAVINCI-SERVERS](/assets/images/server5.png)
+
+Das Dialogfenster der DAVINCI-SERVER-Verwaltung ist in fünf Bereiche gegliedert, die Sie über die
+Registerkarten am oberen Fensterrand erreichen können. Im Bereich „Dienst“ können Sie den Starttyp
+des DAVINCI-SERVERS festlegen und den DAVINCI-SERVER manuell starten oder stoppen. Im Bereich
+„Arbeitsbereich“ können Sie das Verzeichnis festlegen, in dem die DAVINCI-Plandateien auf dem
+Server-Rechner angelegt und gespeichert werden sollen. Im Bereich „Netzwerk“ passen Sie die
+Verbindungsoptionen im Netzwerk an. Die Spracheinstellungen der Benutzeroberfläche lassen sich im
+Bereich „Sprache“ ändern, und im Bereich „Hilfe“ können Sie dieses Benutzerhandbuch aufrufen.
+Die folgenden Abschnitte werden diese Möglichkeiten jetzt noch einmal im Einzelnen erklären.
+
+## Server lizenzieren
+
+Analog zu DAVINCI benötigt der DAVINCI-SERVER eine Lizenz, um mit dem DAVINCI INFOSERVER kommunizieren zu können. So geben Sie die Lizendaten ein:
+
+* Betätigen Sie die Schaltfläche `Lizenz` links unten im Programmfenster.
+* Tragen Sie hier die Lizenzangaben ein bzw. laden Sie die mitgelieferte Lizenzdatei.
+
+## manuell starten oder stoppen
+
+Um den DAVINCI-SERVER manuell zu starten oder zu stoppen, gehen Sie bitte folgendermaßen vor:
+
+* Bleiben Sie nach dem Aufruf des Dialogfensters `DAVINCI-SERVER` auf der Registerkarte `Dienst`.
+
+* Betätigen Sie die Schaltfläche `Stoppen`, um den Dienst zu beenden. Oder drücken Sie auf die Schaltfläche `Starten`, um den Dienst zu aktivieren.
+
+* Bestätigen Sie die gewählte Aktion abschließend mit `OK`.
+
+Der DAVINCI-SERVER wird nun in der Systemsteuerung gestartet oder gestoppt.
+
+!!! info "Hinweis"
+
+    Bei einigen der folgenden Einstellungen, muss der DAVINCI-SERVER neu gestartet werden, damit die Diensteinstellungen des DAVINCI-SERVERS aktualisiert werden können. Ist dies der Fall erscheint nach der Bestätigung Ihrer Angaben mit OK automatisch ein Dialogfenster mit der Frage, ob der DAVINCI-SERVER direkt im Anschluss neu gestartet werden soll. Wenn Sie diese Frage mit Ja bestätigen, wird der DAVINCI-SERVER kurz gestoppt und nach der Aktualisierung automatisch wieder gestartet. Das Dialogfenster „DAVINCI-SERVER“ wird anschließend automatisch geschlossen.
+
+## Starttyp festlegen
+
+Mit Hilfe der Einstellung „Starttyp“ im Bereich „Dienst“ der DAVINCI Serververwaltung können Sie festlegen, wie der DAVINCI-SERVER nach dem Hochfahren des Rechners gestartet wird. Folgende drei Möglichkeiten stehen ihnen hierbei zur Verfügung:
+
+* „Automatisch“ - Dies ist die Standardeinstellung. Sie bedeutet, dass der DAVINCI-SERVER beim Hochfahren automatisch gestartet wird.
+
+* „Manuell“ - Diese Einstellung bedeutet, dass der DAVINCI-SERVER nach dem Rechnerstart von Hand in der Systemsteuerung gestartet werden muss.
+
+* „Deaktiviert“ - Diese Einstellung bewirkt, dass der DAVINCI-SERVER erst wieder gestartet werden kann, wenn der Starttyp des Dienstes in „Automatisch“ oder „Manuell“ geändert wird.
+
+Um den gewünschten Starttyp einzustellen, gehen Sie bitte folgendermaßen vor:
+
+* Bleiben Sie nach dem Aufruf des Dialogfensters `DAVINCI-SERVER` auf der Registerkarte `Dienst`.
+
+* Wählen Sie aus dem Aufklappmenü des Feldes `Starttyp` den gewünschten Eintrag.
+
+* Bestätigen Sie Ihre Angaben mit `OK` und die Frage nach dem Neustart des Servers mit `Ja`.
+
+Der gewählte Starttyp des DAVINCI-SERVERS ist nun eingetragen.
+
+## Datenordner festlegen
+
+Sie können in den Einstellungen des DAVINCI-SERVERS angeben, in welchem Verzeichnis die DAVINCI Plandateien und die Benutzereinstellungen auf dem Server-Rechner gespeichert werden sollen. Auf dieses Verzeichnis greifen alle von Ihren Arbeitsplätzen aus angemeldeten Benutzer mit Ihren DAVINCI Clients zu. Die in diesem Verzeichnis abgelegten Pläne werden im Prinzip als normale DAVINCI Plandateien gespeichert, wie Sie diese aus dem Denktop-Einsatz von DAVINCI kennen. D.h. Sie können diese auf Wunsch genauso archivieren oder in ihre Back-Ups einschließen, wie Sie es von lokalen Dateien gewohnt sind.
+
+!!! info "Hinweis"
+
+    Genau wie bei der Arbeit mit lokalen Dateien muss auch bei den auf dem Server gespeicherten Dateien sichergestellt sein, dass diese nicht zufällig gerade in dem Moment verändert werden, in dem diese kopiert oder in ein Backup übertragen werden. Dies zu gewährleisten ist jedoch auf einem Server, auf den von mehreren entfernten Arbeitsplätzen zugegriffen wird weniger trivial, als bei der Arbeit mit einer lokalen Datei. Sie können im DAVINCI Explorer unter „Server | Server-Informationen“ sicherstellen, dass gerade keine Benutzer am Server angemeldet sind. Der sicherste Weg, um Ihre Dateien in ein Backup zu übertragen ist jedoch die Verwendung einer Backupsoftware, die über eine Snapshot-Funktion, also die Fähigkeit zum Sichern potentiell geöffneter Dateien verfügt. Dies ist bei der im Lieferumfang von Windows enthaltenen Backup-Software ab Windows Vista der Fall. 
+
+Um das Zielverzeichnis der DAVINCI-Dateien auf dem Serverrechner zu ändern, gehen Sie bitte folgendermaßen vor:
+
+* Blättern Sie im Dialogfenster `DAVINCI-SERVER` zur Registerkarte `Arbeitsbereich`.
+
+* Drücken Sie die Schaltfläche `Ordner auswählen`.
+
+* Wählen Sie im erscheinenden Explorerfenster das gewünschte Zielverzeichnis und bestätigen Sie Ihre Auswahl mit `OK`: der zugehörige Verzeichnispfad wird im Eingabefeld „Pfad des lokalen Dateiordners hinterlegt.
+
+* Bestätigen Sie Ihre Angaben mit `OK` und die Frage nach dem Neustart des Servers mit `Ja`.
+
+Das angegebene Verzeichnis ist nun für das Öffnen, Speichern und Verwalten von Dateien durch die
+Benutzer ausgewählt.
+
+![Arbeitsbereich wählen](/assets/images/server6.png)
+
+## Verbindungsoptionen
+
+Sie können festlegen, unter welchen IP-Adressen und auf welcher Port-Nummer der DAVINCI-SERVER für die Clients erreichbar ist. Standardmäßig sind hier zwei Optionen voreingestellt, die Sie in der Regel auch nicht ändern müssen.
+
+* IP Adresse: Der DAVINCI Server erlaubt standardmäßig die Kommunikation über alle am Serverrechner verfügbaren Netzwerkadapter. Sie können die Kommunikation optional auf einen einzelnen Netzwerkadapter mit einer bestimmten IP-Adresse einschränken. Um diese Einstellung vorzunehmen, gehen Sie bitte folgendermaßen vor:
+  
+  * Blättern Sie im Dialogfenster `DAVINCI-SERVER` zur Registerkarte `Netzwerk`.
+  * Aktivieren Sie die Option `Kommunikation auf einen Netzwerkadapter einschränken`.
+  * Geben Sie im Eingabefeld `IP-Adresse des Netzwerkadapters` die zugehörige IP-Adresse ein.
+  * Bestätigen Sie Ihre Angaben mit `OK` und die Frage nach dem Neustart des Servers mit `Ja`.
+
+Die DAVINCI Clients können nun nur noch über die angegebene IP-Adresse den Kontakt zum DAVINCI Server herstellen.
+
+* Port Nummer: Die Kommunikation zwischen den DAVINCI Clients und dem DAVINCI Server erfolgt standardmäßig über den Port 8100. Sie können diesen voreingestellten Port bei Bedarf ändern. Gehen Sie dazu bitte folgendermaßen vor:
+
+  * Blättern Sie im Dialogfenster `DAVINCI-SERVER` zur Registerkarte `Netzwerk`.
+  * Aktivieren Sie die Option `Anderen Port benutzen`.
+  * Geben Sie im Eingabefeld `Benutzerdefinierte Port-Nummer` den gewünschten Port an.
+  * Bestätigen Sie Ihre Angaben mit `OK` und die Frage nach dem Neustart des Servers mit `Ja`.
+
+Die Kommunikation zwischen DAVINCI-SERVER und DAVINCI-Clients erfolgt nun ausschließlich über den neu festgelegten Port erfolgen. D. h. sobald Sie die Standardvorgabe am Server ändern, müssen Sie die abweichende Port-Nummer auch in den Verbindungsoptionen der DAVINCI-Clients entsprechend eintragen.
+
+!!! info "Hinweis"
+
+    Gültige Portnummern liegen zwischen 0 bis 65535. Allerdings sind die ersten 1024 Portnummern (0-1023) von der IANA (Internet Assigned Numbers Authority) für dedizierte Dienste registriert und sollten möglichst nicht für DAVINCI oder andere Anwendungen genutzt werden.
+
+## Spracheinstellung
+
+Die Sprache der Benutzeroberfläche des DAVINCI-SERVER-Programmfensters ändern Sie wie folgt:
+
+1. Blättern Sie im Dialogfenster `DAVINCI Server` zur Registerkarte `Sprache`.
+
+2. Wählen Sie die gewünschte Sprache aus.
+
+3. Bestätigen Sie Ihre Angaben mit `OK`.
+
+Beim nächsten Start des Programmfensters „DAVINCI-SERVER“ wird die Benutzeroberfläche in der hier ausgewählten Sprache angezeigt.
+
+## Updates
+
+Auf folgende Weise können Sie überprüfen, ob ein neues Update für den DAVINCI-SERVER vorliegt:
+
+* Blättern Sie im Dialogfenster `DAVINCI Server` zur Registerkarte `Hilfe`.
+
+* Klicken Sie auf die Schaltfläche `Auf Aktualisierungen überprüfen`. Liegt kein neues Update vor, wird eine entsprechende Meldung ausgegeben, die Sie einfach nur bestätigen müssen. Andernfalls öffnet sich der Update-Assistent, der für Sie automatisch die Update-Installation aus dem Internet herunterlädt und startet. Sie müssen dazu lediglich einigen wenigen Anweisungen des Assistenten folgen.
+
+!!! info "Hinweis"
+
+    Sie können im Dialogfenster „DAVINCI SERVER“ außerdem dieses Handbuch aufrufen. Blättern Sie dazu bitte im Dialogfenster „DAVINCI SERVER“ zur Registerkarte „Hilfe“ und klicken Sie auf die Schaltfläche Handbuch öffnen.
+
+## Clientverbindung
+
+Damit Sie sich von verschiedenen Arbeitsplätzen aus mit dem DAVINCI-Hauptprogramm am zentralen Server anmelden können, müssen zunächst auf jedem Arbeitsplatz die Verbindungsdaten zum Server eintragen. Dies gilt sowohl für das DAVINCI-Hauptprogramm, als auch für den DAVINCI-EXPLORER und  DAVINCI-LOOK. Den Dialog zum Festlegen der Einstellungen für die Verbindung zum Server erreichen Sie bei allen Client-Programmen, indem Sie im Anmeldedialog auf die Schaltfläche „DAVINCI Server verwalten“ unten links klicken.
+
+![Dialog zur Anmeldung am DAVINCI-SERVER](/assets/images/server7.png)
+
+### Server-Verbindung
+
+Der DAVINCI EXPLORER zeigt den Anmeldedialog „Mit DAVINCI Server verbinden“ direkt beim Programmstart. Bei DAVINCI-LOOK und im DAVINCI-Hauptprogramm erscheint der Anmeldedialog, sobald Sie mit Hilfe des Menüpunktes `Plan > Mit DAVINCI Server verbinden` vom lokalen in den Enterprise-Betrieb wechseln.
+
+Um die Server-Verbindung ihres Arbeitsplatz-PCs einzurichten, gehen Sie bitte wie folgt vor:
+
+* Klicken Sie auf die Schaltfläche `DAVINCI Server verwalten` unten links.
+
+* Im sich öffnenden Dialogfenster „DAVINCI Server verwalten“ klicken Sie bitte auf die Schaltfläche `Neuen Server hinzufügen`. Es öffnet sich der Dialog `Server hinzufügen`.
+
+![Eine neue Server-Verbindung eintragen](/assets/images/server8.png)
+
+* Tragen Sie in das Feld `Name` bitte den Namen ein, mit dem die entsprechende Verbindung auf Ihrem System angezeigt werden soll.
+
+* Tragen Sie in das Feld `Netzwerkadresse` bitte den Netzwerknamen (den Computernamen im Netzwerk bzw. DNS-Namen des Server-Computers) oder die IP-Adresse des DAVINCI-SERVERS ein.
+
+* Ändern Sie ggf. die Angabe im Feld `Port-Nummer`, wenn Sie bei der Konfiguration des DAVINCI Servers die vorausgewählte Standard-Port-Nummer 8100 geändert haben.
+
+* Klicken Sie auf Server-Verbindung überprüfen, um zu überprüfen, ob sich mit den gerade angegeben Verbindungsdaten erfolgreich eine Verbindung zum DAVINCI-SERVER herstellen lässt.
+
+* Bestätigen Sie Ihre Angaben bitte mit `OK`, sofern die Serververbindung erfolgreich überprüft werden konnte und schließen Sie anschließend den Dialog `DAVINCI-SERVER verwalten` mit `Schließen` , um zum Anmeldedialog zurückzukehren.
+
+Die Serververbindung Ihres Arbeitsplatz-PCs ist nun eingerichtet und Sie können sich jetzt mit Hilfe des soeben für die Serververbindung angegebenen Namens am DAVINCI Server anmelden, sofern Sie schon über einen Benutzernamen und Passwort für die Anmeldung verfügen.
+
+### Abschließende Informationen
+
+!!! info "Hinweis"
+
+    Wenn Sie von einem einzelnen Arbeitsplatz mit mehreren Programmen wie z. B. DAVINCI-EXPLORER, dem DAVINCI-Hauptprogramm und DAVINCI-LOOK auf den DAVINCI-SERVER zugreifen möchten, brauchen Sie die Verbindung wie oben beschrieben oft nur in einem dieser Programme einrichten. Im Kontext des gleichen Windows-Benutzerkontos greifen alle Programme der DAVINCI-Programmfamilie auf die gleichen Verbindungseinstellungen zurück. 
+
+Möchten Sie zu einem späteren Zeitpunkt Serververbindungen, die auf Ihrem lokalen PC eingerichtet sind, ändern oder löschen, können Sie im Dialog „DAVINCI-SERVER verwalten“ statt auf die Schaltfläche Neuen Server hinzufügen zu klicken auch eine bestehende Serververbindung markieren und die Schaltflächen Bearbeiten und Entfernen nutzen, um Änderungen an einer bereits eingerichteten Serververbindung vorzunehmen. 
+
+Sie haben jetzt den technischen Teil der Einrichtung abgeschlossen. Bei einer Ersteinrichtung ist nun, um anschließend mit der eigentlichen planerischen Arbeit beginnen zu können, noch das Laden und Organisieren der Pläne und das Einrichten der Benutzer, die mit diesen Plänen arbeiten sollen, zu erledigen. Wie Sie Benutzer und Pläne einrichten und verwalten erfahren Sie im nächsten Kapitel, das alle Aspekte der Verwaltung des Mehrbenutzerbetriebs beschreibt.
+
+## Mehrbenutzerbetrieb
+
+Die Arbeit mit DAVINCI im Mehrbenutzerbetrieb entspricht hinsichtlich der dazu genutzten Programmoberfläche und dem Umfang der dazu bereitgestellten Programmfunktionen vollständig der gewohnten Arbeit im Einzelplatzbetrieb. Daher gilt alles, was im jeweiligen Handbuch zu DAVINCI Stundenplan, DAVINCI Vertretungsplan usw. zur Bedienung der einzelnen Programmmodule erklärt ist, uneingeschränkt auch für den Enterprise-Betrieb. Dieser Abschnitt umfasst dagegen nur eine Erklärung alles dessen, was die Arbeit im Mehrbenutzerbetrieb von der Arbeit im Einzelplatzbetrieb unterscheidet:
+
+Der Programmstart und das Programmende, die im Enterprise-Betrieb zusätzlich einen An- bzw.
+Abmeldevorgang umfassen. Weiterhin wird die Besonderheit des Auftretens von Konflikten beim
+gleichzeitigen Zugriff auf Planressourcen erklärt und einige prinzipielle Unterschiede erwähnt, die zum
+allgemeinen Verständnis der Besonderheiten der gemeinsamen softwaregestützten Planung hilfreich
+sein können.
+
+## Anmeldung am Server
+
+Der Start des DAVINCI-Hauptprogramms, das im Mehrbenutzerbetrieb als Clientprogramm auf den zentralen DAVINCI-SERVER zugreift, unterscheidet sich nicht vom Programmstart im Einzelplatzbetrieb: Nach dem Start z. B. über eine Verknüpfung auf dem Desktop oder über das Startmenü erscheint die auch vom Einzelplatzbetrieb gewohnte Programmoberfläche von DAVINCI. Der Wechsel in den Enterprise-Betrieb geschieht mit der Anmeldung am Server. Das Gleiche gilt wie auch die folgende Erklärung genauso für Nutzung von DAVINCI-LOOK im Enterprise-Betrieb. Das Menü für den Wechsel in den Enterprise-Betrieb befindet sich gemeinsam mit den Menüpunkten zum Zugriff auf Pläne im Einzelplatzbetrieb im Menü `Plan` des DAVINCI-Hauptprogramms.
+
+![Das Plan-Menü](/assets/images/server33.png)
+
+Um sich mit dem DAVINCI Hauptprogramm am DAVINCI-SERVER anzumelden und so in den Enterprise-Betrieb zu wechseln, führen Sie bitte folgende Schritte aus:
+
+* Wählen Sie aus dem Menü „Plan“ bitte den Befehl Mit DAVINCI-SERVER verbinden aus.
+
+* Da beim Wechsel in den Enterprise-Betrieb die lokal geladene Plandatei geschlossen wird, erscheint g. g. F. die Abfrage, ob Sie evtl. gemachte Änderungen an der aktuell geöffneten Plandatei vor dem Wechsel in den Enterprise-Betrieb speichern wollen. Wenn Sie dies mit OK bestätigen, erscheint zunächst der Dialog „Speichern unter“ zum lokalen Speichern des aktuell geöffneten Plans. Andernfalls wird direkt der Anmeldedialog „Mit DAVINCI-SERVER verbinden" angezeigt.
+
+![Der Anmelde-Dialog](/assets/images/server34.png)
+
+* Wählen Sie aus der Aufklapp-Liste „DAVINCI-SERVER“ den Server aus, an dem Sie sich anmelden möchten. Sollte hier kein Server zur Auswahl stehen, erfahren Sie im Abschnitt „Die Serververbindung des Arbeitsplatz-PCs einrichten“, wie Sie hier neue Serververbindungen eintragen können.
+
+* Tragen Sie im Feld `Benutzername` und `Kennwort` den Benutzernamen und das Kennwort des Benutzerkontos ein, mit dem Sie sich anmelden möchten und bestätigen Sie mit OK. Bei der Erstinstallation ist zunächst nur das Systemkonto mit dem Benutzernamen `admin` und leerem Passwort aktiv. Wie Sie das Systemkonto durch ein Passwort schützen und zusätzliche Benutzerkonten anlegen, erfahren Sie im Abschnitt „Benutzer mit dem DAVINCI-EXPLORER verwalten“.
+
+* Wenn in den Optionen der Serververbindung hinterlegt ist, dass bei der Anmeldung mit einer bestimmten Plandatei gestartet werden soll, wird anschließend unmittelbar die voreingestellte Plandatei geladen. Andernfalls erscheint der folgende Dialog zur Auswahl eines auf dem Server gespeicherten Plans.
+
+![Einen Plan vom Server öffnen](/assets/images/server3.png)
+
+* Wählen Sie im Dialog „Datei von DAVINCI-SERVER öffnen“ den Plan, den Sie mit DAVINCI laden möchten und bestätigen Sie Ihre Auswahl mit OK: Der ausgewählte Plan wird im DAVINCI Hauptprogramm angezeigt und kann vom angemeldeten Benutzer entsprechend seinen Zugriffsrechten bearbeitet werden. Der Benutzername des angemeldeten Benutzers wird dabei unten rechts in der Statuszeile des DAVINCI Clients angezeigt.
+
+## Besonderheiten
+
+Bei der Arbeit im Einzelplatzbetrieb werden alle Änderungen, die Sie an einem Plan vornehmen, frühestens dann für Kollegen sichtbar, die sich den Plan z. B. per DAVINCI LOOK im Lehrerzimmer oder im Sekretariat anzeigen lassen, wenn Sie als Planer im DAVINCI Hauptprogramm auf „Speichern“ klicken. Dies ist im Enterprise-Betrieb grundsätzlich anders: Bei jeder einzelnen Änderung, die Sie an einem vom Server geöffneten Plan vornehmen, kontrolliert der DAVINCI SERVER sofort, ob zwischenzeitlich auch von anderen am Server angemeldeten Benutzern Änderungen am gerade geöffneten Plan vorgenommen worden sind und zeigt Ihnen diese gemeinsam mit der von Ihnen selbst vorgenommenen Änderung unmittelbar an. Dies gilt natürlich auch umgekehrt für Ihre gleichzeitig angemeldeten Mitplaner. Es werden also prinzipiell alle Änderungen sofort in den für alle sichtbaren Plan übertragen, ohne dass dies gesondert durch einen Programmbefehl wie „Speichern“ bestätigt werden müsste. Während sich beim lokalen Arbeiten im „Einzelplatzbetrieb“ zumal bei aktivierten Programmoptionen zur Datensicherung durch das intervallmäßige Speichern also automatisch bestimmte „Versionen“ von Plänen ergeben, ist dies im Enterprise-Betrieb nicht der Fall. Sie sind also selbst in der Verantwortung, regelmäßig Backups vom aktuellen Bearbeitungsstand Ihres Plans zu machen. Dies ist über regelmäßiges lokales Speichern über die Funktion „Speichern unter“ oder über ein auf dem DAVINCI SERVER aktiviertes Backup-Programm möglich.
+
+Haben Sie einige Zeit nicht in einem vom DAVINCI SERVER geöffneten Plan gearbeitet kann es sein, dass in der Zwischenzeit zahlreiche Änderungen durch die Arbeit Ihrer Mitplaner aufgelaufen sind, die noch nicht in Ihrem Plan angezeigt werden. Daher sollten Sie in diesem Fall die Möglichkeit nutzen, Ihre Plananzeige mit dem aktuellen Planungsstand auf dem Server zu synchronisieren. Während der Arbeit am Plan ist dies dagegen nicht nötig, da DAVINCI SERVER bei jedem von Ihnen gemachten Arbeitsschritt automatisch synchronisiert. Um Ihre Anzeige mit dem Server zu synchronisieren, können Sie entweder das Tastaturkürzel „F2“ nutzen, oder Sie klicken auf das in der Titelzeile von DAVINCI angezeigte Symbol des grünen Pfeilkreises. Zusätzlich finden Sie den Befehl Von DAVINCI SERVER synchronisieren im vorangehenden Abschnitt abgebildeten DAVINCI Hauptmenü „Plan“.
+
+## Abmelden
+
+Beim Beenden der Arbeit im Enterprise-Betrieb ist auf Grund der oben genannten Besonderheiten kein gesondertes Speichern der gemachten Änderungen notwendig. Allerdings muss sich der Nutzer vor dem Beenden des Programms vom DAVINCI-SERVER abmelden. Dies geschieht durch den Befehl `Plan|Von DAVINCI Server trennen` oder alternativ beim Betätigen des Befehls `Schließen` nach einer Sicherheitsabfrage automatisch.
