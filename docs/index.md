@@ -12,42 +12,15 @@ DAVINCI wird eingesetzt von:
 
 * Hochschulen und Universitäten
 
-DAVINCI ist eine für Windows XP bis 10 entwickelte Anwendung, die dank ihrer Office-ähnlichen Benutzerführung und trotz eines komplexen Funktionsumfangs sehr leicht erlernbar und bedienbar ist.
+Diese Dokumentation ist unterteilt in die Bereiche:
 
-!!! info "Hinweis"
-
-    STÜBER SYSTEMS bietet Schulungen zu allen Themen der Stundenplanerstellung mit DAVINCI in Berlin, in Frankfurt am Main und bei Ihnen vor Ort an. Die Schulungen helfen Ihnen, schneller die Programme kennen zu lernen und geben Ihnen Tipps wie Sie die Funktionen der Software effizienter nutzen können. Für Schulungsinhalte und Schulungstermine gehen Sie auf [www.stueber.de](http://www.stueber.de/training.php).
-
-## Funktionale Highlights
-
-* Automatiken für Zeitverplanung, Aufsichtsplan, Lehrereinsatz, Raumverplanung und Vertretungsplan
-
-* Automatische Fachwahlüberprüfung und Kurswahlsystem für die Kurssysteme in der gymnasialen Oberstufe und in SEKI
-
-* Individuelle minutenbasierte Zeitrahmen je Klasse/Lehrer/Raum Planen mit wöchentlichen, periodischen oder jahresbezogenen Unterrichtsterminen
-
-* Lehrer-Zeitkonten und Wertfaktorenrechnung
-
-* Alle Arten periodischen und befristeten Unterricht für berufsbildende Schulen
-
-* Schulkalender zur Integration nicht-unterrichtsbezogener Termine inkl. Synchronisation nach Google Calendar und Outlook
-
-* Schnelle E-Mail und SMS Benachrichtigungen
-
-* Self Service Funktionalität für das Kollegium zur Entlastung des Planers: Kollegen können Räume, Ressourcen selbst buchen sowie Fehlzeiten und Zusatzunterricht selbst eingeben.
-
-## Technische Highlights
-
-* Mehrbenutzerfähig mit Benutzerverwaltung und Rechtesystem
-
-* Mehrer Planer via Internet gemeinsam (z.B. abteilungsweise) planen
-
-* Mandantenfähig (z.B. Mandant je Schule)
-
-* Skript-basierte Open Source Fachwahlüberprüfung
-
-* Dynamische und statische HTML-Ausgabe HTML5/CSS/JavaScript für nahtlose Integration in andere Anwendungen
-
-* JSON-Webservice zur Integration in andere Anwendungen
-
-* XML-basierte Datenbank
+* [ALLGEMEINES](https://doc.davinci6.stueber.de/index)
+* [DAVINCI STUNDENPLAN](https://doc.davinci6.stueber.de/01.stundenplan/allgemeines)
+* [DAVINCI VERTRETUNGSPLAN](https://doc.davinci6.stueber.de/02.vertretungsplan/allgemeines)
+* [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines)
+* [DAVINCI RESSOURCENPLAN](https://doc.davinci6.stueber.de/04.ressourcenplan/allgemeines)
+* [DAVINCI LOOK](https://doc.davinci6.stueber.de/05.look/allgemeines)
+* [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines)
+* [DAVINCI EXPLORER](https://doc.davinci6.stueber.de/07.explorer/allgemeines)
+* [DAVINCI ANALYTICS](https://doc.davinci6.stueber.de/08.analytics/allgemeines)
+* [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/allgemeines)

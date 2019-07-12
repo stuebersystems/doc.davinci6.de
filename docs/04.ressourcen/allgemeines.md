@@ -2,7 +2,7 @@
 
 ## Mit Ressourcen planen
 
-In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht “Stammdaten|Ressourcen” eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. DAVINCI eröffnet Ihnen zwei mögliche Verfahren, wie Sie Ressourcen verplanen können:
+In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht “Stammdaten > Ressourcen” eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. DAVINCI eröffnet Ihnen zwei mögliche Verfahren, wie Sie Ressourcen verplanen können:
 
 1. **Ressourcenplanung mit Self Service:** Dabei können jeder Veranstaltung bzw. jedem Termin vom Stundenplaner bestimmte Ressourcen zugeordnet werden. Optional kann jedem Benutzer über das DAVINCI Enterprise Rechtesystem das Recht eingeräumt werden, für seine Veranstaltungen Ressourcen oder Räume (als spezielle Ressourcen) zu buchen, wobei in diesem Fall die zentrale Ressourcenzuweisung durch den Stundenplaner durch eine dezentrale Buchung von Ressourcen durch die Kollegen ergänzt bzw. ersetzt wird. Die dezentrale Buchung wird in DAVINCI-LOOK via Internet von zu Hause oder im lokalen Schulnetz durchgeführt.
 
@@ -16,10 +16,12 @@ Bei der ersten Methode werden zu jedem Zeitpunkt des Verfahrens durch den Stunde
 
 In DAVINCI können Sie je nachdem, ob Sie mit oder ohne Ressourcenvorgaben arbeiten möchten, zwischen einstufiger und zweistufiger Ressourcenplanung wählen.
 
-Einstufige Ressourcenplanung
+### Einstufige Ressourcenplanung
+
 Bei der einstufigen Ressourcenplanung werden reale Ressourcen einer Veranstaltung oder einem Termin vom Stundenplaner in der Planungsphase zugewiesen bzw. es werden nach Abschluss der Planungsphase einem Zeitpunkt, an dem der Termin stattfindet, Ressourcen von einem Kollegen zugewiesen. Es wird also nicht mit Ressourcenvorgaben gearbeitet. Dieses Vorgehen ist dann sinnvoll, wenn jederzeit genügend Ressourcen zur Verfügung stehen und es in der Planungsphase nicht zu der Situation kommen kann, dass z.B. 20 Veranstaltungen je einen Beamer benötigen, aber nur insgesamt 12 Beamer verfügbar sind.
 
-Zweistufige Ressourcenplanung
+### Zweistufige Ressourcenplanung
+
 Sollte letzteres nicht der Fall sein, kann es Sinn machen mit Ressourcenvorgaben zu arbeiten, indem z.B. für jede der 20 Veranstaltungen vermerkt ist, dass sie einen Beamer erfordert. Diese Vorgaben werden beim manuellen wie automatischen Setzen von DAVINCI beachtet, so dass nie mehr als 12 Veranstaltungen zeitlich parallel stattfinden. In der ersten Stufe, der Planungsphase, wird also mit Ressourcenvorgaben gearbeitet, in der zweiten Stufe, der Betriebsphase des Stundenplans, können dann tatsächliche Ressourcen zugeordnet werden.
 
 ## Die Ansicht Stundenplan

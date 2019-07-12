@@ -47,8 +47,9 @@ markdown_extensions:
   
 # Navigation  
 nav:
-- Allgemein:
+- ALLGEMEINES:
   - Einführung: index.md
+  - Schulungen: 00.allgemein/schulungen.md
   - Änderungen:
     - Was ist neu?: 00.allgemein/changelog.md
     - Geplante Änderungen: 00.allgemein/changelog-next.md
@@ -115,7 +116,7 @@ nav:
     - Symbole: 01.stundenplan/ubersicht-symbole.md
     - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
 - VERTRETUNGSPLAN:
-  - Allgemein: 02.vertretungsplan/allgemein.md
+  - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten erfassen: 02.vertretungsplan/fehlzeiten.md
   - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
   - Veröffentlichungen: 02.vertretungsplan/veroeffentlichung.md
@@ -143,7 +144,7 @@ nav:
     - Lehrer Mehrarbeit: 08.analytics/lehrermehrarbeit.md
     - Ausfallstatistik: 08.analytics/ausfallstatistik.md
 - INFOSERVER: 
-  - Allgemein: 09.infoserver/index.md
+  - Allgemein: 09.infoserver/allgemeines.md
   - Einrichtung:
     - 1. Web-Server: 
       - Allgemeines: 09.infoserver/setup-webserver/README.md
