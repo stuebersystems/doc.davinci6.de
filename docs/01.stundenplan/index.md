@@ -2,7 +2,7 @@
 
 In den folgenden Kapiteln zeigen wir Ihnen die typischen Arbeitsschritte in DAVINCI:
 
-* [Erste Schritte in DAVINCI](https:/doc.davinci6.stueber.de/01.stundenplan/erste-schritte-in-davinci)
+* [Erste Schritte in DAVINCI](https:/doc.davinci6.stueber.de/01.stundenplan/erste-schritte-in-davinci/)
 * [Mit Listen arbeiten](https:/doc.davinci6.stueber.de/01.stundenplan/mit-listen-arbeiten/)
 * [Zeitvorgaben](https:/doc.davinci6.stueber.de/01.stundenplan/zeitvorgaben/)
 * [Stammdaten](https:/doc.davinci6.stueber.de/01.stundenplan/stammdaten/)
