@@ -10,4 +10,4 @@ Als Schule mit Oberstufe müssen Sie aus DAVINCI statistikrelevante Daten export
 
 Bei der Exportdatei handelt es sich um eine [Schuldatentransferdatei](https://doc.sdtf.stueber.de).
 
-Weitere Informationen zur Landesstatistik Schleswig-Holstein finden Sie auch unter [https://doc.ls.stueber.de/schleswig-holstein/abs+bbs.html](https://doc.ls.stueber.de/schleswig-holstein/abs+bbs)
+Weitere Informationen zur Landesstatistik Schleswig-Holstein finden Sie auch unter [https://doc.ls.stueber.de/schleswig-holstein/abs+bbs.html](https://doc.ls.stueber.de/schleswig-holstein/abs-bbs/)

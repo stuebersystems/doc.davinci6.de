@@ -168,7 +168,9 @@ Um die Liste Ihrer Benutzer in eine Textdatei im CSV-Dateiformat zu exportieren,
 
 * Bestätigen Sie bitte mit OK, um die Liste Ihrer Benutzer zu exportieren.
 
-> HINWEIS: Beim Export der Benutzer wird das jeweilige Kennwort unverschlüsselt ausgegeben. Somit wäre die Liste eine mögliche Grundlage für den Administrator, um die Benutzer über deren Benutzername und Kennwort zu informieren.
+!!! info "Hinweis"
+
+     HINWEIS: Beim Export der Benutzer wird das jeweilige Kennwort unverschlüsselt ausgegeben. Somit wäre die Liste eine mögliche Grundlage für den Administrator, um die Benutzer über deren Benutzername und Kennwort zu informieren.
 
 ## Benutzer importieren
 

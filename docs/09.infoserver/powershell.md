@@ -42,11 +42,11 @@ Im Folgenden zeigen wir Ihnen einen kompletten Workflow für unser oben beschrie
 
 ![Sensitiv für Dateiänderung](/assets/images/sensitiv.haken.png)
 
-4. [Installieren Sie den DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/README).
+1. [Installieren Sie den DAVINCI INFOSERVER](/09.infoserver/setup-infoserver/README.md).
 
-5. Testen Sie, ob Sie per Web-Browser oder DAVINCI APP die gewünschten Daten angezeigt bekommen. Ist dies der Fall, sind Ihre Vorbereitungen fast abgeschlossen.
+2. Testen Sie, ob Sie per Web-Browser oder DAVINCI APP die gewünschten Daten angezeigt bekommen. Ist dies der Fall, sind Ihre Vorbereitungen fast abgeschlossen.
 
-6. Installieren Sie nun auf dem selben Computer einen FTP-Dienst oder noch besser einen WebDAV-Server und konfigurieren Sie diesen so, dass er einen direkten Zugriff auf den Arbeitsbereich von DAVINCI erlaubt. Standardmäßig ist dies das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\daVinci 6\Arbeitsbereich`.
+3. Installieren Sie nun auf dem selben Computer einen FTP-Dienst oder noch besser einen WebDAV-Server und konfigurieren Sie diesen so, dass er einen direkten Zugriff auf den Arbeitsbereich von DAVINCI erlaubt. Standardmäßig ist dies das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\daVinci 6\Arbeitsbereich`.
 
 !!! info "Hinweis"
 

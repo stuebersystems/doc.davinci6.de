@@ -63,7 +63,7 @@ Um die automatischen Kennwörter den Nutzern mitzuteilen finden Sie die Option `
 
 ![Kennungen exportieren](/assets/images/Kennungen_exportieren.jpg)
 
-Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](https://doc.davinci6.stueber.de/07.explorer/users) des DAVINCI-EXPLORERS.
+Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](/07.explorer/allgemeines.md#benutzer_verwalten) des DAVINCI-EXPLORERS.
 
 !!! info "Hinweis"
 
@@ -98,7 +98,7 @@ Auf der Unterkarte `Plandateien` wählen Sie anschließend den `Arbeitsbereich` 
 
 !!! info "Hinweis"
 
-    Benutzer und Benutzergruppen kann man wahlweise auf den Ebenen Arbeitsbereich, Verzeichnis oder Plandatei per `Rechtsklick > Richtlinien` zuweisen. Bitte achten Sie darauf die BENUTZER/BENUTZERGRUPPEN NUR AUF EINER EBENE ZU ZUWEISEN, damit die Rechtestruktur eindeutig bleibt. Eine Empfehlung für den Aufbau der Plandateienstruktur und der Vergaben von Rechten finden Sie in der [DAVINCI Knowledge Base](https://doc.davinci6-kb.stueber.de) im Artikel ["Plandateienstruktur und Rechtevergabe"](https://doc.davinci6-kb.stueber.de/explorer/plandateienstruktur.im.explorer).
+    Benutzer und Benutzergruppen kann man wahlweise auf den Ebenen Arbeitsbereich, Verzeichnis oder Plandatei per `Rechtsklick > Richtlinien` zuweisen. Bitte achten Sie darauf die BENUTZER/BENUTZERGRUPPEN NUR AUF EINER EBENE ZU ZUWEISEN, damit die Rechtestruktur eindeutig bleibt. Eine Empfehlung für den Aufbau der Plandateienstruktur und der Vergaben von Rechten finden Sie in der [DAVINCI Knowledge Base](https://doc.davinci6-kb.stueber.de) im Artikel ["Plandateienstruktur und Rechtevergabe"](/07.explorer/allgemeines.md#plandateien_verwalten).
 
 ## Richtlinien für DAVINCI INFOSERVER zuordnen
 

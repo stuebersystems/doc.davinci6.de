@@ -6,7 +6,7 @@ Dieses Kapitel beschreibt die Installation und Konfiguration des DAVINCI INFOSER
 
     Internet Server API (ISAPI) ist eine Programmierschnittstelle von Microsoft, die sowohl von den Microsoft Internetinformationsdiensten (IIS) wie auch vom Apache Web-Server unterstützt werden. ISAPI-Module erweiteren die Standardfunktionalität von Web-Servern.
 
-Voraussetzung für den Einsatz von DAVINCI INFOSERVER ist eine vorhandene IIS 7.5 Instanz. Details zur Installation Konfiguration von IIS 7.5 finden Sie [hier](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/iis-7-5).
+Voraussetzung für den Einsatz von DAVINCI INFOSERVER ist eine vorhandene IIS 7.5 Instanz. Details zur Installation Konfiguration von IIS 7.5 finden Sie [hier](/09.infoserver/setup-webserver/iis-7-5.md).
 
 ## Lizenzierung
 

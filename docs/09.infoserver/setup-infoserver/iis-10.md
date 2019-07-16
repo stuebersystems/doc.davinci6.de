@@ -6,7 +6,7 @@ Dieses Kapitel beschreibt die Installation und Konfiguration des DAVINCI INFOSER
 
     Internet Server API (ISAPI) ist eine Programmierschnittstelle von Microsoft, die sowohl von den Microsoft Internetinformationsdiensten (IIS) wie auch vom Apache Web-Server unterstützt werden. ISAPI-Module erweiteren die Standardfunktionalität von Web-Servern.
 
-Voraussetzung für den Einsatz von DAVINCI INFOSERVER ist eine vorhandene IIS 10 Instanz. Details zur Installation Konfiguration von IIS 10 finden Sie [hier](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/iis-10).
+Voraussetzung für den Einsatz von DAVINCI INFOSERVER ist eine vorhandene IIS 10 Instanz. Details zur Installation Konfiguration von IIS 10 finden Sie [hier](/09.infoserver/setup-webserver/iis-10.md).
 
 ## Lizenzierung
 
@@ -58,15 +58,15 @@ Gehen Sie wie folgt vor:
 
 !!! info "Hinweis"
 
-    Bei 64-Bit-Betriebssystemen schauen Sie bitte diesen [Abschnitt](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/iis-10.html#verwenden-sie-eine-64-bit-version-von-windows) an!
+    Bei 64-Bit-Betriebssystemen schauen Sie bitte diesen [Abschnitt](/09.infoserver/setup-infoserver/iis-10.md#verwenden-sie-eine-64-bit-version-von-windows) an!
 
-6. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DAVINCI-INFOSERVER 6`)
+1. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DAVINCI-INFOSERVER 6`)
 
-![](/assets/images/iis-win10-add-module.png "Modulzuordnung hinzufügen")
+![ "Modulzuordnung hinzufügen"](/assets/images/iis-win10-add-module.png)
 
 7. Klicken Sie zusätzlich auf die Schaltfläche `Einschränkungen` und entfernen Sie die Markierung `Handler nur bei folgender Zuordnung aufrufen` auf der Registerkarte "Zuordnung".
 
-![](/assets/images/iis-win10-add-module-limitations.png "Einschränkungen der Modulzuordnung")
+![ "Einschränkungen der Modulzuordnung"](/assets/images/iis-win10-add-module-limitations.png)
 
 8. Bestätigen Sie beide Dialogfenster mit `OK`.
 
