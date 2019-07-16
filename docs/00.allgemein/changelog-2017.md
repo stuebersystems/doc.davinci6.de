@@ -120,7 +120,7 @@ Veröffentlichung: 04.08.2017
 Dateiformat: 6.0.170
 
 * INFOSERVER: Zahlreiche sicherheitsrelevante Optimierungen.
-* WEBPUBLIKATIONEN: parallel wurden auch neue Ausgaben der [DAVINCI WEBBOX](https://davinci-webbox.stueber.de/) (Anleitung fürs Update [hier](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren)) und der Mobile APP ( bitte aus dem Android-Play Store oder IOS-App Store laden) veröffentlicht.  
+* WEBPUBLIKATIONEN: parallel wurden auch neue Ausgaben der [DAVINCI WEBBOX](https://davinci-webbox.stueber.de/) (Anleitung fürs Update [hier](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)) und der Mobile APP ( bitte aus dem Android-Play Store oder IOS-App Store laden) veröffentlicht.  
 * STUNDENPLAN/VERTRETUNGSPLAN: aktuelles Datum wird im Planfenster (Kopftitel oben) wieder 
   farblich hervorgehoben
 * VERTRETUNGSPLAN:  Fächer, die im Stammdatenfenster als nicht vertretbar deklariert sind (Spalte "Vertretung" -&gt; "Keine Vertretung" zugewiesen), tauchen nicht mehr in der Liste der offenen Vertretungen auf
@@ -160,7 +160,7 @@ Dateiformat: 6.0.170
 
 * VERTRETUNGSPLAN: Die Vertretungsstatistik zeigt wieder alle Monate des Planungszeitraumes an.
 
-![Statistik](/assets/images/imagesliesmich/6.5.27.01.png)WEBBOX: Stunden fehlt bei Klassenrechten, korrigiert
+![Statistik](/assets/images/imagesliesmich/6.5.27.01.png) WEBBOX: Stunden fehlt bei Klassenrechten, korrigiert
 
 ## DAVINCI Version 6.5.26
 
@@ -220,7 +220,7 @@ Dateiformat: 6.0.170
 
 ![Anzeige des unterrichtsfreien Ereignisses im Plan des Teilnehmers](/assets/images/imagesliesmich/6.5.25.02.png)
 
-* Übersichten: "Ausfallstatistik" für Sachsen, bitte beachten Sie die aktualisierte Dokumentation für diese \[Ausfallstatistik\] ([https://doc.davinci7.stueber.de/statistik/ausfallstatistik.html](https://doc.davinci7.stueber.de/statistik/ausfallstatistik))
+* Übersichten: "Ausfallstatistik" für Sachsen, bitte beachten Sie die aktualisierte Dokumentation für diese \[Ausfallstatistik\] ([https://doc.davinci7.stueber.de/statistik/ausfallstatistik/](https://doc.davinci7.stueber.de/statistik/ausfallstatistik/))
 
 ## DAVINCI Version 6.5.24
 

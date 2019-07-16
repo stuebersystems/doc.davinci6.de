@@ -69,8 +69,8 @@ Veröffentlichung: 04.12.2016
 
 * VERTRETUNGSPLAN: Ausdruck | im Druckformat "Vertretungslehrerliste" und "Lehrervertretungen" wird im Feld "Zeit" nun die Beginn und Endzeit einer Unterrichtsstunde ausgegeben. 
 * FACHWAHL: neue Fachwahlskripte (Gymnasium und berufliches Gymnasium) für Hessen, für die Anleitung klicken Sie bitte auf die Links:
-  * [HES-FW-APO-BGY-2015.js](https://doc.la.stueber.de/fachwahl/hes-fw-apo-bgy-2015js)
-  * [HES-FW-APO-2015.js](https://doc.la.stueber.de/fachwahl/hes-fw-apo-2015js)
+  * [HES-FW-APO-BGY-2015.js](https://doc.la.stueber.de/fachwahl/hes-fw-apo-bgy-2015js/)
+  * [HES-FW-APO-2015.js](https://doc.la.stueber.de/fachwahl/hes-fw-apo-2015js/)
 
 ## Version 6.5.14
 
@@ -300,15 +300,15 @@ Veröffentlichung: 11.07.2016
 * Allgemein: Optionen-Bezeichnungen-Benutzername: hier kann jetzt eingestellt werden, welche Form der Benutzername beim Erzeugen des Benutzernamens haben soll
 * MOBIL: In der DAVINCI-APP und in der DAVINCI-WEBBOX werden aus der Vergangenheit nur die zwei letzten Wochen gezeigt, damit wird die Ladezeit verringert.
 
-[nach oben](#hoch)
 
 ## Version 6.5.6
 
 Veröffentlichung: 15.06.2016
 
-> Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
-> 
-> Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen.Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/)
+!!! info "Hinweis"
+
+     Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
+     Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen.Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/)
 
 ## Fehlerkorrektur 
 
@@ -351,7 +351,9 @@ Veröffentlichung: 15.06.2016
 
 Veröffentlichung: 28.05.2016
 
-> Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen. Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de)
+!!! info "Hinweis"
+
+    Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen. Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/)
 
 ## Fehlerkorrektur 
 
@@ -363,21 +365,19 @@ Veröffentlichung: 28.05.2016
 
 Veröffentlichung: 26.05.2016
 
-> Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
+!!! info "Hinweis"
 
-> Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen. Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de)
+    Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten! Bitte prüfen Sie, ob Sie die aktuelle Webbox nutzen. Die aktuelle Webbox finden Sie hier [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/)
 
 ### Fehlerkorrektur 
 
 * STAMMDATEN: Stammdaten|Stundentafeln: Fächer einer Stundentafel kopieren und einfügen 
-
 
 * STUNDENPLAN: erneute Korrektur der Lehrerstundensummen
 * STUNDENPLAN: aktuell gewählter Aufsichtbereichsplan bleibt mit Lehrerzuweisung geöffnet
 * STUNDENPLAN: das Löschen von Perioden im Stammdatenfenster, die nur auf Terminebene zugewiesen wurden, hat zu einem Problem in DAVINCI geführt, welches nun gelöst ist
 * STUNDENPLAN: Wenn Sie unter `Start > Planansicht > Positionskonflikte anzeigen`aktiviert haben, ist der erwartete "gelbe Streifen", der die mögliche Position für einen Termin bei manueller Verplanung anzeigt, wieder vorhanden.
 * STUNDENPLAN: Beim Anlegen einer neuen Plandatei für das neue Schuljahr werden in den Plan-Eigenschaften|Statistik unter Wochenbezogenen Summen wieder alle Wochen als markiert angezeigt (in diesen Wochen wird Unterricht verplant/stattfinden). Sie müssen nun wie gewohnt den Haken vor ganzen Ferien-Unterrichtsfreien-Wochen entfernen.
-
 
 * VERTRETUNGSPLAN: Fach/ Raum ändern nach Vertretungserstellung
 * VERTRETUNGSPLAN: Lehrer-Raum Tausch wieder möglich 
@@ -387,15 +387,15 @@ Veröffentlichung: 26.05.2016
 
 * KALENDER: Erfasst man über die Ansicht "Kalender" ein Ereignis für Klassen, werden nun richtig die Lehrer aufgelistet, die die Klassen zum Zeitpunkt des Ereignisses unterrichten. Diese erhalten eine entsprechende Fehlzeit. Sie können nun entscheiden, ob diese Stunden angerechnet werden sollen oder nicht.
 
-* DAVINCI-Optionen: Meine Daten: Schulnamenzeile wird nicht mehr gedoppelt 
+* DAVINCI-Optionen: Meine Daten: Schulnamenzeile wird nicht mehr gedoppelt
 
-* AUSDRUCK: Wochengesamtplan Räume - Sperrungen werden nun für alle Räume richtig im Ausdruck angezeigt 
+* AUSDRUCK: Wochengesamtplan Räume - Sperrungen werden nun für alle Räume richtig im Ausdruck angezeigt
 
 * KURSPLAN: Blockungsautomatik erneut überarbeitet
 
 * LOOK: Wurde in den DAVINCI LOOK-Optionen unter 'Ansicht>Sichtbarkeit' "keine Lehrerplan-Ansicht" eingestellt, gelangt man nicht mehr über die Suche zum Lehrerplan.
 
-* ÜBERSICHTEN: Übersicht "Unterrichtsstatistik" - werden im Klassenplan Veranstaltungen eines Lehrers, der an diesem Tag fehlend ist, verschoben, (1. Schritt: Unterricht des Lehrers am Tag "X" wird verschoben, 2. Schritt: Lehrer wird an Tag "X" als fehlend erfasst) werden diese verschobenen Stunden nicht mehr als Ausfallstunden gelistet. 
+* ÜBERSICHTEN: Übersicht "Unterrichtsstatistik" - werden im Klassenplan Veranstaltungen eines Lehrers, der an diesem Tag fehlend ist, verschoben, (1. Schritt: Unterricht des Lehrers am Tag "X" wird verschoben, 2. Schritt: Lehrer wird an Tag "X" als fehlend erfasst) werden diese verschobenen Stunden nicht mehr als Ausfallstunden gelistet.
 
 * WEBBOX und APP: Pläne mit einem Startdatum in der Zukunft werden dargestellt.
 
@@ -411,13 +411,11 @@ Veröffentlichung: 26.05.2016
 
 * VERTRETUNGSPLAN: im Schlüsselverzeichniss "Lehrerfehlgründe" kann man festlegen, ob bei einem Fehlgrund generell Anrechenstunden vergeben werden sollen oder nicht, der Haken bei "Anrechnen" beim Erfassen der Fehlzeit ist dann automatisch (nicht) gesetzt
 
-* Schuldatentransferformat: Im Format gibt es die neuen Datensätze UC und U7. Sie dienen dazu die Daten mit DAVINCI zu synchronisieren, d.h. bestehende Veranstaltungen/Termine werden ggf. überschrieben anstatt neu angelegt. Siehe http://doc.sdtf.stueber.de/
+* Schuldatentransferformat: Im Format gibt es die neuen Datensätze UC und U7. Sie dienen dazu die Daten mit DAVINCI zu synchronisieren, d.h. bestehende Veranstaltungen/Termine werden ggf. überschrieben anstatt neu angelegt. Siehe [http://doc.sdtf.stueber.de/](http://doc.sdtf.stueber.de/)
 
 * Statistik: NRW GPC Statistik: aus der Übersicht "Lehrer-Arbeitstage" wählen Sie bitte Importieren/Exportieren|Statistikdaten Nordrhein Westfalen GPC exportieren
 
-[nach oben](#hoch)
-
-## Version 6.5.3 
+## Version 6.5.3
 
 Veröffentlichung: 07.05.2016
 
@@ -454,11 +452,13 @@ Veröffentlichung: 25.04.2016
 
 * VERTRETUNGSPLAN: Es wurden keine Änderungselemente erzeugt. Wenn Sie bereits Fehlzeiten engetragen haben, erzeugen Sie bitte mit rechter Maustaste und "Anderungen neu erstellen" die fehlenden Änderungselemente oder löschen Sie die Fehlzeiten und geben Sie sie erneut ein.
 
-## Version 6.5.1 
+## Version 6.5.1
 
 Veröffentlichung: 22.04.2016
 
-> Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
+!!! info "Hinweis"
+
+    Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
 
 ### Fehlerkorrektur
 
@@ -499,8 +499,8 @@ Veröffentlichung: 22.04.2016
 * STUNDENPLAN: "Veranstaltung Bearbeiten"-Fenster, Bereich "Teilnehmer Termine" - in der Registerkarte Schüler gibt es die neue Filtermöglichkeit "Nur Schüler der Klasse", damit werden Ihnen in der Liste nur noch die Schüler der gewählten Klasse angezeigt
 * KALENDER: Erfassung von Ereignissen (z.B. Klassenfahrten) über den KALENDER haben ggf. Fehlzeiten für Lehrer und Klassen zur Folge. Beim Eintrag einer Klassenfehlzeit werden Klasse und begleitetende Lehrer im Vertretungsplan als fehlend angezeigt. Nun kann man auch entscheiden, ob diese Lehrer Anrechenstunden erhalten sollen oder nicht.
 * KALENDER: trägt man im Kalender ein Ereignis ein, zu einer Zeit zu der der Lehrer keinen Unterricht hat, wird jetzt auch eine Fehlzeit erzeugt und im Bereich Vertretungsplan angezeigt 
-* VERTRETUNGSPLAN: Fehlzeiten| Ansicht Liste der Fehlzeiten - neue Spalte "Fehlt" 
-* VERTRETUNGSPLAN: Änderungsliste - neue Spalte "Schulform" 
+* VERTRETUNGSPLAN: Fehlzeiten| Ansicht Liste der Fehlzeiten - neue Spalte "Fehlt"
+* VERTRETUNGSPLAN: Änderungsliste - neue Spalte "Schulform"
 * KURSPLAN: Kursplan|Kurse: Spalte "Dauer unabhängig"
 
 ## Version 6.0.210 (16.03.2016) Dateiformat 6.0.160
@@ -535,7 +535,9 @@ Veröffentlichung: 22.04.2016
 
 ### Version 6.0.208 (15.03.2016) Dateiformat 6.0.155
 
-> Bitte beachten Sie: Der DAVINCI Server erwartet jetzt eine Lizenzdatei, genauer gesagt die übliche DAVINCI.LIC Datei. Andernfalls kann der INFOSERVER nicht genutzt werden. Sie können den DAVINCI SERVER über die Systemsteuerung öffnen und über die neue Schaltfläche "Lizenz" die Lizenzdatei importieren bzw. die Lizenz eingeben. Bitte stoppen uns starten Sie dann einmal den DAVINCI SERVER.
+!!! info "Hinweis"
+
+    Bitte beachten Sie: Der DAVINCI Server erwartet jetzt eine Lizenzdatei, genauer gesagt die übliche DAVINCI.LIC Datei. Andernfalls kann der INFOSERVER nicht genutzt werden. Sie können den DAVINCI SERVER über die Systemsteuerung öffnen und über die neue Schaltfläche "Lizenz" die Lizenzdatei importieren bzw. die Lizenz eingeben. Bitte stoppen uns starten Sie dann einmal den DAVINCI SERVER.
 
 ## Neue Funktionen
 
@@ -571,7 +573,9 @@ Veröffentlichung: 22.04.2016
 
 ### Prerelease 6.0.207 (11.02.2016) Dateiformat 6.0.154
 
-> Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
+!!! info "Hinweis"
+
+    Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
 
 ## Fehlerkorrektur
 
@@ -586,7 +590,9 @@ Veröffentlichung: 22.04.2016
 
 ### Version 6.0.206 (09.02.2016) Dateiformat 6.0.153
 
-> Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
+!!! info "Hinweis"
+
+    Bitte DAVINCI, DAVINCI LOOK, DAVINCI INFOSERVER und DAVINCI SERVER wegen Datenformaterweiterung updaten!
 
 ## Fehlerkorrektur
 

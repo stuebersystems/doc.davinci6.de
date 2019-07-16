@@ -12,9 +12,9 @@ Publikation per SMS |[DAVINCI LIVEMESSAGE](https://davinci.stueber.de/davinci-li
 Publikation über das ENBREA Klassenbuch |[ENBREA Klassenbuch](https://enbrea.stueber.de/)
 Publikation im Schulnetz per DAVINCI LOOK|[DAVINCI LOOK](https://doc.davinci6.stueber.de/davinci-look/)
 Upload der DAVINCI Daten|-
-Publikation per Ausdruck|[Ausdruck](https://doc.davinci6.stueber.de/davinci-stundenplan/9-stundenplane-drucken/publikation-per-ausdruck)
+Publikation per Ausdruck|[Ausdruck](https://doc.davinci6.stueber.de/davinci-stundenplan/9-stundenplane-drucken/publikation-per-ausdruck/)
 Publikation per PDF |-
-Publikation per HTML-Export| [HTML-Export](https://doc.davinci6.stueber.de/davinci-stundenplan/html-export)
+Publikation per HTML-Export| [HTML-Export](https://doc.davinci6.stueber.de/davinci-stundenplan/html-export/)
 
 Sie finden alle Publizierungsfunktionen über die Registerkarte `Publizieren` im oberen Menüband.
 

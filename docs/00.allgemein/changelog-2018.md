@@ -20,7 +20,7 @@ CHANGE| Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! warning "Wichtig"
 
-Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://
+Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?]
 
 
 ## DAVINCI Version 6.5.52
@@ -92,7 +92,7 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 ## DAVINCI WEBBOX Version 1.10.4 
 
-[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren)
+[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
 
 * FIX: geblockter Unterricht wird wieder vollständig dargestellt 
 * FIX: Unterricht ohne Klassen wird wieder in den Lehrerplänen dargestellt
@@ -100,7 +100,7 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
 ## DAVINCI Version 6.5.50
 
@@ -259,7 +259,7 @@ Dateiformat: 6.0.170
 
 Veröffentlichung: 09.07.2018
 
-[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren)
+[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
 
 * FIX: Wenn man den Parameter "teacherDisplayName" mit dem Wert "lastName" verwendete, klappte der Wechsel vom Klassenplan auf den Lehrerplan (per Klick auf das Termindetail Lehrer) nicht, dieser Punkt wurde korrigiert.
 
@@ -290,7 +290,7 @@ Dateiformat: 6.0.170
 
 Veröffentlichung: 10.04.2018
 
-[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren)
+[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
 
 * NEW: Gebäudeplan: Die Liste der Rauminformationen wird auch bei sehr vielen Einträge durch Scrollen mit dem Mausrad im sichtbaren Bereich gezeigt.
 

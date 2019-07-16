@@ -179,13 +179,6 @@ Registerkarte "Positionen"
 
     Das Zeitrahmen-Fenster können Sie jederzeit über den Menüpunkt ``Extras>Zeitrahmen`` öffnen. Bitte beachten Sie, den Zeitrahmen am gesetzten Plan nicht mehr zu verändern. 
 
-Ausfürlicher Informationen dazu finden Sie auch hier:
-
-1. [Zeitraum eingeben](/davinci-stundenplan/zeitvorgaben/planungszeitraum.md)
-2. [Kalenderdaten importieren](/davinci-stundenplan/zeitvorgaben/ferien-und-feiertage.md)
-3. [Zeitrahmen einstellen](/davinci-stundenplan/zeitvorgaben/zeitrahmen.md)
-4. [Stammdaten befüllen](/davinci-stundenplan/stammdaten.md)
-
 ### Neuen leeren Plan erstellen (für Neueinsteiger)
 
 Um eine neue Plandatei mit DAVINCI 6 zu erstellen, rufen Sie den Planvorbereitungsassistenten über `Plan > Neu` auf.
@@ -250,4 +243,4 @@ Eine ``*.daVinci.zip``-Datei kann mit DAVINCI geöffnet werden, ohne dass diese 
 
 ## Datei speichern (im Serverbetrieb)
 
-Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines).
+Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines/).

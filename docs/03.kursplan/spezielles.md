@@ -37,7 +37,7 @@ Im nächsten Fenster wählen Sie unbedingt ``Alles übernehmen``. Veranstaltunge
 
 Klicken Sie auf `Weiter`. Es wird Ihnen eine Liste aufgezeigt, die Sie bitte Schritt für Schritt durchgehen.
 
-[Nachzulesen](https://doc.davinci6-kb.stueber.de/sonstiges/schuljahreswechsel)
+[Nachzulesen](https://doc.davinci6-kb.stueber.de/sonstiges/schuljahreswechsel.html)
 
 Speichern Sie die neue Datei unter einem gewünschten Namen ab.
 
