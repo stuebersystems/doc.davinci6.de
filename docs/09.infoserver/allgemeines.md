@@ -10,10 +10,10 @@ DAVINCI MOBILE kommuniziert mit einem DAVINCI INFOSERVER. Dieser kommuniziert wi
 
 Voraussetzungen für den Einsatz von DAVINCI MOBILE:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/README)
-2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management)
-3. [Installation des DAVINCI INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/README)
-4. [Installation von DAVINCI MOBILE auf Ihrem Mobilgerät](http://doc.davinci-app.stueber.de)
+1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/README.md)
+2. [Einrichten der Benutzer](/09.infoserver/user-management.md)
+3. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
+4. [Installation von DAVINCI MOBILE auf Ihrem Mobilgerät](http://doc.davinci-app.stueber.de/)
 
 !!! info "Hinweis"
 
@@ -29,10 +29,10 @@ Die DAVINCI WEBBOX funktioniert ähnlich wie DAVINCI MOBILE und ist zum Einsatz 
 
 Voraussetzungen für den Einsatz der DAVINCI WEBBOX:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/README)
-2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management)
-3. [Installation des DAVINCI INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/README)
-4. [Installation der DAVINCI WEBBOX](https://doc.davinci6.stueber.de/09.infoserver/setup-webbox/README)
+1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/README.md)
+2. [Einrichten der Benutzer](/09.infoserver/user-management.md)
+3. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
+4. [Installation der DAVINCI WEBBOX](/09.infoserver/setup-webbox/README.md)
 
 !!! info "Hinweis"
 
@@ -50,14 +50,13 @@ Das Erzeugen dynamischer HTML-Seiten setzt die Module DAVINCI ENTERPRISE (beinha
 
 Voraussetzungen für das Erzeugen dynamischer Webseiten:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver)
-2. [Installation des DAVINCI INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver)
+1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/allgemeines.md)
+2. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
 
 !!! info "Hinweis"
 
     Im Gegensatz zur DAVINCI WEBBOX erfolgt hier keine individuelle Benutzer-Autorisierung. Wir empfehlen daher ausdrücklich den Einsatz der DAVINCI WEBBOX auf Ihren Webseiten.
 
-Weitere Informationen finden Sie im Kapitel [HTML- und XML-Daten](https://doc.davinci6.stueber.de/09.infoserver/xml_html).
 
 ## 4. E-Boards
 
