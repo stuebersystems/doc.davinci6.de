@@ -14,13 +14,13 @@ DAVINCI wird eingesetzt von:
 
 Diese Dokumentation ist unterteilt in die Bereiche:
 
-* [ALLGEMEINES](https://doc.davinci6.stueber.de/index)
-* [DAVINCI STUNDENPLAN](https://doc.davinci6.stueber.de/01.stundenplan/allgemeines)
-* [DAVINCI VERTRETUNGSPLAN](https://doc.davinci6.stueber.de/02.vertretungsplan/allgemeines)
-* [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines)
-* [DAVINCI RESSOURCENPLAN](https://doc.davinci6.stueber.de/04.ressourcenplan/allgemeines)
-* [DAVINCI LOOK](https://doc.davinci6.stueber.de/05.look/allgemeines)
-* [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines)
-* [DAVINCI EXPLORER](https://doc.davinci6.stueber.de/07.explorer/allgemeines)
-* [DAVINCI ANALYTICS](https://doc.davinci6.stueber.de/08.analytics/allgemeines)
-* [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/allgemeines)
+* [ALLGEMEINES](https://doc.davinci6.stueber.de/index/)
+* [DAVINCI STUNDENPLAN](https://doc.davinci6.stueber.de/01.stundenplan/allgemeines/)
+* [DAVINCI VERTRETUNGSPLAN](https://doc.davinci6.stueber.de/02.vertretungsplan/allgemeines/)
+* [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines/)
+* [DAVINCI RESSOURCENPLAN](https://doc.davinci6.stueber.de/04.ressourcenplan/allgemeines/)
+* [DAVINCI LOOK](https://doc.davinci6.stueber.de/05.look/allgemeines/)
+* [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines/)
+* [DAVINCI EXPLORER](https://doc.davinci6.stueber.de/07.explorer/allgemeines/)
+* [DAVINCI ANALYTICS](https://doc.davinci6.stueber.de/08.analytics/allgemeines/)
+* [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)
