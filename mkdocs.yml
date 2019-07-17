@@ -53,11 +53,12 @@ nav:
   - Änderungen:
     - Was ist neu?: 00.allgemein/changelog.md
     - Geplante Änderungen: 00.allgemein/changelog-next.md
-    - Änderungen 2018: 00.allgemein/changelog-2018.md
-    - Änderungen 2017: 00.allgemein/changelog-2017.md
-    - Änderungen 2016: 00.allgemein/changelog-2016.md
-    - Änderungen 2015: 00.allgemein/changelog-2015.md
-    - Änderungen 2014 und früher: 00.allgemein/changelog-archive.md
+    - Änderungsarchiv:
+        - Änderungen 2018: 00.allgemein/changelog-2018.md
+        - Änderungen 2017: 00.allgemein/changelog-2017.md
+        - Änderungen 2016: 00.allgemein/changelog-2016.md
+        - Änderungen 2015: 00.allgemein/changelog-2015.md
+        - Änderungen 2014 und früher: 00.allgemein/changelog-archive.md
   - Installation und Updates:
     - Voraussetzungen: 00.allgemein/requirements.md
     - Installation: 00.allgemein/installation.md

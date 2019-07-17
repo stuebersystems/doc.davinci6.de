@@ -12,15 +12,23 @@ DAVINCI wird eingesetzt von:
 
 * Hochschulen und Universitäten
 
-Diese Dokumentation ist unterteilt in die Bereiche:
+Die gesamte Dokumentation ist unterteilt in die Bereiche:
 
-* [ALLGEMEINES](https://doc.davinci6.stueber.de/index/)
-* [DAVINCI STUNDENPLAN](https://doc.davinci6.stueber.de/01.stundenplan/allgemeines/)
-* [DAVINCI VERTRETUNGSPLAN](https://doc.davinci6.stueber.de/02.vertretungsplan/allgemeines/)
-* [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines/)
-* [DAVINCI RESSOURCENPLAN](https://doc.davinci6.stueber.de/04.ressourcenplan/allgemeines/)
-* [DAVINCI LOOK](https://doc.davinci6.stueber.de/05.look/allgemeines/)
-* [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines/)
-* [DAVINCI EXPLORER](https://doc.davinci6.stueber.de/07.explorer/allgemeines/)
-* [DAVINCI ANALYTICS](https://doc.davinci6.stueber.de/08.analytics/allgemeines/)
-* [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)
+
+* [DAVINCI STUNDENPLAN](/01.stundenplan/allgemeines.md)
+* [DAVINCI VERTRETUNGSPLAN](/02.vertretungsplan/allgemeines.md)
+* [DAVINCI KURSPLAN](/03.kursplan/allgemeines.md)
+* [DAVINCI RESSOURCENPLAN](/04.ressourcenplan/allgemeines.md)
+* [DAVINCI LOOK](/05.look/allgemeines.md)
+* [DAVINCI SERVER](/06.server/allgemeines.md)
+* [DAVINCI EXPLORER](/07.explorer/allgemeines.md)
+* [DAVINCI ANALYTICS](/08.analytics/allgemeines.md)
+* [DAVINCI INFOSERVER](/09.infoserver/allgemeines.md)
+
+Das Kapitel "ALLGEMEINES" ist unterteilt in die Abschnitte:
+
+* [Schulungen](/00.allgemein/allgemeines.md)
+* [Änderungen](/00.allgemein/changelog.md)
+* [Installation](/00.allgemein/installation.md)
+* [Updates](/00.allgemein/updates.md)
+* [Regionales](/10.regionales/allgemeines.md)
