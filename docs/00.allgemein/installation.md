@@ -10,7 +10,7 @@ Gehen Sie wie folgt vor:
 
 ![Start der Installation](/assets/images/DAV.setup01.png)
 
-Das Installationsprogramm gibt Ihnen die Möglichkeit, das Installationsverzeichnis zu ändern. 
+Das Installationsprogramm gibt Ihnen die Möglichkeit, das Installationsverzeichnis zu ändern.
 
 ![Installationsverzeichnis spezifizieren](/assets/images/enter-folder.png)
   

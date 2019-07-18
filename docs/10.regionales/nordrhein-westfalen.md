@@ -30,7 +30,7 @@ Schülerzahl Fremde|wird derzeit nicht unterstützt
 Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Feld        | Stellen | Positionen | Beschreibung
-------------|-------------------
+------------|-------------------|---|-----
 Klasse|        4-stellig |Pos. 1- 4 |Klassenkürzel
 Gruppe|        2-stellig |Pos. 5- 6 |Art der Gruppe
 Wstd|       2-stellig |Pos. 7- 8 |Erteilte Wochenstunden
@@ -60,7 +60,7 @@ Lehrerkürzel|Lehrerkürzel im Stammdatenfenster auf Registerkarte „Lehrer“
 Schülerzahl insgesamt|Spalte „Schüler“ in der Unterrichtsliste des Planungsfensters
 
 Feld        | Stellen | Positionen | Beschreibung
-------------|-------------------
+------------|---|---|--
 Klasse      | 6-stellig |Pos. 1 - 6 |Klassenkürzel
 TKM    | 1-stellig |Pos. 7 |  Teilklassenmerkmal
 Gruppe      | 2-stellig |Pos. 8 - 9 |Art der Gruppe
@@ -77,7 +77,7 @@ Produktversion | 20-stellig |  Pos. 48-67  |     DAVINCI Produktversion
 ## Lehrerdaten
 
 Nr |Feld        | Stellen | Leer | Beschreibung
-------------|-------------------
+------------|---|---|---|--
  1 | Lehrerkürzel |      Text(255) | nein  |  Eindeutiges Kürzel der Lehrkraft
  2 | Nachname |              Text(255)  |     nein  |  Nachname der Lehrkraft
  3 | Vorname  |             Text(255)  |     nein  |  Vorname der Lehrkraft
@@ -89,7 +89,7 @@ Nr |Feld        | Stellen | Leer | Beschreibung
 ## Unterricht
 
 Nr |Feld        | Stellen | Leer | Beschreibung
-------------|-------------------
+------------|---|---|---|--
   1 | Lehrkraftkürzel |    Textt(255) |     nein |   Eindeutiges Kürzel der Lehrkraft
   2 | Beginndatum    |     Datum     |      nein  |  Datum des Beginns des Unterrichtszeitraums (Format: TT.MM.JJJJ)
   3 | Endedatum      |     Datum      |     nein  |  Datum des Endes des Unterrichtszeitraums (Format: TT.MM.JJJJ)
@@ -103,7 +103,7 @@ Nr |Feld        | Stellen | Leer | Beschreibung
 ## Krankheit
 
 Nr |Feld        | Stellen | Leer | Beschreibung
-------------|-------------------
+------------|---|---|---|--
   1 | Lehrkraftkürzel  |   Text(255) |     nein  |  Eindeutiges Kürzel der Lehrkraft
   2 | Beginndatum  |       Datum      |     nein |   Datum des Beginns der Krankheit (Format:TT.MM.JJJJ)
   3 | Endedatum      |     Datum      |     nein |   Datum des Endes der Krankheit (Format: TT.MM.JJJJ)
@@ -112,7 +112,7 @@ Nr |Feld        | Stellen | Leer | Beschreibung
 ## Ferien
 
 Nr |Feld        | Stellen | Leer | Beschreibung
-------------|-------------------
+------------|---|---|---|--
   1| Beginndatum |  Datum    | nein |   Datum des Beginns des Ferienzeitraums (TT.MM.JJJJ)
   2 | Endedatum |    Datum |  nein  | Datum des Endes des Ferienzeitraums (TT.MM.JJJJ)
   3 | Ferienkürzel   |     Integer   | nein  |  Schlüsselwerte: 1 = Ferien; 2 = Feiertag; 3 = Bewegliche Ferientage
