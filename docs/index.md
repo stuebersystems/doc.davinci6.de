@@ -14,8 +14,7 @@ DAVINCI wird eingesetzt von:
 
 Die gesamte Dokumentation ist unterteilt in die Bereiche:
 
-
-* [DAVINCI STUNDENPLAN](/01.stundenplan/allgemeines.md)
+* [DAVINCI STUNDENPLAN](01.stundenplan/allgemeines.md)
 * [DAVINCI VERTRETUNGSPLAN](/02.vertretungsplan/allgemeines.md)
 * [DAVINCI KURSPLAN](/03.kursplan/allgemeines.md)
 * [DAVINCI RESSOURCENPLAN](/04.ressourcenplan/allgemeines.md)

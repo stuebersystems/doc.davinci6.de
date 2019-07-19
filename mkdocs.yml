@@ -66,7 +66,8 @@ nav:
     - Pathdatei: 00.allgemein/pathdatei.md
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
-  - Regionales: 
+  - Regionales:
+    - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
     - Bremen: 10.regionales/bremen.md
     - Hessen: 
