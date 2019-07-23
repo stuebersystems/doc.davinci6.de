@@ -120,7 +120,6 @@ Sie bitte folgende Schritte aus:
 
 3. Wählen Sie eines der angebotenen Minutenpakete, z.B. 5 Minuten, um die Stundenskala entsprechend zu unterteilen. Die Darstellung des Zeitplans wird nun entsprechend Ihrer Auswahl umgestellt.
 
-
 ![Darstellung einer Zeitskala mit 5 Minuten-Einheiten an einem Tag](/assets/images/vertretungsplan/sub-plan8.png)
 
 ### Plan
@@ -221,7 +220,7 @@ Der hinzugefügte Eintrag wird nun im Zeitplan, in der Liste und im Stundenplan 
 
 !!! info "Hinweis"
 
-   Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
+    Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
 
 ### Die Fehlzeiten im Stundenplan
 
@@ -281,8 +280,7 @@ Um eine Fehlzeit wieder aus Ihrer DAVINCI-Datei zu löschen, führen Sie bitte d
 1. Klicken Sie mit der rechten Maustaste auf den zu bearbeitenden Eintrag im Fehlzeiten-Zeitplan bzw. in der Fehlzeiten-Liste.
 
 2. Wählen Sie den Befehl `Fehlzeit löschen` aus dem Kontextmenü oder klicken Sie auf die Schaltfläche Löschen in der Menügruppe `Start > Fehlzeiten`.
-
-  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit löschen“ ausgewählt.](/assets/images/vertretungsplan/sub-plan21.png)
+ ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit löschen“ ausgewählt.](/assets/images/vertretungsplan/sub-plan21.png)
 
 3. Bestätigen Sie Ihre Absicht im erscheinenden Dialogfenster mit `Ja`.
 
@@ -295,7 +293,6 @@ Um die Liste der Fehlzeiten nach Microsoft Excel, in eine Textdatei, ins HTML-Fo
 1. Wählen Sie auf der Registerkarte `Ansicht` in der Menügruppe `Fehlzeiten Ansicht` die Ansicht `Plan und Zeitplan`, `Plan und Liste`, `Liste und Zeitplan`, `Zeitplan` oder `Liste` aus.
 
 2. Drücken Sie bitte in der Menügruppe `Start > Fehlzeiten` die Schaltfläche `Exportieren`.
-
   ![Über die Schaltfläche „Exportieren“ können Sie die Liste der Fehlzeiten als Microsoft Excel-, Text-, HTML- und XML-Datei exportieren..](/assets/images/vertretungsplan/sub-plan22.png)
 
 3. Geben Sie im Dialogfenster `Speichern unter` den Dateinamen an und unter `Dateityp` die Art der zu speichernden Datei an. Hier können Sie unter eine Excel-Datei, Textdatei, HTML-Datei oder XML-Datei wählen.
@@ -355,7 +352,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-\/V
 
 !!! info "Hinweis"
 
-  Sie können darüber hinaus die Fehlzeiten-\/Vertretungen-Liste nach einzelnen Spalten gruppieren, Spalten ein-\/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten\/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
+    Sie können darüber hinaus die Fehlzeiten-\/Vertretungen-Liste nach einzelnen Spalten gruppieren, Spalten ein-\/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten\/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
 
 Sobald in der Fehlzeiten-\/Vertretungen-Liste ein bestimmter Eintrag markiert wird, zeigt die VertreterListe eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
 Vorfeld beeinflussen kann.
@@ -370,7 +367,7 @@ Bevor Sie mit DAVINCI Lehrervertretungen erstellen, sollten Sie deshalb klären,
 
 !!! info "Hinweis"
 
-  Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
+    Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
 
 Die individuellen Prioritäten bei der Auswahl der Vertretungslehrer werden anhand verschiedener Parameter definiert, die der Vertretungsplaner im Vorfeld gewichtet. Bei den Parametern muss man zwischen Eignungsfaktoren, Vertretungseinschränkungen und einer Anzeigeeinstellung unterscheiden.
 
@@ -418,7 +415,7 @@ Aus den erfolgten Angaben bei den Eignungsfaktoren errechnet daVinci nun die Eig
 
 !!! info "Hinweis"
 
-  Über die Schaltfläche `Vorgaben` können Sie jederzeit wieder die Standardvorgaben einstellen.
+    Über die Schaltfläche `Vorgaben` können Sie jederzeit wieder die Standardvorgaben einstellen.
 
 ### Vertretungseinschränkungen
 
@@ -467,7 +464,7 @@ den Stundenplänen nicht anzuzeigen, müssen Sie die Option Termine ohne Farben 
 Der Eignungskoeffizient ermöglicht, die dargebotene Auswahl der Vertreter nach einem festgelegten Kriterienkatalog zu organisieren. Die daraus resultierende Sortierung der Vertreterlisten wird aber nicht in jedem Fall Aufschluss über die beste Vertretungslösung geben. Als Vertretungsplaner werden Sie oft gefordert sein, zusätzlich nach einer angemessenen bzw. der situativ besten Vertretungslösung zu suchen. Die Listen der möglichen direkten und indirekten Vertreter halten hier zu jedem Kandidaten eine Reihe von Informationen bereit, die der Entscheidungsfindung dienen sollen. Die folgende Tabelle beschreibt die wichtigsten Spalten und Ihre Bedeutung:
 
 | Spalte | Bedeutung |
-| :--- | :--- |
+--- | --- |
 | Eignung | Der Eintrag zeigt den aufgrund der Eignungsfaktoren (siehe Abschnitt „Eignungsfaktoren“) errechneten Eignungswert für eine Vertretung an. |
 | Art | Die Einträge geben Aufschluss darüber, wie sich der zu vertretende zum planmäßigen Unterricht eines Lehrers verhält. Mögliche Spaltenwerte sind „Vorziehen“, „Zusätzlich“ und „Übernehmen“. Diese Alternativen werden aufgrund Ihrer besonderen Bedeutung in den nachfolgenden Kapiteln ausführlicher behandelt. |
 | +AStd\/M | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Monat des Planungszeitraums. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
@@ -506,15 +503,11 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
 2. Lassen Sie die Registerkarte `Direkte Vertreter` geöffnet und markieren Sie einen der angezeigten Lehrer mit der Vertretungsart `zusätzlich`.
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen`, die sich links auf dem Kopfbalken der Vertreterliste befindet.
-
   ![Mit der Schaltfläche `Einsetzen` können Sie eine ausgewählte Vertretungslösung zuweisen.](/assets/images/vertretungsplan/sub-plan35.png)
-
   _Oder:_ Klicken Sie alternativ die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
-
   ![Die Schaltfläche `Einsetzen` finden Sie auch in der Menügruppe `Start > Vertretungen`](/assets/images/vertretungsplan/sub-plan36.png)
 
 4. Entscheiden Sie im erscheinenden Dialogfenster `Anrechnen`, ob und wie viele anfallende Zusatzstunde(n) verbucht werden sollen. Als Standard ist hier die Anzahl der Stunden eingetragen, die durch die Vertretung anfallen. Mit der Option Keine Stunden anrechnen werden keine Anrechenstunden vermerkt.
-
   ![Das Dialogfenster „Anrechnen"](/assets/images/vertretungsplan/sub-plan37.png)
 
 5. Bestätigen Sie die gewählte Verbuchungsoption mit `OK`.
@@ -566,7 +559,6 @@ Um eine Vertretung durch Vorziehen von Unterricht zu erstellen, gehen Sie bitte 
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen`, die sich links auf dem Kopfbalken der Vertreterliste befindet oder klicken Sie alternativ die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start >
   Vertretungen` finden.
-
   ![Dialogfenster „Vertreter vorziehen“](/assets/images/vertretungsplan/sub-plan42.png)
 
 4. Im Dialogfenster `Vertreter vorziehen` müssen Sie in der Gruppe `Vertretung` auswählen, welche Termin Sie genau vorziehen möchten. Hinter Raum wird dabei der planmäßige Raum der vorzuziehenden Stunden angezeigt. Diesen können Sie optional ändern bzw. über die Schaltfläche Zielraum direkt mit dem Raum des Zieltermins (=Termin der zu vertreten ist) besetzen.
@@ -658,7 +650,7 @@ Indirekte Vertreter sind Lehrer, die zum Zeitpunkt des zu vertretenden Termins s
 
 !!! info "Hinweis"
 
-  Ist ein mögliche Vertreter Teil einer Blockung, in der ein Lehrer zu vertreten ist, so wird dieser Lehrer in der Liste der direkten Vertreter aufgeführt. Grundsätzlich stehen alle Lehrer für eine Vertretung zur Verfügung, die zum Termin nicht eine Fehlzeit haben bzw. mit einer fehlenden Klasse mitfahren. Sie werden dann entweder als direkte oder als indirekte Vertreter für den Einsatz angeboten.
+    Ist ein mögliche Vertreter Teil einer Blockung, in der ein Lehrer zu vertreten ist, so wird dieser Lehrer in der Liste der direkten Vertreter aufgeführt. Grundsätzlich stehen alle Lehrer für eine Vertretung zur Verfügung, die zum Termin nicht eine Fehlzeit haben bzw. mit einer fehlenden Klasse mitfahren. Sie werden dann entweder als direkte oder als indirekte Vertreter für den Einsatz angeboten.
 
 DAVINCI bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht des indirekten Vertreters:
 
@@ -710,11 +702,9 @@ Wenn ein Lehrer über mehrere Wochen fehlt, so besteht die Möglichkeit, bei der
 3. Klicken Sie auf die Schaltfläche `Einsetzen`, die sich links auf dem Kopfbalken der Vertreterliste befindet oder klicken Sie alternativ die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
 4. Im erscheinenden Dialogfenster finden Sie nun unter Zieltermin neben dem ausgewählten Termin auch alle Folgetermine der folgenden Wochen aufgelistet. Wenn Sie für diese aufgelisteten Termine den gleichen Vertreter einsetzen wollen, müssen Sie das Kontrollkästchen `Folgende Fehltermine analog vertreten` markieren.
-
   ![Im Dialogfenster "Direkten Vertreter einsetzen" steht im Bereich "Zieltermin" die Option "Folgende Fehltermine analog vertreten“ zur Verfügung.](/assets/images/vertretungsplan/sub-plan42.png)
 
 5. Bestätigen Sie die Auswahlmit OK.
-
 
 Die aus der Vorwoche übernommene Vertretung wird nun in der Fehlzeiten-Liste und den korrespondierenden Stundenplänen eingetragen.
 
@@ -725,13 +715,11 @@ Wenn sich die Fehlzeit eines Lehrers über mehrere Wochen erstreckt, so besteht 
 Um einen Vertreter aus der Vorwoche zu übernehmen, gehen Sie bitte folgendermaßen vor:
 
 1. Markieren Sie in der Liste der Fehlzeiten\/ Vertretungen die Fehlzeit, für die Sie eine Vertretung erstellen wollen. Falls die Möglichkeit besteht, den Vertreter der Vorwoche zu übernehmen, wird die Schaltfläche Wie Woche zuvor aktiv gesetzt.
-
   ![Mit der Schaltfläche "Wie Woche zuvor" können Sie den Vertreter der Vorwoche zuweisen.](/assets/images/vertretungsplan/sub-plan53.png)
 
 2. Klicken Sie auf die Schaltfläche `Wie Woche zuvor`, die sich auf dem Kopfbalken der Vertreterliste befindet.
 
 3. Im erscheinenden Dialogfenster `Anrechnen` ist automatisch der Lehrer eingestellt, der in der letzten Woche Vertreter war. Wählen Sie noch die Option für das Anrechnen der Stunden und bestätigen Sie mit `OK`.
-
 
 Die aus der Vorwoche übernommene Vertretung wird nun in der Fehlzeiten-Liste und den korrespondierenden Stundenplänen eingetragen.
 
@@ -745,7 +733,6 @@ folgendermaßen vor:
 1. Markieren Sie in der Fehlzeiten\/Vertretungen-Liste die Fehlzeiten, für die Sie eine Vertretung erstellen wollen. Dabei können Sie auch mehr als eine Fehlzeit auf einmal auswählen, indem Sie den ersten Fehlzeit markieren und über die Tastenkombination Linke Maustaste + Strg bzw. Linke Maustaste + Umschalttaste weiter Fehlzeiten markieren.
 
 2. Wählen Sie die rechte Maustaste und wählen Sie im Kontextmenü den Eintrag `Automatik starten` oder betätigen Sie die Schaltfläche `Automatik starten`, die Sie in der Menügruppe `Start > Vertretungen` finden.
-
   ![Die Schaltfläche "Automatik starten" finden Sie in der Menügruppe "Start|Vertretungen" der Ansicht „Vertretungen“](/assets/images/vertretungsplan/sub-plan54.png)
 
 3. Im erscheinenden Dialogfenster `Vertretungsautomatik starten` müssen Sie die Sicherheitsabfrage mit `Ja` bestätigen.
@@ -769,7 +756,6 @@ So gelangen Sie zum Schlüsselverzeichnis Vertretungsentfallgründe:
 1. Wählen Sie in der Navigationsleiste die Navigationsgruppe `Vertretungsplan` mit der Ansicht `Fehlzeiten aus.`
 
 2. Klicken Sie die Schaltfläche `Schlüsselverzeichnisse` in der Menügruppe `Extras > Verwalten`.
-
   ![Im Auswahlfenster „Schlüsselverzeichnisse" können Sie ein Schlüsselverzeichnis zur Bearbeitung aufrufen.](/assets/images/vertretungsplan/sub-plan55.png)
 
 3. Markieren im Dialogfenster Schlüsselverzeichnisse den Eintrag 27 Vertretungsentfallgründe. Klicken Sie dann auf Bearbeiten.
@@ -788,11 +774,9 @@ Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen S
 1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit, für die Sie eine Freistunde zuteilen wollen.
 
 2. Klicken Sie auf die Schaltfläche `Entfällt`, die sich links auf dem Kopfbalken der Vertreterliste befindet.
-
   ![Mit der Schaltfläche "Entfällt" können Sie den planmäßigen Unterricht ausfallen lassen.](/assets/images/vertretungsplan/sub-plan57.png)
 
 3. Wählen Sie im erscheinenden Dialogfenster `Vertretung entfällt` als Grund für das Entfallen den Wert mit dem Kürzel Frei aus. Wenn die Teilnehmer des Unterrichts auch frei haben sollen, so markieren Sie zusätzlich das Kontrollkästchen Teilnehmer des Unterrichts haben frei. Alternativ können Sie die Teilnehmer nicht freigeben und durch eine Person vertreten lassen, ohne dass ein Unterricht stattfindet.
-
   ![Im Dialogfenster "Vertretung entfällt" können Sie einen Vertretungsentfallgrund zuweisen.](/assets/images/vertretungsplan/sub-plan58.png)
 
 4. Bestätigen Sie Ihre Auswahl abschließend mit `OK`.
@@ -827,14 +811,13 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 2. Öffnen Sie die Registerkarte `Räume` und markieren Sie den gewünschten Ersatzraum. Hier werden zunächst alle freien Räume und dann alle belegten Räume aufgelistet. Die belegten Räume sind mit einem vorangestellten Minuszeichen zu unterscheiden.
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen` auf dem Kopfbalken der Vertreterliste.
-
   _Oder:_ Klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
 4. Die erstellte Vertretung wird nun in der Fehlzeiten-\/Vertretungen-Liste und den betroffenen Stundenplänen eingetragen.
 
 !!! info "Hinweis"
 
-  Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
+     Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
 
 ## Markierung in der Fehlzeiten-\/Vertretungen-Liste
 
@@ -900,7 +883,6 @@ Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgenderma�
 3. Wählen Sie den Befehl `Freistellen` aus dem Kontextmenü.
 
 4. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
-
   ![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.](/assets/images/vertretungsplan/sub-plan65.png)
 
 5. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums
@@ -926,9 +908,9 @@ Das Terminfeld erhält einen roten Änderungsbalken mit der Aufschrift `Freigest
 
 Für die freigestellten Unterrichtsstunden können Sie genauso wie für andere Fehlzeiten direkte und indirekte Vertreter, Vertretungsräume und Vertretungsfächer einsetzen. Folgen Sie dabei jeweils der Vorgehensweise, die in den betreffenden Unterkapiteln dieses Handbuchs beschrieben ist.
 
-> ## primary::Hinweis
-> 
-> Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Freistellen von Terminelementen mit der hier beschriebenen Vorgehensweise.
+!!! info "Hinweis"
+
+    Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Freistellen von Terminelementen mit der hier beschriebenen Vorgehensweise.
 
 ## Termine teilen (und zusammenfassen) 
 
@@ -1016,7 +998,7 @@ Die zentrale Änderungsliste ist in drei grundlegende Bereiche geteilt, die jewe
 
 !!! info "Hinweis"
 
-  Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, entnehmen Sie bitte dem Kapitel „Arbeiten in Listen“ des Benutzerhandbuchs zu daVinci-Stundenplan.
+    Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, entnehmen Sie bitte dem Kapitel „Arbeiten in Listen“ des Benutzerhandbuchs zu daVinci-Stundenplan.
 
 ## Änderungsliste bearbeiten
 
@@ -1048,7 +1030,6 @@ vor:
 2. Wählen Sie den Eintrag `Neuer Zusatzunterricht` aus dem Aufklappmenü.
 
 3. Markieren Sie in den Auswahlfeldern `Fach` und `Unterrichtsart` des erscheinenden Dialogfensters jeweils das zutreffende Kürzel. Bei Bedarf können Sie unter Kurs-Nr auch eine bestimmte Kursnummer angeben.
-
 ![In diesem Dialogfenster tragen Sie die Veranstaltungsdaten des Zusatzunterrichts ein.](/assets/images/vertretungsplan/sub-plan82.png)
 
 4. Tragen Sie in den Eingabefeldern `Von` und `Bis`, die Anfangs- und die Endzeit des Zusatzunterrichts ein. Unter `Anrechnen` können Sie bei Bedarf eintragen, mit welchem Wert der Zusatzunterricht als positive oder negative Anrechenstunde festgehalten werden soll.
@@ -1060,7 +1041,7 @@ vor:
 7. Bestätigen Sie Ihre Angaben im Dialogfenster `Zusatzunterricht` mit `OK`. 
 
 Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.
-   
+
 ![Hier sehen Sie die Darstellung von Zusatzunterricht in der Änderungsliste.](/assets/images/vertretungsplan/sub-plan89.png)
 
 !!! info "Hinweis"
@@ -1081,7 +1062,7 @@ Um in der Ansicht `Änderungen` eine neue Mitteilung einzufügen gehen Sie bitte
 3. Geben Sie im Eingabefeld `Titel` des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
 
 4. Geben Sie im Eingabefeld `Text` einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
-   
+  
 ![In diesem Fenster tragen Sie die Daten einer Mitteilung ein.](/assets/images/vertretungsplan/sub-plan86.png)
 
 1.  Tragen Sie in den Eingabefeldern `Von` und `Bis` die Eckpunkte des Zeitraums ein, auf den sich die Mitteilung beziehen soll.
@@ -1098,7 +1079,7 @@ Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird
 
 !!! info "Hinweis"
 
-  Das Dialogfenster `Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl Neue Mitteilung aus dem Kontextmenü.
+    Das Dialogfenster `Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl Neue Mitteilung aus dem Kontextmenü.
 
 ## Anrechnungen
 
@@ -1117,11 +1098,9 @@ Das Erzeugen von Anrechenstunden entsteht im Regelfall durch das Eintragen von F
 Zusätzlich können Sie Anrechenstunden in der Ansicht Anrechnungen eintragen. Dazu gehen Sie wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche `Neu` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
 ![Die Schaltfläche `Neu` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan92.png)
 
 2. Wählen Sie im Dialogfenster `Anrechenstunden bearbeiten` die gewünschten Eintragungen.
-
 ![Hier wird eine neue Anrechenstunde am 08.10.2012 für den Lehrer „Bru“ für eine Bibliotheksaufsicht erfasst.](/assets/images/vertretungsplan/sub-plan93.png)
 
 3. Klicken Sie anschließend auf `OK`.
@@ -1135,7 +1114,6 @@ Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten geh
 1. Markieren Sie den gewünschten Eintrag in der Liste der Anrechenstunden.
 
 2. Klicken Sie auf die Schaltfläche `Bearbeiten` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
 ![Die Schaltfläche `Bearbeiten` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan94.png)
 
 3. Ändern Sie im Dialogfenster `Anrechenstunden bearbeiten` die gewünschten Eintragungen.
@@ -1149,14 +1127,13 @@ Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten geh
 1. Markieren Sie den gewünschten Eintrag in der Liste der Anrechenstunden.
 
 2. Klicken Sie auf die Schaltfläche `Löschen` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
 ![Die Schaltfläche `Löschen` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan95.png)
 
 3. Bestätigen Sie die Sicherheitabfrage mit `Ja`.
 
 !!! info "Hinweis"
 
-  Das Löschen von Einträgen für Lehrer, die eine fehlende Klasse begleiten, ist nicht möglich. Dieser Eintrag kann nur durch Löschen der Fehlzeit der Klasse mitgelöscht werden.
+     Das Löschen von Einträgen für Lehrer, die eine fehlende Klasse begleiten, ist nicht möglich. Dieser Eintrag kann nur durch Löschen der Fehlzeit der Klasse mitgelöscht werden.
 
 ## Änderungen veröffentlichen
 
@@ -1192,23 +1169,19 @@ Beide Arten werden in den nachfolgenden Abschnitten näher erläutert.
 
 !!! info "Hinweis"
 
-  Alternativ zum Druck von Vertretungsplänen bzw. tagesaktuellen Stundenplänen können Sie die
-elektronische Publikation über den HTML-Export nutzen (siehe Abschnitt „HTML-Vertretungspläne exportieren“). Dies ist beispielsweise für die Publikation über CONFIRE BLACKBOARD bzw. CONFIRE SHOWTIME  auf Public Displays vorteilhaft.
+      Alternativ zum Druck von Vertretungsplänen bzw. tagesaktuellen Stundenplänen können Sie die elektronische Publikation über den HTML-Export nutzen (siehe Abschnitt „HTML-Vertretungspläne exportieren“). Dies ist beispielsweise für die Publikation über CONFIRE BLACKBOARD bzw. CONFIRE SHOWTIME  auf Public Displays vorteilhaft.
 
 ## Vertretungspläne drucken
 
 Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 1. Betätigen Sie die Schaltfläche `Drucken` in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet.
-
 ![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan98.png)
 
-*Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
+2. *Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
 ![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
 
 3. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
-
 ![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan100.png)
 
 4. Legen Sie im Bereich `Auswahl` den Druckformattyp fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
@@ -1221,8 +1194,7 @@ Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 ## Druckvorschau
 
-Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche
-über verschiedene Menügruppen aufgerufen werden kann.
+Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche über verschiedene Menügruppen aufgerufen werden kann.
 
 ![Im Dialogfenster der Druckvorschau können Sie sowohl das Druckergebnis ansehen als auch Einstellungen des ausgewählten Druckformats direkt ändern.](/assets/images/vertretungsplan/sub-plan101.png)
 
@@ -1235,7 +1207,7 @@ angezeigt.
 
 !!! info "Hinweis"
 
-  Bei geschickter Anordnung von Vorschaufenster und dem Dialogfenster für die Detaileinstellungen des Druckformats, können Sie beide Fenster nebeneinander anzeigen. Wenn Sie jetzt Änderungen im Dialogfenster des Druckformats vornehmen und anschließend auf die Schaltfläche `Übernehmen` klicken, werden die Änderungen sofort im Vorschaufenster sichtbar, ohne das Dialogfenster verlassen zu müssen.
+    Bei geschickter Anordnung von Vorschaufenster und dem Dialogfenster für die Detaileinstellungen des Druckformats, können Sie beide Fenster nebeneinander anzeigen. Wenn Sie jetzt Änderungen im Dialogfenster des Druckformats vornehmen und anschließend auf die Schaltfläche `Übernehmen` klicken, werden die Änderungen sofort im Vorschaufenster sichtbar, ohne das Dialogfenster verlassen zu müssen.
 
 ### Menügruppe Ausgabe
 
@@ -1267,7 +1239,7 @@ Die Registerkarte Ränder ermöglicht die Einstellungen der Seitenränder. Dabei
 
 !!! info "Hinweis"
 
-  Seitenränder können auch unabhängig vom Dialogfenster `Seite einrichten` eingestellt werden. Das Verschieben der Seitenränder per Maus kann analog in der Hauptansicht des Berichts vorgenommen werden.
+    Seitenränder können auch unabhängig vom Dialogfenster `Seite einrichten` eingestellt werden. Das Verschieben der Seitenränder per Maus kann analog in der Hauptansicht des Berichts vorgenommen werden.
 
 ## Registerkarte `Kopf-/Fußzeile`
 
@@ -1334,15 +1306,11 @@ Neben dem Druck von regulären Stundenplänen können Stundenpläne auch tagesak
 Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 1. Betätigen Sie die Drucken-Schaltfläche in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet.
-
 ![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan98.png)
-
 *Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
 ![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
 
 2. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus. 
-
 ![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan121.png)
 
 3. Markieren Sie zusätzlich das Kontrollkästchen `Mit Vertretungsinformationen drucken`.
@@ -1383,7 +1351,7 @@ Tagesvertretungsplan nach Klassen  | Alle Vertretungen für einen bestimmten Tag
 Tagesvertretungsplan nach Lehrern  | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Vertretungslehrern sortiert gedruckt
 Tagesvertretungsplan nach Stunden  | Alle Vertretungen für einen bestimmten Tag werden nach Stunden sortiert gedruckt
 Klassenvertretungen                | Alle Vertretungen werden nach ausgewählten Klassen gedruckt Lehrervertretungen Alle Vertretungen werden nach ausgewählten fehlenden Lehrern gedruckt
-Vertretungslehrerliste             | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt 
+Vertretungslehrerliste             | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt
 
 Für jedes dieser Druckformattypen können Sie ein oder mehrere Druckformate definieren. Jedes Druckformat legt den Inhalt der auszugebenen Informationen fest.
 
@@ -1451,11 +1419,9 @@ Neben dem Drucken von Vertretungsplänen können diese auch elektronisch als HTM
 Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche `HTML-Pläne exportieren` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
 ![Die Schaltfläche `HTML-Pläne exportieren` finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan130.png)
 
 2. Wählen Sie im Dialogfenster `HTML-Export` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus. 
-
 ![Im Dialogfenster `HTML-Export` treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan131.png)
 
 3. Legen Sie im Bereich `Auswahl` den Exportformattyp fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
@@ -1510,7 +1476,7 @@ Die Detailangaben zu den Exportvorgaben können Sie auf den verschiedenen Regist
 
 !!! info "Hinweis"
 
-  Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI-LIVEMESSAGE voraus.
+     Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI-LIVEMESSAGE voraus.
 
 Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der Versand kann per E-Mail und/oder per SMS erfolgen.
 
@@ -1542,7 +1508,6 @@ Die Ansicht kann nach Teams über die Auswahlbox `Team` gefiltert werden. Bei de
 vornehmen. So rufen Sie das Dialogfenster mit den Einstellungen für den Vertretungsplan auf:
 
 1. Öffnen Sie das Menü `Plan`
-
 ![Den Aufruf für die daVinci-Optionen finden Sie u.a. rechts unten im Planmenü.](/assets/images/vertretungsplan/sub-plan137.png)
 
 2. Klicken Sie im erscheinenden Menüfenster mit der linken Maustaste unten auf den Menüpunkt `daVinci-Optionen`.

@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor:
 
 Die rechts oben angezeigt Uhr zeigt die aktuelle Uhrzeit und das aktuelle Datum an. Zusätzlich wird standardmäßig in blau die verbleibende Zeitspanne bis zum Ende der aktuellen Unterrichtsstunde angezeigt. In den Zeiten zwischen Unterrichtsstunden wird gelb die verbleibende Zeitspanne bis zum Beginn der nächsten Unterrichtsstunde angezeigt. Über Plan|DAVINCI-Optionen|Ansicht können Sie die Farben ändern bzw. die Anzeige der Zeitspanne auch ganz ausschalten. Überhalb der Uhr wird der aktuelle Stand der Daten angezeigt. Sollten Vertretungsplanänderungen vorliegen, ist dies die Uhrzeit und das Datum der letzten Änderung im Vertretungsplan und sonst das Datum der letzten Dateiänderung allgemein.
 
-! [Die Stundenplanansicht ](/assets/images/timetable.png)
+! [Die Stundenplanansicht](/assets/images/timetable.png)
 
 ## Ihr Stil
 
@@ -134,7 +134,7 @@ Klicken Sie auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. 
 
 ![Die Vertretungsplanansicht mit der Anzeige betroffener Lehrer](/assets/images/substitutions-teacher.png)
 
-## Welche Spalten sollen angezeigt werden?
+## Welche Spalten sollen angezeigt werden
 
 Sie können die angezeigten Spalten bestimmen, indem Sie in eine Vertretungstabelle klicken und Spaltentitel per Drag & Drop in das Fenster "Anpassen" ziehen. Mit `Rechter Maustaste > Spalten aus-/einblenden` können Sie das Fenster "Anpassung" öffnen. Klicken Sie auf den gewünschten Spaltentitel und ziehen sie ihn an die Position in der Vertretungstabelle, an der Sie ihn anzeigen möchtenm oder klicken Sie auf einen Spaltentitel dort und ziehen ihn auf das Fenster. Das in dieser Vertretungstabelle eingestellte Layout wird automatisch mit der nächsten Neuanzeige von den anderen Tagestabellen übernommen. Sie können auch die Spaltenweite oder die Reihenfolge der Spalten verändern. Auch diese Einstellungen werden von den anderen Tabellen automatisch übernommen.
 
@@ -160,7 +160,9 @@ Klicken Sie auf `Publizieren > Gruppen` benachrichtigen. Im Dialogfenster "Mitte
 
 ![Dialogfenster Mitteilung senden](/assets/images/send-message.png)
 
-> HINWEIS: Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den Versand von E-Mails muß der Stundenplaner im DAVINCI Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
+!!! info "Hinweis"
+
+     Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den Versand von E-Mails muß der Stundenplaner im DAVINCI Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
 
 ## Notfallmitteilung senden
 
@@ -170,7 +172,7 @@ Klicken Sie auf `Publizieren > Notfall senden`. Im Dialogfenster "Notfallmitteil
 
 !!! info "Hinweis"
 
-  Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den E-Mail Versand muß der Stundenplaner im DAIVNCI-Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
+    Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den E-Mail Versand muß der Stundenplaner im DAIVNCI-Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
 
 ## Pläne drucken
 
@@ -190,7 +192,7 @@ Der Befehl `Neu > Neue Fehlzeit` steht nur dann zur Verfügung, wenn Sie mit dem
 
 !!! info "Hinweis"
 
-  Fehlzeiten können nur in Lehrerplänen eingegeben werden. Klassenfehlzeiten und Raumfehlzeiten können ausschießlich vom Stundenplaner im DAVINCI-Client eingetragen werden.
+    Fehlzeiten können nur in Lehrerplänen eingegeben werden. Klassenfehlzeiten und Raumfehlzeiten können ausschießlich vom Stundenplaner im DAVINCI-Client eingetragen werden.
 
 ## Räume buchen
 
