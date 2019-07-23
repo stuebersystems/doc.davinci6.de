@@ -3,18 +3,18 @@
 ## Allgemein
 
 Tastenkürzel |Funktion |Alternative
--|-|-|
+-|-|-
 STRG+P |Pläne Drucken |`Publizieren > Drucken`
 STRG+Q |Aktueller Planungsstand |`Extras > Planungsstand`
 STRG+W |Stundenplan prüfen|`Start > Automatik > Stundenplan prüfen`|
 STRG+O |Datei Öffnen |`Plan > Öffnen`
 STRG+S |Datei Speichern |`Plan > Speichern`
-F10 | Menüleiste oben aktivieren |-|
+F10 | Menüleiste oben aktivieren |-
 
 ## Stammdaten
 
 Tastenkürzel |Funktion |Alternative
--|-|-|
+-|-|-
 STRG+E |Bearbeiten-Modus an/aus |`Start > Bearbeiten > Bearbeiten-Modus` ODER `Rechtsklick > Bearbeiten-Modus`
 STRG+X |Zeitkonto bearbeiten |`Rechtsklick > Zeitkonto bearbeiten`
 F9 |Gehe zu Stundenplan |`Start > Gehe zu Stundenplan` ODER `Rechtsklick > Gehe zu Stundenplan`
@@ -24,12 +24,12 @@ STRG+F2| Zeile löschen|`Start > Stammdaten > Löschen`|
 Esc | Eingabemodus verlassen |-|
 Return |Nächste Spalte |-|
 Tab |Nächste Spalte |-|
-Umsch+Tab |Vorherige Spalte|-|
+Umsch+Tab |Vorherige Spalte|-
 
 ## STUNDENPLAN
 
 Tastenkürzel |Funktion |Alternative
--|-|-|
+-|-|-
 STRG+E | Editiemodus der Veranstaltungsliste |`Start > Veranstaltungen > Liste bearbeiten`|
 STRG+H |Aktionsprotokoll öffnen |  `Start > Stundenplan > Protokoll` |
 STRG+K | Auswahl-Planungsfenster Klassen anzeigen|`Start > Ansicht ändern > Auswahl`|
@@ -65,12 +65,12 @@ F6|Klassenplanansicht öffnen| `Ansicht > Inhalt wechseln > Klasse`|
 F7|Lehrerplanansicht öffnen | `Ansicht > Inhalt wechseln > Lehrer`|
 F8|Raumplanansicht öffnen | `Ansicht > Inhalt wechseln > Raum`|
 F9 | Termindauer verlängern | `Start > Stundenplan > Termin bearbeiten` |
-F11 | Neue Kernzeit | -|
+F11 | Neue Kernzeit | -
 
 ## VERTRETUNGSPLAN
 
 Tastenkürzel |Funktion |Alternative
--|-|-|
+-|-|-
 F2|Neue Fehlzeit | - |
 F3|Neuer Zusatzunterricht |-|
 F4|Neue Mitteilung|-|
@@ -80,7 +80,7 @@ F7|Lehrerplanansicht öffnen |- |
 F8|Raumplanansicht öffnen |- |
 STRG+F3| Neue Raumbuchung |-|
 STRG+F12|Termindetails anzeigen|-|
-STRG+Y | Automatik starten |`|
+STRG+Y | Automatik starten |-
 
 ## KURSPLAN
 
