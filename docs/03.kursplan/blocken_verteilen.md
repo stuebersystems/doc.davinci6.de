@@ -1,6 +1,6 @@
 # Blocken und Verteilen
 
-![Blöckefenster](/assets/images/KP/kp01.png)
+![Blöckefenster](..\assets\images\KP\kp01.png)
 
 In der Ansicht `Kursplan > Blöcke` können Sie per Automatik und manuell:
 
@@ -8,10 +8,11 @@ In der Ansicht `Kursplan > Blöcke` können Sie per Automatik und manuell:
 2. Kurse Blöcken zuweisen (Kurse blocken)
 3. Schüler auf Kurse verteilen
 
-Die Zahl vor der Kursbezeichnung in der Tabelle gibt die Anzahl der Kursteilnehmer an. GGf. gibt eine weitere Zahl die Abweichung zur optimalen Schülerzahl an. Eine Erläuterung gibt das Kapitel "Zur
-Theorie der Kursblockung". Die Bedeutung der Zellen-Hintergrundfarben entspricht der der Ansicht `Kursplan > Schüler` (siehe Kapitel "Fachwahlen eingeben").
+Die Zahl vor der Kursbezeichnung in der Tabelle gibt die Anzahl der Kursteilnehmer an. Ggf. gibt eine weitere Zahl die Abweichung zur optimalen Schülerzahl an. Eine Erläuterung gibt das Kapitel "Zur Theorie der Kursblockung". Die Bedeutung der Zellen-Hintergrundfarben entspricht der der Ansicht `Kursplan > Schüler` (siehe Kapitel "Fachwahlen eingeben").
 
 Im Dashboard unten werden wichtige Angaben zur Qualität der aktuellen Blockung und Verteilung gemacht:
+
+![Dashboard](..\assets\images\KP\kp21.png)
 
 Angabe               | Beschreibung
 -------------------- | ------------
@@ -24,7 +25,9 @@ Kurs(e) ohne Band    | Anzahl der Kurse ohne Bandnummer (mit Bandnummer Null). W
 
 Eine Zeile repräsentiert einen Block. Jeder Block enthält in der Spalte „Band“ die jeweilige Bandnummer. Von der Automatik können nur Kurse derselben Bandnummer dem betreffenden Block zugeordnet werden.
 
-Die Spalten auf der Registerkarte `Blöcke`in der Ansicht `Kursplan > Blöcke`:
+Die Spalten auf der Registerkarte `Blöcke` in der Ansicht `Kursplan > Blöcke`:
+
+![Blockzeile](..\assets\images\KP\kp22.png)
 
 Spalte               | Bemerkung
 -------------------- | ------------
@@ -42,7 +45,7 @@ Abweichung           | Summe der Standardabweichungen vom Optimalwert über alle
 
 Wechseln Sie in die Ansicht `Kursplan > Blöcke`. Wählen Sie den Befehl `Blöcke erzeugen` in der Menüleiste. Es öffnet sich das Dialogfenster `Blöcke erzeugen`, in dem Sie einstellen können für welche Unterrichtsart wie viele Blöcke erstellt werden sollen. Stellen Sie je Band die Anzahl der gewünschten Blöcke ein und klicken Sie auf `OK`.
 
-![Blöcke erzeugen](/assets/images/courseplan20.png)
+![Blöcke erzeugen](..\assets\images\KP\kp20.png)
 
 !!! info "Hinweis"
 
@@ -54,16 +57,22 @@ In der Ansicht `Kursplan > Blöcke` können Sie per Mehrfachmarkierung Blöcke m
 
 ## Block-Eigenschaften ändern
 
-![Block-Eigenschaften ändern](/assets/images/KP/KP_Block-Eigenschaften ändern.png)
+Eingetragene Blockeigenschaften können Sie in der Ansicht `Kursplan > Blöcke` wie folgt ändern:
+* mit einem Mausklick eine Blockzeile und wählen Sie `Start > Bearbeiten`
+ODER 
+* `Doppelklick` auf die Blockzeile
+ODer
+* `Rechtsklick` auf die Blockzeile, im Aufklappmenü `Block bearbeiten wählen` 
 
-Um die eingetragenen Blockeigenschaften zu ändern markieren Sie in der Ansicht `Kursplan > Blöcke` mit einem Mausklick eine Blockzeile und wählen Sie `Start > Bearbeiten`. Oder doppelklicken Sie auf die Blockzeile. In dem Dialog „Blocke-Eigenschaften ändern“ können Sie alle Eigenschaften des Blocks ändern. Der Name ist die eindeutige Blockbezeichnung im Plan. Das Feld `Band` gibt an, dass nur Kruse derselben Bandnummer von der Blockungsautomatik diesem Block zugeordnet werden dürfen. In den Feldern „Min. Std“ (minimale Stundenzahl) und „Max. Std) (maximale Stundenzahl) können Sie für die Blockungsautomatik vorgeben, dass nur Kurse mit der entsprechenden Stundenzahl diesem Block zugewiesen werden dürfen.
+In dem Dialog `Block-Eigenschaften ändern` können Sie alle Eigenschaften des Blocks ändern. Der Name ist die eindeutige Blockbezeichnung im Plan. Das Feld `Band` gibt an, dass nur Kruse derselben Bandnummer von der Blockungsautomatik diesem Block zugeordnet werden dürfen. In den Feldern `Mininmale Std` (minimale Stundenzahl) und `Maximale Std` (maximale Stundenzahl) können Sie für die Blockungsautomatik vorgeben, dass nur Kurse mit der entsprechenden Stundenzahl diesem Block zugewiesen werden dürfen.
+
+![Block-Eigenschaften ändern](../assets/images/KP/kp23.png)
 
 ## Kurse automatisch blocken und Schülern zuordnen
 
-Die Automatik blockt die Kurse und verteilt die Schüler auf Kurse, d.h. sie weist jedem Fach aus
-der Fachwahl eines Schülers eine Kursnummer zu. Sie können die Automatik sukzessive für bestimmte Jahrgänge und Bänder aufrufen. Z.B. kann es sinnvoll sein, zuerst die Leistungskurse eines Jahrgangs und danach die Grundkurse zu blocken und zu verteilen. Gegebenenfalls müssen Sie die Blockung bzw. die Verteilung löschen (siehe Abschnitt Blockung und Verteilung zurücksetzen) und die Fachwahlen einiger Schüler ändern, da sie nicht ohne Überschneidung verteilt werden konnten. Anschließend können Sie die Automatik erneut blocken bzw. verteilen lassen. Entscheiden Sie selbst, welche Vorgehensweise für Ihre Bedingungen am besten zutrifft.
+Die Automatik blockt die Kurse und verteilt die Schüler auf Kurse, d.h. sie weist jedem Fach aus der Fachwahl eines Schülers eine Kursnummer zu. Sie können die Automatik sukzessive für bestimmte Jahrgänge und Bänder aufrufen. Z.B. kann es sinnvoll sein, zuerst die Leistungskurse eines Jahrgangs und danach die Grundkurse zu blocken und zu verteilen. Gegebenenfalls müssen Sie die Blockung bzw. die Verteilung löschen (siehe Abschnitt Blockung und Verteilung zurücksetzen) und die Fachwahlen einiger Schüler ändern, da sie nicht ohne Überschneidung verteilt werden konnten. Anschließend können Sie die Automatik erneut blocken bzw. verteilen lassen. Entscheiden Sie selbst, welche Vorgehensweise für Ihre Bedingungen am besten zutrifft.
 
-![Blockungsautomatik](/assets/images/KP/kp02.png)
+![Blockungsautomatik](../assets/images/KP/kp02.png)
 
 Wählen Sie zunächst den Befehl `Start > Automatik`. Das Dialogfenster „Blockungsautomatik starten“ öffnet sich. Stellen Sie bei „Band“ das Band ein, dessen Kurse Sie blocken möchten. Alle Kurse mit dieser Bandnummer werden in Blöcke dieser Bandnummer geblockt. Wahlwiese können Sie „alle“ einstellen. Klicken Sie auf OK, um die Automatik entsprechend der Einstellungen zu starten.
 
@@ -76,7 +85,7 @@ Schüler verteilen | Sorgt dafür, dass die Schüler auf Kurse verteilt werden.
 Beachte Kursteilnehmerzahl | Beachtet die minimale und maximale Kursteilnehmerzahl, die Sie entweder global unter `Plan-Eigenschaften > Kursplan` oder in der Ansicht `Kursplan > Kurse` in den entsprechenden Spalten „Min. Schüler“ und „Max. Schüler“ je Kurs einstellen können.
 Akzeptiere Blockkonflikte | Akzeptiert Blockkonflikte aufgrund von zwei Kursen eines Schülers im gleichen Block, was ja eigentlich nicht vorkommen sollte. Diese Option kann gewählt werden, wenn man danach kollidierende Schüler manuell in andere Kurse setzen möchte.
 
-![Ergebnis der Automatik](/assets/images/KP/kp03.png)
+![Ergebnis der Automatik](../assets/images/KP/kp03.png)
 
 !!! info "Hinweis"
 
@@ -100,7 +109,7 @@ als optimal aufweisen.
 
 ## Blockung und Verteilung zurücksetzen
 
-![Blockung und Verteilung zurücksetzen](/assets/images/courseplan24.png)
+![Blockung und Verteilung zurücksetzen](../assets/images/KP/kp24.png)
 
 Mit dem Befehl Zurücksetzen können Sie das Ergebnis eines Automatiklaufs zurücksetzen, d.h. die Blockung der Kurse und die Verteilung der Schüler auf die Kurse wird für den aktuellen Jahrgang und das eingestellte Band zurückgesetzt. Entsprechend der Optionen wird die Blockung und/oder die Verteilung der Schüler zurückgesetzt,
 
