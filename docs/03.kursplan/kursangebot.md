@@ -1,15 +1,16 @@
 # Kursangebot erstellen
 
-Sind die Fachwahlen den entsprechenden Schülern zugeordnet und vom angegeben Fachwahlskript überprüft, werden im nächsten Schritt die Kurse zu den Fachwahlen erstellt, die später zu Blöcken zusammengefasst werden können. Wichtige Einstellungen für Kurse finden Sie im Dialogfenster `Plan > Eigenschaften > Kursplan`.
+Sind die Fachwahlen den entsprechenden Schülern zugeordnet und vom angegebenen Fachwahlskript überprüft, werden im nächsten Schritt die Kurse zu den Fachwahlen erstellt, die später zu Blöcken zusammengefasst werden können.
 
-![Kursplan-Optionen in den Plan-Eigenschaften](/assets/images/courseplan11.png)
+Für die Kursbildung in DAVINCI müssen Sie vorab wichtige Einstellungen in Ihrer Plandatei treffen. Diese nehmen Sie im Dialogfenster `Plan > Eigenschaften > Kursplan` vor.
+
+![Plan-Eigenschaften, Vorgaben für den KURSPLAN](/assets/images/KP/kursangebot1.png)
 
 Wählen Sie hier Ihre Standard-Unterrichtsart für einen Grundkurs aus den vorgegebenen Möglichkeiten aus. Zur besseren Unterscheidung der Grund- und Leistungskurse können Sie mit den Optionen festlegen, ob diese Unterrichtsart im Programm klein geschrieben wird oder/und alle anderen Kurse groß geschrieben werden. Stellen Sie bei den Vorgaben ein, ab wie vielen Teilnehmern ein neuer Kurs eröffnet werden soll und was die maximale Teilnehmerzahl sein darf.
 
 ## Zur Theorie der Kursblockung
 
-Bevor wir mit der Erläuterung der Arbeitsschritte beginnen, wollen wir an dieser Stelle die grundlegende
-Arbeitsweise von DAVINCI-Kursplan betrachten und einige Begriffe einführen.
+Bevor wir mit der Erläuterung der Arbeitsschritte beginnen, wollen wir an dieser Stelle die grundlegende Arbeitsweise von DAVINCI KURSPLAN betrachten und einige Begriffe einführen.
 
 ### Fachwahl/Kurswahl
 
@@ -17,37 +18,41 @@ Eine Fachwahl oder Kurswahl bezeichnet den Wunsch eines Schülers in einem besti
 
 ### Blöcke
 
-Ein Block ist eine Menge von Kursen, die zeitgleich stattfinden sollen. Ein Kurs kann sich dabei auch auf mehrere Blöcke aufteilen. Dies kommt z.B. vor, wenn ein fünfstündiger Leistungskurs "MA1" mit Grundkursen „ge2“ (3 Stunden Geschichte) und „sp3“ (2 Stunden Sport) geblockt werden soll:
+Ein Block ist eine Menge von Kursen, die zeitgleich stattfinden sollen. Ein Kurs kann sich dabei auch auf mehrere Blöcke aufteilen. Dies kommt z.B. vor, wenn ein fünfstündiger Leistungskurs **MA1** mit Grundkursen **ge2** (3 Stunden Geschichte) und **sp3** (2 Stunden Sport) geblockt werden soll:
 
-Stunde | 1   | 2   | 3   | 4   | 5
------- | --- | --- | --- | --- | ---
-       | MA1 | MA1 | MA1 | MA1 | MA1
-       | ge2 |ge2  | ge2 | sp3 | sp3
+| Stunde | 1   | 2   | 3   | 4   | 5   |
+| ------ | --- | --- | --- | --- | --- |
+|        | MA1 | MA1 | MA1 | MA1 | MA1 |
+|        | ge2 | ge2 | ge2 | sp3 | sp3 |
 
 Es liegen also drei Stunden MA1 und ge2 sowie zwei Stunden MA1 und sp3 parallel. In diesem Fall richten wir zwei Blöcke ein:
 
-Block   |     |     |
-------- | --- | --- |
-Block 1 | MA1 | ge2
-Block 2 | MA1 | sp3
+| Block   |     |     |
+| ------- | --- | --- |
+| Block 1 | MA1 | ge2 |
+| Block 2 | MA1 | sp3 |
 
 ## Bänder
 
-Durch die Festlegung, dass wir den Kurs MA1 mit den Grundkursen ge2 und sp3 blocken möchten, haben wir die Stundenzahl implizit mit berücksichtigt. Aufgrund der Stundenzahlen (Leistungskurse werden in der Regel 5-stündig, Grundkurse in der Regel 2- oder 3-stündig unterrichtet) ist es folgerichtig Leistungskurse und Grundkurse jeweils unabhängig voneinander zu blocken. Um von der eigentlichen Stundenzahl unabhängig zu sein, führen wir den Begriff des „Bandes“ ein. Ein Band definiert eine Menge von Fächern oder Kursen, die zusammen geblockt werden sollen oder bereits geblockt sind. Im Beispiel von eben könnte man zwei Bänder einrichten:
+Durch die Festlegung, dass wir den Kurs **MA1** mit den Grundkursen **ge2** und **sp3** blocken möchten, haben wir die Stundenzahl implizit mit berücksichtigt. Aufgrund der Stundenzahlen (Leistungskurse werden in der Regel 5-stündig, Grundkurse in der Regel 2- oder 3-stündig unterrichtet) ist es folgerichtig Leistungskurse und Grundkurse jeweils unabhängig voneinander zu blocken. Um von der eigentlichen Stundenzahl unabhängig zu sein, führen wir den Begriff des **Bandes** ein. 
 
-Band   |     |     |
------- | --- | --- |
-Band 1 | MA1 | ge2
-Band 2 | MA1 | sp3
+!!! warning "Wichtig"
+
+    Ein Band definiert eine Menge von Fächern oder Kursen, die zusammen geblockt werden sollen oder bereits geblockt sind. Im Beispiel von eben könnte man zwei Bänder einrichten:
+
+| Band   |     |     |
+| ------ | --- | --- |
+| Band 1 | MA1 | ge2 |
+| Band 2 | MA1 | sp3 |
 
 Der Unterschied zur Blockeinteilung liegt darin, dass anhand der Bandeinteilung noch nicht festgelegt werden muss, welche Kurse genau zusammen geblockt werden müssen. Ergänzen wir dazu die beiden Bänder um weitere Kurse:
 
-Band   |     |     |     |     |
------- | --- | --- | --- | --- |
-Band 1 | MA1 | ge2 | la  | ru  
-Band 2 | MA1 | sp3 | sp1 | sp2
+| Band   |     |     |     |     |
+| ------ | --- | --- | --- | --- |
+| Band 1 | MA1 | ge2 | la  | ru  |
+| Band 2 | MA1 | sp3 | sp1 | sp2 |
 
-Wenn ein Schüler nun in den Kursen MA1 und „la“ ist, müssen beide in unterschiedlichen Blöcken liegen. MA1 kann daher nur noch mit „ge2“ oder mit „ru“ geblockt werden. Durch die Festlegung eines Kurses auf ein Band wird also lediglich eine Vorentscheidung getroffen, welche Kurse miteinander geblockt werden sollen. Es ist damit noch nicht festgelegt, welche Kurse des Bandes in einen gemeinsamen Block kommen.
+Wenn ein Schüler nun in den Kursen **MA1** und **la** ist, müssen beide in unterschiedlichen Blöcken liegen. **MA1** kann daher nur noch mit **ge2** oder mit **ru** geblockt werden. Durch die Festlegung eines Kurses auf ein Band wird also lediglich eine Vorentscheidung getroffen, welche Kurse miteinander geblockt werden sollen. Es ist damit noch nicht festgelegt, welche Kurse des Bandes in einen gemeinsamen Block kommen.
 
 Um
 
@@ -57,11 +62,11 @@ Um
 
 unabhängig voneinander zu blocken, würde man sich für drei Bänder entscheiden:
 
-Band   |                             |
------- | --------------------------- |
-Band 1 | alle Leistungskurse
-Band 2 | alle Grundkurse ohne Sport
-Band 3 | alle Grundkurse Sport
+| Band   |                            |
+| ------ | -------------------------- |
+| Band 1 | alle Leistungskurse        |
+| Band 2 | alle Grundkurse ohne Sport |
+| Band 3 | alle Grundkurse Sport      |
 
 Es ergibt sich daraus allerdings eine minimale Anzahl von Blöcken, die je Band eingerichtet werden müssen. Hat jeder Schüler genau zwei Leistungskurse gewählt, müssen mindestens zwei Blöcke für das Band 1 eingerichtet werden, andernfalls hätten die Schüler zwei Kurse in einem Block. In Band 3 genügt ein Block, da jeder Schüler nur maximal einen Sportkurs hat. Die minimale Blockanzahl je Band folgt aus den Fachwahlen der Schüler für die Kurse dieses Bandes. Sie wird im Dialogfenster `Blöcke erzeugen`  angezeigt. Aus diesem Beispiel folgt auch eine weitere Erkenntnis: Eine Menge von Kursen aus denen jeder Schüler maximal einen gewählt hat, kann problemlos zusammen in einem Block zugordnet sein, d.h. sie ist *vollständig parallelisierbar*, z.B.
 

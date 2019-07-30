@@ -22,6 +22,17 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.58
+
+Veröffentlichung: 30.07.2019
+Dateiformat: 6.0.171
+
+NEW: Neue Nachrichtenfunktion: Die DAVINCI-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DAVINCI und DAVINCI LOOK.
+
+### DRUCK
+
+* FIX: Kopf- und Fußzeilen in Klassen-, Lehrer- und Vertretungsplänen werden wieder korrekt an den Druckertreiber übergeben
+
 ## DAVINCI Version 6.5.57
 
 Veröffentlichung: 20.06.2019

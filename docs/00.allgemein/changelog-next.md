@@ -20,9 +20,7 @@
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
-## DAVINCI Version 6.5.58
-
-NEW: Neue Nachrichtenfunktion: Die DAVINCI-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DAVINCI und DAVINCI LOOK.
+## DAVINCI Version 6.5.59
 
 ### SERVER
 
