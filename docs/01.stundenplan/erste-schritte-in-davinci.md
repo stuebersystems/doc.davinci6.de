@@ -55,16 +55,16 @@ Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird
 | **Stundenplan**| Hier erstellen und bearbeiten Sie Unterrichtsveranstaltungen und legen die Termine fest, an denen diese Veranstaltungen stattfinden sollen. Mit einem grafischen Planeditor können Sie Veranstaltungen und Termine per Drag & Drop ver- oder entplanen.| 
 | **Vertretungsplan**| In dieser Ansicht erstellen Sie die täglichen Planänderungen aufgrund fehlender Lehrer, Räume und Klassen und bestimmen Sie passende Vertreter.|
 | **Kursplan**| Hier können Sie die Fachwahlen der Schüler erfassen und aufgrund dessen das Kursangebot erstellen. Anschließend können Sie die Kurse blocken und die Schüler auf die Kurse verteilen.|
-| **Übersichten**| In den ``Übersichten`` erhalten Sie alle Listen und Berechnungen, die Sie hier gefiltert, gruppiert und/oder sortiert drucken oder exportieren können. 
+| **Übersichten**| In den `Übersichten` erhalten Sie alle Listen und Berechnungen, die Sie hier gefiltert, gruppiert und/oder sortiert drucken oder exportieren können.
 | **Ressourcenplan**| In dieser Ansicht können Sie Ihre beweglichen Ressourcen einsehen und an derzeit stattfindende Termine vergeben oder in Räume einbuchen.|
 
 ## Plandatei öffnen
 
-Um eine DAVINCI Datei zu öffnen gehen Sie auf Plan und wählen die Datei entweder aus der Liste der bisher geöffneten Dateien aus oder Sie gehen auf ``Plan > Öffnen`` und wählen die Datei von Ihrem Computer oder einem Netzwerkpfad aus.
+Um eine DAVINCI Datei zu öffnen gehen Sie auf Plan und wählen die Datei entweder aus der Liste der bisher geöffneten Dateien aus oder Sie gehen auf `Plan > Öffnen` und wählen die Datei von Ihrem Computer oder einem Netzwerkpfad aus.
 
 !!! info "Hinweis"
 
-    Dateien, die mit der Version DAVINCI 6 erstellt werden, erhalten die Endung ``.daVinci``
+    Dateien, die mit der Version DAVINCI 6 erstellt werden, erhalten die Endung `.daVinci`
 
 !!! info "Hinweis"
 
