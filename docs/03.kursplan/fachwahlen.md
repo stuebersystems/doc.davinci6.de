@@ -123,7 +123,7 @@ Die Fachwahlangaben:
 | E1…Q4          | Die Halbjahre der Oberstufe mit der jeweiligen Stundenanzahl, die sich aus der Spalte „Stunden“ ergibt. Sie können mit einem Mausklick in die betreffende Zelle Halbjahre für ein Fach markieren (weiß) oder demarkieren (grau). Wenn Sie unter „Stunden“ keine Stundenanzahl eingegeben haben, bleiben die Zellen der Tabelle leer.  |
 | Kurswahl       | Mögliche Kurse zur Fachwahl. Dieser Bereich wird erst gefüllt, wenn bereits Kurse für ein Fach angelegt wurden. Per Mausklick können Sie dann manuell einen anderen Kurs wählen. Der aktuelle Kurs ist durch die Rahmenfarbe hervorgehoben. Kurse mit gelbem Hintergrund können überschneidungsfrei gewählt werden, andernfalls hat der Schüler eine Überschneidung, d.h. zwei Kurse in einem Block. |
 
-## Fachwahl direkt eintippen in der Ansicht `Kursplan > Schüler`
+### Fachwahl direkt eintippen in der Ansicht `Kursplan > Schüler`
 
 Sie können Sie die Fachwahlen auch direkt in der Ansicht `Kursplan > Schüler` eintippen. Klicken Sie dazu in der Schülerzeile auf die betreffende Zelle. Achten Sie darauf, dass dabei Liste bearbeiten markiert ist.
 
@@ -149,7 +149,7 @@ Eine Erklärung der Farben können Sie jederzeit über die DAVINCI-Optionen nach
 
 ![DAVINCD-Optionen, Farben im Bereich Kursplan](/assets/images/KP/fachwahlen11.png)
 
-## Fachwahl durch Anlegen einer Stundentafel in der Ansicht `Kursplan > Schüler` zuweisen
+### Fachwahl durch Anlegen einer Stundentafel in der Ansicht `Kursplan > Schüler` zuweisen
 
 Eine Alternative für das manuelle Erfassen der Fachwahl pro Schüler bieten Ihnen Stundentafeln, die Sie als Vorlagen verwenden können. Mit einer Stundentafel legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln.
 
@@ -176,10 +176,20 @@ Die weiteren Spalten sind in diesem Zusammenhang nicht relevant.
 
 ## Fachwahlen löschen
 
-![Schülerdaten löschen](/assets/images/courseplan10.png)
+Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie den bzw. die gewünschten Schüler. Mit `Strg+Mausklick` und `Shift+Mausklick` können Sie mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menüleiste auf `Löschen`, um die entsprechenden Zeilen zu löschen. 
 
-Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie klicken Sie die gewünschten Schüler. Sie können mit Strg+Mausklick und Shift+Mausklick mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menü auf Löschen, um die entsprechenden Zeilen zu löschen. Das Dialogfenster `Schüler löschen` gibt Ihnen die Option die Schüler oder nur die Fachwahlen der markierten Schüler zu löschen. Wählen Sie dort die Option `Nur Fachwahlen löschen`.
+![Ansicht KURSPLAN > Schüler](/assets/images/KP/fachwahlen12.png)
+
+Das Dialogfenster `Schülerdaten löschen` öffnet sich und gibt Ihnen folgende Optionen:
+
+* Schüler löschen
+* Fachwahlen löschen
+* Nur die Fachwahlen die nicht belegt wurden Belegung löschen
+  
+Bitte wählen Sie hier die Option `Fachwahlen löschen`.
+
+![Schülerdaten löschen-Dialog](/assets/images/KP/fachwahlen13.png)
 
 !!! info "Hinweis"
 
-    Wenn Sie eine Stundentafel allen Schülern des Jahrgangs zugewiesen haben, um anschließend die Fachwahlen einzugeben, sind je Schüler unbenutzte Fächer als graue Zeilen in der Ansicht `Schüler > Fachwahlen` übrig geblieben. Das Dialogfenster `Schüler löschen` gibt Ihnen die Möglichkeit nur die Fachwahlen ohne Belegung zu löschen. Wählen Sie dort die Option `Nur Fachwahlen ohne Belegung löschen`.
+    Wenn Sie eine Stundentafel allen Schülern des Jahrgangs zugewiesen haben, um anschließend die Fachwahlen einzugeben, sind je Schüler unbenutzte Fächer als graue Zeilen in der Ansicht `Schüler > Fachwahlen` übrig geblieben. Das Dialogfenster `Schülerdaten löschen` gibt Ihnen die Möglichkeit nur die Fachwahlen ohne Belegung zu löschen. Wählen Sie dort die Option `Nur die Fachwahlen die nicht belegt wurden Belegung löschen`.
