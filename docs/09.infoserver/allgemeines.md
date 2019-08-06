@@ -10,10 +10,10 @@ DAVINCI MOBILE kommuniziert mit einem DAVINCI INFOSERVER. Dieser kommuniziert wi
 
 Voraussetzungen für den Einsatz von DAVINCI MOBILE:
 
-1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/README.md)
-2. [Einrichten der Benutzer](/09.infoserver/user-management.md)
-3. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
-4. [Installation von DAVINCI MOBILE auf Ihrem Mobilgerät](http://doc.davinci-app.stueber.de/)
+1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/)
+2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management/)
+3. [Installation des DAVINCI INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/)
+4. [Installation von DAVINCI MOBILE auf Ihrem Mobilgerät](https://doc.davinci6.stueber.de/09.infoserver/setup-mobile/)
 
 !!! info "Hinweis"
 
@@ -29,41 +29,21 @@ Die DAVINCI WEBBOX funktioniert ähnlich wie DAVINCI MOBILE und ist zum Einsatz 
 
 Voraussetzungen für den Einsatz der DAVINCI WEBBOX:
 
-1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/README.md)
-2. [Einrichten der Benutzer](/09.infoserver/user-management.md)
-3. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
-4. [Installation der DAVINCI WEBBOX](/09.infoserver/setup-webbox/README.md)
+1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/)
+2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management/)
+3. [Installation des DAVINCI INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/)
+4. [Installation der DAVINCI WEBBOX](https://doc.davinci6.stueber.de/09.infoserver/setup-webbox/)
 
 !!! info "Hinweis"
 
     Über CSS-Dateien kann die DAVINCI-WEBBOX von Ihnen vollständig an Ihre Webdesign-Vorgaben angepasst werden. Wenn Sie es wünschen, führen wir die Anpassung an Ihr Corporate Design in Ihrem Auftrag durch.
 
-## 3. Dynamische HTML-Seiten
-
-!!! info "Hinweis"
-
-    Im Gegensatz zur Nutzung der JSON-Daten für die DAVINCI-WEBBOX oder DAVINCI MOBILE erfolgt keine individuelle Benutzer-Autorisierung. **Wir empfehlen daher ausdrücklich den Einsatz der DAVINCI WEBBOX auf Ihren Webseiten.**
-
-Mit Hilfe des DAVINCI INFOSERVERS können Sie auch ganz direkt dynamische Webseiten erzeugen. Diese Seiten werden vom DAVINCI SERVER zur Verfügung gestellt und können direkt in einem Web-Browser angezeigt werden. Sie müssen nichts weiter machen, also keine Daten nach jeder Planänderung exportieren. 
-
-Das Erzeugen dynamischer HTML-Seiten setzt die Module DAVINCI ENTERPRISE (beinhaltet den DAVINCI SERVER) und DAVINC INFOSERVER voraus
-
-Voraussetzungen für das Erzeugen dynamischer Webseiten:
-
-1. [Installation eines Web-Servers](/09.infoserver/setup-webserver/allgemeines.md)
-2. [Installation des DAVINCI INFOSERVERS](/09.infoserver/setup-infoserver/README.md)
-
-!!! info "Hinweis"
-
-    Im Gegensatz zur DAVINCI WEBBOX erfolgt hier keine individuelle Benutzer-Autorisierung. Wir empfehlen daher ausdrücklich den Einsatz der DAVINCI WEBBOX auf Ihren Webseiten.
-
-
-## 4. E-Boards
+## 3. E-Boards
 
 Sie können den DAVINCI Vertretungsplan oder Stundenplan auf [E-Boards](http://eboard.stueber.de) in Ihrer Schule publizieren.
 
 Durch die direkte Integration der DAVINCI WEBBOX in CONFIRE SHOWTIME ist die Umsetzung der Darstellung denkbar einfach.
 
-## 5. Digitale Gebäudepläne
+## 4. Digitale Gebäudepläne
 
 Sie können die Raumbelegungsdaten aus DAVINCI aufmerksamkeitswirksam in digitalen Gebäudeplänen verwenden. Der Gebäudeplan kann über über DAVINCI MOBILE auf Tablets oder per DAVINCI WEBBOX auf Ihrer Webseite angezeigt werden. Ein Beispiel finden Sie auf der [Webseite für Gebäudepläne](http://davinci.stueber.de/floorplan.php).
