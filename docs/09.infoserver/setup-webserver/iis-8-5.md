@@ -1,10 +1,10 @@
-# Der IIS 8.5 Web-Server {#Der IIS 8.5 Web-Server}
+# Der IIS 8.5 Web-Server
 
 Die Internetinformationsdienste 8.5 (kurz IIS 8.5) sind Bestandteil von Windows Server 2012 R2 (und Windows 8.1 ). Sie stellen u.a. einen vollständigen Web-Server bereit.
 
 Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVER, Intstallation der DAVINCI WEBBOX).
 
-## Installation {#Installation}
+## Installation
 
 Gehen Sie wie folgt vor:
 
@@ -20,17 +20,17 @@ Gehen Sie wie folgt vor:
    * Webserver / Anwendungsentwicklung / ISAPI-Erweiterungen
    * Webserver / Sicherheit / Anforderungsfilterung  
 
-![Internetinformationsdienste als Windows-Feature](../../images/IIS8-Windows-Features.png)
+![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features.png)
 
 5. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
 
-## Testen {#Testen}
+## Testen
 
 Der IIS-Web-Server ist nun installiert. Probieren Sie ihn aus:
 
 * Öffnen Sie Ihren Web-Browser auf dem gleichen Computer, auf dem Sie soeben den IIS-Web-Server installiert haben und tippen Sie `http://localhost` ein. Wenn die folgende Seite in Ihrem Browser erscheint, haben Sie alles richtig gemacht:
 
-  ![IIS 8.5-Standardwebseite](../../images/iis-8.5-test.png)
+  ![IIS 8.5-Standardwebseite](/assets/images/iis-8.5-test.png)
 
 Bis jetzt hat sich alles nur auf dem Computer abgespielt, auf dem Sie den IIS-Web-Server installiert haben. Sinn und Zweck der ganzen Arbeit ist es jedoch, dass Ihr Web-Server im Netzwerk erreichbar ist. Daher sollten Sie auch den Zugriff von einem entfernten Computer aus testen:
 
@@ -48,10 +48,11 @@ Möchten Sie, dass Ihr Web-Server auch im Internet, also auch außerhalb Ihres l
 
 ## Firewall-Einstellung
 
-Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die eingehenden Regeln in Windows-Firewall aktiviert wurden:  
+Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die eingehenden Regeln in Windows-Firewall aktiviert wurden:
+
 1. Drücken die Tasten `Win` + `R` zusammen und geben Sie **wf.msc** ein, anschließend klicken Sie `OK`.  
 2. Wählen Sie die Option `Eingehende Regeln` aus der linken Seite.  
 3. Wählen Sie die Regeln "WWW-Dienste (Eingehender HTTP-Datenverkehr)" und falls gewünscht "WWW-Dienste (Eingehender HTTPS-Datenverkehr)" aus und aktivieren Sie sie per Rechts-Klick.
 
-![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren](../../images/Eingehende-Regeln-IIS.png)
+![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren](/assets/images/Eingehende-Regeln-IIS.png)
 

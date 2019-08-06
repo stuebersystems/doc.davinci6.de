@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor:
 
 5. Tragen Sie in diesem Dialogfenster unter "Name" den Wert `Access-Control-Allow-Origin` und unter "Wert" `*` ein. Bestätigen Sie mit `OK`.
 
-![ "HTTP-Antwortheader hinzufügen"](../../images/webbox-http-header.png)
+![ "HTTP-Antwortheader hinzufügen"](/assets/images/webbox-http-header.png)
 
 Nach dem gleichen Muster fügen Sie bitte auch die folgenden HTTP-Antwortheader hinzu:
 
@@ -59,15 +59,15 @@ Sollten Sie nicht alle drei Einträge finden, müssen Sie die jeweils fehlenden 
 
 2. Für `json` tragen Sie unter Dateinamenerweiterung `json` und unter MIME-Typ `application/json` ein.
   
-![ "MIME-Typ für json registrieren"](../../images/webbox-register-json.png)
+![ "MIME-Typ für json registrieren"](/assets/images/webbox-register-json.png)
 
 3. Wiederholen Sie diese kation für die foglednen Dateinamenerweiterung. Für `svg` tragen Sie unter Dateinamenerweiterung `svg` und unter MIME-Typ `image/svg+xml` ein.
   
-![ "MIME-Typ für svg registrieren"](../../images/webbox-register-svg.png)
+![ "MIME-Typ für svg registrieren"](/assets/images/webbox-register-svg.png)
 
 4. Für `woff` tragen Sie unter Dateinamenerweiterung `woff` und unter MIME-Typ `font/x-woff` ein.
   
-![ "MIME-Typ für woff registrieren"](../../images/webbox-register-woff.png)
+![ "MIME-Typ für woff registrieren"](/assets/images/webbox-register-woff.png)
 
 ## Die DAVINCI-WEBBOX testen
 
@@ -81,7 +81,7 @@ http://localhost/davinci-timetable.html
 
 Diese URL sollte Ihnen im Idealfall eine Stundenplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Ein Stundenplan in der DAVINCI-WEBBOX"](../../images/webbox-timetable.png)
+![ "Ein Stundenplan in der DAVINCI-WEBBOX"](/assets/images/webbox-timetable.png)
 
 Ein weiterer Test:
 
@@ -91,7 +91,7 @@ http://localhost/davinci-substitutions.html
 
 Diese URL sollte Ihnen im Idealfall eine Vertretungsplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"](../../images/webbox-substitutions.png)
+![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"](/assets/images/webbox-substitutions.png)
 
 !!! info "Hinweis"
 

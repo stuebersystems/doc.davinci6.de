@@ -1,10 +1,10 @@
-# Der IIS 10 Web-Server {#Der IIS 10 Web-Server}
+# Der IIS 10 Web-Server
 
 Die Internetinformationsdienste 10 (kurz IIS 10) sind Bestandteil von Windows 2016 (und Windows 10). Sie stellen u.a. einen vollständigen Web-Server bereit.
 
 Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVERS, Installation der DAVINCI WEBBOX).
 
-## Installation {#Installation}
+## Installation
 
 Gehen Sie wie folgt vor:
 
@@ -20,17 +20,17 @@ Gehen Sie wie folgt vor:
    * Webserver / Anwendungsentwicklung / ISAPI-Erweiterungen
    * Webserver / Sicherheit / Anforderungsfilterung  
 
-![Internetinformationsdienste als Windows-Feature](../../images/IIS8-Windows-Features.png)
+![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features.png)
 
 5. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
 
-## Testen {#Testen}
+## Testen
 
 Der IIS-Web-Server ist nun installiert. Probieren Sie ihn aus:
 
 * Öffnen Sie Ihren Web-Browser auf dem gleichen Computer, auf dem Sie soeben den IIS-Web-Server installiert haben und tippen Sie `http://localhost` ein. Wenn die folgende Seite in Ihrem Browser erscheint, haben Sie alles richtig gemacht:
 
-  ![IIS 10-Standardwebseite](../../images/iis-10-test.png)
+  ![IIS 10-Standardwebseite](/assets/images/iis-10-test.png)
 
 Wenn die Seite nicht erscheint, kann ein Neustart des Rechners notwendig sein.
 
@@ -46,7 +46,7 @@ Bis jetzt hat sich alles nur auf dem Computer abgespielt, auf dem Sie den IIS-We
 
 Waren alle Tests positiv, haben Sie einen einsatzbereiten IIS-Web-Server in Ihrem Netzwerk laufen.
 
-Möchten Sie, dass Ihr Web-Server auch im Internet, also auch außerhalb Ihres lokalen Netzwerk, erreichbar ist, müssen Sie noch ein paar weitere Details beachten. Das Kapitel \[Tipps zum Einrichten Ihres Netzwerks\] gibt Ihnen dazu nützliche Hinweise.
+Möchten Sie, dass Ihr Web-Server auch im Internet, also auch außerhalb Ihres lokalen Netzwerk, erreichbar ist, müssen Sie noch ein paar weitere Details beachten. Das Kapitel [Tipps zum Einrichten Ihres Netzwerks] gibt Ihnen dazu nützliche Hinweise.
 
 ## Firewall-Einstellung
 
@@ -58,7 +58,6 @@ Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die einge
 
 3. Wählen Sie die Regeln "WWW-Dienste (Eingehender HTTP-Datenverkehr)" und falls gewünscht "WWW-Dienste (Eingehender HTTPS-Datenverkehr)" aus und aktivieren Sie sie per Rechts-Klick.
 
-![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren](../../images/Eingehende-Regeln-IIS.png)
+![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren](/assets/images/Eingehende-Regeln-IIS.png)
 
-\[Tipps zum Einrichten Ihres Netzwerks\]: ../network-configuration.md
-
+[Tipps zum Einrichten Ihres Netzwerks]: ../network-configuration.md
