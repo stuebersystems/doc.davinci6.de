@@ -12,11 +12,11 @@ Dieses Kapitel beschreibt die Grundinstallation des Apache HTTP Server. Diese Gr
 
 ## Installation{#Installation}
 
-Es gibt verschiedene Möglichkeiten, den Apache HTTP Server zu installieren. Eine einfache und effektive Möglichkeit ist die Benutzung von XAMPP. XAMPP ist eine ebenfalls freie Software, die verschiedene Open-Source-Lösungen zu einem leicht zu konfigurierenden Paket zusammenfasst. Eine dieser Lösungen ist eben der Apache HTTP Server.   
+Es gibt verschiedene Möglichkeiten, den Apache HTTP Server zu installieren. Eine einfache und effektive Möglichkeit ist die Benutzung von XAMPP. XAMPP ist eine ebenfalls freie Software, die verschiedene Open-Source-Lösungen zu einem leicht zu konfigurierenden Paket zusammenfasst. Eine dieser Lösungen ist eben der Apache HTTP Server
 
-> ## warning::Wichtiger Hinweis
->
-> Apache unterstützt ISAPI-Module nur in der 32-Bit-Version. Bei einer Installation von XAMPP daher unbedingt die 32-bit-Version benutzen.
+!!! warning "Wichtig"
+
+    Apache unterstützt ISAPI-Module nur in der 32-Bit-Version. Bei einer Installation von XAMPP daher unbedingt die 32-bit-Version benutzen.
 
 Gehen Sie wie folgt vor:
 
