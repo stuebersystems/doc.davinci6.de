@@ -117,6 +117,9 @@ nav:
   - Referenzen:
     - Symbole: 01.stundenplan/ubersicht-symbole.md
     - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
+  - Datenaustausch:
+    - Mit MAGELLAN: 11.datenaustausch/magellan.md
+    - Datentransferformat: 11.datenaustausch/sdtf.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten erfassen: 02.vertretungsplan/fehlzeiten.md
