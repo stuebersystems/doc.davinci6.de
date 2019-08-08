@@ -18,32 +18,32 @@ Aufgestockte Grundkurse werden dann eingerichtet, wenn die Schüleranzahl für e
 Der Grundkurs liegt dann ganz normal mit seinen 3 Stunden parallel zu anderen Grundkursen in einem bestimmten Band, der zugehörige Lk mit seinen 2 Stunden in einem Band der Leistungskurse.
 Durch die Markierung des Grundkurses als aufgestockter Grundkurs und durch die gleiche Kursnummer achtet die Automatik darauf, dass Grundkurs und Leistungskurs am Tag nicht doppelt verplant werden. Zudem werden die Schülerzahlen für Statistikzwecke entsprechend dem Leistungskurs- bzw. dem Grundkursbereich zugeordnet (abhängig von den Vorgaben der Landesstatistik).
 
-# Neues Schuljahr
+# Neues Schuljahr mit Oberstufe
 
 Die Kursplanung der Oberstufenschüler soll in die Plandatei für das neue Schuljahr übernommen werden. Bitte beachten Sie dazu folgende Vorgehensweise in der Planneuerstellung. 
-Rufen Sie dazu über `Plan > Neu` den Planvorbereitungsassistenten auf.
 
-Ihnen stehen drei Wege zur Verfügung. Wählen Sie bitte ``Neuen Plan erstellen und Daten übernehmen`` und wählen Sie Ihre Vorjahresplandatei aus.
+1. Rufen Sie dazu über `Plan > Neu` den Planvorbereitungsassistenten auf.
+2. Ihnen stehen drei Wege zur Verfügung. Wählen Sie bitte ``Neuen Plan erstellen und Daten übernehmen`` und wählen Sie Ihre Vorjahresplandatei aus.
 
 ![Neuen Plan erstellen und Daten übernehmen](/assets/images/KP.neuesSJ.png)
 
-Klicken Sie auf `Weiter`.
+3. Klicken Sie auf `Weiter`.
 
-Wählen Sie hier bitte ``Neues Schuljahr``. Ihre Klassenkürzel werden umbenannt und die Klassenstufe wird erhöht.
+4. Wählen Sie hier bitte `Neues Schuljahr`. Ihre Klassenkürzel werden umbenannt und die Klassenstufe wird erhöht.
 
 ![Option "Neues Schuljahr"](/assets/images/KP.neuesSJ02.png)
 
-Im nächsten Fenster wählen Sie unbedingt ``Alles übernehmen``. Veranstaltungen, gesetzte Pläne, Aufsichten und die Kurszuweisung in der gymnasialen Oberstufe werden übernommen.
-
-Klicken Sie auf `Weiter`. Es wird Ihnen eine Liste aufgezeigt, die Sie bitte Schritt für Schritt durchgehen.
-
-[Nachzulesen](https://doc.davinci6-kb.stueber.de/sonstiges/schuljahreswechsel.html)
-
-Speichern Sie die neue Datei unter einem gewünschten Namen ab.
+5. Im nächsten Fenster wählen Sie unbedingt `Alles übernehmen`. Veranstaltungen, gesetzte Pläne, Aufsichten und die Kurszuweisung in der gymnasialen Oberstufe werden übernommen. 
+6. Klicken Sie auf `Weiter`. Es wird Ihnen eine Liste aufgezeigt, die Sie bitte Schritt für Schritt durchgehen.
+7. Speichern Sie die neue Datei unter einem gewünschten Namen ab.
 
 ## Stammdatenfenster
 
 Passen Sie im Stammdatenfenster Ihre Stammdaten an die neuen Gegebenheiten an. Die Klassenkürzel wurden bereits umbenannt, die Klassenstufe erhöht. Bitte kontrollieren Sie noch einmal Ihre Klassenkürzel.
+
+!!! info "Hinweis"
+
+    Eintragungen in den Felder "Lehrer 1", "Lehrer 2" sowie "Raum" müssen ggf. auch aktualisiert werden.
 
 ![Menü Stammdaten](/assets/images/KP.neuesSJ01.png)
 
@@ -57,7 +57,7 @@ Löschen Sie hier die Schüler der Klasse "14", diese haben bereits Ihre Schule 
 
 Löschen Sie anschließend im Stammdatenfenster "Klassen" die Klasse 14.
 
-## Bereich 'STUNDENPLAN'
+## Bereich STUNDENPLAN
 
 ### Gesetzte Termine löschen
 
@@ -73,10 +73,10 @@ Unter der Menügruppe `Automatik > Verplanungen zurücksetzen` oder unter `Start
 
 Um einen bestimmten oder mehrere Termine wieder aus dem Plan zu entfernen, führen Sie bitte folgende Schritte aus:
 
-1. Markieren Sie das Terminfeld des zu entfernenden Termins. 
-2. Betätigen Sie in der Menüleiste `Start > Stundenplan`  die Schaltfläche „Eintrag entfernen“.
-Der Termin wird nun aus dem Planungsfenster entfernt und befindet sich wieder in der Terminliste des „Unverplant“-Fensters.
+1. Markieren Sie das Terminfeld des zu entfernenden Termins.
+2. Betätigen Sie in der Menüleiste `Start > Stundenplan`  die Schaltfläche `Eintrag entfernen`.
+3. Der Termin wird nun aus dem Planungsfenster entfernt und befindet sich wieder in der Terminliste des „Unverplant“-Fensters.
 
-## Bereich 'KURSPLAN'
+## Bereich KURSPLAN
 
 Im Bereich  `Kursplan > Kurse` und `Kursplan > Blöcke` wurden die Blockbezeichnungen automatisch an die neue Klassenstufe angepasst. Der Block ``12#01`` wurde auf Block ``13#01`` hochgesetzt.
