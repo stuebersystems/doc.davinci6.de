@@ -52,41 +52,88 @@ Sie können die MAGELLAN-Daten in eine leere oder eine DAVINCI-Datei, die bereit
 
 #### Abteilungen
 
+| Felder                      | Hinweis                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Kürzel**, **Bezeichnung** | Der Austausch erfolgt über das Kürzel. Ist das Kürzel bereits vorhanden, wird die Abteilung aktualisiert. Ist das Kürzel nicht vorhanden wird die Abteilung hinzugefügt. |
+
+#### Lehrer
+
+| Felder                                                                               | Hinweis                                                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID, Kürzel, Nachname, Vorname, Titel, Schulnummer, Abteilungen: Abteilung.Kürzel** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in DAVINCI keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird hinzugefügt. Es werden nur aktive Lehrer aus MAGELLAN beim Abgleich berücksichtigt. |
+
+#### Fächer
+
+| Felder                                                             | Hinweis                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID, Kürzel, Schlüssel, Bezeichnung, Kategorie, Aufgabenbereich** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird das Fach hinzugefügt. |
+
+#### Fachtafeln
+
+| Felder                                                                       | Hinweis                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Kürzel, Bezeichnung, Fächer der Fachtafel: Kürzel, Unterrichtsart.Kürzel** | Der Austausch erfolgt über das Kürzel. Ist das Kürzel bereits vorhanden, wird aktualisiert. Ist das Kürzel nicht vorhanden wird die Fachtafel hinzugefügt. Fachtafeln aus MAGELLAN entsprechen Stundentafeln in DAVINCI |
+
+#### Klassen / Jahrgänge
+
+| Felder                                                                                                                                                                             | Hinweis                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ID, Kürzel, Klassenleiter 1, Klassenleiter 2, Klassenstufe, Klassenart (Kursmodus), Anzahl der Schüler, Schulnummer, Bildungsgang.Kürzel, Schulform.Kürzel, Schulstelle.Kürzel** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in DAVINCI keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird die Klasse/der Jahrgang hinzugefügt. |
+| Die Anzahl der Schüler wird nur für Oberstufenklassen übernommen.                                                                                                                  |
+
+## Daten nach MAGELLAN übergeben
+
+Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus DAVINCI füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte in der [MAGELLAN Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/preparation/) nach.
+
+### So übertragen Sie Daten von DAVINCI nach MAGELLAN
+
+1. Klicken Sie im Menüband des Programmfensters auf die Schaltfläche `Plan` und wählen Sie im Planmenü den Befehl `Importieren und Exportieren`: der Assistent `Import/Export-Assistent` wird geöffnet.
+2. Markieren Sie auf der ersten Assistentenseite im Bereich `Import` den Eintrag `Nach MAGELLAN exportieren`. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+3. Geben Sie im erscheinenden Dialogfenster `Magellan-Anmeldung` Benutzername und Kennwort des Administratorkontos ein und bestätigen Sie Ihre Zugangsdaten mit `OK`: der Assistent `Magellan-Datenaustausch` wird geöffnet.
+4. Bestätigen Sie auf der ersten Seite des Assistenten die Option `Daten aus einer SDTF-Datei nach Magellan schreiben` mit Weiter.
+5. Wählen Sie in den Feldern `Übertrage Daten in folgenden Mandanten` und `Übertrage Daten in folgendem Zeitraum` den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+
+![Hier wählen Sie den Mandanten und den Zeitraum aus, in den die Daten übertragen werden.](/assets/images/Datenaustausch/datenaustausch5.png)
+
+6. Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereiche nach MAGELLAN. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+
+![Hier wählen Sie die Daten aus, die nach MAGELLAN übertragen werden](/assets/images/Datenaustausch/datenaustausch6.png)
+
+1. Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVIDAV-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
+
+### Sie können folgende Daten nach MAGELLAN übernehmen
+
+#### Abteilungen
+
 | Felder                      | Hinweis   |
 | --------------------------- | ---------------------------- |
 | **Kürzel**, **Bezeichnung** | Der Austausch erfolgt über das Kürzel. Ist das Kürzel bereits vorhanden, wird die Abteilung aktualisiert. Ist das Kürzel nicht vorhanden wird die Abteilung hinzugefügt. |
 
 #### Lehrer
 
-| Felder                      | Hinweis   |
-| --------------------------- | ---------------------------- |
-| **Kürzel**, **Bezeichnung**, **ID** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird hinzugefügt. |
+| Felder                                      | Hinweis                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Kürzel, Nachname, Name, Soll-Berechnung** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist die ID in MAGELLAN nicht vorhanden, wird hinzugefügt. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird hinzugefügt. |
 
-#### Lehrer
+#### Lehrer-Unterricht
 
-| Felder                      | Hinweis   |
-| --------------------------- | ---------------------------- |
-| **Kürzel**, **Bezeichnung**, **ID**, **Vorname**, **Titel**, **Schulnummer**, **Abteilungen: Abteilung.Kürzel** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird hinzugefügt. Es werden nur aktive Lehrer aus MAGELLAN beim Abgleich berücksichtigt.
+| Felder                                             | Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Zugewiesener Lehrer in der Veranstaltungsliste** | Durch die Übernahme des Lehrer-Unterrichts wird pro Schüler im Register `Zeugnis > Fächer` jedem Fach, entsprechend der Unterrichtsverteilung in DAVINCI, der unterrichtende Fachlehrer zugeordnet. Pro Fach kann immer nur ein Lehrer übernommen werden. Voraussetzung für die Übernahme des Lehrer-Unterrichts ist, dass in MAGELLAN den Schülern bereits Fächer zugeordnet wurden. Auch Kurswahlen der Schüler der Oberstufe müssen bereits vorhanden sein. Außerdem müssen in DAVINCI und MAGELLAN die Kürzel der Klassen, der Fächer und der Lehrer übereinstimmen. Die Übernahme funktioniert nur, wenn neben der Option `Übernehme Lehrer-Unterricht` keine weiteren Optionen markiert sind. Bei der Übernahme des Lehrer-Unterrichts aus DAVINCI werden die in der Veranstaltungsliste der Klassen zugewiesenen Lehrer übernommen. |
 
 #### Fächer
 
-| Felder                      | Hinweis   |
-| --------------------------- | ---------------------------- |
-| **ID**, **Kürzel**,**Schlüssel**,**Bezeichnung**,**Kategorie**, **Aufgabenbereich** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird das Fach hinzugefügt.|
+| Felder  | Hinweis       |
+| ----------------|------------------------------------------ |
+| **ID**, **Kürzel**,**Schlüssel**,**Bezeichnung**,**Kategorie**, **Aufgabenbereich** | Der Austausch erfolgt über ID oder Kürzel. Hat das Fach eine ID in DAVINCI, so wird ein entsprechendes Fach mit gleicher ID in MAGELLAN gesucht. Existiert ein solches Fach in MAGELLAN, so wird es aktualisiert, andernfalls wird das Fach in MAGELLAN hinzugefügt. Hat das Fach keine ID in DAVINCI, so wird ein entsprechendes Fach mit gleichem Kürzel in MAGELLAN gesucht. Existiert ein solches Fach in MAGELLAN, so wird es aktualisiert, andernfalls wird das Fach in MAGELLAN hinzugefügt.|
 
-#### Fachtafeln
+#### Stundentafeln
 
-| Felder                      | Hinweis   |
-| --------------------------- | ---------------------------- |
-| **Kürzel**, **Bezeichnung**,**Fächer der Fachtafel**: **Kürzel** **Unterrichtsart.Kürzel** | Der Austausch erfolgt über das Kürzel. Ist das Kürzel bereits vorhanden, wird aktualisiert. Ist das Kürzel nicht vorhanden wird die Fachtafel hinzugefügt.
-Fachtafeln aus MAGELLAN entsprechen Stundentafeln in DAVINCI|
+| Felder | Hinweis |
+| ------------ | ----------------------------------------------------- |
+| **Kürzel, Bezeichnung, Fächer der Stundentafel: Fachkürzel,Unterrichtsart.Kürzel** | Der Austausch erfolgt über das Kürzel. Ist das Kürzel bereits vorhanden, wird aktualisiert. Ist das Kürzel nicht vorhanden wird die Stundentafel hinzugefügt. Die Fächer werden mit Kürzel und Unterrichtart hinzugefügt. |
 
-#### Klassen / Jahrgänge
 
-| Felder                      | Hinweis   |
-| --------------------------- | ---------------------------- |
-| **ID, Kürzel, Klassenleiter 1, Klassenleiter 2, Klassenstufe, Klassenart (Kursmodus), Anzahl der Schüler, Schulnummer, Bildungsgang.Kürzel, Schulform.Kürzel, Schulstelle.Kürzel** | Der Austausch erfolgt über ID und Kürzel. Bei gleicher ID wird aktualisiert. Ist in daVinci keine ID vorhanden, wird über das Kürzel ausgetauscht. Bei gleichem Kürzel wird aktualisiert. Ist das Kürzel nicht vorhanden wird die Klasse/der Jahrgang hinzugefügt.
-Die Anzahl der Schüler wird nur für Oberstufenklassen übernommen.|
+!!! info "Hinweis"
 
-## Daten nach MAGELLAN übergeben
-
+    Der Übertrag der Schülerkurswahlen nach MAGELLAN ist nur relevant wenn Sie das Modul DAVINCI KURSPLAN nutzen.
