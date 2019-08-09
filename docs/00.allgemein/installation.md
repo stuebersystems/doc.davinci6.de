@@ -2,42 +2,41 @@
 
 Gehen Sie wie folgt vor:
 
-* Öffnen Sie die Webseite [davinci.stueber.de/download.php] in Ihrem Web-Browser.
+* Öffnen Sie die Webseite [davinci.stueber.de/download.php](https://davinci.stueber.de/download.php) in Ihrem Web-Browser.
 
-* Klicken Sie unterhalb von DAVINCI auf die Schaltfläche `Download`, um die Installationsdatei `davinci6.msi` herunterzuladen.
+* Wählen Sie hier Schaltfläche `Download`, um die Installationsdatei `davinci6.msi` herunterzuladen.
 
-* Starten Sie die Installationsdatei ``davinci6.msi`` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
+* Starten Sie die Installationsdatei `davinci6.msi` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
 
-![Start der Installation](/assets/images/DAV.setup01.png)
+![Start der Installation](/assets/images/allgemein/allgemein1.png)
 
 Das Installationsprogramm gibt Ihnen die Möglichkeit, das Installationsverzeichnis zu ändern.
 
-![Installationsverzeichnis spezifizieren](/assets/images/enter-folder.png)
+![Installationsverzeichnis spezifizieren](/assets/images/allgemein/allgemein2.png)
   
 Wenn Sie das Installationsverzeichnis nicht geändert haben, befinden sich die Dateien nach Abschluß der Installation standardmäßig in folgenden Ordnern auf Ihrem Computer:
 
 ## Programmdaten (z.B. daVinciLook.exe)
 
-Betriebssystem             | Pfad
--------------------------- | -------------
-Windows Vista / 7 / 8 / 10 | C:\Program Files\Stueber Systems\daVinci 6
-Windows XP                 | C:\Programme\Stueber Systems\daVinci 6
+| Betriebssystem             | Pfad                                       |
+| -------------------------- | ------------------------------------------ |
+| Windows Vista / 7 / 8 / 10 | C:\Program Files\Stueber Systems\daVinci 6 |
+| Windows XP                 | C:\Programme\Stueber Systems\daVinci 6     |
 
 ## Lizenzdaten (daVinci.lic)
 
-Betriebssystem             | Pfad
--------------------------- | -------------
-Windows Vista / 7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6
-Windows XP                 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\daVinci 6
+| Betriebssystem             | Pfad |
+| -------------------------- | -------------- |
+| Windows Vista / 7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6|                                        
+| Windows XP                 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\daVinci 6 |
 
 ## Druckformate (daVinci.pfm)
 
 Die Daten der Druckformate werden in der Datei daVinci.pfm abgelegt. Diese liegt als Vorlage-Datei in folgenden Ordnern auf Ihrem Rechner:
 
-Betriebssystem             | Pfad
--------------------------- | -------------
-Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci
-Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6
+| Betriebssystem             | Pfad |                                     
+| -------------------------- | ---- |
+|  Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci|                         |        | Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6 | 
 
 ## Benutzereinstellungen (daVinci.opt)
 

@@ -1,10 +1,8 @@
 # Erste Schritte in DAVINCI
 
-Die folgenden Abschnitte erklären, wie Sie DAVINCI starten und lizenzieren können.
-
 ## Programm starten
 
-Durch die [Installation](/installation.md) von DAVINCI wird nicht automatisch eine Verknüpfung auf den Desktop erstellt.  Öffnen Sie DAVINCI daher über `Start > Alle Programme > Stueber Systems`. Sie können mit einem Rechtsklick auf die Symbole im Startmenü selbstständig eine Desktopverknüpfung anlegen, wenn Sie  dies wünschen.
+Durch die [Installation](https://doc.davinci6.stueber.de/00.allgemein/installation/) von DAVINCI wird nicht automatisch eine Verknüpfung auf den Desktop erstellt.  Öffnen Sie DAVINCI daher über `Start > Alle Programme > Stueber Systems`. Sie können mit einem Rechtsklick auf die Symbole im Startmenü selbstständig eine Desktopverknüpfung anlegen, wenn Sie dies wünschen.
 
 ## Plan-Eigenschaften
 

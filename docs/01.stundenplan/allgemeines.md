@@ -39,17 +39,11 @@ DAVINCI ist eine für Windows XP bis 10 entwickelte Anwendung, die dank ihrer Of
 ## Technische Highlights
 
 * Mehrbenutzerfähig mit Benutzerverwaltung und Rechtesystem
-
 * Mehrer Planer via Internet gemeinsam (z.B. abteilungsweise) planen
-
 * Mandantenfähig (z.B. Mandant je Schule)
-
 * Skript-basierte Open Source Fachwahlüberprüfung
-
 * Dynamische und statische HTML-Ausgabe HTML5/CSS/JavaScript für nahtlose Integration in andere Anwendungen
-
 * JSON-Webservice zur Integration in andere Anwendungen
-
 * XML-basierte Datenbank
 
 ## Stundenplan erstellen
