@@ -27,7 +27,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 Veröffentlichung: 30.07.2019
 Dateiformat: 6.0.171
 
-NEW: Neue Nachrichtenfunktion: Die DAVINCI-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DAVINCI und DAVINCI LOOK.
+* NEW: Neue Nachrichtenfunktion: Die DAVINCI-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DAVINCI und DAVINCI LOOK.
 
 ### DRUCK
 
@@ -49,7 +49,7 @@ Dateiformat: 6.0.171
 
 ### SERVER
 
-CHANGE: Ein Benutzer, der einem Mandanten zugeordnet ist und als Admin gekennzeichnet ist hat folgende Rechte:
+* CHANGE: Ein Benutzer, der einem Mandanten zugeordnet ist und als Admin gekennzeichnet ist hat folgende Rechte:
 
 1. Alle Benutzer seines Mandanten bearbeiten und löschen. Allerdings kann nicht die Mandantenzugehörigkeit geändert werden.
 2. Alle Benutzer seines Mandanten exportieren.
