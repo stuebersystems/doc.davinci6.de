@@ -133,6 +133,7 @@ Das Dialogfenster der DAVINCI-SERVER-Verwaltung ist in fünf Bereiche gegliedert
 Hier können Sie den Starttyp des DAVINCI-SERVERS festlegen und den DAVINCI-SERVER manuell starten oder stoppen.
 
 #### Server lizenzieren
+
 Analog zu DAVINCI benötigt der DAVINCI-SERVER eine Lizenz, um mit dem DAVINCI INFOSERVER kommunizieren zu können. So geben Sie die Lizendaten ein:
 
 * Betätigen Sie die Schaltfläche `Lizenz` links unten im Programmfenster.
