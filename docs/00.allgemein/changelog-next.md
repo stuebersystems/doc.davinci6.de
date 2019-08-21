@@ -34,6 +34,8 @@
 
 ### LOOK
 
+FIX: Die in DAVINCI LOOK bzw. im VERTRETUNGSPLAN gebuchten Ressourcen werden im entsprechenden Ressourcenplan (über Auswahlfenster "verfügbare Ressourcen" zu öffnen) wieder angezeigt
+
 ### DRUCK
 
 ### HTML Export
