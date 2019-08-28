@@ -6,7 +6,7 @@ DAVINCI LOOK ist ein frei verfügbares Anzeigeprogramm für DAVINCI Pläne. Dies
 
 DAVINCI LOOK ist einfach zu installieren und kann sowohl in der Einzelplatzvariante mit einer lokalen Plandatei arbeiten, als auch sich am DAVINCI ENTERPRISE Server anmelden und über eine Internetverbindung auf eine zentrale Plandatei zugreifen. DAVINCI LOOK ist frei verfügbar und kann von jedem Kollegen von unseren Internetseiten geladen werden.
 
-## Funktionen
+### Funktionen
 
 * Lehrer können Pläne ansehen und ggf. Räume, Ressourcen (z.B. Beamer, Audiogeräte), Zusatzunterricht und ihre Fehlzeiten selbst eintragen
 
@@ -18,11 +18,11 @@ DAVINCI LOOK ist einfach zu installieren und kann sowohl in der Einzelplatzvaria
 
 * Notfallnachrichten senden
 
-## Self Service
+### Self Service
 
 Das Buchen von Räumen, Ressourcen, Zusatzunterricht und Fehlzeiten erfordert Benutzer und Rechte. Daher ist für diese Funktionen eine DAVINCI ENTERPRISE Lizenz erforderlich.
 
-## E-Boards
+### E-Boards
 
 DAVINCI LOOK kann für E-Boards (Public Displays bzw. digitale Informationssysteme, Stichwort: "Digitales Schwarzes Brett") in zwei Szenarien verwendet werden:
 
@@ -32,7 +32,7 @@ DAVINCI LOOK kann für E-Boards (Public Displays bzw. digitale Informationssyste
 
 !!! info "Hinweis"
 
-  Public Displays sind Bildschirme mit integrierten Computern, die in der Regel speziell für den 24-Stunden-Dauereinsatz in öffentlichen Bereichen ausgelegt sind. Die Komponenten sind hochwertiger und somit robuster und weniger störanfällig als herkömmliche Displays.
+    Public Displays sind Bildschirme mit integrierten Computern, die in der Regel speziell für den 24-Stunden-Dauereinsatz in öffentlichen Bereichen ausgelegt sind. Die Komponenten sind hochwertiger und somit robuster und weniger störanfällig als herkömmliche Displays.
 
 ## Installation
 
@@ -161,7 +161,6 @@ Klicken Sie auf `Publizieren > Gruppen` benachrichtigen. Im Dialogfenster "Mitte
 ![Dialogfenster Mitteilung senden](/assets/images/send-message.png)
 
 !!! info "Hinweis"
-
      Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den Versand von E-Mails muß der Stundenplaner im DAVINCI Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
 
 ## Notfallmitteilung senden
@@ -171,7 +170,6 @@ Klicken Sie auf `Publizieren > Notfall senden`. Im Dialogfenster "Notfallmitteil
 ![Dialogfenster `Notfallmitteilung senden`](/assets/images/emergency-message.png)
 
 !!! info "Hinweis"
-
     Für das Versenden von E-Mails und SMS benötigen Sie das DAVINCI-Zusatzmodul LIVEMESSAGE. Für den E-Mail Versand muß der Stundenplaner im DAIVNCI-Client in der Ansicht `Stammdaten > Lehrer` die E-Mail Adressen der Kollegen eingegeben haben.
 
 ## Pläne drucken
@@ -191,7 +189,6 @@ Wenn Sie zu einem bestimmten Zeitraum für den Unterricht nicht zur Verfügung s
 Der Befehl `Neu > Neue Fehlzeit` steht nur dann zur Verfügung, wenn Sie mit dem DAVINCI ENTERPRISE SERVER arbeiten und Ihr Administrator Ihnen die entsprechenden Rechte zugewiesen hat. Anderfalls ist der Befehl grau, d.h. nicht verfügbar.
 
 !!! info "Hinweis"
-
     Fehlzeiten können nur in Lehrerplänen eingegeben werden. Klassenfehlzeiten und Raumfehlzeiten können ausschießlich vom Stundenplaner im DAVINCI-Client eingetragen werden.
 
 ## Räume buchen
