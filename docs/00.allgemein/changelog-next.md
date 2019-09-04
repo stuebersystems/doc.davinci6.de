@@ -20,7 +20,7 @@
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
-## DAVINCI Version 6.5.59
+## DAVINCI Version 6.5.60
 
 ### SERVER
 
@@ -33,8 +33,6 @@
 ### KURSPLAN
 
 ### LOOK
-
-FIX: Die in DAVINCI LOOK bzw. im VERTRETUNGSPLAN gebuchten Ressourcen werden im entsprechenden Ressourcenplan (über Auswahlfenster "verfügbare Ressourcen" zu öffnen) wieder angezeigt
 
 ### DRUCK
 

@@ -22,6 +22,23 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.59
+
+Veröffentlichung: 04.09.2019
+Dateiformat: 6.0.171
+
+### ALLGEMEIN
+
+* NEW: Datenabgleich mit MAGELLAN 7 möglich
+* CHANGE: 12_SHL_Lehrer-Soll-Schluessel.keys
+* CHANGE: 23_SHL_Unterrichtsarten.keys
+* CHANGE: 25_SHL_Veranstaltungskategorien.keys
+* CHANGE: 25_SHL_Veranstaltungskategorien.keys
+
+### LOOK
+
+* FIX: Die in DAVINCI LOOK bzw. im VERTRETUNGSPLAN gebuchten Ressourcen werden im entsprechenden Ressourcenplan (über Auswahlfenster "verfügbare Ressourcen" zu öffnen) wieder angezeigt
+
 ## DAVINCI Version 6.5.58
 
 Veröffentlichung: 30.07.2019
@@ -54,8 +71,6 @@ Dateiformat: 6.0.171
 1. Alle Benutzer seines Mandanten bearbeiten und löschen. Allerdings kann nicht die Mandantenzugehörigkeit geändert werden.
 2. Alle Benutzer seines Mandanten exportieren.
 3. Neue Benutzer importieren, die dann alle automatisch seinem Mandanten zugeordnet werden
-
-### INFOSERVER
 
 ### STUNDENPLAN
 
@@ -114,7 +129,7 @@ Dateiformat: 6.0.171
 ### KALENDER
 
 * NEW: Neue Kalender für 2019/2020 verfügbar.
-
+  
 ### Sonstiges
 
 * FIX: Lanis Export UTF 8 Format
