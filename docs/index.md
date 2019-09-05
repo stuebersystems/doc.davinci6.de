@@ -15,19 +15,19 @@ DAVINCI wird eingesetzt von:
 Die gesamte Dokumentation ist unterteilt in die Bereiche:
 
 * [DAVINCI STUNDENPLAN](01.stundenplan/allgemeines.md)
-* [DAVINCI VERTRETUNGSPLAN](/02.vertretungsplan/allgemeines.md)
-* [DAVINCI KURSPLAN](/03.kursplan/allgemeines.md)
-* [DAVINCI RESSOURCENPLAN](/04.ressourcenplan/allgemeines.md)
-* [DAVINCI LOOK](/05.look/allgemeines.md)
-* [DAVINCI SERVER](/06.server/allgemeines.md)
-* [DAVINCI EXPLORER](/07.explorer/allgemeines.md)
-* [DAVINCI ANALYTICS](/08.analytics/allgemeines.md)
-* [DAVINCI INFOSERVER](/09.infoserver/allgemeines.md)
+* [DAVINCI VERTRETUNGSPLAN](02.vertretungsplan/allgemeines.md)
+* [DAVINCI KURSPLAN](03.kursplan/allgemeines.md)
+* [DAVINCI RESSOURCENPLAN](04.ressourcenplan/allgemeines.md)
+* [DAVINCI LOOK](05.look/allgemeines.md)
+* [DAVINCI SERVER](06.server/allgemeines.md)
+* [DAVINCI EXPLORER](07.explorer/allgemeines.md)
+* [DAVINCI ANALYTICS](08.analytics/allgemeines.md)
+* [DAVINCI INFOSERVER](09.infoserver/allgemeines.md)
 
 Das Kapitel "ALLGEMEINES" ist unterteilt in die Abschnitte:
 
-* [Schulungen](/00.allgemein/allgemeines.md)
-* [Änderungen](/00.allgemein/changelog.md)
-* [Installation](/00.allgemein/installation.md)
-* [Updates](/00.allgemein/updates.md)
-* [Regionales](/10.regionales/allgemeines.md)
+* [Schulungen](00.allgemein/allgemeines.md)
+* [Änderungen](00.allgemein/changelog.md)
+* [Installation](00.allgemein/installation.md)
+* [Updates](00.allgemein/updates.md)
+* [Regionales](10.regionales/allgemeines.md)
