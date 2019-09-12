@@ -22,6 +22,15 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.60
+
+Veröffentlichung: 12.09.2019
+Dateiformat: 6.0.171
+
+### ALLGEMEIN
+
+* NEW: 13_NRW_Lehrer-Soll-Schluessel.keys
+
 ## DAVINCI Version 6.5.59
 
 Veröffentlichung: 04.09.2019
