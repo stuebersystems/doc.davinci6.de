@@ -31,6 +31,9 @@
 ### VERTRETUNGSPLAN
 
 ### KURSPLAN
+* FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
+
+
 
 ### LOOK
 
