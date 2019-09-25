@@ -28,12 +28,19 @@
 
 ### STUNDENPLAN
 
+* FIX: Kernzeiten werden nicht mehr wie Sperzeiten interpretiert
+* NEW: Auswahlfenster - Shortcut "Strg + F" für Auswahlfenster Fächer  
+  
 ### VERTRETUNGSPLAN
 
+* FIX: frei gewordener Raum(z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
+* FIX: Lehrer übernimmt Vertretung und wird dann selbst krank
+  
 ### KURSPLAN
+
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
-
-
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
+* FIX. : fälschlichwerweise angezeigt Konflikt werden über`Extras > Plandatei aufräumen` gelöscht
 
 ### LOOK
 
