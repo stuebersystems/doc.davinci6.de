@@ -29,7 +29,8 @@
 ### STUNDENPLAN
 
 * FIX: Kernzeiten werden nicht mehr wie Sperzeiten interpretiert
-* NEW: Auswahlfenster - Shortcut "Strg + F" für Auswahlfenster Fächer  
+* NEW: Auswahlfenster - Shortcut "Strg + F" für Auswahlfenster Fächer
+* FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
   
 ### VERTRETUNGSPLAN
 
