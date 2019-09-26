@@ -35,22 +35,18 @@
 
 * FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
 * FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
+* NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
+![Änderungsliste `Datumzellen zusammenfassen` aktiviert](../assets/images/liesmich/6.5.61.02.png)
+![Änderungsliste `Datumzellen zusammenfassen` nicht aktiviert](../assets/images/liesmich/6.5.61.03.png)
   
 ### KURSPLAN
 
-<<<<<<< HEAD
 * FIX: `Kursplan > Fachwahlen` > alle Fachwahlen markieren wieder möglich
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
   
 ![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
 
 * FIX. : fälschlichwerweise angezeigte Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
-=======
-* FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
-* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
-* FIX. : fälschlichwerweise angezeigt Konflikt werden über`Extras > Plandatei aufräumen` gelöscht
-* FIX: Ausdruck | Kursliste - Designänderungen werden  übernommen
->>>>>>> 24abcabf5c0136221a47824ac38d4b7db2b9973b
 
 ### LOOK
 
