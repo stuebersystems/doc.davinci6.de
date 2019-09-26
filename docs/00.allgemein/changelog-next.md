@@ -36,7 +36,9 @@
 * FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
 * FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
 * NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
+  
 ![Änderungsliste `Datumzellen zusammenfassen` aktiviert](../assets/images/liesmich/6.5.61.02.png)
+
 ![Änderungsliste `Datumzellen zusammenfassen` nicht aktiviert](../assets/images/liesmich/6.5.61.03.png)
   
 ### KURSPLAN
