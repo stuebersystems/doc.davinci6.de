@@ -38,15 +38,24 @@
   
 ### KURSPLAN
 
+<<<<<<< HEAD
 * FIX: `Kursplan > Fachwahlen` > alle Fachwahlen markieren wieder möglich
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
   
 ![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
 
 * FIX. : fälschlichwerweise angezeigte Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
+=======
+* FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
+* FIX. : fälschlichwerweise angezeigt Konflikt werden über`Extras > Plandatei aufräumen` gelöscht
+* FIX: Ausdruck | Kursliste - Designänderungen werden  übernommen
+>>>>>>> 24abcabf5c0136221a47824ac38d4b7db2b9973b
 
 ### LOOK
 
+* FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
+  
 ### DRUCK
 
 ### HTML Export
