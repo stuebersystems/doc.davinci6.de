@@ -41,9 +41,12 @@
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
 * FIX. : fälschlichwerweise angezeigt Konflikt werden über`Extras > Plandatei aufräumen` gelöscht
+* FIX: Ausdruck | Kursliste - Designänderungen werden  übernommen
 
 ### LOOK
 
+* FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
+  
 ### DRUCK
 
 ### HTML Export
