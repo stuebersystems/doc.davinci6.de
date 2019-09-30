@@ -28,14 +28,10 @@
 
 ### STUNDENPLAN
 
-<<<<<<< HEAD
-* FIX: Kernzeiten werden nicht mehr wie Sperzeiten interpretiert
+* FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
 * NEW: Auswahlfenster - Shortcut "Strg + F" für Auswahlfenster Fächer
 * FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
-=======
-* FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
-* NEW: Auswahlfenster - Shortcut `Strg + F` für Auswahlfenster Fächer  
->>>>>>> eb66ef30a29347f847b43ee1ab0a57dad9b83e77
+* FIX:  `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
   
 ### VERTRETUNGSPLAN
 
