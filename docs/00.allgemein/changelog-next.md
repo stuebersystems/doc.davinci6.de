@@ -66,3 +66,5 @@
 ### HTML Export
 
 ### Sonstiges
+
+* FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
