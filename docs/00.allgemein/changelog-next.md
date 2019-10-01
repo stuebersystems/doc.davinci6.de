@@ -29,9 +29,10 @@
 ### STUNDENPLAN
 
 * FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
-* NEW: Auswahlfenster - Shortcut "Strg + F" für Auswahlfenster Fächer
+* NEW: Auswahlfenster - Shortcut `Strg + F`für Auswahlfenster Fächer
 * FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
-* FIX:  `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
+* FIX: `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
+* FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
   
 ### VERTRETUNGSPLAN
 
@@ -47,15 +48,10 @@
 ### KURSPLAN
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
-* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
-* FIX. : fälschlichwerweise angezeigt Konflikt werden über`Extras > Plandatei aufräumen` gelöscht
-* FIX: Ausdruck | Kursliste - Designänderungen werden  übernommen
+* FIX: fälschlichwerweise angezeigt Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
 * FIX: `Kursplan > Fachwahlen` > alle Fachwahlen markieren wieder möglich
-* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
-  
-![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
 
-* FIX. : fälschlichwerweise angezeigte Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
+![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
 
 ### LOOK
 
@@ -63,6 +59,10 @@
   
 ### DRUCK
 
+* FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
+  
 ### HTML Export
 
 ### Sonstiges
