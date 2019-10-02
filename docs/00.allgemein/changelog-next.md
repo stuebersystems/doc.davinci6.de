@@ -33,7 +33,8 @@
 * FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
 * FIX: `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
 * FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
-* FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer
+* FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer*
+* FIX
   
 ### VERTRETUNGSPLAN
 
