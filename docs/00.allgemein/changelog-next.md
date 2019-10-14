@@ -34,7 +34,7 @@
 * FIX: `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
 * FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
 * FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer*
-* FIX
+* FIX: Summen für periodische Veranstatlungen, deren Periode unter `Start > Veranstaltung > Veranstaltung bearbeiten` definiert wurde korrigiert
   
 ### VERTRETUNGSPLAN
 
@@ -53,13 +53,23 @@
 * FIX: fälschlichwerweise angezeigt Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
 * FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
 * FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile
+* FIX: Nachträgliches Ändern eines Kurses in Bereich `Kursplan > Schüler` sofortige Aktualisierung im Blockfenster
+
 
 ### LOOK
 
 * FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
 * FIX: Lehrersuche über Suchfeld korrigiert (Wechsel von Lehrer zu Raum und dann wieder zu Lehrerplan führte zu Wechsel in falschen Lehrerplan)
   
+
+### RESSOURCENPLAN
+
+* FIX: `Stammdaten > Ressourcen` Kategorie korrigiert
+
+
 ### DRUCK
+
+
 
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
