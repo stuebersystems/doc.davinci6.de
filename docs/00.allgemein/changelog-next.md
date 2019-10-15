@@ -35,7 +35,12 @@
 * FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
 * FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer*
 * FIX: Summen für periodische Veranstatlungen, deren Periode unter `Start > Veranstaltung > Veranstaltung bearbeiten` definiert wurde korrigiert
-  
+* FIX: `Stundenplan > Ansicht > Anordnung > Filter laden` Access Violation nach Aufruf von Filter laden behoben
+* FIX: `Stammdaten > Lehrer` - Sortierung nach "Name" klappt  
+* FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
+* NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
+* NEW: `Stundenplan > Unterrichtsmatrix` Passende Lehrer 2. Lehrer kann über `Hinzufügen` hinzugefügt werden
+
 ### VERTRETUNGSPLAN
 
 * NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
@@ -46,6 +51,9 @@
   
 * FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
 * FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
+* FIX: Fehlzeit Lehrers wurde bereits vertreten, dann wird eine Raumfehlzeit erzeugt, die ursprüngliche Lehrerfehlzeit wird nun wieder mit dem Status "Offen" in der Liste der offenen Vertretungen angezeigt
+* FIX:  indirekte Vertretungen mit zuvor erfasster Raumänderung - "Lehrer freistellen" wird angeboten
+* FIX: `Èxtras > Plandatei aufräumen` bwawitigt Restfragmente in der Ansicht `Vertretungsplan > Vertretungen` wenn man Perioden nach Eintrag von Fehlzeiten geändert im Stammdatenfenster geändert hat, werden in der Liste der offenen Vertretungen Elemente angezeigt, die es so aber nicht mehr im Planfenster gibt
 
 ### KURSPLAN
 
