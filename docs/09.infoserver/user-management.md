@@ -85,7 +85,7 @@ Um nicht für einzelne Benutzer die Rechte zuordnen zu müssen, legen Sie sich B
 Welche Benutzergruppen Sie benötigen, hängt davon ab für welche Gruppen Sie Inhalte publizieren möchten.  Sicher benötigen Sie eine Gruppe für die Lehrer und für die Klassen. Sollen zum Beispiel Oberstufenschüler auch den individuellen Plan sehen können, benötigen Sie eine weitere Benutzergruppe.
 Erzeugen Sie im DAVINCi-EXPLORER auf der Unterkarte `Benutzergruppen`über die Schaltfläche `Hinzufügen` neue Benutzergruppen. Mit einem Doppelklick auf die angelegten Benutzergruppen können Sie Benutzer per Mehrfachmarkierung hinzufügen.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
     Bitte achten Sie darauf, dass ein Benutzer möglichst nur in einer Benutzergruppe enthalten sind oder die Benutzergruppen inhaltlich nur Teilbereiche abdecken, um gegensätzliche Rechtezuweisungen zu vermeiden.
 
@@ -112,7 +112,9 @@ Im DAVINCI-EXPLORER können Sie für den "Webuser" und die  Benutzergruppen unte
 * HTML exportieren erlaubt
 * XML und HTML exportieren erlaubt
 
-Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden. **Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**
+!!! warning "Wichtig"
+
+    Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden. **Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**
 
 ### DAVINCI WEBBOX Logout/Login anzeigen
 
