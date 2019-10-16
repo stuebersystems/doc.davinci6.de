@@ -173,6 +173,7 @@ nav:
     - 5. DAVINCI-MOBILE: 
       - Allgemein: 09.infoserver/setup-mobile/README.md
       - Voraussetzungen: 09.infoserver/setup-mobile/README.md
+  - Veröffentlichungen: 02.vertretungsplan/veroeffentlichung.md     
   - Sicherheit: 09.infoserver/security.md
   - Netzwerktipps: 09.infoserver/network-configuration.md
   - Netzwerke verbinden: 09.infoserver/powershell.md
