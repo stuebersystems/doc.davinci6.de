@@ -7,10 +7,10 @@ Die grundlegende Vorgehensweise sieht wie folgt aus:
 1. Benutzernamen in DAVINCI festlegen **=> bitte keine Umlaute verwenden!**
 2. Benutzernamen aus DAVINCI exportieren und in den DAVINCI EXPLORER importieren
 3. Kennungen erzeugen, ggfs. Benutzerdaten exportieren
-4. **"Webuser" für die Anmeldung des INFOSERVERS am DAVINCI SERVER einrichten**
-5. Benutzergruppen definieren, Benutzer zuordnen
-6. Benutzer und Benutzergruppen der Plandatei zuweisen
-7. Richtlinien für Benutzer und Benutzergruppen zuweisen
+4. Benutzergruppen definieren, Benutzer zuordnen
+5. Benutzer und Benutzergruppen der Plandatei zuweisen
+6. Richtlinien für Benutzer und Benutzergruppen zuweisen
+7. **"Webuser" für die Anmeldung des INFOSERVERS am DAVINCI SERVER einrichten**
 
 ## Benutzernamen in DAVINCI festlegen
 
@@ -69,16 +69,6 @@ Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](/07.
 
     Ein Benutzer im DAVINCI-Explorer vom Typ "Lehrer", "Klasse" bzw. "Schüler" muss immer eine korrespondierende Kennung in der dem DAVINCI-INFOSERVER zugeordenten Plandatei haben, damit diese Benutzer sich korrekt in der DAVINCI-APP anmelden kann.
 
-## Benutzer "Webuser" für den Infoserver einrichten
-
-Benutzer für Klassen, Lehrer oder Schüler richten Sie ein, damit geklärt ist, was der einzelne Benutzer später nach der Anmeldung an der DAVINCI WEBBOX (PC) oder in DAVINCI MOBILE (Tablet, Smartphone) ansehen kann.
-
-!!! info "Hinweis"
-
-    Es muss zusätzlich ein Benutzer angelegt werden, über dessen Rechte definiert wird, was ohne Anmeldung in der WEBBOX sichtbar ist. Dieser Benutzer meldet sich später auch im Hintergrund am DAVINCI SERVER an, um die von Ihnen gestatteten Daten abzuholen.  Legen Sie einen Benutzer an, nennen Sie ihn "Webuser", vergeben ein Passwort und weisen Sie ihm bitte **keine** Administratorenrechte zu.
-
-Dieser Benutzer wird im nächsten Schritt dem Arbeitsbereich zugewiesen, mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-SERVER  unter `Start > Systemsteuerung >  DAVINCI Infoserver > Server-Verbindung` verwendet.
-
 ## Benutzergruppen einrichten
 
 Um nicht für einzelne Benutzer die Rechte zuordnen zu müssen, legen Sie sich Benutzergruppen an, weisen den Benutzergruppen die Benutzergruppen zu, ordnen die Benutzergruppen der Plandatei zu und vergeben dann die Rechte.
@@ -102,35 +92,24 @@ Auf der Unterkarte `Plandateien` wählen Sie anschließend den `Arbeitsbereich` 
 
 ## Richtlinien für DAVINCI INFOSERVER zuordnen
 
-Im DAVINCI-EXPLORER können Sie für den "Webuser" und die  Benutzergruppen unter den "Richtlinien für DAVINCI INFOSERVER”  bestimmen, welche Rechte der Benutzer für die betreffende Plandatei erhalten soll.
+Im DAVINCI-EXPLORER können Sie für die  Benutzergruppen unter den "Richtlinien für DAVINCI INFOSERVER”  bestimmen, welche Rechte der Benutzer für die betreffende Plandatei erhalten soll.
 
 ![Richtlinien Infoserver](/assets/images/richtlinien_infoserver.png)
 
-### Daten exportieren
+|Richtlinie|Optionen|
+|--|--|
+|**Daten exportieren**|* Nicht erlaubt|
+| |* HTML exportieren erlaubt|
+| |* XML und HTML exportieren erlaubt|
+| |Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden.<br/>**Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**|
+|**DAVINCI WEBBOX Logout/Login anzeigen**|* Ja|
+| |* Nein|
+| |Möchten Sie, dass für die DAVINCI WEBBOX **der Schalter zum Aufruf des Anmeldefenster gezeigt wird**, dann wählen Sie bitte "Ja". Wenn Sie in der DAVINCI WEBBOX Inhalte zeigen möchten, die alle sehen dürfen, können Sie den Schalter zum Aufruf des Anmeldefenster mit der Auswahl "Nein" ausblenden.|
+|**DAVINCI WEBBOX/MOBILE Lehrernamen anzeigen**|* Ja|
+| |* Nein|
+| |Hier können Sie entscheiden, ob der Lehrer in der DAVINCI WEBBOX und der App DAVINCI MOBILE im Stundenplan und **in der Vertretungsliste in der Spalte "Vertreter" mit seinem Namen (Auswahl JA) oder nur mit seinem Kürzel (Auswahl NEIN) angezeigt werden soll**.|
 
-* Nicht erlaubt
-* HTML exportieren erlaubt
-* XML und HTML exportieren erlaubt
-
-!!! warning "Wichtig"
-
-    Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden. **Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**
-
-### DAVINCI WEBBOX Logout/Login anzeigen
-
-* Ja
-* Nein
-
-Möchten Sie, dass für die DAVINCI WEBBOX **der Schalter zum Aufruf des Anmeldefenster gezeigt wird**, dann wählen Sie bitte "Ja". Wenn Sie in der DAVINCI WEBBOX Inhalte zeigen möchten, die alle sehen dürfen, können Sie den Schalter zum Aufruf des Anmeldefenster mit der Auswahl "Nein" ausblenden.
-
-### DAVINCI WEBBOX/MOBILE Lehrernamen anzeigen
-
-* Ja
-* Nein
-
-Hier können Sie entscheiden, ob der Lehrer in der DAVINCI WEBBOX und der App DAVINCI MOBILE im Stundenplan und **in der Vertretungsliste in der Spalte "Vertreter" mit seinem Namen (Auswahl JA) oder nur mit seinem Kürzel (Auswahl NEIN) angezeigt werden soll**.
-
-### Stundenpläne anzeigen
+**Stundenpläne anzeigen**
 
 Folgende Richtlinien stehen zur Auswahl:
 
@@ -163,30 +142,6 @@ In Abhängigkeit von den Rechten, die im DAVINCI-EXPLORER eingestellt worden sin
 | 5 | Übersichtspläne: Alle Klassen-/Lehrer-Raumpläne heute |
 | 6 | Gebäudeplan: Was wird gerade wo unterrichtet? |
 
-## Beispiele für den "Webuser"
-
-!!! info "Hinweis"
-
-    Mit diesen Einstellungen legen Sie fest, was genau gezeigt wird, wenn man die Webbox aufruft. Das könnten zum Beispiel nur Raumpläne sein, nur die Vertretungsliste oder eben auch kein Inhalt, sondern nur das Anmeldefenster.
-
-| Richtlinie | Empfehlung |
-| --- | --- |
-| Daten exportieren | Für den Funktionstest des DAVINCI INFOSERVERS, wählen Sie "XML und HTML exportieren erlaubt".<br/> Möchten Sie nur mit der DAVINCI WEBBOX und DAVINCI MOBILE arbeiten, wählen Sie bitte "Nicht erlaubt". |
-| DaVinci-Webbox LogIn/LogOut anzeigen | Möchten Sie, dass kein Zugriff ohne vorherige Anmeldung möglich ist, wählen Sie bitte "Ja". |
-| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/>Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". |
-
-!!! info "Hinweis"
-
-    Wenn Sie für den Webuser unter "Stundenpläne anzeigen" den Wert "Nicht erlaubt" wählen, verwenden Sie bitte den Parameter "account=private" in Ihrer URL, damit nicht die Fehlermeldung "901: Forbidden (error)" gezeigt wird.
-
-```
-http://Ihr Server/davinci-timetable.html?**account=private**
-```
-
-![Start der WEBBOX ohne den Parameter account=private](/assets/images/wb.ohne.parameter.png)
-
-![Start der WEBBOX mit dem Parameter account=private](/assets/images/wb.mit.parameter.png)
-
 ## Kollegen und Schulleitung
 
 Der Gesamtplaner sollte die Richtlinie “Master” erhalten. Kollegen sollten Sie die Richtlinie “Lehrer” zuweisen. Damit können sie zwar den eigenen Plan aber keinen anderen sehen.
@@ -218,3 +173,48 @@ Hier gelten die analogen Regeln, die schon zuvor bei den Kindern der Eltern besc
 ### Lehrer mit Kindern an der Schule
 
 Auch hier gelten vergleichbare Regeln wie bei den Kindern der Eltern. Wenn der Lehrer gleichzeitig seinen Stundenplan und den seines Kindes sehen möchte, müssen auch hier die Benutzernamen und Kennwörter durch Komma konkateniert bei Benutzername und Kennwort in den Einstellungen von DAVINCI-MOBILE eingegeben werden.
+
+## Benutzer "Webuser" für den Infoserver einrichten
+
+Benutzer für Klassen, Lehrer oder Schüler richten Sie ein, damit geklärt ist, was der einzelne Benutzer später nach der Anmeldung an der DAVINCI WEBBOX (PC) oder in DAVINCI MOBILE (Tablet, Smartphone) ansehen kann.
+
+!!! warning "Wichtig"
+
+    Es muss zusätzlich ein Benutzer angelegt werden, über dessen Rechte definiert wird, was ohne Anmeldung in der WEBBOX sichtbar ist. Dieser Benutzer meldet sich später auch im Hintergrund am DAVINCI SERVER an, um die von Ihnen gestatteten Daten abzuholen.  Legen Sie einen Benutzer an, nennen Sie ihn "Webuser", vergeben ein Passwort und weisen Sie ihm bitte **keine** Administratorenrechte zu.
+
+### Webuser anlegen
+
+Den Benutzer "Webuser" legen Sie im DAVINCI EXPLORER auf der Karte Benutzer an und weisen ihm **keine** Administratorenrechte zu.
+
+### Webuser zuordnen
+
+Weisen Sie diesen neuen Benutzer bitte **keiner** Benutzergruppe zu, sondern wechseln Sie auf die Karte `Plandateien`, markieren auf der linken Seite bitte den `Arbeitsbereich`, klicken dann links oben auf `Richtlinien` und fügen den Benutzer auf der Unterkarte `Benutzer` über die Schaltfläche `Hinzufügen` hinzu.
+
+![Webuser dem Arbeitsbereich zuweisen](/assets/images/webuser.png)
+
+mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-SERVER  unter `Start > Systemsteuerung >  DAVINCI Infoserver > Server-Verbindung` verwendet.
+
+## Berechtigungen für den "Webuser"
+
+!!! info "Hinweis"
+
+    Mit diesen Einstellungen legen Sie fest, was genau gezeigt wird, wenn man die Webbox aufruft. Das könnten zum Beispiel nur Raumpläne sein, nur die Vertretungsliste oder eben auch kein Inhalt, sondern nur das Anmeldefenster.
+
+| Richtlinie | Empfehlung |
+| --- | --- |
+| Daten exportieren | Für den Funktionstest des DAVINCI INFOSERVERS, wählen Sie "XML und HTML exportieren erlaubt".<br/> Möchten Sie nur mit der DAVINCI WEBBOX und DAVINCI MOBILE arbeiten, wählen Sie bitte "Nicht erlaubt". |
+| DaVinci-Webbox LogIn/LogOut anzeigen | Möchten Sie, dass kein Zugriff ohne vorherige Anmeldung möglich ist, wählen Sie bitte "Ja". |
+| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/>Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". |
+
+!!! info "Hinweis"
+
+    Wenn Sie für den Webuser unter "Stundenpläne anzeigen" den Wert "Nicht erlaubt" wählen, verwenden Sie bitte den Parameter "account=private" in Ihrer URL, damit nicht die Fehlermeldung "901: Forbidden (error)" gezeigt wird.
+
+```
+http://Ihr Server/davinci-timetable.html?**account=private**
+```
+
+
+![Start der WEBBOX ohne den Parameter account=private](/assets/images/wb.ohne.parameter.png)
+
+![Start der WEBBOX mit dem Parameter account=private](/assets/images/wb.mit.parameter.png)
