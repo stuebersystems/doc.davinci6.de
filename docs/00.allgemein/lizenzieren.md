@@ -38,7 +38,7 @@ Die DAVINCI Lizenz erfassen Sie üblicherweise beim Erststart von DAVINCI im Wil
 * Lizenzdaten von Hand eingeben
 * Lizenzdaten importieren
 
-!! info "Hinweis"
+!!! info "Hinweis"
 
     Eine Lizenz für alle Rechner? Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen lassen. Bitte lesen Sie dazu das Kapitel "Die Pathdatei".
 
