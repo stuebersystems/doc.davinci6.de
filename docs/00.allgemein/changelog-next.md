@@ -35,6 +35,8 @@
 * FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
 * FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer*
 * FIX: Summen für periodische Veranstatlungen, deren Periode unter `Start > Veranstaltung > Veranstaltung bearbeiten` definiert wurde korrigiert
+* FIX: `Start > Automatik` Automatikroutine verbessert
+* FIX: `Stammdaten > Ressourcen` Spalte Rücklaufzeit kann editiert werden
   
 ### VERTRETUNGSPLAN
 
@@ -66,6 +68,7 @@
  ![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
 
 * FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
+* FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
   
 ### HTML Export
 
