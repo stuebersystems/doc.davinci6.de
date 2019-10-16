@@ -113,7 +113,7 @@ Stelle|sichtbar
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)|sichtbar
-WEBBOX |sichtbar
+WEBBOX |sichtbar, wenn eine Veranstaltung betroffen ist
 WEBBOX Vertretungsliste|nicht sichtbar
 
 ## Offene Raumfehlzeit (nicht öffentlich)
