@@ -28,14 +28,60 @@
 
 ### STUNDENPLAN
 
+* NEW: Auswahlfenster - Shortcut `Strg + F`für Auswahlfenster Fächer
+* FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
+* FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
+* FIX: `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
+* FIX: Stundenplan-Zeitkonto  Operator `A` - Berechnung klappt wieder korrekt für die Fächer, die in der Ansicht `Stammdaten > Fächer` in der Spalte „Zeitkonto“ für ein Fach einen Lehrer-Soll-Schlüssel mit dem Operator `A` als Zeitkonto zugewiesen bekommen haben.
+* FIX: `Start > Automatik > Planungsstand` Springstundenzählung für Klassen und Lehrer*
+* FIX: Summen für periodische Veranstatlungen, deren Periode unter `Start > Veranstaltung > Veranstaltung bearbeiten` definiert wurde korrigiert
+* FIX: `Start > Automatik` Automatikroutine verbessert
+* FIX: `Stammdaten > Ressourcen` Spalte Rücklaufzeit kann editiert werden
+  
+* FIX: `Stundenplan > Ansicht > Anordnung > Filter laden` Access Violation nach Aufruf von Filter laden behoben
+* FIX: `Stammdaten > Lehrer` - Sortierung nach "Name" klappt  
+* FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
+* NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
+* NEW: `Stundenplan > Unterrichtsmatrix` Passende Lehrer 2. Lehrer kann über `Hinzufügen` hinzugefügt werden
+
 ### VERTRETUNGSPLAN
+
+* NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
+  
+![Änderungsliste `Datumzellen zusammenfassen` aktiviert](../assets/images/liesmich/6.5.61.02.png)
+
+![Änderungsliste `Datumzellen zusammenfassen` nicht aktiviert](../assets/images/liesmich/6.5.61.03.png)
+  
+* FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
+* FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
+* FIX: Fehlzeit Lehrers wurde bereits vertreten, dann wird eine Raumfehlzeit erzeugt, die ursprüngliche Lehrerfehlzeit wird nun wieder mit dem Status "Offen" in der Liste der offenen Vertretungen angezeigt
+* FIX:  indirekte Vertretungen mit zuvor erfasster Raumänderung - "Lehrer freistellen" wird angeboten
+* FIX: `Èxtras > Plandatei aufräumen` bwawitigt Restfragmente in der Ansicht `Vertretungsplan > Vertretungen` wenn man Perioden nach Eintrag von Fehlzeiten geändert im Stammdatenfenster geändert hat, werden in der Liste der offenen Vertretungen Elemente angezeigt, die es so aber nicht mehr im Planfenster gibt
 
 ### KURSPLAN
 
+* FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
+* FIX: fälschlichwerweise angezeigt Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
+* FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
+* FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile
+
 ### LOOK
 
+* FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
+* FIX: Lehrersuche über Suchfeld korrigiert (Wechsel von Lehrer zu Raum und dann wieder zu Lehrerplan führte zu Wechsel in falschen Lehrerplan)
+  
 ### DRUCK
 
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
+* NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
+ ![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
+
+* FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
+* FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
+  
 ### HTML Export
 
 ### Sonstiges
+
+* FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
+  
