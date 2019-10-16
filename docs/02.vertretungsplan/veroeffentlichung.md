@@ -1,22 +1,12 @@
-# Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?
+# Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert
 
-Nicht alle in DAVINCI erkennbaren Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar, letztlich sollen die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand. 
+Nicht alle in DAVINCI erkennbaren Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar, letztlich sollen die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
 Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das jeweilige Ergebnis der Publikationsmodule.
 
 !!! info "Hinweis"
 
     1. Alle Beispiele für die WEBBOX werden mit der Rechtegruppe `Masterplaner` betrachtet, Abweichendes wird gesondert angemerkt.
     2. Wir gehen nachfolgend nicht auf unveröffentlichte Informationen ein. Es ist in allen Beispielen entweder der Punkt "Änderungen freigeben" (Plan > Eigenschaften > Datenschutz) NICHT aktiviert oder die Änderungen wurden gezielt freigegeben. 
-
-## Fehlgründe
-
-Stelle|sichtbar
---|--
-LOOK (Lehrerplan) |optional sichtbar (`DAVINCI > Plan > Eigenschaften > Datenschutz`)
-LOOK (Klassenplan)| optional sichtbar (`DAVINCI > Plan > Eigenschaften > Datenschutz`)
-WEBBOX Planansicht (Lehrerplan) |nicht sichtbar
-WEBBOX Planansicht (Klassenplan)| nicht sichtbar
-WEBBOX Vertretungsliste| nicht sichtbar
 
 ## Sperrung und Sperrungsbemerkung
 
