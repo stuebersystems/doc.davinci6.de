@@ -27,16 +27,16 @@ Wenn Sie das Installationsverzeichnis nicht geändert haben, befinden sich die D
 
 | Betriebssystem             | Pfad |
 | -------------------------- | -------------- |
-| Windows Vista / 7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6|                                        
+| Windows Vista / 7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6|
 | Windows XP                 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\daVinci 6 |
 
 ## Druckformate (daVinci.pfm)
 
 Die Daten der Druckformate werden in der Datei daVinci.pfm abgelegt. Diese liegt als Vorlage-Datei in folgenden Ordnern auf Ihrem Rechner:
 
-| Betriebssystem             | Pfad |                                     
+| Betriebssystem             | Pfad |
 | -------------------------- | ---- |
-|  Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci|                         |        | Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6 | 
+|  Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci|                         |        | Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6 |
 
 ## Benutzereinstellungen (daVinci.opt)
 

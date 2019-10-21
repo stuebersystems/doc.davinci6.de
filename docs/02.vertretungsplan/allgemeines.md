@@ -28,13 +28,11 @@ Wie Sie mit diesen Ansichten arbeiten können, erfahren Sie in den folgenden Kap
 
 DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schnell zu publizieren:
 
+* [Webbox](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#2-davinci-webbox) oder [DAVINCI App](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#1-davinci-mobile)
 * Per Ausdruck (siehe Abschnitt „Drucken“)
-
 * Als HTML-Pläne (siehe Abschnitt „HTML-Vertretungspläne exportieren“)
-
 * Als Kurznachricht per E-Mail oder SMS (siehe Abschnitt „Änderungsnachrichten versenden“)
-
-* Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
+* * Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
 
 ## Schlüsselverzeichnisse
 
