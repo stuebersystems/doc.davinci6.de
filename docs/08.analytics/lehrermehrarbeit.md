@@ -1,3 +1,23 @@
-# Übersicht "Lehrer Mehrarbeit"
+# Übersicht Lehrer Mehrarbeit
+AKTUELL IN BEARBEITUNG
 
-(Aktuell in Bearbeitung)
+## Filter
+
+Auswahl
+Lehrer
+
+Zeitraum
+von
+bis
+
+Statistikdatei
+Öffnen
+Sichern
+Zurücksetzen
+
+Lehrer Mehrarbeit
+
+Ist:
+Soll:
+Entfall
+Vertreten

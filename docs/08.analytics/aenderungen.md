@@ -12,18 +12,7 @@ Vertretungen | Summe der zur Vertretung anstehenden Stunden je Lehrer und je Tag
 Diagramm | Grafische Darstellung der Liste auf der Registerkarte „Ausfall“
 Pivot | Pivot Tabelle der Registerkarte „Vertretungen“
 
-## Register „Ausfall“
-
-Die Übersicht unterscheidet Vertretungen durch Lehrer von Vertretungen durch Erzieher, Betreuer oder andere. Zudem wird der Entfall einer Vertretung durch selbstorganisiertes Lernen erfasst. Dazu müssen Sie die folgenden Schlüsselverzeichnisse verwenden:
-
-* ``Extras > Schlüsselverzeichnisse > Lehrerarten``
-* ``Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe``
-
-Im Bereich „Filter“ können Sie angeben, über welchen Lehrerarten-Schlüssel ein „Lehrer“ ausgezeichnet wurde und welcher Entfallgrund-Schlüssel „Selbstorgansiertes Lernen“ kennzeichnet. Sie müssen dazu jeden Lehrer in
-der Ansicht ``Stammdaten > Lehrer`` in der Spalte „Art“ als „Lehrer“, „Betreuer“, „Erzieher“ oder anders kennzeichnen. Den Entfallgrund weisen Sie bei der Erstellung eines Entfalls in der Ansicht ``Vertretungsplan > Vertretungen`` im entsprechenden Dialogfenster zu. Bitte beachten Sie,
-dass eine Reihe der Filterangaben nach dem Schlüssel und nicht nach dem Kürzel filtern, d.h. Sie sollten entsprechend die Spalte „Schlüssel“ in den Verzeichnissen ``Lehrerarten``und ``Vertretungsentfallgründe`` gefüllt haben. Standardmäßig können Sie den Wert aus der Spalte „Kürzel“ in die Spalte „Schlüssel“ übertragen.
-
-### Filterangaben
+## Filterangaben
 
 So sollten Sie vorgehen:
 
@@ -37,6 +26,17 @@ So sollten Sie vorgehen:
 4. Klicken Sie auf ``Aktualisieren`` um die Liste neu anzuzeigen. Indem Sie mehrere oder alle Zeilen der Liste markieren und auf Exportieren klicken, können Sie die Liste nach Excel und in andere Formate exportieren.
 
 ![Kopfspalten](/assets/images/Änderungen01.png)
+
+## Register Ausfall
+
+Die Übersicht unterscheidet Vertretungen durch Lehrer von Vertretungen durch Erzieher, Betreuer oder andere. Zudem wird der Entfall einer Vertretung durch selbstorganisiertes Lernen erfasst. Dazu müssen Sie die folgenden Schlüsselverzeichnisse verwenden:
+
+* ``Extras > Schlüsselverzeichnisse > Lehrerarten``
+* ``Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe``
+
+Im Bereich „Filter“ können Sie angeben, über welchen Lehrerarten-Schlüssel ein „Lehrer“ ausgezeichnet wurde und welcher Entfallgrund-Schlüssel „Selbstorgansiertes Lernen“ kennzeichnet. Sie müssen dazu jeden Lehrer in
+der Ansicht ``Stammdaten > Lehrer`` in der Spalte „Art“ als „Lehrer“, „Betreuer“, „Erzieher“ oder anders kennzeichnen. Den Entfallgrund weisen Sie bei der Erstellung eines Entfalls in der Ansicht ``Vertretungsplan > Vertretungen`` im entsprechenden Dialogfenster zu. Bitte beachten Sie,
+dass eine Reihe der Filterangaben nach dem Schlüssel und nicht nach dem Kürzel filtern, d.h. Sie sollten entsprechend die Spalte „Schlüssel“ in den Verzeichnissen ``Lehrerarten`` und ``Vertretungsentfallgründe`` gefüllt haben. Standardmäßig können Sie den Wert aus der Spalte „Kürzel“ in die Spalte „Schlüssel“ übertragen.
 
 ### Bereich Zeit
 
@@ -87,3 +87,27 @@ SOL Stunden | Summe der Selbst. organisiertes Lernen (SOL) Entfälle, die mit de
 <img src=/assets/images/SOL.png>
 SOL Anzahl | Anzahl der Selbst. organisiertes Lernen (SOL) Entfälle, die mit dem "Entfallgrund" als "SOL" gekennzeichnet wurden für den Tag
 Unterrichtsausfall Stunden | Unterrichtsausfall Stunden = LehrerAusfall - LehrerVertretungen - AndereVertretungen - Mitbetreuung - SOL
+
+## Register Vertretungen
+
+Spalte | Erläuterungen
+--------|-------------------------------------------
+Status | Ein ausgefüllter schwarzer Stern kennzeichnet Tage des aktuellen Gültigkeitszeitraums der Plandatei siehe ``Plan > Eigenschaften > Zeitraum``, ein nicht ausgefüllter Stern Tage außerhalb des Zeitraums.
+Monat | Monat des Datums
+Woche | Kalenderwoche des Datums
+Datum | Tagesdatum
+Tag | Wochentag
+Fehlt| -
+Vertreter| -
+Fehlgrund| -
+Fach| -
+Vertretungsentfall| -
+Vertretungslehrermerkmal| -
+Vertretungslehrertyp| -
+Ausfall| -
+Anrechenstunden| -
+Zusätzlich| -
+
+## Register Diagramm
+
+## Register Pivot
