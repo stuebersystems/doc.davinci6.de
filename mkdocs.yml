@@ -126,7 +126,7 @@ nav:
   - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
   - Liste der Anrechnungen: 02.vertretungsplan/anrechnungen.md
   - Änderungsliste: 02.vertretungsplan/aenderungsliste.md
-  - Veröffentlichungen: 02.vertretungsplan/veroeffentlichung.md
+  - Was wird gezeigt?: 02.vertretungsplan/veroeffentlichung.md
   - Publikationen: 02.vertretungsplan/Publikation.md
 - KURSPLAN: 
   - Allgemein: 03.kursplan/allgemeines.md
@@ -176,7 +176,7 @@ nav:
     - 5. DAVINCI-MOBILE: 
       - Allgemein: 09.infoserver/setup-mobile/README.md
       - Voraussetzungen: 09.infoserver/setup-mobile/README.md
-  - Veröffentlichungen: 02.vertretungsplan/veroeffentlichung.md     
+  - Was wird gezeigt?: 09.infoserver/veroeffentlichung.md     
   - Sicherheit: 09.infoserver/security.md
   - Netzwerktipps: 09.infoserver/network-configuration.md
   - Netzwerke verbinden: 09.infoserver/powershell.md
