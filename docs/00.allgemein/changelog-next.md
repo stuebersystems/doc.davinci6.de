@@ -43,6 +43,9 @@
 * FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
 * NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
 * FIX: `Status` geeigneter Aufsichtslehrer optimiert, es werden mögliche Lehrer nur noch mit dem Status "ausgezeichnet" versehen, wenn diese vor/nach einer Pausenaufsicht Unterricht im Plan haben
+* NEW:  Stellt man einen Wochenbezug ohne Zuweisung einer vorab im Stammdatenfenster definierten Periode, sondern über die Zuweisung bestimmter Kalenderwoche her, wird nun in der Plananzeige neben der Ausgabe der Kalenderwochen auch der Zusatz "KW" ausgegeben.
+![Zeitvorgaben in den Veranstaltungsdetails](../assets/images/liesmich/6.5.61.04.png)
+![Anzeige im Stundenplan](../assets/images/liesmich/6.5.61.05.png)
 
 ### VERTRETUNGSPLAN
 
