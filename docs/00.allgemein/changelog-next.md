@@ -42,7 +42,7 @@
 * FIX: `Stammdaten > Lehrer` - Sortierung nach "Name" klappt  
 * FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
 * NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
-* NEW: `Stundenplan > Unterrichtsmatrix` Passende Lehrer 2. Lehrer kann über `Hinzufügen` hinzugefügt werden
+* FIX: `Status` geeigneter Aufsichtslehrer optimiert, es werden mögliche Lehrer nur noch mit dem Status "ausgezeichnet" versehen, wenn diese vor/nach einer Pausenaufsicht Unterricht im Plan haben
 
 ### VERTRETUNGSPLAN
 
