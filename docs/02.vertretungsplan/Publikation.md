@@ -41,6 +41,16 @@ Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie fol
 
 ### Kurznachrichten versenden
 
+!!! info "Hinweis"
+      Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls daVinci LIVEMESSAGE voraus.
+
+Sie können in daVinci jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der versand kann per E-Mail und/oder per SMS erfolgen.
+
+So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Schaltfläche `Änderungen mitteilen` in der Menügruppe `Publizieren > Pläne veröffentlichen`
+
+!!! info "Hinweis"
+      Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Sie tragen diese Angaben in der Ansicht `Stammdaten > Lehrer` bzw `Stammdaten > Schüler` in den Spalten E-Mail bzw. Mobil ein.
+
 ### DAVINCI APP und Webbox
 
 ### DAVINCI LOOK
