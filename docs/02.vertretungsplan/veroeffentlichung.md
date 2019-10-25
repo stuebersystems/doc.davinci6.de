@@ -8,6 +8,10 @@ Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das je
     1. Alle Beispiele für die WEBBOX werden mit der Rechtegruppe `Masterplaner` betrachtet, Abweichendes wird gesondert angemerkt.
     2. Wir gehen nachfolgend nicht auf unveröffentlichte Informationen ein. Es ist in allen Beispielen entweder der Punkt "Änderungen freigeben" (Plan > Eigenschaften > Datenschutz) NICHT aktiviert oder die Änderungen wurden gezielt freigegeben. 
 
+!!! danger "Achtung"
+
+    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum/Lehrer/Klasse. Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
+
 ## Sperrung und Sperrungsbemerkung
 
 Stelle|sichtbar
