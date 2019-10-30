@@ -43,11 +43,11 @@
 * FIX: Summen für periodische Veranstatlungen, deren Periode unter `Start > Veranstaltung > Veranstaltung bearbeiten` definiert wurde korrigiert
 * FIX: `Start > Automatik` Automatikroutine verbessert
 * FIX: `Stammdaten > Ressourcen` Spalte Rücklaufzeit kann editiert werden
-  
 * FIX: `Stundenplan > Ansicht > Anordnung > Filter laden` Access Violation nach Aufruf von Filter laden behoben
 * FIX: `Stammdaten > Lehrer` - Sortierung nach "Name" klappt  
 * FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
 * FIX: `Status` geeigneter Aufsichtslehrer optimiert, es werden mögliche Lehrer nur noch mit dem Status "ausgezeichnet" versehen, wenn diese vor/nach einer Pausenaufsicht Unterricht im Plan haben
+* FIX: `Start > Automatik` Automatikvorgaben für Lehrer - max. Aufsichtsdauer je Woche
 
 ### VERTRETUNGSPLAN
 
