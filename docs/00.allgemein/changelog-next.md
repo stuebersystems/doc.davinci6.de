@@ -31,8 +31,8 @@
 * NEW: Auswahlfenster - Shortcut `Strg + F`für Auswahlfenster Fächer
 * NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
 * NEW:  Stellt man einen Wochenbezug ohne Zuweisung einer vorab im Stammdatenfenster definierten Periode, sondern über die Zuweisung bestimmter Kalenderwoche her, wird nun in der Plananzeige neben der Ausgabe der Kalenderwochen auch der Zusatz "KW" ausgegeben.
-![Zeitvorgaben in den Veranstaltungsdetails](../assets/images/liesmich/6.5.61.04.png)
-![Anzeige im Stundenplan](../assets/images/liesmich/6.5.61.05.png)
+![Zeitvorgaben in den Veranstaltungsdetails](/assets/images/liesmich/6.5.61.04.png)
+![Anzeige im Stundenplan](/assets/images/liesmich/6.5.61.05.png)
 
 * FIX: Hinzufügen einers 2. Raumes über das Zusatzfenster `Passende Räume` in der Liste der  Veransatltungen in der Terminzeile
 * FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
@@ -53,9 +53,9 @@
 
 * NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
   
-![Änderungsliste `Datumzellen zusammenfassen` aktiviert](../assets/images/liesmich/6.5.61.02.png)
+![Änderungsliste `Datumzellen zusammenfassen` aktiviert](/assets/images/liesmich/6.5.61.02.png)
 
-![Änderungsliste `Datumzellen zusammenfassen` nicht aktiviert](../assets/images/liesmich/6.5.61.03.png)
+![Änderungsliste `Datumzellen zusammenfassen` nicht aktiviert](/assets/images/liesmich/6.5.61.03.png)
   
 * FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
 * FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
@@ -79,7 +79,7 @@
 
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht, Summen werden nun stets in der Überschrift angegeben
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
- ![Druckformat "Kurslisten"](../assets/images/liesmich/6.5.61.01.png)
+ ![Druckformat "Kurslisten"](/assets/images/liesmich/6.5.61.01.png)
 
 * FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
 * FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
