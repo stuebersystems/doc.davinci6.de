@@ -22,6 +22,14 @@ Gehen Sie wie folgt vor:
 
 ![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features.png)
 
+In einer neueren Version vom ISS 10 (2019) schauen Sie bitte hier:
+
+* Internetinformationsdienste / WWW-Dienste / Allgemeine HTTP-Features
+* Internetinformationsdienste / WWW-Dienste / Anwendungsentwicklungsfeatures
+* Internetinformationsdienste / WWW-Dienste / Leistungsfeatures
+* Internetinformationsdienste / WWW-Dienste / Sicherheit
+
+![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features-1.png)
 5. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
 
 ## Testen
@@ -40,7 +48,7 @@ Bis jetzt hat sich alles nur auf dem Computer abgespielt, auf dem Sie den IIS-We
 
    * Starten Sie die Windows-Kommandozeile `cmd`.
    * Tippen Sie den Befehl `ipconfig` ein und drücken Sie die Eingabetaste.
-   * Lesen Sie die angezeigte IP-Adresse ab. 
+   * Lesen Sie die angezeigte IP-Adresse ab.
 
 2. Öffnen Sie nun einen Web-Browser auf einem anderen Computer in Ihrem Netzwerk und tippen Sie `http://<Ihre IP-Adresse>` (also z.B. `http://172.1.1.1`) ein. Es sollte wieder die Standardwebseite des IIS erscheinen.
 
