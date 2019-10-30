@@ -1,6 +1,6 @@
 # Blocken und Verteilen
 
-![Blöckefenster](..\assets\images\KP\kp01.png)
+![Blöckefenster](/assets/images/KP/kp01.png)
 
 In der Ansicht `Kursplan > Blöcke` können Sie per Automatik und manuell:
 
@@ -12,7 +12,7 @@ Die Zahl vor der Kursbezeichnung in der Tabelle gibt die Anzahl der Kursteilnehm
 
 Im Dashboard unten werden wichtige Angaben zur Qualität der aktuellen Blockung und Verteilung gemacht:
 
-![Dashboard](..\assets\images\KP\kp21.png)
+![Dashboard](/assets/mages/KP/p21.png)
 
 Angabe               | Beschreibung
 -------------------- | ------------
@@ -27,7 +27,7 @@ Eine Zeile repräsentiert einen Block. Jeder Block enthält in der Spalte „Ban
 
 Die Spalten auf der Registerkarte `Blöcke` in der Ansicht `Kursplan > Blöcke`:
 
-![Blockzeile](..\assets\images\KP\kp22.png)
+![Blockzeile](/assets/images/KP/kp22.png)
 
 Spalte               | Bemerkung
 -------------------- | ------------
@@ -45,7 +45,7 @@ Abweichung           | Summe der Standardabweichungen vom Optimalwert über alle
 
 Wechseln Sie in die Ansicht `Kursplan > Blöcke`. Wählen Sie den Befehl `Blöcke erzeugen` in der Menüleiste. Es öffnet sich das Dialogfenster `Blöcke erzeugen`, in dem Sie einstellen können für welche Unterrichtsart wie viele Blöcke erstellt werden sollen. Stellen Sie je Band die Anzahl der gewünschten Blöcke ein und klicken Sie auf `OK`.
 
-![Blöcke erzeugen](..\assets\images\KP\kp20.png)
+![Blöcke erzeugen](/assets/images/KP/kp20.png)
 
 !!! info "Hinweis"
 
@@ -58,21 +58,22 @@ In der Ansicht `Kursplan > Blöcke` können Sie per Mehrfachmarkierung Blöcke m
 ## Block-Eigenschaften ändern
 
 Eingetragene Blockeigenschaften können Sie in der Ansicht `Kursplan > Blöcke` wie folgt ändern:
+
 * mit einem Mausklick eine Blockzeile und wählen Sie `Start > Bearbeiten`
-ODER 
+  ODER
 * `Doppelklick` auf die Blockzeile
 ODer
-* `Rechtsklick` auf die Blockzeile, im Aufklappmenü `Block bearbeiten wählen` 
+* `Rechtsklick` auf die Blockzeile, im Aufklappmenü `Block bearbeiten wählen`
 
 In dem Dialog `Block-Eigenschaften ändern` können Sie alle Eigenschaften des Blocks ändern. Der Name ist die eindeutige Blockbezeichnung im Plan. Das Feld `Band` gibt an, dass nur Kruse derselben Bandnummer von der Blockungsautomatik diesem Block zugeordnet werden dürfen. In den Feldern `Mininmale Std` (minimale Stundenzahl) und `Maximale Std` (maximale Stundenzahl) können Sie für die Blockungsautomatik vorgeben, dass nur Kurse mit der entsprechenden Stundenzahl diesem Block zugewiesen werden dürfen.
 
-![Block-Eigenschaften ändern](../assets/images/KP/kp23.png)
+![Block-Eigenschaften ändern](/assets/images/KP/kp23.png)
 
 ## Kurse automatisch blocken und Schülern zuordnen
 
 Die Automatik blockt die Kurse und verteilt die Schüler auf Kurse, d.h. sie weist jedem Fach aus der Fachwahl eines Schülers eine Kursnummer zu. Sie können die Automatik sukzessive für bestimmte Jahrgänge und Bänder aufrufen. Z.B. kann es sinnvoll sein, zuerst die Leistungskurse eines Jahrgangs und danach die Grundkurse zu blocken und zu verteilen. Gegebenenfalls müssen Sie die Blockung bzw. die Verteilung löschen (siehe Abschnitt Blockung und Verteilung zurücksetzen) und die Fachwahlen einiger Schüler ändern, da sie nicht ohne Überschneidung verteilt werden konnten. Anschließend können Sie die Automatik erneut blocken bzw. verteilen lassen. Entscheiden Sie selbst, welche Vorgehensweise für Ihre Bedingungen am besten zutrifft.
 
-![Blockungsautomatik](../assets/images/KP/kp02.png)
+![Blockungsautomatik](/assets/images/KP/kp02.png)
 
 Wählen Sie zunächst den Befehl `Start > Automatik`. Das Dialogfenster „Blockungsautomatik starten“ öffnet sich. Stellen Sie bei „Band“ das Band ein, dessen Kurse Sie blocken möchten. Alle Kurse mit dieser Bandnummer werden in Blöcke dieser Bandnummer geblockt. Wahlwiese können Sie „alle“ einstellen. Klicken Sie auf OK, um die Automatik entsprechend der Einstellungen zu starten.
 
@@ -85,12 +86,11 @@ Schüler verteilen | Sorgt dafür, dass die Schüler auf Kurse verteilt werden.
 Beachte Kursteilnehmerzahl | Beachtet die minimale und maximale Kursteilnehmerzahl, die Sie entweder global unter `Plan-Eigenschaften > Kursplan` oder in der Ansicht `Kursplan > Kurse` in den entsprechenden Spalten „Min. Schüler“ und „Max. Schüler“ je Kurs einstellen können.
 Akzeptiere Blockkonflikte | Akzeptiert Blockkonflikte aufgrund von zwei Kursen eines Schülers im gleichen Block, was ja eigentlich nicht vorkommen sollte. Diese Option kann gewählt werden, wenn man danach kollidierende Schüler manuell in andere Kurse setzen möchte.
 
-![Ergebnis der Automatik](../assets/images/KP/kp03.png)
+![Ergebnis der Automatik](/assets/images/KP/kp03.png)
 
 !!! info "Hinweis"
 
-    HINWEIS: Es empfiehlt sich das Blocken der Kurse und die Schülerverteilung gleichzeitig durchzuführen, weil hier die Automatik die Schüler sinnvoller verteilen kann. Dadurch werden Zeitkonflikte und unnötige
-Kurszuordnungen vermieden.
+    HINWEIS: Es empfiehlt sich das Blocken der Kurse und die Schülerverteilung gleichzeitig durchzuführen, weil hier die Automatik die Schüler sinnvoller verteilen kann. Dadurch werden Zeitkonflikte und unnötige Kurszuordnungen vermieden.
 
 Die Automatik hält folgende Bedingungen ein:
 
@@ -105,11 +105,11 @@ eine gegebene Blockung die Schülerverteilung optimieren. DAVINCI versucht dabei
 Kursen mit einer positiven Abweichung, d.h. Kurse bei denen mehr Teilnehmer als optimal zugweisen
 wurden in andere Kurse der Kursgruppe zu versetzen, also z.B. aus dem Kurs M1 in den Kurs M2 oder
 M3, solange dies zu keinem Konflikt und diese Kurse eine negative Abweichung, d.h. weniger Teilnehmer
-als optimal aufweisen. 
+als optimal aufweisen.
 
 ## Blockung und Verteilung zurücksetzen
 
-![Blockung und Verteilung zurücksetzen](../assets/images/KP/kp24.png)
+![Blockung und Verteilung zurücksetzen](/assets/images/KP/kp24.png)
 
 Mit dem Befehl Zurücksetzen können Sie das Ergebnis eines Automatiklaufs zurücksetzen, d.h. die Blockung der Kurse und die Verteilung der Schüler auf die Kurse wird für den aktuellen Jahrgang und das eingestellte Band zurückgesetzt. Entsprechend der Optionen wird die Blockung und/oder die Verteilung der Schüler zurückgesetzt,
 
@@ -168,7 +168,7 @@ So ordnen Sie Schüler manuell einem Kurs zu:
 
 * Öffnen Sie die Ansicht Passende Kurse in der Detailansicht. Klicken Sie in der Schüler-Tabelle auf den gewünschten Schülerkurs. Unter Passende Kurse werden alle Alternativkurse für die Fachwahl bzw. den markierten Kurs angezeigt. Alternativkurse, die zu einem Konflikt bei diesem Schüler führen würden, weil er dann zwei Kurse in einem Block hätte, werden mit dem gelben Konfliktsymbol vor der Kursbezeichnung gekennzeichnet. Je Alternativkurs werden die aktuellen Teilnehmeranzahl (Spalte Schüler) und die Anzahl der Schüler mit Konflikten (Spalte Schülerkonflikte), weil sie noch einen anderen Kurs im gleichen Block haben, angezeigt.
 
-* Wählen Sie Kurs zuweisen, wenn Sie den markierte Kurs zuweisen wollen oder doppelklicken Sie auf den gewünschten Kurs. Der Kurs wird grün hinterlegt angezeigt. Hat der Schüler bereits einen Kurs im gleichen Block, werden die Konfliktkurse des Schülers rot hinterlegt angezeigt. 
+* Wählen Sie Kurs zuweisen, wenn Sie den markierte Kurs zuweisen wollen oder doppelklicken Sie auf den gewünschten Kurs. Der Kurs wird grün hinterlegt angezeigt. Hat der Schüler bereits einen Kurs im gleichen Block, werden die Konfliktkurse des Schülers rot hinterlegt angezeigt.
 
 In der folgenden Abbildung kann nur noch der Kurs „kr“ (Katholische Religion) konfliktfrei (er hat als einziger kein
 Konfliktsymbol) dem Block „12#6“ zugeordnet werden:

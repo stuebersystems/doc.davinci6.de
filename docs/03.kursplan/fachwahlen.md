@@ -6,7 +6,7 @@ Die Fachwahlen der Schüler werden in der Ansicht `Kursplan > Fachwahlen` erfass
 
 ### Stammdaten Klassen
 
-In DAVINCI definieren Sie in den DAVINCI-Stammdaten die Klassen. Sie können eine Jahrgangsstufe in Klassen aufteilen (11a, 11b usw.) oder pro Klassenstufe nur eine Klasse eingeben - wichtig ist, dass über das Feld Stufe der Jahrgang zugeordnet wird. Damit sind klassenübergreifende Kurse innerhalb eines Jahrgangs und auch jahgangsüerbgreifende Kurse abbildbar. Des Weiteren geben Sie das Fachwahlskript an, nach dem die Fachwahl überprüft werden soll. 
+In DAVINCI definieren Sie in den DAVINCI-Stammdaten die Klassen. Sie können eine Jahrgangsstufe in Klassen aufteilen (11a, 11b usw.) oder pro Klassenstufe nur eine Klasse eingeben - wichtig ist, dass über das Feld Stufe der Jahrgang zugeordnet wird. Damit sind klassenübergreifende Kurse innerhalb eines Jahrgangs und auch jahgangsüerbgreifende Kurse abbildbar. Des Weiteren geben Sie das Fachwahlskript an, nach dem die Fachwahl überprüft werden soll.
 
 Bitte beachten Sie dazu folgende notwendige Eingaben:
 
@@ -135,7 +135,7 @@ Sie können Sie die Fachwahlen auch direkt in der Ansicht `Kursplan > Schüler` 
 
 Die Zellen-Hintergrundfarben ändern sich in der Ansicht `Kursplan > Schüler` sobald weitere Vorgaben in der Planung vorgenommen wurden.
 
-Hier finden Sie eine kurze Erklärung. 
+Hier finden Sie eine kurze Erklärung.
 
 | Hintergrundfarbe | Bemerkung |
 | ---------------- |-------------- |
@@ -176,7 +176,7 @@ Die weiteren Spalten sind in diesem Zusammenhang nicht relevant.
 
 ## Fachwahlen löschen
 
-Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie den bzw. die gewünschten Schüler. Mit `Strg+Mausklick` und `Shift+Mausklick` können Sie mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menüleiste auf `Löschen`, um die entsprechenden Zeilen zu löschen. 
+Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie den bzw. die gewünschten Schüler. Mit `Strg+Mausklick` und `Shift+Mausklick` können Sie mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menüleiste auf `Löschen`, um die entsprechenden Zeilen zu löschen.
 
 ![Ansicht KURSPLAN > Schüler](/assets/images/KP/fachwahlen12.png)
 
