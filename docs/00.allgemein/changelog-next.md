@@ -48,6 +48,7 @@
 * FIX:`Stundenplan > Start > Automatik` Kernzeiten im Klassenplan werden beachtet
 * FIX: `Status` geeigneter Aufsichtslehrer optimiert, es werden mögliche Lehrer nur noch mit dem Status "ausgezeichnet" versehen, wenn diese vor/nach einer Pausenaufsicht Unterricht im Plan haben
 * FIX: `Start > Automatik` Automatikvorgaben für Lehrer - max. Aufsichtsdauer je Woche
+* FIX: Ansicht `Plan und Liste` und zwei weitere Pläne - Korrespondenz der Pläne sehr verbessert
 
 ### VERTRETUNGSPLAN
 
