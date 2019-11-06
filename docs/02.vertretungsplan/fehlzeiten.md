@@ -205,7 +205,6 @@ Sie können die Angaben zu einer Fehlzeit im Nachhinein ändern oder ergänzen. 
 2. Wählen Sie den Befehl `Fehlzeit bearbeiten` aus dem Kontextmenü oder klicken Sie in der Menügruppe `Start > Fehlzeiten` auf die Schaltfläche `Bearbeiten`.
 
   ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit bearbeiten“ ausgewählt.](/assets/images/vertretungsplan/sub-plan20.png)
-
 3. Ändern bzw. ergänzen Sie im erscheinenden Dialogfenster `Fehlzeiten` Ihre Angaben zu der aufgerufenen Fehlzeit.
 
 4. Bestätigen Sie Ihre Änderungen mit `Übernehmen und schließen`.

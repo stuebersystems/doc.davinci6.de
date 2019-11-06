@@ -28,7 +28,7 @@
 
 ### STUNDENPLAN
 
-* NEW: Auswahlfenster - Shortcut `Strg + F`für Auswahlfenster Fächer
+* NEW: Auswahlfenster - Shortcut `Strg + F` für Auswahlfenster Fächer
 * NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
 * NEW:  Stellt man einen Wochenbezug ohne Zuweisung einer vorab im Stammdatenfenster definierten Periode, sondern über die Zuweisung bestimmter Kalenderwoche her, wird nun in der Plananzeige neben der Ausgabe der Kalenderwochen auch der Zusatz "KW" ausgegeben.
 ![Zeitvorgaben in den Veranstaltungsdetails](/assets/images/liesmich/6.5.61.04.png)
@@ -49,6 +49,7 @@
 * FIX: `Status` geeigneter Aufsichtslehrer optimiert, es werden mögliche Lehrer nur noch mit dem Status "ausgezeichnet" versehen, wenn diese vor/nach einer Pausenaufsicht Unterricht im Plan haben
 * FIX: `Start > Automatik` Automatikvorgaben für Lehrer - max. Aufsichtsdauer je Woche
 * FIX: Ansicht `Plan und Liste` und zwei weitere Pläne - Korrespondenz der Pläne sehr verbessert
+* CHANGE: `Stundenplan > Veranstaltung > Neue Veranstaltung` Beim Anlegen einer neuen Veranstaltung in der Veranstaltungsliste ist die Dauer automatisch mit "1" vorbelegt (vormals "0")
 
 ### VERTRETUNGSPLAN
 
@@ -84,6 +85,7 @@
 
 * FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
 * FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
+* FIX: Ausdruck der Fach-/ Lehrerlegende gibt bei Teamteaching auch den zweiten Lehrer aus
   
 ### HTML Export
 
