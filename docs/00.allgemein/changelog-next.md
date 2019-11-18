@@ -29,12 +29,12 @@
 ### STUNDENPLAN
 
 * NEW: Auswahlfenster - Shortcut `Strg + F` für Auswahlfenster Fächer
-* NEW: Blockelemente im Plan: über STRG + linke Maustaste auf das Blockelemnet klicken, können Sie die weiteren geblockten ELmente sichtbar machen, wenn Sie nun ein elment anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
+* NEW: Blockelemente im Plan: über `Strg + linke Maustaste` auf das Blockelemnet klicken, können Sie die weiteren geblockten Elemente sichtbar machen, wenn Sie nun ein Element anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
 * NEW:  Stellt man einen Wochenbezug ohne Zuweisung einer vorab im Stammdatenfenster definierten Periode, sondern über die Zuweisung bestimmter Kalenderwoche her, wird nun in der Plananzeige neben der Ausgabe der Kalenderwochen auch der Zusatz "KW" ausgegeben.
 ![Zeitvorgaben in den Veranstaltungsdetails](/assets/images/liesmich/6.5.61.04.png)
 ![Anzeige im Stundenplan](/assets/images/liesmich/6.5.61.05.png)
 
-* FIX: Hinzufügen einers 2. Raumes über das Zusatzfenster `Passende Räume` in der Liste der  Veransatltungen in der Terminzeile
+* FIX: Hinzufügen eines 2. Raumes über das Zusatzfenster `Passende Räume` in der Liste der  Veranstaltungen in der Terminzeile
 * FIX: Kernzeiten werden nicht mehr wie Sperrzeiten interpretiert
 * FIX: `Plan-Eigenschaften > Planeinträge > Farben` Streifen mit Farbverlauf
 * FIX: `Plan-Eigenschaften > Stundenplan` aktivierte Einstellung der Anzeige `Immer Uhrzeiten anzeigen` klappt wieder
@@ -62,17 +62,17 @@
   
 * FIX: frei gewordener Raum (z.B. durch Klassenfehlzeit) wird als freier Raum zur Vertretungserstellung angeboten
 * FIX: Lehrer übernimmt Vertretung und wird dann selbst krank, Termine tauchen wieder zur Vertretung in der Liste der offenen Vertretungen auf
-* FIX: Fehlzeit Lehrers wurde bereits vertreten, dann wird eine Raumfehlzeit erzeugt, die ursprüngliche Lehrerfehlzeit wird nun wieder mit dem Status "Offen" in der Liste der offenen Vertretungen angezeigt
+* FIX: Fehlzeit eines Lehrers wurde bereits vertreten, nun wird eine Raumfehlzeit erzeugt, die ursprüngliche Lehrerfehlzeit wird dann wieder mit dem Status "Offen" in der Liste der offenen Vertretungen angezeigt
 * FIX:  indirekte Vertretungen mit zuvor erfasster Raumänderung - "Lehrer freistellen" wird angeboten
-* FIX: `Extras > Plandatei aufräumen` bwawitigt Restfragmente in der Ansicht `Vertretungsplan > Vertretungen` wenn man Perioden nach Eintrag von Fehlzeiten geändert im Stammdatenfenster geändert hat, werden in der Liste der offenen Vertretungen Elemente angezeigt, die es so aber nicht mehr im Planfenster gibt
-* FIX: Es ist wieder möglich aus der Liste der direkte Vertreter Lehrer einzusetzen, wenn für diese eine Sperrung (Kategorie 2-4) im Stundenplan erfasst wurde.
+* FIX: `Extras > Plandatei aufräumen` beseitigt Restfragmente in der Ansicht `Vertretungsplan > Vertretungen` wenn man Perioden nach Eintrag von Fehlzeiten im Stammdatenfenster geändert hat, werden in der Liste der offenen Vertretungen Elemente angezeigt, die es so aber nicht mehr im Planfenster gibt
+* FIX: Es ist wieder möglich, aus der Liste der direkte Vertreter Lehrer einzusetzen, wenn für diese eine Sperrung (Kategorie 2-4) im Stundenplan erfasst wurde.
 
 ### KURSPLAN
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
-* FIX: fälschlichwerweise angezeigt Konflikt werden über `Extras > Plandatei aufräumen` gelöscht
+* FIX: fälschlichwerweise angezeigte Konflikte werden über `Extras > Plandatei aufräumen` gelöscht
 * FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
-* FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile
+* FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile wieder möglich
 
 ### LOOK
 
@@ -85,7 +85,7 @@
 * NEW: Druckformat "Kurslisten" > Erweiterung der Ausgabe um Schülergeschlecht
  ![Druckformat "Kurslisten"](/assets/images/liesmich/6.5.61.01.png)
 
-* FIX: Ausdruck > Kursliste - Designänderungen werden  übernommen
+* FIX: Druckformat "Kurslisten" - Designänderungen werden übernommen
 * FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
 * FIX: Ausdruck der Fach-/ Lehrerlegende gibt bei Teamteaching auch den zweiten Lehrer aus
   
