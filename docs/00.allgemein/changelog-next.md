@@ -64,6 +64,7 @@
 * FIX: Fehlzeit Lehrers wurde bereits vertreten, dann wird eine Raumfehlzeit erzeugt, die ursprüngliche Lehrerfehlzeit wird nun wieder mit dem Status "Offen" in der Liste der offenen Vertretungen angezeigt
 * FIX:  indirekte Vertretungen mit zuvor erfasster Raumänderung - "Lehrer freistellen" wird angeboten
 * FIX: `Èxtras > Plandatei aufräumen` bwawitigt Restfragmente in der Ansicht `Vertretungsplan > Vertretungen` wenn man Perioden nach Eintrag von Fehlzeiten geändert im Stammdatenfenster geändert hat, werden in der Liste der offenen Vertretungen Elemente angezeigt, die es so aber nicht mehr im Planfenster gibt
+* FIX: Wenn ein Lehrer bereits für eine Aufsichtsvertretung eingeplant wurde, wird der Kollege nicht mehr für eine neue Aufsichtsvertretung angeboten.
 
 ### KURSPLAN
 

@@ -70,6 +70,7 @@ Die Paths-Datei `daVinci.paths` kann für DAVINCI die Pfadangaben für folgende 
 
 | Name                     | Datei           | Beschreibung                             |
 | ------------------------ | --------------- | ---------------------------------------- |
+| daVinci.lic              | daVinci.lic     | Lizenzdatei                              |
 | daVinciOptionFile        | daVinci.opt     | Optionsdatei                             |
 | daVinciHTMLFormatFile    | daVinci.hfm     | HTML Exportformate                       |
 | daVinciPrintFormatFile   | daVinci.pfm     | Druckformate                             |
