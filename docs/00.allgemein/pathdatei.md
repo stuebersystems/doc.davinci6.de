@@ -60,7 +60,7 @@ Weiter geht's:
 
 4. Speichern Sie diese Textdatei und benennen die Datei anschließend in „daVinci.paths“ um.
 
-5. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur daVinci.exe) ab. Beim Programmstart von DAVINDA wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
+5. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur daVinci.exe) ab. Beim Programmstart von DAVINCI wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
 
 !!! warning "Wichtig"
 
