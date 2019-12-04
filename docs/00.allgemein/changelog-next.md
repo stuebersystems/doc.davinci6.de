@@ -76,6 +76,7 @@
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
 * FIX: fälschlichwerweise angezeigte Konflikte werden über `Extras > Plandatei aufräumen` gelöscht
+* FIX: falsche Kurszuweisung nach Kurswechsel werden über `Extras > Plandatei aufräumen` gelöscht
 * FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
 * FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile wieder möglich
 
