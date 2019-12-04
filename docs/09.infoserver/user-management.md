@@ -204,16 +204,18 @@ mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-S
 | --- | --- |
 | Daten exportieren | Für den Funktionstest des DAVINCI INFOSERVERS, wählen Sie "XML und HTML exportieren erlaubt".<br/> Möchten Sie nur mit der DAVINCI WEBBOX und DAVINCI MOBILE arbeiten, wählen Sie bitte "Nicht erlaubt". |
 | DaVinci-Webbox LogIn/LogOut anzeigen | Möchten Sie, dass kein Zugriff ohne vorherige Anmeldung möglich ist, wählen Sie bitte "Ja". |
-| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/>Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". |
+|DAVINCI WEBBOX/MOBILE Lehrernamen zeigen|Wählen Sie hier "Nein" aus.
+| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/> Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". |
+
+![empfohlene Einstellungen für den Webuser](/assets/images/wb.empfehlung.png)
 
 !!! info "Hinweis"
 
     Wenn Sie für den Webuser unter "Stundenpläne anzeigen" den Wert "Nicht erlaubt" wählen, verwenden Sie bitte den Parameter "account=private" in Ihrer URL, damit nicht die Fehlermeldung "901: Forbidden (error)" gezeigt wird.
 
 ```
-http://Ihr Server/davinci-timetable.html?**account=private**
+http://Ihr Server/davinci-timetable.html?account=private
 ```
-
 
 ![Start der WEBBOX ohne den Parameter account=private](/assets/images/wb.ohne.parameter.png)
 

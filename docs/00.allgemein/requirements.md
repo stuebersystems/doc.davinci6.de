@@ -2,26 +2,26 @@
 
 ## DAVINCI
 
-| DAVINCI                   | Kompatibilität                                                                                     |
-| ------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Betriebssystem 32-Bit** | Windows XP / Windows 2003 / Windows  Vista / Windows  2008 / Windows  7 / Windows  8 / Windows  10 |
-| **Betriebssystem 64-Bit** | Windows 7 /  Windows 8 /  Windows 10 /  Windows2008 /  Windows 2012 /  Windows2016                 |
-| **Hardware**              | DAVINCI benötigt keine besonderen Hardware-Anforderungen                                           |
-| **Bildschirmauflösung**   | Die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten                          |
+| DAVINCI| Kompatibilität|
+| -- | -- |
+| **Betriebssystem 32-Bit** | Windows XP / Windows 2003 / Windows Vista / Windows 2008 / Windows 7 / Windows 8 / Windows 10 |
+| **Betriebssystem 64-Bit** | Windows 7 / Windows 8 / Windows 10 / Windows 2008 / Windows 2012 / Windows 2016 / Windows 2019|
+| **Hardware** | DAVINCI benötigt keine besonderen Hardware-Anforderungen |
+| **Bildschirmauflösung** | Die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten |
 
 ## DAVINCI INFOSERVER
 
-| DAVINCI INFOSERVER  | Kompatibilität                                                                                                                                                                                                       |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Betriebssysteme** | Windows  Vista / Windows Server  2008 / Windows Server 2008 R2 / Windows  7 / Windows  8 / Windows  10 / Windows Server 2012 / Windows Server 2016                                                                   |
-| **Webserver**       | Windows InternetInformationServer 7<br/>Windows InternetInformationServer 7.5<br/> Windows InternetInformationServer 8<br/>Windows InternetInformationServer 8.5<br/>Windows InternetInformationServer 10<br/>Apache |
+| DAVINCI INFOSERVER | Kompatibilität |
+| -- | -- |
+| **Betriebssysteme** | Windows Vista / Windows Server 2008 / Windows Server 2008 R2 / Windows 7 / Windows 8 / Windows 10 / Windows Server 2012 / Windows Server 2016 / Windows 2019 |
+| **Webserver** | Windows InternetInformationServer 7<br/>Windows InternetInformationServer 7.5<br/> Windows InternetInformationServer 8<br/>Windows InternetInformationServer 8.5<br/>Windows InternetInformationServer 10<br/>Apache |
 
 ## DAVINCI MOBILE APP
 
-| DAVINCI MOBILE APP                         | Kompatibilität                                                     |
-| ------------------------------------------ | ------------------------------------------------------------------ |
+| DAVINCI MOBILE APP| Kompatibilität|
+| -- | -- |
 | **Betriebssystem der Android-Mobilgeräte** | mindestens Android 4.4.3 ( mit WebView Chromium Engine Version 33) |
-| **Betriebssystem der IOS-Mobilgeräte**     | mindestens IOS 9.0                                                 |
+| **Betriebssystem der IOS-Mobilgeräte**| mindestens IOS 9.0|
 
 ### Wartezeit
 
@@ -47,4 +47,4 @@ Werden von unterwegs per Mobilgerät zahlreiche Anfragen zeitgleich gestellt (z.
 
 !!! warning "Wichtig"
 
-    Das Nadelöhr an dieser Stelle ist also die Uploadgeschwindigkeit, hier kann man die Wartezeit deutlich beeinflussen.
+ Das Nadelöhr an dieser Stelle ist also die Uploadgeschwindigkeit, hier kann man die Wartezeit deutlich beeinflussen.

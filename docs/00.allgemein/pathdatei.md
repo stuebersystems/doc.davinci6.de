@@ -49,18 +49,18 @@ xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Preferences>
   <Paths>
-    <Entry Name="daVinciPrintFormatFile" Value="D:\Mein Verzeichnis"/
-    <Entry Name="daVinciOptionsFolder" Value="D:\Mein Verzeichnis"/>
-    <Entry Name="daVinciLicenseFolder" Value="D:\Mein Verzeichnis"/>
+    <Entry Name="daVinciPrintFormatFile" Value="D:\Mein Verzeichnis\daVinci.pfm"/
+    <Entry Name="daVinciOptionsFolder" Value="D:\Mein Verzeichnis\daVinci.opt"/>
+    <Entry Name="daVinciLicenseFolder" Value="D:\Mein Verzeichnis\daVinci.lic"/>
   </Paths>
 </Preferences>
 ```
 
 Weiter geht's:
 
-4. Speichern Sie diese Textdatei und benennen die Datei anschließend in „daVinci.paths“ um.
+1. Speichern Sie diese Textdatei und benennen die Datei anschließend in „daVinci.paths“ um.
 
-5. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur daVinci.exe) ab. Beim Programmstart von DAVINDA wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
+2. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur daVinci.exe) ab. Beim Programmstart von DAVINCI wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
 
 !!! warning "Wichtig"
 
@@ -70,6 +70,7 @@ Die Paths-Datei `daVinci.paths` kann für DAVINCI die Pfadangaben für folgende 
 
 | Name                     | Datei           | Beschreibung                             |
 | ------------------------ | --------------- | ---------------------------------------- |
+| daVinci.lic              | daVinci.lic     | Lizenzdatei                              |
 | daVinciOptionFile        | daVinci.opt     | Optionsdatei                             |
 | daVinciHTMLFormatFile    | daVinci.hfm     | HTML Exportformate                       |
 | daVinciPrintFormatFile   | daVinci.pfm     | Druckformate                             |
