@@ -69,6 +69,7 @@
 * FIX: Fehlt ein Lehrer über einen längeren Zeitraum, werden im Vertretungserstellen-Fenster wieder Folgetermine angezeigt, die analog vertreten werden sollen:
 ![Folgende Fehltermine analog vertreten](/assets/images/liesmich/6.5.61.06.png)
 
+* FIX: Anrechenstunden, die man einem Lehrer über den Bereich "Anrechnungen" neu hinzugefügt hat (über Befehl `F2` oder grünes Plus in der Registerkarte "Start") werden nun auch in den Bereich "Vertretungen" bei den indirekten/direkten Vertretern in die Spalten +/-AStd/M und +/-AStd/J übergeben
 
 ### KURSPLAN
 
@@ -91,8 +92,12 @@
 * FIX: Druckformat "Kurslisten" - Designänderungen werden übernommen
 * FIX: Ausdruck von Vertetungen bei unterschiedlichen Zeitrahmen korrigiert
 * FIX: Ausdruck der Fach-/ Lehrerlegende gibt bei Teamteaching auch den zweiten Lehrer aus
+* FIX: Ausdruck von Vertretungsplänen: In Spalte "Art" wird nun aus dem Schlüsselverzeichnis "Vertretungsentfallgründe" das Feld "Bezeichnung" (Langname) und nicht mehr das Feld "Kürzel" in den Druck übergeben
   
 ### HTML Export
+
+* FIX: Exportformat "Lehrer-Änderungsabrechnung" - Änderungen werden wieder korrekt übergeben
+
 
 ### Sonstiges
 
