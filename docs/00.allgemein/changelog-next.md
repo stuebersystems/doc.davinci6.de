@@ -104,4 +104,5 @@
 ### Sonstiges
 
 * FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
+* FIX: LANIS Export Zeichensatz auf UTF 8 geändert
   
