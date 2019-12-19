@@ -105,4 +105,7 @@
 
 * FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
 * FIX: LANIS Export Zeichensatz auf UTF 8 geändert
-  
+
+### Webbox:
+
+* FIX: Vertretungen für eine gleichzeitige Raum- und Lehrerfehlzeit werden in allen betroffenen Plänen angezeigt
