@@ -19,7 +19,7 @@ DAVINCI wird eingesetzt von:
 | [DAVINCI KURSPLAN](03.kursplan/allgemeines.md) |
 | [DAVINCI RESSOURCENPLAN](04.ressourcen/allgemeines.md) |
 | [DAVINCI LOOK](05.look/allgemeines.md) |
-| [DAVINCI SERVER](06.server/allgemeines.md)|
+| [DAVINCI ENTERPRISE](06.enterprise/02.explorer.md)|
 | [DAVINCI EXPLORER](07.explorer/allgemeines.md) |
 | [DAVINCI ANALYTICS](08.analytics/allgemeines.md) |
 | [DAVINCI INFOSERVER](09.infoserver/allgemeines.md) |
