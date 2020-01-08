@@ -140,12 +140,14 @@ nav:
 - LOOK: 
   - So gehen Sie vor: 05.look/allgemeines.md
 - ENTERPRISE:
-  - Allgemein: 06.enterprise/00.allgemeines.md 
-  - Installation und Updates: 06.enterprise/01.installation.md
-  - Einrichtung: 06.enterprise/02.einrichten.md
-  - DAVINCI SERVER Control: 06.enterprise/03.control.md
-  - Client- und Serververbindung: 06.enterprise/04.verwenden.md
-  - DAVINCI EXPLORER: 06.enterprise/11.explorer.md
+  - DAVINCI SERVER: 
+    - Allgemeines: 06.enterprise/00.server.md 
+    - Installation und Updates: 06.enterprise/01.installation.md
+    - Einrichtung: 06.enterprise/02.einrichten.md
+    - DAVINCI SERVER Control: 06.enterprise/03.control.md
+    - Client- und Serververbindung: 06.enterprise/04.verwenden.md
+  - DAVINCI EXPLORER: 
+    - Allgemeines: 06.enterprise/11.explorer.md
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md
     - Änderungen: 08.analytics/aenderungen.md
