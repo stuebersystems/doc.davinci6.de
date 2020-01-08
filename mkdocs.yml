@@ -140,8 +140,8 @@ nav:
 - LOOK: 
   - So gehen Sie vor: 05.look/allgemeines.md
 - ENTERPRISE:
+  - Allgemeines: 06.enterprise/00.allgemein.md 
   - DAVINCI SERVER: 
-    - Allgemeines: 06.enterprise/00.server.md 
     - Installation und Updates: 06.enterprise/01.installation.md
     - Einrichtung: 06.enterprise/02.einrichten.md
     - DAVINCI SERVER Control: 06.enterprise/03.control.md
