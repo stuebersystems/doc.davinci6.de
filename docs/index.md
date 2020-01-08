@@ -18,15 +18,7 @@ DAVINCI wird eingesetzt von:
 | [DAVINCI VERTRETUNGSPLAN](02.vertretungsplan/allgemeines.md) |
 | [DAVINCI KURSPLAN](03.kursplan/allgemeines.md) |
 | [DAVINCI RESSOURCENPLAN](04.ressourcen/01.allgemeines.md) |
-| [DAVINCI LOOK](05.look/allgemeines.md) |
+| [DAVINCI LOOK](05.look/00.allgemeines.md) |
 | [DAVINCI ENTERPRISE](06.enterprise/00.allgemeines.md)|
 | [DAVINCI ANALYTICS](08.analytics/allgemeines.md) |
 | [DAVINCI INFOSERVER](09.infoserver/allgemeines.md) |
-
-| Das Kapitel "ALLGEMEINES" ist unterteilt in die Abschnitte:|
-|:--|
-| [Schulungen](00.allgemein/schulungen.md) |
-| [Änderungen](00.allgemein/changelog.md) |
-| [Installation](00.allgemein/installation.md) |
-| [Updates](00.allgemein/update.md) |
-| [Regionales](10.regionales/allgemeines.md) |

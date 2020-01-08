@@ -139,7 +139,9 @@ nav:
 - RESSOURCENPLAN: 
   - So gehen Sie vor: 04.ressourcen/01.allgemeines.md
 - LOOK: 
-  - So gehen Sie vor: 05.look/allgemeines.md
+  - Allgemeines: 05.look/00.allgemeines.md
+  - Installation und Update: 05.look/01.installation.md
+  - Ansichten und Funktionalitäten: 05.look/02.nutzung.md
 - ENTERPRISE:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
   - DAVINCI SERVER: 
