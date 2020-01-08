@@ -139,10 +139,9 @@ nav:
   - So gehen Sie vor: 04.ressourcen/01.allgemeines.md
 - LOOK: 
   - So gehen Sie vor: 05.look/allgemeines.md
-- SERVER: 
-  - So gehen Sie vor: 06.server/allgemeines.md
-- EXPLORER: 
-  - So gehen Sie vor: 07.explorer/allgemeines.md
+- Enterprise: 
+  - DAVINCI SERVER: 06.server/allgemeines.md
+  - DAVINCI EXPLORER: 07.explorer/allgemeines.md
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md
     - Änderungen: 08.analytics/aenderungen.md
