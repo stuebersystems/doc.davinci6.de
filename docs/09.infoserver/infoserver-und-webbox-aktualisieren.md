@@ -1,11 +1,15 @@
 # DAVINCI INFOSERVER und DAVINCI WEBBOX aktualisieren
 
-Wenn Sie in Ihrem Schulnetzwerk die DAVINCI-Module aktualisieren möchten, sind folgende Module zu aktualisieren. Das Aktualisieren von DAVINCI und DAVINCI LOOK wird nur zur Vollständigkeit aufgezählt und wird hier nicht weiter beschrieben.
+Wenn Sie in Ihrem Schulnetzwerk die DAVINCI-Module aktualisieren möchten, sind folgende Module zu aktualisieren.
+
+!!! info "Hinweis"
+
+    Das Aktualisieren von DAVINCI und DAVINCI LOOK wird nur zur Vollständigkeit aufgezählt und wird hier nicht weiter beschrieben.
 
 Auf welchen Rechnern|Was muss aktualisiert werden
 ---|---
  Auf den Clients| [DAVINCI](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6.msi) <br/>[DAVINCI LOOK](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6look.msi)
- Auf dem oder den Serverrechner <br/>(ggfs. laufen der DAVINCI INFOSERVER und der DAVINCI Server auf getrennten Rechnern) |[DAVINCI Server](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6server.msi)<br/>[DAVINCI INFOSERVER](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6infoserver.msi)<br/>[WEBBOX Dateien](https://davinci-webbox.stueber.de/)
+ Auf dem oder den Serverrechner(n) <br/>(ggfs. laufen der DAVINCI INFOSERVER und der DAVINCI Server auf getrennten Rechnern) |[DAVINCI Server](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6server.msi)<br/>[DAVINCI INFOSERVER](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6infoserver.msi)<br/>[WEBBOX Dateien](https://davinci-webbox.stueber.de/)
   
 ## Den DAVINCI Server aktualisieren
 
