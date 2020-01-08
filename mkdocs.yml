@@ -147,7 +147,11 @@ nav:
     - DAVINCI SERVER Control: 06.enterprise/03.control.md
     - Client- und Serververbindung: 06.enterprise/04.verwenden.md
   - DAVINCI EXPLORER: 
-    - Allgemeines: 06.enterprise/11.explorer.md
+    - Start: 06.enterprise/05.explorer.md
+    - Benutzer und Benutzergruppen: 06.enterprise/06.benutzer.md
+    - Plandateien: 06.enterprise/07.plandateien.md
+    - Zugriffsrechte: 06.enterprise/08.rechte.md
+    - Mandanten: 06.enterprise/09.mandanten.md
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md
     - Änderungen: 08.analytics/aenderungen.md
