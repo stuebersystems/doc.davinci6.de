@@ -59,6 +59,7 @@ nav:
         - Änderungen 2016: 00.allgemein/changelog-2016.md
         - Änderungen 2015: 00.allgemein/changelog-2015.md
         - Änderungen 2014 und früher: 00.allgemein/changelog-archive.md
+- Administratives:
   - Installation und Updates:
     - Voraussetzungen: 00.allgemein/requirements.md
     - Installation: 00.allgemein/installation.md
