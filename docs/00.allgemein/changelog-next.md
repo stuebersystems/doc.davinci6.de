@@ -71,7 +71,8 @@
 
 * FIX: Anrechenstunden, die man einem Lehrer über den Bereich "Anrechnungen" neu hinzugefügt hat (über Befehl `F2` oder grünes Plus in der Registerkarte "Start") werden nun auch in den Bereich "Vertretungen" bei den indirekten/direkten Vertretern in die Spalten +/-AStd/M und +/-AStd/J übergeben
 * FIX: Unter `Start > Planansicht` aktivierte Einstellung `Positionskonflikte anzeigen` gibt wieder korrekt farbliche Markierungen im Planfenster aus
-
+* FIX: erzeugte Vertretung einer Raumfehlzeit wird durch Erfassen einer Lehrerfehlzeit zur selben Zeit nicht mehr zurückgesetzt
+  
 ### KURSPLAN
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
