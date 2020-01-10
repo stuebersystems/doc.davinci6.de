@@ -45,6 +45,6 @@ Beispiel 2:
 Schule nutzt eine ADSL Verbindung (Download 16 Mb/s, **Upload 1 Mb/s**); App auf dem Mobilgerät verfügt über 4G (Download 30 Mb/s): man wartet auf die Erstanfrage oder die Antwort nach einer Änderung circa 8s.
 Werden von unterwegs per Mobilgerät zahlreiche Anfragen zeitgleich gestellt (z.b.: um 7:40 Uhr, 80 Lehrer...), würde auch ein Datenvolumen von insgesamt etwa 80 MB zu übertragen sein. Bis für alle Kollegen die Daten auf die Geräte übertragen von der Schule (durch ADSL Uplink) werden, dauert es rund 10 Minuten.
 
-!!! warning "Wichtig"
+!!! danger "Achtung"
 
- Das Nadelöhr an dieser Stelle ist also die Uploadgeschwindigkeit, hier kann man die Wartezeit deutlich beeinflussen.
+    Das Nadelöhr an dieser Stelle ist also die Uploadgeschwindigkeit, hier kann man die Wartezeit deutlich beeinflussen.

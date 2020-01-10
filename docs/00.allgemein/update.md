@@ -17,8 +17,7 @@ Gehen Sie wie folgt vor:
 * Öffnen Sie die Webseite [download.davinci.stueber.de](https://davinci.stueber.de/download.php) in Ihrem Web-Browser.
 
 * Klicken Sie unterhalb von DAVINCI auf die Schaltfläche `Download`, um die aktuellste Installationsdatei `davinci6.msi` herunterzuladen.
-
-* Starten Sie die Installationsdatei ``davinci6.msi`` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
+* Starten Sie die Installationsdatei `davinci6.msi` per Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
 
 Sie können den Download auch aus dem Programm heraus starten. Öffnen Sie dazu DAVINCI 6 und wählen `Hilfe > Auf Aktualisierung prüfen`. Das Programm wird nun automatisch prüfen, ob für Ihre Installation ein Update vorliegt und bei Bedarf herunterladen.
 
@@ -46,12 +45,12 @@ Nun müssen Sie bei den einzelnen Clients unter `Extras > Optionen > Auto-Update
 
 ## DAVINCI-LOOK updaten
 
-Ein ausführliche Beschreibung der Installation von DAVINCI-LOOK finden Sie im Kapitel [DAVINCI-LOOK installieren]
+Ein ausführliche Beschreibung des Updates von DAVINCI-LOOK finden Sie im Kapitel [DAVINCI-LOOK installieren](https://doc.davinci6.stueber.de/05.look/01.installation/#update)
 
 ## DAVINCI-SERVER updaten
 
-Ein ausführliche Beschreibung der Installation von DAVINCI-SERVERS finden Sie im Kapitel [DAVINCI-SERVER installieren]
+Ein ausführliche Beschreibung des Updates von DAVINCI-SERVERS finden Sie im Kapitel [DAVINCI-SERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
 
 ## DAVINCI-INFOSERVER updaten
 
-Ein ausführliche Beschreibung der Installation des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren]
+Ein ausführliche Beschreibung des Updates des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
