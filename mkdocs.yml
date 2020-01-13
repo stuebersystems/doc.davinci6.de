@@ -69,8 +69,8 @@ nav:
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
   - Pathdatei: 00.allgemein/pathdatei.md
   - Referenzen:
-    - Symbole: 01.stundenplan/ubersicht-symbole.md
-    - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
+    - Symbole: 00.allgemein/ubersicht-symbole.md
+    - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
