@@ -66,3 +66,15 @@ Unter Windows 10:
 !!! warning "Wichtig"
 
     Beim ersten Aufruf von DAVINCI werden Sie gefragt, ob Sie mit der Testversion arbeiten wollen oder ob Sie die Lizenzierungsdaten Ihrer Vollversion eingeben möchten.
+
+## DAVINCI-LOOK installieren
+
+Ein ausführliche Beschreibung der Installation von DAVINCI-LOOK finden Sie im Kapitel [DAVINCI-LOOK installieren](https://doc.davinci6.stueber.de/05.look/01.installation/#update)
+
+## DAVINCI-SERVER installieren
+
+Ein ausführliche Beschreibung der Installation von DAVINCI-SERVERS finden Sie im Kapitel [DAVINCI-SERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
+
+## DAVINCI-INFOSERVER installieren
+
+Ein ausführliche Beschreibung der Installation des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
