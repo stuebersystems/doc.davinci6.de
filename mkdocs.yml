@@ -68,6 +68,9 @@ nav:
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
   - Pathdatei: 00.allgemein/pathdatei.md
+  - Referenzen:
+    - Symbole: 01.stundenplan/ubersicht-symbole.md
+    - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
@@ -115,9 +118,6 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
-  - Referenzen:
-    - Symbole: 01.stundenplan/ubersicht-symbole.md
-    - Tastaturkürzel: 01.stundenplan/ubersicht-tastenkurzel.md
   - Datenaustausch:
     - Mit MAGELLAN: 11.datenaustausch/magellan.md
     - Datentransferformat: 11.datenaustausch/sdtf.md
