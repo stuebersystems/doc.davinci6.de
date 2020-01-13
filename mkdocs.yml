@@ -65,9 +65,9 @@ nav:
     - Voraussetzungen: 00.allgemein/requirements.md
     - Installation: 00.allgemein/installation.md
     - Lizenzieren: 00.allgemein/lizenzieren.md
-    - Pathdatei: 00.allgemein/pathdatei.md
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
+  - Pathdatei: 00.allgemein/pathdatei.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md

@@ -40,7 +40,7 @@
   
 ### DRUCK
 
-* NEW:
+* FIX: Speichern der Ausrichtung Querformat wieder möglich
   
 ### HTML Export
 
