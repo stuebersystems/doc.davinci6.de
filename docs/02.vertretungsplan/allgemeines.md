@@ -34,6 +34,29 @@ DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schn
 * Als Kurznachricht per E-Mail oder SMS (siehe Abschnitt „Änderungsnachrichten versenden“)
 * * Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
 
+## DAVINCI Planeigenschaften
+
+Öffen Sie die DaVIINVI Planeigenschaften über die `Plan > Eigenschaften`. Auf der Registerkarte `Datenschutz` finden die Eintragungsmgölcihkeiten für den Vertretungsplanbereich:
+![Dateieigenschaften](/assets/images/vertretungsplan/Dateieigenschaften.png)
+
+### Änderungen
+
+Setzen Sie den Haken bei "Änderungen freigeben", wenn Sie gezielt entscheiden möchten, ob Änderungen freigegeben werden müssen und damit im Ausdruck, in DAVINCI Look und der Webbox sichtbar sind.
+
+Im unteren Bereich können Sie auswählen, für wieviele Tage maximimal Änderungen in der Webbox angezeoigt werden.
+
+Mit dem Haken bei Mitteilungen für Vertretungslisten nicht publizieren, legen Sie für die Webbox fest, ob die Mittteilungen dort in der Vertretungsliste angezeigt werden oder nicht.
+
+### Fehlgründe
+
+Bitte wählen Sie aus, ob die Lehrer-Fehlgründe in DAVINCI LOOK als "abwesend" oder mit dem Text des Schlüsselverzeichnisses "Lehrerfehlgründe" ausgegeben wird.
+
+Über den Haken "Fehlgrund in Lehrerplan anzeigen" können Sie zusätzlich für DAVINCI festlegen, ob der Lehrerfehlgrund hier im Léhrerplan immer mit angezeigt wird.
+
+### Lehrer-Datenschutz
+
+Bitte wählen Sie aus, ob die Ausdrucke der Lehrer-Veransatltungen und Lehrerzeitkonten aus DAVINCI LOOK heraus möglich ist.
+
 ## Schlüsselverzeichnisse
 
 Bei der Erstellung der eigentlichen Vertretung werden bestimmte Schlüsselverzeichnisse verwendet, die individuell gefüllt werden können. So gelangen Sie beispielsweise zu den Schlüsselverzeichnissen für den Vertretungsplan:
