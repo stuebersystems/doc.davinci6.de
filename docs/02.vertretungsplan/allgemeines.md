@@ -32,11 +32,12 @@ DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schn
 * Per Ausdruck (siehe Abschnitt „Drucken“)
 * Als HTML-Pläne (siehe Abschnitt „HTML-Vertretungspläne exportieren“)
 * Als Kurznachricht per E-Mail oder SMS (siehe Abschnitt „Änderungsnachrichten versenden“)
-* * Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
+* Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
 
 ## DAVINCI Planeigenschaften
 
 Öffen Sie die DaVIINVI Planeigenschaften über die `Plan > Eigenschaften`. Auf der Registerkarte `Datenschutz` finden die Eintragungsmgölcihkeiten für den Vertretungsplanbereich:
+
 ![Dateieigenschaften](/assets/images/vertretungsplan/Dateieigenschaften.png)
 
 ### Änderungen
