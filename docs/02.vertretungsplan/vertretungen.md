@@ -12,7 +12,7 @@ Für die Erstellung Ihrer Lehrer- und Raumvertretungen steht Ihnen die Ansicht �
 
 Die Ansicht „Vertretungen“ unterteilt sich in drei grundlegende Bereiche:
 
-* _Fehlzeiten-\/Vertretungen-Liste:_ Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
+* _Fehlzeiten-/Vertretungen-Liste:_ Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
 
 * _Liste möglicher Vertreter:_ Unten links sehen Sie eine Liste der möglichen Vertreter für die ausgewählte Raum- oder Lehrerfehlzeit. Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und `Fächer` legen Sie die Art der zu erstellenden Vertretung fest.
 
@@ -26,7 +26,7 @@ Zu Beginn der Vertretungserstellung können Sie festlegen, ab welchem Zeitraum d
 
 Das auf dem Kopfbalken der Fehlzeiten-Liste dargestellte Datum bedeutet, dass die eingetragenen Fehlzeiten ab diesem Datum angeboten werden. Hier ist standardmäßig das aktuelle Systemdatum Ihres Rechners voreingestellt. Sie können aber mit den Pfeilschaltflächen oben rechts auf dem Kopfbalken zu einem früheren oder späteren Datum weiterblättern. Auf der linken Seite des Kopfbalkens zeigt der Wert neben `Offene` die Anzahl der ab diesem Datum noch zu bearbeitenden Fehlzeiten an.
 
-Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-\/Vertretungen-Liste:
+Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-Vertretungen-Liste:
 
 | Spalte | Bedeutung |
 | :--- | :--- |
@@ -50,8 +50,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-\/V
 | Qualität | Kann mit einem Eintrag aus dem Schlüsselverzeichnis „Vertretungsqualität“ gefüllt werden |
 
 !!! info "Hinweis"
-
-  Sie können darüber hinaus die Fehlzeiten-\/Vertretungen-Liste nach einzelnen Spalten gruppieren, Spalten ein-\/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten\/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
+      Sie können darüber hinaus die Fehlzeiten-/Vertretungenliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
 
 Sobald in der Fehlzeiten-\/Vertretungen-Liste ein bestimmter Eintrag markiert wird, zeigt die VertreterListe eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
 Vorfeld beeinflussen kann.
@@ -65,8 +64,7 @@ Darüber hinaus kann der Planer die Reihenfolge der auf den Registerkarten `Dire
 Bevor Sie mit DAVINCI Lehrervertretungen erstellen, sollten Sie deshalb klären, welche allgemeinen Prioritäten für die Auswahl Ihrer Vertretungslehrer gelten. Wie Sie dabei vorgehen müssen, erfahren Sie im nächsten Kapitel.
 
 !!! info "Hinweis"
-
-  Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
+     Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
 
 Die individuellen Prioritäten bei der Auswahl der Vertretungslehrer werden anhand verschiedener Parameter definiert, die der Vertretungsplaner im Vorfeld gewichtet. Bei den Parametern muss man zwischen Eignungsfaktoren, Vertretungseinschränkungen und einer Anzeigeeinstellung unterscheiden.
 
@@ -166,10 +164,10 @@ Der Eignungskoeffizient ermöglicht, die dargebotene Auswahl der Vertreter nach 
 | :--- | :--- |
 | Eignung | Der Eintrag zeigt den aufgrund der Eignungsfaktoren (siehe Abschnitt „Eignungsfaktoren“) errechneten Eignungswert für eine Vertretung an. |
 | Art | Die Einträge geben Aufschluss darüber, wie sich der zu vertretende zum planmäßigen Unterricht eines Lehrers verhält. Mögliche Spaltenwerte sind „Vorziehen“, „Zusätzlich“ und „Übernehmen“. Diese Alternativen werden aufgrund Ihrer besonderen Bedeutung in den nachfolgenden Kapiteln ausführlicher behandelt. |
-| +AStd\/M | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Monat des Planungszeitraums. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
+| +AStd/M | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Monat des Planungszeitraums. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
 | -AStd\/M | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten negativen Anrechenstunden eines Lehrers im aktuellen Monat. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
-| +AStd\/J | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Planungszeitraum. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
-| -AStd\/J | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten  negativen Anrechenstunden eines Lehrers aktuellen Planungszeitraum. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
+| +AStd/J | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Planungszeitraum. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
+| -AStd/J | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten  negativen Anrechenstunden eines Lehrers aktuellen Planungszeitraum. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
 | Priorität | Die Einträge verweisen auf zentrale Rahmenbedingungen, die für eine kompetente Unterrichtsvertretung von Bedeutung sind. Mögliche Spaltenwerte sind hier das Klassenkürzel der zu vertretenden Klasse, z.B. „8a“, „Fach“ und „Frei“. Die Ausgabe dieser Werte gehorcht der folgenden impliziten Hierarchie: Unterrichtet der Vertreter die Klasse wird das Klassenkürzel der Klasse ausgegeben. Kennt der Vertreter die Klasse nicht, unterrichtet aber das zu vertretende Fach, so wird der Eintrag „Fach“ angezeigt. Unterrichtet der Vertreter weder die Klasse, noch das Fach, hat aber zum Vertretungszeitpunkt eine Freistunde, so wird der Eintrag „Frei“ angezeigt. |
 | Raum | Hier wird der aktuelle Raum des Vertreters angezeigt, wenn er zum Vertretungstermin Unterricht hat. |
 | Soll | In dieser Spalte wird der Sollstundenwert des Lehrers laut der Lehrer-Soll\/ IstBerechnung in den Stammdaten dargestellt. |
@@ -241,7 +239,7 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
 
 Die erstellte Vertretung wird nun in der Fehlzeiten-Liste und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
 
-## Markierung in der Fehlzeiten-\/Vertretungen-Liste
+## Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
 
@@ -476,7 +474,7 @@ Die von der Automatik erstellten Vertretungen werden nun in der Fehlzeiten-\/Ver
 
 !!! info "Hinweis"
 
-  Vertretungen, die Sie bereits manuell erstellt haben, werden von der Vertretungsautomatik nicht angetastet. Sie können also durchaus die beiden Vorgehensweisen kombinieren. Erstellen Sie z.B. zunächst eine Reihe von Lehrer-Vertretungen selbst und lassen sie danach die Automatik über die restlichen Lehrer-Fehlzeiten laufen.
+    Vertretungen, die Sie bereits manuell erstellt haben, werden von der Vertretungsautomatik nicht angetastet. Sie können also durchaus die beiden Vorgehensweisen kombinieren. Erstellen Sie z.B. zunächst eine Reihe von Lehrer-Vertretungen selbst und lassen sie danach die Automatik über die restlichen Lehrer-Fehlzeiten laufen.
 
 ## Vertretungsalternativen eingeben
 
@@ -500,10 +498,9 @@ So gelangen Sie zum Schlüsselverzeichnis Vertretungsentfallgründe:
 
 ### Freistunde zuteilen
 
-Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen Sie bitte folgenderma-
-ßen vor:
+Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen Sie bitte folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit, für die Sie eine Freistunde zuteilen wollen.
+1. Markieren Sie in der Fehlzeiten-/Vertretungen-Liste die Fehlzeit, für die Sie eine Freistunde zuteilen wollen.
 
 2. Klicken Sie auf die Schaltfläche `Entfällt`, die sich links auf dem Kopfbalken der Vertreterliste befindet.
 
@@ -554,7 +551,7 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
 
-## Markierung in der Fehlzeiten-\/Vertretungen-Liste
+## Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` erhält den Eintrag „Raumänderung“ und wird nicht mehr gelb hinterlegt.
 
@@ -588,7 +585,7 @@ Die geänderte Fachzuordnung wird nun in der Fehlzeiten-\/Vertretungen-Liste und
 
 Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert
 
-## Markierung in der Fehlzeiten-Liste 
+## Markierung in der Fehlzeiten-Liste
 
 1. Das Feld `Art` verändert sich durch die geänderte Fachzuweisung nicht.
 
@@ -712,41 +709,6 @@ Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretung
 
 ![Dies ist eine vertretene Aufsicht im Stundenplan.](/assets/images/vertretungsplan/sub-plan71.png)
 
-# Änderungen verfolgen und bearbeiten
-
-Sie haben in den vorherigen Kapiteln verschiedene Instrumente kennengelernt, mit denen Sie im DAVINCI-Vertretungsplan temporäre Änderungen an Ihrem regulären Stundenplan vornehmen können. 
-
-Alle diese Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden an einer zentralen Stelle in daVinci-Vertretungsplan tabellarisch dokumentiert. Dies betrifft die Fehlzeiten, wie auch die Vertretungen sowie die verschiedenen Umstellungen und Ergänzungen, die Sie direkt im Stundenplan z.B. eines Lehrers oder einer Klasse vornehmen. Die zentrale Tabelle, in der Sie alle zurückliegenden Veränderungen an Ihrer laufenden Stundenplandatei nachvollziehen können, finden Sie in der Ansicht
-`Änderungen`. Um diese Ansicht zu öffnen, wählen Sie in der Navigationsleiste die Navigationsgruppe
-Vertretungsplan mit der Ansicht Änderungen aus. Die Änderungsliste erlaubt dem Vertretungsplaner die in den anderen Ansichten erstellten Umstellungen nachzuvollziehen und gegebenenfalls zusätzliche Ergänzungen oder Änderungen durchzuführen.
-
-![Dies ist die Ansicht „Änderungen“](/assets/images/vertretungsplan/sub-plan88.png)
-
-## Änderungen nachvollziehen
-
-Die zentrale Änderungsliste ist in drei grundlegende Bereiche geteilt, die jeweils mehrere Spalten umfassen:
-
-* *Zeitpunkt der Änderung:* Dieser Spaltenbereich umfasst alle Informationen, die den Zeitpunkt eines geänderten Termins betreffen, insbesondere Datum, Wochentag, Stundenplanposition und Uhrzeit.Darüber hinaus erhalten Sie hier Informationen über den Typ der Terminänderung sowie Hinweise auf Widersprüche.
-
-* *Betroffener Termin und seine Änderung:* Dieser Spaltenbereich gibt Auskunft über die zentralen Elemente des geänderten Termins, insbesondere Block, Lehrer, Fach, Raum und Klasse sowie die damit verbunden Änderungen bei Klasse, Lehrer, Fach bzw. Raum.
-
-* *Zusätzliche Informationen zur Änderung:* Dieser Spaltenbereich dokumentiert zusätzliche Informationselemente zur Änderungen, die der Vertretungsplaner im Zusammenhang mit einer Terminänderung hinterlegen kann, z.B. Infotexte, Mitteilungen und Bemerkungen.
-
-!!! info "Hinweis"
-
-  Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-
-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, entnehmen Sie bitte dem Kapitel „Arbeiten in Listen“ des Benutzerhandbuchs zu daVinci-Stundenplan (siehe Abschnitt „Weitere
-Informationen“).
-
-## Änderungsliste bearbeiten
-
-In der Ansicht `Änderungen` stehen Ihnen folgende Instrumente zur Verfügung, mit denen Sie die Einträge in der Änderungsliste bearbeiten können:
-
-* Einträge in den Spalten Bemerkung, Mitteilung und Info ändern oder hinzufügen.
-
-* Zusatzunterricht bearbeiten oder neuen Zusatzunterricht hinzufügen.
-
-* Mitteilungen bearbeiten oder neue Mitteilungen hinzufügen
 
 ### Bemerkungen, Mitteilungen, Infozeile einfügen
 
