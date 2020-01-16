@@ -1,5 +1,25 @@
 ## Publikation
 
+### Änderungen veröffentlichen
+
+Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DAVINCI bzw. DAVINCI-LOOK sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
+
+In der Änderungsliste sind Änderungen zunächst in der Spalte Status mit dem Wert `Unveröffentlicht` gekennzeichnet. Auf diese Weise können Änderungen erstellt werden, ohne dass diese direkt für alle sichtbar sind. Wenn die Änderungen fertig abgeschlossen sind, müssen diese veröffentlicht werden.
+
+![Die Schaltfläche `Änderungen freigeben` finden Sie in der Menügruppe `Publizieren > Pläne veröffentlichen`.](/assets/images/vertretungsplan/sub-plan96.png)
+
+![Im Dialogfenster `Änderungen freigeben` legen Sie fest, ob Sie nur eigene oder Änderungen anderer Bearbeiter veröffentlichen.](/assets/images/vertretungsplan/sub-plan97.png)
+
+So veröffentlichen Sie Änderungen:
+
+1. Betätigen Sie die Schaltfläche `Änderungen freigeben` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
+
+2. Wählen Sie im Dialogfenster `Änderungen veröffentlichen` die Art der Veröffentlichung aus.
+
+3. Dabei können Sie entweder nur Ihre eigene Änderungen veröffentlichen oder auch zusammen mit den Änderungen auch anderer Benutzer. Wählen Sie eine der beiden Optionen aus und bestätigen Sie mit `OK`.
+
+4. In der Änderungsliste wird nun der Spalte `Status` der Wert von `Unveröffentlicht` auf `Veröffentlicht` gesetzt. Jetzt sind die Änderungen für alle anderen Benutzer in DAVINCI bzw. DAVINCI-LOOK sichtbar.
+
 ### Drucken
 
 In daVinci-Vertretungsplan unterstützt grundsätzlich zwei Art des Druckens:
@@ -20,7 +40,170 @@ Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 #### Druckvorschau
 
-Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche über verschiedene Menügruppen aufgerufen werden kann.
+Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche
+über verschiedene Menügruppen aufgerufen werden kann.
+
+![Im Dialogfenster der Druckvorschau können Sie sowohl das Druckergebnis ansehen als auch Einstellungen des ausgewählten Druckformats direkt ändern.](/assets/images/vertretungsplan/sub-plan101.png)
+
+##### Menügruppe Bericht
+
+Über die Schaltfläche `Design` gelangen Sie direkt zu den Detaileinstellungen des definierten Druckformats. Alle Änderungen werden direkt im Druckformat gespeichert und unmittelbar in der Vorschau
+angezeigt.
+
+![In den Menügruppe `Vorschau > Bericht` finden Sie die Schaltfläche `Design`.](/assets/images/vertretungsplan/sub-plan102.png)
+
+!!! info "Hinweis"
+
+      Bei geschickter Anordnung von Vorschaufenster und dem Dialogfenster für die Detaileinstellungen des Druckformats, können Sie beide Fenster nebeneinander anzeigen. Wenn Sie jetzt Änderungen im Dialogfenster des Druckformats vornehmen und anschließend auf die Schaltfläche `Übernehmen` klicken, werden die Änderungen sofort im Vorschaufenster sichtbar, ohne das Dialogfenster verlassen zu müssen.
+
+##### Menügruppe Ausgabe
+
+Hier können Sie über die Schaltfläche `Drucken` die Ausgabe direkt auf den Drucker ausgeben.
+
+![In der Menügruppe "Vorschau|Ausgabe" finden Sie die Schaltfläche `Drucken`.](/assets/images/vertretungsplan/sub-plan103.png)
+
+Das Dialogfenster zur Auswahl der Druckeroptionen wird aufgerufen, wenn Sie die Schaltfläche `Druckdialog` anwählen. Optional können Sie die Ausgabe in eine PDF-Datei exportieren, wenn Sie auf die Schaltfläche `Nach PDF exportieren` drücken.
+
+##### Menügruppe Format
+
+Mit der Schaltfläche `Seite einrichten` können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen.
+
+![In der Menügruppe "Vorschau|Format" finden Sie die Schaltfläche `Seite einrichten`.](/assets/images/vertretungsplan/sub-plan104.png)
+
+In diesem Dialogfenster können Sie auf insgesamt vire Registerkarten grundlegende Seiteneinstellungen vornehmen.
+
+##### Menügruppe Zoom
+
+Sie können über die Schaltflächen `Ganze Seite`, `Zwei Seiten` oder allgemein über das Aufklappmenü
+`Seiten` festlegen, wie viel Seiten gleichzeitig in der Vorschau dargestellt werden sollen.
+
+![Hier sehen Sie die Schaltflächen der Menügruppe `Zoom`](/assets/images/vertretungsplan/sub-plan118.png)
+
+Das Aufklappmenü `Zoom` ermöglicht diverse Einstellung für die prozentuale Darstellung der Originalgröße.
+
+##### Menügruppe Navigation
+
+Hier können Sie die zwischen den einzelnen Seiten der Vorschau navigieren.
+
+![Hier sehen Sie die Schaltflächen der Menügruppe "Navigation"](/assets/images/vertretungsplan/sub-plan119.png)
+
+##### Menügruppe Vorschau
+
+Über Anwahl der Schaltfläche `Kleinansicht` wird die Vorschau in eine linke und eine rechte Fläche unterteilt. Links wird die einzelne Seite in der gewünschten Größe angezeigt und auf der rechten werden alle Seiten in Miniaturansicht zur schnellen Anwahl angezeigt.
+
+![Hier sehen Sie die Schaltflächen der Menügruppe "Vorschau".](/assets/images/vertretungsplan/sub-plan120.png)
+
+Das Aufklappmenü `Ansicht` ermöglich das Einblenden von Rändern, der Ränderleiste oben und/oder der Statusleiste unten in der Vorschau. Ränder selbst werden dabei in der Vorschau des Berichts durch gestrichelte Linien dargestellt.
+
+#### Tagesaktuell Stundenpläne drucken
+
+Neben dem Druck von regulären Stundenplänen können Stundenpläne auch tagesaktuelle aufgrund von eventuellen Veränderung im Vertretungsplan ausgegeben werden.
+
+Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
+
+1. Betätigen Sie die Drucken-Schaltfläche in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet.
+
+![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan98.png)
+
+*Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
+
+![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
+1. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
+![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan121.png)
+1. Markieren Sie zusätzlich das Kontrollkästchen `Mit Vertretungsinformationen drucken`.
+2. Legen Sie im Bereich `Auswahl` einen der Druckformatstypen Klassenpläne, Lehrerpläne, Raumpläne, Fachpläne, Schülerpläne oder Aufsichtspläne fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
+3. Wählen Sie jetzt im Bereich `Druckformat` unter `Auswahl` das Druckformat aus.
+4. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
+5. Klicken Sie auf die Schaltfläche `Drucken`, um die Ausgabe direkt auf den Drucker zu leiten. Wählen Sie die Schaltfläche `Vorschau`, um die Ausgabe erst auf dem Bildschirm zu prüfen.
+
+#### Sammeldruck
+
+Neben dem Druck über einzelne Druckformate können auch mehrere Druckformate zu einem übergreifenden Sammeldruckformat zusammengefasst werden. In diesem Fall kann der Ausdruck verschiedener Druckformate mit einem einzigen Druckaufruf erfolgen.
+
+Für den Bereich des Vertretungsplans können Sie auf diese Weise beispielweise den Tagesvertretungsplan nach Stunden für die Schüler und die Vertretungslehrerliste für die Lehrer mit einem Sammeldruckformat
+ausgeben.
+
+Wählen Sie dazu gemäß der Beschreibung unter Abschnitt „Druckformat bearbeiten “ ein Druckformat vom Druckformattyp Sammeldruckformat.
+
+![Hier tragen Sie den Namen des neuen Sammeldruckformats ein.](/assets/images/vertretungsplan/sub-plan122.png)
+
+Nach der Definition des Namens für das neue Sammeldruckformat können Sie beim Bearbeiten des Druckformats aus der Liste der der bestehenden Druckformate diejenigen auswählen, welche in das
+Sammeldruckformat aufgenommen werden sollen.
+
+Beim Ausdruck werden dann die Druckformate des Sammeldruckformats in der Reihenfolge der Auflistung ausgegeben.
+
+![In diesem Dialogfenster wählen Sie die Druckformate des neuen Sammeldruckformats aus.](/assets/images/vertretungsplan/sub-plan123.png)
+
+#### Druckformattypen
+
+Für das Drucken von Vertretungsplänen können Sie zwischen sechs Druckformattypen für Vertretungspläne wählen.
+
+Vertretungsplantyp                 | Bedeutung
+---------------------------------- | ---------
+Tagesvertretungsplan nach Klassen  | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Klassen sortiert gedruckt
+Tagesvertretungsplan nach Lehrern  | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Vertretungslehrern sortiert gedruckt
+Tagesvertretungsplan nach Stunden  | Alle Vertretungen für einen bestimmten Tag werden nach Stunden sortiert gedruckt
+Klassenvertretungen                | Alle Vertretungen werden nach ausgewählten Klassen gedruckt Lehrervertretungen Alle Vertretungen werden nach ausgewählten fehlenden Lehrern gedruckt
+Vertretungslehrerliste             | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt
+
+Für jedes dieser Druckformattypen können Sie ein oder mehrere Druckformate definieren. Jedes Druckformat legt den Inhalt der auszugebenen Informationen fest.
+
+#### Druckformat bearbeiten
+
+![Die Liste der zur Verfügung stehenden Druckformate.](/assets/images/vertretungsplan/sub-plan124.png)
+
+So erstellen Sie ein neues Druckformat:
+
+1. Klicken Sie auf die Schaltfläche `Drucken` in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet oder klicken Sie auf die Schaltfläche Pläne drucken in der Menügruppe `Publizieren > Pläne` veröffentlichen.
+
+2. Wählen Sie im Dialogfenster `Drucken` die Schaltfläche `Druckformate`. Klicken Sie im Dialogfenster `Druckformate` auf die Schaltfläche `Hinzufügen`.
+
+3. Geben Sie einen Namen für das Druckformat an, wählen Sie den zugehörigen Druckformattyp aus und klicken Sie dann auf `O`K.
+
+4. Definieren Sie nun die Details des Druckformats.
+
+![Hier tragen Sie Name und Typ des neuen Druckformats ein.](/assets/images/vertretungsplan/sub-plan125.png)
+
+Sie können auch auf Basis eines bereits bestehenden Druckformats ein neues Druckformat definieren.
+
+So duplizieren Sie ein Druckformat:
+
+1. Markieren Sie im Dialogfenster `Druckformate` das zu duplizierende Druckformat und wählen Sie dann die Schaltfläche `Duplizieren`.
+
+2. Geben Sie einen Namen für das neue Druckformat an und klicken Sie dann auf `OK`.
+
+3. Ändern Sie jetzt die Vorgaben des kopierten Druckformats nach Ihren Wünschen ab.
+
+Die Detailangaben zu den Druckvorgaben können Sie auf den verschiedenen Registerkarten einstellen.
+
+![Dies ist die Registerkarte `Tabelle` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan126.png)
+
+Auf dieser Registerkarte `Tabelle` legen Sie Schriftart, Schriftgröße, Hintergrundfarbe und Ausrichtung der Überschrift pro Spalte und des Inhalts der Spalte fest. Bei den Zeilen können Sie zwei Hintergrundfarben angeben. Die erste Hintergrundfarbe wird nur für die ungeraden Zeilen und die zweite Hintergrundfarbe wird nur für die gerade Zeilen verwendet. Auf diese Weise können Sie beispielweise folgenden Ausdruck realisieren.
+
+![Dieser Ausdruck eines Tagesvertretungsplans besitzt unterschiedliche Hintergrundfarben.](/assets/images/vertretungsplan/sub-plan127.png)
+
+Auf der Registerkarte `Spalten` legen Sie die Spalten fest, die Sie ausdrucken wollen. Für jede Spalte können Sie über die Schaltfläche `Hinzufügen` oder `Entfernen` entscheiden, ob eine Spalte in die Liste Sichtbare Spalten aufgenommen wird. Über die Schaltflächen mit dem Pfeil oben oder unten können Sie die Reihenfolge der anzuzeigenden Spalten beeinflussen.
+
+![Dies ist die Registerkarte `Spalten` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan126.png)
+
+Für jede Spalte wird beim Ausdruck in Abhängigkeit vom enthaltenen Text die Spaltenbreite dynamisch berechnet. Alternativ können Sie für jede Spalte eine individuelle feste Breite definieren, in dem  
+Sie das Kontrollkästchen `Benutzerdefinierte Spaltenbreite` markieren und die gewünschte Breite bei
+Breite (mm) eintragen. Optional können Sie unter `Überschrift` eine alternative Überschrift für die
+aktuelle markierte Spalte angeben.
+
+Auf der Registerkarte `Titel & Infos` geben Sie hier Schriftart, Schriftgröße, Hintergrundfarbe und Ausrichtung der Planüberschrift und des Infobereichs fest. Optional können Sie festlegen, ob die fehlenden Lehrer und/oder fehlenden Klassen mit im Kopf ausgegeben werden.
+
+![Dies ist die Registerkarte `Titel & Infos` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan128.png)
+
+Auf der Registerkarte `Seite` können Sie die Bezeichnungen für Lehrer in Überschriften und in den Zellen festlegen. Zusätzlich können Sie über das Optionsfeld `Jede Tabelle auf neuer Seite beginnen` entscheiden, ob die Ausdrucke pro Tabelle mit einer neuen Seite anfangen oder fortlaufend ausgegeben werden.
+
+![Dies ist die Registerkarte `Seite` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan129.png)
+
+So bearbeiten oder löschen Sie ein Druckformat:
+
+1. Öffnen Sie das Drucken-Fenster.
+
+2. Markieren Sie im Dialogfenster `Druckformate` das gewünschte Druckformat und klicken Sie auf die Schaltfläche `Bearbeiten` bzw. auf die Schaltfläche `Löschen`.
 
 ### HTML-Vertretungspläne exportieren
 
