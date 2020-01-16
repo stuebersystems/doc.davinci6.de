@@ -1,5 +1,3 @@
-# Der DAVINCI VERTRETUNGSPLAN
-
 ## Publikation
 
 ### Drucken
@@ -24,11 +22,9 @@ Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche über verschiedene Menügruppen aufgerufen werden kann.
 
-### HTML Export
+### HTML-Vertretungspläne exportieren
 
 Neben dem Drucken von Vertretungsplänen können diese auch elektronisch als HTML-Dateien exportiert werden, um dann im Intranet bzw. Internet veröffentlicht zu werden.  
-
-#### HTML-Vertretungspläne exportieren
 
 Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie folgt vor:  
 
@@ -38,6 +34,46 @@ Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie fol
 4. Wählen Sie jetzt im Bereich `HTML-Exportformate` unter `Auswahl` das HTML-Exportformat aus.
 5. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
 6. Klicken Sie auf die Schaltfläche `Exportieren`, um die HTML-Dateien zu exportieren.
+
+#### HTML-Exportformattypen
+
+Für den HTML-Export von Vertretungsplänen können Sie anlog zum Drucken zwischen sechs HTML-Exportformatstypen für Vertretungen wählen.
+
+Vertretungsplantyp                | Bedeutung
+--------------------------------- | ---------
+Tagesvertretungsplan nach Klassen | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Klassen sortiert gedruckt
+Tagesvertretungsplan nach Lehrern | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Vertretungslehrern sortiert gedruckt
+Tagesvertretungsplan nach Stunden | Alle Vertretungen für einen bestimmten Tag werden nach Stunden sortiert gedruckt
+Klassenvertretungen               | Alle Vertretungen werden nach ausgewählten Klassen gedruckt Lehrervertretungen Alle Vertretungen werden nach ausgewählten fehlenden Lehrern gedruckt
+Vertretungslehrerliste            | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt
+
+Für jedes dieser Exportformattypen können Sie ein oder mehrere HTML-Exportformate definieren. Jedes Exportformat legt den Inhalt der auszugebenen Informationen fest.
+
+#### HTML-Exportformat bearbeiten
+
+![Die Liste der zur Verfügung stehenden HTML-Exportformate.](/assets/images/vertretungsplan/sub-plan132.png)
+
+So erstellen Sie ein neues Exportformat:
+
+1. klicken Sie auf die Schaltfläche `HTML-Pläne exportieren` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
+
+2. Wählen Sie im Dialogfenster `HTML-Export` die Schaltfläche `HTML-Exportformate`. Klicken Sie im Dialogfenster `HTML-Exportformate` auf die Schaltfläche `Hinzufügen`.
+
+3. Geben Sie einen Namen für das HTML-Exportformat an, wählen Sie den zugehörigen Exportformattyp aus und klicken Sie dann auf `OK`.
+
+4. Definieren Sie nun die Details des HTML-Exportformats.
+
+![Hier tragen Sie Name und Typ des neuen Exportformats ein.](/assets/images/vertretungsplan/sub-plan133.png)
+
+Sie können auch auf Basis eines bereits bestehenden Druckformats ein neues Druckformat definieren. So duplizieren Sie ein HTML-Exportformat:
+
+1. Markieren Sie im Dialogfenster `HTML-Exportformate` das zu duplizierende Exportformat und wählen Sie dann die Schaltfläche Duplizieren.
+
+2. Geben Sie einen Namen für das neue Exportformat an und klicken Sie dann auf `OK`.
+
+3. Ändern Sie jetzt die Vorgaben des kopierten HTML-Exportformats nach Ihren Wünschen ab.
+
+Die Detailangaben zu den Exportvorgaben können Sie auf den verschiedenen Registerkarten einstellen.
 
 ### Kurznachrichten versenden
 

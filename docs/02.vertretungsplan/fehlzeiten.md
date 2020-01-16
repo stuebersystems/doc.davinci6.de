@@ -103,7 +103,7 @@ Wie Sie nun vorgehen müssen, um eine neue Fehlzeit zu erfassen, erfahren Sie im
 
 ## Fehlzeiten eintragen
 
-## Allgemeines
+### Allgemeines
 
 Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen das Dialogfenster `Fehlzeiten` zur Verfügung. Dieses Dialogfenster können Sie über die Schaltfläche `Neue Fehlzeit` der Menügruppe `Start | Fehlzeiten` aufrufen. Hier tragen Sie die Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ein.
 
@@ -135,7 +135,7 @@ Um mit Hilfe des Dialogfensters `Fehlzeiten` und der Teilansicht `Zeitplan` eine
 
 !!! info "Hinweis"
 
-  Die Anrechenstunden, die Sie im Dialogfenster „Fehlzeit“ eingeben, werden als negative  Anrechenstunden vermerkt, d.h. Sie brauchen kein Minuszeichen einzugeben.
+    Die Anrechenstunden, die Sie im Dialogfenster „Fehlzeit“ eingeben, werden als negative  Anrechenstunden vermerkt, d.h. Sie brauchen kein Minuszeichen einzugeben.
 
 Der Eintrag wird nun im Zeitplan, in der Liste und im Plan der Fehlzeiten Ansicht hinterlegt. 
 
@@ -160,7 +160,7 @@ Der hinzugefügte Eintrag wird nun im Zeitplan, in der Liste und im Stundenplan 
 
 !!! info "Hinweis"
 
-  Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
+    Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
 
 ### Die Fehlzeiten im Stundenplan
 
