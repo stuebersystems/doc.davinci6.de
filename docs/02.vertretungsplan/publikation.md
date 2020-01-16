@@ -1,4 +1,4 @@
-## Publikation
+## Publikationen
 
 ### Änderungen veröffentlichen
 
