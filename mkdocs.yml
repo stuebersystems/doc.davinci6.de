@@ -123,7 +123,7 @@ nav:
     - Datentransferformat: 11.datenaustausch/sdtf.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
-  - Fehlzeiten erfassen: 02.vertretungsplan/fehlzeiten.md
+  - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
   - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
   - Liste der Anrechnungen: 02.vertretungsplan/anrechnungen.md
   - Änderungsliste: 02.vertretungsplan/aenderung.md
