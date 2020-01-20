@@ -1,6 +1,6 @@
 # Änderungen verfolgen und bearbeiten
 
-Sie haben in den vorherigen Kapiteln verschiedene Instrumente kennengelernt, mit denen Sie im DAVINCI-Vertretungsplan temporäre Änderungen an Ihrem regulären Stundenplan vornehmen können. 
+Sie haben in den vorherigen Kapiteln verschiedene Instrumente kennengelernt, mit denen Sie im DAVINCI-Vertretungsplan temporäre Änderungen an Ihrem regulären Stundenplan vornehmen können.
 
 Alle diese Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden an einer zentralen Stelle in daVinci-Vertretungsplan tabellarisch dokumentiert. Dies betrifft die Fehlzeiten, wie auch die Vertretungen sowie die verschiedenen Umstellungen und Ergänzungen, die Sie direkt im Stundenplan z.B. eines Lehrers oder einer Klasse vornehmen. Die zentrale Tabelle, in der Sie alle zurückliegenden Veränderungen an Ihrer laufenden Stundenplandatei nachvollziehen können, finden Sie in der Ansicht
 `Änderungen`. Um diese Ansicht zu öffnen, wählen Sie in der Navigationsleiste die Navigationsgruppe

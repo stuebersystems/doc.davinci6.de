@@ -1,6 +1,4 @@
-# Der DAVINCI VERTRETUNGSPLAN
-
-## Allgemein
+# Allgemein
 
 Der Stundenplan unterliegt in der Regel täglich Änderungen, die daher kommen, dass Lehrer fehlen oder Unterricht aufgrund von Klassenfahren oder aus anderen Gründen entfällt. Dies führt zu Änderungen im Stundenplan aufgrund von Vertretungen, über die die betroffenen Lehrer und Klassen schnell informiert werden müssen. Dieser Aufgabe dient die Ansicht `Vertretungsplan` in DAVINCI.
 
@@ -8,7 +6,7 @@ Der Stundenplan unterliegt in der Regel täglich Änderungen, die daher kommen, 
 
 Sie öffnen die Ansicht `Vertretungsplan`, indem Sie in der linken Navigationsleiste auf `Vertretungsplan` klicken.
 
-## Die Arbeitsumgebung
+# Die Arbeitsumgebung
 
 Der Navigationsbereich `Vertretungsplan` teilt sich in fünf Ansichten, die Sie direkt in der Gruppe `Vertretungsplan` in der Navigationsleiste aufrufen können.
 
@@ -24,7 +22,7 @@ Der Navigationsbereich `Vertretungsplan` teilt sich in fünf Ansichten, die Sie 
 
 Wie Sie mit diesen Ansichten arbeiten können, erfahren Sie in den folgenden Kapiteln dieses Handbuchs.
 
-## Vertretungspläne publizieren
+# Vertretungspläne publizieren
 
 DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schnell zu publizieren:
 
@@ -34,13 +32,13 @@ DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schn
 * Als Kurznachricht per E-Mail oder SMS (siehe Abschnitt „Änderungsnachrichten versenden“)
 * Über öffentliche Bildschirme (Public Displays) in Ihrer Schule (siehe Kapitel "DAVINCI-LOOK")
 
-## DAVINCI Planeigenschaften
+# DAVINCI Planeigenschaften
 
 Öffen Sie die DaVIINVI Planeigenschaften über die `Plan > Eigenschaften`. Auf der Registerkarte `Datenschutz` finden die Eintragungsmgölcihkeiten für den Vertretungsplanbereich:
 
 ![Dateieigenschaften](/assets/images/vertretungsplan/Dateieigenschaften.png)
 
-### Änderungen
+## Änderungen
 
 Setzen Sie den Haken bei "Änderungen freigeben", wenn Sie gezielt entscheiden möchten, ob Änderungen freigegeben werden müssen und damit im Ausdruck, in DAVINCI Look und der Webbox sichtbar sind.
 
@@ -48,7 +46,7 @@ Im unteren Bereich können Sie auswählen, für wieviele Tage maximimal Änderun
 
 Mit dem Haken bei Mitteilungen für Vertretungslisten nicht publizieren, legen Sie für die Webbox fest, ob die Mittteilungen dort in der Vertretungsliste angezeigt werden oder nicht.
 
-### Fehlgründe
+## Fehlgründe
 
 Bitte wählen Sie aus, ob die Lehrer-Fehlgründe in DAVINCI LOOK als "abwesend" oder mit dem Text des Schlüsselverzeichnisses "Lehrerfehlgründe" ausgegeben wird.
 
