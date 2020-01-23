@@ -22,3 +22,19 @@ Die Daten für die Analyse der Übersichten "Änderungen", "Unterricht" und "Unt
 Ergeben sich im Schuljahr weitreichende Änderungen im Stundenplanbereich erstellen Sie in der Regel eine neue DAVINCI Plandatei und pflegen hier Ihre neuen vertretungsregelungen ein. Um die Informationen aus beiden Dateien auszuwerten müssen Sie folgendes beachten:
 
 Bitte beachten Sie folgende Einstellungen in den Dateieigenschaften `Plan > Eigenschaften > Zeitraum`  
+
+![Planeigenschaften Registerkarte Zeitraum](/assets/images/analytics/Dateieigenschaften.png)
+
+Hier geben Sie den jeweiligen Hauptzeitraum der Plandatei an, d.h. der Zeitraum für den auch die Vertretungsinformationen für Analytics genutzt werden sollen.
+
+um in den Übersichten für Analytics die Werte mehrerer Plandateien zusammenzufassen gehen Sie bitte wie folgt vor:
+
+1. Öffnen Plandatei 1
+In den Ansichten werden die Änderungen mit einem schwarzem Stern gekennzeichnet
+
+![Plandatei 1](/assets/images/analytics/allgemein1.png)
+
+2. Öffnen Plandatei 2
+Änderungen aus Plandatei 1 werden mit grauem Stern gezeigt, Änderung aus Plandatei 2 (aktuell geöffnete) werden nun mit dem schwarzen Stern gekennzeichnet
+
+![Plandatei 2](/assets/images/analytics/allgemein2.png)
