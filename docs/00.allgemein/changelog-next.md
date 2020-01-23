@@ -24,7 +24,7 @@
 
 ### STUNDENPLAN
 
-* NEW:
+* NEW: `Stammdaten > Lehrer` Lehrbefähigung in Spalte Fächer kann wieder eingegeben werden
 
 ### VERTRETUNGSPLAN
 
@@ -41,6 +41,9 @@
 ### DRUCK
 
 * FIX: Speichern der Ausrichtung Querformat wieder möglich
+
+!!! danger "Achtung"
+    Ehemals für das Querfomrat angelegte Druckformate müssen Sie bitte noch einmal neu als Querformat speichern. Bitte gehen Sie in die Druckvorschau `Format > Seite einrichten > Seite` und stellen Sie hier das gewünschte Format ein.
   
 ### HTML Export
 
