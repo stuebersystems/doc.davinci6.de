@@ -97,16 +97,16 @@ Monat | Monat des Datums
 Woche | Kalenderwoche des Datums
 Datum | Tagesdatum
 Tag | Wochentag
-Fehlt| -
-Vertreter| -
-Fehlgrund| -
-Fach| -
-Vertretungsentfall| -
-Vertretungslehrermerkmal| -
-Vertretungslehrertyp| -
-Ausfall| -
-Anrechenstunden| -
-Zusätzlich| -
+Fehlt| fehlender Lehrer
+Vertreter| Vertretungslehrer
+Fehlgrund| bei der Fehlzeit des Lehrers eingetragener Fehlergrund siehe Schlüsselverzeichniss `Extras > Schlüsselverzeichnisse > Lehrerfehlgründe`
+Fach| Original- und Vertretungsfach
+Vertretungsentfall| bei Vertretungsentfall eingetragener "Entfallgrund" siehe Schlüsselverzeichniss `Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe`
+Vertretungslehrermerkmal| Art des Vertretungseinsatzes <br> Zusätzlich: Zusatzunterricht<br>Verschoben: vorgezogener Unterricht<br> Mehrfach: Unterricht wird zusätzlich zum eigentlichen Unterricht  übernommen<br> Freigestellt: Lehrer wird aus dem eigentlichen Unterricht freigestellt und übernimmt die Vertretung
+Vertretungslehrertyp| bei der Vertretung eingetragener Vertretungslehrertyp siehe Schlüsselverzeichniss `Extras > Schlüsselverzeichnisse > Vertretungslehrertyp`
+Ausfall| durch eine Lehrerfehlzeit anfallende "Ausfallstunden"
+Anrechenstunden| durch eine Vertretung entstandenen positive Anrechenstunden
+Zusätzlich| durch Zusatzunterricht entstandene "zusätzliche Stunden"
 
 ## Register Diagramm
 
