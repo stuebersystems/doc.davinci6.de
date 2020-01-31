@@ -28,7 +28,7 @@
 
 ### VERTRETUNGSPLAN
 
-* NEW:
+* FIX: Liste der offenen Vertretungen, wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
 
 ### KURSPLAN
 
