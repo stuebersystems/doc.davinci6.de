@@ -21,7 +21,7 @@ Sie arbeiten mit individuellen Zeitrahmen für die Kollegen und für die Klassen
 Hintergrund:
 
 Wir stellen die Veranstaltungen in der Höhe anteilig der Dauer dar.
-Beispiel: Sie haben im Standardzeitrahmen eine Position von 9:00 bis 9:45 definiert, die nächste Position geht von 10:00 bis 10:45 Uhr, dazwischen liegt eine viertel Stunde Pause, laut Standardzeitrahmen. Im Klassenzeitrahmen haben Sie etwas anderes definiert, hier kann auch eine Veranstaltung von 09:45 bis 10:00 Uhr gehen, diese Veranstaltung kann innerhalb des Standardzeitrahmens in der Webbbox/App nicht dargestellt werden. Dauert die Veranstaltung von 9:45 bis 10:00 Uhr ist der darstellbare Zeitraum so winzig, dass die Inhalte sicherlich nur schwer lesbar sind.
+Beispiel: Sie haben im Standardzeitrahmen eine Position von 9:00 bis 9:45 definiert, die nächste Position geht von 10:00 bis 10:45 Uhr, dazwischen liegt eine viertel Stunde Pause, laut `Hauptzeitrahmen`. Im Klassenzeitrahmen haben Sie etwas anderes definiert, hier kann auch eine Veranstaltung von 09:45 bis 10:00 Uhr gehen, diese Veranstaltung kann innerhalb des `Hauptzeitrahmens` in der Webbbox/App nicht dargestellt werden. Dauert die Veranstaltung von 9:45 bis 10:00 Uhr ist der darstellbare Zeitraum so winzig, dass die Inhalte sicherlich nur schwer lesbar sind.
 
 Was können Sie tun:
 
