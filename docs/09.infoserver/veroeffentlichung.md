@@ -31,7 +31,6 @@ Was können Sie tun:
 
 In diesem Fall müssten allen Kollegen/Klassen individuelle Zeitrahmen (ein Positionsraster mit Pausenzeiten) zugewiesen werden. Der `Hauptzeitrahmen` wird dann so abgeändert, dass alle Zeiten abgedeckt sind, also keine Pausenzeiten (= Lücken) entstehen. Damit können dann alle Veranstaltungen der WEBBOX/App gezeigt werden.
 
-
 ## Sperrung und Sperrungsbemerkung
 
 Stelle|sichtbar
