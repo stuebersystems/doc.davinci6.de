@@ -10,8 +10,22 @@ Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das je
 
 !!! danger "Achtung"
 
-    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum/Lehrer/Klasse. Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
+    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum, einem Lehrer und einer Klasse. Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
 
+## Verschiedene Zeitrahmen in DAVINCI
+
+Problem:
+
+Sie arbeiten mit individuellen Zeitrahmen für die Kollegen und für die Klassen. In der WEBBOX/App kann aber rein logisch nur ein Zeitrahmen gezeigt werden, dafür wird der `Hauptzeitrahmen` genutzt. Liegt eine Veranstaltung außerhalb dieses Zeitrahmes oder minimal innerhalb des Zeitrahmens wird sie nicht oder nur schwer erkennbar dargestellt.
+
+Hintergrund:
+
+Wir stellen die Veranstaltungen in der Höhe anteilig der Dauer dar.
+Beispiel: Sie haben im Standardzeitrahmen eine Position von 9:00 bis 9:45 definiert, die nächste Position geht von 10:00 bis 10:45 Uhr, dazwischen liegt eine viertel Stunde Pause, laut Standardzeitrahmen. Im Klassenzeitrahmen haben Sie etwas anderes definiert, hier kann auch eine Veranstaltung von 09:45 bis 10:00 Uhr gehen, diese Veranstaltung kann innerhalb des Standardzeitrahmens in der Webbbox/App nicht dargestellt werden. Dauert die Veranstaltung von 9:45 bis 10:00 Uhr ist der darstellbare Zeitraum so winzig, dass die Inhalte sicherlich nur schwer lesbar sind.
+
+Was können Sie tun:
+
+In diesem Fall müssen allen Kollegen/Klassen individuelle Zeitrahmen (Positionsraster mit Pausenzeiten) zugewiesen werden. Der `Hauptzeitrahmen` wird dann so abgeändert, dass alle Zeiten abgedeckt sind, keine Pausenzeiten entstehen, damit können dann alle Veranstaltungen der WEBBOX/App gezeigt werden.
 
 ## Sperrung und Sperrungsbemerkung
 
