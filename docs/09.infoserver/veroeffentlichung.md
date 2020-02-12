@@ -10,7 +10,8 @@ Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das je
 
 !!! danger "Achtung"
 
-    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum, einem Lehrer und einer Klasse. Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
+    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum, einem Lehrer und einer Klasse. 
+    Beispiel: Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
 
 ## Verschiedene Zeitrahmen in DAVINCI
 
