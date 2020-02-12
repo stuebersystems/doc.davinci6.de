@@ -1,7 +1,7 @@
 # Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert
 
-Nicht alle in DAVINCI erkennbaren Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar, letztlich sollen die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
-Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das jeweilige Ergebnis der Publikationsmodule.
+Nicht alle in DAVINCI erkennbaren Plan- oder Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar. Letztlich sollen beispielsweise bezogen auf Vertretungsplaneinträge die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
+Nachstehend finden Sie verschiedene Szenarien und das jeweilige Ergebnis der Publikationsmodule.
 
 !!! info "Hinweis"
 
