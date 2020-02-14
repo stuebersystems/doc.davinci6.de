@@ -180,7 +180,7 @@ nav:
       - Allgemein: 09.infoserver/setup-infoserver/README.md
       - Apache: 09.infoserver/setup-infoserver/apache.md
       - IIS 10: 09.infoserver/setup-infoserver/iis-10.md
-      - IIS 10: 09.infoserver/setup-infoserver/iis-8-5.md
+      - IIS 8.5: 09.infoserver/setup-infoserver/iis-8-5.md
       - IIS 7.5: 09.infoserver/setup-infoserver/iis-7-5.md
     - 4. DAVINCI WEBBOX: 
       - Allgemein: 09.infoserver/setup-webbox/README.md
