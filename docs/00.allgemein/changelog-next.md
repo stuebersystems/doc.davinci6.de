@@ -20,7 +20,7 @@
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
-## DAVINCI Version 6.5.63
+## DAVINCI Version 6.5.64
 
 ### STUNDENPLAN
 
@@ -28,19 +28,19 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX: Liste der offenen Vertretungen, wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
-
-### KURSPLAN
-
 * FIX:
 
 ### LOOK
 
 * FIX:
-  
+
+### KURSPLAN
+
+* FIX:
+
 ### DRUCK
 
-* FIX: 
+* FIX:
   
 ### HTML Export
 
@@ -48,8 +48,8 @@
 
 ### Sonstiges
 
-* FIX:
+* FIX: 
 
 ### Webbox
 
-* FIX:
+* FIX: 

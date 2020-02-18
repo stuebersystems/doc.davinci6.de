@@ -22,6 +22,21 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.63 (18.02.2020)
+
+### VERTRETUNGSPLAN
+
+* FIX: Liste der offenen Vertretungen, wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
+
+### Sonstiges
+
+* FIX: Kalenderdateinen für Ferientermine 2020/2021
+
+### Webbox
+
+* FIX: vereinzelt fehlten Termine einer Veranstaltung in der Lehrer und Klassenansicht, dies wurde korrigiert
+
+
 ## DAVINCI Version 6.5.62 (23.01.2020)
 
 ### STUNDENPLAN
