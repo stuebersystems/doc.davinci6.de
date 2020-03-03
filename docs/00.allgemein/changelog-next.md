@@ -24,7 +24,7 @@
 
 ### STUNDENPLAN
 
-* NEW:
+* FIX: Lehrer-Zeitkonto - Geplant/Verplant-Wert - IST-WERT
 
 ### VERTRETUNGSPLAN
 
