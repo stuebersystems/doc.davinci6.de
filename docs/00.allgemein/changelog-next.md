@@ -28,7 +28,7 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX:
+* FIX: 
 
 ### LOOK
 
@@ -40,7 +40,7 @@
 
 ### DRUCK
 
-* FIX:
+* FIX: Fehlergrund eines Lehrers wird nicht mehr in d der Spalte "Art" der Vertretungslisten ausgegeben
   
 ### HTML Export
 
