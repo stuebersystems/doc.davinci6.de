@@ -26,16 +26,15 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### VERTRETUNGSPLAN
 
-* FIX: Liste der offenen Vertretungen, wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
+* FIX: Liste der offenen Vertretungen > Wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
 
 ### Sonstiges
 
-* FIX: Kalenderdateinen für Ferientermine 2020/2021
+* FIX: neue Kalenderdateien (Ferien und Feiertage) für 2020/2021 verfügbar
 
 ### Webbox
 
-* FIX: vereinzelt fehlten Termine einer Veranstaltung in der Lehrer und Klassenansicht, dies wurde korrigiert
-
+* FIX: vereinzelt fehlten Termine einer Veranstaltung in der Lehrer- und Klassenansicht, dies wurde korrigiert
 
 ## DAVINCI Version 6.5.62 (23.01.2020)
 
