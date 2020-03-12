@@ -22,6 +22,34 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.64 (12.03.2020)
+
+### STUNDENPLAN
+
+* FIX: `Übersichten > Lehrer-Soll-Ist` und `Lehrer-Zeitkonto` - der Ist-Wert wird wieder entsprechend der Einstellungen in den DAVINCI-Optionen unter `Ansicht > Lehrer-Ist Wert in Zeitkonten` angezeigt
+![Übersichten > Lehrer-Soll-Ist ](/assets/images/liesmich/6.5.64.05.png)
+
+### VERTRETUNGSPLAN
+
+* FIX: Vorziehbare Vertreter > Es werden (wenn in den Vertretungseinstellungen aktiviert) KEINE Vertreter mehr aus der Vergangenheit zum Vorziehen angezeigt. 
+
+### SERVER
+
+FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
+
+### KURSPLAN
+
+* FIX: Wählt man unter `Kursplan > Blöcke` den Aufruf `Blockbezeichnungen anpassen` werden in der Blockbezeichnung die Klassenstufe und die Bandnummer angezeigt
+![Ansicht KURSPLAN > Blöcke](/assets/images/liesmich/6.5.64.04.png)
+
+### DRUCK
+
+* FIX: Fehlergrund eines Lehrers wird nicht mehr in der Spalte "Art" der Vertretungslisten ausgegeben
+* FIX: Fach-Langname wird wieder richtig in den Ausdruck übergeben, wenn dies im Design eingestellt wurde
+![Druckvorschau](/assets/images/liesmich/6.5.64.01.png)
+* FIX: Im Design aktivierte Einstellung "Terminzeilen umbrechen" wird wieder korrekt in den Druck übergeben 
+![Druckvorschau](/assets/images/liesmich/6.5.64.02.png)
+
 ## DAVINCI Version 6.5.63 (18.02.2020)
 
 ### VERTRETUNGSPLAN
