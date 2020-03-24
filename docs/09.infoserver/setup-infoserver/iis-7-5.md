@@ -154,6 +154,11 @@ Alles ist installiert und konfiguriert. Der folgende Test soll uns bestätigen, 
   
 Ihr Web-Browser sollte Ihnen nun eine Indexseite mit allen Klassen in Ihrem Web-Browser anzeigen. 
 
+
+!!! info "Hinweis"
+
+    Sollten Sie bereits den Benutzer `Webuser` eingerichtet und im DAVINCI INFOSERVER Control hinterlegt haben, ist die Meldung `GeIndexPage: User access denied` ebenfalls korrekt und ein Zeichen für einen funktionierenden DAVINCI INFOSERVER.
+
 ## Die Übertragungsgeschwindigkeit steigern
 
 Je nach Schulart kann die Menge der übertragene Menge an Daten recht unterschiedlich ausfallen. Infolgedessen kann die Ladezeit bis zur Anzeige in der WEBBOX oder in der App DAVINCI MOBILE auch in einer Berufsschule deutlich mehr Zeit in Anspruch nehmen, als die Ladezeit für die Daten einer Grundschule.
