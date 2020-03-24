@@ -22,6 +22,10 @@
 
 ## DAVINCI Version 6.5.65
 
+### Allgemein
+
+* NEW: Die DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden
+
 ### STUNDENPLAN
 
 * NEW: Die MAGDAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
