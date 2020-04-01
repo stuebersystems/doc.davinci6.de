@@ -23,12 +23,12 @@ Tag| Datum der Fehlzeit bzw. Vertretungsinfomration
 Lehrer| Originallehrer
 Stunde|Stunde laut Zeitrahmen
 Klasse| betroffene Klasse
-Art | Art der Änderung (Änderung, Aufsicht, Klasse fehlt)
+Art | Art der Änderung (Änderung, Aufsicht, Klasse fehlt; Mitteilung)
 Vertreter| Vertretungslehrer
 Fach|Vertretunsfach
 Raum| Vertretungraum
 Hinweis Raum_alt| Originalraum
 Fach_alt |Originalfach
 Klasse_alt| betroffene Klasse
-Hinweis2|
+Hinweis2|Testxfeld einer Mitteilung
 Lerngruppe|
