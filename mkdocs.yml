@@ -71,6 +71,7 @@ nav:
   - Referenzen:
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
+  - Datenaustausch: 11.datenaustausch/Import Export.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
