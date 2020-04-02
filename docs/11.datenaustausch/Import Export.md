@@ -28,11 +28,69 @@
 
 ### Nach MAGELLAN importieren
 
+Der Ablauf ist hier beschrieben:
+
+[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan.md)
+
 ### Statistikdaten exportieren
+
+![Statistikdaten exportieren](/assets/images/Datenaustausch/export11.png)
+
+Das Ergebnis ist eine Textdatei (.txt), die dem Schuldatentransferformat entspricht.
+
+#### Allgemeines Statistikformat exportieren
+
+![Allgemeines Statistikformat exportieren](/assets/images/Datenaustausch/export11.png)
+
+#### Statistik Bremen Unterrichtsausfall exportieren
+
+[Statistik Bremen](/10.regionales/bremen.md)
+
+#### Statistik Bayern (ASV) exportieren
+
+[Statistik Bayern](/10.regionales/bayern.md)
+
+#### Statistik Bayern (WinLD) exportieren
+
+[Statistik Bayern](/10.regionales/bayern.md)
+
+#### Statistik Hessen (LUSD) exportieren
+
+[Statistik Hessen](/10.regionales/hes-lusd.md)
+
+#### Statistik Niedersachsen BBS exportieren
+
+[Statistik Niedersachsen](/10.regionales/niedersachsen.md)
+
+#### Statistik Nordrhein-Westfalen ABS (Extern.dat) exportieren
+
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+
+#### Statistik Nordrhein-Westfalen BBS (Extern.dat) exportieren
+
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+
+#### Statistik Nordrhein-Westfalen GPC exportieren
+
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+
+#### Statistik Rheinland Pfalz (auch edoo.sys) exportieren
+
+[Statistik Rheinland Pfalz (auch edoo.sys)](/10.regionales/rlp-edoosys.md)
+
+#### Statistik Schleswig Holstein
+
+Der Ablauf ist hier beschrieben:
+
+ [Statistik Schleswig Holstein](/10.regionales/schleswig-holstein.md)
 
 ### DAVINCI Schuldatentransferdatei exportieren
 
 ![DAVINCI Schuldatentransferdatei exportieren](/assets/images/Datenaustausch/export9.png)
+
+Der Ablauf ist hier beschrieben:
+
+ [Schuldatentransferformat](/11.datenaustausch/sdtf.md)
 
 ### DAVINCI XML-Daten exportieren
 
