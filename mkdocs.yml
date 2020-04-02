@@ -72,6 +72,8 @@ nav:
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
   - Datenaustausch: 11.datenaustausch/Import Export.md
+    - Mit MAGELLAN: 11.datenaustausch/magellan.md
+    - Schuldatentransferformat: 11.datenaustausch/sdtf.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
@@ -119,9 +121,6 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
-  - Datenaustausch:
-    - Mit MAGELLAN: 11.datenaustausch/magellan.md
-    - Datentransferformat: 11.datenaustausch/sdtf.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
