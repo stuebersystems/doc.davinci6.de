@@ -26,7 +26,11 @@
 
 ### Nach externen Kalender synchronsisieren
 
-### Nach MAGELLAN importieren
+Der Ablauf ist hier beschrieben:
+
+[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender.mdr/#termine-mit-outlookgoogle-synchronisieren)
+
+### Nach MAGELLAN exportieren
 
 Der Ablauf ist hier beschrieben:
 
