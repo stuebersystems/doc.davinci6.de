@@ -10,6 +10,12 @@
 
 [Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan.md)
 
+### DAVINCI Änderungen für den Planwechsel importieren
+
+![DAVINCI Änderungen für den Planwechsel importieren](/assets/images/Datenaustausch/export12.png)
+
+* Importdatei: Geben Sie hier die Datei an, aus der Sie die Daten importieren möchten. Importiert werden Vertretungsplaninformatione. Dazu gehören Lehrer-Fehlzeiten und Anrechnungen.
+
 ### DAVINCI Schuldatentransferdatei importieren
 
 Der Ablauf ist hier beschrieben:
@@ -17,6 +23,10 @@ Der Ablauf ist hier beschrieben:
 [Schuldatentransferformat](/11.datenaustausch/sdtf.md)
 
 ### DAVINCI Schlüsseldatei importieren
+
+![DAVINCI Schlüsseldatei importieren](/assets/images/Datenaustausch/export13.png)
+
+Hier können Sie Schlüsseldateien für DAVINCI importieren. Sie können dabei entscheiden, ob Einträge mit identischen Ürzel oder Schlüssel ersetzt werden.
 
 ### Hessen LUSD importieren
 
@@ -32,7 +42,13 @@ Der Ablauf ist hier beschrieben:
 
 ### Sachsen Fachdaten importieren
 
+Das Vorgehen ist hier beschrieben:
+
+[Sachsen Fachdaten importieren](/10.regionales/sachsen.md)
+
 ### ASC Timetable XML 2012 importieren
+
+![ASC Timetable XML 2012 importieren](/assets/images/Datenaustausch/export14.png)
 
 ### Meinen externen Kalender synchronisiseren
 
