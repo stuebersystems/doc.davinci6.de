@@ -4,17 +4,31 @@
 
 ### Vom externen Kalender synchronsisieren
 
+[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender.mdr/#termine-mit-outlookgoogle-synchronisieren)
+
 ### Von MAGELLAN importieren
 
-### DAVINCI Schuldatnetransferdatei importieren
+[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan.md)
+
+### DAVINCI Schuldatentransferdatei importieren
+
+Der Ablauf ist hier beschrieben:
+
+[Schuldatentransferformat](/11.datenaustausch/sdtf.md)
 
 ### DAVINCI Schlüsseldatei importieren
 
 ### Hessen LUSD importieren
 
+[Statistik Hessen](/10.regionales/hes-lusd.md)
+
 ### Bayern ASV importieren
 
+[Statistik Bayern](/10.regionales/bayern.md)
+
 ### Bayern WinLD importieren
+
+[Statistik Bayern](/10.regionales/bayern.md)
 
 ### Sachsen Fachdaten importieren
 
@@ -161,4 +175,5 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 ### Upload nach LANIS
 
 Die Informationen zum Upload nach LANiS finden Sie hier:
-https://doc.davinci6.stueber.de/10.regionales/hes-lanis/
+
+[Upload nach LANIS](/10.regionales/hes-lanis.md)
