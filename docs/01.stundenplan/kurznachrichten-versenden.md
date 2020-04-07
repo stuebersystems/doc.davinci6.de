@@ -11,10 +11,33 @@ Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. 
 
     Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Diese Angaben tragen Sie in der Ansicht ``Stammdaten > Lehrer`` bzw. ``Stammdaten > Schüler`` in den Spalten „E-Mail“ bzw. „Mobil“ ein.
 
-
 ### Einstellung in DAVINCI Optionen Email
 
+![Einstellung in DAVINCI Optionen Email](/assets/images/stundenplan/sp124.png)
+
+* Server: Name des Mailclients
+
+* Port: Port des Mailclients
+
+* Absender E-Mail Adresse: Geben Sie hier die absendende Mailadresse an
+
+* Benutzername: Benutzername des Mailkontos
+
+* Passwort: Passwort des Mailkontos
+
+* SSL-verschlüsselte Verbindung: wenn ja bitte anhaken
+
+* SSL-Modus: geben Sie an ob der Modus Explizit oder Implizit ist
+
+Benutzername
+
 ### Einstellung in DAVINCI Optionen Mitteilungen
+
+![Einstellungen für Änderungs- und Notfallmitteilungen](/assets/images/stundenplan/sp123.png)
+
+* Änderungsmitteilung: Geben Sie hier E-Mailbetreff Text bbzw. den Päfix für SMS Mitteilungen ein, der für Änderungsmitteilungen gelten soll.
+
+* Notfallmitteilungen: Geben Sie hier den  E-Mailbetreff Text, den Mitteilungstext für Notfallmitteilungen ein. Über den Aufruf `Notfallmitteilung senden`können Sie die Mitteilung auch hier direkt versenden.
 
 ### Einstellung in DAVINCI Optionen SMS Nachrichten
 
