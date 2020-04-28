@@ -11,6 +11,42 @@ Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. 
 
     Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Diese Angaben tragen Sie in der Ansicht ``Stammdaten > Lehrer`` bzw. ``Stammdaten > Schüler`` in den Spalten „E-Mail“ bzw. „Mobil“ ein.
 
+### Einstellung in DAVINCI Optionen Email
+
+![Einstellung in DAVINCI Optionen Email](/assets/images/stundenplan/sp124.png)
+
+* Server: Name des Mailclients
+
+* Port: Port des Mailclients
+
+* Absender E-Mail Adresse: Geben Sie hier die absendende Mailadresse an
+
+* Benutzername: Benutzername des Mailkontos
+
+* Passwort: Passwort des Mailkontos
+
+* SSL-verschlüsselte Verbindung: wenn ja bitte anhaken
+
+* SSL-Modus: geben Sie an ob der Modus Explizit oder Implizit ist
+
+Benutzername
+
+### Einstellung in DAVINCI Optionen Mitteilungen
+
+![Einstellungen für Änderungs- und Notfallmitteilungen](/assets/images/stundenplan/sp123.png)
+
+* Änderungsmitteilung: Geben Sie hier E-Mailbetreff Text bbzw. den Päfix für SMS Mitteilungen ein, der für Änderungsmitteilungen gelten soll.
+
+* Notfallmitteilungen: Geben Sie hier den  E-Mailbetreff Text, den Mitteilungstext für Notfallmitteilungen ein. Über den Aufruf `Notfallmitteilung senden`können Sie die Mitteilung auch hier direkt versenden.
+
+### Einstellung in DAVINCI Optionen SMS Nachrichten
+
+![Einstellungen für die SMS Verbindungsdetails](/assets/images/stundenplan/sp122.png)
+
+Mit dem Erwerb eine SMS Paketes erhalten sie die Informationen für die Absenderkennung, Benutzername und Passwort von uns. Die Standard-Ländervorwahl ist je nach Land einzutragen, standardmäßig für Deutschland ist dies die 49.
+
+Sie erhalten bei der Bestellung Credits für den SMS-Versand. Die Credits pro SMS sind pro Provider unterschiedlich, meistens sind es 2 Credits = 2,000. Wählen Sie `Publizieren > SMS Protokoll`  um den aktuellen Status der noch zur Verfügung stehenden Credits anzuzeigen.
+
 ## Mitteilung senden
 
 ![Aufruf "Gruppen benachrichtigen"](/assets/images/MitteilungSenden02.png)
