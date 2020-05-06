@@ -31,7 +31,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### VERTRETUNGSPLAN
 
-* FIX: Vorziehbare Vertreter > Es werden (wenn in den Vertretungseinstellungen aktiviert) KEINE Vertreter mehr aus der Vergangenheit zum Vorziehen angezeigt. 
+* FIX: Vorziehbare Vertreter > Es werden (wenn in den Vertretungseinstellungen aktiviert) KEINE Vertreter mehr aus der Vergangenheit zum Vorziehen angezeigt.
 
 ### SERVER
 
