@@ -41,11 +41,8 @@
 
 ### SERVER
 
-<<<<<<< HEAD
-FIX: Datenübergabe an die Webbox Übergabe von Zusatzunterricht bei Klassen mit Fehlzeit
-=======
 CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil Klasse in der Webbox und in der Mobile App gezeigt
->>>>>>> c4029258467cce6132875e1d3512780cf70af159
+
 
 ### LOOK
 
