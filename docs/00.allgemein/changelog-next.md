@@ -20,6 +20,8 @@
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
+* FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
+
 ## DAVINCI Version 6.5.65
 
 ### Allgemein
@@ -39,7 +41,11 @@
 
 ### SERVER
 
+<<<<<<< HEAD
+FIX: Datenübergabe an die Webbox Übergabe von Zusatzunterricht bei Klassen mit Fehlzeit
+=======
 CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil Klasse in der Webbox und in der Mobile App gezeigt
+>>>>>>> c4029258467cce6132875e1d3512780cf70af159
 
 ### LOOK
 
