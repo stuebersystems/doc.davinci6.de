@@ -71,7 +71,7 @@ nav:
   - Referenzen:
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
-  - Datenaustausch: 11.datenaustausch/Import Export.md
+  - Datenaustausch: 11.datenaustausch/import_export.md
     - Mit MAGELLAN: 11.datenaustausch/magellan.md
     - Schuldatentransferformat: 11.datenaustausch/sdtf.md
   - Regionales:
