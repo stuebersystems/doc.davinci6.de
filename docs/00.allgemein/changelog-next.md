@@ -26,7 +26,7 @@
 
 ### Allgemein
 
-* NEW: Die DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden
+* NEW: 
 
 ### STUNDENPLAN
 
