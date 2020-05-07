@@ -4,11 +4,11 @@
 
 ### Vom externen Kalender synchronsisieren
 
-[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender.mdr/#termine-mit-outlookgoogle-synchronisieren)
+[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender/#termine-mit-outlookgoogle-synchronisieren)
 
 ### Von MAGELLAN importieren
 
-[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan.md)
+[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan/)
 
 ### DAVINCI Änderungen für den Planwechsel importieren
 
@@ -20,7 +20,7 @@
 
 Der Ablauf ist hier beschrieben:
 
-[Schuldatentransferformat](/11.datenaustausch/sdtf.md)
+[Schuldatentransferformat](/11.datenaustausch/sdtf/)
 
 ### DAVINCI Schlüsseldatei importieren
 
@@ -30,21 +30,21 @@ Hier können Sie Schlüsseldateien für DAVINCI importieren. Sie können dabei e
 
 ### Hessen LUSD importieren
 
-[Statistik Hessen](/10.regionales/hes-lusd.md)
+[Statistik Hessen](/10.regionales/hes-lusd/)
 
 ### Bayern ASV importieren
 
-[Statistik Bayern](/10.regionales/bayern.md)
+[Statistik Bayern](/10.regionales/bayern/)
 
 ### Bayern WinLD importieren
 
-[Statistik Bayern](/10.regionales/bayern.md)
+[Statistik Bayern](/10.regionales/bayern/)
 
 ### Sachsen Fachdaten importieren
 
 Das Vorgehen ist hier beschrieben:
 
-[Sachsen Fachdaten importieren](/10.regionales/sachsen.md)
+[Sachsen Fachdaten importieren](/10.regionales/sachsen/)
 
 ### ASC Timetable XML 2012 importieren
 
@@ -58,13 +58,13 @@ Das Vorgehen ist hier beschrieben:
 
 Der Ablauf ist hier beschrieben:
 
-[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender.mdr/#termine-mit-outlookgoogle-synchronisieren)
+[Nach externen Kalender synchronsisieren](/01.stundenplan/kalender/#termine-mit-outlookgoogle-synchronisieren)
 
 ### Nach MAGELLAN exportieren
 
 Der Ablauf ist hier beschrieben:
 
-[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan.md)
+[Datenaustausch mit MAGELLAN](/10.regionales/11.datenaustausch/magellan/)
 
 ### Statistikdaten exportieren
 
@@ -78,45 +78,45 @@ Das Ergebnis ist eine Textdatei (.txt), die dem Schuldatentransferformat entspri
 
 #### Statistik Bremen Unterrichtsausfall exportieren
 
-[Statistik Bremen](/10.regionales/bremen.md)
+[Statistik Bremen](/10.regionales/bremen/)
 
 #### Statistik Bayern (ASV) exportieren
 
-[Statistik Bayern](/10.regionales/bayern.md)
+[Statistik Bayern](/10.regionales/bayern/)
 
 #### Statistik Bayern (WinLD) exportieren
 
-[Statistik Bayern](/10.regionales/bayern.md)
+[Statistik Bayern](/10.regionales/bayern/)
 
 #### Statistik Hessen (LUSD) exportieren
 
-[Statistik Hessen](/10.regionales/hes-lusd.md)
+[Statistik Hessen](/10.regionales/hes-lusd/)
 
 #### Statistik Niedersachsen BBS exportieren
 
-[Statistik Niedersachsen](/10.regionales/niedersachsen.md)
+[Statistik Niedersachsen](/10.regionales/niedersachsen/)
 
 #### Statistik Nordrhein-Westfalen ABS (Extern.dat) exportieren
 
-[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens/)
 
 #### Statistik Nordrhein-Westfalen BBS (Extern.dat) exportieren
 
-[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalen/)
 
 #### Statistik Nordrhein-Westfalen GPC exportieren
 
-[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens.md)
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalen/)
 
 #### Statistik Rheinland Pfalz (auch edoo.sys) exportieren
 
-[Statistik Rheinland Pfalz (auch edoo.sys)](/10.regionales/rlp-edoosys.md)
+[Statistik Rheinland Pfalz (auch edoo.sys)](/10.regionales/rlp-edoosys/)
 
 #### Statistik Schleswig Holstein
 
 Der Ablauf ist hier beschrieben:
 
- [Statistik Schleswig Holstein](/10.regionales/schleswig-holstein.md)
+ [Statistik Schleswig Holstein](/10.regionales/schleswig-holstein/)
 
 ### DAVINCI Schuldatentransferdatei exportieren
 
@@ -124,7 +124,7 @@ Der Ablauf ist hier beschrieben:
 
 Der Ablauf ist hier beschrieben:
 
- [Schuldatentransferformat](/11.datenaustausch/sdtf.md)
+ [Schuldatentransferformat](/11.datenaustausch/sdtf/)
 
 ### DAVINCI XML-Daten exportieren
 
@@ -192,4 +192,4 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 
 Die Informationen zum Upload nach LANiS finden Sie hier:
 
-[Upload nach LANIS](/10.regionales/hes-lanis.md)
+[Upload nach LANIS](/10.regionales/hes-lanis/)

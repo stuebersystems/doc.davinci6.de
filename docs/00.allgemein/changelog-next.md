@@ -22,7 +22,7 @@
 
 * FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
 
-## DAVINCI Version 6.5.65
+## DAVINCI Version 6.5.66
 
 ### Allgemein
 
@@ -30,10 +30,7 @@
 
 ### STUNDENPLAN
 
-* NEW: Die MAGDAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
-* FIX: Eintragung `Stammdaten > Schüler > Stufe`; wenn keine Klasse zugeordnet ist, ist eine Klasse zugeordnet, wird die Stufe der Klasse in der Spalte Stufe angezeigt
-* FIX: `Stammdaten > Klassen > Klassen löschen` und `Plan > Neu > Daten übernehmen`beim Löschen der Klasse incl. deren Veranstaltungen wurden Veranstaltungsverweise im Kalender (Veranstaltungen bzw. Kurse können einem Kalendereintrag zugewiesen) nicht gelöscht
-* FIX: manuelle Verplanung von Räume in Berücksichtigung der Vorgaben bei `Planansicht > Verplanen > Räume`
+* FIX: 
 
 ### VERTRETUNGSPLAN
 
@@ -41,9 +38,12 @@
 
 ### SERVER
 
+<<<<<<< HEAD
 CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil Klasse in der Webbox und in der Mobile App gezeigt
 
 
+=======
+>>>>>>> bd4332027e5f66b74708addbe93ecf984e440ca8
 ### LOOK
 
 * FIX:
