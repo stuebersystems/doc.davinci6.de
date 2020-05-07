@@ -35,11 +35,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Stammdaten > Klassen > Klassen löschen` und `Plan > Neu > Daten übernehmen`beim Löschen der Klasse incl. deren Veranstaltungen wurden Veranstaltungsverweise im Kalender (Veranstaltungen bzw. Kurse können einem Kalendereintrag zugewiesen) nicht gelöscht
 * FIX: manuelle Verplanung von Räume in Berücksichtigung der Vorgaben bei `Planansicht > Verplanen > Räume`
 
-
 ### SERVER
 
-CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil Klasse in der Webbox und in der Mobile App gezeigt
-
+CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der Webbox und in der Mobile App gezeigt
 
 ## DAVINCI Version 6.5.64 (12.03.2020)
 

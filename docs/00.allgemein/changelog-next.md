@@ -38,7 +38,7 @@
 
 ### SERVER
 
-CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der Webbox und in der Mobile App gezeigt
+CHANGE: 
 
 
 ### LOOK
