@@ -38,12 +38,9 @@
 
 ### SERVER
 
-<<<<<<< HEAD
-CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil Klasse in der Webbox und in der Mobile App gezeigt
+CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der Webbox und in der Mobile App gezeigt
 
 
-=======
->>>>>>> bd4332027e5f66b74708addbe93ecf984e440ca8
 ### LOOK
 
 * FIX:
