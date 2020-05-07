@@ -11,6 +11,7 @@ Nachstehend finden Sie verschiedene Szenarien und das jeweilige Ergebnis der Pub
 !!! danger "Achtung"
 
     In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem **Fach**, einem **Lehrer** und einer **Klasse**. 
+    
     **Veranstaltungen ohne Fach, Lehrer oder ohne Klasse können nicht gezeigt werden.** Legen Sie sich für diese Situationen ggfs. Platzhalter in den Stammdaten an.
 
 ## Verschiedene Zeitrahmen in DAVINCI
