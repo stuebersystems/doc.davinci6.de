@@ -16,12 +16,12 @@ Führen Sie das Installationsprogramm von GnuPG mit den Standardvorgaben aus.
 
 2. Laden Sie mit `Plan > Importieren und Exportieren > Hessen LUSD importieren` die Stammdaten und die Unterrichtsverteilung aus der LUSD. Sie kann aus der LUSD in Form einer verschlüsselten XML-Datei exportiert werden.
 
-![Import/Export-Assistent, Hessen LUSD importieren](../assets/images/regionales/reg1.png)
+![Import/Export-Assistent, Hessen LUSD importieren](/assets/images/regionales/reg1.png)
 
 3. Erstellen Sie den Stundenplan in DAVINCI.
 4. Exportieren Sie mit `Plan > Importieren und Exportieren > Statistikdaten exportieren > Statistik Hessen (LUSD) exportieren`  die verplanten Termine wieder nach LUSD.
 
-![Import/Export-Assistent, Statistikdaten exportieren > Statistik Hessen (LUSD) exportieren](../assets/images/regionales/reg2.png)
+![Import/Export-Assistent, Statistikdaten exportieren > Statistik Hessen (LUSD) exportieren](/assets/images/regionales/reg2.png)
 
 !!! info "Hinweis"
 
