@@ -30,7 +30,7 @@
 
 ### STUNDENPLAN
 
-* FIX: 
+* CHANGE: Aufruf `Plan > Importieren und Exportieren > Exportieren | Aufruf "Export f. LANiS`  umbenannt in `Plan > Importieren und Exportieren > Exportieren | Export für Schulportal Hessen`
 
 ### VERTRETUNGSPLAN
 
