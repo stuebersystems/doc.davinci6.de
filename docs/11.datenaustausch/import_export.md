@@ -188,8 +188,8 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 
 ![Upload](/assets/images/Datenaustausch/export2.png)
 
-### Upload nach LANIS
+### Export für Schulportal Hessen
 
 Die Informationen zum Upload nach LANiS finden Sie hier:
 
-[Upload nach LANIS](/10.regionales/hes-lanis/)
+[Export für Schulportal Hessen](/11.regionales/schulportal-hessen.md/)
