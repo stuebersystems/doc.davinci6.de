@@ -192,4 +192,4 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 
 Die Informationen zum Upload nach LANiS finden Sie hier:
 
-[Export für Schulportal Hessen](/11.regionales/schulportal-hessen.md/)
+[Export für Schulportal Hessen](/10.regionales/schulportal-hessen.md/)
