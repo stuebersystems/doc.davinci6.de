@@ -21,6 +21,12 @@
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
 * FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
+* FIX: Anzeige von Wochentagen in der Vertretungsliste (davinci-substitutions.html) korrigiert
+* NEW: Neuer Parameter (+ Wert) "substSort=key". Dieser Parameter arbeitet gemeinsam mit dem Parameter "substKey".
+  Beispiele:
+  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
+  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=class&substSort=key
+
 
 ## DAVINCI Version 6.5.66
 
