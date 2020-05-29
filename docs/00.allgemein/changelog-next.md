@@ -26,7 +26,7 @@
   Beispiele:
   * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
   * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=class&substSort=key
-
+* FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 
 ## DAVINCI Version 6.5.66
 
@@ -45,7 +45,7 @@
 
 ### SERVER
 
-CHANGE: 
+FIX: Datenübergabe an Webbox
 
 
 ### LOOK
