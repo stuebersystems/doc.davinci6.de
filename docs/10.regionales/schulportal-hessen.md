@@ -14,7 +14,7 @@ Da die Funktion des Exportes der DAVINCI Daten in eine XML-Datei zukünftig nich
 
 2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie `alle Wochen` aus. Klicken Sie auf `Weiter`.
 
-![Import/Export-Assistent, DAVINCI XML-Daten exportieren](../assets/images/regionales/sshot-12.png)
+![Import/Export-Assistent, DAVINCI XML-Daten exportieren](/assets/images/regionales/sshot12.png)
 
 Diese DAVINCI XML-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
 
@@ -30,7 +30,7 @@ Um Vertretungsplaninformationen aus DAVINCI in das Schulportal HESSEN zu überge
 
 3. Geben Sie beim Zeitraum bitte den zu exportierenden Zeitraum für die Vertretungsdaten an.
 
-![Import/Export-Assistent, Schulportal Hessen](../assets/images/regionales/sshot-11.png)
+![Import/Export-Assistent, Schulportal Hessen](/assets/images/regionales/sshot11.png)
 
 4. Das Ergebnis ist eine Datei mit dem Namen **vertretungsplan.csv**.
 
