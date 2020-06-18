@@ -27,6 +27,7 @@
   * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
   * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=class&substSort=key
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
+* FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
 ## DAVINCI Version 6.5.66
 
