@@ -55,7 +55,7 @@ FIX: Datenübergabe an Webbox
 
 ### KURSPLAN
 
-* FIX:
+* FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
 
 ### DRUCK
 
