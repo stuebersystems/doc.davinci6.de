@@ -41,13 +41,11 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX: 
-* * 
+* FIX:  `Vertretzbgsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
 
 ### SERVER
 
 FIX: Datenübergabe an Webbox
-
 
 ### LOOK
 
@@ -56,6 +54,7 @@ FIX: Datenübergabe an Webbox
 ### KURSPLAN
 
 * FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
+* FIX: Fehlermeldung beim Ansichtenwechsel Wechsel der Ansicht aus `Kursplan > Fachwahlen` in die Ansicht `Kursplan > Schüler` mit anschließendem Wechsel der Klasse
 
 ### DRUCK
 
