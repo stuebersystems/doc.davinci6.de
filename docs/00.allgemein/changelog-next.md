@@ -41,7 +41,7 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX:  `Vertretzbgsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
+* FIX:  `Vertretungsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
 
 ### SERVER
 
