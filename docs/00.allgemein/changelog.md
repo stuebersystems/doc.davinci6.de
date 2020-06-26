@@ -22,6 +22,25 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.66 (26.06.2020)
+
+### STUNDENPLAN
+
+* CHANGE: Aufruf `Plan > Importieren und Exportieren > Exportieren | Aufruf "Export f. LANiS`  umbenannt in `Plan > Importieren und Exportieren > Exportieren | Export für Schulportal Hessen`
+
+### VERTRETUNGSPLAN
+
+* FIX:  `Vertretungsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
+
+### SERVER
+
+* FIX: Datenübergabe an Webbox
+
+### KURSPLAN
+
+* FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
+* FIX: Fehlermeldung beim Ansichtenwechsel Wechsel der Ansicht aus `Kursplan > Fachwahlen` in die Ansicht `Kursplan > Schüler` mit anschließendem Wechsel der Klasse
+
 ## DAVINCI Version 6.5.65 (06.05.2020)
 
 ### Allgemein

@@ -29,7 +29,7 @@
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
-## DAVINCI Version 6.5.66
+## DAVINCI Version 6.5.67
 
 ### Allgemein
 
@@ -37,15 +37,15 @@
 
 ### STUNDENPLAN
 
-* CHANGE: Aufruf `Plan > Importieren und Exportieren > Exportieren | Aufruf "Export f. LANiS`  umbenannt in `Plan > Importieren und Exportieren > Exportieren | Export für Schulportal Hessen`
+* FIX: 
 
 ### VERTRETUNGSPLAN
 
-* FIX:  `Vertretungsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
+* FIX: 
 
 ### SERVER
 
-FIX: Datenübergabe an Webbox
+* FIX: 
 
 ### LOOK
 
@@ -53,8 +53,7 @@ FIX: Datenübergabe an Webbox
 
 ### KURSPLAN
 
-* FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
-* FIX: Fehlermeldung beim Ansichtenwechsel Wechsel der Ansicht aus `Kursplan > Fachwahlen` in die Ansicht `Kursplan > Schüler` mit anschließendem Wechsel der Klasse
+* FIX: 
 
 ### DRUCK
 
