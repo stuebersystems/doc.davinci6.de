@@ -8,6 +8,8 @@ DAVINCI wird eingesetzt von:
 
 * Bildungsträgern der betrieblichen Fort- und Weiterbildung
 
+* Berufsförderungswerken
+
 * Deutschen Auslandsschulen
 
 * Hochschulen und Universitäten
