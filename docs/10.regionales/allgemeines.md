@@ -9,5 +9,6 @@ Dieses Kapitel beschreibt Besonderheiten für einzelne Bundesländer.
 * [Niedersachsen - Landesstatistik](/10.regionales/niedersachsen.md)
 * [Nordrhein-Westfalen - Landestatistik](/10.regionales/nordrhein-westfalen.md)
 * [Rheinland-Pfalz - edoosys](/10.regionales/rlp-edoosys.md)
-* [Sachsen - Ausfallstatistik](/10.regionales/sachsen.md)
+* [Sachsen - Ausfallstatistik](/10.regionales/sac-ausfallstatistik.md)
+* [Sachsen - LernSax](/10.regionales/sac-lernsax.md)
 * [Schleswig-Holstein - Landesstatistik](/10.regionales/schleswig-holstein.md)
