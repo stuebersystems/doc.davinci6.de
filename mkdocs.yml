@@ -77,13 +77,17 @@ nav:
   - Referenzen:
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
+  - Datenaustausch: 
+    - Import und Export: 11.datenaustausch/import_export.md
+    - Mit MAGELLAN: 11.datenaustausch/magellan.md
+    - Schuldatentransferformat: 11.datenaustausch/sdtf.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md
     - Bremen: 10.regionales/bremen.md
     - Hessen: 
       - Landesstatistik LUSD: 10.regionales/hes-lusd.md
-      - LANiS Export: 10.regionales/hes-lanis.md
+      - Export für Schulportal Hessen: 10.regionales/schulportal-hessen.md
     - Niedersachsen: 10.regionales/niedersachsen.md
     - Nordrhein-Westfalen: 10.regionales/nordrhein-westfalen.md
     - Rheinland-Pfalz: 
@@ -124,15 +128,12 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
-  - Datenaustausch:
-    - Mit MAGELLAN: 11.datenaustausch/magellan.md
-    - Datentransferformat: 11.datenaustausch/sdtf.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
-  - Fehlzeiten erfassen: 02.vertretungsplan/fehlzeiten.md
+  - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
   - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
   - Liste der Anrechnungen: 02.vertretungsplan/anrechnungen.md
-  - Änderungsliste: 02.vertretungsplan/aenderungsliste.md
+  - Änderungsliste: 02.vertretungsplan/aenderung.md
   - Publikationen: 02.vertretungsplan/publikation.md
   - Was wird gezeigt?: 02.vertretungsplan/veroeffentlichung.md
 - KURSPLAN: 
@@ -186,7 +187,7 @@ nav:
       - Allgemein: 09.infoserver/setup-infoserver/README.md
       - Apache: 09.infoserver/setup-infoserver/apache.md
       - IIS 10: 09.infoserver/setup-infoserver/iis-10.md
-      - IIS 10: 09.infoserver/setup-infoserver/iis-8-5.md
+      - IIS 8.5: 09.infoserver/setup-infoserver/iis-8-5.md
       - IIS 7.5: 09.infoserver/setup-infoserver/iis-7-5.md
     - 4. DAVINCI WEBBOX: 
       - Allgemein: 09.infoserver/setup-webbox/README.md

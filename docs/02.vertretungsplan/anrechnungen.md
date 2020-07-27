@@ -1,5 +1,3 @@
-# Der DAVINCI VERTRETUNGSPLAN
-
 ## Liste der Anrechnungen
 
 Durch Fehlzeiten von Klassen bzw. Lehrern und den Einsatz von Lehrern als Vertreter können negative als auch positive Anrechenstunden entstehen. Negative Anrechenstunden sind semantisch gesehen grundsätzlich Stunden, die der Lehrer später nachholen müsste. Fehlt beispielweise eine Klasse zu einem Zeitraum, in dem der Lehrer regulär Unterricht hätte, so entfallen ihm Stunden, die er eigentlich später durch zusätzlichen Unterricht ausgleichen müsste (siehe Abschnitt „Sonderfall „Klasse fehlt““ auf Seite 20). Positive Anrechenstunden können entstehen, wenn ein Lehrer beispielsweise eine Vertretung hält, Zusatzunterricht hat oder sonstige zusätzliche anrechenfähige Aktivitäten für die Schule unternimmt. Positive und negative Anrechenstunden können miteinander verrechnet werden. Die Verwaltung von Anrechenstunden von Lehrern erfolgt in einer gesonderten Liste. Zum Öffnen der Ansicht wählen Sie `Vertretungsplan > Anrechnungen` aus.

@@ -13,7 +13,7 @@ Wenn Sie DAVINCI zum ersten Mal nach der Installation starten, öffnet sich der 
 
 Sollten Sie noch nicht über Lizenzdaten für DAVINCI verfügen, können Sie mit Hilfe des Willkommensassistenten eine Testlizenz anfordern. Im Willkommensassistenten geben Sie dabei zunächst Ihre individuellen Daten als Lizenznehmer ein. Der Assistent erstellt daraufhin wahlweise eine E-Mail, die Sie direkt aus Ihrem Email-Programm an uns versenden können.
 
-Wählen Sie ``Eine Testlizenz anfordern`` öffnet sich folgendes Fenster:  
+Wählen Sie `Eine Testlizenz anfordern` öffnet sich folgendes Fenster:  
 
 ![Eine Testlizenz anfordern](/assets/images/TestlizenzAnfordern.png)
 

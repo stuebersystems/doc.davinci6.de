@@ -22,6 +22,98 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.66 (26.06.2020)
+
+### STUNDENPLAN
+
+* CHANGE: Aufruf `Plan > Importieren und Exportieren > Exportieren | Aufruf "Export f. LANiS`  umbenannt in `Plan > Importieren und Exportieren > Exportieren | Export für Schulportal Hessen`
+
+### VERTRETUNGSPLAN
+
+* FIX:  `Vertretungsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
+
+### SERVER
+
+* FIX: Datenübergabe an Webbox
+
+### KURSPLAN
+
+* FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
+* FIX: Fehlermeldung beim Ansichtenwechsel Wechsel der Ansicht aus `Kursplan > Fachwahlen` in die Ansicht `Kursplan > Schüler` mit anschließendem Wechsel der Klasse
+
+## DAVINCI Version 6.5.65 (06.05.2020)
+
+### Allgemein
+
+* NEW: Die DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden
+
+### STUNDENPLAN
+
+* NEW: Die MAGELLAN/DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
+* FIX: Eintragung `Stammdaten > Schüler > Stufe`; wenn keine Klasse zugeordnet ist, ist eine Klasse zugeordnet, wird die Stufe der Klasse in der Spalte Stufe angezeigt
+* FIX: `Stammdaten > Klassen > Klassen löschen` und `Plan > Neu > Daten übernehmen`beim Löschen der Klasse incl. deren Veranstaltungen wurden Veranstaltungsverweise im Kalender (Veranstaltungen bzw. Kurse können einem Kalendereintrag zugewiesen) nicht gelöscht
+* FIX: manuelle Verplanung von Räume in Berücksichtigung der Vorgaben bei `Planansicht > Verplanen > Räume`
+
+### SERVER
+
+CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der Webbox und in der Mobile App gezeigt
+
+## DAVINCI Version 6.5.64 (12.03.2020)
+
+### STUNDENPLAN
+
+* FIX: `Übersichten > Lehrer-Soll-Ist` und `Lehrer-Zeitkonto` - der Ist-Wert wird wieder entsprechend der Einstellungen in den DAVINCI-Optionen unter `Ansicht > Lehrer-Ist Wert in Zeitkonten` angezeigt
+![Übersichten > Lehrer-Soll-Ist ](/assets/images/liesmich/6.5.64.05.png)
+
+### VERTRETUNGSPLAN
+
+* FIX: Vorziehbare Vertreter > Es werden (wenn in den Vertretungseinstellungen aktiviert) KEINE Vertreter mehr aus der Vergangenheit zum Vorziehen angezeigt.
+
+### SERVER
+
+FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
+
+### KURSPLAN
+
+* FIX: Wählt man unter `Kursplan > Blöcke` den Aufruf `Blockbezeichnungen anpassen` werden in der Blockbezeichnung die Klassenstufe und die Bandnummer angezeigt
+![Ansicht KURSPLAN > Blöcke](/assets/images/liesmich/6.5.64.04.png)
+
+### DRUCK
+
+* FIX: Fehlergrund eines Lehrers wird nicht mehr in der Spalte "Art" der Vertretungslisten ausgegeben
+* FIX: Fach-Langname wird wieder richtig in den Ausdruck übergeben, wenn dies im Design eingestellt wurde
+![Druckvorschau](/assets/images/liesmich/6.5.64.01.png)
+* FIX: Im Design aktivierte Einstellung "Terminzeilen umbrechen" wird wieder korrekt in den Druck übergeben 
+![Druckvorschau](/assets/images/liesmich/6.5.64.02.png)
+
+## DAVINCI Version 6.5.63 (18.02.2020)
+
+### VERTRETUNGSPLAN
+
+* FIX: Liste der offenen Vertretungen > Wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
+
+### Sonstiges
+
+* FIX: neue Kalenderdateien (Ferien und Feiertage) für 2020/2021 verfügbar
+
+### Webbox
+
+* FIX: vereinzelt fehlten Termine einer Veranstaltung in der Lehrer- und Klassenansicht, dies wurde korrigiert
+
+## DAVINCI Version 6.5.62 (23.01.2020)
+
+### STUNDENPLAN
+
+* NEW: `Stammdaten > Lehrer` Lehrbefähigung in Spalte Fächer kann wieder eingegeben werden
+ 
+### DRUCK
+
+* FIX: Speichern der Ausrichtung Querformat wieder möglich
+
+!!! danger "Achtung"
+    Ehemals für das Querfomrat angelegte Druckformate müssen Sie bitte noch einmal neu als Querformat speichern. Bitte gehen Sie in die Druckvorschau `Format > Seite einrichten > Seite` und stellen Sie hier das gewünschte Format ein.
+  
+
 ## DAVINCI Version 6.5.61 (10.01.2020)
 
 ### STUNDENPLAN

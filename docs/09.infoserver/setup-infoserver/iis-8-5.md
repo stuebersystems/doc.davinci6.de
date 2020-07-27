@@ -112,6 +112,11 @@ http://localhost/davinciIS.dll?type=class
 
 Ihr Web-Browser sollte Ihnen nun eine Indexseite mit allen Klassen in Ihrem Web-Browser anzeigen. 
 
+
+!!! info "Hinweis"
+
+    Sollten Sie bereits den Benutzer `Webuser` eingerichtet und im DAVINCI INFOSERVER Control hinterlegt haben, ist die Meldung `GeIndexPage: User access denied` ebenfalls korrekt und ein Zeichen für einen funktionierenden DAVINCI INFOSERVER.
+
 ## Den DAVINCI INFOSERVER aktualisieren
 
 Möchten Sie eine neue Version des DAVINCI INFOSERVER einspielen, gehen Sie wie folgt vor:

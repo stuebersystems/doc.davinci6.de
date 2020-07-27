@@ -1,7 +1,7 @@
 # Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert
 
-Nicht alle in DAVINCI erkennbaren Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar, letztlich sollen die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
-Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das jeweilige Ergebnis der Publikationsmodule.
+Nicht alle in DAVINCI erkennbaren Plan- oder Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar. Letztlich sollen beispielsweise bezogen auf Vertretungsplaneinträge die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
+Nachstehend finden Sie verschiedene Szenarien und das jeweilige Ergebnis der Publikationsmodule.
 
 !!! info "Hinweis"
 
@@ -10,8 +10,28 @@ Nachstehend finden Sie verschiedene Szenarien aus dem Vertretungsplan und das je
 
 !!! danger "Achtung"
 
-    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem Fach und einem Raum/Lehrer/Klasse. Veranstaltungen ohne Fach können nicht gezeigt werden. Alternativ können Sie sich ein Platzhalterfach anlegen und das in diesen Situation verwenden.
+    In der DAVINCI WEBBOX oder DAVINCI APP werden Veranstaltungen oder Änderungen an diesen Veranstaltungen gezeigt. Eine Veranstaltung besteht mindestens aus einem **Fach**, einem **Lehrer** und einer **Klasse**. 
+    
+    **Veranstaltungen ohne Fach, Lehrer oder ohne Klasse können nicht gezeigt werden.** Legen Sie sich für diese Situationen ggfs. Platzhalter in den Stammdaten an.
 
+## Verschiedene Zeitrahmen in DAVINCI
+
+Problem:
+
+Sie arbeiten mit individuellen Zeitrahmen für die Kollegen und für die Klassen. In der WEBBOX/App kann aber rein logisch nur ein Zeitrahmen gezeigt werden, dafür wird der `Hauptzeitrahmen` genutzt. Liegt eine Veranstaltung außerhalb dieses Zeitrahmes oder minimal innerhalb des Zeitrahmens wird sie nicht oder nur schwer erkennbar dargestellt.
+
+Hintergrund:
+
+Wir stellen die Veranstaltungen in der Höhe anteilig der Dauer dar.
+
+Beispiel: 
+
+Sie haben im Standardzeitrahmen eine Position von 9:00 bis 9:45 definiert, die nächste Position geht von 10:00 bis 10:45 Uhr, dazwischen liegt eine viertel Stunde Pause, laut `Hauptzeitrahmen`. Im Klassenzeitrahmen haben Sie etwas anderes definiert, hier kann auch eine Veranstaltung von 09:45 bis 10:00 Uhr gehen, diese Veranstaltung kann innerhalb des `Hauptzeitrahmens` in der Webbbox/App nicht dargestellt werden.
+Dauert die Veranstaltung von 9:45 bis 10:00 Uhr ist der darstellbare Zeitraum (5 min) so winzig, dass die Inhalte nur schwer lesbar sein werden.
+
+Was können Sie tun:
+
+In diesem Fall müssten allen Kollegen/Klassen individuelle Zeitrahmen (ein Positionsraster mit Pausenzeiten) zugewiesen werden. Der `Hauptzeitrahmen` wird dann so abgeändert, dass alle Zeiten abgedeckt sind, also keine Pausenzeiten (= Lücken) entstehen. Damit können dann alle Veranstaltungen der WEBBOX/App gezeigt werden.
 
 ## Sperrung und Sperrungsbemerkung
 

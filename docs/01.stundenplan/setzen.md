@@ -19,7 +19,7 @@ Im Prinzip können Sie jetzt direkt damit beginnen die Termine aus dieser Liste 
 
 ## Einzelpläne schnell aufrufen
 
-Im Bereich [**Auswahl-Fenster**](/davinci-stundenplan/stundenplan-erstellen/das-auswahl-fenster.md) haben Sie bereits die Möglichkeit kennengelernt, Einzelpläne und Plangruppen über das Dialogfenster ``Auswahl`` aufzurufen.
+Im Bereich **Auswahl-Fenster** haben Sie bereits die Möglichkeit kennengelernt, Einzelpläne und Plangruppen über das Dialogfenster ``Auswahl`` aufzurufen.
 Außerdem stehen Ihnen für den schnellen Aufruf bestimmter  Klassen-, Lehrer- und Raumpläne in der Menügruppe ``Start|Inhalt wechseln`` die Schaltflächen Klasse, Lehrer und Raum zur Verfügung.
 
 Um mit den genannten Schaltflächen einen bestimmten Einzelplan aufzurufen, gehen Sie bitte folgendermaßen vor:
@@ -139,7 +139,7 @@ Alle Planpositionen, an die der markierte Unterrichtstermin gesetzt werden kann,
 5. Wählen Sie die gewünschte Farbe aus dem Aufklappmenü neben dem Feld ``Hintergrund``.
 6. Bestätigen Sie Ihre Auswahl mit ``OK``. Die gewählte Farbe wird nun als neue Hintergrundfarbe der unverplanten Terminfelder angezeigt.
 
-Wie Sie nun Ihre unverplanten Termine an eine dieser Positionen platzieren können, erfahren Sie [hier](/davinci-stundenplan/stundenplan-erstellen/veranstaltungstermine-in-den-plan-setzen/unterrichtstermine-in-das-planungsfenster-platzieren.md).
+Wie Sie nun Ihre unverplanten Termine an eine dieser Positionen platzieren können, erfahren Sie im Abschnitt "Unterrichtstermine in das Planungsfenster platzieren".
 
 ## Unterrichtstermine in das Planungsfenster platzieren
 

@@ -17,10 +17,11 @@ Sie erhalten von der Sächsischen Bildungsagentur eine XML-Datei mit den Fächer
 
 1. Geben Sie unter `Plan > DAVINCI-Optionen > Meine Daten`
 
- * bei `Schultyp` Ihr Schulartkürzel ein
- * bei `Dienststelle/SchulNr` Ihre Dienststellenummer ein
+* bei `Schultyp` Ihr Schulartkürzel ein
+* bei `Dienststelle/SchulNr` Ihre Dienststellenummer ein
   
 2. Laden Sie mit `Plan > Importieren und Exportieren > Statistikdaten importieren > Sachsen Fachdaten importieren` die Fächer bzw. Schulformen für Ihrer Schulart: Für berufsbildende Schulen werden die Schularten im Schlüsselverzeichnis `Extras > Schularten`, für allgemeinbildende Schulen werden die Fächer als Stammdaten `Stammdaten > Fächer`, eingelesen.
+
 3. Weisen Sie jeder Klasse unter `Stammdaten > Klassen > Schulform` eine Schulform zu.
 
 !!! info "Hinweis"

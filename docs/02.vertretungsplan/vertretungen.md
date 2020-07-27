@@ -12,7 +12,7 @@ Für die Erstellung Ihrer Lehrer- und Raumvertretungen steht Ihnen die Ansicht �
 
 Die Ansicht „Vertretungen“ unterteilt sich in drei grundlegende Bereiche:
 
-* _Fehlzeiten-\/Vertretungen-Liste:_ Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
+* _Fehlzeiten-/Vertretungen-Liste:_ Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
 
 * _Liste möglicher Vertreter:_ Unten links sehen Sie eine Liste der möglichen Vertreter für die ausgewählte Raum- oder Lehrerfehlzeit. Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und `Fächer` legen Sie die Art der zu erstellenden Vertretung fest.
 
@@ -26,7 +26,7 @@ Zu Beginn der Vertretungserstellung können Sie festlegen, ab welchem Zeitraum d
 
 Das auf dem Kopfbalken der Fehlzeiten-Liste dargestellte Datum bedeutet, dass die eingetragenen Fehlzeiten ab diesem Datum angeboten werden. Hier ist standardmäßig das aktuelle Systemdatum Ihres Rechners voreingestellt. Sie können aber mit den Pfeilschaltflächen oben rechts auf dem Kopfbalken zu einem früheren oder späteren Datum weiterblättern. Auf der linken Seite des Kopfbalkens zeigt der Wert neben `Offene` die Anzahl der ab diesem Datum noch zu bearbeitenden Fehlzeiten an.
 
-Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-\/Vertretungen-Liste:
+Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-Vertretungen-Liste:
 
 | Spalte | Bedeutung |
 | :--- | :--- |
@@ -50,8 +50,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-\/V
 | Qualität | Kann mit einem Eintrag aus dem Schlüsselverzeichnis „Vertretungsqualität“ gefüllt werden |
 
 !!! info "Hinweis"
-
-  Sie können darüber hinaus die Fehlzeiten-\/Vertretungen-Liste nach einzelnen Spalten gruppieren, Spalten ein-\/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten\/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
+      Sie können darüber hinaus die Fehlzeiten-/Vertretungenliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
 
 Sobald in der Fehlzeiten-\/Vertretungen-Liste ein bestimmter Eintrag markiert wird, zeigt die VertreterListe eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
 Vorfeld beeinflussen kann.
@@ -65,8 +64,7 @@ Darüber hinaus kann der Planer die Reihenfolge der auf den Registerkarten `Dire
 Bevor Sie mit DAVINCI Lehrervertretungen erstellen, sollten Sie deshalb klären, welche allgemeinen Prioritäten für die Auswahl Ihrer Vertretungslehrer gelten. Wie Sie dabei vorgehen müssen, erfahren Sie im nächsten Kapitel.
 
 !!! info "Hinweis"
-
-  Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
+     Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
 
 Die individuellen Prioritäten bei der Auswahl der Vertretungslehrer werden anhand verschiedener Parameter definiert, die der Vertretungsplaner im Vorfeld gewichtet. Bei den Parametern muss man zwischen Eignungsfaktoren, Vertretungseinschränkungen und einer Anzeigeeinstellung unterscheiden.
 
@@ -166,10 +164,10 @@ Der Eignungskoeffizient ermöglicht, die dargebotene Auswahl der Vertreter nach 
 | :--- | :--- |
 | Eignung | Der Eintrag zeigt den aufgrund der Eignungsfaktoren (siehe Abschnitt „Eignungsfaktoren“) errechneten Eignungswert für eine Vertretung an. |
 | Art | Die Einträge geben Aufschluss darüber, wie sich der zu vertretende zum planmäßigen Unterricht eines Lehrers verhält. Mögliche Spaltenwerte sind „Vorziehen“, „Zusätzlich“ und „Übernehmen“. Diese Alternativen werden aufgrund Ihrer besonderen Bedeutung in den nachfolgenden Kapiteln ausführlicher behandelt. |
-| +AStd\/M | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Monat des Planungszeitraums. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
+| +AStd/M | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Monat des Planungszeitraums. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
 | -AStd\/M | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten negativen Anrechenstunden eines Lehrers im aktuellen Monat. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
-| +AStd\/J | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Planungszeitraum. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
-| -AStd\/J | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten  negativen Anrechenstunden eines Lehrers aktuellen Planungszeitraum. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
+| +AStd/J | Der Eintrag zeigt die Anzahl der positiven Anrechenstunden eines Lehrers im aktuellen Planungszeitraum. Zusätzlich geleistete negative Anrechenstunden können mit dieser Anzahl verrechnet werden. |
+| -AStd/J | Der Eintrag zeigt die Anzahl der im laufenden Schuljahr bereits geleisteten  negativen Anrechenstunden eines Lehrers aktuellen Planungszeitraum. Zusätzlich geleistete positive Anrechenstunden können mit dieser Anzahl verrechnet werden |
 | Priorität | Die Einträge verweisen auf zentrale Rahmenbedingungen, die für eine kompetente Unterrichtsvertretung von Bedeutung sind. Mögliche Spaltenwerte sind hier das Klassenkürzel der zu vertretenden Klasse, z.B. „8a“, „Fach“ und „Frei“. Die Ausgabe dieser Werte gehorcht der folgenden impliziten Hierarchie: Unterrichtet der Vertreter die Klasse wird das Klassenkürzel der Klasse ausgegeben. Kennt der Vertreter die Klasse nicht, unterrichtet aber das zu vertretende Fach, so wird der Eintrag „Fach“ angezeigt. Unterrichtet der Vertreter weder die Klasse, noch das Fach, hat aber zum Vertretungszeitpunkt eine Freistunde, so wird der Eintrag „Frei“ angezeigt. |
 | Raum | Hier wird der aktuelle Raum des Vertreters angezeigt, wenn er zum Vertretungstermin Unterricht hat. |
 | Soll | In dieser Spalte wird der Sollstundenwert des Lehrers laut der Lehrer-Soll\/ IstBerechnung in den Stammdaten dargestellt. |
@@ -241,7 +239,7 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
 
 Die erstellte Vertretung wird nun in der Fehlzeiten-Liste und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
 
-## Markierung in der Fehlzeiten-\/Vertretungen-Liste
+## Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
 
@@ -476,7 +474,7 @@ Die von der Automatik erstellten Vertretungen werden nun in der Fehlzeiten-\/Ver
 
 !!! info "Hinweis"
 
-  Vertretungen, die Sie bereits manuell erstellt haben, werden von der Vertretungsautomatik nicht angetastet. Sie können also durchaus die beiden Vorgehensweisen kombinieren. Erstellen Sie z.B. zunächst eine Reihe von Lehrer-Vertretungen selbst und lassen sie danach die Automatik über die restlichen Lehrer-Fehlzeiten laufen.
+    Vertretungen, die Sie bereits manuell erstellt haben, werden von der Vertretungsautomatik nicht angetastet. Sie können also durchaus die beiden Vorgehensweisen kombinieren. Erstellen Sie z.B. zunächst eine Reihe von Lehrer-Vertretungen selbst und lassen sie danach die Automatik über die restlichen Lehrer-Fehlzeiten laufen.
 
 ## Vertretungsalternativen eingeben
 
@@ -500,10 +498,9 @@ So gelangen Sie zum Schlüsselverzeichnis Vertretungsentfallgründe:
 
 ### Freistunde zuteilen
 
-Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen Sie bitte folgenderma-
-ßen vor:
+Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen Sie bitte folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit, für die Sie eine Freistunde zuteilen wollen.
+1. Markieren Sie in der Fehlzeiten-/Vertretungen-Liste die Fehlzeit, für die Sie eine Freistunde zuteilen wollen.
 
 2. Klicken Sie auf die Schaltfläche `Entfällt`, die sich links auf dem Kopfbalken der Vertreterliste befindet.
 
@@ -554,7 +551,7 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
 
-## Markierung in der Fehlzeiten-\/Vertretungen-Liste
+## Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` erhält den Eintrag „Raumänderung“ und wird nicht mehr gelb hinterlegt.
 
@@ -588,7 +585,7 @@ Die geänderte Fachzuordnung wird nun in der Fehlzeiten-\/Vertretungen-Liste und
 
 Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert
 
-## Markierung in der Fehlzeiten-Liste 
+## Markierung in der Fehlzeiten-Liste
 
 1. Das Feld `Art` verändert sich durch die geänderte Fachzuweisung nicht.
 
@@ -712,41 +709,6 @@ Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretung
 
 ![Dies ist eine vertretene Aufsicht im Stundenplan.](/assets/images/vertretungsplan/sub-plan71.png)
 
-# Änderungen verfolgen und bearbeiten
-
-Sie haben in den vorherigen Kapiteln verschiedene Instrumente kennengelernt, mit denen Sie im DAVINCI-Vertretungsplan temporäre Änderungen an Ihrem regulären Stundenplan vornehmen können. 
-
-Alle diese Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden an einer zentralen Stelle in daVinci-Vertretungsplan tabellarisch dokumentiert. Dies betrifft die Fehlzeiten, wie auch die Vertretungen sowie die verschiedenen Umstellungen und Ergänzungen, die Sie direkt im Stundenplan z.B. eines Lehrers oder einer Klasse vornehmen. Die zentrale Tabelle, in der Sie alle zurückliegenden Veränderungen an Ihrer laufenden Stundenplandatei nachvollziehen können, finden Sie in der Ansicht
-`Änderungen`. Um diese Ansicht zu öffnen, wählen Sie in der Navigationsleiste die Navigationsgruppe
-Vertretungsplan mit der Ansicht Änderungen aus. Die Änderungsliste erlaubt dem Vertretungsplaner die in den anderen Ansichten erstellten Umstellungen nachzuvollziehen und gegebenenfalls zusätzliche Ergänzungen oder Änderungen durchzuführen.
-
-![Dies ist die Ansicht „Änderungen“](/assets/images/vertretungsplan/sub-plan88.png)
-
-## Änderungen nachvollziehen
-
-Die zentrale Änderungsliste ist in drei grundlegende Bereiche geteilt, die jeweils mehrere Spalten umfassen:
-
-* *Zeitpunkt der Änderung:* Dieser Spaltenbereich umfasst alle Informationen, die den Zeitpunkt eines geänderten Termins betreffen, insbesondere Datum, Wochentag, Stundenplanposition und Uhrzeit.Darüber hinaus erhalten Sie hier Informationen über den Typ der Terminänderung sowie Hinweise auf Widersprüche.
-
-* *Betroffener Termin und seine Änderung:* Dieser Spaltenbereich gibt Auskunft über die zentralen Elemente des geänderten Termins, insbesondere Block, Lehrer, Fach, Raum und Klasse sowie die damit verbunden Änderungen bei Klasse, Lehrer, Fach bzw. Raum.
-
-* *Zusätzliche Informationen zur Änderung:* Dieser Spaltenbereich dokumentiert zusätzliche Informationselemente zur Änderungen, die der Vertretungsplaner im Zusammenhang mit einer Terminänderung hinterlegen kann, z.B. Infotexte, Mitteilungen und Bemerkungen.
-
-!!! info "Hinweis"
-
-  Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-
-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, entnehmen Sie bitte dem Kapitel „Arbeiten in Listen“ des Benutzerhandbuchs zu daVinci-Stundenplan (siehe Abschnitt „Weitere
-Informationen“).
-
-## Änderungsliste bearbeiten
-
-In der Ansicht `Änderungen` stehen Ihnen folgende Instrumente zur Verfügung, mit denen Sie die Einträge in der Änderungsliste bearbeiten können:
-
-* Einträge in den Spalten Bemerkung, Mitteilung und Info ändern oder hinzufügen.
-
-* Zusatzunterricht bearbeiten oder neuen Zusatzunterricht hinzufügen.
-
-* Mitteilungen bearbeiten oder neue Mitteilungen hinzufügen
 
 ### Bemerkungen, Mitteilungen, Infozeile einfügen
 
@@ -817,428 +779,6 @@ Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird
 !!! info "Hinweis"
 
   Das Dialogfenster `Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl Neue Mitteilung aus dem Kontextmenü.
-
-## Anrechnungen
-
-Durch Fehlzeiten von Klassen bzw. Lehrern und den Einsatz von Lehrern als Vertreter können negative als auch positive Anrechenstunden entstehen.
-
-Negative Anrechenstunden sind semantisch gesehen grundsätzlich Stunden, die der Lehrer später nachholen müsste. Fehlt beispielweise eine Klasse zu einem Zeitraum, in dem der Lehrer regulär Unterricht hätte, so entfallen ihm Stunden, die er eigentlich später durch zusätzlichen Unterricht ausgleichen müsste (siehe Abschnitt Sonderfall „Klasse fehlt“). Positive Anrechenstunden können entstehen, wenn ein Lehrer beispielsweise eine Vertretung hält, Zusatzunterricht hat oder sonstige zusätzliche anrechenfähige Aktivitäten für die Schule unternimmt. Positive und negative Anrechenstunden können miteinander verrechnet werden.
-
-Die Verwaltung von Anrechenstunden von Lehrern erfolgt in einer gesonderten Liste. Zum Öffnen der Ansicht wählen Sie in der Navigationsleiste die Navigationsgruppe Vertretungsplan mit der Ansicht Anrechnungen aus.
-
-![Dies ist die Ansicht `Vertretungsplan > Anrechnungen` mit der Liste der Anrechenstunden](/assets/images/vertretungsplan/sub-plan91.png)
-
-### Erzeugen von Anrechenstunden
-
-Das Erzeugen von Anrechenstunden entsteht im Regelfall durch das Eintragen von Fehlzeiten für Klassen bzw. Lehrer, den Einsatz von Vertretern oder Zusatzunterricht entstehen, wenn dies im entsprechenden Dialogfenster im Feld Anrechenstd. eingetragen worden ist.
-
-Zusätzlich können Sie Anrechenstunden in der Ansicht Anrechnungen eintragen. Dazu gehen Sie wie folgt vor:
-
-1. Klicken Sie auf die Schaltfläche `Neu` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
-![Die Schaltfläche `Neu` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan92.png)
-
-2. Wählen Sie im Dialogfenster `Anrechenstunden bearbeiten` die gewünschten Eintragungen.
-
-![Hier wird eine neue Anrechenstunde am 08.10.2012 für den Lehrer „Bru“ für eine Bibliotheksaufsicht erfasst.](/assets/images/vertretungsplan/sub-plan93.png)
-
-3. Klicken Sie anschließend auf `OK`.
-
-Der erstellte Eintrag wird jetzt in die Liste der Anrechenstunden eingefügt.
-
-## Bearbeiten von Anrechenstunden
-
-Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten gehen Sie wie folgt vor:
-
-1. Markieren Sie den gewünschten Eintrag in der Liste der Anrechenstunden.
-
-2. Klicken Sie auf die Schaltfläche `Bearbeiten` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
-![Die Schaltfläche `Bearbeiten` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan94.png)
-
-3. Ändern Sie im Dialogfenster `Anrechenstunden bearbeiten` die gewünschten Eintragungen.
-
-4. Klicken Sie anschließend auf `OK`.
-
-## Löschen von Anrechenstunden
-
-Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten gehen Sie wie folgt vor:
-
-1. Markieren Sie den gewünschten Eintrag in der Liste der Anrechenstunden.
-
-2. Klicken Sie auf die Schaltfläche `Löschen` in der Menügruppe `Start > Anrechenstunden` in der Ansicht `Anrechnungen`.
-
-![Die Schaltfläche `Löschen` finden Sie in der Menügruppe `Start > Anrechenstunden`.](/assets/images/vertretungsplan/sub-plan95.png)
-
-3. Bestätigen Sie die Sicherheitabfrage mit `Ja`.
-
-!!! info "Hinweis"
-
-   Das Löschen von Einträgen für Lehrer, die eine fehlende Klasse begleiten, ist nicht möglich. Dieser Eintrag kann nur durch Löschen der Fehlzeit der Klasse mitgelöscht werden.
-
-## Änderungen veröffentlichen
-
-Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DAVINCI bzw. DAVINCI-LOOK sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
-
-In der Änderungsliste sind Änderungen zunächst in der Spalte Status mit dem Wert `Unveröffentlicht` gekennzeichnet. Auf diese Weise können Änderungen erstellt werden, ohne dass diese direkt für alle sichtbar sind. Wenn die Änderungen fertig abgeschlossen sind, müssen diese veröffentlicht werden.
-
-![Die Schaltfläche `Änderungen freigeben` finden Sie in der Menügruppe `Publizieren > Pläne veröffentlichen`.](/assets/images/vertretungsplan/sub-plan96.png)
-
-![Im Dialogfenster `Änderungen freigeben` legen Sie fest, ob Sie nur eigene oder Änderungen anderer Bearbeiter veröffentlichen.](/assets/images/vertretungsplan/sub-plan97.png)
-
-So veröffentlichen Sie Änderungen:
-
-1. Betätigen Sie die Schaltfläche `Änderungen freigeben` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-2. Wählen Sie im Dialogfenster `Änderungen veröffentlichen` die Art der Veröffentlichung aus.
-
-3. Dabei können Sie entweder nur Ihre eigene Änderungen veröffentlichen oder auch zusammen mit den Änderungen auch anderer Benutzer. Wählen Sie eine der beiden Optionen aus und bestätigen Sie mit `OK`.
-
-4. In der Änderungsliste wird nun der Spalte `Status` der Wert von `Unveröffentlicht` auf `Veröffentlicht` gesetzt. Jetzt sind die Änderungen für alle anderen Benutzer in DAVINCI bzw. DAVINCI-LOOK sichtbar.
-
-## Drucken
-
-Neben den Exportmöglichkeiten von Listen als Excel-, Text-, HTML- oder XML-Datei können Vertretungen als Vertretungspläne gedruckt werden.
-
-Der DAVINCI-Vertretungsplan unterstützt grundsätzlich zwei Arten des Druckens:
-
-* *Reine Vertretungspläne:* Hier werden nur die durch die Vertretung entstandenen Veränderungen in Form von Listen ausgegeben. Der reguläre Unterricht wird dabei nicht berücksichtigt. Diese Art des Ausdrucks wird bevorzugt, wenn es nur um eine Auflistung der reinen Änderungen gegenüber dem regulären Plan geht. Dies ist beispielsweise als Informationsquelle für die tägliche Änderungsliste für die Schüler und Lehrer gedacht.
-
-* *Tagesaktuelle Stundenpläne:* Unter Berücksichtigung des regulären Plans und der eventuellen Veränderungen durch Vertretungen wird der Stundenplan tagesaktuell gedruckt. Auf diese Weise kann beispielsweise der tatsächlich stattfindende Unterrichtsplan einer Woche für eine Klasse oder einen Lehre festgehalten werden, welche von sich in Abhängigkeit von vorhandenen Vertretungsregelungen vom vorab über einen Zeitraum geplanten Unterricht unterscheiden kann.
-
-Beide Arten werden in den nachfolgenden Abschnitten näher erläutert.
-
-!!! info "Hinweis"
-
-  Alternativ zum Druck von Vertretungsplänen bzw. tagesaktuellen Stundenplänen können Sie die
-elektronische Publikation über den HTML-Export nutzen (siehe Abschnitt „HTML-Vertretungspläne exportieren“). Dies ist beispielsweise für die Publikation über CONFIRE BLACKBOARD bzw. CONFIRE SHOWTIME  auf Public Displays vorteilhaft.
-
-## Vertretungspläne drucken
-
-Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
-
-1. Betätigen Sie die Schaltfläche `Drucken` in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet.
-
-![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan98.png)
-
-*Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
-
-3. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
-
-![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan100.png)
-
-4. Legen Sie im Bereich `Auswahl` den Druckformattyp fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
-
-5. Wählen Sie jetzt im Bereich `Druckformat` unter `Auswahl` das Druckformat aus.
-
-6. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
-
-7. Klicken Sie auf die Schaltfläche `Drucken`, um die Ausgabe direkt auf den Drucker zu leiten. Wählen Sie die Schaltfläche `Vorschau`, um die Ausgabe erst auf dem Bildschirm zu prüfen.
-
-## Druckvorschau
-
-Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche
-über verschiedene Menügruppen aufgerufen werden kann.
-
-![Im Dialogfenster der Druckvorschau können Sie sowohl das Druckergebnis ansehen als auch Einstellungen des ausgewählten Druckformats direkt ändern.](/assets/images/vertretungsplan/sub-plan101.png)
-
-### Menügruppe Bericht
-
-Über die Schaltfläche `Design` gelangen Sie direkt zu den Detaileinstellungen des definierten Druckformats. Alle Änderungen werden direkt im Druckformat gespeichert und unmittelbar in der Vorschau
-angezeigt.
-
-![In den Menügruppe `Vorschau > Bericht` finden Sie die Schaltfläche `Design`.](/assets/images/vertretungsplan/sub-plan102.png)
-
-!!! info "Hinweis"
-
-  Bei geschickter Anordnung von Vorschaufenster und dem Dialogfenster für die Detaileinstellungen des Druckformats, können Sie beide Fenster nebeneinander anzeigen. Wenn Sie jetzt Änderungen im Dialogfenster des Druckformats vornehmen und anschließend auf die Schaltfläche `Übernehmen` klicken, werden die Änderungen sofort im Vorschaufenster sichtbar, ohne das Dialogfenster verlassen zu müssen.
-
-### Menügruppe Ausgabe
-
-Hier können Sie über die Schaltfläche `Drucken` die Ausgabe direkt auf den Drucker ausgeben.
-
-![In der Menügruppe "Vorschau|Ausgabe" finden Sie die Schaltfläche `Drucken`.](/assets/images/vertretungsplan/sub-plan103.png)
-
-Das Dialogfenster zur Auswahl der Druckeroptionen wird aufgerufen, wenn Sie die Schaltfläche `Druckdialog` anwählen. Optional können Sie die Ausgabe in eine PDF-Datei exportieren, wenn Sie auf die Schaltfläche `Nach PDF exportieren` drücken.
-
-### Menügruppe Format
-
-Mit der Schaltfläche `Seite einrichten` können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen.
-
-![In der Menügruppe "Vorschau|Format" finden Sie die Schaltfläche `Seite einrichten`.](/assets/images/vertretungsplan/sub-plan104.png)
-
-In diesem Dialogfenster können Sie auf insgesamt vire Registerkarten grundlegende Seiteneinstellungen vornehmen.
-
-## Registerkarte `Seite`
-
-Auf der Registerkarte Seite können Sie Angaben zur Seitengröße, Seitenorientierung und Druckreihenfolge wählen
-
-![Dies ist die Registerkarte `Seite` des Dialogfensters `Seite einrichten`.](/assets/images/vertretungsplan/sub-plan105.png)
-
-## Registerkarte `Ränder`
-
-Die Registerkarte Ränder ermöglicht die Einstellungen der Seitenränder. Dabei können Änderungen in auch direkt in der auf der Registerkarte angezeigten Vorschau vorgenommen werden. Dazu müssen die als gestrichelte Linien dargestellten Ränder lediglich mit der Maus verschoben werden.
-
-![Dies ist die Registerkarte `Ränder` des Dialogfensters `Seite einrichten`.](/assets/images/vertretungsplan/sub-plan106.png)
-
-!!! info "Hinweis"
-
-  Seitenränder können auch unabhängig vom Dialogfenster `Seite einrichten` eingestellt werden. Das Verschieben der Seitenränder per Maus kann analog in der Hauptansicht des Berichts vorgenommen werden.
-
-## Registerkarte `Kopf-/Fußzeile`
-
-Die Angaben für die Kopf- und Fußzeilen der Seite definieren Sie auf der Registerkarte `Kopf-/Fußzeile`.
-
-![Dies ist die Registerkarte „Kopf-/Fußzeile“ des Dialogfensters „Seite einrichten“.](/assets/images/vertretungsplan/sub-plan107.png)
-  
-Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Einem linksbündigem linken, einem zentrierten mittigen und einem rechtbündigen rechten Teil. In jedes dieser Textfelder können die unter Vordefinierte Funktionen vorhandenen acht Funktionen bzw. eine freier Text eingefügt werden. In der nachfolgenden Abbildung wird beispielweise in der Kopfzeile im linken Teil linksbündig ein Zeit-/Datumstempel und im rechten Teil rechtsbündig der auf dem Rechner angemeldete Benutzer und der Rechnername ausgegeben.
-
-![An dieser Stelle können Sie verschiedene vordefinierte Funktionen für die Kopf- und Fußzeile hinterlegen.](/assets/images/vertretungsplan/sub-plan108.png)
-
-Die einzelnen vordefinierten Funktionen finden Sie in der nachfolgenden Übersicht
-
-Symbol                         | Bedeutung
------------------------------- | ---------
-<img src="/assets/images/vertretungsplan/sub-plan109.png"> | Seitennummer
-<img src="/assets/images/vertretungsplan/sub-plan110.png"> | Seitenanzahl
-<img src="/assets/images/vertretungsplan/sub-plan111.png"> | Seite X von Y (z.B. „2 von 10“)
-<img src="/assets/images/vertretungsplan/sub-plan112.png"> | Druckdatum, Druckuhrzeit
-<img src="/assets/images/vertretungsplan/sub-plan113.png"> | Druckdatum
-<img src="/assets/images/vertretungsplan/sub-plan114.png"> | Druckuhrzeit
-<img src="/assets/images/vertretungsplan/sub-plan115.png"> | Benutzername (im Betriebssystem)
-<img src="/assets/images/vertretungsplan/sub-plan116.png"> | Computername (im Betriebssystem)
-
-!!! info "Hinweis"
-
-  Bei den vordefinierten Funktionen „Druckdatum“ bzw. „Druckuhrzeit“ richtet sich die jeweilige Darstellung nach den Einstellungen in der Menügruppe Format im Aufklappmenü Format beim Menüpunkt Datum und Uhrzeit.
-
-Zusätzliche können Schriftart bzw. -größe und die Hintergrundfarbe für Kopf- und Fußzeile getrennt angegeben werden.
-
-## Registerkarte `Skalierung`
-
-Auf der Registerkarte Skalierung kann die allgemeine Skalierung festgelegt werden. Über die prozentuelle Anpassung auf Normalgröße können insbesondere Ausdrucke, die nicht ganz auf eine Seite passen, einfach umgesetzt werden. Die Auswahl Seite anpassen ermöglicht das Einpassen des Ausdrucks auf die Seite innerhalb der Seitenränder.
-
-![Dies ist die Registerkarte `Skalierung` des Dialogfensters `Seite einrichten`.](/assets/images/vertretungsplan/sub-plan117.png)
-
-### Menügruppe Zoom
-
-Sie können über die Schaltflächen `Ganze Seite`, `Zwei Seiten` oder allgemein über das Aufklappmenü
-`Seiten` festlegen, wie viel Seiten gleichzeitig in der Vorschau dargestellt werden sollen.
-
-![Hier sehen Sie die Schaltflächen der Menügruppe `Zoom`](/assets/images/vertretungsplan/sub-plan118.png)
-
-Das Aufklappmenü `Zoom` ermöglicht diverse Einstellung für die prozentuale Darstellung der Originalgröße.
-
-### Menügruppe Navigation
-
-Hier können Sie die zwischen den einzelnen Seiten der Vorschau navigieren.
-
-![Hier sehen Sie die Schaltflächen der Menügruppe "Navigation"](/assets/images/vertretungsplan/sub-plan119.png)
-
-### Menügruppe Vorschau
-
-Über Anwahl der Schaltfläche `Kleinansicht` wird die Vorschau in eine linke und eine rechte Fläche unterteilt. Links wird die einzelne Seite in der gewünschten Größe angezeigt und auf der rechten werden alle Seiten in Miniaturansicht zur schnellen Anwahl angezeigt.
-
-![Hier sehen Sie die Schaltflächen der Menügruppe "Vorschau".](/assets/images/vertretungsplan/sub-plan120.png)
-
-Das Aufklappmenü `Ansicht` ermöglich das Einblenden von Rändern, der Ränderleiste oben und/oder der Statusleiste unten in der Vorschau. Ränder selbst werden dabei in der Vorschau des Berichts durch gestrichelte Linien dargestellt.
-
-### Tagesaktuell Stundenpläne drucken
-
-Neben dem Druck von regulären Stundenplänen können Stundenpläne auch tagesaktuelle aufgrund von eventuellen Veränderung im Vertretungsplan ausgegeben werden.
-
-Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
-
-1. Betätigen Sie die Drucken-Schaltfläche in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet.
-
-![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan98.png)
-
-*Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
-1. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
-![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan121.png)
-1. Markieren Sie zusätzlich das Kontrollkästchen `Mit Vertretungsinformationen drucken`.
-2. Legen Sie im Bereich `Auswahl` einen der Druckformatstypen Klassenpläne, Lehrerpläne, Raumpläne, Fachpläne, Schülerpläne oder Aufsichtspläne fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
-3. Wählen Sie jetzt im Bereich `Druckformat` unter `Auswahl` das Druckformat aus.
-4. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
-5. Klicken Sie auf die Schaltfläche `Drucken`, um die Ausgabe direkt auf den Drucker zu leiten. Wählen Sie die Schaltfläche `Vorschau`, um die Ausgabe erst auf dem Bildschirm zu prüfen.
-
-## Sammeldruck
-
-Neben dem Druck über einzelne Druckformate können auch mehrere Druckformate zu einem übergreifenden Sammeldruckformat zusammengefasst werden. In diesem Fall kann der Ausdruck verschiedener Druckformate mit einem einzigen Druckaufruf erfolgen.
-
-Für den Bereich des Vertretungsplans können Sie auf diese Weise beispielweise den Tagesvertretungsplan nach Stunden für die Schüler und die Vertretungslehrerliste für die Lehrer mit einem Sammeldruckformat
-ausgeben.
-
-Wählen Sie dazu gemäß der Beschreibung unter Abschnitt „Druckformat bearbeiten “ ein Druckformat vom Druckformattyp Sammeldruckformat.
-
-![Hier tragen Sie den Namen des neuen Sammeldruckformats ein.](/assets/images/vertretungsplan/sub-plan122.png)
-
-Nach der Definition des Namens für das neue Sammeldruckformat können Sie beim Bearbeiten des Druckformats aus der Liste der der bestehenden Druckformate diejenigen auswählen, welche in das
-Sammeldruckformat aufgenommen werden sollen.
-
-Beim Ausdruck werden dann die Druckformate des Sammeldruckformats in der Reihenfolge der Auflistung ausgegeben.
-
-![In diesem Dialogfenster wählen Sie die Druckformate des neuen Sammeldruckformats aus.](/assets/images/vertretungsplan/sub-plan123.png)
-
-## Druckformattypen
-
-Für das Drucken von Vertretungsplänen können Sie zwischen sechs Druckformattypen für Vertretungspläne wählen.
-
-Vertretungsplantyp                 | Bedeutung
----------------------------------- | ---------
-Tagesvertretungsplan nach Klassen  | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Klassen sortiert gedruckt
-Tagesvertretungsplan nach Lehrern  | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Vertretungslehrern sortiert gedruckt
-Tagesvertretungsplan nach Stunden  | Alle Vertretungen für einen bestimmten Tag werden nach Stunden sortiert gedruckt
-Klassenvertretungen                | Alle Vertretungen werden nach ausgewählten Klassen gedruckt Lehrervertretungen Alle Vertretungen werden nach ausgewählten fehlenden Lehrern gedruckt
-Vertretungslehrerliste             | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt
-
-Für jedes dieser Druckformattypen können Sie ein oder mehrere Druckformate definieren. Jedes Druckformat legt den Inhalt der auszugebenen Informationen fest.
-
-## Druckformat bearbeiten
-
-![Die Liste der zur Verfügung stehenden Druckformate.](/assets/images/vertretungsplan/sub-plan124.png)
-
-So erstellen Sie ein neues Druckformat:
-
-1. Klicken Sie auf die Schaltfläche `Drucken` in der Symbolleiste für den Schnellzugriff, die sich ganz oben links im Programmfenster befindet oder klicken Sie auf die Schaltfläche Pläne drucken in der Menügruppe `Publizieren > Pläne` veröffentlichen.
-
-2. Wählen Sie im Dialogfenster `Drucken` die Schaltfläche `Druckformate`. Klicken Sie im Dialogfenster `Druckformate` auf die Schaltfläche `Hinzufügen`.
-
-3. Geben Sie einen Namen für das Druckformat an, wählen Sie den zugehörigen Druckformattyp aus und klicken Sie dann auf `O`K.
-
-4. Definieren Sie nun die Details des Druckformats.
-
-![Hier tragen Sie Name und Typ des neuen Druckformats ein.](/assets/images/vertretungsplan/sub-plan125.png)
-
-Sie können auch auf Basis eines bereits bestehenden Druckformats ein neues Druckformat definieren.
-
-So duplizieren Sie ein Druckformat:
-
-1. Markieren Sie im Dialogfenster `Druckformate` das zu duplizierende Druckformat und wählen Sie dann die Schaltfläche `Duplizieren`.
-
-2. Geben Sie einen Namen für das neue Druckformat an und klicken Sie dann auf `OK`.
-
-3. Ändern Sie jetzt die Vorgaben des kopierten Druckformats nach Ihren Wünschen ab.
-
-Die Detailangaben zu den Druckvorgaben können Sie auf den verschiedenen Registerkarten einstellen.
-
-![Dies ist die Registerkarte `Tabelle` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan126.png)
-
-Auf dieser Registerkarte `Tabelle` legen Sie Schriftart, Schriftgröße, Hintergrundfarbe und Ausrichtung der Überschrift pro Spalte und des Inhalts der Spalte fest. Bei den Zeilen können Sie zwei Hintergrundfarben angeben. Die erste Hintergrundfarbe wird nur für die ungeraden Zeilen und die zweite Hintergrundfarbe wird nur für die gerade Zeilen verwendet. Auf diese Weise können Sie beispielweise folgenden Ausdruck realisieren.
-
-![Dieser Ausdruck eines Tagesvertretungsplans besitzt unterschiedliche Hintergrundfarben.](/assets/images/vertretungsplan/sub-plan127.png)
-
-Auf der Registerkarte `Spalten` legen Sie die Spalten fest, die Sie ausdrucken wollen. Für jede Spalte können Sie über die Schaltfläche `Hinzufügen` oder `Entfernen` entscheiden, ob eine Spalte in die Liste Sichtbare Spalten aufgenommen wird. Über die Schaltflächen mit dem Pfeil oben oder unten können Sie die Reihenfolge der anzuzeigenden Spalten beeinflussen.
-
-![Dies ist die Registerkarte `Spalten` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan126.png)
-
-Für jede Spalte wird beim Ausdruck in Abhängigkeit vom enthaltenen Text die Spaltenbreite dynamisch berechnet. Alternativ können Sie für jede Spalte eine individuelle feste Breite definieren, in dem  
-Sie das Kontrollkästchen `Benutzerdefinierte Spaltenbreite` markieren und die gewünschte Breite bei
-Breite (mm) eintragen. Optional können Sie unter `Überschrift` eine alternative Überschrift für die
-aktuelle markierte Spalte angeben.
-
-Auf der Registerkarte `Titel & Infos` geben Sie hier Schriftart, Schriftgröße, Hintergrundfarbe und Ausrichtung der Planüberschrift und des Infobereichs fest. Optional können Sie festlegen, ob die fehlenden Lehrer und/oder fehlenden Klassen mit im Kopf ausgegeben werden.
-
-![Dies ist die Registerkarte `Titel & Infos` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan128.png)
-
-Auf der Registerkarte `Seite` können Sie die Bezeichnungen für Lehrer in Überschriften und in den Zellen festlegen. Zusätzlich können Sie über das Optionsfeld `Jede Tabelle auf neuer Seite beginnen` entscheiden, ob die Ausdrucke pro Tabelle mit einer neuen Seite anfangen oder fortlaufend ausgegeben werden.
-
-![Dies ist die Registerkarte `Seite` des Dialogfensters für ein Druckformat des Typs `Tagesvertretungsplan nach Klassen`.](/assets/images/vertretungsplan/sub-plan129.png)
-
-So bearbeiten oder löschen Sie ein Druckformat:
-
-1. Öffnen Sie das Drucken-Fenster.
-
-2. Markieren Sie im Dialogfenster `Druckformate` das gewünschte Druckformat und klicken Sie auf die Schaltfläche `Bearbeiten` bzw. auf die Schaltfläche `Löschen`.
-
-## HTML-Vertretungspläne exportieren
-
-Neben dem Drucken von Vertretungsplänen können diese auch elektronisch als HTML-Dateien exportiert werden, um dann im Intranet bzw. Internet veröffentlicht zu werden.
-Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie folgt vor:
-
-1. Klicken Sie auf die Schaltfläche `HTML-Pläne exportieren` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-![Die Schaltfläche `HTML-Pläne exportieren` finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan130.png)
-2. Wählen Sie im Dialogfenster `HTML-Export` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
-
-![Im Dialogfenster `HTML-Export` treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan131.png)
-3. Legen Sie im Bereich `Auswahl` den Exportformattyp fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
-4. Wählen Sie jetzt im Bereich `HTML-Exportformate` unter `Auswahl` das HTML-Exportformat aus.
-5. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
-6. Klicken Sie auf die Schaltfläche `Exportieren`, um die HTML-Dateien zu exportieren.
-
-## HTML-Exportformattypen
-
-Für den HTML-Export von Vertretungsplänen können Sie anlog zum Drucken zwischen sechs HTML-Exportformatstypen für Vertretungen wählen.
-
-Vertretungsplantyp                | Bedeutung
---------------------------------- | ---------
-Tagesvertretungsplan nach Klassen | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Klassen sortiert gedruckt
-Tagesvertretungsplan nach Lehrern | Alle Vertretungen für einen bestimmten Tag werden nach ausgewählten Vertretungslehrern sortiert gedruckt
-Tagesvertretungsplan nach Stunden | Alle Vertretungen für einen bestimmten Tag werden nach Stunden sortiert gedruckt
-Klassenvertretungen               | Alle Vertretungen werden nach ausgewählten Klassen gedruckt Lehrervertretungen Alle Vertretungen werden nach ausgewählten fehlenden Lehrern gedruckt
-Vertretungslehrerliste            | Alle Vertretungseinsätze werden nach ausgewählten Lehrern gedruckt
-
-Für jedes dieser Exportformattypen können Sie ein oder mehrere HTML-Exportformate definieren. Jedes Exportformat legt den Inhalt der auszugebenen Informationen fest.
-
-## HTML-Exportformat bearbeiten
-
-![Die Liste der zur Verfügung stehenden HTML-Exportformate.](/assets/images/vertretungsplan/sub-plan132.png)
-
-So erstellen Sie ein neues Exportformat:
-
-1. klicken Sie auf die Schaltfläche `HTML-Pläne exportieren` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-2. Wählen Sie im Dialogfenster `HTML-Export` die Schaltfläche `HTML-Exportformate`. Klicken Sie im Dialogfenster `HTML-Exportformate` auf die Schaltfläche `Hinzufügen`.
-
-3. Geben Sie einen Namen für das HTML-Exportformat an, wählen Sie den zugehörigen Exportformattyp aus und klicken Sie dann auf `OK`.
-
-4. Definieren Sie nun die Details des HTML-Exportformats.
-
-![Hier tragen Sie Name und Typ des neuen Exportformats ein.](/assets/images/vertretungsplan/sub-plan133.png)
-
-Sie können auch auf Basis eines bereits bestehenden Druckformats ein neues Druckformat definieren. So duplizieren Sie ein HTML-Exportformat:
-
-1. Markieren Sie im Dialogfenster `HTML-Exportformate` das zu duplizierende Exportformat und wählen Sie dann die Schaltfläche Duplizieren.
-
-2. Geben Sie einen Namen für das neue Exportformat an und klicken Sie dann auf `OK`.
-
-3. Ändern Sie jetzt die Vorgaben des kopierten HTML-Exportformats nach Ihren Wünschen ab.
-
-Die Detailangaben zu den Exportvorgaben können Sie auf den verschiedenen Registerkarten einstellen.
-
-## Änderungsnachrichten versenden
-
-!!! info "Hinweis"
-
-  Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI-LIVEMESSAGE voraus.
-
-Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der Versand kann per E-Mail und/oder per SMS erfolgen.
-
-![Das Dialogfenster „Änderungen mitteilen“](/assets/images/vertretungsplan/sub-plan134.png)
-
-So rufen Sie das Fenster `Änderungen mitteilen` auf:
-
-* Klicken Sie auf die Schaltfläche `Änderungen mitteilen` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
-
-![Die Schaltfläche „Änderungen mitteilen“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan135.png)
-
-!!! info "Hinweis"
-
-  Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Sie tragen diese Angaben in der Ansicht `Stammdaten > Lehrer` bzw.
-`Stammdaten > Schüler` in den Spalten `E-Mail` bzw. `Mobil` ein.
-
-## Vertretungsstatistik
-
-Die Vertretungsstatistik beinhaltet eine Auflistung aller positiven bzw. negativen Anrechnungsstunden, der Fehlgründe, der Aufsichtsvertretungen, der Aufsichtsausfälle und des Unterrichtsausfalls pro Lehrer.
-
-![Dies ist das Dialogfensters „Vertretungsstatistik“.](/assets/images/vertretungsplan/sub-plan136.png)
-
-Die Ansicht kann nach Teams über die Auswahlbox `Team` gefiltert werden. Bei der Anzeige der Aufsichtsdauer kann man zwischen den Einheiten Anzahl der Aussichten und Minuten für die Registerkarten `Aufsichtsvertretungen` und `Aufsichtsausfall` wählen. Über die Schaltfläche `Exportieren` kann die Ansicht der aktuellen Registerkarte in eine Excel-, Text-, HTML- oder XML-Datei exportiert werden.
 
 ## Vertretungsoptionen
 

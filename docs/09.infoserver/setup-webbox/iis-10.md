@@ -1,6 +1,6 @@
 # DAVINCI WEBBOX und IIS 10
 
-Dieses Kapitel beschreibt die Installation und Konfiguration der DAVINCI WEBBOX auf Ihrem Apache HTTP Server.
+Dieses Kapitel beschreibt die Installation und Konfiguration der DAVINCI WEBBOX auf Ihrem IIS-Web-Server.
 
 Die DAVINCI WEBBOX setzt folgende Installationen voraus:
 
