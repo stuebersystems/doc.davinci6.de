@@ -33,7 +33,7 @@
 
 ### Allgemein
 
-* NEW: 
+* NEW: Beispieldateien aktualisiert
 
 ### STUNDENPLAN
 
