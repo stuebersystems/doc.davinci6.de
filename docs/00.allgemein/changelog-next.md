@@ -29,11 +29,11 @@
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
-## DAVINCI Version 6.5.67
+## DAVINCI Version 6.5.68
 
 ### Allgemein
 
-* NEW: Beispieldateien aktualisiert
+* NEW: 
 
 ### STUNDENPLAN
 

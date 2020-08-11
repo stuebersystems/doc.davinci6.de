@@ -22,6 +22,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.67 (11.08.2020)
+
+### Allgemein
+
+* NEW: Beispieldateien aktualisiert
+
 ## DAVINCI Version 6.5.66 (26.06.2020)
 
 ### STUNDENPLAN
