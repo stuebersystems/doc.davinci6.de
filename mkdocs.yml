@@ -94,7 +94,7 @@ nav:
       - edoo.sys: 10.regionales/rlp-edoosys.md
     - Sachsen: 
       - Ausfallstatistik: 10.regionales/sac-ausfallstatistik.md
-      - Lernsax: 10.regionales/sac-lernsax.md
+      - LernSax: 10.regionales/sac-lernsax.md
     - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
 - STUNDENPLAN: 
   - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
