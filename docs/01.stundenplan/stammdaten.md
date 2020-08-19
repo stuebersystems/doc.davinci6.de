@@ -322,11 +322,39 @@ Team | Teams zu denen die Stundentafel gehört
 Externe ID | ID für Fremdprogramme
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-Geben Sie mit ``Neu`` oder der Taste ``EINFG`` neue Schlüssel ein. Mit ''Löschen'' können Sie Schlüssel wieder löschen. 
+Geben Sie mit ``Neu`` oder der Taste ``EINFG`` neue Schlüssel ein. Mit ''Löschen'' können Sie Schlüssel wieder löschen.
 
 !!! info "Hinweis"
 
-    Einige Spalten sind standardmäßig ausgeblendet. Wenn Sie auf `Spalten ein-/ausblenden` klicken, werden Ihnen die nicht sichtbaren Spalten angeboten. Mit der Maus können Sie sie anklicken und auf die Spaltenposition in der Liste ziehen, um sie dauerhaft einzublenden.
+    Einige Spalten sind standardmäßig ausgeblendet. Wenn Sie auf `Spalten ein-/ausblenden` klicken, werden Ihnen die nicht sichtbaren Spalten angeboten. Mit der Maus können Sie sie anklicken und auf die Spaltenposition in der Liste ziehen, um sie dauerhaft einzublenden. Alternativ können Sie dazu auch das Sternchen-Symbol links oben in der Stundentafel tabell nutzen.
+
+### Bearbeiten der Fächer in der Stundentafel
+
+Spalte| Inhalt
+--------|-------------------------------------------
+Angleichung| Angleichung der Stundenzahl an dieser Schule. Der Eintrag in der Spalte "Soll (W)" der Veranstaltungsliste ist die Summe aus den Werten "Soll" und "Angleichung" der Stundentafel
+Bemerkung |Freitext für Bemerkung
+Differenz | 
+Doppelstd |Anzahl der Doppelstunden für die Automatik, z.B. ``1-2`` gibt der Automatik mindestens eine und höchstens zwei Doppelstunden vor
+Fach| Kürzel des Fachs
+Fachstatus| Fachstatus z.B. "1. Prüfungsfach" (nur für Oberstufe) gemäß ``Extras > Schlüsselverzeichnis > Fachstatus``, standardmäßig ausgeblendet
+Gruppe | Gruppe
+Kategorie | Veranstaltungskategorie, siehe ``Plan < Schlüsselverzeichnis > Veranstaltungskategorien``. Eine Besonderheit ist, dass diese Eigenschaft auf die Klassen mit dieser Stundetafel übernommen wird, d.h. Sie können hier zentral die Eigenschaft für alle Klassen mit dieser Stundentafel einstellen.
+Lehrbereich| Lehrbereich gemäß ``Extras > Schlüsselverzeichnis > Lehrbereiche``', standardmäßig ausgeblendet
+Pflichtkurse| Anzahl der Pflichtkurse (nur für Oberstufe)
+Schlüssel | Fachschlüssel siehe `Stammdaten > Fächer > Schlüssel`
+Soll| Stundenanzahl, mit der dieses Fach unterrichtet werden soll
+Soll 1|
+Soll 2|
+Soll 3|
+Soll 4|
+Sollkonto | Stundenanzahl, mit der dieses Fach unterrichtet werden soll über eine Zeitspanne die über eine Planungsdatei hinausgeht (BFW)
+Stufensumme |
+Termine| Termine, z.B. ``2-2-1`` für zwei Doppelstunden und eine Einzelstunde, entspricht der Angabe "Termine" in der Veranstaltungsliste
+Unterrichtsform| Unterrichtsform gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsformen``, standardmäßig ausgeblendet
+Unterrichtsart| Unterrichtsart gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsarten`', z.B. für die Unterscheidung Leistungs- und Grundkurse in der Oberstufe
+Wertfaktor| Wertfaktor für die Statistik mit Wertfaktoren, standardmäßig ausgeblendet
+Wiederholung | Periodisch/Einmalig
 
 ## Teams
 
