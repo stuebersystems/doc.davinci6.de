@@ -50,6 +50,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Fehlzeiten-Ver
 | Qualität | Kann mit einem Eintrag aus dem Schlüsselverzeichnis „Vertretungsqualität“ gefüllt werden |
 
 !!! info "Hinweis"
+
       Sie können darüber hinaus die Fehlzeiten-/Vertretungenliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
 
 Sobald in der Fehlzeiten-\/Vertretungen-Liste ein bestimmter Eintrag markiert wird, zeigt die VertreterListe eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
@@ -80,7 +81,7 @@ Um Ihre individuelle Bewertung dieser Parameter vorzunehmen, gehen Sie bitte fol
 
 ### Eignungsfaktoren
 
-Auf der Registerkarte `Eignungsfaktoren` des Dialogfensters `Vertretungseinstellungen` stehen für die Gewichtung der Eignungsfaktoren mehrere Parameter zur Verfügung, die der Vertretungsplaner mit einer Zahl zwischen 0 (unwichtig) bis 1000 (sehr wichtig) einstufen kann bzw. bei den Angaben zu den Anrechnungsstunden durch konkrete Werte festlegen kann.
+Auf der Registerkarte "Eignungsfaktoren" des Dialogfensters `Vertretungseinstellungen` stehen für die Gewichtung der Eignungsfaktoren mehrere Parameter zur Verfügung, die der Vertretungsplaner mit einer Zahl zwischen 0 (unwichtig) bis 1000 (sehr wichtig) einstufen kann bzw. bei den Angaben zu den Anrechnungsstunden durch konkrete Werte festlegen kann.
 
 ![Hier legen Sie die Eignungsfaktoren für die Vertretungslehrer fest.](/assets/images/vertretungsplan/sub-plan32.png)
 
@@ -112,11 +113,11 @@ Aus den erfolgten Angaben bei den Eignungsfaktoren errechnet daVinci nun die Eig
 
 !!! info "Hinweis"
 
-  Über die Schaltfläche `Vorgaben` können Sie jederzeit wieder die Standardvorgaben einstellen.
+    Über die Schaltfläche `Vorgaben` können Sie jederzeit wieder die Standardvorgaben einstellen.
 
 ### Vertretungseinschränkungen
 
-Auf der Registerkarte `Vertretungseinschränkungen` des Dialogfensters `Vertretungseinstellungen` kann für jeden Lehrer angegeben werden, ob er für einen Vertretungseinsatz verwendet werden soll. Der Vertretungsplaner kann dies über eine Zahl zwischen 0 (keine Einschränkung) bis 10 (maximale Einschränkung) festlegen.
+Auf der Registerkarte "Vertretungseinschränkungen" des Dialogfensters `Vertretungseinstellungen` kann für jeden Lehrer angegeben werden, ob er für einen Vertretungseinsatz verwendet werden soll. Der Vertretungsplaner kann dies über eine Zahl zwischen 0 (keine Einschränkung) bis 10 (maximale Einschränkung) festlegen.
 
 ![Hier soll der Lehrer „Kid“ mit der Einschränkung „10“ möglichst nicht zur Vertretung
 eingesetzt werden. Er wird als möglicher Vertretungslehrer mit dem geringsten Eignungswert „0“
@@ -124,7 +125,7 @@ angezeigt.](/assets/images/vertretungsplan/sub-plan33.png)
 
 ### Anzeigeeinstellung
 
-Auf der Registerkarte `Anzeigen` des Dialogfensters `Vertretungseinstellungen` können Sie bestimmte Einstellungen für die Anzeige von möglichen Vertretern und Stundenplänen vornehmen.
+Auf der Registerkarte "Anzeigen" des Dialogfensters `Vertretungseinstellungen` können Sie bestimmte Einstellungen für die Anzeige von möglichen Vertretern und Stundenplänen vornehmen.
 
 ![Einstellungen für die Vertretungserstellung](/assets/images/vertretungsplan/sub-plan34.png)
 
@@ -146,15 +147,19 @@ Die Anzeige der möglichen Vertreter zum Vorziehen von Unterricht wird nun an da
 
 ## Vorziehbare Vertreter
 
-Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft. Soll die Suche auch in der vom Vertretungstermin aus gesehenen Vergangenheit erfolgen, so müssen Sie das Optionsfeld `Aber nicht aus der Vergangenheit` deaktivieren.
+Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft. Soll die Suche auch in der vom Vertretungstermin aus gesehenen Vergangenheit erfolgen, so müssen Sie unter `Start > Einstellungen` unter der Reisterkarten "Anzeigen" das Optionsfeld `Aber nicht aus der Vergangenheit` deaktivieren.
 
 Wie viele Tage in der Zukunft bzw. in Zukunft und Vergangenheit dazu geprüft werden, wird durch den
 Eintrag im Feld `Tage vor Vertretungsdatum für vorziehbare Termine` berücksichtigen beeinflusst.
 
+![Einstellungen für die Vertretungserstellung](/assets/images/vertretungsplan/sub-plan34.png)
+
 ## Farben in Stundenplänen
 
-Um die in den Stammdaten von daVinci festgelegten Farben für Lehrer, Klassen, Fächer und Räume in
-den Stundenplänen nicht anzuzeigen, müssen Sie die Option Termine ohne Farben anzeigen markieren.
+Um die in den Stammdaten von DAVINCI festgelegten Farben für Lehrer, Klassen, Fächer und Räume in
+den Stundenplänen nicht anzuzeigen, können Sie `Start` die Schaltfläche "Schwarz/Weiß" aktivieren.
+
+![Schwarz/Weiß Modus in Anzeige](/assets/images/vertretungsplan/schwarz.weiß.png)
 
 ## Geeignete Vertretungslehrer suchen
 
