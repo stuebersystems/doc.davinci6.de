@@ -1,9 +1,12 @@
 # Stundenpläne drucken
 
-DAVINCI bietet Ihnen den Ausdruck in Papierform oder in Form eines PDF-Dokuments. Klicken
-Sie im Menüband auf `Publizieren > Publizieren > Pläne drucken`, um das Drucken-Dialogfenster zu öffnen. Dort können Sie bei „Auswahl“ wählen, ob Sie Stundenpläne oder Vertretungspläne drucken  möchten. Das Layout richtet sich nach dem unter „Druckformat“ eingestellten Druckformat. Sie können die mitgelieferten Druckformate verändern oder neue erstellen.
+Mit DAVINCI können Sie Ihre Pläne in Papierform ausdrucken oder in ein PDF-Dokument übergeben. Das Dialogfenster zum Drucken von Plänen öffnen Sie über das Menüband `Publizieren > Pläne drucken` oder über das Druckersymbol links oben im Anwendungsfenster.
 
-![Menüfenster Drucken](/assets/images/MenüfensterDrucken.png)
+![Menüfenster Drucken](/assets/images/stundenplan/drucken1.png)
+
+Das Layout richtet sich nach dem unter „Druckformat“ eingestellten Druckformat. Sie können die mitgelieferten Druckformate verändern oder neue erstellen.
+
+![Menüfenster Drucken](/assets/images/stundenplan/drucken2.png)
 
 ## Druckformate
 
@@ -20,51 +23,58 @@ Druckformate bestimmen das Aussehen gedruckter Stundenpläne und Vertretungsplä
 |Gesamtplan Räume|Der Wochenstundenplan mehrerer ausgewählter Räume|
 |Gesamtplan Fächer|Der Wochenstundenplan mehrerer ausgewählter Fächer|
 
-### Dialogfenster zur Bearbeitung des Druckformats aufrufen
+### Druckvorschau
 
-Änderungen am bearbeiteten Druckformat können Sie sich unmittelbar in der Seitenvorschau anzeigen lassen. Klicken Sie dazu im Dialogfenster zur Bearbeitung des Druckformats auf die Schaltfläche `Übernehmen`. Die Darstellung des Ausdrucks in der Seitenvorschau wird dadurch an die Änderungen des Druckformats angepasst, ohne dass das Dialogfenster zur Bearbeitung des Druckformats dabei geschlossen werden muss.
+Wählen Sie für den gewünschten Ausdruck ein Druckformat aus und öffnen Sie dafür die Druckvorschau wie folgt:
+
+![Druckvorschau öffnen](/assets/images/stundenplan/drucken3.png)
+
+![Seitenvorschau](/assets/images/stundenplan/drucken4.png)
+
+#### Design
+
+![Design](/assets/images/stundenplan/drucken8.png)
+
+Layoutänderungen können Sie unmittelbar in der Seitenvorschau vornehmen und sich direkt anzeigen lassen. Klicken Sie dazu in der Seitenvorschau auf die Schaltfläche `Design`. Es öffnet sich ein Dialogfenster zur Bearbeitung des Druckformates. Sobald eine Einstellung verändert wurde, gehen Sie auf die Schaltfläche `Übernehmen`. Die Darstellung des Ausdrucks in der Seitenvorschau wird dadurch an die Änderungen des Druckformats angepasst, ohne dass das Dialogfenster zur Bearbeitung des Druckformats dabei geschlossen werden muss.
+
+![Design anpassen](/assets/images/stundenplan/drucken5.png)
 
 !!! info "Hinweis"
 
     Wie Sie das Layout eines in der Seitenvorschau aufgerufenen Druckformats bearbeiten können, erfahren Sie im Abschnitt [Druckformate bearbeiten](/davinci-stundenplan/9-stundenplane-drucken/druckformate-bearbeiten.md).
 
-### Druckausgabe starten
+In der Druckvorschau finden Sie neben dem `Design`-Aufruf zum Anpassen des Layouts weitere Aufrufe, die Sie im Zusammenhang mit Ihrem Druckauftrag erledigen können.
 
-Über die Schaltflächen der Menügruppe `Ausgabe` können Sie verschiedene Aufgaben im Zusam
-menhang mit Ihrem Druckauftrag erledigen.
+#### Ausgabe
 
-![Menügruppe `Ausgabe`](/assets/images/Druckausgabe.png)
+![Menügruppe `Ausgabe`](/assets/images/stundenplan/drucken6.png)
 
-**Drucken** - Wenn Sie auf diese Schaltfläche klicken, wird der Druckauftrag direkt gestartet. 
-**Druckdialog** - Mit dieser Schaltfläche können Sie das Dialogfenster zur Auswahl des Zieldruckers und zur Einstellung der Druckoptionen öffnen. 
-**Nach PDF exportieren **- Mit dieser Schaltfläche können Sie die in der Seitenvorschau angezeigten Druckseiten in das PDF-Format konvertieren. 
+Auswahl | Was passiert?
+--|--
+**Drucken** | Wenn Sie auf diese Schaltfläche klicken, wird der Druckauftrag direkt gestartet. 
+**Druckdialog** | Mit dieser Schaltfläche können Sie das Dialogfenster zur Auswahl des Zieldruckers und zur Einstellung der Druckoptionen öffnen.
+**Nach PDF exportieren** | Mit dieser Schaltfläche können Sie die in der Seitenvorschau angezeigten Druckseiten in das PDF-Format konvertieren. 
 
-### Druckseite formatieren
+#### Format
+
+![Menügruppe `Format`](/assets/images/stundenplan/drucken7.png)
 
 Mit den Schaltflächen der Menügruppe `Format` können Sie verschiedene Aufgaben rund um die Formatierung der Druckseite durchführen: 
 
-![Menügruppe `Format`](/assets/images/Druck.Format.png)
+##### Seite einrichten
 
-**Seite einrichten**: Mit dieser Schaltfläche können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen. Im Dialogfenster „Seite einrichten“ können Sie auf insgesamt 4 Registerkarten grundlegende Seiteneinstellungen vornehmen.
-Auf der Registerkarte „`Seite`“ können Sie Angaben zu Seitengröße, Seitenorientierung und Druckreihenfolge machen.
+![Menügruppe `Format > Seite einrichten`](/assets/images/stundenplan/drucken8.png)
 
-![Seite einrichten](/assets/images/SeiteEinrichten.png)
+Register | Was kann eingestellt werden?
+--|--
+<img src="/assets/images/stundenplan/drucken10.png"> | Mit dieser Schaltfläche können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen. Im Dialogfenster „Seite einrichten“ können Sie auf insgesamt 4 Registerkarten grundlegende Seiteneinstellungen vornehmen. Auf der Registerkarte „`Seite`“ können Sie Angaben zu Seitengröße, Seitenorientierung und Druckreihenfolge machen.
+<img src="/assets/images/stundenplan/drucken11.png"> | 
+Die Registerkarte `Ränder` ermöglicht die Einstellung der Seitenränder. Dabei können Änderungen auch direkt in der auf der Registerkarte angezeigten Vorschau vorgenommen werden. Dazu müssen die als gestrichelte Linien dargestellten Ränder lediglich mit der Maus verschoben werden.
+<img src="/assets/images/stundenplan/drucken13.png"> |Auf der Registerkarte `Skalierung` kann die allgemeine Skalierung festgelegt werden. Über die prozentuelle Anpassung auf Normalgröße können insbesondere Ausdrucke, die nicht ganz auf eine Seite passen, einfach umgesetzt werden. Die Auswahl Seite anpassen ermöglicht das Einpassen des Ausdrucks auf die Seite innerhalb der Seitenränder.
+<img src="/assets/images/stundenplan/drucken12.png"> |
+Hier definieren Sie die Angaben für die Kopf-und Fußzeilen. Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Eine linken, eine mittigen und einen rechten Teil. In diese Textfelder können die unter Vordefinierte Funktionen vorhandenen acht Platzhalter bzw. eine freier Text eingefügt werden. Die einzelnen vordefinierten Funktionen finden Sie in der nachfolgenden Tabelle. Zusätzlich können Schriftart bzw. -größe und die Hintergrundfarbe für Kopf-und Fußzeile getrennt angegeben werden. 
 
-Die Registerkarte `Ränder`" ermöglicht die Einstellung der Seitenränder. Dabei können Änderungen auch direkt in der auf der Registerkarte angezeigten Vorschau vorgenommen werden. Dazu müssen die als gestrichelte Linien dargestellten Ränder lediglich mit der Maus verschoben werden.
-
-!!! info "Hinweis"
-
-    Seitenränder können auch unabhängig vom Dialogfenster ``Seite einrichten`` eingestellt werden. Das Verschieben der Seitenränder per Maus kann analog in der Hauptansicht 
-der Seitenvorschau vorgenommen werden.
-
-Die Angaben für die Kopf-und Fußzeilen der Seite definieren Sie auf der Registerkarte
-`Kopf-/Fußzeile`.
-
-![Seite einrichten, Kopf-/Fußzeile](/assets/images/SeiteEinrichten.Kopf.Fuß.png)
-
-Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Eine linken, eine mittigen und einen rechten Teil. In diese Textfelder können die unter Vordefinierte Funktionen vorhandenen acht Platzhalter bzw. eine freier Text eingefügt werden. Die einzelnen vordefinierten Funktionen finden Sie in der nachfolgenden Übersicht.
-
-|Symbol|Bedeutung|
+|Vordefinierte Symbole|Bedeutung|
 |--|--|
 | <img src="/assets/images/sn1.png"> |Seitennummer|
 | <img src="/assets/images/sa1.png">|Seitenanzahl|
@@ -74,8 +84,6 @@ Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Eine lin
 |<img src="/assets/images/du1.png">|Druckuhrzeit|
 |<img src="/assets/images/bn.png">|Benutzername (im Betriebssystem)|
 |<img src="/assets/images/cn.png">|Computername (im Betriebssystem)|
-
-Zusätzlich können Schriftart bzw. -größe und die Hintergrundfarbe für Kopf-und Fußzeile getrennt angegeben werden. Auf der Registerkarte `Skalierung` kann die allgemeine Skalierung festgelegt werden. Über die prozentuelle Anpassung auf Normalgröße können insbesondere Ausdrucke, die nicht ganz auf eine Seite passen, einfach umgesetzt werden. Die Auswahl Seite anpassen ermöglicht das Einpassen des Ausdrucks auf die Seite innerhalb der Seitenränder.
 
 ### Druckansicht skalieren
 
