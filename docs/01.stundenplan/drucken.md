@@ -67,12 +67,10 @@ Mit den Schaltflächen der Menügruppe `Format` können Sie verschiedene Aufgabe
 
 Register | Was kann eingestellt werden?
 --|--
-<img src="/assets/images/stundenplan/drucken10.png"> | Mit dieser Schaltfläche können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen. Im Dialogfenster „Seite einrichten“ können Sie auf insgesamt 4 Registerkarten grundlegende Seiteneinstellungen vornehmen. Auf der Registerkarte „`Seite`“ können Sie Angaben zu Seitengröße, Seitenorientierung und Druckreihenfolge machen.
-<img src="/assets/images/stundenplan/drucken11.png"> | 
-Die Registerkarte `Ränder` ermöglicht die Einstellung der Seitenränder. Dabei können Änderungen auch direkt in der auf der Registerkarte angezeigten Vorschau vorgenommen werden. Dazu müssen die als gestrichelte Linien dargestellten Ränder lediglich mit der Maus verschoben werden.
-<img src="/assets/images/stundenplan/drucken13.png"> |Auf der Registerkarte `Skalierung` kann die allgemeine Skalierung festgelegt werden. Über die prozentuelle Anpassung auf Normalgröße können insbesondere Ausdrucke, die nicht ganz auf eine Seite passen, einfach umgesetzt werden. Die Auswahl Seite anpassen ermöglicht das Einpassen des Ausdrucks auf die Seite innerhalb der Seitenränder.
-<img src="/assets/images/stundenplan/drucken12.png"> |
-Hier definieren Sie die Angaben für die Kopf-und Fußzeilen. Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Eine linken, eine mittigen und einen rechten Teil. In diese Textfelder können die unter Vordefinierte Funktionen vorhandenen acht Platzhalter bzw. eine freier Text eingefügt werden. Die einzelnen vordefinierten Funktionen finden Sie in der nachfolgenden Tabelle. Zusätzlich können Schriftart bzw. -größe und die Hintergrundfarbe für Kopf-und Fußzeile getrennt angegeben werden. 
+<img src="/assets/images/stundenplan/drucken10.png">|Mit dieser Schaltfläche können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen. Im Dialogfenster „Seite einrichten“ können Sie auf insgesamt 4 Registerkarten grundlegende Seiteneinstellungen vornehmen. Auf der Registerkarte „`Seite`“ können Sie Angaben zu Seitengröße, Seitenorientierung und Druckreihenfolge machen.
+<img src="/assets/images/stundenplan/drucken11.png">|Die Registerkarte `Ränder` ermöglicht die Einstellung der Seitenränder. Dabei können Änderungen auch direkt in der auf der Registerkarte angezeigten Vorschau vorgenommen werden. Dazu müssen die als gestrichelte Linien dargestellten Ränder lediglich mit der Maus verschoben werden.
+<img src="/assets/images/stundenplan/drucken13.png">|uf der Registerkarte `Skalierung` kann die allgemeine Skalierung festgelegt werden. Über die prozentuelle Anpassung auf Normalgröße können insbesondere Ausdrucke, die nicht ganz auf eine Seite passen, einfach umgesetzt werden. Die Auswahl Seite anpassen ermöglicht das Einpassen des Ausdrucks auf die Seite innerhalb der Seitenränder.
+<img src="/assets/images/stundenplan/drucken12.png">|Hier definieren Sie die Angaben für die Kopf-und Fußzeilen. Kopf- wie auch Fußzeile sind dazu in jeweils drei Bereiche eingeteilt: Eine linken, eine mittigen und einen rechten Teil. In diese Textfelder können die unter Vordefinierte Funktionen vorhandenen acht Platzhalter bzw. eine freier Text eingefügt werden. Die einzelnen vordefinierten Funktionen finden Sie in der nachfolgenden Tabelle. Zusätzlich können Schriftart bzw. -größe und die Hintergrundfarbe für Kopf-und Fußzeile getrennt angegeben werden. 
 
 |Vordefinierte Symbole|Bedeutung|
 |--|--|
@@ -85,41 +83,50 @@ Hier definieren Sie die Angaben für die Kopf-und Fußzeilen. Kopf- wie auch Fu�
 |<img src="/assets/images/bn.png">|Benutzername (im Betriebssystem)|
 |<img src="/assets/images/cn.png">|Computername (im Betriebssystem)|
 
-### Druckansicht skalieren
+##### Format
+
+![Menügruppe `Format > Format`](/assets/images/stundenplan/drucken14.png)
+
+##### Hintergrund
+
+![Menügruppe `Format > Hintergrund`](/assets/images/stundenplan/drucken15.png)
+
+### Zoom
 
 Über die Schaltflächen der Menügruppe `Zoom` können Sie festlegen, welcher Ausschnitt des Druckbereichs in der Seitenvorschau angezeigt wird.
 
-![Zoom](/assets/images/Druck.zoom.png)
+![Menügruppe `Zoom`](/assets/images/stundenplan/drucken16.png)
 
-* **Ganze Seite: **Mit dieser Schaltfläche legen Sie fest, dass eine ganze Druckseite vollständig in der Seitenvorschau angezeigt wird.
+Aufruf | Was passiert?
+--|--
+Ganze Seite | Mit dieser Schaltfläche legen Sie fest, dass eine ganze Druckseite vollständig in der Seitenvorschau angezeigt wird.
+Zwei Seiten | Wenn Sie auf diese Schaltfläche klicken, werden zwei ganze Druckseiten in der Seitenvorschau angezeigt.
+Seiten | Mit dieser Schaltfläche können Sie individuell festlegen, wie viele ganze Druckseiten in der Seitenvorschau angezeigt werden.
+Zoom | Das Aufklappmenü dieser Schaltfläche ermöglicht diverse Einstellung für die prozentuale Darstellung der Originalgröße.
 
-* **Zwei Seiten**: Wenn Sie auf diese Schaltfläche klicken, werden zwei ganze Druckseiten in der Seitenvorschau angezeigt.
+### Navigation
 
-* **Seiten**: Mit dieser Schaltfläche können Sie individuell festlegen, wie viele ganze Druckseiten in der Seitenvorschau angezeigt werden.
+![Menügruppe `Navigation`](/assets/images/stundenplan/drucken17.png)
 
-* **Zoom**: Das Aufklappmenü dieser Schaltfläche ermöglicht diverse Einstellung für die prozentuale Darstellung der Originalgröße.
+In der Seitenvorschau können Sie über den Bereich `Navigation` die Druckseiten in der Vorschau durchblättern.
 
-### In der Seitenvorschau blättern
+Aufruf | Was passiert?
+--|--
+Nächste Seite | Wenn Sie auf diese Schaltfläche klicken, so gelangen Sie zur nächsten Seite des ausgewählten Druckbereichs.
+Vorherige Seite | Mit dieser Schaltfläche blättern Sie zur vorhergehenden Seite des ausgewählten Druckbereichs
+Navigation | Im Aufklappmenü dieser Schaltfläche finden Sie die Befehle „Erste Seite“ und „Letzte Seite“, mit denen Sie zur Anfangs-bzw. zur Endseite des ausgewählten Druckbereichs springen können
 
-In der Menügruppe „Vorschau|Navigation“ finden Sie einige Schaltflächen, mit denen Sie die Druckseiten in der Vorschau durchblättern können:
+### Vorschau
 
-* **Nächste Seite**: Wenn Sie auf diese Schaltfläche klicken, so gelangen Sie zur nächsten Seite des ausgewählten Druckbereichs.
+![Menügruppe `Vorschau`](/assets/images/stundenplan/drucken18.png)
 
-* **Vorherige Seite**: Mit dieser Schaltfläche blättern Sie zur vorhergehenden Seite des ausgewählten Druckbereichs
+In der Seitenvorschau können Sie über den Bereich `Vorschau` können verschiedene Elemente des Vorschaufensters ein- und ausgeblendet werden.
 
-* **Navigation**: Im Aufklappmenü dieser Schaltfläche finden Sie die Befehle „Erste Seite“ und „Letzte Seite“, mit denen Sie zur Anfangs-bzw. zur Endseite des ausgewählten Druckbereichs springen können
-
-### Vorschaufenster verändern
-
-Mit den Schaltflächen der Menügruppe ``Vorschau > Navigation`` können verschiedene Elemente des Vorschaufensters ein- und ausgeblendet werden.
-
-![``Vorschau > Navigation``](/assets/images/Navigation.png)
-
-* **Miniaturansicht**: Wenn Sie auf diese Schaltfläche klicken, wird die Vorschau in eine linke und eine rechte Fläche unterteilt. Links wird die einzelne Seite in der gewünschten Größe angezeigt und auf der rechten werden alle Seiten in Miniaturansicht zur schnellen Anwahl angezeigt.
-
-* **Kopf-und Fußzeile **: Mit dieser Schaltfläche können Sie zwei zusätzliche Multifunktionsleisten für die Bearbeitung der Kopf-und Fußzeilen der Druckseiten im Programmfenster einblenden.
-
-* **Ansicht**: Das Aufklappmenü dieser Schaltfläche ermöglicht das Ein-und Ausblenden der Seitenränder, der Leiste zur Bearbeitung der Seitenränder und/oder der Statusleiste im Programmfenster der Seitenvorschau.
+Aufruf | Was passiert?
+--|--
+Miniaturansicht | Wenn Sie auf diese Schaltfläche klicken, wird die Vorschau in eine linke und eine rechte Fläche unterteilt. Links wird die einzelne Seite in der gewünschten Größe angezeigt und auf der rechten werden alle Seiten in Miniaturansicht zur schnellen Anwahl angezeigt.
+Kopf-und Fußzeile | Mit dieser Schaltfläche können Sie zwei zusätzliche Multifunktionsleisten für die Bearbeitung der Kopf-und Fußzeilen der Druckseiten im Programmfenster einblenden.
+Ansicht | Das Aufklappmenü dieser Schaltfläche ermöglicht das Ein-und Ausblenden der Seitenränder, der Leiste zur Bearbeitung der Seitenränder und/oder der Statusleiste im Programmfenster der Seitenvorschau.
 
 ## Druckformate bearbeiten
 
