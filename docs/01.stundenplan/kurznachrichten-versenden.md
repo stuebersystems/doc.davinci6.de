@@ -13,33 +13,43 @@ Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. 
 
 ### Einstellung in DAVINCI Optionen Email
 
+Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
+
 ![Einstellung in DAVINCI Optionen Email](/assets/images/stundenplan/sp124.png)
 
-* Server: Name des Mailclients
-
-* Port: Port des Mailclients
-
-* Absender E-Mail Adresse: Geben Sie hier die absendende Mailadresse an
-
-* Benutzername: Benutzername des Mailkontos
-
-* Passwort: Passwort des Mailkontos
-
-* SSL-verschlüsselte Verbindung: wenn ja bitte anhaken
-
-* SSL-Modus: geben Sie an ob der Modus Explizit oder Implizit ist
-
-Benutzername
+Eingabefeld | Eingabe wie folgt:
+--|--
+Server | Name des Mailclients
+Port| Port des Mailclients
+Absender E-Mail Adresse| Geben Sie hier die absendende Mailadresse an
+Benutzername| Benutzername des Mailkontos
+Passwort| Passwort des Mailkontos
+SSL-verschlüsselte Verbindung| wenn ja bitte anhaken
+SSL-Modus | geben Sie an ob der Modus Explizit oder Implizit ist
 
 ### Einstellung in DAVINCI Optionen Mitteilungen
 
+Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
+
 ![Einstellungen für Änderungs- und Notfallmitteilungen](/assets/images/stundenplan/sp123.png)
 
-* Änderungsmitteilung: Geben Sie hier E-Mailbetreff Text bbzw. den Päfix für SMS Mitteilungen ein, der für Änderungsmitteilungen gelten soll.
+Änderungsmitteilungen | Eingaben
+--|--
+E-Mail Betreff | Geben Sie hier den Text für den E-Mail Betreff ein, der für Änderungsmitteilungen gelten soll.
+SMS-Präfix | Geben Sie hier den Präfix für SMS Mitteilungen ein, der für Änderungsmitteilungen gelten soll.
 
-* Notfallmitteilungen: Geben Sie hier den  E-Mailbetreff Text, den Mitteilungstext für Notfallmitteilungen ein. Über den Aufruf `Notfallmitteilung senden`können Sie die Mitteilung auch hier direkt versenden.
+Notfallmitteilungen | Eingaben
+--|--
+E-Mail Betreff | Geben Sie hier den E-Mailbetreff Text ein-
+Mitteilungstext | Geben Sie hier Mitteilungstext für Notfallmitteilungen ein. 
+
+Über die Schaltfläche `Notfallmitteilung senden` können Sie die Mitteilung auch hier direkt versenden und ggf. den Betreff und den Mitteilungstext verändern.
+
+![Notfallmitteilung senden](/assets/images/stundenplan/notfall.png)
 
 ### Einstellung in DAVINCI Optionen SMS Nachrichten
+
+Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
 
 ![Einstellungen für die SMS Verbindungsdetails](/assets/images/stundenplan/sp122.png)
 

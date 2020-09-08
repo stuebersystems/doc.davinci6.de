@@ -1,5 +1,7 @@
 # DAVINCI-Optionen
 
+Über `Extras > Optionen` können Sie Ihre DAVINCI Optionen öffnen. Es handelt sich hier um individuelle Einstellungen pro Rechner.
+
 Option| Abbildung
 --|--
 **Meine Daten**|<img src="/assets/images/stundenplan/opt1.png">
