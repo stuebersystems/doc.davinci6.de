@@ -33,13 +33,13 @@ DAVINCI hat spezielle Funktionen für das Planen einmaliger Termine, die wir im 
 ### Einmalige Termine in der Stundentafel
 
 Bei Stundentafel können Sie in der Spalte **Wiederholung** den Wert "einmalig" einstellen. Die Stundenangaben werden dann als Jahressummen interpretiert. Sie müssen dann also 80 Stunden BWL angeben, wenn 2 Stunden je Woche in 40 Unterrichtswochen unterrichtet werden sollen.
-![Einmalige Termine in der Stundentafel](../assets/images/stundenplan/sp01.png)
+![Einmalige Termine in der Stundentafel](/assets/images/stundenplan/sp01.png)
 
 ### Einmalige Termine in der Veranstaltungsliste
 
 Einmalige Veranstaltungen werden wie periodische Veranstaltungen in der Veranstaltungsliste geführt. Wichtige Splaten zur Planung sind hier die Spalten Soll/J und Ist/J
 
-![Einmalige Termine in der Veranstaltungsliste](../assets/images/stundenplan/sp02.png)
+![Einmalige Termine in der Veranstaltungsliste](/assets/images/stundenplan/sp02.png)
 
 Spalte | Bedeutung
 -|-
@@ -50,16 +50,16 @@ Unverplant| noch zu setzende Stunden
 
 Unter ``DAVINCI Optionen > Einstellungen > Veranstaltungsliste`` bei **Wiederholung** einmalig voreinstellen. Wenn Sie nun in der Veranstltungliste eine neue Veranstaltung anlegen, wird diese als einmalig angelegt.
 
-![Einmalige Termine in der Veranstaltungsliste](../assets/images/stundenplan/sp03.png)
+![Einmalige Termine in der Veranstaltungsliste](/assets/images/stundenplan/sp03.png)
 
 ### Einmalige Termine im Stundenplan
 
 Einmalige Termine werden im Stundenplan analog mit einem Punkt rechts oben in der Terminzelle gekennzeichnet.
 
-![Einmalige Termine im Stundenplan](../assets/images/stundenplan/sp04.png)
+![Einmalige Termine im Stundenplan](/assets/images/stundenplan/sp04.png)
 
 Bitte achten Sie darauf, dass einmalige Termine nur in einer bestimmten Woche, also niemals in der Ansicht "Alle Wochen", verplant werden können, da diese Termine zwingend ein bestimmtes Datum haben müssen. Bei einmaligen Termine sollten Sie im Planfenster mit der ``Start > Einstellung > Kollisionen`` und dem Wert **zulassen, nichts anzeigen** arbeiten, dann haben nämlich die folgenden Befehle den Effekt, dass sie sich auch auf die nachfolgenden Termine in den Folgewochen beziehen, wenn Sie dies in den entsprechenden Dialogfenstern so bestätigen:
-![Einstellungen](../assets/images/stundenplan/sp05.png)
+![Einstellungen](/assets/images/stundenplan/sp05.png)
 
 * Beim Verschieben eines Termins mit Drag & Drop
 * Beim Entfernen eines Termins aus dem Plan mit ``Termine(e) aus Plan entfernen``
