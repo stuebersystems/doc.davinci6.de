@@ -25,7 +25,7 @@ So sollten Sie vorgehen:
 ``Selbstorganisierendes Lernen`` ein.
 4. Klicken Sie auf ``Aktualisieren`` um die Liste neu anzuzeigen. Indem Sie mehrere oder alle Zeilen der Liste markieren und auf Exportieren klicken, können Sie die Liste nach Excel und in andere Formate exportieren.
 
-![Kopfspalten](/assets/images/Änderungen01.png)
+![Kopfspalten](/assets/images/aenderungen01.png)
 
 ## Register Ausfall
 
@@ -58,7 +58,7 @@ Anrechnen | Summe der Anrechenstunden an diesem Tag
 
 ### Bereich Lehrerausfall
 
-![Lehrerausfall](/assets/images/Änderungen02.png)
+![Lehrerausfall](/assets/images/aenderungen02.png)
 
 Spalte | Erläuterungen
 --------|-------------------------------------------
