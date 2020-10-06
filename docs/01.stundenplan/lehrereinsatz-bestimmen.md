@@ -1,6 +1,6 @@
-# Lehrereinsatz bestimmen
+# Lehrerzuweisung
 
-In DAVINCI stehen Ihnen zwei Wege zur Verfügung, um einer Veranstaltung für die weitere Planung Lehrer zuzuordnen:
+In DAVINCI stehen Ihnen zwei Wege für die Zuweisung der Lehrer zu einer Veranstaltung zur Verfügung,.
 
 1. Das Detailfenster `Passende Lehrer`, über dieses Fenster können Sie auch bereits gesetzten Terminen im Plan nachträglich Lehrer zuweisen.
 

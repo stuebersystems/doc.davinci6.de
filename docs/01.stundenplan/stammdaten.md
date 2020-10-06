@@ -1,23 +1,109 @@
-# Stammdaten
+# Das Stammdatenfenster
 
-Die Stammdaten sind die grundlegenden Daten Ihres Plans bzw. Ihrer Schule. Hier erfassen Sie Klassen, Lehrer, Fächer, Räume, und vieles mehr. Den Programmbereich "Stammdaten" öffnen Sie, indem Sie auf der linken unteren Seite den Bereich anklicken.
+Die Stammdaten sind die grundlegenden Daten Ihres Plans bzw. Ihrer Schule. Hier erfassen Sie Klassen, Lehrer, Fächer, Räume etc.. 
+
+Öffnen Sie den Programmbereich "Stammdaten" über die Navigationsleiste links unten, indem Sie den Aufruf "Stammdaten" wählen. Die Navigation darüber passt sich dem gewählten Bereich an und führt die Stammdatenregister auf.
+
 ![Stammdaten-Fenster](/assets/images/Stammdaten02.png)
 
-Das Arbeitsfenster des Programmbereichs "Stammdaten" bestehen aus Listen, auf denen jeweils Einträge zu einer bestimmten Datenkategorie angelegt werden können.
+Das Arbeitsfenster besteht aus Listen, auf denen jeweils Einträge zu einer bestimmten Datenkategorie (Stammdatenregister) angelegt werden können.
 
-Bei den Datenkategorien die hier erfasst werden können, handelt es sich namentlich um Klassen, Lehrer, Räume, Fächer,Stundentafeln, Aufsichtsbereiche, Perioden, Gebäude, Teams, Ressourcen, Schüler. Sie werden auf der linken Seite im oberen Abschnitt angezeigt.
-Im Optionsmenü von DAVINCI unter `Extras > Optionen > Ansicht` können Sie einzelne Stammdatenbereiche ausblenden. Ungenutzte Bereiche werden so nicht mehr angezeigt und die Ansicht ist übersichtlicher.
-
-![Ansicht](/assets/images/Optionen.Ansicht.Stammdaten.png)
-
-Da die Stammdaten-Ansichten aus Listen bestehen, sollten Sie den Abschnitt "[Mit Listen arbeiten](/davinci-stundenplan/mit-listen-arbeiten.md)" lesen, um sich mit den Ansichts- und Sortierungsoptionen vertraut zu machen.
-
-Um Stammdaten eintragen, bearbeiten oder löschen zu können müssen Sie sich im `BearbeitenModus`befinden. Sie können diese Option unter `Extras > Optionen > Einstellungen` für den Stammdatenbereich automatisch einstellen. Wählen Sie dazu den Haken bei `„Stammdatenfenster > Im Bearbeiten-Modus`. Sollten Sie sich nicht im Bearbeiten-Modus befinden, können Sie dies auch in den Stammdaten direkt unter `Start > Bearbeiten > Bearbeiten-Modus`, über `Rechtsklick > Bearbeiten-Modus` über das Tastenkürzel ``Strg+E`` einstellen.
+Bei den Datenkategorien die hier erfasst werden können, handelt es sich namentlich um Klassen, Lehrer, Räume, Fächer,Stundentafeln, Aufsichtsbereiche, Perioden, Gebäude, Teams, Ressourcen, Schüler.
 
 !!! info "Hinweis"
 
-    Neue Einträge in den Stammdaten benötigen wenigstens eine Eingabe im Feld **Kürzel**.
-Jedes Kürzel ist eindeutig und kann nur einmal eingegeben werden. Je nachdem ob Sie unter `Extras > Optionen > Einstellungen` die Option ``Bei Kürzel-Eingabe Groß- und Kleinschreibung beachten`` markiert haben, wird die Groß- bzw. Kleinschreibung beachtet.
+    Unter `Extras > Optionen > Ansicht` können einzelne Stammdatenbereiche ausgeblendet werden. Ungenutzte Stammdatenregister werden so nicht mehr angezeigt und die Ansicht ist übersichtlicher.
+
+![Ansicht](/assets/images/Optionen.Ansicht.Stammdaten.png)
+
+Da die Stammdaten-Ansichten aus Listen bestehen, sollten Sie den Abschnitt [Mit Listen arbeiten](/davinci-stundenplan/mit-listen-arbeiten.md) lesen, um sich mit den Ansichts- und Sortierungsoptionen vertraut zu machen.
+
+Um Stammdaten eintragen, bearbeiten oder löschen zu können, müssen Sie darauf achten, dass der Aufruf `Liste bearbeiten` aktiv ist.
+
+![Liste bearbeiten](/assets/images/stundenplan/bild001.png)
+
+Die Stammdatenregister bestehen aus verschiedenen Spalten. Neue Einträge in den Stammdaten benötigen wenigstens eine Eingabe im Feld "Kürzel". Jedes Kürzel ist eindeutig und kann nur einmal eingegeben werden. 
+
+!!! info "Hinweis"
+
+    Je nachdem, ob Sie unter `Extras > Optionen > Einstellungen` die Option `Bei Kürzel-Eingabe Groß- und Kleinschreibung beachten` markiert haben, wird die Groß- bzw. Kleinschreibung beachtet.
+
+# Stammdaten eingeben
+
+Geben Sie im Stammdaten-Fenster Jahrgänge, Lehrer, Räume, Fächer usw. ein. Gehen Sie zur Eingabe der Stammdaten möglichst in folgender Reihenfolge vor:
+
+1. Teams eingeben
+2. Gebäude eingeben
+3. Perioden eingeben
+4. Räume eingeben
+5. Aufsichtsbereiche eingeben
+6. Fächer eingeben
+7. Stundentafeln eingeben
+8. Lehrer eingeben
+9. Klassen eingeben
+
+## Teams
+
+![Teams](/assets/images/stundenplan/bild002.png)
+
+Wenn Sie in Ihrer Schule verschiedene organisatorische Gliederungen (Teams, Abteilungen bzw. Fachbereiche) haben, können Sie hier Kürzel und Bezeichnung des jeweiligen Teams bzw. des Fachbereiches eingeben. Für jedes Team können Sie in der Spalte "E-Mail" die Kontakt-Email des Teams eintragen. Über diese E-Mail können die Teams benachrichtigt werden.
+
+Spalte | Inhalt
+--------|-------------------------------------------
+Kürzel | Kürzel des Teams
+Bezeichnung | Bezeichnungstext
+E-Mail | E-Mail Adresse des Teams, falls dieses eine eigene Adresse hat
+ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+
+!!! info "Hinweis"
+
+    Wenn Sie im Dialogfenster `Extras > Optionen` unter `Plan > Einstellungen > Teamfilter` die Option `Fächer in Veranstaltungsliste und Stundentafeln nach Teamzugehörigkeit filtern` markiert haben, werden in Stundentafeln und der Veranstaltungsliste der Klassen nur die Fächer des Teams und die Fächer ohne Teamzugehörigkeit angezeigt. Voraussetzung dafür ist, dass Sie bei der Stundentafel bzw. Klassen in der Spalte "Team" eine Teamzughörigkeit festgelegt haben.
+
+## Gebäude
+
+![Stammdaten Gebäude](/assets/images/stundenplan/gebäude.png)
+
+In dieser Registerkarte können Sie die einzelnen Außenstellen oder unterschiedliche Gebäude Ihrer Schule eingeben, soweit der Unterricht nicht in nur einem Gebäude stattfindet. Zusätzlich zu Kürzel und Bezeichnung können Sie hier die einzelnen Wegzeiten vom Hauptgebäude zu dem jeweiligen Gebäude eintragen. Die DAVINCI Automatik achtet bei der Verplanung der Termine darauf, dass Pausen bzw. Freistunden für den Weg zwischen dem Hauptgebäude den Außenstelle vorgesehen werden.
+
+Im Stundenplan werden Terminkonflikte bei der Raumplanung, die durch nicht ausreichende Wegzeiten zwischen Haupt- und Nebengebäuden entstehen, mit einem Warnsymbol rechts unten im Termin markiert. 
+
+Spalte | Inhalt
+--------|-------------------------------------------
+Kürzel | Kürzel des Gebäudes
+ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+Bezeichnung | Bezeichnung des Gebäudes
+Wegzeit | Wegzeit in Minuten von einem Nebengebäude zum Hauptgebäude
+Campus | Gebäude können wiederum in ``Campus`` zusammengefasst werden. Dazu müssen Sie in der Ansicht ``Stammdaten > Campus`` diese eingeben.
+
+## Perioden
+
+![Stammdaten Perioden](/assets/images/Stammdaten.Perioden.png)
+
+Wenn Sie als Schule mit wochenbezogenen Veranstaltungen  unterrichtet, können Sie auf der Registerkarte „Perioden“ häufig benutzte, individuelle Wochenschemata für wiederkehrenden Unterricht angeben. 
+
+Eine Periode stellt eine Teilmenge aller Unterrichtswochen eines Planungszeitraums dar. Das Anlegen von Perioden ist immer dann sinnvoll, wenn Sie mit wiederkehrenden Unterricht planen möchten, der nicht in allen Unterrichtswochen in gleicher Weise stattfinden oder eine Klasse nur in bestimmten Wochen unterrichtet werden soll (z.B. Turnusunterricht, Blockklassen).
+
+Durch das Zuweisen einer Periode können Sie festlegen, dass ein wiederkehrender Termin nicht in allen, sondern nur in ausgewählten Unterrichtswochen stattfinden soll. So besteht z.B. die Möglichkeit anzugeben, dass ein bestimmter Unterricht nur im 1. Halbjahr oder in den ungeraden Kalenderwochen stattfindet. Daraus ergibt sich womöglich der Bedarf, dass anderer Unterricht komplementär dazu im 2. Halbjahr oder in den geraden Kalenderwochen verplant werden soll. Damit Sie diese und andere Wochenschemata für die Unterrichtsplanung einsetzen können, können Sie in den Stammdaten jeweils eine Periode mit den zugehörigen Kalenderwochen anlegen.
+
+Neben der Möglichkeit, Perioden einzelnen Veranstaltung oder Terminen zuzuweisen, können Sie eine Periode auch in den Stammdaten einer Klasse zuweisen (Spalte ``Periode``). Alle wiederkehrenden Unterrichtstermine dieser Klassen finden dann standardmäßig nur in den vorgegebenen Kalenderwochen der ausgewählten Periode statt.
+
+![Wochen bearbeiten](/assets/images/WochenBearbeiten.png)
+
+Die wesentliche Aufgabe beim Anlegen einer Periode besteht darin, zu definieren, welche Kalenderwochen diese Periode umfassen soll. Dazu dient das Dialogfenster "Wochen bearbeiten", das Sie über die Schaltfläche mit den drei Pünktchen im Spaltenfeld "Wochen" aufrufen können. Die Nummern bei "Unterrichtswochen" stehen für die Kalenderwochen einer Plandatei. Die eingeklammerten Nummern kennzeichnen die Kalenderwochen, die unter ``Plan > Eigenschaften > Statistik`` vom Unterricht ausgenommen wurden. Sie stehen nicht mehr als Unterrichtswochen zur Verfügung.
+
+Mit den Kontrollkästchen neben den nicht eingeklammerten Nummern legen Sie fest, welche Kalenderwochen die Periode beinhaltet. Setzen Sie den Haken im Kontrollkästchen um die nebenstehende Kalenderwoche hinzuzufügen. Entfernen Sie den Haken um die zugehörige Kalenderwoche wieder zu löschen.
+
+Mit den fünf Schaltflächen neben dem Bereich "Unterrichtswochen" können Sie die Auswahl der Kalenderwochen teilweise automatisieren. Klicken Sie auf die Schaltfläche ``Alle Wochen löschen``, um die Haken aus allen Kontrollkästchen zu entfernen. Klicken Sie auf die Schaltfläche `Alle Wochen markieren`, um Haken vor allen Kalenderwochen zu setzen. Mit der Schaltfläche `Jede 1. Woche markieren` erreichen Sie, dass jede erste Woche ausgehend von der ersten angezeigten Kalenderwoche markiert wird. Mit der Schaltfläche `Jede 2. Woche markieren` bewirken Sie, dass jede zweite Woche ausgehend von der zweiten angezeigten Kalenderwoche aktiviert wird. Die Schaltfläche `Wochen markieren` markiert alle Kalenderwochen entsprechend Ihrer Eingaben in den Feldern "Alle X Wochen" und "Jede X. Woche". Die Angabe im erstgenannten Feld legt fest, in welchem Wochenabstand die Markierung erfolgt. Mit der Eingabe im letztgenannten Feld definieren Sie ausgehend von welcher Kalenderwoche die Markierung vorgenommen wird. Auf diese Weise können Sie komplexere Wochenschemata automatisch eintragen lassen. Mithilfe dieser Funktion können Sie bestimmte häufig auftretende Wochenmuster sehr leicht zu erzeugen, z.B. eine Periode, die jede 4. Woche ausgehend von der ersten Kalenderwoche umfasst. Klicken Sie ``OK`` und die Nummern der ausgewählten Kalenderwochen werden nun im Feld "Wochen" der zugehörigen Periode eingetragen.
+
+Spalte | Inhalt
+--------|-------------------------------------------
+Kürzel | Kürzel der Periode
+Bezeichnung | Bezeichnungstext
+Faktor | Wert wird für die Umrechnung von Wochenstunden auf Wochenmittelwerte verwendet
+Wochen | Unterrichtswochenmuster
+Wochenanzahl   | Anzahl der Unterrichtswochen, errechnet sich automatisch aufgrund der Spalte "Wochen")
+Team   | ordnet die Periode einem Team zu
+ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
 ## Aufsichtsbereiche
 
@@ -56,22 +142,6 @@ Fachräume | Liste der Fachräume, siehe ``Stammdaten > Räume``
 Vertretung | Vertretungsoptionen ``Präsenz``, ``Keine Vertretung`` und ``keine Anrechenstunden``
 Schlüssel | Bundeslandspezifische Kennzeichnung des Fachs
 Details | Zusätzliche Optionen für den Magellan Abgleich ``nicht statistikrelevant`` und ``kein MAGELLAN-Abgleich``
-
-## Gebäude
-
-![Stammdaten Gebäude](/assets/images/Stammdaten Gebäude01.png)
-
-Auf der Liste „Gebäude“ können Sie unterschiedliche Standorte sowie die Wegzeiten zwischen dem Hauptgebäude und den anderen Standorten erfassen.
-
-In der Spalte ``Wegzeit`` können Sie die Wegzeit in Minuten von einem Nebengebäude zum Hauptgebäude eintragen. Das Hauptgebäude wird dabei durch keinen Eintrag (keine Wegzeit) definiert. Eine Erfassung der Wegzeiten zwischen den Nebengebäuden ist nicht möglich. In der Ansicht ``Räume`` können Sie jedem Raum eine Gebäude (Spalte ``Gebäude``) zuweisen. Im Stundenplan werden Terminkonflikte bei der Raumplanung, die durch nicht ausreichende Wegzeiten zwischen Haupt- und Nebengebäuden entstehen, mit einem Warnsymbol rechts unten im Termin markiert. Die DAVINCI Automatik achtet darauf, Wegzeiten zu vermeiden, indem möglichst wenig Wechsel zwischen den Gebäuden geplant werden oder in dem eine Pause oder Freistunde für die Wegzeit eingeplant wird.
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel des Gebäudes
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
-Bezeichnung | Bezeichnung des Gebäudes
-Wegzeit | Wegzeit in Minuten zum Hauptgebäude
-Campus | Gebäude können wiederum in ``Campus`` zusammengefasst werden. Dazu müssen Sie in der Ansicht ``Stammdaten > Campus`` diese eingeben.
 
 ## Klassen
 
@@ -195,35 +265,7 @@ Alle Lehrer die Sie nun im Stammdatenfenster hinzufügen (neu erfassen), erhalte
 
 ![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/DAV.Optionen.Einstellungen.png)
 
-## Perioden
 
-![Stammdaten Aufsichtsbereiche](/assets/images/Stammdaten.Perioden.png)
-
-In der Ansicht ``Stammdaten > Perioden`` können Sie individuelle Wochenschemata für wiederkehrenden Unterricht anlegen. Eine Periode stellt eine Teilmenge aller Unterrichtswochen eines Planungszeitraums dar. Das Anlegen von Perioden ist immer dann sinnvoll, wenn Sie mit wiederkehrenden Unterricht planen möchten, der nicht in allen Unterrichtswochen in gleicher Weise stattfinden oder eine Klasse nur in bestimmten Wochen unterrichtet werden soll (z.B. Turnusunterricht).
-
-Beim Anlegen einer neuen Veranstaltung in der Ansicht Stundenplan haben Sie grundsätzlich die Wahl, ob eine Veranstaltung nur "einmalig" in einer bestimmten Kalenderwoche oder "periodisch" in bestimmten Unterrichtswochen eingefügt wird (siehe ``Stundenplan > Veranstaltungen > Veranstaltung/Termin bearbeiten`` Eingabefeld ``Wiederholung``).
-
-Durch das Zuweisen einer Periode können Sie festlegen, dass ein wiederkehrender Termin nicht in allen, sondern nur in ausgewählten Unterrichtswochen stattfinden soll. So besteht z.B. die Möglichkeit anzugeben, dass ein bestimmter Unterricht nur im 1. Halbjahr oder in den ungeraden Kalenderwochen stattfindet. Daraus ergibt sich womöglich der Bedarf, dass anderer Unterricht komplementär dazu im 2. Halbjahr oder in den geraden Kalenderwochen verplant werden soll. Damit Sie diese und andere Wochenschemata für die Unterrichtsplanung einsetzen können, können Sie in den Stammdaten jeweils eine Periode mit den zugehörigen Kalenderwochen anlegen.
-
-Neben der Möglichkeit, Perioden einzelnen Veranstaltung oder Terminen zuzuweisen, können Sie eine Periode auch in den Stammdaten einer Klasse zuweisen (Spalte ``Periode``). Alle wiederkehrenden Unterrichtstermine dieser Klassen finden dann standardmäßig nur in den vorgegebenen Kalenderwochen der ausgewählten Periode statt.
-
-![Wochen bearbeiten](/assets/images/WochenBearbeiten.png)
-
-Die wesentliche Aufgabe beim Anlegen einer Periode besteht darin, zu definieren, welche Kalenderwochen diese Periode umfassen soll. Dazu dient das Dialogfenster "Wochen bearbeiten", das Sie über die Schaltfläche mit den drei Pünktchen im Spaltenfeld "Wochen" aufrufen können. Die Nummern bei "Unterrichtswochen" stehen für die Kalenderwochen einer Plandatei. Die eingeklammerten Nummern kennzeichnen die Kalenderwochen, die unter ``Plan > Eigenschaften > Statistik`` vom Unterricht ausgenommen wurden. Sie stehen nicht mehr als Unterrichtswochen zur Verfügung.
-
-Mit den Kontrollkästchen neben den nicht eingeklammerten Nummern legen Sie fest, welche Kalenderwochen die Periode beinhaltet. Setzen Sie den Haken im Kontrollkästchen um die nebenstehende Kalenderwoche hinzuzufügen. Entfernen Sie den Haken um die zugehörige Kalenderwoche wieder zu löschen.
-
-Mit den fünf Schaltflächen neben dem Bereich "Unterrichtswochen" können Sie die Auswahl der Kalenderwochen teilweise automatisieren. Klicken Sie auf die Schaltfläche ``Alle Wochen löschen``, um die Haken aus allen Kontrollkästchen zu entfernen. Klicken Sie auf die Schaltfläche `Alle Wochen markieren`, um Haken vor allen Kalenderwochen zu setzen. Mit der Schaltfläche `Jede 1. Woche markieren` erreichen Sie, dass jede erste Woche ausgehend von der ersten angezeigten Kalenderwoche markiert wird. Mit der Schaltfläche `Jede 2. Woche markieren` bewirken Sie, dass jede zweite Woche ausgehend von der zweiten angezeigten Kalenderwoche aktiviert wird. Die Schaltfläche `Wochen markieren` markiert alle Kalenderwochen entsprechend Ihrer Eingaben in den Feldern "Alle X Wochen" und "Jede X. Woche". Die Angabe im erstgenannten Feld legt fest, in welchem Wochenabstand die Markierung erfolgt. Mit der Eingabe im letztgenannten Feld definieren Sie ausgehend von welcher Kalenderwoche die Markierung vorgenommen wird. Auf diese Weise können Sie komplexere Wochenschemata automatisch eintragen lassen. Mithilfe dieser Funktion können Sie bestimmte häufig auftretende Wochenmuster sehr leicht zu erzeugen, z.B. eine Periode, die jede 4. Woche ausgehend von der ersten Kalenderwoche umfasst. Klicken Sie ``OK`` und die Nummern der ausgewählten Kalenderwochen werden nun im Feld "Wochen" der zugehörigen Periode eingetragen.
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel des Teams
-Bezeichnung | Bezeichnungstext
-Faktor | Wert wird für die Umrechnung von Wochenstunden auf Wochenmittelwerte verwendet
-Wochen | Unterrichtswochenmuster
-Wochenanzahl   | Anzahl der Unterrichtswochen, errechnet sich automatisch aufgrund der Spalte "Wochen")
-Team   | ordnet die Periode einem Team zu
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
 ## Räume
 
@@ -356,23 +398,6 @@ Unterrichtsart| Unterrichtsart gemäß ``Extras > Schlüsselverzeichnis > Unterr
 Wertfaktor| Wertfaktor für die Statistik mit Wertfaktoren, standardmäßig ausgeblendet
 Wiederholung | Periodisch/Einmalig
 
-## Teams
-
-![Teams](/assets/images/teams.png)
-
-In der Ansicht ``Stammdaten > Teams`` können Sie die Teams erfassen. In der Liste „Teams“ können Sie verschiedene organisatorische Gliederungen an Ihrer Schule oder Hochschule erfassen. Dies können z.B. Abteilungen berufsbildender Schulen, verschiedene Schulformen an einer integrierten Gesamtschule oder verschiedene Fachbereiche an einer Hochschule sein. 
-Für jedes Team können Sie in der Spalte "E-Mail" die Kontakt-Email des Teams eintragen. Über diese E-Mail können die Teams benachrichtigt werden.
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel des Teams
-Bezeichnung | Bezeichnungstext
-E-Mail | E-Mail Adresse des Teams, falls dieses eine eigene Adresse hat
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
-
-!!! info "Hinweis"
-
-    Wenn Sie im Dialogfenster ``Extras > Optionen`` unter ``Plan > Einstellungen > Teamfilter`` die Option ``Fächer in Veranstaltungsliste und Stundentafeln nach Teamzugehörigkeit filtern`` markiert haben, werden in Stundentafeln und der Veranstaltungsliste der Klassen nur die Fächer des Teams und die Fächer ohne Teamzugehörigkeit angezeigt. Voraussetzung dafür ist, dass Sie bei der Stundentafel bzw. Klassen in der Spalte "Team" eine Teamzughörigkeit festgelegt haben.
 
 ## Zeiträume
 
