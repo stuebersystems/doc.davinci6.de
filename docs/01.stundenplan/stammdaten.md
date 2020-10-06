@@ -77,26 +77,12 @@ Campus | Gebäude können wiederum in ``Campus`` zusammengefasst werden. Dazu m�
 
 ## Perioden
 
-![Stammdaten Perioden](/assets/images/Stammdaten.Perioden.png)
+![Stammdaten Perioden](/assets/images/stundenplan/perioden.png)
 
-Wenn Sie als Schule mit wochenbezogenen Veranstaltungen  unterrichtet, können Sie auf der Registerkarte „Perioden“ häufig benutzte, individuelle Wochenschemata für wiederkehrenden Unterricht angeben. 
-
-Eine Periode stellt eine Teilmenge aller Unterrichtswochen eines Planungszeitraums dar. Das Anlegen von Perioden ist immer dann sinnvoll, wenn Sie mit wiederkehrenden Unterricht planen möchten, der nicht in allen Unterrichtswochen in gleicher Weise stattfinden oder eine Klasse nur in bestimmten Wochen unterrichtet werden soll (z.B. Turnusunterricht, Blockklassen).
-
-Durch das Zuweisen einer Periode können Sie festlegen, dass ein wiederkehrender Termin nicht in allen, sondern nur in ausgewählten Unterrichtswochen stattfinden soll. So besteht z.B. die Möglichkeit anzugeben, dass ein bestimmter Unterricht nur im 1. Halbjahr oder in den ungeraden Kalenderwochen stattfindet. Daraus ergibt sich womöglich der Bedarf, dass anderer Unterricht komplementär dazu im 2. Halbjahr oder in den geraden Kalenderwochen verplant werden soll. Damit Sie diese und andere Wochenschemata für die Unterrichtsplanung einsetzen können, können Sie in den Stammdaten jeweils eine Periode mit den zugehörigen Kalenderwochen anlegen.
-
-Neben der Möglichkeit, Perioden einzelnen Veranstaltung oder Terminen zuzuweisen, können Sie eine Periode auch in den Stammdaten einer Klasse zuweisen (Spalte ``Periode``). Alle wiederkehrenden Unterrichtstermine dieser Klassen finden dann standardmäßig nur in den vorgegebenen Kalenderwochen der ausgewählten Periode statt.
-
-![Wochen bearbeiten](/assets/images/WochenBearbeiten.png)
-
-Die wesentliche Aufgabe beim Anlegen einer Periode besteht darin, zu definieren, welche Kalenderwochen diese Periode umfassen soll. Dazu dient das Dialogfenster "Wochen bearbeiten", das Sie über die Schaltfläche mit den drei Pünktchen im Spaltenfeld "Wochen" aufrufen können. Die Nummern bei "Unterrichtswochen" stehen für die Kalenderwochen einer Plandatei. Die eingeklammerten Nummern kennzeichnen die Kalenderwochen, die unter ``Plan > Eigenschaften > Statistik`` vom Unterricht ausgenommen wurden. Sie stehen nicht mehr als Unterrichtswochen zur Verfügung.
-
-Mit den Kontrollkästchen neben den nicht eingeklammerten Nummern legen Sie fest, welche Kalenderwochen die Periode beinhaltet. Setzen Sie den Haken im Kontrollkästchen um die nebenstehende Kalenderwoche hinzuzufügen. Entfernen Sie den Haken um die zugehörige Kalenderwoche wieder zu löschen.
-
-Mit den fünf Schaltflächen neben dem Bereich "Unterrichtswochen" können Sie die Auswahl der Kalenderwochen teilweise automatisieren. Klicken Sie auf die Schaltfläche ``Alle Wochen löschen``, um die Haken aus allen Kontrollkästchen zu entfernen. Klicken Sie auf die Schaltfläche `Alle Wochen markieren`, um Haken vor allen Kalenderwochen zu setzen. Mit der Schaltfläche `Jede 1. Woche markieren` erreichen Sie, dass jede erste Woche ausgehend von der ersten angezeigten Kalenderwoche markiert wird. Mit der Schaltfläche `Jede 2. Woche markieren` bewirken Sie, dass jede zweite Woche ausgehend von der zweiten angezeigten Kalenderwoche aktiviert wird. Die Schaltfläche `Wochen markieren` markiert alle Kalenderwochen entsprechend Ihrer Eingaben in den Feldern "Alle X Wochen" und "Jede X. Woche". Die Angabe im erstgenannten Feld legt fest, in welchem Wochenabstand die Markierung erfolgt. Mit der Eingabe im letztgenannten Feld definieren Sie ausgehend von welcher Kalenderwoche die Markierung vorgenommen wird. Auf diese Weise können Sie komplexere Wochenschemata automatisch eintragen lassen. Mithilfe dieser Funktion können Sie bestimmte häufig auftretende Wochenmuster sehr leicht zu erzeugen, z.B. eine Periode, die jede 4. Woche ausgehend von der ersten Kalenderwoche umfasst. Klicken Sie ``OK`` und die Nummern der ausgewählten Kalenderwochen werden nun im Feld "Wochen" der zugehörigen Periode eingetragen.
+Wenn Sie als Schule mit wochenbezogenen Veranstaltungen  unterrichten, können Sie auf der Registerkarte „Perioden“ häufig benutzte, individuelle Wochenschemata für wiederkehrenden Unterricht anlegen.
 
 Spalte | Inhalt
---------|-------------------------------------------
+--|--
 Kürzel | Kürzel der Periode
 Bezeichnung | Bezeichnungstext
 Faktor | Wert wird für die Umrechnung von Wochenstunden auf Wochenmittelwerte verwendet
@@ -105,47 +91,258 @@ Wochenanzahl   | Anzahl der Unterrichtswochen, errechnet sich automatisch aufgru
 Team   | ordnet die Periode einem Team zu
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-## Aufsichtsbereiche
+Eine Periode stellt eine Teilmenge aller Unterrichtswochen eines Planungszeitraums dar. Das Anlegen von Perioden ist immer dann sinnvoll, wenn Sie mit wiederkehrenden Unterricht planen möchten, der nicht in allen Unterrichtswochen in gleicher Weise stattfindet oder eine Klasse nur in bestimmten Wochen unterrichtet werden soll (z.B. Turnusunterricht, Blockklassen).
 
-![Aufsichtsbereiche](/assets/images/Stammdaten.Aufischtsbereiche.png)
+Durch das Zuweisen einer Periode können Sie festlegen, dass ein wiederkehrender Termin nicht in allen, sondern nur in ausgewählten Unterrichtswochen stattfinden soll. So besteht z.B. die Möglichkeit anzugeben, dass ein bestimmter Unterricht nur im 1. Halbjahr oder in den ungeraden Kalenderwochen stattfindet. Daraus ergibt sich womöglich der Bedarf, dass anderer Unterricht komplementär dazu im 2. Halbjahr oder in den geraden Kalenderwochen verplant werden soll. Damit Sie diese und andere Wochenschemata für die Unterrichtsplanung einsetzen können, können Sie in den Stammdaten jeweils eine Periode mit den zugehörigen Kalenderwochen anlegen.
 
-In der Ansicht ``Stammdaten > Aufsichtsbereiche`` können Sie die Bereiche des Schulgeländes eintragen, in denen zu bestimmten Zeiten Lehrer zur Aufsicht anwesend sein müssen. Dazu erstellen Sie unter ``Stundenplan > Aufsichtsplan`` für jeden Bereich einen Aufsichtsplan.
+Neben der Möglichkeit, Perioden einzelnen Veranstaltung oder Terminen zuzuweisen, können Sie eine Periode auch in den Stammdaten einer Klasse zuweisen. Die Zuweisung erfolgt in der Spalte "Periode". Alle wiederkehrenden Unterrichtstermine dieser Klassen finden dann standardmäßig nur in den vorgegebenen Kalenderwochen der ausgewählten Periode statt.
+
+Die wesentliche Aufgabe beim Anlegen einer Periode besteht darin, zu definieren, welche Kalenderwochen diese Periode umfassen soll. Dazu dient das Dialogfenster "Wochen bearbeiten", das Sie über die Schaltfläche mit den drei Pünktchen im Spaltenfeld "Wochen" aufrufen können. Die Nummern bei "Unterrichtswochen" stehen für die Kalenderwochen einer Plandatei. 
+
+![Wochen bearbeiten](/assets/images/stundenplan/perioden.wochen.bearbeiten.png)
+
+Die eingeklammerten Nummern kennzeichnen die Kalenderwochen, die unter `Plan > Eigenschaften > Statistik` vom Unterricht ausgenommen wurden. Sie stehen nicht mehr als Unterrichtswochen zur Verfügung.
+
+Mit den Kontrollkästchen neben den nicht eingeklammerten Nummern legen Sie fest, welche Kalenderwochen die Periode beinhaltet. Setzen Sie den Haken im Kontrollkästchen um die nebenstehende Kalenderwoche hinzuzufügen. Entfernen Sie den Haken um die zugehörige Kalenderwoche wieder zu löschen.
+
+Mit den fünf Schaltflächen neben dem Bereich "Unterrichtswochen" können Sie die Auswahl der Kalenderwochen teilweise automatisieren. 
+
+Schaltfläche | Wofür?
+--|--
+`Alle Wochen löschen` | Klicken Sie auf diese Schaltfläche, um die Haken aus allen Kontrollkästchen zu entfernen. `Alle Wochen markieren` | Klicken Sie auf diese Schaltfläche, um Haken vor allen Kalenderwochen zu setzen.
+`Jede 1. Woche markieren` | Mit dieser Schaltfläche erreichen Sie, dass jede erste Woche ausgehend von der ersten angezeigten Kalenderwoche markiert wird.
+`Jede 2. Woche markieren` | Mit dieser Schaltfläche bewirken Sie, dass jede zweite Woche ausgehend von der zweiten angezeigten Kalenderwoche aktiviert wird.  
+`Wochen markieren` | Diese Schaltfläche markiert alle Kalenderwochen entsprechend Ihrer Eingaben in den Feldern `Alle X Wochen` und `Jede X. Woche`. Die Angabe im erstgenannten Feld legt fest, in welchem Wochenabstand die Markierung erfolgt. Mit der Eingabe im letztgenannten Feld definieren Sie ausgehend von welcher Kalenderwoche die Markierung vorgenommen wird. Auf diese Weise können Sie komplexere Wochenschemata automatisch eintragen lassen. Mithilfe dieser Funktion können Sie bestimmte häufig auftretende Wochenmuster sehr leicht zu erzeugen, z.B. eine Periode, die jede 4. Woche ausgehend von der ersten Kalenderwoche umfasst. Klicken Sie `OK` und die Nummern der ausgewählten Kalenderwochen werden nun im Feld "Wochen" der zugehörigen Periode eingetragen.
+
+## Räume
+
+![Stammdaten Räume](/assets/images/stundenplan/stammdaten.Räume.png)
+
+Geben Sie in der Registerkarte „Räume“ die Räume ein. Sie haben des Weiteren die Möglichkeit, diese Räume genauer zu spezifizieren, d.h. sie unter „Raumart“ z.B. als Fachräume zu bezeichnen und später auf der Registerkarte „Fächer“ den einzelnen Fächern zuzuordnen. Die Raumarten können unter `Extras > Schlüsselverzeichnisse > Raumarten` frei editiert werden. Außerdem können Sie die Zuständigkeit der Abteilungen genau bezeichnen, bei Außenstellen das jeweilige Gebäude angeben und die Kapazität des einzelnen Raumes eintragen. Unter „Betreuer“ kann ein Raumbetreuer eingegeben werden. Dieser erscheint in DAVINCI Look und kann im Raumplan mit ausgedruckt werden.
 
 Spalte | Inhalt
---------|-------------------------------------------
+--|--
+Kürzel | Kürzel des Raumes
+Bezeichnung | Bezeichnungsfeld
+Farbe | Kann im Stundenplan eingeblendet werden, siehe `Plan > Eigenschaften > Stundenplan > Planeinträge`
+Bemerkung | Bemerkung
+Kapazität | Maximale Plätze in diesem Raum
+Raumart | siehe `Extras > Schlüsselverzeichnisse > Raumarten`
+Teams | Teams/Abteilungen, siehe `Stammdaten > Teams`
+Gebäude | Verknüpft mit dem  `Stammdaten > Gebäude`
+Alternativ | Alternativer Raum wenn dieser besetzt ist 
+Austattung | Ausstattungsliste des Raums
+Benutzer | Benutzername
+Eingeschränkt | 0=keine Einschränkung..4=möglichst nicht verwenden
+Lehrer | siehe ``Stammdaten > Lehrer``
+Details | weitere Optionen ``Nicht verfügbar`` und ``Zwingend dieser oder Alternativraum``
+Barcode | zur Kennzeichnung des Raums
+Zeitrahmen | siehe `Extras > Zeitrahmen` erstellten Zeitrahmen zuweisen
+Externe ID | ID für ein Fremdprogramm
+DAVINCI-ID   | eindeutige DAVINCI-ID, wird automatisch erzeugt
+
+## Aufsichtsbereiche
+
+![Aufsichtsbereiche](/assets/images/stundenplan/stammdaten.aufsichtsbereiche.png)
+
+Aufsichtsbereiche definieren Sie mit einem Kürzel, z.B. Hof 1, Hof 2, Flur 1, Flur 2, usw. Im Dialogfenster „Räume“ können Sie dann diejenigen Räume auswählen, die in oder an dem definierten Aufsichtsbereich liegen. So können Sie bei der Aufsichtsplanerstellung berücksichtigen, welcher Lehrer vor der Pause in welchem Raum ist, d.h. die Aufsichten so besetzen, dass Wegzeiten möglichst gering gehalten werden.
+
+Die Aufsichtsbereichsplanung selbst erfolgt für jeden Bereich unter `Stundenplan > Aufsichtsplan`.
+
+Spalte | Inhalt
+--|--
 Kürzel | Kürzel des Aufsichtsbereichs
 Bezeichnung |  Bezeichnungstext
-Zeitrahmen |  Zeitrahmen für die Aufsichten, siehe ``Extras > Zeitrahmen``
-Räume |  die an den Aufsichtsbereich angrenzenden Räume, siehe  ``Stammdaten > Räume``
+Zeitrahmen |  Zeitrahmen für die Aufsichten, siehe `Extras > Zeitrahmen`
+Räume |  die an den Aufsichtsbereich angrenzenden Räume, Stammdatenregister "Räume"
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
 ## Fächer
 
-![Stammdaten Fächer](/assets/images/StammdatenFächer.png)
+![Stammdaten Fächer](/assets/images/stundenplan/Stammdaten.Fächer.png)
 
-In der Ansicht  ``Stammdaten > Fächer`` erfassen Sie die Fächer, die an Ihrer Schule unterrichtet werden. Die eingegebenen Fächer können Sie in der Ansicht ``Stammdaten > Lehrer`` und ``Stammdaten > Stundentafeln`` zuordnen. 
-Für jeden Eintrag kann dann ein Plan angezeigt werden. Den Plan eines bestimmten Fachs können Sie aufrufen, indem Sie auf die betreffende Zeile und dann  ``Start > Gehe zu Stundenplan`` oder ``Rechte Maustaste > Gehe zu Stundenplan`` klicken oder die ``F9`` Taste benutzen.
+Die Fächer müssen mit Kürzel und optional mit Langnamen eingegeben werden. Bei der Oberstufenstundenplanung können Sie den Fachstatus, z.B. Grund- oder Leistungskurs, bestimmen. Unter „Schlüssel“ können Sie jedem Fach einen Statistikschlüssel zuweisen. Für die Jahresstatistik wird dann dieser Statistikschlüssel anstelle des Kürzels verwendet.
+
 
 Spalte | Inhalt
---------|-------------------------------------------
+--|--
 Kuerzel | Fachkürzel
 Bezeichnung |  Freies Bezeichnungsfeld
-Kategorie | Kategorie (weitere Informationen im Abschnitt Kursplanung)
-Aufgabenbereich | Aufgabenbereich laut Oberstufenverordnung
-Farbe | Kann im Stundenplan eingeblendet werden, siehe "Plan > Eigenschaften> Stundenplan` > Planeinträge"
+Kategorie | In der Spalte "Kategorie" (weitere Informationen im Abschnitt Kursplanung) machen Sie Angaben, die von der Fachwahlüberprüfung benutzt werden
+Aufgabenbereich | In der Spalte "Aufgabenbereich" machen Sie Angaben, die von der Fachwahlüberprüfung benutzt werden
+Farbe | Kann im Stundenplan eingeblendet werden, siehe `Plan > Eigenschaften> Stundenplan > Planeinträge`
 Hintergrund | Macht die gewählte Farbe im Stundenplan als Hintergrundfarbe sichtbar
 Bemerkung | Bemerkungstext
 Fachstatus | siehe ``Extras > Schlüsselverzeichnisse > Fachstatus``
 Team | Teamzughörigkeit des Fachs, siehe ``Stammdaten > Teams``
 Zeitkonto | Konto auf das Stunden des Fachs verbucht werden, siehe ``Extras > Schlüsselverzeichniss > Lehrer Soll-Schlüssel``
-Fachräume | Liste der Fachräume, siehe ``Stammdaten > Räume``
+Fachräume | Fächern, die in Fachräumen unterrichtet werden, kann ein bestimmter Raum oder eine Auswahl an Räumen zugeordnet werden. Diese Räume werden beim Kopieren der Stundentafel automatisch in die Raumvorgabeliste des jeweiligen Fachs übernommen.
 Vertretung | Vertretungsoptionen ``Präsenz``, ``Keine Vertretung`` und ``keine Anrechenstunden``
 Schlüssel | Bundeslandspezifische Kennzeichnung des Fachs
-Details | Zusätzliche Optionen für den Magellan Abgleich ``nicht statistikrelevant`` und ``kein MAGELLAN-Abgleich``
+Details | Zusätzliche Optionen für den MAGELLAN Abgleich `nicht statistikrelevant` und `kein MAGELLAN-Abgleich`
+
+
+!!! info "Hinweis"
+
+    Mit `Bearbeiten > Inhalte kopieren` und `Bearbeiten > Inhalte einfügen` können Sie die Fachräume eines Fachs auf andere Fächer kopieren.
+
+!!! warning "Wichtig"
+
+    Im Gegensatz zu anderen Stundenplanprogrammen brauchen Sie für die Kurse D1, D2, d1, d2 usw. lediglich das Fach „D“ einzugeben, d.h. die Kurse selbst brauchen nicht in den Stammdaten definiert zu werden. Sie können in der Veranstaltungsliste in der Spalte Fach dann die o.g. Kursbezeichnungen eingeben.
+
+!!! info "Hinweis"
+
+    In der Spalte „F“ können Sie eine Farbe angeben, in der ein Termin dieses Faches im Planungsfenster dargestellt werden soll. Wenn Sie das Kästchen in der Spalte „H“ anklicken, wird der Hintergrund des Fachtermins farbig dargestellt. Auf diese Weise können Sie mit zwei verschiedenen Arten der farbigen Darstellung arbeiten. Welche Art der farbigen Darstellung für die Eintragung in Spalte „F“ gewählt wird, hängt davon ab, was Sie unter `Extras > Optionen > Termineinträge > Farbe anzeigen als` eingetragen haben. Damit überhaupt eine Fachfarbe angezeigt wird, müssen Sie jedoch zunächst hier die entsprechende Auswahl bei `Farbe für Termine im Plan“` treffen.
+
+## Stundentafeln
+
+![Stammdaten Stundentafeln](/assets/images/StammdatenStundentafel.png)
+
+In der Registerkarte "Stundentafeln" legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, d.h. die Fächer mit den dazugehörigen Sollstundenzahlen, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln. Sie bilden die Vorlage für die Veranstaltungslisten der Klassen. In der Spalte "Stundentafel" der Registerkarte "Klassen" können Sie jeder Klasse eine Stundentafel zuweisen.
+
+### So können Sie die Fächer einer Stundentafel übernehmen
+
+Klicken Sie auf eine Stundentafel. Klicken Sie auf `Bearbeiten > Inhalte kopieren`. Klicken Sie dann auf die Stundentafel, in die Sie die Fächer übertragen möchten. Klicken Sie dort auf ` Bearbeiten > Inhalte einfügen`. Die Fächer werden in die Stundentafel übertragen.
+
+Spalte | Inhalt
+--------|-------------------------------------------
+Kürzel | Kürzel der Stundentafel
+Bezeichnung | Freies Textfeld
+Fächer | Bearbeiten Sie die Fächer in dem Sie auf die ``…`` Schaltfläche klicken
+Stufe | Jahrgangsstufe
+Bildungsgang | Verknüpft mit dem `Schlüsselverzeichnis > Bildungsgänge`
+Profil | Freies Feld (schulspezifisch)
+Team | Teams zu denen die Stundentafel gehört
+Externe ID | ID für Fremdprogramme
+ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+
+Klicken Sie auf die Schaltfläche ``…`` in der Spalte „Fächer“. Es öffnet sich das Dialogfenster „Stundentafel“.
+![Stammdaten Stundentafeln](/assets/images/stundenplan/stammdaten.stundentafel.öffnen.png)
+
+Klicken Sie auf `Neues Fach`, um ein neues Fach hinzuzufügen. Tragen Sie unter „Soll“ die vorgeschriebene Sollstundenzahl ein. Zudem können Sie eine Unterrichtsart, -kategorie, -form und einen Lehrbereich je Fach zuweisen.  Die Spalte Wertfaktor wird z.B. für die Umsetzung des Hamburger Lehrerarbeitszeitmodells benötigt. Der Wertfaktor wird bei der Berechnung der Lehrerstunden wie folgt berücksichtigt: Summe = Dauer/W x Lehrerfaktor x Wertfaktor Damit der Wertfaktor auch bei den entsprechenden Summenbildungen berücksichtigt wird, müssen Sie unter `Extras > Zeitrahmen` auf der Registerkarte „Statistik“ die Option `Lehrer - Ist mit Wertfaktoren aus Stundentafel` anklicken. In der Spalte „Bemerkung“ können Sie eine beliebige Bemerkung erfassen. Klicken Sie wieder auf oder die `Pfeil-Ab-Taste`, um in der nächsten Zeile ein neues Fach einzugeben. Verfahren Sie so mit allen Fächern der Stundentafel.
+
+Spalte| Inhalt
+--|--
+Angleichung| Angleichung der Stundenzahl an dieser Schule. Der Eintrag in der Spalte "Soll (W)" der Veranstaltungsliste ist die Summe aus den Werten "Soll" und "Angleichung" der Stundentafel
+Bemerkung |Freitext für Bemerkung
+Differenz | 
+Doppelstd |Anzahl der Doppelstunden für die Automatik, z.B. ``1-2`` gibt der Automatik mindestens eine und höchstens zwei Doppelstunden vor
+Fach| Kürzel des Fachs
+Fachstatus| Fachstatus z.B. "1. Prüfungsfach" (nur für Oberstufe) gemäß `Extras > Schlüsselverzeichnis > Fachstatus`, standardmäßig ausgeblendet
+Gruppe | Gruppe
+Kategorie | Veranstaltungskategorie, siehe `Plan < Schlüsselverzeichnis > Veranstaltungskategorien`. Eine Besonderheit ist, dass diese Eigenschaft auf die Klassen mit dieser Stundetafel übernommen wird, d.h. Sie können hier zentral die Eigenschaft für alle Klassen mit dieser Stundentafel einstellen.
+Lehrbereich| Lehrbereich gemäß `Extras > Schlüsselverzeichnis > Lehrbereiche`', standardmäßig ausgeblendet
+Pflichtkurse| Anzahl der Pflichtkurse (nur für Oberstufe)
+Schlüssel | Fachschlüssel siehe `Stammdaten > Fächer > Schlüssel`
+Soll| Stundenanzahl, mit der dieses Fach unterrichtet werden soll
+Soll 1|
+Soll 2|
+Soll 3|
+Soll 4|
+Sollkonto | Stundenanzahl, mit der dieses Fach unterrichtet werden soll über eine Zeitspanne die über eine Planungsdatei hinausgeht (BFW)
+Stufensumme |
+Termine| Termine, z.B. ``2-2-1`` für zwei Doppelstunden und eine Einzelstunde, entspricht der Angabe "Termine" in der Veranstaltungsliste
+Unterrichtsform| Unterrichtsform gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsformen``, standardmäßig ausgeblendet
+Unterrichtsart| Unterrichtsart gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsarten`', z.B. für die Unterscheidung Leistungs- und Grundkurse in der Oberstufe
+Wertfaktor| Wertfaktor für die Statistik mit Wertfaktoren, standardmäßig ausgeblendet
+Wiederholung | Periodisch/Einmalig
+
+
+!!! info "Hinweis"
+
+    Einige Spalten sind standardmäßig ausgeblendet. Wenn Sie auf `Spalten ein-/ausblenden` klicken, werden Ihnen die nicht sichtbaren Spalten angeboten. Mit der Maus können Sie sie anklicken und auf die Spaltenposition in der Liste ziehen, um sie dauerhaft einzublenden. Alternativ können Sie dazu auch das Sternchen-Symbol links oben in der Stundentafel tabell nutzen.
+
+## Lehrer
+
+![Stammdaten Lehrer](/assets/images/stundenplan/stammdaten.lehrer.png)
+
+In der Registerkarte "Lehrer" erfassen Sie die Lehrkräfte, die an Ihrer Schule unterrichten.
+
+!!! info "Hinweis"
+
+    Den Lehrerplan können Sie direkt aus der Liste "Lehrer" heraus aufrufen. Klicken Sie dazu einen Lehrer an und wählen `Start > Gehe zu Stundenplan`, `Rechtsklick > Gehe zu Stundenplan` oder benutzen Sie die Funktionstaste `F9`.
+
+!!! info "Hinweis"
+
+    Über `Stammdaten > Bearbeiten > Lehrer-Zeitkonto bearbeiten` öffnen Sie das Zeitkonto-Fenster für den aktuellen Listeneintrag. Dort können Sie die Ermäßigungs- und Mehrarbeitsstunden eingeben.
+
+Spalte | Inhalt
+--|--
+Kürzel | Lehrer werden mit Ihrem Kürzel eingegeben
+Titel | Titel des Lehrers
+Nachname | Nachname des Lehrers
+Mittelname | Zweitname
+Vorname | Vorname des Lehrers
+Farbe | Kann im Stundenplan eingeblendet werden, siehe "Plan > Einstellungen > Stundenplan` > Planeinträge"
+Symbol | Hier können Sie den Lehrern von STÜBER SYSTEMS mitgelieferte Symbole zuweisen. Um ein Bild/Symbol zu laden, gehen Sie über die  `Rechte-Maustaste > Laden`. Die Symbole können im Plan angezeigt werden. Damit diese sichtbar sind, müssen Sie unter `Plan > Einstellungen > Stundenplan > Planeinträge > Lehrersymbole anzeigen` aktiviert haben. 
+Geschlecht | Geschlecht des Lehrers
+Geb. Datum | Geburtsdatum
+Fächer | Um die Fächer einzutragen, die der Lehrer unterrichtet, klicken Sie auf die Spalte „Fächer“ in der Zeile des entsprechenden Lehrers. Im Dialogfenster „Fächer“ wählen Sie aus den verfügbaren Fächern diejenigen aus, die der entsprechende Lehrer unterrichtet und übertragen sie entweder per Drag&Drop oder indem Sie sie markieren und dann auf `Hinzufügen` klicken in das Feld „gewählte Fächer“. Diese erscheinen dann auf der Registerkarte in der Spalte „Fächer“.
+Teams | Sollten Ihre Lehrer Teams bzw. Fachbereichen angehören, so können Sie diese im Dialogfenster „Teams“ auswählen und zuordnen, indem Sie auf Teams klicken, das entsprechende Team im Feld „Verfügbare Teams“ markieren und dann auf `Hinzufügen` klicken. Sie können auch per `Drag&Drop` die Teams aus `Verfügbare Teams` in „Gewählte Teams“ ziehen. Die ausgewählten Teams erscheinen auf der Registerkarte unter Teams.
+E-Mail | E-Mail des Lehrers
+Mobil | Handynummer des Lehrers
+Schule | Schulnummer oder Mandantennummer aus MAGELLAN
+Bemerkung | Freies Bemerkungsfeld
+Details | Zusätzliche Optionen für den MAGELLAN Abgleich ("nicht statistikrelevant" und "kein MAGELLAN Abgleich") und die Option "inaktiv"
+Zeitrahmen | siehe "Extras > Zeitrahmen" erstellten Zeitrahmen zuweisen
+Benutzername | Benutzername für den Serverbetrieb, kennzeichnet den Plan des Benutzers/Lehrers
+Personalnr. | Personalnummer
+Stundensatz | Stundensatz, z.B. 50 für 50EUR, kann in Zeitkonto mit "Normierter Stunde" multipliziert werden (siehe `Plan > Eigenschaften > Statistik`)
+Eintritt / Austritt | Eintritts- und Austrittsdatum
+Externe ID | ID für ein Fremdprogramm
+ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+
+### Lehrer-Zeitkonten
+
+Über das Stammdatenfenster "Lehrer" führen Sie das Lehrerarbeitszeitkonto Ihrer Lehrer. Um das Lehrer-Zeitkonto für einen Kollegen zu öffnen, klicken Sie in die entsprechende Zeile des Lehrer über `rechte Maustaste > Zeitkonto bearbeiten` oder `Strg+X`. Das Zeitkonto des Lehrers wird geöffnet und kann nun bearbeitet werden. 
+
+![Zeitkonto bearbeiten](/assets/images/ZeitkontoBearbeiten.png)
+
+Im Lehrer-Zeitkonto Fenster erfassen Sie für einen Lehrer dessen Ermäßigungs- und Mehrarbeitsstunden. Die Ermäßigungs- und Mehrarbeitsgründe können Sie im Schlüsselverzeichnis `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel eingeben`.
+
+!!! info "Hinweis"
+
+    Für bestimmte Bundesländer werden in DAVINCI bereits die offiziellen Schlüssel mitgeliefert. Sie können Sie im Dialogfenster `Lehrer-Soll-Schlüssel `über die Schaltfläche `Importieren` einlesen.
+
+Für jeden Ermäßigungs- bzw. Mehrarbeitsgrund geben Sie in der Spalte `Stunden` die entsprechende Stundenzahl ein.
+
+### Zeitkonto Operatoren
+
+Operator| Beschreibung
+-|-
+P | Pflicht- oder Regelstunden, die einem Lehrer aufgrund rechtlicher Vorgaben als allgemeine Unterrichtsverpflichtung auferlegt sind. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
+- | Ermäßigungsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers gemindert wird. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an.
++ |Ergänzungs- bzw. Mehrarbeitsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers erhöht wird
+D |Differenz aus Soll und Ist vom Vorjahr. Die Stundenanzahl in der Spalte „Stunden“ wird in beim Erstellen eines neuen Stundenplans über den Planvorbereitungsassistenten automatisch aus dem vorhergehenden Plan übernommen. Sie können sie hier auch manuell eingeben.
+A |Stundenplan-Zeitkonto: In der Ansicht `Stammdaten > Fächer`  können Sie in der Spalte „Zeitkonto“ für einem Fach einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des Lehrerplans berechnet.
+C |Kalender-Zeitkonto: In der Ansicht „Kalender“ können Sie im Ereignis-Fenster bei „Zeitkonto“ einem Ereignis einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des der entsprechenden Kalendereinträge berechnet.
+<Leer> |Bemerkung, geht nicht in die Berechnung ein
+
+### Zeitkonto Summen
+
+Summe |Beschreibung
+-|-
+Soll |Summe aus Pflichtstunden, Ermäßigungs- und Mehrarbeitsstunden
+Ist |Ist-Stunden des Lehrers, die sich aus den geleisteten Unterrichtsstunden entsprechend dem individuellen Stundenplan des Lehrers ergeben
+Diff |Differenz zwischen Soll und Ist
+
+![Schlüsselverzeichnis Lehrer-Soll-Schlüssel](/assets/images/Lehrer-Soll-Schlüssel.png)
+
+!!! info "Hinweis"
+
+    Die Pflichtstunden können Sie für jeden Lehrer gesondert festlegen. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
+
+Alle Lehrer die Sie nun im Stammdatenfenster hinzufügen (neu erfassen), erhalten automatisch den eingetragenen Lehrer-Pfichtstundenwert standardmäßig. Lehrer die bereits im Stammdatenfenster gelistet sind, bleiben von diesem eingetragenen Standardwert unberührt.
+
+![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/DAV.Optionen.Einstellungen.png)
 
 ## Klassen
 
-In der Liste "Klassen" erfassen Sie die Klassen, die an Ihrer Schule unterrichtet werden. Für jeden Eintrag, den Sie in der Liste "Klassen" vornehmen, wird im Bereich ``Stundenplan`` ein eigener Klassenplan angelegt. Den Plan einer bestimmten Klasse können Sie direkt aus der Stammdatenliste „Klassen“ heraus aufrufen. Klicken Sie dazu eine Klasse an und wählen `Start > Gehe zu Stundenplan`, `Rechtsklick > Gehe zu Stundenplan` oder benutzen Sie die Funktionstaste `F9`.
+In der Liste "Klassen" erfassen Sie die Klassen, die an Ihrer Schule unterrichtet werden. Für jeden Eintrag, den Sie in der Liste "Klassen" vornehmen, wird im Bereich `Stundenplan` ein eigener Klassenplan angelegt. 
+
+!!! info "Hinweis"
+
+    Den Plan einer bestimmten Klasse können Sie direkt aus der Stammdatenliste „Klassen“ heraus aufrufen. Klicken Sie dazu eine Klasse an und wählen `Start > Gehe zu Stundenplan`, `Rechtsklick > Gehe zu Stundenplan` oder benutzen Sie die Funktionstaste `F9`.
 
 In der Stammdatenliste "Klassen" können Sie verschiedene Einstellungen vornehmen, die für die weitere Stundenplanung relevant sind. Außerdem stehen Ihnen zahlreiche Spalten zur Verfügung.
 
@@ -187,114 +384,7 @@ Kalender | Kalender dieser Klasse, z.B. falls Sie Klassen aus verschiedenen Bund
 Externe ID | ID für ein Fremdprogramm
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-## Lehrer
-
-![Stammdaten Lehrer](/assets/images/StammdatenLehrer.png)
-
-In der Liste "Lehrer" erfassen Sie die Lehrkräfte, die an Ihrer Schule unterrichten. Den Plan eines bestimmten Lehrers können Sie direkt aus der Liste "Lehrer" heraus aufrufen. Klicken Sie dazu einen Lehrer an und wählen `Start > Gehe zu Stundenplan`, `Rechtsklick > Gehe zu Stundenplan` oder benutzen Sie die Funktionstaste `F9`.
-
-!!! info "Hinweis"
-
-    Über `Stammdaten > Bearbeiten > Lehrer-Zeitkonto bearbeiten` öffnen Sie das Zeitkonto-Fenster für den aktuellen Listeneintrag. Dort können Sie die Ermäßigungs- und Mehrarbeitsstunden eingeben.
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel des Lehrers
-Titel | Titel des Lehrers
-Nachname | Nachname des Lehrers
-Mittelname | Zweitname
-Vorname | Vorname des Lehrers
-Farbe | Kann im Stundenplan eingeblendet werden, siehe "Plan > Einstellungen > Stundenplan` > Planeinträge"
-Symbol | Lehrersymbol, klicken Sie im Bearbeiten-Modus in die Spalte und dann auf ``Rechte-Maustaste > Laden`` um ein Bild zu laden, kann im Plan angezeigt werden, siehe ``Plan > Einstellungen > Stundenplan > Planeinträge > Lehrersymbole anzeigen`` 
-Geschlecht | Geschlecht des Lehrers
-Geb. Datum | Geburtsdatum
-Fächer | Klicken Sie hier und wählen Sie die Fächer, die der Lehrer unterrichten darf
-Teams | Teams, zu denen der Lehrer gehört, siehe "Stammdaten > Teams“
-E-Mail | E-Mail des Lehrers
-Mobil | Handynummer des Lehrers
-Schule | Schulnummer oder Mandantennummer aus MAGELLAN
-Bemerkung | Freies Bemerkungsfeld
-Details | Zusätzliche Optionen für den MAGELLAN Abgleich ("nicht statistikrelevant" und "kein MAGELLAN Abgleich") und die Option "inaktiv"
-Zeitrahmen | siehe "Extras > Zeitrahmen" erstellten Zeitrahmen zuweisen
-Benutzername | Benutzername für den Serverbetrieb, kennzeichnet den Plan des Benutzers/Lehrers
-Personalnr. | Personalnummer
-Stundensatz | Stundensatz, z.B. 50 für 50EUR, kann in Zeitkonto mit "Normierter Stunde" multipliziert werden (siehe "Plan > Eigenschaften > Statistik")
-Eintritt / Austritt | Eintritts- und Austrittsdatum
-Externe ID | ID für ein Fremdprogramm
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
-
-## Lehrer-Zeitkonten
-
-![Zeitkonto bearbeiten](/assets/images/ZeitkontoBearbeiten.png)
-
-Im Lehrer-Zeitkonto Fenster erfassen Sie für einen Lehrer dessen Ermäßigungs- und Mehrarbeitsstunden. Die Ermäßigungs- und Mehrarbeitsgründe können Sie im Schlüsselverzeichnis `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel eingeben`.
-
-!!! info "Hinweis"
-
-    Für bestimmte Bundesländer werden in DAVINCI bereits die offiziellen Schlüssel mitgeliefert. Sie können Sie im Dialogfenster `Lehrer-Soll-Schlüssel `über die Schaltfläche `Importieren` einlesen.
-
-Für jeden Ermäßigungs- bzw. Mehrarbeitsgrund geben Sie in der Spalte ``Stunden`` die entsprechende Stundenzahl ein.
-
-### Zeitkonto Operatoren
-
-Operator| Beschreibung
--|-
-P |Pflicht- oder Regelstunden, die einem Lehrer aufgrund rechtlicher Vorgaben als allgemeine Unterrichtsverpflichtung auferlegt sind. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
-- | Ermäßigungsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers gemindert wird. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an.
-+ |Ergänzungs- bzw. Mehrarbeitsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers erhöht wird
-D |Differenz aus Soll und Ist vom Vorjahr. Die Stundenanzahl in der Spalte „Stunden“ wird in beim Erstellen eines neuen Stundenplans über den Planvorbereitungsassistenten automatisch aus dem vorhergehenden Plan übernommen. Sie können sie hier auch manuell eingeben.
-A |Stundenplan-Zeitkonto: In der Ansicht `Stammdaten > Fächer`  können Sie in der Spalte „Zeitkonto“ für einem Fach einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des Lehrerplans berechnet.
-C |Kalender-Zeitkonto: In der Ansicht „Kalender“ können Sie im Ereignis-Fenster bei „Zeitkonto“ einem Ereignis einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des der entsprechenden Kalendereinträge berechnet.
-<Leer> |Bemerkung, geht nicht in die Berechnung ein
-
-### Zeitkonto Summen
-
-Summe |Beschreibung
--|-
-Soll |Summe aus Pflichtstunden, Ermäßigungs- und Mehrarbeitsstunden
-Ist |Ist-Stunden des Lehrers, die sich aus den geleisteten Unterrichtsstunden entsprechend dem individuellen Stundenplan des Lehrers ergeben
-Diff |Differenz zwischen Soll und Ist
-
-![Schlüsselverzeichnis Lehrer-Soll-Schlüssel](/assets/images/Lehrer-Soll-Schlüssel.png)
-
-!!! info "Hinweis"
-
-    Die Pflichtstunden können Sie für jeden Lehrer gesondert festlegen. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
-
-Alle Lehrer die Sie nun im Stammdatenfenster hinzufügen (neu erfassen), erhalten automatisch den eingetragenen Lehrer-Pfichtstundenwert standardmäßig. Lehrer die bereits im Stammdatenfenster gelistet sind, bleiben von diesem eingetragenen Standardwert unberührt.
-
-![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/DAV.Optionen.Einstellungen.png)
-
-
-
-## Räume
-
-![Stammdaten Räume](/assets/images/StammdatenRäume.png)
-
-In der Liste "Räume" können Sie die Räume erfassen, die für die Unterrichtsplanung zur Verfügung stehen. Den Plan eines bestimmten Raumes können Sie direkt aus der Liste „Räume“ heraus aufrufen. Klicken Sie dazu einen Raum an und wählen `Start > Gehe zu Stundenplan`, ``Rechtsklick | Gehe zu Stundenplan`` oder Sie benutzen die Funktionstaste `F9`.
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel des Raumes
-Bezeichnung | Bezeichnungsfeld
-Farbe | Kann im Stundenplan eingeblendet werden, siehe `Plan > Eigenschaften > Stundenplan > Planeinträge`
-Bemerkung | Bemerkung
-Kapazität | Maximale Plätze in diesem Raum
-Raumart | siehe `Extras > Schlüsselverzeichnisse > Raumarten`
-Teams | Teams/Abteilungen, siehe `Stammdaten > Teams`
-Gebäude | Verknüpft mit dem  `Stammdaten > Gebäude`
-Alternativ | Alternativer Raum wenn dieser besetzt ist 
-Austattung | Ausstattungsliste des Raums
-Benutzer | Benutzername
-Eingeschränkt | 0=keine Einschränkung..4=möglichst nicht verwenden
-Lehrer | siehe ``Stammdaten > Lehrer``
-Details | weitere Optionen ``Nicht verfügbar`` und ``Zwingend dieser oder Alternativraum``
-Barcode | zur Kennzeichnung des Raums
-Zeitrahmen | siehe `Extras > Zeitrahmen` erstellten Zeitrahmen zuweisen
-Externe ID | ID für ein Fremdprogramm
-DAVINCI-ID   | eindeutige DAVINCI-ID, wird automatisch erzeugt
-
-## Ressourcen
+# Ressourcen
 
 ![Stammdaten Ressourcen](/assets/images/StammdatenRessourcen.png)
 
@@ -339,65 +429,6 @@ Keine Fachwahl | Für diesen Schüler wird in DAVINCI keine Fachwahlüberprüfun
 !!! info "Hinweis"
 
     Ein Schüler wird über seine ID identifiziert. Daher können auch zwei Schüler mit gleichem Vornamen/Nachnamen eingetragen werden. Verwenden Sie das Feld ``Personen-Nr.`` zur Unterscheidung gleichnamiger Schüler.
-
-## Stundentafeln
-
-![Stammdaten Stundentafeln](/assets/images/StammdatenStundentafel.png)
-
-In der Stammdatenliste "Stundentafeln" legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln. Sie bilden die Vorlage für die Veranstaltungslisten der Klassen. In der Spalte "Stundentafel" der Ansicht `Stammdaten > Klassen` können Sie jeder Klasse eine Stundentafel zuweisen. 
-
-In der Ansicht `Stundenplan` können Sie mit `Stundenplan > Neu > Aus Stundentafel erzeugen` bzw. `Veranstaltung > Neue Veranstaltung > Aus Stundentafel erzeugen` die Fächer der Stundentafel inkl. Stundenvorgabe als Unterrichtsverteilung übernehmen. Die Stundenvorgabe kann von Ihnen in der Unterrichtsverteilung abgeändert werden, also beispielsweise um eine entsprechende Stundenzahl reduziert werden, weil Ihnen Fachlehrer fehlen. Die Differenz aus der durch die Stundentafel vorgegebenen Stundenzahl und der tatsächlich verplanten Stundenzahl wird in DAVINCI als Soll-Ist-Statistik erfasst und dient so als Grundlage für die elektronische Landesstatistik.
-
-!!! info "Hinweis"
-
-    Sie können das Stundentafel-Fenster auch in der Ansicht "Stundenplan" über das Zusatzfenster ``Summen > Stundentafel`` öffnen. Wenn Sie dort oder in der Stammdaten-Ansicht von einer Klasse zur anderen wechseln, wird der Inhalt des Stundentafel-Fensters automatisch angepasst. 
-
-Spalte | Inhalt
---------|-------------------------------------------
-Kürzel | Kürzel der Stundentafel
-Bezeichnung | Freies Textfeld
-Fächer | Bearbeiten Sie die Fächer in dem Sie auf die ``…`` Schaltfläche klicken, weitere Informationen dazu erhalten Sie im Folgenden
-Stufe | Jahrgangsstufe
-Bildungsgang | Verknüpft mit dem Schlüsselverzeichnis "Bildungsgänge"
-Profil | Freies Feld (schulspezifisch)
-Team | Teams zu denen die Stundentafel gehört
-Externe ID | ID für Fremdprogramme
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
-
-Geben Sie mit ``Neu`` oder der Taste ``EINFG`` neue Schlüssel ein. Mit ''Löschen'' können Sie Schlüssel wieder löschen.
-
-!!! info "Hinweis"
-
-    Einige Spalten sind standardmäßig ausgeblendet. Wenn Sie auf `Spalten ein-/ausblenden` klicken, werden Ihnen die nicht sichtbaren Spalten angeboten. Mit der Maus können Sie sie anklicken und auf die Spaltenposition in der Liste ziehen, um sie dauerhaft einzublenden. Alternativ können Sie dazu auch das Sternchen-Symbol links oben in der Stundentafel tabell nutzen.
-
-### Bearbeiten der Fächer in der Stundentafel
-
-Spalte| Inhalt
---------|-------------------------------------------
-Angleichung| Angleichung der Stundenzahl an dieser Schule. Der Eintrag in der Spalte "Soll (W)" der Veranstaltungsliste ist die Summe aus den Werten "Soll" und "Angleichung" der Stundentafel
-Bemerkung |Freitext für Bemerkung
-Differenz | 
-Doppelstd |Anzahl der Doppelstunden für die Automatik, z.B. ``1-2`` gibt der Automatik mindestens eine und höchstens zwei Doppelstunden vor
-Fach| Kürzel des Fachs
-Fachstatus| Fachstatus z.B. "1. Prüfungsfach" (nur für Oberstufe) gemäß ``Extras > Schlüsselverzeichnis > Fachstatus``, standardmäßig ausgeblendet
-Gruppe | Gruppe
-Kategorie | Veranstaltungskategorie, siehe ``Plan < Schlüsselverzeichnis > Veranstaltungskategorien``. Eine Besonderheit ist, dass diese Eigenschaft auf die Klassen mit dieser Stundetafel übernommen wird, d.h. Sie können hier zentral die Eigenschaft für alle Klassen mit dieser Stundentafel einstellen.
-Lehrbereich| Lehrbereich gemäß ``Extras > Schlüsselverzeichnis > Lehrbereiche``', standardmäßig ausgeblendet
-Pflichtkurse| Anzahl der Pflichtkurse (nur für Oberstufe)
-Schlüssel | Fachschlüssel siehe `Stammdaten > Fächer > Schlüssel`
-Soll| Stundenanzahl, mit der dieses Fach unterrichtet werden soll
-Soll 1|
-Soll 2|
-Soll 3|
-Soll 4|
-Sollkonto | Stundenanzahl, mit der dieses Fach unterrichtet werden soll über eine Zeitspanne die über eine Planungsdatei hinausgeht (BFW)
-Stufensumme |
-Termine| Termine, z.B. ``2-2-1`` für zwei Doppelstunden und eine Einzelstunde, entspricht der Angabe "Termine" in der Veranstaltungsliste
-Unterrichtsform| Unterrichtsform gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsformen``, standardmäßig ausgeblendet
-Unterrichtsart| Unterrichtsart gemäß ``Extras > Schlüsselverzeichnis > Unterrichtsarten`', z.B. für die Unterscheidung Leistungs- und Grundkurse in der Oberstufe
-Wertfaktor| Wertfaktor für die Statistik mit Wertfaktoren, standardmäßig ausgeblendet
-Wiederholung | Periodisch/Einmalig
-
 
 ## Zeiträume
 
