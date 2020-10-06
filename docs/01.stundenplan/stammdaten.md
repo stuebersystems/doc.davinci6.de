@@ -292,49 +292,86 @@ Eintritt / Austritt | Eintritts- und Austrittsdatum
 Externe ID | ID für ein Fremdprogramm
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-### Lehrer-Zeitkonten
+### Die Lehrer Soll-Berechnung
 
-Über das Stammdatenfenster "Lehrer" führen Sie das Lehrerarbeitszeitkonto Ihrer Lehrer. Um das Lehrer-Zeitkonto für einen Kollegen zu öffnen, klicken Sie in die entsprechende Zeile des Lehrer über `rechte Maustaste > Zeitkonto bearbeiten` oder `Strg+X`. Das Zeitkonto des Lehrers wird geöffnet und kann nun bearbeitet werden. 
+Bei der Lehrereinsatzplanung mit DAVINCI wird für jeden Lehrer die Sollvorgabe benötigt, die sich aus den vom Kultusministerium vorgegebenen Pflichtstunden abzüglich Ermäßigungsstunden und zuzüglich Mehrstunden ergibt.
 
-![Zeitkonto bearbeiten](/assets/images/ZeitkontoBearbeiten.png)
+Zur Eingabe des Soll-Berechnungschemas stehen Ihnen die Lehrer-Soll-Berechnungsschlüssel zur Verfügung, die Sie unter `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel` eingeben können. Mit Hilfe dieser Schlüssel können Sie für jeden Lehrer die Pflichtstunden und die individuellen Ermäßigungs- und Mehrstunden angeben, aus denen sich die Sollvorgabe für jeden Lehrer berechnet. Die Sollberechnung kann nach Ihren Vorgaben beliebig detailliert sein.
 
-Im Lehrer-Zeitkonto Fenster erfassen Sie für einen Lehrer dessen Ermäßigungs- und Mehrarbeitsstunden. Die Ermäßigungs- und Mehrarbeitsgründe können Sie im Schlüsselverzeichnis `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel eingeben`.
+![Schlüsselverzeichnis Lehrer-Soll-Schlüssel](/assets/images/Lehrer-Soll-Schlüssel.png)
+
+#### Bundeslandspezifische Lehrer-Soll-Schlüssel importieren
+
+Für verschiedene Bundesländer bzw. Schularten werden über die Landesanpassung diese Schlüssel schon vorinstalliert. In diesem Fall können Sie die Schlüssel über `Extras > Schlüsselverzeichnisse> Lehrer-Soll-Schlüssel` über den Aufruf "Importieren“ aus dem Ordner „Schlüssel“ importieren, um sich die Eingabearbeit zu ersparen.
+
+So importieren Sie die Lehrer-Soll-Ist-Schlüssel
+
+1. Öffnen Sie über `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel` das entsprechende Verzeichnis
+
+![Lehrer-Soll-Schlüssel](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel.png)
+
+2. Wählen Sie hier die Schalftläche `Importieren`.
+3. Wählen Sie über die Schaltfläche `Datei auswählen` die Datei „LehrerSollIstSchlüssel <Bundesland>.txt“ im Ordner „Schlüssel“ und klicken Sie auf `OK`.
+Sollten Sie in diesem Ordner keine Datei dieses Namens vorfinden, so sind für Ihr Bundesland keine Lehrer-Soll-Ist-Schlüssel verfügbar. Tragen Sie in diesem Fall die Schlüssel selbst ein.
+
+![Lehrer-Soll-Schlüssel](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel01.png)
 
 !!! info "Hinweis"
 
     Für bestimmte Bundesländer werden in DAVINCI bereits die offiziellen Schlüssel mitgeliefert. Sie können Sie im Dialogfenster `Lehrer-Soll-Schlüssel `über die Schaltfläche `Importieren` einlesen.
 
-Für jeden Ermäßigungs- bzw. Mehrarbeitsgrund geben Sie in der Spalte `Stunden` die entsprechende Stundenzahl ein.
+#### Soll-Berechnungsschlüssel eingeben
 
-### Zeitkonto Operatoren
+Im `Schlüsselverzeichnis > Lehrer-Soll-Schlüssel` erfassen Sie die entsprechenden Berechnungsschlüssel mit Kürzel, Bezeichnung und Typ ein. Der Typ (Operator) legt fest, wie DAVINCI den Schlüssel zu interpretieren hat.
 
-Operator| Beschreibung
+Typ| Beschreibung
 -|-
-P | Pflicht- oder Regelstunden, die einem Lehrer aufgrund rechtlicher Vorgaben als allgemeine Unterrichtsverpflichtung auferlegt sind. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
-- | Ermäßigungsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers gemindert wird. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an.
-+ |Ergänzungs- bzw. Mehrarbeitsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers erhöht wird
-D |Differenz aus Soll und Ist vom Vorjahr. Die Stundenanzahl in der Spalte „Stunden“ wird in beim Erstellen eines neuen Stundenplans über den Planvorbereitungsassistenten automatisch aus dem vorhergehenden Plan übernommen. Sie können sie hier auch manuell eingeben.
-A |Stundenplan-Zeitkonto: In der Ansicht `Stammdaten > Fächer`  können Sie in der Spalte „Zeitkonto“ für einem Fach einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des Lehrerplans berechnet.
-C |Kalender-Zeitkonto: In der Ansicht „Kalender“ können Sie im Ereignis-Fenster bei „Zeitkonto“ einem Ereignis einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des der entsprechenden Kalendereinträge berechnet.
-<Leer> |Bemerkung, geht nicht in die Berechnung ein
+`P` | Pflicht- oder Regelstunden, die einem Lehrer aufgrund rechtlicher Vorgaben als allgemeine Unterrichtsverpflichtung auferlegt sind. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
+`-` | Ermäßigungsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers gemindert wird. Geben Sie in der Spalte „Stunden“ die betreffende Stundenzahl an.
+`+` |Ergänzungs- bzw. Mehrarbeitsstunden, um welche die allgemeine Unterrichtsverpflichtung des Lehrers erhöht wird
+`D` |Differenz aus Soll und Ist vom Vorjahr. Die Stundenanzahl in der Spalte „Stunden“ wird in beim Erstellen eines neuen Stundenplans über den Planvorbereitungsassistenten automatisch aus dem vorhergehenden Plan übernommen. Sie können sie hier auch manuell eingeben.
+`A` |Stundenplan-Zeitkonto: In der Ansicht `Stammdaten > Fächer`  können Sie in der Spalte „Zeitkonto“ für einem Fach einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des Lehrerplans berechnet.
+`C` |Kalender-Zeitkonto: In der Ansicht „Kalender“ können Sie im Ereignis-Fenster bei „Zeitkonto“ einem Ereignis einen Lehrer-Soll-Schlüssel als Zeitkonto zuweisen. Die Stundenanzahl in der Spalte „Stunden“ wird in diesem Fall automatisch aufgrund des der entsprechenden Kalendereinträge berechnet.
+`Leer` | Bemerkung, geht nicht in die Berechnung ein
 
-### Zeitkonto Summen
+#### Zeitkonto bearbeiten
+
+Um das Zeitkonto zu bearbeiten, öffnen Sie im Stammdatenfenster die Registerkarte „Lehrer“. Klicken Sie in die entsprechende Zeile des Lehrer über `rechte Maustaste > Zeitkonto bearbeiten` oder `Strg+X`. Das Zeitkonto des Lehrers wird geöffnet und kann nun bearbeitet werden. 
+
+![Zeitkonto bearbeiten](/assets/images/ZeitkontoBearbeiten.png)
+
+Um das Dialogfenster zu bearbeiten, also diese Grunddaten um die individuellen Daten zu erweitern, wählen Sie die Schaltfläche `Neuer Schlüssel`. Es erscheint das Dialogfenster `Soll-Änderungsschlüssel auswählen` mit den Schlüsseln, die Sie im `Schlüsselverzeichnis > Lehrer-Soll-Schlüssel` eingetragen haben.
+
+![Soll-Berechnung bearbeiten](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel02.png)
+
+Markieren Sie den gewünschten Schlüssel und klicken Sie auf `Ok`. Die Soll-Berechnung für den Lehrer wird um ausgewählten Schlüssel erweitert. Für jeden Ermäßigungs- bzw. Mehrarbeitsgrund geben Sie in der Spalte `Stunden` die entsprechende Stundenzahl ein.
+
+Möchten Sie einen Schlüssel verändern, seine Dauer verändern oder ihn durch einen anderen Schlüssel ersetzen, gehen Sie wie folgt vor:
+
+Schlüssel löschen: Klicken Sie auf die zu löschende Zeile und dann auf `löschen`.
+
+Stunden, Bemerkung ändern: Klicken Sie auf den entsprechenden Eintrag und ändern Sie die Eintragungen in den entsprechenden Spalten. 
+
+#### Zeitkonto Summen
+
+![Zeitkonto](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel03.png)
+
+Im Zeitkonto des Lehrers werden noch folgende Werte ausgegeben/angezeigt:
 
 Summe |Beschreibung
 -|-
-Soll |Summe aus Pflichtstunden, Ermäßigungs- und Mehrarbeitsstunden
-Ist |Ist-Stunden des Lehrers, die sich aus den geleisteten Unterrichtsstunden entsprechend dem individuellen Stundenplan des Lehrers ergeben
-Diff |Differenz zwischen Soll und Ist
+Soll | Summe aus Pflichtstunden, Ermäßigungs- und Mehrarbeitsstunden
+Ist | Ist-Stunden des Lehrers, die sich aus den geleisteten Unterrichtsstunden entsprechend dem individuellen Stundenplan des Lehrers ergeben
+Anrechnungen | Summe der Ermäßigungs- und Mehrarbeitsstunden
+Diff (Ist+Anrch.-Pflicht) | Differenz zwischen Soll und Ist
 
-![Schlüsselverzeichnis Lehrer-Soll-Schlüssel](/assets/images/Lehrer-Soll-Schlüssel.png)
+#### Lehrer-Pfichtstundenwert standardmäßig vorbelegen
 
-!!! info "Hinweis"
-
-    Die Pflichtstunden können Sie für jeden Lehrer gesondert festlegen. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
+Die Pflichtstunden können Sie für jeden Lehrer gesondert festlegen. Einen Standardwert können Sie unter `Extras > Optionen > Einstellungen > Lehrer-Pflichtstunden standardmäßig` eingeben.
 
 Alle Lehrer die Sie nun im Stammdatenfenster hinzufügen (neu erfassen), erhalten automatisch den eingetragenen Lehrer-Pfichtstundenwert standardmäßig. Lehrer die bereits im Stammdatenfenster gelistet sind, bleiben von diesem eingetragenen Standardwert unberührt.
 
-![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/DAV.Optionen.Einstellungen.png)
+![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel04.png)
 
 ## Klassen
 
@@ -346,7 +383,7 @@ In der Liste "Klassen" erfassen Sie die Klassen, die an Ihrer Schule unterrichte
 
 In der Stammdatenliste "Klassen" können Sie verschiedene Einstellungen vornehmen, die für die weitere Stundenplanung relevant sind. Außerdem stehen Ihnen zahlreiche Spalten zur Verfügung.
 
-![Stammdaten Klassen](/assets/images/StammdatenKlassen01.png)
+![Stammdaten Klassen](/assets/images/stundenplan/stammdaten.klassen.png)
 
 Spalte | Inhalt
 --------|-------------------------------------------
