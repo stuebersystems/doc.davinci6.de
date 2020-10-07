@@ -28,7 +28,7 @@ Die Stammdatenregister bestehen aus verschiedenen Spalten. Neue Einträge in den
 
     Je nachdem, ob Sie unter `Extras > Optionen > Einstellungen` die Option `Bei Kürzel-Eingabe Groß- und Kleinschreibung beachten` markiert haben, wird die Groß- bzw. Kleinschreibung beachtet.
 
-# Stammdaten eingeben
+## Stammdaten eingeben
 
 Geben Sie im Stammdaten-Fenster Jahrgänge, Lehrer, Räume, Fächer usw. ein. Gehen Sie zur Eingabe der Stammdaten möglichst in folgender Reihenfolge vor:
 
