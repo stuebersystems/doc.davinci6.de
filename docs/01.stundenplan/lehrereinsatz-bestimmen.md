@@ -20,9 +20,8 @@ Die Zuordnung über das zentrale Dialogfenster zur Bearbeitung der Veranstaltung
 Termindaten kann hingegen dann vorteilhaft sein, wenn Sie die Teilnehmerplanung für eine
 Veranstaltung komplett vornehmen möchten, bevor Sie zur nächsten Veranstaltung übergehen.
 
-> ## primary::Hinweis
->
-> Im Teilfenster „Detailbereich“ wird jeweils das aktivierte Unterfenster oben im Anzeigebereich geöffnet. Unterhalb des aktivierten Detailfensters werden die Titelbalken der anderen verfügbaren Detailfenster eingeblendet. Um ein bestimmtes Detailfenster zu öffnen, klicken Sie einfach mit der linken Maustaste auf den Titelbalken mit der passenden Aufschrift.
+!!! info Hinweis
+     Im Teilfenster „Detailbereich“ wird jeweils das aktivierte Unterfenster oben im Anzeigebereich geöffnet. Unterhalb des aktivierten Detailfensters werden die Titelbalken der anderen verfügbaren Detailfenster eingeblendet. Um ein bestimmtes Detailfenster zu öffnen, klicken Sie einfach mit der linken Maustaste auf den Titelbalken mit der passenden Aufschrift.
 
 ![](/assets/images/detailfenster passende Lherer.png)
 
