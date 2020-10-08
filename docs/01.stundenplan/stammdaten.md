@@ -196,13 +196,9 @@ Details | Zusätzliche Optionen für den MAGELLAN Abgleich `nicht statistikrelev
 
 ## Stundentafeln
 
-![Stammdaten Stundentafeln](/assets/images/StammdatenStundentafel.png)
+![Stammdaten Stundentafeln](/assets/images/stundenplan/stammdaten.stundentafel.png)
 
-In der Registerkarte "Stundentafeln" legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, d.h. die Fächer mit den dazugehörigen Sollstundenzahlen, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln. Sie bilden die Vorlage für die Veranstaltungslisten der Klassen. In der Spalte "Stundentafel" der Registerkarte "Klassen" können Sie jeder Klasse eine Stundentafel zuweisen.
-
-### So können Sie die Fächer einer Stundentafel übernehmen
-
-Klicken Sie auf eine Stundentafel. Klicken Sie auf `Bearbeiten > Inhalte kopieren`. Klicken Sie dann auf die Stundentafel, in die Sie die Fächer übertragen möchten. Klicken Sie dort auf ` Bearbeiten > Inhalte einfügen`. Die Fächer werden in die Stundentafel übertragen.
+In der Liste "Stundentafeln" legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, d.h. die Fächer mit den dazugehörigen Sollstundenzahlen, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln. Sie bilden die Vorlage für die Veranstaltungslisten der Klassen. In der Spalte "Stundentafel" der Registerkarte "Klassen" können Sie jeder Klasse eine Stundentafel zuweisen.
 
 Spalte | Inhalt
 --------|-------------------------------------------
@@ -216,8 +212,11 @@ Team | Teams zu denen die Stundentafel gehört
 Externe ID | ID für Fremdprogramme
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-Klicken Sie auf die Schaltfläche ``…`` in der Spalte „Fächer“. Es öffnet sich das Dialogfenster „Stundentafel“.
-![Stammdaten Stundentafeln](/assets/images/stundenplan/stammdaten.stundentafel.öffnen.png)
+Klicken Sie auf die Schaltfläche ``…`` in der Spalte „Fächer". Es öffnet sich das Dialogfenster „Stundentafel“.
+
+![Stundentafel bearbeiten](/assets/images/stundenplan/stammdaten.stundentafel.faecher.png)
+
+![Dialogfenster Stundentafel](/assets/images/stundenplan/stammdaten.stundentafel.oeffnen.png)
 
 Klicken Sie auf `Neues Fach`, um ein neues Fach hinzuzufügen. Tragen Sie unter „Soll“ die vorgeschriebene Sollstundenzahl ein. Zudem können Sie eine Unterrichtsart, -kategorie, -form und einen Lehrbereich je Fach zuweisen.  Die Spalte Wertfaktor wird z.B. für die Umsetzung des Hamburger Lehrerarbeitszeitmodells benötigt. Der Wertfaktor wird bei der Berechnung der Lehrerstunden wie folgt berücksichtigt: Summe = Dauer/W x Lehrerfaktor x Wertfaktor Damit der Wertfaktor auch bei den entsprechenden Summenbildungen berücksichtigt wird, müssen Sie unter `Extras > Zeitrahmen` auf der Registerkarte „Statistik“ die Option `Lehrer - Ist mit Wertfaktoren aus Stundentafel` anklicken. In der Spalte „Bemerkung“ können Sie eine beliebige Bemerkung erfassen. Klicken Sie wieder auf oder die `Pfeil-Ab-Taste`, um in der nächsten Zeile ein neues Fach einzugeben. Verfahren Sie so mit allen Fächern der Stundentafel.
 
@@ -252,11 +251,17 @@ Wiederholung | Periodisch/Einmalig
 
     Einige Spalten sind standardmäßig ausgeblendet. Wenn Sie auf `Spalten ein-/ausblenden` klicken, werden Ihnen die nicht sichtbaren Spalten angeboten. Mit der Maus können Sie sie anklicken und auf die Spaltenposition in der Liste ziehen, um sie dauerhaft einzublenden. Alternativ können Sie dazu auch das Sternchen-Symbol links oben in der Stundentafel tabell nutzen.
 
+### Fächer einer Stundentafel in eine andere übernehmen
+
+Klicken Sie auf eine Stundentafel und dann `rechte Maustaste > Fächer kopieren`. Klicken Sie dann auf die Stundentafel, in die Sie die Fächer übertragen möchten. Klicken Sie dort auf `rechte Maustaste > Fächer einfügen`. Die Fächer werden in die Stundentafel übertragen.
+
+![Stammdaten Stundentafeln](/assets/images/stundenplan/stammdaten.stundentafel.kopieren.png)
+
 ## Lehrer
 
 ![Stammdaten Lehrer](/assets/images/stundenplan/stammdaten.lehrer.png)
 
-In der Registerkarte "Lehrer" erfassen Sie die Lehrkräfte, die an Ihrer Schule unterrichten.
+In der Liste der "Lehrer" erfassen Sie die Lehrkräfte, die an Ihrer Schule unterrichten.
 
 !!! info "Hinweis"
 
@@ -363,7 +368,7 @@ Summe |Beschreibung
 Soll | Summe aus Pflichtstunden, Ermäßigungs- und Mehrarbeitsstunden
 Ist | Ist-Stunden des Lehrers, die sich aus den geleisteten Unterrichtsstunden entsprechend dem individuellen Stundenplan des Lehrers ergeben
 Anrechnungen | Summe der Ermäßigungs- und Mehrarbeitsstunden
-Diff (Ist+Anrch.-Pflicht) | Differenz zwischen Soll und Ist
+Diff (Ist+Anrech.-Pflicht) | Differenz zwischen Soll und Ist
 
 #### Lehrer-Pfichtstundenwert standardmäßig vorbelegen
 
