@@ -12,7 +12,7 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 
 1. Klicken Sie im Menüband des Programmfensters auf die Schaltfläche `Plan` und wählen Sie im Planmenü den Befehl `Importieren und Exportieren`: der Assistent `Import/ Export-Assistent` wird geöffnet.
 
-![Import/Export-Assistent](..\assets\images\datenaustausch\datenaustausch1.png)
+![Import/Export-Assistent](/assets/images/datenaustausch/datenaustausch1.png)
 2. Markieren Sie auf der ersten Assistentenseite im Bereich `Exportieren` den Eintrag `DAVINCI Schuldatentransferdatei exportieren` und bestätigen Sie Ihre Auswahl mit `Weiter`.
 3. Klicken Sie im Bereich `Datei` der nächsten Assistentenseite auf die Schaltfläche `Datei auswählen`. Wählen Sie im Explorerfenster `Öffnen` das Zielverzeichnis der Exportdatei aus und geben Sie den gewünschten Dateinamen ein. Bestätigen Sie Ihre Angaben im Explorerfenster Öffnen mit `Öffnen`: der Dateipfadname der Exportdatei wird nun im Bereich `Datei` der Assistentenseite `daVinci-Schuldatentransferdatei exportieren` hinterlegt
 4. Aktivieren Sie im Bereich `Weitere Angaben` die gewünschten Optionen für den Export der DAVINCI-Daten in die Exportdatei:
