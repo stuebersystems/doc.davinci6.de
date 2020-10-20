@@ -4,6 +4,8 @@ DAVINCI speichert die Daten im XML-Format ab. Auf diese Daten können Sie mit je
 
 Sie können Plandaten mit DAVINCI über das Schuldatentransferformat austauschen. Dateien im Schuldatentransferformat sind Textdateien, mit denen Sie Daten einerseits nach DAVINCI importieren und andererseits aus DAVINCI exportieren können. Das Schuldatentransferformat bildet z.B. die Grundlage für den Datenabgleich mit MAGELLAN, wird aber auch von anderen Softwareanbietern aus dem Bereich Schulverwaltung und Stundenplanung unterstützt.
 
+Die Beschreibung des Schuldatentransferformates finden Sie [hier](https://doc.sdtf.stueber.de/).
+
 ## Schuldatentransferdatei exportieren
 
 Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folgendermaßen vor:

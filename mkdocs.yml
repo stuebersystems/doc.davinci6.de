@@ -166,6 +166,7 @@ nav:
     - Benutzer und Benutzergruppen: 06.enterprise/06.benutzer.md
     - Plandateien: 06.enterprise/07.plandateien.md
     - Zugriffsrechte: 06.enterprise/08.rechte.md
+    - Übersicht über die Rechte: 06.enterprise/10.rechteuebersicht.md
     - Mandanten: 06.enterprise/09.mandanten.md
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md
