@@ -53,7 +53,9 @@
 
 ### KURSPLAN
 
-* FIX: 
+* FIX: `Kursplan > Fachwahl` Schüler verschwinden im Fenster Schüler
+* FIX: `Kursplan > Fachwahlen` Aktualisierungsproblem beim Wechseln in einen anderen Kurs 
+* FIX_ `Kursplan > Fachwahl > Fachwahl erzeugen` Übergabe der Sollstundenzahl
 
 ### DRUCK
 
