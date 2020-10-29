@@ -29,7 +29,7 @@
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
-## DAVINCI Version 6.5.68
+## DAVINCI Version 6.5.69
 
 ### Allgemein
 
@@ -37,12 +37,11 @@
 
 ### STUNDENPLAN
 
-* CHANGE: beim Anlegen einer neuen Veransatltung ist im Fenster `Veranstaltung bearbeiten` der Haken für **Dauer unabhängig vom Block** standardmäßig nicht gesetzt
-* ![Veranstaltung bearbeiten ](/assets/images/cahngelog/1.png)
+* CHANGE: 
 
 ### VERTRETUNGSPLAN
 
-* FIX: 
+* FIX:
 
 ### SERVER
 
@@ -54,10 +53,7 @@
 
 ### KURSPLAN
 
-* FIX: `Kursplan > Fachwahl` Schüler verschwinden im Fenster Schüler
-* FIX: `Kursplan > Fachwahlen` Aktualisierungsproblem beim Wechseln in einen anderen Kurs
-* FIX_ `Kursplan > Fachwahl > Fachwahl erzeugen` Übergabe der Sollstundenzahl
-* FIX: `Kursplan > Kurse` Löschen eines manuell angelegten Kurses 
+* FIX:
   
 ### DRUCK
 

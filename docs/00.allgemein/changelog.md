@@ -22,6 +22,23 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
+## DAVINCI Version 6.5.68 (29.10.2020)
+
+### STUNDENPLAN
+
+* CHANGE: beim Anlegen einer neuen Veranstatltung ist im Fenster `Veranstaltung bearbeiten` der Haken für **Dauer unabhängig vom Block** standardmäßig nicht gesetzt
+
+### VERTRETUNGSPLAN
+
+* FIX: `Vertretungen > Vorziehen`fehlende Vorziehoptionen korrigiert
+
+### KURSPLAN
+
+* FIX: `Kursplan > Fachwahl` Schüler verschwinden im Fenster Schüler
+* FIX: `Kursplan > Fachwahlen` Aktualisierungsproblem beim Wechseln in einen anderen Kurs
+* FIX_ `Kursplan > Fachwahl > Fachwahl erzeugen` Übergabe der Sollstundenzahl
+* FIX: `Kursplan > Kurse` Löschen eines manuell angelegten Kurses 
+
 ## DAVINCI Version 6.5.67 (11.08.2020)
 
 ### Allgemein
