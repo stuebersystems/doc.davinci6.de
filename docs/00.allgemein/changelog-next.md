@@ -12,24 +12,17 @@
 | NEW | Neue Funktionalität |
 | CHANGE | Änderung des Ablaufs, Verarbeitung oder Bedienung |
 
-## DAVINCI WEBBOX Version 1.10.5 \[unveröffentlicht\]
+## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
 
-[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
+[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
 
 !!! warning "Wichtig"
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
-* FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
-* FIX: Anzeige von Wochentagen in der Vertretungsliste (davinci-substitutions.html) korrigiert
-* NEW: Neuer Parameter (+ Wert) "substSort=key". Dieser Parameter arbeitet gemeinsam mit dem Parameter "substKey".
-  Beispiele:
-  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
-  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=class&substSort=key
-* FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
-* FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
+* FIX: 
 
-## DAVINCI Version 6.5.68
+## DAVINCI Version 6.5.69
 
 ### Allgemein
 
@@ -37,15 +30,19 @@
 
 ### STUNDENPLAN
 
+<<<<<<< HEAD
 * CHANGE: beim Anlegen einer neuen Veransatltung ist im Fenster `Veranstaltung bearbeiten` der Haken für **Dauer unabhängig vom Block** standardmäßig nicht gesetzt
 * ![Veranstaltung bearbeiten ](/assets/images/changelog/1.png)
 * FIX: Hinterlegte Soll-Werte gemäß Stundentafel für ein Fach mit unterschiedlichen Unterrichtsarten (GK, LK) wird in der Veranstaltungsliste wieder korrekt dem entsprechenden Fach übertragen.
 ![Stundentafel, Veranstaltungsliste](/assets/images/liesmich/6.5.68.01.png)
 
+=======
+* CHANGE: 
+>>>>>>> d567146afd37c5e71d2ab51f2d275dca15de23bd
 
 ### VERTRETUNGSPLAN
 
-* FIX: 
+* FIX:
 
 ### SERVER
 
@@ -57,10 +54,7 @@
 
 ### KURSPLAN
 
-* FIX: `Kursplan > Fachwahl` Schüler verschwinden im Fenster Schüler
-* FIX: `Kursplan > Fachwahlen` Aktualisierungsproblem beim Wechseln in einen anderen Kurs
-* FIX_ `Kursplan > Fachwahl > Fachwahl erzeugen` Übergabe der Sollstundenzahl
-* FIX: `Kursplan > Kurse` Löschen eines manuell angelegten Kurses 
+* FIX:
   
 ### DRUCK
 
