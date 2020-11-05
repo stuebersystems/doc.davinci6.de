@@ -38,7 +38,10 @@
 ### STUNDENPLAN
 
 * CHANGE: beim Anlegen einer neuen Veransatltung ist im Fenster `Veranstaltung bearbeiten` der Haken für **Dauer unabhängig vom Block** standardmäßig nicht gesetzt
-* ![Veranstaltung bearbeiten ](/assets/images/cahngelog/1.png)
+* ![Veranstaltung bearbeiten ](/assets/images/changelog/1.png)
+* FIX: Hinterlegte Soll-Werte gemäß Stundentafel für ein Fach mit unterschiedlichen Unterrichtsarten (GK, LK) wird in der Veranstaltungsliste wieder korrekt dem entsprechenden Fach übertragen.
+![Stundentafel, Veranstaltungsliste](/assets/images/liesmich/6.5.68.01.png)
+
 
 ### VERTRETUNGSPLAN
 
