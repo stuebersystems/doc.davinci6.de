@@ -12,6 +12,11 @@
 | NEW | Neue Funktionalität |
 | CHANGE | Änderung des Ablaufs, Verarbeitung oder Bedienung |
 
+## DAVINCI MOBILE APP [Unveröffentlicht]
+
+* NEW: Testfunktion für den Server
+* NEW: Im Detailfenster einer Veranstaltung (Klick aufs Terminfeld) werden für Vertretungen auch die Vertretungsinformation und die Vertretungsmitteilung gezeigt (beide Informationen werden in DAVINCI Vertretungsplan in der Vertretungsliste in den gleichnamigen Spalten erfasst)
+
 ## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
 
 [**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
