@@ -12,7 +12,7 @@
 | NEW | Neue Funktionalität |
 | CHANGE | Änderung des Ablaufs, Verarbeitung oder Bedienung |
 
-## DAVINCI MOBILE APP [Unveröffentlicht]
+## DAVINCI MOBILE APP [unveröffentlicht]
 
 * NEW: Testfunktion für die Serververbindung
 * NEW: Im Detailfenster einer Veranstaltung (Klick aufs Terminfeld) werden für Vertretungen auch die Vertretungsinformation und die Vertretungsmitteilung gezeigt (beide Informationen werden in DAVINCI Vertretungsplan in der Vertretungsliste in den gleichnamigen Spalten erfasst)
