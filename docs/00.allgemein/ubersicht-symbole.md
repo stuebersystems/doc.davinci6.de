@@ -1,5 +1,12 @@
 # Symbole
 
+| Tastenkürzel | Funktion                   | Programmteil                              |
+| ------------ | -------------------------- | ---------------------------------------- |
+![Periodischer Unterricht](/assets/images/allgemein/sshot-5.png)| Symbol für periodischen Unterricht| Stundenplan|
+
+
+
+
 Symbol | Bedeutung
 -|-
 ![Periodischer Unterricht](/assets/images/allgemein/symbol1.png)| Symbol für periodischen Unterricht
