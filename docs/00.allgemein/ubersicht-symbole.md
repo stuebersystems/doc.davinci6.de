@@ -1,7 +1,7 @@
 # Symbole
 
 Symbol | Bedeutung
-----|----
+-|-
 ![Periodischer Unterricht](/assets/images/allgemein/symbol1.png)| Symbol für periodischen Unterricht
 ![geblockter Unterricht](/assets/images/allgemein/symbol2.png)| Symbol für geblockten Unterricht
 ![einmaliger Termin](/assets/images/allgemein/symbol3.png)| Symbol für einen einmalig verplanten Termin
