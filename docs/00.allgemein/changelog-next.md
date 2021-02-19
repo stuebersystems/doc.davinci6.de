@@ -35,7 +35,8 @@
 
 ### STUNDENPLAN
 
-* CHANGE: 
+* FIX: mehrtägige Ereignisse werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
+* FIX: Ereignisse (von-bis Zeit) werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
 
 ### VERTRETUNGSPLAN
 
