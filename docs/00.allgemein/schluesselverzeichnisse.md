@@ -8,16 +8,17 @@ Schlüsselverzeichniss | Verwendete Ansicht
 02 Dienststellen| `Stammdaten > Lehrer > Lehrerzeitkonto`
 03 Fachschwerpunkte|`Kursplan > Fachwahlen`
 04 Fachstatus|`Stammdaten > Stundentafeln` <br> `Stundenplan > Detailfenster Veranstaltung bearbeiten`<br> `Kursplan > Kurse` <br> `Kursplan > Fachwahlen`
-05 Kalendereintragkategorien|
-06 Klassenfehlgründe|
+05 Kalendereintragkategorien| `Kalender > Neues Ereignis oder Neue Aufgabe`
+06 Klassenfehlgründe|`Vertretungsplan > Neue Klassenfehlzeit`
 07 Klassenmerkmale|
 08 Lehrbereiche|
-09 Lehrerfehlgründe|
-10 Lehrerfehlgrunddetails|
-11 Lehrer-Soll-Änderungsgründe|
+09 Lehrerfehlgründe|`Vertretungsplan > Neue Lehrerfehlzeit`
+10 Lehrerfehlgrunddetails|`Vertretungsplan > Neue Lehrerfehlzeit`
+11 Lehrer-Soll-Änderungsgründe|`Stammdaten > Lehrer > Lehrerzeitkonto`
 12 Lehrer-Soll-Arten|
-13 Lehrer-Soll-Schlüssel|
-14 Lehrerarten|
+13 Lehrer-Soll-Schlüssel|`Stammdaten > Lehrer > Lehrerzeitkonto`
+14 Lehrerarten| `Stammdaten > Lehrer`<br>
+`Stundenplan > Zusatzfenster Passende Lehrer`<br>`Vertretungsplan > Vertretungen`
 15 Profile|
 16 Raumfehlgründe|
 17 Raumarten|
