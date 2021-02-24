@@ -1,5 +1,11 @@
 # Symbole
 
+| Symblo                                  | Bedeutung                           |
+| --------------------------------------- | ----------------------------------- |
+| <img src="/assets/images/allgemein/symbol1.png"> | Symbol für periodischen Unterricht |
+| <img src="/assets/images/allgemein/symbol2.png"> | Symbol für geblockten Unterricht |
+
+
 Symbol | Bedeutung
 -|-
 ![Periodischer Unterricht](/assets/images/allgemein/symbol1.png)| Symbol für periodischen Unterricht
