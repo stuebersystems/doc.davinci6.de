@@ -155,7 +155,9 @@ nav:
 - LOOK: 
   - Allgemeines: 05.look/00.allgemeines.md
   - Installation und Update: 05.look/01.installation.md
-  - Ansichten und Funktionalitäten: 05.look/02.nutzung.md
+  - Ansichten: 05.look/ansichten.md
+  - Funktionalitäten: 05.look/funktionalitaeten.md
+  - Einrichtung für E-Boards: 05.look/eboard.md
 - ENTERPRISE:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
   - DAVINCI SERVER: 
