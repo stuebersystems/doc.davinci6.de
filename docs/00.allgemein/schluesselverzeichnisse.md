@@ -11,28 +11,27 @@ Schlüsselverzeichniss | Verwendete Ansicht
 05 Kalendereintragkategorien| `Kalender > Neues Ereignis oder Neue Aufgabe`
 06 Klassenfehlgründe|`Vertretungsplan > Neue Klassenfehlzeit`
 07 Klassenmerkmale|
-08 Lehrbereiche|
+08 Lehrbereiche|`Stammdaten > Stundentafeln`
 09 Lehrerfehlgründe|`Vertretungsplan > Neue Lehrerfehlzeit`
 10 Lehrerfehlgrunddetails|`Vertretungsplan > Neue Lehrerfehlzeit`
 11 Lehrer-Soll-Änderungsgründe|`Stammdaten > Lehrer > Lehrerzeitkonto`
 12 Lehrer-Soll-Arten|
 13 Lehrer-Soll-Schlüssel|`Stammdaten > Lehrer > Lehrerzeitkonto`
-14 Lehrerarten| `Stammdaten > Lehrer`<br>
-`Stundenplan > Zusatzfenster Passende Lehrer`<br>`Vertretungsplan > Vertretungen`
-15 Profile|
-16 Raumfehlgründe|
-17 Raumarten|
-18 Ressourcekategorien|
-19 Rollen|
-20 Schulformen|
-21 Schulstellen|
+14 Lehrerarten|`Stammdaten > Lehrer`<br>`Stundenplan > Zusatzfenster Passende Lehrer`<br>`Vertretungsplan > Vertretungen`<br> `Übersichten > Lehrerarbeitstage`<br> `Übersichten >Änderungen`|
+15 Profile| `Stammdaten > Stundentafeln`
+16 Raumfehlgründe|`Vertretungsplan > Neue Raumfehlzeit`
+17 Raumarten|`Stammdaten > Räume`<br> `Stundenplan > Veranstaltungsliste`<br>`Stundenplan > Detailfenster Veranstaltung bearbeiten`
+18 Ressourcekategorien|`Stammdaten > Ressourcen`<br>`Ressourceplan > Ressourceeinsatz`<br>`Ressourcenplan > Raumressourcen` 
+19 Rollen|`Kursplan > Prüfungen`
+20 Schulformen|`Stammdaten > Klasse`<br>`Stundenplan > Detailfenster Veranstaltung bearbeiten`<br> `Übersichten > Ausfallstatistik`
+21 Schulstellen|`Stammdaten > Klasse`
 22 Schultypen|
 23 Schulzweige|
-24 Unterrichtsarten|
-25 Unterrichtsformen|
-26 Veransatltungskategorien|
-27 Veransatltungsmerkmale|
-28 Vertretungsentfallgründe|
-29 Vertretungslehrerarten|
-30 Vertretungsqualitäten|
-31 Ressourcenmerkmale|
+24 Unterrichtsarten|`Stammdaten > Stundentafeln`<br>`Kursplan > Fachwahlen`<br>`Kursplan > Kurse`
+25 Unterrichtsformen|`Stammdaten > Stundentafeln`
+26 Veranstaltungskategorien|`Stundenplan > Detailfenster Veranstaltung bearbeiten`
+27 Veranstaltungsmerkmale|`Stundenplan > Detailfenster Veranstaltung bearbeiten`
+28 Vertretungsentfallgründe|`Vertretungsplan > Vertretungen`
+29 Vertretungslehrerarten|`Vertretungsplan > Vertretungen`
+30 Vertretungsqualitäten|`Vertretungsplan > Vertretungen`
+31 Ressourcenmerkmale|`Stammdaten > Ressourcen`<br>`Ressourceplan > Ressourceeinsatz`<br>`Ressourcenplan > Raumressourcen` 
