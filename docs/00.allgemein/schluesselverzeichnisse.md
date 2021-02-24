@@ -4,34 +4,34 @@ Dieser Abschnitt listet die Schlüsselverzeichnis auf, zeigt hinter welchem Verz
 
 Schlüsselverzeichniss | Verwendete Ansicht
 -|-
-01 Bildungsgänge|
-02 Dienststellen|
-03 Fachschwerpunkte|
-04 Fachstatus|
+01 Bildungsgänge|`Stammdaten > Klassen`
+02 Dienststellen| `Stammdaten > Lehrer > Lehrerzeitkonto`
+03 Fachschwerpunkte|`Kursplan > Fachwahlen`
+04 Fachstatus|`Stammdaten > Stundentafeln` <br> `Stundenplan > Detailfenster Veranstaltung bearbeiten`<br> `Kursplan > Kurse` <br> `Kursplan > Fachwahlen`
 05 Kalendereintragkategorien|
 06 Klassenfehlgründe|
 07 Klassenmerkmale|
 08 Lehrbereiche|
 09 Lehrerfehlgründe|
 10 Lehrerfehlgrunddetails|
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-2
-23
-24
-25
-26
-27
-28
-29
-30
-31
+11 Lehrer-Soll-Änderungsgründe|
+12 Lehrer-Soll-Arten|
+13 Lehrer-Soll-Schlüssel|
+14 Lehrerarten|
+15 Profile|
+16 Raumfehlgründe|
+17 Raumarten|
+18 Ressourcekategorien|
+19 Rollen|
+20 Schulformen|
+21 Schulstellen|
+22 Schultypen|
+23 Schulzweige|
+24 Unterrichtsarten|
+25 Unterrichtsformen|
+26 Veransatltungskategorien|
+27 Veransatltungsmerkmale|
+28 Vertretungsentfallgründe|
+29 Vertretungslehrerarten|
+30 Vertretungsqualitäten|
+31 Ressourcenmerkmale|
