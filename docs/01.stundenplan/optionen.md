@@ -5,6 +5,18 @@
 Option| Abbildung
 --|--
 **Meine Daten**|<img src="/assets/images/stundenplan/opt1.png">
+
+Eingabe | Erläuterung
+-|-
+Meine Daten| Erfassen Sie hier Ihre persönlichen Daten
+Allgemein| Erfassen Sie hier die Allgemeinen Daten der Schule
+
+!!! info "Hinweis"
+    Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben,können Sie die Eintragungen in der Optionsdatei nicht speichern.
+
+
+Option| Abbildung
+--|--
 **Plandatei**|<img src="/assets/images/stundenplan/opt.plandatei.png">
 **Einstellungen**|<img src="/assets/images/stundenplan/opt.einstellungen.png">
 **Ansicht**|<img src="/assets/images/stundenplan/opt.ansicht.png">
