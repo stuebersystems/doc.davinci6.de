@@ -5,11 +5,68 @@
 Option| Abbildung
 --|--
 **Meine Daten**|<img src="/assets/images/stundenplan/opt1.png">
+
+Eingabe | Erläuterung
+-|-
+Meine Daten| Erfassen Sie hier Ihre persönlichen Daten
+Allgemein| Erfassen Sie hier die Allgemeinen Daten der Schule
+
+!!! info "Hinweis"
+    Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben können Sie die Eintragungen in der Optionsdatei nicht speichern.
+
+Option| Abbildung
+--|--
 **Plandatei**|<img src="/assets/images/stundenplan/opt.plandatei.png">
+
+Eingabe | Erläuterung
+-|-
+Start|Einstellungen einer Startdatei 
+Kennung und Kennwort zum Anmelden am ENTERPRISE Server|Kennung und Kennwort zum Anmelden am ENTERPRISE Server
+Backup|Einstellungen zum Anlegen einer Backup Datei 
+Einstellungen|max. Anzahl zuletzt geöffneter Dateien
+
+Option| Abbildung
+--|--
 **Einstellungen**|<img src="/assets/images/stundenplan/opt.einstellungen.png">
+
+Eingabe | Erläuterung
+-|-
+Veranstaltungsliste|Vorgabewerte zur Arbeit mit der Veranstaltungsliste bezüglich Termindauer, Blockbildung, Kursnummer, Wiederholung
+Stammdatenfenster|Vorgabewerte zur Arbeit im Stammdatenfenster bezüglich Groß- und KLeinschreibung, Lehrerzeitkonten Pflichtstunden, Bearbeiten Modus des Stammdatenfenster
+Serverbetrieb|optische Bestätigung beim Trennen des Serverbetriebs
+Teamfilter|Teamfilter für die Veranstaltungsliste
+Ressourcen|Vorgabewerte beim Erzeugen des Barcodes für Ressourcen
+Prüfungen|aktuell nicht relevant
+Importieren|Vorgabe für den Import aus MAGELLAN oder einer Schuldatentransferdatei
+
+Option| Abbildung
+--|--
 **Ansicht**|<img src="/assets/images/stundenplan/opt.ansicht.png">
+
+Eingabe | Erläuterung
+-|-
+Ansichten|Ein- und Ausblenden der Ansichten
+Stammdatenregister|Ein- und Ausblenden der Stammdatenregister
+Menü `Plan`im Menüband oben|zuletzt verwendete Dateien löschen
+Lehrer-Ist-Werte in Zeitkonten|
+DAVINCI Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
+
+Option| Abbildung
+--|--
 **Plananzeige**|<img src="/assets/images/stundenplan/opt.plananzeige.png">
+
+Eingabe | Erläuterung
+-|-
+
+
+Option| Abbildung
+--|--
 **Stundenplan**|<img src="/assets/images/stundenplan/opt.stundenplan.png">
+
+Eingabe | Erläuterung
+-|-
+
+
 **Übersichtsplan**|<img src="/assets/images/stundenplan/opt.übersichtsplan.png">
 **Wochenplan**|<img src="/assets/images/stundenplan/opt.wochenplan.png">
 **Termine**|<img src="/assets/images/stundenplan/opt.termine.png">

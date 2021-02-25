@@ -12,7 +12,7 @@ Die Zahl vor der Kursbezeichnung in der Tabelle gibt die Anzahl der Kursteilnehm
 
 Im Dashboard unten werden wichtige Angaben zur Qualität der aktuellen Blockung und Verteilung gemacht:
 
-![Dashboard](/assets/mages/KP/p21.png)
+![Dashboard](/assets/images/KP/p21.png)
 
 Angabe               | Beschreibung
 -------------------- | ------------
