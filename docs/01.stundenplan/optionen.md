@@ -14,11 +14,33 @@ Allgemein| Erfassen Sie hier die Allgemeinen Daten der Schule
 !!! info "Hinweis"
     Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben,können Sie die Eintragungen in der Optionsdatei nicht speichern.
 
-
 Option| Abbildung
 --|--
 **Plandatei**|<img src="/assets/images/stundenplan/opt.plandatei.png">
+
+Eingabe | Erläuterung
+-|-
+Start|Einstellungen einer Startdatei 
+Kennung und Kennwort zum Anmelden am ENTERPRISE Server|Kennung und Kennwort zum Anmelden am ENTERPRISE Server
+Backup|Einstellungen zum Anlegen einer Backup Datei 
+Einstellungen|max. Anzahl zuletzt geöffneter Dateien
+
+Option| Abbildung
+--|--
 **Einstellungen**|<img src="/assets/images/stundenplan/opt.einstellungen.png">
+
+Eingabe | Erläuterung
+-|-
+Veranstaltungsliste|Vorgabewerte zur Arbeit mit der Veranstaltungsliste bezüglich Termindauer, Blockbildung, Kursnummer, Wiederholung
+Stammdatenfenster|Vorgabewerte zur Arbeit im Stammdatenfenster bezüglich Groß- und KLeinschreibung, Lehrerzeitkonten Pflichtstunden, Bearbeiten Modus des Stammdatenfenster
+Serverbetrieb|optische Bestätigung beim Trennen des Serverbetriebs
+Teamfilter|Teamfilter für die Veranstaltungsliste
+Ressourcen|Vorgabewerte beim Erzeugen des Barcodes für Ressourcen
+Prüfungen|aktuell nicht relevant
+Importieren|Vorgabe für den Import aus MAGELLAN oder einer Schuldatentransferdatei
+
+Option| Abbildung
+--|--
 **Ansicht**|<img src="/assets/images/stundenplan/opt.ansicht.png">
 **Plananzeige**|<img src="/assets/images/stundenplan/opt.plananzeige.png">
 **Stundenplan**|<img src="/assets/images/stundenplan/opt.stundenplan.png">
