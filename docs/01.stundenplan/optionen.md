@@ -12,7 +12,7 @@ Meine Daten| Erfassen Sie hier Ihre persönlichen Daten
 Allgemein| Erfassen Sie hier die Allgemeinen Daten der Schule
 
 !!! info "Hinweis"
-    Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben,können Sie die Eintragungen in der Optionsdatei nicht speichern.
+    Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben können Sie die Eintragungen in der Optionsdatei nicht speichern.
 
 Option| Abbildung
 --|--
@@ -42,8 +42,31 @@ Importieren|Vorgabe für den Import aus MAGELLAN oder einer Schuldatentransferda
 Option| Abbildung
 --|--
 **Ansicht**|<img src="/assets/images/stundenplan/opt.ansicht.png">
+
+Eingabe | Erläuterung
+-|-
+Ansichten|Ein- und Ausblenden der Ansichten
+Stammdatenregister|Ein- und Ausblenden der Stammdatenregister
+Menü `Plan`im Menüband oben|zuletzt verwendete Dateien löschen
+Lehrer-Ist-Werte in Zeitkonten|
+DAVINCI Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
+
+Option| Abbildung
+--|--
 **Plananzeige**|<img src="/assets/images/stundenplan/opt.plananzeige.png">
+
+Eingabe | Erläuterung
+-|-
+
+
+Option| Abbildung
+--|--
 **Stundenplan**|<img src="/assets/images/stundenplan/opt.stundenplan.png">
+
+Eingabe | Erläuterung
+-|-
+
+
 **Übersichtsplan**|<img src="/assets/images/stundenplan/opt.übersichtsplan.png">
 **Wochenplan**|<img src="/assets/images/stundenplan/opt.wochenplan.png">
 **Termine**|<img src="/assets/images/stundenplan/opt.termine.png">
