@@ -48,7 +48,7 @@ Eingabe | Erläuterung
 Ansichten|Ein- und Ausblenden der Ansichten
 Stammdatenregister|Ein- und Ausblenden der Stammdatenregister
 Menü `Plan`im Menüband oben|zuletzt verwendete Dateien löschen
-Lehrer-Ist-Werte in Zeitkonten|
+Lehrer-Ist-Werte in Zeitkonten|Einstellung ob geplant oder Verplanwerte für die Summierung genutzt werden
 DAVINCI Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
 
 Option| Abbildung
@@ -57,7 +57,8 @@ Option| Abbildung
 
 Eingabe | Erläuterung
 -|-
-
+Allgemein|Allgemeinne Anzeigeeinstellungen für den Bereich Stundenplan
+Änderungen|Vertretungsplaneinstellungen für den Bereich Stundenplan
 
 Option| Abbildung
 --|--
@@ -65,20 +66,66 @@ Option| Abbildung
 
 Eingabe | Erläuterung
 -|-
+Planeinträge|Detailvorgaben für Planeinträge im Bereich Stundenplan
+Arbeiten im Bildschirmplan|Vorgaben für das Verplanen von Kollisionen und Doppelklick Belegung im Berecih Stundenplan
+Weitere Eigenschaften| `Eigenschaften > Stundenplan`
 
-
+Option| Abbildung
+--|--
 **Übersichtsplan**|<img src="/assets/images/stundenplan/opt.übersichtsplan.png">
+
+Option| Abbildung
+--|--
 **Wochenplan**|<img src="/assets/images/stundenplan/opt.wochenplan.png">
+
+Option| Abbildung
+--|--
 **Termine**|<img src="/assets/images/stundenplan/opt.termine.png">
+
+Option| Abbildung
+--|--
 **Farben**|<img src="/assets/images/stundenplan/opt.farben.png">
+
+Option| Abbildung
+--|--
 **Vertretungsplan**|<img src="/assets/images/stundenplan/opt.vertretungsplan.png">
+
+Option| Abbildung
+--|--
 **Kursplan**|<img src="/assets/images/stundenplan/opt.kursplan.png">
+
+Option| Abbildung
+--|--
 **Kalender**|<img src="/assets/images/stundenplan/opt.kalender.png">
+
+Option| Abbildung
+--|--
 **Bezeichnungen**|<img src="/assets/images/stundenplan/opt.bezeichnungen.png">
+
+Option| Abbildung
+--|--
 **Internet**|<img src="/assets/images/stundenplan/opt.internet.png">
+
+Option| Abbildung
+--|--
 **Upload**|<img src="/assets/images/stundenplan/opt.upload.png">
+
+Option| Abbildung
+--|--
 **Auto-Update**|<img src="/assets/images/stundenplan/opt.autoupdate.png">
+
+Option| Abbildung
+--|--
 **Sprache**|<img src="/assets/images/stundenplan/opt.sprache.png">
+
+Option| Abbildung
+--|--
 **E-Mail**|<img src="/assets/images/stundenplan/opt.email.png">
+
+Option| Abbildung
+--|--
 **Mitteilungen**|<img src="/assets/images/stundenplan/opt.mitteilungen.png">
+
+Option| Abbildung
+--|--
 **SMS-Nachrichten**|<img src="/assets/images/stundenplan/opt.sms.png">
