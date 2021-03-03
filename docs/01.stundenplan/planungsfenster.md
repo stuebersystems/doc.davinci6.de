@@ -1,6 +1,8 @@
-# Unterrichtstermine bearbeiten
+# Das Planungsfenster
 
-Das Planungsfenster des Programmbereichs ``Stundenplan`` bietet Ihnen eine Reihe von Funktionen, mit denen Sie Unterrichtstermine bearbeiten und die Feinabstimmung Ihrer Stundenpläne vornehmen können.
+Das Planungsfenster ist eines der zentralen Fenster in DAVINCI. Im Planungsfenster wird standardmäßig links das Zusatzfenster, in der Mitte der Plan und rechts die Unterrichtsverteilung bzw. die Veranstaltungsliste angezeigt. In diesem Fenster geben Sie die Unterrichtsverteilung und den Lehrereinsatz ein und können manuell Planänderungen direkt im Bildschirmplan durchführen.
+
+
 
 So können Sie z.B. über die Menügruppe ``Start > Stundenplan`` das zentrale Dialogfenster zur Bearbeitung der Termindaten aufrufen, um neue Termine einzufügen und bereits gesetzte Termine zu bearbeiten. Natürlich können Sie gesetzte Termine auch wieder aus dem Planungsfenster löschen. Außerdem besteht die Möglichkeit vorhandene Terminfelder zu duplizieren. Weitere Funktionen erlauben Ihnen, Doppelstunden-Termine zu teilen oder Termine um eine Stunde zu verlängern oder zu verkürzen.
 

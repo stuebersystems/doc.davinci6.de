@@ -4,7 +4,7 @@
 
 | DAVINCI| Kompatibilität|
 | -- | -- |
-| **Betriebssystem 32-Bit** | Windows XP / Windows 2003 / Windows Vista / Windows 2008 / Windows 7 / Windows 8 / Windows 10 |
+| **Betriebssystem 32-Bit** | Windows Vista / Windows 2008 / Windows 7 / Windows 8 / Windows 10 |
 | **Betriebssystem 64-Bit** | Windows 7 / Windows 8 / Windows 10 / Windows 2008 / Windows 2012 / Windows 2016 / Windows 2019|
 | **Hardware** | DAVINCI benötigt keine besonderen Hardware-Anforderungen |
 | **Bildschirmauflösung** | Die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten |

@@ -1,4 +1,4 @@
-# Räume zuordnen
+# Raumzuweisung
 
 In DAVINCI stehen Ihnen zwei Wege zur Verfügung, um einer Veranstaltung Räume zuzuordnen:
 

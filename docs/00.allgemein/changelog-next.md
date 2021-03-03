@@ -12,24 +12,24 @@
 | NEW | Neue Funktionalität |
 | CHANGE | Änderung des Ablaufs, Verarbeitung oder Bedienung |
 
-## DAVINCI WEBBOX Version 1.10.5 \[unveröffentlicht\]
+## DAVINCI MOBILE APP [unveröffentlicht]
 
-[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
+* NEW: Testfunktion für die Serververbindung
+* NEW: Im Detailfenster einer Veranstaltung (Klick aufs Terminfeld) werden für Vertretungen auch die Vertretungsinformation und die Vertretungsmitteilung gezeigt (beide Informationen werden in DAVINCI Vertretungsplan in der Vertretungsliste in den gleichnamigen Spalten erfasst)
+* NEW: Die Bezeichnung des Klassenfehlgrunds wird beim Klick auf ein Terminfeld im Detailfenster zusätzlich zur Information "Klasse fehlt" gezeigt. 
+
+## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
+
+[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
 
 !!! warning "Wichtig"
 
     Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
-* FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
-* FIX: Anzeige von Wochentagen in der Vertretungsliste (davinci-substitutions.html) korrigiert
-* NEW: Neuer Parameter (+ Wert) "substSort=key". Dieser Parameter arbeitet gemeinsam mit dem Parameter "substKey".
-  Beispiele:
-  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
-  * Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=class&substSort=key
-* FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
-* FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
+* FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
+* NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.67
+## DAVINCI Version 6.5.69
 
 ### Allgemein
 
@@ -37,11 +37,12 @@
 
 ### STUNDENPLAN
 
-* FIX: 
+* FIX: mehrtägige Ereignisse werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
+* FIX: Ereignisse (von-bis Zeit) werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
 
 ### VERTRETUNGSPLAN
 
-* FIX: 
+* FIX:
 
 ### SERVER
 
@@ -53,8 +54,8 @@
 
 ### KURSPLAN
 
-* FIX: 
-
+* FIX:
+  
 ### DRUCK
 
 * FIX:

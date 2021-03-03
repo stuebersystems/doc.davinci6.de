@@ -17,8 +17,8 @@ theme:
     custom_dir: overrides
     language: de
     features:
-        - tabs
-        - instant
+        - navigation.tabs
+        - navigation.instant
     palette:
         primary: 'blue'
         accent: 'deep orange'
@@ -60,6 +60,7 @@ nav:
     - Was ist neu?: 00.allgemein/changelog.md
     - Geplante Änderungen: 00.allgemein/changelog-next.md
     - Änderungsarchiv:
+        - Änderungen 2020: 00.allgemein/changelog-2020.md 
         - Änderungen 2019: 00.allgemein/changelog-2019.md
         - Änderungen 2018: 00.allgemein/changelog-2018.md
         - Änderungen 2017: 00.allgemein/changelog-2017.md
@@ -77,6 +78,7 @@ nav:
   - Referenzen:
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
+    - Schlüsselverzeichnisse: 00.allgemein/schluesselverzeichnisse.md
   - Datenaustausch: 
     - Import und Export: 11.datenaustausch/import_export.md
     - Mit MAGELLAN: 11.datenaustausch/magellan.md
@@ -92,7 +94,9 @@ nav:
     - Nordrhein-Westfalen: 10.regionales/nordrhein-westfalen.md
     - Rheinland-Pfalz: 
       - edoo.sys: 10.regionales/rlp-edoosys.md
-    - Sachsen: 10.regionales/sachsen.md
+    - Sachsen: 
+      - Ausfallstatistik: 10.regionales/sac-ausfallstatistik.md
+      - LernSax: 10.regionales/sac-lernsax.md
     - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
 - STUNDENPLAN: 
   - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
@@ -119,6 +123,7 @@ nav:
     - Einstellungen für das manuelle Planen: 01.stundenplan/einstellungen-fur-das-manuelle-planen.md
     - Mit der Automatik planen: 01.stundenplan/automatik-planen.md
     - Planungsfenster: 01.stundenplan/planungsfenster.md
+  - Mit einmaligen Terminen planen: 01.stundenplan/einmalige-termine.md  
   - Stundensummen ermitteln: 01.stundenplan/stundensummen-ermitteln.md
   - Aufsichtspläne erstellen: 01.stundenplan/aufsichtsplane-erstellen.md
   - Übersichten: 01.stundenplan/uebersichten.md
@@ -128,6 +133,7 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
+  - DAVINCI Optionen: 01.stundenplan/optionen.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
@@ -147,9 +153,11 @@ nav:
   - Allgemeines: 04.ressourcen/01.allgemeines.md
   - So gehen Sie vor: 04.ressourcen/02.einsatz.md
 - LOOK: 
-  - Allgemeines: 05.look/00.allgemeines.md
+  - Allgemeines: 05.look/allgemeines.md
   - Installation und Update: 05.look/01.installation.md
-  - Ansichten und Funktionalitäten: 05.look/02.nutzung.md
+  - Ansichten: 05.look/ansichten.md
+  - Funktionalitäten: 05.look/funktionalitaeten.md
+  - Einrichtung für E-Boards: 05.look/eboard.md
 - ENTERPRISE:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
   - DAVINCI SERVER: 
@@ -162,6 +170,7 @@ nav:
     - Benutzer und Benutzergruppen: 06.enterprise/06.benutzer.md
     - Plandateien: 06.enterprise/07.plandateien.md
     - Zugriffsrechte: 06.enterprise/08.rechte.md
+    - Übersicht über die Rechte: 06.enterprise/10.rechteuebersicht.md
     - Mandanten: 06.enterprise/09.mandanten.md
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md

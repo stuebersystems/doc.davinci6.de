@@ -4,7 +4,7 @@ DAVINCI speichert die Daten im XML-Format ab. Auf diese Daten können Sie mit je
 
 Sie können Plandaten mit DAVINCI über das Schuldatentransferformat austauschen. Dateien im Schuldatentransferformat sind Textdateien, mit denen Sie Daten einerseits nach DAVINCI importieren und andererseits aus DAVINCI exportieren können. Das Schuldatentransferformat bildet z.B. die Grundlage für den Datenabgleich mit MAGELLAN, wird aber auch von anderen Softwareanbietern aus dem Bereich Schulverwaltung und Stundenplanung unterstützt.
 
-Die Beschreibung des Schuldatentransferformats finden Sie [hier](https://doc.sdtf.stueber.de/).
+Die Beschreibung des Schuldatentransferformates finden Sie [hier](https://doc.sdtf.stueber.de/).
 
 ## Schuldatentransferdatei exportieren
 
@@ -12,7 +12,7 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 
 1. Klicken Sie im Menüband des Programmfensters auf die Schaltfläche `Plan` und wählen Sie im Planmenü den Befehl `Importieren und Exportieren`: der Assistent `Import/ Export-Assistent` wird geöffnet.
 
-![Import/Export-Assistent](..\assets\images\datenaustausch\datenaustausch1.png)
+![Import/Export-Assistent](/assets/images/datenaustausch/datenaustausch1.png)
 2. Markieren Sie auf der ersten Assistentenseite im Bereich `Exportieren` den Eintrag `DAVINCI Schuldatentransferdatei exportieren` und bestätigen Sie Ihre Auswahl mit `Weiter`.
 3. Klicken Sie im Bereich `Datei` der nächsten Assistentenseite auf die Schaltfläche `Datei auswählen`. Wählen Sie im Explorerfenster `Öffnen` das Zielverzeichnis der Exportdatei aus und geben Sie den gewünschten Dateinamen ein. Bestätigen Sie Ihre Angaben im Explorerfenster Öffnen mit `Öffnen`: der Dateipfadname der Exportdatei wird nun im Bereich `Datei` der Assistentenseite `daVinci-Schuldatentransferdatei exportieren` hinterlegt
 4. Aktivieren Sie im Bereich `Weitere Angaben` die gewünschten Optionen für den Export der DAVINCI-Daten in die Exportdatei:
@@ -31,7 +31,7 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 2. Markieren Sie auf der ersten Assistentenseite im Bereich `Importieren` den Eintrag `DAVINCI-Schuldatentransferdatei importieren`, bestätigen Sie Ihre Auswahl mit `Weiter`.
 3. Klicken Sie im Bereich `Datei` der nächsten Assistentenseite auf die Schaltfläche `Datei auswählen`. Wählen Sie im Explorerfenster `Öffnen` die gewünschte Importdatei aus. Bestätigen Sie Ihre Auswahl im Explorerfenster `Öffnen` mit Öffnen: der Dateipfadname der Importdatei wird nun im Bereich `Datei` der Assistentenseite `DAVINCI-Schuldatentransferdatei importieren` hinterlegt
 4. Aktivieren Sie im Bereich `Weitere Angaben` die gewünschten Optionen für den Import der DAVINCI-Daten in die Exportdatei:
-   
+
 |Auswahl | Bedeutung|
 |---|---|
 |`Veranstaltungen und Blöcke importieren`|Veranstaltungen und Blöcke importieren: Mit dieser Option werden die Veranstaltungs- und Termindaten aus der Schuldatentransferdatei in die daVinci-Datei übertragen.|
@@ -39,8 +39,9 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 |`Schülerdaten importieren`| Mit dieser Option werden die Schülerdaten der Oberstufe einschließlich der bei diesen hinterlegten Fach- bzw. Kurswahlen in die DAVINCI-Datei übertragen. Diese Option ist nur relevant, wenn Sie mit DAVINCI KURSPLAN arbeiten.|
 |`In gleiche Blockbezeichner importieren` | Um anzugeben, das die Veranstaltungs- und Ter-mindaten aus der Schuldatentransferdatei mit den dort hinterlegten Blockkürzeln in die da-Vinci-Datei übertragen werden. Falls dieser Haken nicht gesetzt ist, wird für die in der Schul-datentransferdatei angelegten Blockkürzel beim Einspielen in daVinci ein neues Blockkürzel vergeben.|
 |`Sperrungen importieren` | Mit dieser Option werden die in der Schuldatentransferdatei angelegten Sperrungen in die DAVINCI-Datei übertragen.
-4. Wählen Sie im unteren Bereich über das entsprechende Aufklappemenü aus folgenden Optionen aus:
-   
+
+5. Wählen Sie im unteren Bereich über das entsprechende Aufklappemenü aus folgenden Optionen aus:
+
 |Auswahl | Bedeutung|
 |---|---|
 |`Alle Feldinhalte (auch leere) importieren` ODER `Leere Feldinhalte ignorieren, gefüllte ersetzen` | |
@@ -48,7 +49,7 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 
 ![Importieren und Exportieren-Assistent](/assets/images/KP/datenabgleich2.png)
 
-5. Bestätigen Sie Ihre Angaben mit `Weiter`. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand des grünen Fortschrittsbalkens im Dialogfenster `Importieren` erkennen.
+6. Bestätigen Sie Ihre Angaben mit `Weiter`. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand des grünen Fortschrittsbalkens im Dialogfenster `Importieren` erkennen.
 
 !!! warning "Wichtig"
 

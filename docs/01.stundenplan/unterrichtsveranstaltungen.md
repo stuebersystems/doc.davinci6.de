@@ -1,16 +1,16 @@
-# Unterrichtsveranstaltungen
+# Die Veranstaltungsliste
 
 ## Allgemeines
 
-Bevor mit der Zeitplanung begonnen werden kann, muss die Unterrichtsverteilung geplant werden. Sie ist die Voraussetzung für die spätere zeitliche Verplanung der Termine. In der Unterrichtsverteilung wird bestimmt:
+Grundlage für die spätere Unterrichtsverteilung bildet die Veranstaltungsliste, die folgendes bestimmt: 
 
-* Welche Klassen welchen Unterricht haben
-* Welche Lehrer welches Fach in den Klassen unterrichten (die Lehrereinsatzplanung)
-* Welche Räume neben dem Klassenraum für bestimmte Veranstaltungen vorgesehen sind (die Raumeinsatzplanung)
+* Welche Klassen hat welchen Unterricht?
+* Welche Lehrer unterrichten welches Fach in den Klassen?(Lehrereinsatzplanung)
+* Welche Räume sind neben dem Klassenraum für bestimmte Veranstaltungen vorgesehen? (Raumeinsatzplanung)
 
-Die Unterrichtsverteilung besteht in DAVINCI aus einer Liste von Veranstaltungen für jede Klasse. Jede Veranstaltung wird im wesentlichen durch das Fach und die entsprechende Klasse charakterisiert. Jede Veranstaltung hat entsprechend der vom Planer vorgegebenen "Dauer" eine Anzahl von Terminen, z.B. soll Deutsch insgesamt mit einer "Dauer" von 5 Stunden unterrichtet werden, wobei sich die Stunden auf die drei Termine "2-2-1" aufteilen sollen, also zwei Doppelstunden und eine Einzelstunde. Die Termine übernehmen im Regelfall die Angaben der Veranstaltung, also beispielsweise das Fach, den Fachschwerpunkt, den Lehrer, den Raum, die Block Bezeichnung usw. Ein besonderes Merkmal in DAVINCI ist es allerdings, dass im Spezialfall diese Eigenschaften auch für jeden Termin einzeln eingegeben werden kann. So soll z.B. nur einer der drei Termine mit anderen Terminen geblockt sein.
+Die sogenannte Veranstaltungsliste in DAVINCI ist eine Liste von Veranstaltungen für jede Klasse. Dabei wird jede Veranstaltung im wesentlichen durch das Fach und die entsprechende Klasse charakterisiert. Jede Veranstaltung hat eine vorgegebene "Dauer" (eine Anzahl von Terminen). So soll z.B. ein Fach "Deutsch" insgesamt mit einer "Dauer" von 5 Stunden unterrichtet werden. Diese Stunden sollen sich auf die drei Termine "2-2-1" aufteilen, also zwei Doppelstunden und eine Einzelstunde. Die Termine übernehmen im Regelfall die Angaben der Veranstaltung, also beispielsweise das Fach, den Fachschwerpunkt, den Lehrer, den Raum, die Block Bezeichnung usw. Ein besonderes Merkmal in DAVINCI ist es allerdings, dass im Spezialfall diese Eigenschaften auch für jeden Termin einzeln eingegeben werden kann. So soll z.B. nur einer der drei Termine mit anderen Terminen geblockt sein.
 
-Erfahrungsgemäß findet die Unterrichtsplanung hauptsächlich in den Einzelplänen der Planart **Klasse** statt. Die anderen Planarten, wie z.B. Lehrer- und Raumpläne, kommen vorwiegend ergänzend oder zur Feinabstimmung bereits fortgeschrittener Stundenpläne zum Einsatz. Deshalb wird in diesem und den nächsten Abschnitten die Planart „Klasse“ im Mittelpunkt der Darstellung stehen.
+Die Verplanung des Unterrichts findet hauptsächlich in den Einzelklassenplänen statt. Die anderen Planarten, wie z.B. Lehrer- und Raumpläne, kommen vorwiegend ergänzend oder zur Feinabstimmung bereits fortgeschrittener Stundenpläne zum Einsatz. Deshalb wird in diesem und den nächsten Abschnitten die Planansicht „Klasse“ im Mittelpunkt der Darstellung stehen.
 
 ### So beginnen Sie
 

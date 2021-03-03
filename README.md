@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/stuebersystems/Websites/_apis/build/status/docs/doc.davinci6.de?branchName=master)](https://dev.azure.com/stuebersystems/Websites/_build/latest?definitionId=50&branchName=master)
 ![Deployment status](https://vsrm.dev.azure.com/stuebersystems/_apis/public/Release/badge/2cc87afa-9a3b-472b-8a3c-3eca48b22dd6/9/10)
 
 # DAVINCI 6 Dokumentation

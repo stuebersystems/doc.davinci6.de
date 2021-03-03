@@ -4,7 +4,11 @@
 
 DAVINCI LOOK ist ein frei verfügbares Anzeigeprogramm für DAVINCI Pläne. Diese Anleitung beschreibt, wie Sie in DAVINCI LOOK Pläne und Vertretungslisten anzeigen und wie Sie Räume, Ressourcen, Zusatzunterricht und Fehlzeiten buchen können. Die Pläne lassen sich ausdrucken, aber nicht verändern.
 
-DAVINCI LOOK ist einfach zu installieren und kann sowohl in der Einzelplatzvariante mit einer lokalen Plandatei arbeiten, als auch sich am DAVINCI ENTERPRISE Server anmelden und über eine Internetverbindung auf eine zentrale Plandatei zugreifen. DAVINCI LOOK ist frei verfügbar und kann von jedem Kollegen von unseren Internetseiten geladen werden.
+!!! info "Hinweis"
+    Ressourcen können nur über DAVINCI LOOK gebucht werden, wenn Sie über die Zusatzmodule DAVINCI RESSOURCENPLANER und DAVINCI ENTERPRISE verfügen.
+    Raumänderungen, Raumbuchungen, Erfassen von Zusatzunterricht und Fehlzeiten ist nur über DAVINCI LOOK möglich, wenn Sie über das Zusatzmodul DAVINCI ENTERPRISE verfügen.
+
+DAVINCI LOOK ist einfach zu installieren und kann sowohl in der Einzelplatzvariante mit einer lokalen Plandatei arbeiten, als auch sich am DAVINCI ENTERPRISE Server anmelden und über eine Internetverbindung auf eine zentrale Plandatei zugreifen. DAVINCI LOOK ist frei verfügbar und kann von jedem Kollegen von unseren [Internetseiten](https://davinci.stueber.de/download.php) geladen werden.
 
 ### Funktionen
 
@@ -20,7 +24,9 @@ DAVINCI LOOK ist einfach zu installieren und kann sowohl in der Einzelplatzvaria
 
 ### Self Service
 
-Das Buchen von Räumen, Ressourcen, Zusatzunterricht und Fehlzeiten erfordert Benutzer und Rechte. Daher ist für diese Funktionen eine DAVINCI ENTERPRISE Lizenz erforderlich.
+Das Buchen von Räumen, Zusatzunterricht und Fehlzeiten erfordert Benutzer und Rechte. Daher ist für diese Funktionen eine DAVINCI ENTERPRISE Lizenz erforderlich.
+
+Das Buchen von Ressourcen erfordert ebenfalls Benutzer und Rechte sowie erfasste Ressourcen. Daher sind für diese Funktionen eine DAVINCI ENTERPRISE und DAVINCI RESSOURCENPLANER Lizenz erforderlich.
 
 ### E-Boards
 
