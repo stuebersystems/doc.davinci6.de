@@ -2,6 +2,8 @@
 
 Über `Extras > Optionen` können Sie Ihre DAVINCI Optionen öffnen. Es handelt sich hier um individuelle Einstellungen pro Rechner.
 
+## Meine Daten
+
 Option| Abbildung
 --|--
 **Meine Daten**|<img src="/assets/images/stundenplan/opt1.png">
@@ -14,6 +16,8 @@ Allgemein| Erfassen Sie hier die Allgemeinen Daten der Schule
 !!! info "Hinweis"
     Die mit einem * gekennzeichneten Eingaben sind Pflichtangaben. Ohne diese Angaben können Sie die Eintragungen in der Optionsdatei nicht speichern.
 
+## Plandatei
+
 Option| Abbildung
 --|--
 **Plandatei**|<img src="/assets/images/stundenplan/opt.plandatei.png">
@@ -24,6 +28,8 @@ Start|Einstellungen einer Startdatei
 Kennung und Kennwort zum Anmelden am ENTERPRISE Server|Kennung und Kennwort zum Anmelden am ENTERPRISE Server
 Backup|Einstellungen zum Anlegen einer Backup Datei 
 Einstellungen|max. Anzahl zuletzt geöffneter Dateien
+
+## Einstellungen
 
 Option| Abbildung
 --|--
@@ -39,6 +45,8 @@ Ressourcen|Vorgabewerte beim Erzeugen des Barcodes für Ressourcen
 Prüfungen|aktuell nicht relevant
 Importieren|Vorgabe für den Import aus MAGELLAN oder einer Schuldatentransferdatei
 
+## Ansicht
+
 Option| Abbildung
 --|--
 **Ansicht**|<img src="/assets/images/stundenplan/opt.ansicht.png">
@@ -51,6 +59,8 @@ Menü `Plan`im Menüband oben|zuletzt verwendete Dateien löschen
 Lehrer-Ist-Werte in Zeitkonten|Einstellung ob geplant oder Verplanwerte für die Summierung genutzt werden
 DAVINCI Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
 
+## Plananzeige
+
 Option| Abbildung
 --|--
 **Plananzeige**|<img src="/assets/images/stundenplan/opt.plananzeige.png">
@@ -60,6 +70,8 @@ Eingabe | Erläuterung
 Allgemein|Allgemeinne Anzeigeeinstellungen für den Bereich Stundenplan
 Änderungen|Vertretungsplaneinstellungen für den Bereich Stundenplan
 
+## Stundenplan
+
 Option| Abbildung
 --|--
 **Stundenplan**|<img src="/assets/images/stundenplan/opt.stundenplan.png">
@@ -67,12 +79,18 @@ Option| Abbildung
 Eingabe | Erläuterung
 -|-
 Planeinträge|Detailvorgaben für Planeinträge im Bereich Stundenplan
-Arbeiten im Bildschirmplan|Vorgaben für das Verplanen von Kollisionen und Doppelklick Belegung im Berecih Stundenplan
+Arbeiten im Bildschirmplan|Vorgaben für das Verplanen von Kollisionen und Doppelklick Belegung im Bereich Stundenplan
 Weitere Eigenschaften| `Eigenschaften > Stundenplan`
+
+## Übersichtsplan
 
 Option| Abbildung
 --|--
 **Übersichtsplan**|<img src="/assets/images/stundenplan/opt.übersichtsplan.png">
+
+Eingabe | Erläuterung
+-|-
+Übersichtsplan| Vorgaben für die Ansicht `Stundenplan > Ansicht > Übersichtsplan`
 
 Option| Abbildung
 --|--
