@@ -8,22 +8,22 @@ Wenn Sie in Ihrem Schulnetzwerk die DAVINCI-Module aktualisieren möchten, sind 
 
 Auf welchen Rechnern|Was muss aktualisiert werden
 ---|---
- Auf den Clients| [DAVINCI](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6.msi) <br/>[DAVINCI LOOK](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6look.msi)
- Auf dem oder den Serverrechner(n) <br/>(ggfs. laufen der DAVINCI INFOSERVER und der DAVINCI Server auf getrennten Rechnern) |[DAVINCI Server](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6server.msi)<br/>[DAVINCI INFOSERVER](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6infoserver.msi)<br/>[WEBBOX Dateien](https://davinci-webbox.stueber.de/)
+ Auf den Clients| [DAVINCI](https://download.stueber.de/bin/de/davinci/v6/davinci6.msi) <br/>[DAVINCI LOOK](https://download.stueber.de/bin/de/davinci/v6/davinci6look.msi)
+ Auf dem oder den Serverrechner(n) <br/>(ggfs. laufen der DAVINCI INFOSERVER und der DAVINCI Server auf getrennten Rechnern) |[DAVINCI Server](https://download.stueber.de/bin/de/davinci/v6/davinci6server.msi)<br/>[DAVINCI INFOSERVER](https://download.stueber.de/bin/de/davinci/v6/davinci6infoserver.msi)<br/>[WEBBOX Dateien](https://davinci-webbox.stueber.de/)
   
 ## Den DAVINCI Server aktualisieren
 
 Möchten Sie eine neue Version des DAVINCI Servers einspielen, gehen Sie wie folgt vor:
 
 1. Stellen Sie sicher, dass die DAVINCI Benutzer abgemeldet sind.
-2. Führen Sie die Installation mit einem aktuelleren [Installationspaket](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6server.msi) des DAVINCI Servers aus. Das Setup ersetzt dabei automatisch Ihre bisherigen DAVINCI Server Dateien.
+2. Führen Sie die Installation mit einem aktuelleren [Installationspaket](https://download.stueber.de/bin/de/davinci/v6/davinci6server.msi) des DAVINCI Servers aus. Das Setup ersetzt dabei automatisch Ihre bisherigen DAVINCI Server Dateien.
 
 ## Den DAVINCI INFOSERVER aktualisieren
 
 Möchten Sie eine neue Version des DAVINCI INFOSERVER einspielen, gehen Sie wie folgt vor:
 
 1. Stoppen Sie Ihren Web-Server.
-2. Führen Sie die Installation mit einem aktuelleren [Installationspaket](ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6infoserver.msi) des DAVINCI INFOSERVERS aus. Das Setup ersetzt dabei automatisch Ihre bisherigen DAVINCI INFOSERVER Dateien.
+2. Führen Sie die Installation mit einem aktuelleren [Installationspaket](https://download.stueber.de/bin/de/davinci/v6/davinci6infoserver.msi) des DAVINCI INFOSERVERS aus. Das Setup ersetzt dabei automatisch Ihre bisherigen DAVINCI INFOSERVER Dateien.
 3. Starten Sie den Web-Server neu.
 
 ## Die DAVINCI WEBBOX aktualisieren

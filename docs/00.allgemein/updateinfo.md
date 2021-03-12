@@ -22,7 +22,7 @@ Ein Beispiel für eine Update-Infodatei:
      Product="daVinci6" 
      ProductVersion="6.0.210" 
      SetupFileName="daVinci6.msi"
-     SetupURL="ftp://ftp.stueber.de/pub/bin/de/davinci/v6/davinci6.msi"
+     SetupURL="https://download.stueber.de/bin/de/davinci/v6/davinci6.msi"
      SetupSize="128726016" />
 </UpdateInfo>
 ```
