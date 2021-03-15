@@ -297,6 +297,10 @@ Eintritt / Austritt | Eintritts- und Austrittsdatum
 Externe ID | ID für ein Fremdprogramm
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
+!!! info "Hinweis"
+
+Zum Einfügen von Lehrersymbolen: Bitte klicken Sie mit der linken Maustaste in die Spalte "Symbol". Über das Kontextmenü der rechten Maustaste können Sie dann die Symbole laden. Standardmäßig finden Sie diese in folgendem Ordner: `C:\Users\Public\Documents\Stueber Systems\daVinci 6\Lehrersymbole`
+
 ### Die Lehrer Soll-Berechnung
 
 Bei der Lehrereinsatzplanung mit DAVINCI wird für jeden Lehrer die Sollvorgabe benötigt, die sich aus den vom Kultusministerium vorgegebenen Pflichtstunden abzüglich Ermäßigungsstunden und zuzüglich Mehrstunden ergibt.
