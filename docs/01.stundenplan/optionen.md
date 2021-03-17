@@ -92,17 +92,42 @@ Eingabe | Erläuterung
 -|-
 Übersichtsplan| Vorgaben für die Ansicht `Stundenplan > Ansicht > Übersichtsplan`
 
+## Wochenplan
+
 Option| Abbildung
 --|--
 **Wochenplan**|<img src="/assets/images/stundenplan/opt.wochenplan.png">
+
+Eingabe | Erläuterung
+-|-
+Maximal sichtbare Wochen/Spalten und Wochentage | Vorgaben für das Öffnen der Ansicht Wochenplan
+
+## Termine
 
 Option| Abbildung
 --|--
 **Termine**|<img src="/assets/images/stundenplan/opt.termine.png">
 
+Eingabe | Erläuterung
+-|-
+Planeintrag| was kann wie in den Planeinträgen dargestellt werden
+Terminüberschriften|Schriftart und -größe
+Titelangaben|Schriftart und -größe
+Positions- und Zeitangaben|Schriftart und -größe
+
+## Farben
+
 Option| Abbildung
 --|--
 **Farben**|<img src="/assets/images/stundenplan/opt.farben.png">
+
+Eingabe | Erläuterung
+-|-
+Allgemein| Farben 
+Stundenplan | Farben im Stundenplan
+Kursplan|Farben im Kursplan
+Jahresverteilung| Farben in der Jahresverteilung
+Weitere|weitere Farben
 
 Option| Abbildung
 --|--
