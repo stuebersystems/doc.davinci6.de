@@ -129,9 +129,18 @@ Kursplan|Farben im Kursplan
 Jahresverteilung| Farben in der Jahresverteilung
 Weitere|weitere Farben
 
+## Vertretungsplan
+
 Option| Abbildung
 --|--
 **Vertretungsplan**|<img src="/assets/images/stundenplan/opt.vertretungsplan.png">
+
+Eingabe | Erläuterung
+-|-
+Vordefinierte Infos| Eingabe von vordefinierten Infos zur Auswahl in `Vertretungen > Vertretungen`
+Vordefinierte Mitteilungen|Eingabe von vordefinierten Mitteilungen zur Auswahl in `Vertretungen > Vertretungen`
+Vordefinierte Bemerkungen|Eingabe von vordefinierten Bemerkungen zur Auswahl in `Vertretungen > Vertretungen`
+Einstellungen| Voreinstellungen für die Vertretungsplanung
 
 Option| Abbildung
 --|--
