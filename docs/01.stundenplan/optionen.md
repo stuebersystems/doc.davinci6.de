@@ -142,41 +142,61 @@ Vordefinierte Mitteilungen|Eingabe von vordefinierten Mitteilungen zur Auswahl i
 Vordefinierte Bemerkungen|Eingabe von vordefinierten Bemerkungen zur Auswahl in `Vertretungen > Vertretungen`
 Einstellungen| Voreinstellungen für die Vertretungsplanung
 
+## Kursplan
+
 Option| Abbildung
 --|--
 **Kursplan**|<img src="/assets/images/stundenplan/opt.kursplan.png">
+
+## Kalender
 
 Option| Abbildung
 --|--
 **Kalender**|<img src="/assets/images/stundenplan/opt.kalender.png">
 
+## Bezeichnungen
+
 Option| Abbildung
 --|--
 **Bezeichnungen**|<img src="/assets/images/stundenplan/opt.bezeichnungen.png">
+
+## Internet
 
 Option| Abbildung
 --|--
 **Internet**|<img src="/assets/images/stundenplan/opt.internet.png">
 
+## Upload
+
 Option| Abbildung
 --|--
 **Upload**|<img src="/assets/images/stundenplan/opt.upload.png">
+
+## Auto-Update
 
 Option| Abbildung
 --|--
 **Auto-Update**|<img src="/assets/images/stundenplan/opt.autoupdate.png">
 
+## Sprache
+
 Option| Abbildung
 --|--
 **Sprache**|<img src="/assets/images/stundenplan/opt.sprache.png">
+
+## E-Mail
 
 Option| Abbildung
 --|--
 **E-Mail**|<img src="/assets/images/stundenplan/opt.email.png">
 
+## Mitteilungen
+
 Option| Abbildung
 --|--
 **Mitteilungen**|<img src="/assets/images/stundenplan/opt.mitteilungen.png">
+
+## SMS-Nachrichten
 
 Option| Abbildung
 --|--
