@@ -148,11 +148,25 @@ Option| Abbildung
 --|--
 **Kursplan**|<img src="/assets/images/stundenplan/opt.kursplan.png">
 
+Eingabe | Erläuterung
+-|-
+`Ansicht > Kursplan > Schüler`|Anzeige von x Spalten
+`Ansicht > Kursplan Blöcke`|Anzeige von Abweichungen von der min- max Vorgabe
+
 ## Kalender
 
 Option| Abbildung
 --|--
 **Kalender**|<img src="/assets/images/stundenplan/opt.kalender.png">
+
+Eingabe | Erläuterung
+-|-
+Allgemein|
+Tagesansicht|
+Zeitplan|
+Ansicht "Monat"|
+Ansicht "Jahr"|
+Google Kalender|
 
 ## Bezeichnungen
 
