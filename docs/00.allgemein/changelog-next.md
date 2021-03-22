@@ -39,6 +39,11 @@
 
 * FIX: mehrtägige Ereignisse werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
 * FIX: Ereignisse (von-bis Zeit) werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
+* NEW: Kalenderdateien Ferien 2021/2022
+  
+!!! info "Hinweis"
+
+    Vorab können Sie die Kalenderdateien [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen
 
 ### VERTRETUNGSPLAN
 
