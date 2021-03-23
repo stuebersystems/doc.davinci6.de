@@ -59,11 +59,11 @@
 
 ### KURSPLAN
 
-* FIX:
+* FIX: `Kursplan > Fachwahlen` Fachschwerpunkt auswählbar
   
 ### DRUCK
 
-* FIX:
+* FIX: `Design > Liste> Klassenfehlzeitermine anzeigen`reguläre Stunden ohne V-Planänderungen werden nicht mehr ausgegeben
   
 ### HTML Export
 
