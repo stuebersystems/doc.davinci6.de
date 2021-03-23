@@ -20,15 +20,13 @@ Wenn Sie das Installationsverzeichnis nicht geändert haben, befinden sich die D
 
 | Betriebssystem             | Pfad                                       |
 | -------------------------- | ------------------------------------------ |
-| Windows Vista / 7 / 8 / 10 | C:\Program Files\Stueber Systems\daVinci 6 |
-| Windows XP                 | C:\Programme\Stueber Systems\daVinci 6     |
+| Windows  7 / 8 / 10 | C:\Program Files\Stueber Systems\daVinci 6 |
 
 ## Lizenzdaten (daVinci.lic)
 
 | Betriebssystem             | Pfad |
 | -------------------------- | -------------- |
-| Windows Vista / 7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6|
-| Windows XP                 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\daVinci 6 |
+| Windows  7 / 8 / 10 | C:\ProgramData\Stueber Systems\daVinci 6|
 
 ## Druckformate (daVinci.pfm)
 
@@ -36,7 +34,7 @@ Die Daten der Druckformate werden in der Datei daVinci.pfm abgelegt. Diese liegt
 
 | Betriebssystem             | Pfad |
 | -------------------------- | ---- |
-|  Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci|                         |        | Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6 |
+|  Windows  7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci|
 
 ## Benutzereinstellungen (daVinci.opt)
 
@@ -44,14 +42,13 @@ Benutzerbezogene Einstellungen in den Programmoptionen werden in der Datei daVin
 
 Betriebssystem             | Pfad
 -------------------------- | -------------
-Windows Vista / 7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci
-Windows XP                 | C:\Dokumente und Einstellungen\[Benutzer]\Anwendungsdaten\Stueber Systems\daVinci 6
+Windows  7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinci
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren.
 
 ## So starten Sie DAVINCI
 
-Unter Windows XP / Vista / 7
+Unter Windows 7:
 
 * Klicken Sie auf das Windows-Startmenü und dann auf `Programme > STÜBER SYSTEMS > daVinci 6`, um DAVINCI zu starten.
 
@@ -77,4 +74,4 @@ Ein ausführliche Beschreibung der Installation von DAVINCI-SERVERS finden Sie i
 
 ## DAVINCI-INFOSERVER installieren
 
-Ein ausführliche Beschreibung der Installation des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
+Ein ausführliche Beschreibung der Installation des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)
