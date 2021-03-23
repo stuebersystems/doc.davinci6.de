@@ -174,6 +174,13 @@ Option| Abbildung
 --|--
 **Bezeichnungen**|<img src="/assets/images/stundenplan/opt.bezeichnungen.png">
 
+Eingabe | Erläuterung
+-|-
+Zeitdauer|Anzeige der Zeitdauer in Stunden, Zeitstunden oder Minuten
+Lehrername|Ausgabe des Lehrernamens im Titel und in Terminzellen der Pläne, Auswahl von Kürzel, Anrede, Vorname, Nachname, Mittelname, Mittelname1, Titel, GUID, Personennummer
+Benutzername|Vorgaben zum Generieren des Benutzernamens für Klasse, Lehrer, Schüler
+Schlüsselverzeichnisse|Auswahl für bestimmte Schüsselverzeichniss Kürzel oder Kürzel und Bezeichnung ausgegeben wird
+
 ## Internet
 
 Option| Abbildung
