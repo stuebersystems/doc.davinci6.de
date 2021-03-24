@@ -99,3 +99,9 @@ Bei Bedarf können Sie an der gleichen Position beliebig viele weitere Aufsichts
 ![Damit Lehrer "Del" als zusätzlicher Aufsichtslehrer zugeteilt wird, weisen Sie Ihn wie folgt zu:](/assets/images/\sp\stundenplan12.png)
 
 Der gewählte Lehrer wird nun als zusätzlicher Aufsichtslehrer an der markierten Position eingesetzt. 
+
+## Aufsichtspläne in Folgewochen übernehmen
+
+Haben Sie einen Aufsichtsplan für eine bestimmte Kalenderwoche erstellt, können Sie diesen mit dem Aufruf `Aufsichtsplan > Start > Übernehmen aus Woche` beliebig aus einer in eine andere Kalenderwoche kopieren.
+
+![Übernehmen aus Vorwoche](/assets/images/stundenplan/Aufsicht1.png)
