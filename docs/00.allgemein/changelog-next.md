@@ -45,9 +45,12 @@
 
     Vorab können Sie die Kalenderdateien [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen
 
+* FIX: Aufsichtsplan: Lehrer, die bereits einem Aufsichtsbereich zugewiesen sind, stehen in anderen Bereichen zur selben Zeit wieder zur Auswahl
+  ![Aufsichtsplan](/assets/images/liesmich/6.5.69.01.png)
+
 ### VERTRETUNGSPLAN
 
-* FIX:
+* FIX: V-Lehrer für Aufsichten - eine Lehrkraft kann nun wieder mehrere Bereiche vertreten, d.h. sobald eine Lehrkraft einem Aufsichtsbereich zugewiesen ist, steht diese wieder als möglicher Vertreter zur Auswahl (mit der "Bemerkung" - bereits Aufsicht zu dieser Zeit). 
 
 ### SERVER
 
