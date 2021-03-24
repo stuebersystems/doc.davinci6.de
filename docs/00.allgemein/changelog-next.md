@@ -70,7 +70,7 @@
   
 ### HTML Export
 
-* FIX:
+* FIX: HTML-Main-Vorlagen: Buttons werden wieder korrekt dargestellt
 
 ### Sonstiges
 
@@ -79,3 +79,7 @@
 ### Webbox
 
 * FIX: 
+
+### Analytics
+
+* FIX: Ausfallstatistik - Ausgabe der Werte `Zeitraum > Verplant` bei der Auswahl mehrerer Tage
