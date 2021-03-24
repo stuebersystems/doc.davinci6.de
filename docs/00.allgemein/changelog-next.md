@@ -50,7 +50,9 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX: V-Lehrer für Aufsichten - eine Lehrkraft kann nun wieder mehrere Bereiche vertreten, d.h. sobald eine Lehrkraft einem Aufsichtsbereich zugewiesen ist, steht diese wieder als möglicher Vertreter zur Auswahl (mit der "Bemerkung" - bereits Aufsicht zu dieser Zeit). 
+* FIX: V-Lehrer für Aufsichten - eine Lehrkraft kann nun wieder mehrere Bereiche vertreten, d.h. sobald eine Lehrkraft einem Aufsichtsbereich zugewiesen ist, steht diese wieder als möglicher Vertreter zur Auswahl (mit der "Bemerkung" - bereits Aufsicht zu dieser Zeit).
+* FIX: bei gleichzeitiger Lehrer- und Klassenfehlzeit in einer Blockung, lassen sich die verbliebenen Teile der Blockung wieder vertreten
+* FIX: Befristungen von Veranstaltungen im Stundenplanbereich löschen im Vertretungsplanbereich nur die Veranstaltungen/Vertretungen, die von der Befristung betroffen sind
 
 ### SERVER
 
@@ -67,6 +69,7 @@
 ### DRUCK
 
 * FIX: `Design > Liste> Klassenfehlzeitermine anzeigen`reguläre Stunden ohne V-Planänderungen werden nicht mehr ausgegeben
+* FIX: `Kursliste` bei Kursduplikaten mit zwei unterschiedlichen Lehrern werden beide Kurse zum Druck angeboten
   
 ### HTML Export
 
