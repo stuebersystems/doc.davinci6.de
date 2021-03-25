@@ -234,3 +234,7 @@ Klicken Sie auf Hochladen, navigieren zur entsprechenden Exportdatei aus DaVinci
 Wählen Sie anschließend unter Format den Wert DaVinci aus und bestätigen mit Hochladen.
 
 [Informationen dazu hier](https://iserv.eu/doc/modules/timetable/#davinci)
+
+!!! info "Hinweis"
+
+    Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
