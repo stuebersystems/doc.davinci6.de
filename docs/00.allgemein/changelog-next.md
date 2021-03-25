@@ -37,22 +37,11 @@
 
 ### STUNDENPLAN
 
-* FIX: mehrtägige Ereignisse werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
-* FIX: Ereignisse (von-bis Zeit) werden wieder korrekt im Zusatzkalender gespeichert/angezeigt
-* NEW: Kalenderdateien Ferien 2021/2022
-  
-!!! info "Hinweis"
-
-    Vorab können Sie die Kalenderdateien [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen
-
-* FIX: Aufsichtsplan: Lehrer, die bereits einem Aufsichtsbereich zugewiesen sind, stehen in anderen Bereichen zur selben Zeit wieder zur Auswahl
-  ![Aufsichtsplan](/assets/images/liesmich/6.5.69.01.png)
+* FIX:
 
 ### VERTRETUNGSPLAN
 
-* FIX: V-Lehrer für Aufsichten - eine Lehrkraft kann nun wieder mehrere Bereiche vertreten, d.h. sobald eine Lehrkraft einem Aufsichtsbereich zugewiesen ist, steht diese wieder als möglicher Vertreter zur Auswahl (mit der "Bemerkung" - bereits Aufsicht zu dieser Zeit).
-* FIX: bei gleichzeitiger Lehrer- und Klassenfehlzeit in einer Blockung, lassen sich die verbliebenen Teile der Blockung wieder vertreten
-* FIX: Befristungen von Veranstaltungen im Stundenplanbereich löschen im Vertretungsplanbereich nur die Veranstaltungen/Vertretungen, die von der Befristung betroffen sind
+* FIX:
 
 ### SERVER
 
@@ -64,16 +53,15 @@
 
 ### KURSPLAN
 
-* FIX: `Kursplan > Fachwahlen` Fachschwerpunkt auswählbar
+* FIX:
   
 ### DRUCK
 
-* FIX: `Design > Liste> Klassenfehlzeitermine anzeigen`reguläre Stunden ohne V-Planänderungen werden nicht mehr ausgegeben
-* FIX: `Kursliste` bei Kursduplikaten mit zwei unterschiedlichen Lehrern werden beide Kurse zum Druck angeboten
+* FIX:
   
 ### HTML Export
 
-* FIX: HTML-Main-Vorlagen: Buttons werden wieder korrekt dargestellt
+* FIX: 
 
 ### Sonstiges
 
@@ -85,4 +73,3 @@
 
 ### Analytics
 
-* FIX: Ausfallstatistik - Ausgabe der Werte `Zeitraum > Verplant` bei der Auswahl mehrerer Tage
