@@ -187,11 +187,20 @@ Option| Abbildung
 --|--
 **Internet**|<img src="/assets/images/stundenplan/opt.internet.png">
 
+Eingabe | Erläuterung
+-|-
+HTML Export Zielordner | Angabe eines Ordners der für den manuellen HTML Export genutzt wird, dort werden die vom Programm erzeugten HTML Dateien und der Sandbox Ordner abgelegt
+
 ## Upload
 
 Option| Abbildung
 --|--
 **Upload**|<img src="/assets/images/stundenplan/opt.upload.png">
+
+Eingabe | Erläuterung
+-|-
+Verbindung|Angabe des Verbindungstyps, Upload auf Ordner im lokalen Netzwerk, auf einem FTP oder Webserver im oder nach LANIS
+Ordner im lokalen Netzwerk| Pfad für Ordner im lokalen Netzwerk
 
 ## Auto-Update
 
@@ -199,11 +208,19 @@ Option| Abbildung
 --|--
 **Auto-Update**|<img src="/assets/images/stundenplan/opt.autoupdate.png">
 
+Eingabe | Erläuterung
+-|-
+Autoupdate| Einstellung für das Autoupdate aktivieren und hinterlegen
+
 ## Sprache
 
 Option| Abbildung
 --|--
 **Sprache**|<img src="/assets/images/stundenplan/opt.sprache.png">
+
+Eingabe | Erläuterung
+-|-
+Sprachauswahl| Deutsch Englisch, Italienisch
 
 ## E-Mail
 
@@ -211,14 +228,27 @@ Option| Abbildung
 --|--
 **E-Mail**|<img src="/assets/images/stundenplan/opt.email.png">
 
+Eingabe | Erläuterung
+-|-
+SMTP Verbindungsdetails| Angaben zu Ihrem genutzen Emailserver, Port, Absenderadresse, Benutzername und Kennwort
+
 ## Mitteilungen
 
 Option| Abbildung
 --|--
 **Mitteilungen**|<img src="/assets/images/stundenplan/opt.mitteilungen.png">
 
+Eingabe | Erläuterung
+-|-
+Änderungsmitteilungen|Angabe des E-Mail Betreff Test und SMS Präfixes für das Versenden von Änderungen aus dem Bereich `Vertretungsn > Publizieren > Änderungen mitteilen`
+Notfallmitteilung|Angabe des E-Mail Betreff und Mitteilungstextes für Notfallmitteilung aus dem Bereich `Vertretungsn > Publizieren > Notfall senden`
+
 ## SMS-Nachrichten
 
 Option| Abbildung
 --|--
 **SMS-Nachrichten**|<img src="/assets/images/stundenplan/opt.sms.png">
+
+Eingabe | Erläuterung
+-|-
+SMS Verbindungsdetails | Sie erhalten diese von uns, wenn Sie das Modul SMS Paket erworben haben
