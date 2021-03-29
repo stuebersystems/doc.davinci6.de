@@ -50,3 +50,6 @@ Die Einträge in einer Schlüsseldatei müssen in einer TXT-, CSV- oder KEYS-Dat
 ```
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ```
+
+!!! info Hinweis
+    Eine Übersicht über die verwendeten Schlüsselverzeichnisse finden Sie [hier](/00.allgemein/schluesselverzeichnisse/)

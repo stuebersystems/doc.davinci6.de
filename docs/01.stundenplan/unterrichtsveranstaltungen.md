@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-Grundlage für die spätere Unterrichtsverteilung bildet die Veranstaltungsliste, die folgendes bestimmt: 
+Grundlage für die spätere Unterrichtsverteilung bildet die Veranstaltungsliste, die folgendes bestimmt:
 
 * Welche Klassen hat welchen Unterricht?
 * Welche Lehrer unterrichten welches Fach in den Klassen?(Lehrereinsatzplanung)
@@ -216,7 +216,7 @@ Die zugewiesenen Teilnehmer einer Unterrichtsveranstaltung, also u.a. Klassen, R
 
 !!! info "Hinweis"
 
-    Wie Sie einer Unterrichtsveranstaltung im Dialogfenster „Veranstaltung“ Lehrer und Räume zuweisen können, erfahren Sie im Abschnitt [Teilnehmer zu einer Veranstaltung hinzufügen](/davinci-stundenplan/stundenplan-erstellen/teilnehmer-zu-einer-veranstaltung-hinzufugen.md).
+    Wie Sie einer Unterrichtsveranstaltung im Dialogfenster „Veranstaltung“ Lehrer und Räume zuweisen können, erfahren Sie im Abschnitt [Teilnehmer zu einer Veranstaltung hinzufügen](/01.stundenplan/teilnehmer-zuweisen/).
 
 Neben den Spalten „Räume“, „Lehrer“ und Klassen“ kann außerdem die Spalte „Fachfolge“ nicht über die Dialogseite Veranstaltung bearbeitet werden. Für die Eingabe des Fachfolgekürzels steht im Dialogfenster „Veranstaltung“ die Teilansicht „Zeitdetails“ zur Verfügung, mit der Sie die Automatikvorgaben einer Veranstaltung bearbeiten können.
 

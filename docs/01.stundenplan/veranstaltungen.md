@@ -7,9 +7,9 @@
 Folgende Bereiche finden Sie zur Auswahl:
 
 * Veranstaltung
-* [Teilnehmer Veranstaltung](/davinci-stundenplan/stundenplan-erstellen/teilnehmer-zu-einer-veranstaltung-hinzufugen/teilnehmer-veranstaltung.md)
+* [Teilnehmer Veranstaltung](/01.stundenplan/teilnehmer-zuweisen/)
 * Ressourcen Planung
-* [Termine](/davinci-stundenplan/stundenplan-erstellen/teilnehmer-zu-einer-veranstaltung-hinzufugen/teilnehmer-veranstaltung.md)
+* [Termine](/01.stundenplan/teilnehmer-zuweisen/)
 * Teilnehmer Termine
 * Zeitdetails
 
@@ -91,7 +91,7 @@ Um einer Veranstaltung im Dialogfenster neue Schüler hinzuzufügen, gehen Sie b
 !!! info "Hinweis"
 
     Wenn Sie mit einem Kurssystem arbeiten, sollten Sie die Schüler-Fachwahlen in der
-Ansicht ``Kursplan`` eingeben. (siehe [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/course-plan/)).
+Ansicht ``Kursplan`` eingeben. (siehe [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines//)).
 
 ## Ressourcen zuordnen
 
