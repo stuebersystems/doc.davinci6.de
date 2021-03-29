@@ -11,10 +11,10 @@ aufrufen.
 
 Diese beiden Möglichkeiten sollen im Folgenden gesondert dargestellt werden. Außerdem wird erläutert, wie Sie die Auswahl von Stundenplänen nach verschiedenen Kriterien filtern können.
 
-* [Stundenplan aurfrufen](/davinci-stundenplan/stundenplan-erstellen/das-auswahl-fenster/aufruf-stundenplan.md)
-* [Schnelleingabe im Auswahl-Fenster](/davinci-stundenplan/stundenplan-erstellen/das-auswahl-fenster/schnelleingabe-im-auswahl-fenster.md)
-* [Filterung der Auswahl im Auswahl-Fenster](/davinci-stundenplan/stundenplan-erstellen/das-auswahl-fenster/filterung-der-auswahl-im-auswahl-fenster.md)
-* [Sammlungen erstellen und verwenden](/davinci-stundenplan/stundenplan-erstellen/das-auswahl-fenster/sammlungen-erstellen-und-verwenden.md)
+* [Stundenplan aufrufen](/01.stundenplan/das-auswahl-fenster/#aufruf-stundenplan)
+* [Schnelleingabe im Auswahl-Fenster](/01.stundenplan/das-auswahl-fenster/#schnelleingabe-im-auswahl-fenster)
+* [Filterung der Auswahl im Auswahl-Fenster](/01.stundenplan/das-auswahl-fenster/#filterung-der-auswahl-im-auswahl-fenster)
+* [Sammlungen erstellen und verwenden](/01.stundenplan/das-auswahl-fenster/#sammlungen-erstellen-und-verwenden)
 
 ## Aufruf Stundenplan
 
@@ -33,7 +33,7 @@ Rufen Sie das Auswahl-Fenster auf. Dazu haben Sie zwei Möglichkeiten:
 Klicken Sie auf eine Zeile und dann auf OK oder führen Sie einen Doppelklick auf der gewünschten
 Zeile aus: Das Auswahl-Fenster schließt sich und der betreffende Stundenplan wird angezeigt.
 
-### Schnelleingabe im Auswahl-Fenster
+## Schnelleingabe im Auswahl-Fenster
 
 Wenn Sie in die Spalte ``Kürzel`` klicken, können Sie auch das betreffende Kürzel eintippen. Die Markierung springt automatisch zu dem ersten betreffenden Kürzel, das der Eingabe entspricht. Alternativ können Sie auch das Kürzel im Eingabefeld oben, links neben der OK-Schaltfläche, eintippen. Dabei könnten Sie z.B. in der Ansicht „Lehrer“ das Kürzel „8a“ eintippen. Es wird automatisch die Klasse „8a“ ausgewählt und die entsprechende Klassen-Registerkarte angezeigt.
 
@@ -41,7 +41,7 @@ Wenn Sie in die Spalte ``Kürzel`` klicken, können Sie auch das betreffende Kü
 
     Den Aufruf eines einzelnen Stundenplans, z.B. einer Klasse oder eines Lehrers, können Sie sowohl für das zugehörige Planungsfenster als auch für die zugehörige Veranstaltungsliste in der gleichen Weise durchführen. Je nachdem in welcher Basisansicht Sie sich befinden, führt der Aufruf eines Stundenplans zur Anzeige der Veranstaltungsliste oder des Planungsfensters bzw. beider Teilfenster gleichzeitig. 
 
-### Filterung der Auswahl im Auswahl-Fenster
+## Filterung der Auswahl im Auswahl-Fenster
 
 ![Auswahl-Fenster](/assets/images/Auswalfenster03.png)
 
@@ -57,7 +57,7 @@ N.N.-Angaben |Es werden nur Klassen, Lehrer usw. angezeigt, bei die verplante Te
 Ein-/Mehrspaltige Liste | Klassen, Lehrer, Räume bzw. Fächer werden als ein- oder mehrspaltige Liste im Auswahlfenster angezeigt
 Register |Mit diesem Befehl können Sie die Position der Registerkarten verändern.
 
-### Sammlungen erstellen und verwenden
+## Sammlungen erstellen und verwenden
 
 ![Sammlungen erstellen](/assets/images/Sammlung.png)
 

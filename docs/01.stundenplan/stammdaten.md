@@ -430,11 +430,11 @@ Kalender | Kalender dieser Klasse, z.B. falls Sie Klassen aus verschiedenen Bund
 Externe ID | ID für ein Fremdprogramm
 ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
-# Ressourcen
+## Ressourcen
 
 ![Stammdaten Ressourcen](/assets/images/StammdatenRessourcen.png)
 
-In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht ``Stammdaten > Ressourcen`` eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. Ausführliche Darstellung der Ressourcenplanung erhalten Sie in der Dokumentation für den [DAVINCI RESSOURCENPLAN](/davinci-ressourcen/README.md).
+In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht ``Stammdaten > Ressourcen`` eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. Ausführliche Darstellung der Ressourcenplanung erhalten Sie in der Dokumentation für den [DAVINCI RESSOURCENPLAN](/04.ressourcen/01.allgemeines/).
 
 ## Schüler
 
@@ -444,7 +444,7 @@ In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z
 
     Die Liste ``Schüler`` besitzt als einzige keine Spalte ``Kürzel``. Einträge in der dieser Liste sollten daher wenigstens die Angaben ``Vorname`` und ``Nachname`` erhalten. 
 
-In der Ansicht ``Stammdaten > Schüler`` erfassen Sie Ihre Schüler. Über die Spalte "Klasse" oder "Stufe" sollte jeder Schüler einer Klasse oder einer Stufe zugeordnet werden. Sollten Sie mit DAVINCI KURSPLAN arbeiten, sollten Sie die Schüler in der Ansicht ``Kursplan > Schüler`` eingeben, da Sie dort gleichzeitig deren Fachwahl erfassen können. Sie können Schüler einer Veranstaltung zuweisen. In der gymnasialen Oberstufe wird im ersten Schritt die Fachwahl der Schüler erfasst, dann das Kursangebot erstellt und dann werden die Schüler den Kursen zugewiesen. Wie Sie zur Kursplanung, d.h. zur Planung mit Schülerkursen vorgehen, erfahren Sie im [DAVINCI KURSPLAN](/course-plan/README.md).
+In der Ansicht ``Stammdaten > Schüler`` erfassen Sie Ihre Schüler. Über die Spalte "Klasse" oder "Stufe" sollte jeder Schüler einer Klasse oder einer Stufe zugeordnet werden. Sollten Sie mit DAVINCI KURSPLAN arbeiten, sollten Sie die Schüler in der Ansicht ``Kursplan > Schüler`` eingeben, da Sie dort gleichzeitig deren Fachwahl erfassen können. Sie können Schüler einer Veranstaltung zuweisen. In der gymnasialen Oberstufe wird im ersten Schritt die Fachwahl der Schüler erfasst, dann das Kursangebot erstellt und dann werden die Schüler den Kursen zugewiesen. Wie Sie zur Kursplanung, d.h. zur Planung mit Schülerkursen vorgehen, erfahren Sie im [DAVINCI KURSPLAN](/03.kursplan/allgemeines/).
 
 Spalte | Beschreibung
 --------|-------------------------------------------
