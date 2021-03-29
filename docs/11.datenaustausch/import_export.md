@@ -48,7 +48,7 @@ Der Ablauf ist hier beschrieben:
 ### Sachsen Fachdaten importieren
 
 Das Vorgehen ist hier beschrieben:
-[Sachsen Fachdaten importieren](/10.regionales/sachsen/)
+[Sachsen Fachdaten importieren](/10.regionales/sac-ausfallstatistik/)
 
 ### ASC Timetable XML 2012 importieren
 
@@ -114,7 +114,7 @@ Der Ablauf ist hier beschrieben:
 #### Statistik Nordrhein-Westfalen ABS (Extern.dat) exportieren
 
 Der Ablauf ist hier beschrieben:
-[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalens/)
+[Statistik Nordrhein-Westfalen](/10.regionales/nordrhein-westfalen/)
 
 #### Statistik Nordrhein-Westfalen BBS (Extern.dat) exportieren
 
@@ -210,7 +210,7 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 
 Die Informationen zum Upload nach LANiS finden Sie hier:
 
-[Export für Schulportal Hessen](/10.regionales/schulportal-hessen.md/)
+[Export für Schulportal Hessen](/10.regionales/schulportal-hessen/)
 
 ### Export nach IServ
 

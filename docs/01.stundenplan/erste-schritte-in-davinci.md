@@ -32,7 +32,7 @@ DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien li
 | daVinci.pfm | DAVINCI /DAVINCI Look Druckformate |
 | daVinci.site | Standortdaten (Schulname, Adresse, etc.) |
 | daVinci.sms | SMS-Logbuch |
-| daVinci.paths | [DAVINCI  Paths-Datei](/davinci-stundenplan/erste-schritte-in-davinci/die-paths-datei.md) |
+| daVinci.paths | [DAVINCI  Paths-Datei](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/) |
 | daVinciExplorer.opt | daVinci EXPLORER Optionsdatei |
 | daVinciLook.cfg | Aktuelle Login-Daten für DAVINCI LOOK |
 | daVinciLook.opt | Optionsdatei für DAVINCI LOOK |
@@ -241,4 +241,4 @@ Eine ``*.daVinci.zip``-Datei kann mit DAVINCI geöffnet werden, ohne dass diese 
 
 ## Datei speichern (im Serverbetrieb)
 
-Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.server/allgemeines/).
+Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.enterprise/allgemeines/).
