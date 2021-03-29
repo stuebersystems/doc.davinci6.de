@@ -149,6 +149,6 @@ In Register "Allgemein" sind folgende Eingaben entscheidend:
 
     Sollten Sie auch Aufsichtslehrer für Ihre Buszeiten einteilen, die abweichend zu den Pausenzeiten sind, empfehlen wir Ihnen einen weiteren Zeitrahmen für die Buszeiten anzulegen.
 
-Die speziellen Zeitrahmen für die Aufsichtsplanung müssen Sie Bereich [``Stammdaten > Aufsichtsbereiche``](/davinci-stundenplan/stammdaten/aufsichtsbereiche.md) den Bereichen zuweisen.
+Die speziellen Zeitrahmen für die Aufsichtsplanung müssen Sie Bereich [``Stammdaten > Aufsichtsbereiche``](/davinci-stundenplan/stammdaten/#aufsichtsbereiche) den Bereichen zuweisen.
 
 ![Stammdaten Aufsichtsbereiche, Zuweisung Zeitrahmen](/assets/images/Stammdaten.Aufsichtsbereiche.png)
