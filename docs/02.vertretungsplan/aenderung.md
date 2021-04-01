@@ -70,7 +70,7 @@ Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die
 
 ### Neuen Zusatzunterricht einfügen
 
-Sie haben bereits die Möglichkeit kennengelernt im Bereich `Vertratzungsplan > Stundenplan > Änderungen`Zusatzunterricht in Plänen einzufügen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertrtungsplan > Änderungen` zur Verfügung.  
+Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Zusatzunterricht in Plänen einzufügen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung.  
 
 Um in der Ansicht „Änderungen“ neuen Zusatzunterricht einzufügen gehen Sie bitte folgendermaßen vor:
 
@@ -88,3 +88,41 @@ Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er
 
 !!! info "Hinweis"
     Das Dialogfenster „Zusatzunterricht“ können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neuer Zusatzunterricht`
+
+### Neue Mitteilung einfügen
+
+Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Mitteilungen in Plänen einzufügen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung. Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
+
+1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
+2. Wählen Sie den Eintrag `Neue Mitteilung` aus dem Aufklappmenü.
+3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
+4. Geben Sie im Eingabefeld Text einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+5. Tragen Sie in den Eingabefeldern Von und Bis die Eckpunkte des Zeitraums ein, auf den sich die Mitteilung beziehen soll.
+6. Betätigen Sie die Pfeilschaltfläche-Schaltfläche der Eingabefelder Klassen bzw. Lehrer und setzen Sie den Haken vor Vertretern, auf die sich die Mitteilung beziehen soll.  
+7. Markieren Sie bei Bedarf im Aufklappmenü des Auswahlfelds Raum das zutreffende Raum-Kürzel.
+8. Bestätigen Sie Ihre Angaben im Dialogfenster „Mitteilung“ mit `Ok`.
+
+![Mitteilung einfügen](/assets/images/vertretungsplan/vp04.png)
+
+Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird ebenfalls im Planungsfenster der  betroffenen Einzelpläne angezeigt.  
+![Mitteilung einfügen](/assets/images/vertretungsplan/vp05.png)
+
+!!! info "Hinweis"
+    Das Dialogfenster `Neue Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neue Mitteilung`.
+
+### Neue Raumbuchung
+
+### Änderungen löschen
+
+!!! warning "Wichtig"
+    Bitte seien Sie beim Löschen umsichtig und überlegen Sie genau, welche Elemente Sie wirklich löschen wollen!
+
+Sie können mit `Löschen` auch Änderungselemente löschen, die aufgrund von Fehlzeiten erstellt wurden. In diesem Moment gibt es zwar die Fehlzeit, aber eben keine Vertretungselemente mehr dafür. Derartige Änderungen werden eigentlich beim Löschen der entsprechenden Fehlzeit in der Ansicht `Vertretungen > Fehlzeit` automatisch mit gelöscht. Sollten Sie Änderungselemente, die aufgrund von Fehlzeiten erstellt wurden, gelöscht haben, können Sie diese wie folgt wieder neu erstellen lassen:
+
+1. Gehen Sie in die Ansicht `Vertretungsplan > Stundenplan`und rufen Sie den entsprechenden Plan mit der betreffenden Fehlzeit auf.
+
+2. Klicken Sie im Plan auf die Fehlzeit und lassen Sie DAVINCI mit `Rechter Maus > Änderungen neu erstellen` die Änderungen neu erstellen. Unten in der Statuszeile wird wie gewohnt angezeigt, wie viele Änderungen neu erstellt wurden.
+
+### Änderungen zurücksetzen
+
+Hier können Sie Vertretungsregelungen wieder rückgängig machen. Diese erscheinen dann auuch wieder als offene Vertretungeung in der Ansicht `Vertretungen > Vertretungen`
