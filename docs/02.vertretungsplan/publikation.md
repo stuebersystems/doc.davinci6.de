@@ -252,7 +252,7 @@ So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Sc
 !!! info "Hinweis"
       Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Sie tragen diese Angaben in der Ansicht `Stammdaten > Lehrer` bzw `Stammdaten > Schüler` in den Spalten E-Mail bzw. Mobil ein.
 
-### DAVINCI APP und Webbox
+## DAVINCI APP und Webbox
 
 !!! info "Hinweis"
       Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI ENTREPRISE und DAVINCI INFOSERVER voraus.
@@ -261,11 +261,11 @@ DAVINCI bietet Ihnen die Möglichkeit, Ihre Vertretungsplandaten publikumswirksa
 
 Nähere Informationen zur Umsetzung finden Sie [hier](09.infoserver/allgemeines/)
 
-### DAVINCI LOOK
+## DAVINCI LOOK
 
 Klicken Sie im Modul DAVINCI LOOK auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
 
-### Public Displays
+## Public Displays
 
 Sie können den DAVINCI Vertretungsplan oder Stundenplan auf E-Boards in Ihrer Schule publizieren.
 
