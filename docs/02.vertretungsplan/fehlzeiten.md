@@ -87,15 +87,15 @@ Diese Teilansicht weist die wesentlichen Informationen zu einer Fehlzeit als Spa
 
 Die Standardansicht mit der Aufteilung in die Teilfenster `Plan` und `Zeitplan` können Sie flexibel an wechselnde Arbeitserfordernisse anpassen. Dabei stehen Ihnen fünf verschiedene Basisansichten zur Verfügung, die Sie über die folgenden Schaltflächen in der Menügruppe `Fehlzeiten Ansichten` auf der Registerkarte `Ansicht` erreichen:
 
-* _Plan und Zeitplan:_ Mit diesem Aufruf können Sie zur zweigeteilten Standardansicht zurückkehren.
+* Plan und Zeitplan: Mit diesem Aufruf können Sie zur zweigeteilten Standardansicht zurückkehren.
 
-* _Plan und Liste:_ Mit dieser Option werden die Stundenplanansicht und die Fehlzeitenliste angezeigt.
+* Plan und Liste: Mit dieser Option werden die Stundenplanansicht und die Fehlzeitenliste angezeigt.
 
-* _Liste und Zeitplan:_ Bei dieser Variante werden die Fehlzeitenliste und der Zeitplan angezeigt. Das Teilfenster Stundenplan wird ausgeblendet.
+* Liste und Zeitplan: Bei dieser Variante werden die Fehlzeitenliste und der Zeitplan angezeigt. Das Teilfenster Stundenplan wird ausgeblendet.
 
-* _Zeitplan:_ Bei dieser Einstellung wird nur der Zeitplan angezeigt.
+* Zeitplan: Bei dieser Einstellung wird nur der Zeitplan angezeigt.
 
-* _Liste:_ Mit diesem Aufruf wird nur die Fehlzeitenliste dargestellt.
+* Liste: Mit diesem Aufruf wird nur die Fehlzeitenliste dargestellt.
 
 ![Die Menügruppe "Fehlzeiten Ansicht"](/assets/images/vertretungsplan/sub-plan11.png)
 
@@ -109,7 +109,8 @@ Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen d
 
 ![Die Schaltfläche „Neue Fehlzeit“](/assets/images/vertretungsplan/sub-plan12.png)
 
-> Tipp: Rufen Sie für die Eingabe der Fehlzeiten die Standardansicht `Plan und Zeitplan` auf.
+!!! hinweis Tipp
+     Rufen Sie für die Eingabe der Fehlzeiten die Standardansicht `Plan und Zeitplan` auf.
 
 ![Das Dialogfenster "Fehlzeit"](/assets/images/vertretungsplan/sub-plan13.png)
 
@@ -137,7 +138,7 @@ Um mit Hilfe des Dialogfensters `Fehlzeiten` und der Teilansicht `Zeitplan` eine
 
     Die Anrechenstunden, die Sie im Dialogfenster „Fehlzeit“ eingeben, werden als negative  Anrechenstunden vermerkt, d.h. Sie brauchen kein Minuszeichen einzugeben.
 
-Der Eintrag wird nun im Zeitplan, in der Liste und im Plan der Fehlzeiten Ansicht hinterlegt. 
+Der Eintrag wird nun im Zeitplan, in der Liste und im Plan der Fehlzeiten Ansicht hinterlegt.
 
 ![Eine eingetragene Fehlzeit](/assets/images/vertretungsplan/sub-plan5a.png)
 

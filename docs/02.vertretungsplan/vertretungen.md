@@ -1,4 +1,4 @@
-# Der DAVINCI VERTRETUNGSPLAN
+# Vertretungen
 
 ## Vertretungen erstellen
 
@@ -244,7 +244,7 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
 
 Die erstellte Vertretung wird nun in der Fehlzeiten-Liste und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
 
-## Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
 
@@ -297,7 +297,7 @@ Um eine Vertretung durch Vorziehen von Unterricht zu erstellen, gehen Sie bitte 
 
 Die erstellte Vertretung wird nun in der Fehlzeiten-\/Vertretungen-Liste und den Stundenplänen eingetragen.
 
-## Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `SArt` zeigt den Eintrag `Verschoben` und ist nicht mehr gelb markiert.
 
@@ -370,8 +370,7 @@ Eine erstellte Vertretung für eine Fehlstelle wird in der Fehlzeiten-Liste und 
 ![So wird eine vertretene Fehlstelle im Stundenplan der Klasse angezeigt.](/assets/images/vertretungsplan/sub-plan49.png)
 
 !!! info "Hinweis"
-
-  Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Erzeugen einer Fehlstelle mit der hier beschriebenen Vorgehensweise.
+    Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Erzeugen einer Fehlstelle mit der hier beschriebenen Vorgehensweise.
 
 ## Indirekte Vertreter zuweisen
 
@@ -404,13 +403,13 @@ Um einer Fehlzeit einen indirekten Vertretungslehrer zuzuweisen, der den ausgefa
 
 Die Markierung in den Stundenplänen und der Fehlzeiten-Liste entspricht der Kennzeichnung bei zusätzlich eingesetzten direkten Vertretern. Wenn Sie einen indirekten Vertreter von seinem eigenen Unterricht freistellen möchten, müssen Sie das Optionsfeld Vertreter freistellen markieren.
 
-## Fehlzeitenliste
+### Fehlzeitenliste
 
 Die neue angelegte Zeile erhält im Feld `Art` den Eintrag `Freigestellt`.
 
 ![Hier sehen Sie einen Eintrag für einen freigestellten Lehrer in der Liste der Fehlzeiten/Vertretungen aus.](/assets/images/vertretungsplan/sub-plan51.png)
 
-## Stundenplan
+### Stundenplan
 
 Das Terminfeld erhält einen roten Änderungsbalken mit der Aufschrift „Freigestellt“.
 
@@ -438,7 +437,7 @@ Wenn ein Lehrer über mehrere Wochen fehlt, so besteht die Möglichkeit, bei der
 
 Die aus der Vorwoche übernommene Vertretung wird nun in der Fehlzeiten-Liste und den korrespondierenden Stundenplänen eingetragen.
 
-## Vertretungslehrer aus der Vorwoche übernehmen
+### Vertretungslehrer aus der Vorwoche übernehmen
 
 Wenn sich die Fehlzeit eines Lehrers über mehrere Wochen erstreckt, so besteht die Möglichkeit, bei der Vertretungserstellung eine bereits gefundene Lösung aus der Vorwoche zu übernehmen. Voraussetzung dafür ist, dass die Stundenpläne des fehlenden und des vertretenden Lehrers die gleiche Vertretungslösung auch wieder zulassen. daVinci prüft für eine mehrwöchige Fehlzeit diese Bedingung automatisch im Hintergrund und aktiviert die Option, den Vertretungslehrer aus der Vorwoche zu übernehmen nur dann, falls die Möglichkeit auch tatsächlich gegeben ist.
 
@@ -519,7 +518,7 @@ Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen S
 
 Die angelegte Freistunde wird nun in der Fehlzeiten-\/ Vertretungen-Liste und den betroffenen Stundenplänen eingetragen. Freistunden werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert:
 
-## Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` erhält den Eintrag `Frei` und wird nicht mehr gelb hinterlegt.
 
@@ -527,7 +526,7 @@ Die angelegte Freistunde wird nun in der Fehlzeiten-\/ Vertretungen-Liste und de
 
   ![Dies ist die Anzeige einer Lehrerfehlzeit in der Fehlzeiten-/Vertretungen-Liste, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan59.png)
 
-## Markierung im Stundenplan
+#### Markierung im Stundenplan
 
 1. Der Fehlzeitenbalken erhält die Aufschrift `Frei`.
 
@@ -535,7 +534,7 @@ Die angelegte Freistunde wird nun in der Fehlzeiten-\/ Vertretungen-Liste und de
 
   ![Dies ist die Anzeige einer Lehrerfehlzeit im Stundenplan, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan60.png)
 
-### Vertretungsräume zuweisen
+## Vertretungsräume zuweisen
 
 Vertretungsräume können Sie für jede offene oder bereits bearbeitete Fehlzeit zuweisen. Dies betrifft alle Ihre Raum- und Lehrerfehlzeiten, Fehlstellen und freigestellten Unterrichtsstunden. Insbesondere können Sie auch für bereits erstellte Lehrervertretungen zusätzlich noch einen Vertretungsraum einplanen. Die Vorgehensweise ist in allen diesen Fällen gleich. Sobald Sie die Registerkarte „Räume“
 der Vertreterliste geöffnet haben, werden Ihnen alle in der Plandatei hinterlegten Unterrichtsräume angezeigt. Alle zum gewünschten Vertretungszeitpunkt verfügbaren Räume sind in der Vertreterliste grün markiert. Besetzte Räume sind hingegen in Klammern gestellt.
@@ -556,7 +555,7 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
 
-## Markierung in der Fehlzeiten-/Vertretungen-Liste
+### Markierung in der Fehlzeiten-/Vertretungen-Liste
 
 1. Das Feld `Art` erhält den Eintrag „Raumänderung“ und wird nicht mehr gelb hinterlegt.
 
@@ -564,7 +563,7 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   ![Dies ist die Anzeige einer Raumvertretung in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan61.png)
 
-## Markierung im Stundenplan 
+### Markierung im Stundenplan 
 
 1. Der Änderungsbalken erhält die Aufschrift `Raumänderung`.
 
@@ -590,7 +589,7 @@ Die geänderte Fachzuordnung wird nun in der Fehlzeiten-\/Vertretungen-Liste und
 
 Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert
 
-## Markierung in der Fehlzeiten-Liste
+### Markierung in der Fehlzeiten-Liste
 
 1. Das Feld `Art` verändert sich durch die geänderte Fachzuweisung nicht.
 
@@ -598,7 +597,7 @@ Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenpla
 
   ![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.](/assets/images/vertretungsplan/sub-plan63.png)
 
-## Markierung im Stundenplan
+### Markierung im Stundenplan
 
 * Die farbliche Markierung des bearbeiteten Termins ändert sich nicht.
 
@@ -633,13 +632,13 @@ Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgenderma�
 
 Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzeiten-\/VertretungenListe und den korrespondierenden Stundenplänen eingetragen.
 
-## Fehlzeiten-/Vertretungen-Liste
+### Fehlzeiten-/Vertretungen-Liste
 
 Die neue angelegte Zeile erhält im Feld `Art` den Eintrag `Freigestellt`.
 
 ![Dies ist die Anzeige für einen freigestellten Termin in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan66.png)
 
-## Stundenplan
+### Stundenplan
 
 Das Terminfeld erhält einen roten Änderungsbalken mit der Aufschrift `Freigestellt`.
 
@@ -676,7 +675,7 @@ Die Einzelstunden der mehrstündigen Fehlzeit werden nun wieder zu einer Zeile, 
 
 Beim Eintrag einer Fehlzeit für einen Lehrer werden neben seinen eigentlichen Unterrichtsterminen auch seine innerhalb der Fehlzeit liegenden Aufsichten als zu vertretende Elemente in der Fehlstunden-\/Vertretungen-Liste festgehalten.
 
-## Beispiel
+### Beispiel
 
 Der Lehrer „Bru hat am Montag dem 15.10. von 9.30 – 9.45 Uhr Aufsicht im „Hof 2“ und von 9.45 – 10.30 Uhr Unterricht.
 
@@ -698,7 +697,7 @@ Um für eine Aufsicht einen Vertreter zu finden, gehen Sie wie folgt vor:
 
 Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert:
 
-## Markierung vertretener Aufsicht in der Fehlzeiten-\/ Vertretungen-Liste
+### Markierung vertretener Aufsicht in der Fehlzeiten-\/ Vertretungen-Liste
 
 1. Das Feld `Art` erhält den Eintrag `Aufsichtsänderung` und ist nicht mehr gelb markiert.
 
@@ -706,7 +705,7 @@ Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretung
 
 ![Dies ist die Anzeige einer vertretenen Aufsicht in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan70.png)
 
-## Markierung vertretener Aufsicht im Stundenplan
+### Markierung vertretener Aufsicht im Stundenplan
 
 1. Der Aufsichtsbereich wird geklamert.
 
@@ -714,15 +713,14 @@ Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretung
 
 ![Dies ist eine vertretene Aufsicht im Stundenplan.](/assets/images/vertretungsplan/sub-plan71.png)
 
-
-### Bemerkungen, Mitteilungen, Infozeile einfügen
+## Bemerkungen, Mitteilungen, Infozeile einfügen
 
 Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die Felder `Bemerkung`,
 `Mitteilung` und `Info` das Eingeben zusätzlicher Informationen zu einer bestehenden Terminänderung.
 Um hier einen Eintrag vorzunehmen, platzieren Sie einfach den Cursor in eines dieser Felder und
 tippen Sie den gewünschten Vermerk ein.
 
-### Neuen Zusatzunterricht einfügen
+## Neuen Zusatzunterricht einfügen
 
 Sie haben bereits im Kapitel „Planänderungen vornehmen“ die Möglichkeit kennengelernt `Zusatzunterricht`
 in den Stundenplan einzufügen und zu bearbeiten. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht Änderungen zur Verfügung. 
