@@ -66,5 +66,25 @@ In der Ansicht `Änderungen` stehen Ihnen folgende Instrumente zur Verfügung, m
 ### Bemerkungen, Mitteilungen, Infozeile einfügen
 
 Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die Felder Bemerkung, Mitteilung und Info das Eingeben zusätzlicher Informationen zu einer bestehenden Terminänderung. Um hier einen Eintrag vorzunehmen, platzieren Sie einfach den Cursor in eines dieser Felder und wählen `Start > Änderung > Bearbeiten`.  Im Dialogfenster können Sie die entsprechenden Werte eintragen. Sie können hier Freitext eintragen oder die Vorgabewerte aus `Extras Optionen > Vertretungsplan`.
-![Bemerkungen, Mitteilungen, Infozeile einfügen](/assets/images/vertretungsplan/vp40.png)
-![Bemerkungen, Mitteilungen, Infozeile einfügen](/assets/images/vertretungsplan/vp41.png)
+![Bemerkungen, Mitteilungen, Infozeile einfügen](/assets/images/vertretungsplan/vp01.png)
+
+### Neuen Zusatzunterricht einfügen
+
+Sie haben bereits die Möglichkeit kennengelernt im Bereich `Vertratzungsplan > Stundenplan > Änderungen`Zusatzunterricht in Plänen einzufügen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertrtungsplan > Änderungen` zur Verfügung.  
+
+Um in der Ansicht „Änderungen“ neuen Zusatzunterricht einzufügen gehen Sie bitte folgendermaßen vor:
+
+1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.  
+2. Wählen Sie den Eintrag `Neuer Zusatzunterricht` aus dem Aufklappmenü.
+3. Markieren Sie in den Auswahlfeldern Fach und Unterrichtsart des erscheinenden Dialogfensters jeweils das zutreffende Kürzel. Bei Bedarf können Sie unter Kurs-Nr auch eine bestimmte Kursnummer angeben.  
+4. Tragen Sie in den Eingabefeldern Von und Bis, die Anfangs- und die Endzeit des Zusatzunterrichts ein. Unter Anrechnen können Sie bei Bedarf eintragen, mit welchem Wert der Zusatzunterricht als positive oder negative Anrechenstunde festgehalten werden soll.
+5. Legen Sie die Teilnehmer am Zusatzunterricht aus der Liste der Klasse, Lehrer bzw. Räume fest.
+6. Tragen Sie optional in den Eingabefeldern Mitteilung und Bemerkung einen Text ein. Der unter Mitteilung angegebene Text wird als Information in Ihren publizierten Plänen mit ausgegeben werden soll.  
+7. Bestätigen Sie Ihre Angaben im Dialogfenster „Zusatzunterricht“ mit `Ok`.
+![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp02.png)
+
+Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.  
+![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp03.png)
+
+!!! info "Hinweis"
+    Das Dialogfenster „Zusatzunterricht“ können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neuer Zusatzunterricht`
