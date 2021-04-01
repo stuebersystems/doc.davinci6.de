@@ -1,6 +1,6 @@
-## Publikationen
+# Publikationen
 
-### Änderungen veröffentlichen
+## Änderungen veröffentlichen
 
 Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DAVINCI bzw. DAVINCI-LOOK sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
 
@@ -20,14 +20,14 @@ So veröffentlichen Sie Änderungen:
 
 4. In der Änderungsliste wird nun der Spalte `Status` der Wert von `Unveröffentlicht` auf `Veröffentlicht` gesetzt. Jetzt sind die Änderungen für alle anderen Benutzer in DAVINCI bzw. DAVINCI-LOOK sichtbar.
 
-### Drucken
+## Drucken
 
-In daVinci-Vertretungsplan unterstützt grundsätzlich zwei Art des Druckens:
+Der DAVINCI VERTRETUNGSPLAN unterstützt grundsätzlich zwei Arten des Druckens:
 
 * **Reine Vertretungspläne:** Hier werden nur die durch die Vertretung entstandenen Veränderungen in Form von Listen ausgegeben. Der reguläre Unterricht wird dabei nicht berücksichtigt. Diese Art des Ausdrucks wird bevorzugt, wenn es nur um eine Auflistung der reinen Änderungen gegenüber dem regulären Plan geht. Dies ist beispielsweise als Informationsquelle für die tägliche Änderungsliste für die Schüler und Lehrer gedacht.
 * **Tagesaktuelle Stundenpläne:** Unter Berücksichtigung des regulären Plans und der eventuellen Veränderungen durch Vertretungen wird der Stundenplan tagesaktuell gedruckt. Auf diese Weise kann beispielsweise der tatsächlich stattfindende Unterrichtsplan einer Woche für eine Klasse oder einen Lehre festgehalten werden, welche von sich in Abhängigkeit von vorhandenen Vertretungsregelungen vom vorab über einen Zeitraum geplanten Unterricht unterscheiden kann. Beide Arten werden in den nachfolgenden Abschnitten näher erläutert.
 
-#### Vertretungspläne drucken
+### Vertretungspläne drucken
 
 Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:  
 
@@ -40,8 +40,7 @@ Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 
 #### Druckvorschau
 
-Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche
-über verschiedene Menügruppen aufgerufen werden kann.
+Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funktionalität, welche über verschiedene Menügruppen aufgerufen werden kann.
 
 ![Im Dialogfenster der Druckvorschau können Sie sowohl das Druckergebnis ansehen als auch Einstellungen des ausgewählten Druckformats direkt ändern.](/assets/images/vertretungsplan/sub-plan101.png)
 
@@ -95,7 +94,7 @@ Hier können Sie die zwischen den einzelnen Seiten der Vorschau navigieren.
 
 Das Aufklappmenü `Ansicht` ermöglich das Einblenden von Rändern, der Ränderleiste oben und/oder der Statusleiste unten in der Vorschau. Ränder selbst werden dabei in der Vorschau des Berichts durch gestrichelte Linien dargestellt.
 
-#### Tagesaktuell Stundenpläne drucken
+### Tagesaktuell Stundenpläne drucken
 
 Neben dem Druck von regulären Stundenplänen können Stundenpläne auch tagesaktuelle aufgrund von eventuellen Veränderung im Vertretungsplan ausgegeben werden.
 
@@ -108,33 +107,16 @@ Um einen Vertretungsplan direkt zu drucken, gehen Sie wie folgt vor:
 *Oder:* Klicken Sie auf die Schaltfläche `Pläne drucken` in der Menügruppe `Publizieren > Pläne veröffentlichen`.
 
 ![Die Schaltfläche „Pläne drucken“ finden Sie in der Schnellzugriffsleiste des Programmfensters.](/assets/images/vertretungsplan/sub-plan99.png)
+
 1. Wählen Sie im Dialogfenster `Drucken` im Bereich `Zeitraum` unter `Nur von und bis` das Von- und Bis-Datum aus.
 ![Im Dialogfenster "Drucken“ treffen Sie grundlegende Einstellungen für den bevorstehenden Druckauftrag.](/assets/images/vertretungsplan/sub-plan121.png)
-1. Markieren Sie zusätzlich das Kontrollkästchen `Mit Vertretungsinformationen drucken`.
-2. Legen Sie im Bereich `Auswahl` einen der Druckformatstypen Klassenpläne, Lehrerpläne, Raumpläne, Fachpläne, Schülerpläne oder Aufsichtspläne fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
-3. Wählen Sie jetzt im Bereich `Druckformat` unter `Auswahl` das Druckformat aus.
-4. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
-5. Klicken Sie auf die Schaltfläche `Drucken`, um die Ausgabe direkt auf den Drucker zu leiten. Wählen Sie die Schaltfläche `Vorschau`, um die Ausgabe erst auf dem Bildschirm zu prüfen.
+2. Markieren Sie zusätzlich das Kontrollkästchen `Mit Vertretungsinformationen drucken`.
+3. Legen Sie im Bereich `Auswahl` einen der Druckformatstypen Klassenpläne, Lehrerpläne, Raumpläne, Fachpläne, Schülerpläne oder Aufsichtspläne fest. Dabei können Sie unter `Filter` die Liste der möglichen Kürzel einschränken. Standardmäßig sind alle Kürzel der Liste vormarkiert. Durch Markieren bzw. Demarkieren können Sie die Auswahl der Kürzel entsprechend anpassen.
+4. Wählen Sie jetzt im Bereich `Druckformat` unter `Auswahl` das Druckformat aus.
+5. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
+6. Klicken Sie auf die Schaltfläche `Drucken`, um die Ausgabe direkt auf den Drucker zu leiten. Wählen Sie die Schaltfläche `Vorschau`, um die Ausgabe erst auf dem Bildschirm zu prüfen.
 
-#### Sammeldruck
-
-Neben dem Druck über einzelne Druckformate können auch mehrere Druckformate zu einem übergreifenden Sammeldruckformat zusammengefasst werden. In diesem Fall kann der Ausdruck verschiedener Druckformate mit einem einzigen Druckaufruf erfolgen.
-
-Für den Bereich des Vertretungsplans können Sie auf diese Weise beispielweise den Tagesvertretungsplan nach Stunden für die Schüler und die Vertretungslehrerliste für die Lehrer mit einem Sammeldruckformat
-ausgeben.
-
-Wählen Sie dazu gemäß der Beschreibung unter Abschnitt „Druckformat bearbeiten “ ein Druckformat vom Druckformattyp Sammeldruckformat.
-
-![Hier tragen Sie den Namen des neuen Sammeldruckformats ein.](/assets/images/vertretungsplan/sub-plan122.png)
-
-Nach der Definition des Namens für das neue Sammeldruckformat können Sie beim Bearbeiten des Druckformats aus der Liste der der bestehenden Druckformate diejenigen auswählen, welche in das
-Sammeldruckformat aufgenommen werden sollen.
-
-Beim Ausdruck werden dann die Druckformate des Sammeldruckformats in der Reihenfolge der Auflistung ausgegeben.
-
-![In diesem Dialogfenster wählen Sie die Druckformate des neuen Sammeldruckformats aus.](/assets/images/vertretungsplan/sub-plan123.png)
-
-#### Druckformattypen
+### Druckformattypen
 
 Für das Drucken von Vertretungsplänen können Sie zwischen sechs Druckformattypen für Vertretungspläne wählen.
 
@@ -148,7 +130,7 @@ Vertretungslehrerliste             | Alle Vertretungseinsätze werden nach ausge
 
 Für jedes dieser Druckformattypen können Sie ein oder mehrere Druckformate definieren. Jedes Druckformat legt den Inhalt der auszugebenen Informationen fest.
 
-#### Druckformat bearbeiten
+### Druckformat bearbeiten
 
 ![Die Liste der zur Verfügung stehenden Druckformate.](/assets/images/vertretungsplan/sub-plan124.png)
 
@@ -158,7 +140,7 @@ So erstellen Sie ein neues Druckformat:
 
 2. Wählen Sie im Dialogfenster `Drucken` die Schaltfläche `Druckformate`. Klicken Sie im Dialogfenster `Druckformate` auf die Schaltfläche `Hinzufügen`.
 
-3. Geben Sie einen Namen für das Druckformat an, wählen Sie den zugehörigen Druckformattyp aus und klicken Sie dann auf `O`K.
+3. Geben Sie einen Namen für das Druckformat an, wählen Sie den zugehörigen Druckformattyp aus und klicken Sie dann auf `OK`.
 
 4. Definieren Sie nun die Details des Druckformats.
 
@@ -205,7 +187,7 @@ So bearbeiten oder löschen Sie ein Druckformat:
 
 2. Markieren Sie im Dialogfenster `Druckformate` das gewünschte Druckformat und klicken Sie auf die Schaltfläche `Bearbeiten` bzw. auf die Schaltfläche `Löschen`.
 
-### HTML-Vertretungspläne exportieren
+## HTML-Vertretungspläne exportieren
 
 Neben dem Drucken von Vertretungsplänen können diese auch elektronisch als HTML-Dateien exportiert werden, um dann im Intranet bzw. Internet veröffentlicht zu werden.  
 
@@ -218,7 +200,7 @@ Um einen Vertretungsplan im HTML-Format direkt zu exportieren, gehen Sie wie fol
 5. Geben Sie optional bei `Bemerkung` eine Bemerkung an, die unter jedem Einzeldruck stehen soll.
 6. Klicken Sie auf die Schaltfläche `Exportieren`, um die HTML-Dateien zu exportieren.
 
-#### HTML-Exportformattypen
+### HTML-Exportformattypen
 
 Für den HTML-Export von Vertretungsplänen können Sie anlog zum Drucken zwischen sechs HTML-Exportformatstypen für Vertretungen wählen.
 
@@ -232,7 +214,7 @@ Vertretungslehrerliste            | Alle Vertretungseinsätze werden nach ausgew
 
 Für jedes dieser Exportformattypen können Sie ein oder mehrere HTML-Exportformate definieren. Jedes Exportformat legt den Inhalt der auszugebenen Informationen fest.
 
-#### HTML-Exportformat bearbeiten
+### HTML-Exportformat bearbeiten
 
 ![Die Liste der zur Verfügung stehenden HTML-Exportformate.](/assets/images/vertretungsplan/sub-plan132.png)
 
@@ -258,12 +240,12 @@ Sie können auch auf Basis eines bereits bestehenden Druckformats ein neues Druc
 
 Die Detailangaben zu den Exportvorgaben können Sie auf den verschiedenen Registerkarten einstellen.
 
-### Kurznachrichten versenden
+## Kurznachrichten versenden
 
 !!! info "Hinweis"
-      Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls daVinci LIVEMESSAGE voraus.
+      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls daVincDAVINCI LIVEMESSAGE voraus.
 
-Sie können in daVinci jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der versand kann per E-Mail und/oder per SMS erfolgen.
+Sie können in daVinci jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der Versand kann per E-Mail und/oder per SMS erfolgen.
 
 So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Schaltfläche `Änderungen mitteilen` in der Menügruppe `Publizieren > Pläne veröffentlichen`
 
@@ -272,6 +254,19 @@ So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Sc
 
 ### DAVINCI APP und Webbox
 
+!!! info "Hinweis"
+      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI ENTREPRISE und DAVINCI INFOSERVER voraus.
+
+DAVINCI bietet Ihnen die Möglichkeit, Ihre Vertretungsplandaten publikumswirksam und ohne Zeitverzögerung via Internet auf Smart Phones, Tablets und Webseiten zur Verfügung zu stellen.
+
+Nähere Informationen zur Umsetzung finden Sie [hier](09.infoserver/allgemeines/)
+
 ### DAVINCI LOOK
 
+Klicken Sie im Modul DAVINCI LOOK auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
+
 ### Public Displays
+
+Sie können den DAVINCI Vertretungsplan oder Stundenplan auf E-Boards in Ihrer Schule publizieren.
+
+Durch die direkte Integration der DAVINCI WEBBOX in CONFIRE SHOWTIME ist die Umsetzung der Darstellung denkbar einfach.

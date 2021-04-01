@@ -24,7 +24,7 @@ Klicken Sie auf `Stundenplan` um in die Stundenplanansicht zu wechseln. In diese
 
 ## Die Ansicht "Vertretungsplan"
 
-Klicken Sie auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingestzt werden kann.
+Klicken Sie auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
 
 ![Die Vertretungsplanansicht](/assets/images/substitutions.png)
 
@@ -32,11 +32,11 @@ Klicken Sie auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. 
 
 ![Die Vertretungsplanansicht mit der Anzeige betroffener Lehrer](/assets/images/substitutions-teacher.png)
 
-## Welche Spalten sollen angezeigt werden
+### Welche Spalten sollen angezeigt werden
 
 Sie können die angezeigten Spalten bestimmen, indem Sie in eine Vertretungstabelle klicken und Spaltentitel per Drag & Drop in das Fenster "Anpassen" ziehen. Mit `Rechter Maustaste > Spalten aus-/einblenden` können Sie das Fenster "Anpassung" öffnen. Klicken Sie auf den gewünschten Spaltentitel und ziehen sie ihn an die Position in der Vertretungstabelle, an der Sie ihn anzeigen möchtenm oder klicken Sie auf einen Spaltentitel dort und ziehen ihn auf das Fenster. Das in dieser Vertretungstabelle eingestellte Layout wird automatisch mit der nächsten Neuanzeige von den anderen Tagestabellen übernommen. Sie können auch die Spaltenweite oder die Reihenfolge der Spalten verändern. Auch diese Einstellungen werden von den anderen Tabellen automatisch übernommen.
 
-## Spaltenweite und -reihenfolge anpassen
+### Spaltenweite und -reihenfolge anpassen
 
 Sie können die Spalte auf eine andere Positione verschieben, indem Sie auf den Spaltentitel klicken, die Maus gedrückt halten und den Titel auf eine andere Position verschieben und die Maustaste loslassen. Die Spaltenweite könnne Sie verändern, indem Sie auf die Trenninie der Spaltentitel klicken, die Maustaste gedrückt halten und die Breite durch Links- oder Rechtsbewegung der Maus verändern und die Taste wieder loslassen.
 

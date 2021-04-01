@@ -18,7 +18,7 @@ Stunden|Anzahl der positiven oder negativen Anrechenstunden
 
 !!! info "Hinweis"
 
-    Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, können Sie hier nachlesen [Mit Listen arbeiten](/01.stundenplan/mit-listen-arbeiten.md)
+    Sie können darüber hinaus die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können. Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, können Sie hier nachlesen [Mit Listen arbeiten](/01.stundenplan/mit-listen-arbeiten)
 
 ## Manuelles Erzeugen von Anrechenstunden
 
