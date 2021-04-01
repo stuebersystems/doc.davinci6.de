@@ -112,6 +112,20 @@ Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird
 
 ### Neue Raumbuchung
 
+!!! info "Hinweis"
+    Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
+
+Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Raumbuchungen vorzunehmen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung. Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
+
+1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
+2. Wählen Sie den Eintrag `Neue Raubuchung` aus dem Aufklappmenü.
+3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
+4. Geben Sie im Eingabefeld Mitteilung einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+5. Geben Sie im Eingabefeld Bemerkung einen Info-Text ein, der als Bemerkung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+6. Tragen Sie in den Eingabefeldern Datum und Dauer die Eckpunkte des Zeitraums ein, auf den sich die Raumbuchung beziehen soll.
+7. Belassen Sie die vorbelegten Einträge bei den Teilnehmern Klasse, Raum bzw. Lehrer **oder** Wählen Sie die gewünschten Teilnehmer über Teilnehmer hinzufügen aus.
+8. Bestätigen Sie Ihre Angaben im Dialogfenster Neue Raumbuchung mit `Ok`.
+
 ### Änderungen löschen
 
 !!! warning "Wichtig"

@@ -42,6 +42,8 @@ Der Befehl `Neu > Neue Fehlzeit` steht nur dann zur Verfügung, wenn Sie mit dem
 
 ## Räume buchen
 
+### Raum ändern
+
 ![Die Schaltfläche `Raum ändern`](/assets/images/btn-room-booking.png)
 
 Sie können in DAVINCI LOOK für Ihren Unterricht einen Raum buchen oder den vorgegebenen Raum ändern. Wenn Sie einen Raum buchen wollen, wechseln Sie in Ihren Stundenplan, indem Sie z.B. auf `Mein Stundenplan` klicken. Klicken Sie im Stundenplan die Stunde an, für die Sie einen Raum buchen möchten. Klicken Sie für den markierten Termin auf `Raum ändern`. In dem Auswahlfenster werden Ihnen die Räume zur Auswahl angeboten. Wählen Sie den gewünschten Raum und klicken Sie auf OK. Gelbe Symbole zeigen die Räume an, die bereits verplant und damit nicht verfügbar sind.
@@ -49,6 +51,22 @@ Sie können in DAVINCI LOOK für Ihren Unterricht einen Raum buchen oder den vor
 ![Das Auswahl-Fenster für die Raumbuchung](/assets/images/room-booking.png)
 
 Der Befehl Raum ändern steht nur dann zur Verfügung, wenn Sie mit dem DAVINCI ENTERPRISE SERVER arbeiten und Ihr Administrator Ihnen die entsprechenden Rechte zugewiesen hat. Andernfalls ist der Befehl grau, d.h. nicht verfügbar.
+
+### Neue Raumbuchung
+
+!!! info "Hinweis"
+    Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
+
+Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Raumbuchungen vorzunehmen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung. Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
+
+1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
+2. Wählen Sie den Eintrag `Neue Raubuchung` aus dem Aufklappmenü.
+3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
+4. Geben Sie im Eingabefeld Mitteilung einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+5. Geben Sie im Eingabefeld Bemerkung einen Info-Text ein, der als Bemerkung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+6. Tragen Sie in den Eingabefeldern Datum und Dauer die Eckpunkte des Zeitraums ein, auf den sich die Raumbuchung beziehen soll.
+7. Belassen Sie die vorbelegten Einträge bei den Teilnehmern Klasse, Raum bzw. Lehrer **oder** Wählen Sie die gewünschten Teilnehmer über Teilnehmer hinzufügen aus.
+8. Bestätigen Sie Ihre Angaben im Dialogfenster Neue Raumbuchung mit `Ok`.
 
 ## Ressourcen buchen
 
