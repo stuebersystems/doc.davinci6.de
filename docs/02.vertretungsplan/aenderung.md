@@ -1,4 +1,4 @@
-# Änderungen verfolgen und bearbeiten
+# Änderungen verfolgen und bearbeiten in der Änderungsliste
 
 Durch Fehlzeiten entstehen für betroffene Termine Änderungselemente, welche die Grundlage für Vertretungen sind. Zu diesen Änderungen zählen auch Zusatzunterricht, Fehlstellen und Raumbuchungen und weitere Änderungen am regulären Plan. Alle Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden in der Änderungsliste chronologisch aufgelistet. Gehen Sie dazu in die Ansicht `Vertretungsplan > Änderungen`. Sie können dort auch gelöscht bzw. teilweise geändert werden. Wenn Sie mit dem DAVINCI ENTERPRISE Server arbeiten, können Sie in den Spalten `Geändert Zeit` und `Geändert von` erkennen, wer wann die letzte Modifikation am jeweiligen Änderungselement durchgeführt hat.
 
