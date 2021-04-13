@@ -108,6 +108,41 @@ Klicken Sie auf `OK`, um die entsprechenden Kurse zu erzeugen.
 
 Die Spalten in der Ansicht `Kurse` entsprechen der Veranstaltungsliste in der Ansicht `Stundenplan`. Lediglich die Spalte `Band` erscheint hier zusätztlich. Sie können in der Ansicht weitere Angaben zu Lehrern und Räumen machen, jedoch ist es in der Praxis ratsam, diese Angaben später nach der  Blockung und Verteilung zu machen, da sie unnötig einschränken würden. Neben Lehrer und Raumzuweisungen haben Sie die Möglichkeit Kurse hinzuzufügen (rechte Maustaste und Neue Veranstaltung), zu duplizieren (rechte Maustaste Veranstaltung duplizieren oder Block duplizieren) oder zu löschen (markieren Sie eine oder mehrere Veranstaltung in der Liste und klicken Sie rechte Maustaste Veranstaltungen löschen). Siehe dazu auch die folgenden Abschnitte.
 
+Spalte | Inhalt
+-|-
+Unverplant | Anzahl der unverplanten Stunden einer Unterrichtsveranstaltung
+Block | Blockkürzel, gleiche Blockkürzel geben an, dass alle Veranstaltungen dieses Blocks zu gleichen ‚Zeit parallel stattfinden. Das Blockkürzel ist eindeutig für den gesamten Plan.
+Fach | Unterrichtsfach der Veranstaltung
+Dauer | Dauer der Veranstaltung je Woche, standardmäßig die der Soll-Stunden-Wert aus der Stundentafel. Sollte der Soll-Sunden-Wert nicht der Unterrichtsdauer entsprechen, z.B. bei geteiltem oder periodischem Unterricht, muss dieser Wert im Nachhinein angepasst werden.
+Termine | Terminserien der Veranstaltungen, z.B. „2-2-1“ für zwei Doppelstunden und eine Einzelstunde
+Lehrer | Kürzel des Lehrers, der den Fachunterricht in einer Veranstaltung halten soll.
+Raum | Ein Raum oder ein Raum-Platzhalter oder eine Liste von Räumen. In einer Block werden unterschiedliche Räume durch Raum-Platzhalter z.B. #R1 oder #R2 spezifiziert. Ein Platzhalter ist ein beliebiger Name beginnend mit ``#``.
+Räume | Kürzel der Unterrichtsräume, die als Vorgabe für die Planung der Termine dient. Beim Kopieren der Stundentafel wird hier standardmäßig der Klassenraum eingetragen. Wurde dem Unterrichtsfach in den Stammdaten ein Fachraum zugeordnet, wird statt des Klassenraums der Fachraum eingetragen.
+Soll (W) | Durchschnittlichen Wochenstunden-Soll-Wert der Veranstaltung. Beim Kopieren der Stundentafel wird hier der Wert des Fachs in der Spalte „Soll“ der zugehörigen Stundentafel eingetragen. Falls bei einem Fach in der Spalte „Angleichung“ der Stundentafel ein Wert eingetragen ist, so wird dieser zu dem Eintrag in der Spalte „Soll“ der Stundentafel hinzuaddiert. Der Eintrag in der Spalte „Soll (W)“ bildet also die Summe aus den Werten „Soll“ und „Angleichung“ der Stundentafel
+Ist (W) | Stellt den durchschnittlichen Wochenstunden-Ist-Wert einer Veranstaltung dar. Dieser ermittelt sich als Produkt aus dem Eintrag im Feld „Dauer“ der Veranstaltungsliste und dem zugehörigen wochenbezogenen Berechnungsfaktor. Bei diesem Faktor handelt es sich um einen Wert zwischen „1“ und „0“. Der Wert„1“ bedeutet, dass eine Veranstaltung in allen Unterrichtswochen des Planungszeitraums stattfindet. Der Wert in der Spalte „Ist (W)“ entspricht in diesem Beispiel dem Wert in der Spalte „Dauer“. Ein Wert kleiner als „1“ bedeutet, dass eine Veranstaltung nicht in allen Unterrichtswochen des Planungszeitraums stattfindet. Die Anzahl der Unterrichtswochen einer bestimmten Veranstaltung wird dabei durch den allgemeinen Wochenfaktor geteilt. Der allgemeine Wochenfaktor steht als statistischer Kennwert für die Anzahl aller Unterrichtswochen des Planungszeitraums und wird vom Planer im Vorfeld definiert.
+Ist/J | Ist Stunden als Jahressumme.
+Soll/J | Stunden Soll als Jahressumme.
+Periode | Kürzel der Periode an, die einer Veranstaltung zugewiesen ist. Ist dieses Spalte leer, so findet die Veranstaltung in allen Unterrichtswochen des Planungszeitraums statt. Falls bei der Klasse in den Stammdaten eine Periode angegeben wurde, wird diese Spalte bereits beim Erzeugen der Veranstaltung aus der Stundentafel mit dem entsprechenden Periodenkürzel gefüllt.
+Bemerkung | Beliebiger Bemerkungstext, der im Ausdruck, im HTML-Export sowie in der Bildschirmausgabe des Stundenplans bei den Terminen der zugehörigen Veranstaltung eingeblendet werden kann.
+Wochen | Kalenderwochen, in denen der Unterricht stattfindet. Beim Kopieren der Stundentafel wird hier standardmäßig der Eintrag „Jede Woche“ eingetragen. Wurde einer Klasse in den Stammdaten eine Periode zugewiesen, erscheinen in dieser Spalte die Kalenderwochen der Periode. Wird nur einzelnen Unterrichtsveranstaltungen eine Periode zugewiesen, dann erscheinen an dieser Stelle in den betroffenen Veranstaltungszeilen ebenfalls die zugehörigen Periodenwochen.
+Wochenanzahl | Anzahl der Woche gemäß zugwiesener Periode
+Klassen | Kürzel der Klassen an, die einer Unterrichtsveranstaltung als Teilnehmer zugewiesen sind. Beim Kopieren der Stundentafeln wird pro Klassenplan die zugehörige Klasse eintragen.
+Unterrichtsart | siehe  ``Extras > Schlüsselverzeichnisse > Unterrichtsarten``, wichtige Differenzierung z.B. für Leistungs- und Grundkurse sowie Profilfächer für die gymnasiale Oberstufe
+Gültig von/bis | Mit diesen beiden Feldern können Sie die Veranstaltung befristen.
+Nr | Veranstaltungsnummer, z.B. Vorlesungsnummer. Diese Angabe hat keine direkte Funktion für die weitere Stundenplanung und besitzt ausschließlich informativen Charakter. 
+Schiene | Die Spalte „Schiene“ zeigt die Zeitschiene an, auf der eine Veranstaltung angesiedelt ist. Standardmäßig ist hier die Zeitschiene „A“ hinterlegt. Darüber hinaus stehen die Zeitschienen „B“, „C“, „D“, „E“ und „X“ zur Verfügung. Durch die Platzierung von Veranstaltungen auf unterschiedliche Zeitschienen, können Sie der Setzautomatik differenzierte Vorgabenmachen, welche Veranstaltungen sich im Plan überschneiden dürfen und welche nicht.
+Schüler | Anzahl der Schüler, die einer Unterrichtsveranstaltung zugewiesen sind. Beim Kopieren der Stundentafel wird hier die Schüleranzahl eingetragen die in den Stammdaten der Klasse angegeben wurde. Wurden in DAVINCI Schüler einer Veranstaltung zugewiesen, z.B. in der Oberstufe, wird die entsprechende Schüleranzahl automatisch ausgewiesen und ist nicht mehr manuell eingebbar.
+intern | -
+Kategorie | -
+Raumart | -
+Doppelstd |-
+gesperrt | -
+Fachfolge | Fachfolgekürzel, gibt an welche Veranstaltungen direkt aufeinanderfolgend und welche Veranstaltungen möglichst nicht direkt aufeinanderfolgend verplant werden sollen. Diese Angabe ist nur für das Planen mit der Automatik relevant.
+Zeitraum | -
+Zeitkonto | -
+Ressourcen | -
+URL | Verlinkung
+
 ## Kursen Bandnummer zuweisen
 
 Markieren Sie in der Ansicht `Kursplan > Kurse` die gewünschten Kurse und klicken Sie auf rechte Maustaste und Bandnummer ändern und geben Sie im folgenden Dialogfenster die neue Bandnummer ein und klicken Sie auf `OK`.
