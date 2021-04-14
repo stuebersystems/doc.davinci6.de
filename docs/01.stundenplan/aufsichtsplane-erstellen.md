@@ -104,7 +104,7 @@ Der gewählte Lehrer wird nun als zusätzlicher Aufsichtslehrer an der markierte
 
 Haben Sie einen Aufsichtsplan für eine bestimmte Kalenderwoche erstellt, können Sie diesen mit dem Aufruf `Aufsichtsplan > Start > Übernehmen aus Woche` beliebig aus einer in eine andere Kalenderwoche kopieren.
 
-![Übernehmen aus Vorwoche](/assets/images/stundenplan/01.png)
+![Übernehmen aus Vorwoche](/assets/images/stundenplan/Aufsicht1.png)
 
 ## Aufsichtsautomatik
 
