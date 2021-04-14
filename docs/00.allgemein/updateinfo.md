@@ -11,7 +11,7 @@ Sie können die DAVINCI so anpassen, dass aktuelle Updates nicht von unseren Int
 
 ## Lokales Ablegen des Setups
 
-Laden Sie dazu das Installationspaket von unseren Internetseiten herunter, und legen Sie dieses zentral in einem für jeden Nutzer erreichbaren Ordner des Netzwerks ab. Laden Sie anschließend die zur Verfügung stehende Update-Infodatei von unserer Internetseite und legen diese in den selben Ordner. Öffnen Sie die Datei mit einem einfachen Textbearbeitungsprogramm (z.B. Windows Notepad) und passen Sie den Pfad des Installationspaketes an, indem Sie den FTP-Pfad gegen Ihren Netzwerkpfad austauschen.
+Laden Sie dazu das Installationspaket von unseren Internetseiten herunter, und legen Sie dieses zentral in einem für jeden Nutzer erreichbaren Ordner des Netzwerks ab. Laden Sie anschließend die zur Verfügung stehende Update-Infodatei von unserer Internetseite und legen diese in den selben Ordner. Öffnen Sie die Datei mit einem einfachen Textbearbeitungsprogramm (z.B. Windows Notepad) und passen Sie den Pfad des Installationspaketes an, indem Sie die URL gegen Ihren Netzwerkpfad austauschen.
 
 Ein Beispiel für eine Update-Infodatei:
 
