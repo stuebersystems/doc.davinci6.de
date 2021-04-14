@@ -87,7 +87,6 @@ Folgende Schlüsselverzeichnisse werden in daVinci-Vertretungsplan verwendet:
 | 28 Vertretungslehrerarten | Diese werden bei der Erstellung einer Vertretung verwendet |
 | 29 Vertretungsqualitäten | Diese werden bei der Erstellung einer Vertretung verwendet |
 
-
 ## Stammdaten
 
 Auch in den Stammdaten gibt es Eintragungen, die Sie speziell für den Vertretungsplan treffen können.
@@ -103,3 +102,63 @@ In den `Stammdaten > Fächer > Vertretung` können folgende Vorgaben gemacht wer
 ### Lehrer
 
 In den `Stammdaten > Lehrer > Lehrerart` kann zur Auswahl bei der Vertretungserstellung eine Lehrerart ausgewählt werden. Grundlage ist das Schlüsselverzeichnis `Lehrerart`.
+
+## Vertretungsoptionen
+
+Über den Aufruf `Extras > Verwalten > Optionen` gelangen Sie in das Dialogfenster der DAVINCI-Optionen. Hier  können Sie spezielle Einstellungen für den Vertretungsplan
+vornehmen. 
+
+## Allgemeine Vertretungsplanoptionen
+
+Im Bereich `Vertretungsplan` des Dialogfensters können Sie
+
+* vordefinierte Texte für die Spalten Info, Mitteilung und Bemerkung in der Ansicht `Vertretungen`
+erstellen,
+
+* die Behandlung von Doppelstunden bzw. Terminblöcken und
+
+* die Darstellung des Fehlzeiten-Zeitplan festlegen.
+   
+![Dies ist das Dialogfenster „daVinci-Optionen“ mit dem Bereich `Vertretungsplan`.](/assets/images/vertretungsplan/vp08.png)
+
+
+### Vordefinierte Infos, Mitteilungen und Bemerkungen
+
+In den Bereichen `Vordefinierte Infos`, `Vordefinierte Mitteilungen` und `Vordefinierte Bemerkungen` können Sie häufig genutzte Texte definieren, die Sie im Rahmen der Vertretungserstellung in der Ansicht `Vertretungen` in der Fehlzeiten-/Vertretungen-Liste in den Spalten Info, Mitteilung und Bemerkung als vorbelegte Texte auswählen können.
+
+### Doppelstunden und Terminblöcke
+
+Durch das Markieren des Optionsfelds `Doppelstunden bzw. Terminblöcke in Einzelstunden aufteilen` legen Sie fest, ob Doppelstunden bzw. Terminblöcke in Einzelstunden aufgeteilt werden sollen. In diesem Fall kann für jede Einzelstunden der Doppelstunde bzw. des Terminblocks eine getrennte Vertretung erstellt werden.
+
+Ist das Feld nicht markiert, werden für beide Stunden der Doppelstunde bzw. für alle Termin eines Blocks immer die gleichen Vertretung gewählt.
+
+### Fehlzeiten-Zeitplan
+
+Im Eingabefeld des Bereichs `Fehlzeiten-Zeitplan` können Sie festlegen, wie viele Zeilen für `Klassen/ Lehrer/Räume` in der Teilansicht `Zeitplan` der Fehlzeiten-Ansicht auf Anhieb am Bildschirm sichtbar sind.
+
+## Änderungen in der Plananzeige darstellen
+
+Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Plananzeige` Einstellungen für Änderungen im Plan in der Gruppe Änderungen vornehmen.
+
+![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Plananzeige`.](../images/vp_optionen.plananzeige.png)
+
+Sie können im DAVINCI-Vertretungsplan angeben, wie neue Änderungen im Vertretungsplan in den Stundenplänen auf dem Bildschirm und im Ausdruck speziell gekennzeichnet werden.
+
+Definieren Sie zunächst unter `Zeitpunkt`, ab der eine Änderung als `neu` angesehen wird: den Zeitpunkt, ab der eine Änderung im Vertretungsplan als `neu` angesehen wird. Im Aufklappmenü ist dabei die Standardeinstellungen `Letzte Veröffentlichung`. Bei dieser Einstellung werden alle Änderungen als neu betrachtet, die seit der letzten Veröffentlichung der Änderung durch einen Vertretungsplaner hinzugekommen sind.
+
+Alternativ können Sie als Zeitpunkt, ab der eine Änderung als `neu` angesehen wird, auch eine der vordefinierten Zeiteinstellungen wählen, z.B. `vor 1 Stunde`. In welcher textlichen Form diese neuen Änderungen dargestellt werden, entscheidet der Eintrag unter Kennzeichen einer neuen Änderung. Steht hier z.B. der Eintrag „\*“, so wird dieser mit Stundenplanelement angezeigt, wie die nachfolgende Abbildung exemplarisch zeigt.
+
+![In diesem Plan sind alle Änderungen durch das vorangestellte Kennzeichen „\*“ als neu definiert.](../images/vp_planzeige.lehrer.png)
+
+Eine Besonderheit stellt die Spalte `Vertreter` in der Änderungsliste dar. Diese kann in einigen Fällen anstelle eines Lehrerkürzels auch besondere Bemerkungstexte beinhalten, z.B. bei Aufsichten, Fehlstellen. Der Eintrag unter Kennzeichnung einer Bemerkung in der Spalte `Vertreter` legt fest, welche
+textliche Form eine neue Änderung kennzeichnet.
+
+Zur analogen Kennzeichnung einer neuen Änderung im Ausdruck folgen Sie bitte den speziellen Anweisungen zum Druck von tagesaktuellen Stundenplänen (siehe Abschnitt „Tagesaktuell Stundenpläne drucken“).
+
+## Farben
+
+Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Farben` Farbvorgaben für bestimmte Einstellungen speziell für DAVINCI-Vertretungsplan vornehmen.
+
+![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Farben`.](../images/vp_optionen.farben.png)
+
+Auf der Registerkarte `Allgemein` können die Farben für `Abwesend`, `Änderung`, `Neue Änderung` und `Unterrichtsfrei` festgelegt werden.
