@@ -104,14 +104,14 @@ Der gewählte Lehrer wird nun als zusätzlicher Aufsichtslehrer an der markierte
 
 Haben Sie einen Aufsichtsplan für eine bestimmte Kalenderwoche erstellt, können Sie diesen mit dem Aufruf `Aufsichtsplan > Start > Übernehmen aus Woche` beliebig aus einer in eine andere Kalenderwoche kopieren.
 
-![Übernehmen aus Vorwoche](/assets/images/stundenplan/02.png)
+![Übernehmen aus Vorwoche](/assets/images/stundenplan/01.png)
 
 ## Aufsichtsautomatik
 
 Bevor Sie die Aufsichtsautomatik starten, müssen Sie die Psotionen, für die Aufsichtlehrer verplant werden sollen definieren.
 
 Markieren Sie dazu die zeitliche Position im Aufsichtsbereich und wählen dann im Menü `Start > Aufsichten`den Aufruf `Neu`.
-![Automatik](/assets/images/stundenplan/Aufsicht1.png)
+![Automatik](/assets/images/stundenplan/02.png)
 
 Im Menü `Start > Automatik` können Sie das Dialogfenser zum Start der Automatik aufrufen. Wählen Sie hier die Automatik **Aufsichtsautomatik**. Die Aufsichtsautomatik verplant nu die verfügbaren Aufsichtslehrer.
 
