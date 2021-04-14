@@ -119,17 +119,17 @@ erstellen,
 
 ![Dies ist das Dialogfenster „daVinci-Optionen“ mit dem Bereich `Vertretungsplan`.](/assets/images/vertretungsplan/vp08.png)
 
-#### Vordefinierte Infos, Mitteilungen und Bemerkungen
+**Vordefinierte Infos, Mitteilungen und Bemerkungen**
 
 In den Bereichen `Vordefinierte Infos`, `Vordefinierte Mitteilungen` und `Vordefinierte Bemerkungen` können Sie häufig genutzte Texte definieren, die Sie im Rahmen der Vertretungserstellung in der Ansicht `Vertretungen` in der Fehlzeiten-/Vertretungen-Liste in den Spalten Info, Mitteilung und Bemerkung als vorbelegte Texte auswählen können.
 
-#### Doppelstunden und Terminblöcke
+**Doppelstunden und Terminblöcke**
 
 Durch das Markieren des Optionsfelds `Doppelstunden bzw. Terminblöcke in Einzelstunden aufteilen` legen Sie fest, ob Doppelstunden bzw. Terminblöcke in Einzelstunden aufgeteilt werden sollen. In diesem Fall kann für jede Einzelstunden der Doppelstunde bzw. des Terminblocks eine getrennte Vertretung erstellt werden.
 
 Ist das Feld nicht markiert, werden für beide Stunden der Doppelstunde bzw. für alle Termin eines Blocks immer die gleichen Vertretung gewählt.
 
-### Änderungen in der Plananzeige darstellen
+**Änderungen in der Plananzeige darstellen**
 
 Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Plananzeige` Einstellungen für Änderungen im Plan in der Gruppe Änderungen vornehmen.
 
