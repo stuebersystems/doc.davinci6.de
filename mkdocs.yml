@@ -82,8 +82,9 @@ nav:
   - Datenaustausch: 
     - Import und Export: 11.datenaustausch/import_export.md
     - Mit MAGELLAN: 11.datenaustausch/magellan.md
+    - Mit SDUI: 11.datenaustausch/sdui.md
+    - Mit IServ: 11.datenaustausch/iserv.md
     - Schuldatentransferformat: 11.datenaustausch/sdtf.md
-    - SDUI: 11.datenaustausch/sdui.md
   - Regionales:
     - Allgemeines: 10.regionales/allgemeines.md 
     - Bayern: 10.regionales/bayern.md

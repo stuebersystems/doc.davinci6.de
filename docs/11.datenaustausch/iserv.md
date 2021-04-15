@@ -1,10 +1,10 @@
-# Datenaustausch mit Sdui
+# Datenaustausch mit IServ
 
-Sdui bietet Schulen eine DSGVO-konforme Lösung in der digitalen Kommunikation und Organisation mit Lehrern, Schülern und Eltern an. DAVINCI kann Stundenplandaten mit Sdui abgleichen. Diese werden dann in der Sdui-App angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
+IServ ist eine Schulplattform für das Digitalisierung von Prozessen in der Schule. DAVINCI kann Stundenplandaten mit IServ abgleichen. Diese werden dann in IServ angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
 
 Der Workflow sieht grob wie folgt aus:
 
-+ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Ihre Sdui-Instanz
++ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Ihre IServ-Instanz
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
@@ -42,9 +42,9 @@ Jetzt können Sie lokale PowerShell-Skripte problemlos starten.
 
 [1]: https://docs.microsoft.com/de-de/powershell/
 [2]: https://github.com/PowerShell/PowerShell/releases/latest
-[3]: /assets/images/datenaustausch/sdui/requirements-04.png "PowerShell-Setup (Windows x64)"
-[4]: /assets/images/datenaustausch/sdui/requirements-02.png "PowerShell als Administrator ausführen"
-[5]: /assets/images/datenaustausch/sdui/requirements-03.png "Ausführungsrichtlinie anpassen"
+[3]: /assets/images/datenaustausch/iserv/requirements-04.png "PowerShell-Setup (Windows x64)"
+[4]: /assets/images/datenaustausch/iserv/requirements-02.png "PowerShell als Administrator ausführen"
+[5]: /assets/images/datenaustausch/iserv/requirements-03.png "Ausführungsrichtlinie anpassen"
 [6]: https://blog.stueber.de/posts/powershell7-unter-windows-10/
 
 ### PSDaVinci
@@ -68,9 +68,9 @@ Das PowerShell-Modul wird nun installiert.
 	Die *PowerShell Gallery* ist ein öffentliches Repository für PowerShell-Skripte und -Module, das von Microsoft bereitgestellt wird. Da derartige Skripte theoretisch auch Unfug treiben können, wird bei jeder Installation eines PowerShell-Moduls explizit gefragt, ob man der Quelle trauen möchte. Da wir nett sind, kann man uns natürlich trauen. Im Zweifel kann man aber auch den [Quellcode inspizieren][11]. 
 
 [7]: https://www.powershellgallery.com/packages/PsDaVinci
-[8]: /assets/images/datenaustausch/sdui/requirements-05.png "PowerShell ausführen"
+[8]: /assets/images/datenaustausch/iserv/requirements-05.png "PowerShell ausführen"
 [9]: https://www.powershellgallery.com/
-[10]: /assets/images/datenaustausch/sdui/requirements-06.png "Untrusted repository"
+[10]: /assets/images/datenaustausch/iserv/requirements-06.png "Untrusted repository"
 [11]: https://github.com/stuebersystems/psdavinci
 
 ## Konfiguration
@@ -99,31 +99,32 @@ Das PowerShell-Modul wird nun installiert.
  
 Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
-Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individuellen Zugang zu Sdui:
+Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individuellen Zugang zu IServ:
 
-Eigenschaft                         | Bedeutung                      
------------------------------------ | -------------------------------
-`daVinci.SduiExport.PinCode`        |  Admin-PIN aus Sdui
+Eigenschaft                          | Bedeutung                      
+------------------------------------ | -------------------------------
+`daVinci.IServExport.IServUrl        |  URL Deiner IServ-Instanz
+`daVinci.IServExport.IServApiToken`  |  API-Token aus IServ
 
-Die Admin-PIN für Sdui finden Sie in Sdui unter `Administration > Stundenplan > Synchronisation`.
+Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
 
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
 
-Eigenschaft                         | Bedeutung
------------------------------------ | ---------
-`daVinci.SduiExport.SourceProvider` | Wert = `File`
-`daVinci.SduiExport.SourceFileName` | Vollständiger Dateiname der DAVINCI-Datei
+Eigenschaft                          | Bedeutung
+------------------------------------ | ---------
+`daVinci.IServExport.SourceProvider` | Wert = `File`
+`daVinci.IServExport.SourceFileName` | Vollständiger Dateiname der DAVINCI-Datei
 
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird** auf alle Fälle überschrieben werden:
 
-Eigenschaft                         | Bedeutung
------------------------------------ | ---------
-`daVinci.SduiExport.SourceProvider` | Wert = `Server`
-`daVinci.SduiExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk.
-`daVinci.SduiExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)
-`daVinci.SduiExport.ServerUserName` | Ein DAVINCI-Benutzername.
-`daVinci.SduiExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.
-`daVinci.SduiExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.
+Eigenschaft                          | Bedeutung
+------------------------------------ | ---------
+`daVinci.IServExport.SourceProvider` | Wert = `Server`
+`daVinci.IServExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk.
+`daVinci.IServExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)
+`daVinci.IServExport.ServerUserName` | Ein DAVINCI-Benutzername.
+`daVinci.IServExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.
+`daVinci.IServExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.
 
 Es empfiehlt sich einen seperaten DAVINCI-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DAVINCI anmelden zu können.
 
@@ -142,8 +143,9 @@ Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie f
 ```json
 {
 	"daVinci": {
-		"SduiExport": {
-			"SduiPIN": "abc-def-ghi",
+		"IServExport": {
+			"IServUrl": "https://mein-iserv.de",
+			"IServApiToken": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345==",
 			"SourceProvider": "File",
 			"SourceFileName": "davinci\\beispiel.daVinci",
 		}
@@ -158,8 +160,9 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 ```json
 {
 	"daVinci": {
-		"SduiExport": {
-			"SduiPIN": "abc-def-ghi",
+		"IServExport": {
+			"IServUrl": "https://mein-iserv.de",
+			"IServApiToken": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345==",
 			"SourceProvider": "Server",
 			"SourceProvider": "Server",
 			"ServerName" : "localhost",
@@ -185,18 +188,18 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 3. Tippen Sie folgenden PowerShell-Befehl ein:
 
     ```
-	Start-DaVinciExport sdui davinci.json
+	Start-DaVinciExport iserv davinci.json
 	```
 
-Die Daten aus DAVINCI werden direkt nach Sdui übertragen.	
+Die Daten aus DAVINCI werden direkt nach IServ übertragen.	
 	
 ## Automation
 
-Die Synchronisation zwischen DAVINCI und Sdui kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
+Die Synchronisation zwischen DAVINCI und IServ kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
 
 ### Ein Beispiel
 
-Wir wollen, dass der Abgleich zwischen DAVINCI und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
+Wir wollen, dass der Abgleich zwischen DAVINCI und IServ alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
 
 Los geht's:
 
@@ -246,7 +249,7 @@ Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausg
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach IServ alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/iserv/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/iserv/automation-02.png "Name und Beschreibung"
