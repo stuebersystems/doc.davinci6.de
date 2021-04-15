@@ -4,9 +4,9 @@ Sdui bietet Schulen eine DSGVO-konforme Lösung in der digitalen Kommunikation u
 
 Der Workflow sieht grob wie folgt aus:
 
-+ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Deine Sdui-Instanz
++ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Ihre Sdui-Instanz
 
-+ Mit dem **PowerShell-Modul PSDaVinci** kannst Du den Workflow mit einem einzigen Befehl ausführen.
++ Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
 ## Voraussetzungen
 
@@ -16,29 +16,29 @@ Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Insta
 
 Die Systemvoraussetzungen für eine erfolgreiche Ausführung der PowerShell-Skripte ist **PowerShell 7**. [PowerShell 7][1] ist nicht Teil des Betriebssystems und muss separat installiert werden. 
 
-1. Öffne die [Download-Webseite für PowerShell 7 auf GitHub][2] in Deinem Web-Browser.
+1. Öffnen Sie die [Download-Webseite für PowerShell 7 auf GitHub][2] in Ihrem Web-Browser.
 
-2. Lade Dir das passende Installationpaket herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.1.3-win-x64.msi).
+2. Laden Sie das passende Installationpaket herunter. In der Regel wird dies das MSI-Paket für Windows 64bit sein (z.B. PowerShell-7.1.3-win-x64.msi).
 
     [![PowerShell-Setup (Windows x64)][3]][3]
 	
-3. Starte das MSI-Paket auf Deinem Computer und folge den Anweisungen.
+3. Starten Sie das MSI-Paket auf Deinem Computer und folgen Sie den Anweisungen.
 
 Die Ausführung von lokalen PowerShell-Skripten unter Windows Server 2019 ist standardmäßig erlaubt, unter Windows 10 jedoch nicht. In der Regel kann man mit der Ausführungsrichtlinie `RemoteSigned` gut leben. 
 
-1. Tippe im Suchfeld der Windows-Taskleiste `powershell 7` oder `pwsh` ein und starte PowerShell als Administrator.
+1. Tippen Sie im Suchfeld der Windows-Taskleiste `powershell 7` oder `pwsh` ein und starten Sie PowerShell als Administrator.
 
     [![PowerShell als Administrator ausführen][4]][4]
 
-2. Tippe `Set-ExecutionPolicy RemoteSigned` ein und bestätige.
+2. Tippen Sie `Set-ExecutionPolicy RemoteSigned` ein und bestätigen Sie.
 
     [![Ausführungsrichtlinie anpassen][5]][5]
 
-Jetzt kannst Du lokale PowerShell-Skripte problemlos starten. 
+Jetzt können Sie lokale PowerShell-Skripte problemlos starten. 
 
 !!! tip "Hinweis"
 
-	Einen ausführlicheren Blog-Artikel zur Installation und Nutzung von PowerShell 7 [findest Du hier][6]. 
+	Einen ausführlicheren Blog-Artikel zur Installation und Nutzung von PowerShell 7 [finden Sie hier][6]. 
 
 [1]: https://docs.microsoft.com/de-de/powershell/
 [2]: https://github.com/PowerShell/PowerShell/releases/latest
@@ -49,15 +49,15 @@ Jetzt kannst Du lokale PowerShell-Skripte problemlos starten.
 
 ### PSDaVinci
 
-Installiere das PowerShell-Modul [PSDaVinci][7]:
+Installieren Sie das PowerShell-Modul [PSDaVinci][7]:
 
-1. Tippe im Suchfeld der Windows-Taskleiste `powershell 7` oder `pwsh` ein und starte PowerShell.
+1. Tippen Sie im Suchfeld der Windows-Taskleiste `powershell 7` oder `pwsh` ein und starten Sie PowerShell.
 
     [![PowerShell ausführen][8]][8]
 
-2. Tippe `Install-Module PSDaVinci` ein und bestätige mit der Eingabetaste.
+2. Tippen Sie `Install-Module PSDaVinci` ein und bestätigen Sie mit der Eingabetaste.
 
-3. Beantworte die anschließende Frage, ob Du der [PowerShell Gallery][9] (PSGallery) vertrauen möchtest mit `Yes`.
+3. Beantwortn Sie die anschließende Frage, ob Sie der [PowerShell Gallery][9] (PSGallery) vertrauen möchten mit `Yes`.
 
 	[![PowerShell: Untrusted repository][10]][10]
 
@@ -77,17 +77,17 @@ Das PowerShell-Modul wird nun installiert.
 
 ### Konfiguration
 
-1. Lege im Windows-Explorer ein neues Verzeichnis `c:\davinci` an (das Verzeichnis kann natürlich auch anders heißen).
+1. Legen Sie im Windows-Explorer ein neues Verzeichnis `c:\davinci` an (das Verzeichnis kann natürlich auch anders heißen).
 
-3. Starte PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
+3. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
 
-4. Wechsle mit folgendem Befehl in das soeben angelegte Verzeichnis mit:
+4. Wechseln Sie mit folgendem Befehl in das soeben angelegte Verzeichnis mit:
 
     ```
     cd c:\davinci
     ```
 
-5. Tippe nun folgenden PowerShell-Befehl ein:
+5. Tippen Sie nun folgenden PowerShell-Befehl ein:
 
     ```
 	Initialize-DaVinciExport davinci.json
@@ -97,7 +97,7 @@ Das PowerShell-Modul wird nun installiert.
 
 ## Konfigurieren
  
-Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffne diese Datei in einem Texteditor und überschreibe die gewünschten Eigenschaften.
+Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
 Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individuellen Zugang zu Sdui:
 
@@ -105,7 +105,7 @@ Eigenschaft                         | Bedeutung
 ----------------------------------- | -------------------------------
 `daVinci.SduiExport.PinCode`        |  Admin-PIN aus Sdui
 
-Die Admin-PIN für Sdui findest Du in Sdui unter `Administration > Stundenplan > Synchronisation`.
+Die Admin-PIN für Sdui finden Sie in Sdui unter `Administration > Stundenplan > Synchronisation`.
 
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
 
@@ -174,15 +174,15 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 
 ## Testen
 
-1. Starte PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
+1. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
 
-2. Wechsle mit folgendem Befehl in unser DAVINCI-Verzeichnis:
+2. Wechseln Sie mit folgendem Befehl in unser DAVINCI-Verzeichnis:
 
     ```
     cd c:\davinci
     ```
 
-3. Tippe folgenden PowerShell-Befehl ein:
+3. Tippen Sie folgenden PowerShell-Befehl ein:
 
     ```
 	Start-DaVinciExport sdui davinci.json
@@ -200,29 +200,29 @@ Wir wollen, dass der Abgleich zwischen DAVINCI und SDUI täglich um 21:00 gestar
 
 Los geht's:
 
-1. Starte die Aufgabenplanung, indem Du im Suchfeld der Windows-Taskleiste "Aufgabenplanung" eintippst.
+1. Starten Sie die Aufgabenplanung, indem Sie im Suchfeld der Windows-Taskleiste "Aufgabenplanung" eintippen.
 
-2. Klicke in der Aufgabenplanung in der rechten Aktionsleiste auf `Einfache Aufgabe erstellen`. Es öffnet sich ein Assistent.
+2. Klicken Sie in der Aufgabenplanung in der rechten Aktionsleiste auf `Einfache Aufgabe erstellen`. Es öffnet sich ein Assistent.
 
     [![Einfache Aufgabe erstellen][12]][12]
 
-3. Tippe einen Namen für Deine neue Aufgabe ein und optional eine Beschreibung. Klicke anschließend auf `Weiter`.
+3. Tippen Sie einen Namen für Ihre neue Aufgabe ein und optional eine Beschreibung. Klicken Sie anschließend auf `Weiter`.
 
     [![Name und Beschreibung][13]][13]
 
-4. Auf der nächsten Ansicht musst Du definieren, wie oft der Abgleich ausgeführt werden soll. Wir belassen die Auswahl bei `Täglich` und klicken auf `Weiter`.
+4. Auf der nächsten Ansicht müssen Sie definieren, wie oft der Abgleich ausgeführt werden soll. Wir belassen die Auswahl bei `Täglich` und klicken auf `Weiter`.
 
     [![Aufgabentrigger][14]][14]
 
-4. Auf der nächsten Ansicht musst Du definieren, wann genau am Tag der Abgleich ausgeführt werden soll. Tippe hier die gewünschte Urhzeit ein, in unserem Beispiel also 21:00. Klicke auf `Weiter`.
+4. Auf der nächsten Ansicht müssen Sie definieren, wann genau am Tag der Abgleich ausgeführt werden soll. Tippen Sie hier die gewünschte Urhzeit ein, in unserem Beispiel also 21:00. Klicken Sie auf `Weiter`.
 
     [![Tägliche Wiederholung][15]][15]
 
-5. Auf der nächsten Ansicht musst Du definieren, was denn nun geschehen soll. Wir belassen die Auswahl bei `Programm starten` und klicken auf `Weiter`.
+5. Auf der nächsten Ansicht müssen Sie definieren, was denn nun geschehen soll. Wir belassen die Auswahl bei `Programm starten` und klicken auf `Weiter`.
 
     [![Aktion][16]][16]
 
-6. Jetzt musst Du definieren, welches Programm gestartet werden soll. Wir wollen ein PowerShell-Cmdlet starten. Dazu müssen wir in die drei Felder folgende Angaben eintippen:
+6. Jetzt müssen Sie definieren, welches Programm gestartet werden soll. Wir wollen ein PowerShell-Cmdlet starten. Dazu müssen wir in die drei Felder folgende Angaben eintippen:
 
     Feld                  | Eingabe
     --------------------- | -------
@@ -240,23 +240,23 @@ Los geht's:
 
 Die Aufgabenplanung erstellt jetzt die gewünschte Aufgabe. 
 
-Ein Sache ist aber noch wichtig. Standardmäßig wird Deine Aufgabe nur dann ausgeführt, wenn Du an Deinem Computer aktiv angemeldet bist. Das ist aber nicht immer erwünscht. Möchte man die Aufgabe beispielsweise auf einem Windows-Server erstellen, dann soll diese ja auch dann ausgeführt werden, wenn kein Server-Administrator am Server angemeldet ist (Das ist ja der Standardfall). In diesem Fall musst Du die Konfiguration Deiner Aufgabe anpassen:
+Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausgeführt, wenn Sie an Ihrem Computer aktiv angemeldet sind. Das ist aber nicht immer erwünscht. Möchte man die Aufgabe beispielsweise auf einem Windows-Server erstellen, dann soll diese ja auch dann ausgeführt werden, wenn kein Server-Administrator am Server angemeldet ist (Das ist ja der Standardfall). In diesem Fall müssen Sie die Konfiguration Ihrer Aufgabe anpassen:
 
-1. Wähle Deine neue Aufgabe in der Windows-Aufgabenplanung aus und klicke rechts unter `Ausgewähltes Element` auf `Eigenschaften`. Es öffnet sich ein Dialogfenster.
+1. Wählen Sie eine neue Aufgabe in der Windows-Aufgabenplanung aus und klicken Sie rechts unter `Ausgewähltes Element` auf `Eigenschaften`. Es öffnet sich ein Dialogfenster.
 
     [![Eigenschaften][19]][19]
 
-2. Wähle unter `Sicherheitsoptionen` die Option `Unabhängig von der Benutzeranmeldung ausführen` aus und bestätige mit `OK`.
+2. Wählen Sie unter `Sicherheitsoptionen` die Option `Unabhängig von der Benutzeranmeldung ausführen` aus und bestätigen Sie mit `OK`.
 
     [![Unabhängig von der Benutzeranmeldung][20]][20]
 
-3. Du wirst jetzt aufgefordert, Dich mit einem passenden Windows-Benutzerkonto zu authentifizieren. In der Regel sollte Dein eiegnes Windows-Benutzerkonto ausreichen.
+3. Sie werden jetzt aufgefordert, sich mit einem passenden Windows-Benutzerkonto zu authentifizieren. In der Regel sollte Ihr eiegnes Windows-Benutzerkonto ausreichen.
 
     [![Authentifizierung][21]][21]
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui täglich m 21:00 startet. Die Ausgabe wird in eine Textdatei geloggt, so dass Du stets konrtollieren kannst, ob der letzte Übertrag erfglreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui täglich m 21:00 startet. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfglreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/sdui/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/sdui/automation-02.png "Name und Beschreibung"
