@@ -202,23 +202,23 @@ Los geht's:
 
 1. Starten Sie die Aufgabenplanung, indem Sie im Suchfeld der Windows-Taskleiste "Aufgabenplanung" eintippen.
 
-2. Klicken Sie in der Aufgabenplanung in der rechten Aktionsleiste auf `Einfache Aufgabe erstellen`. Es öffnet sich ein Assistent.
+2. Klicken Sie in der Aufgabenplanung in der rechten Aktionsleiste auf `Aufgabe erstellen`. Es öffnet sich ein Assistent.
 
     [![Einfache Aufgabe erstellen][12]][12]
 
-3. Tippen Sie einen Namen für Ihre neue Aufgabe ein und optional eine Beschreibung. Klicken Sie anschließend auf `Weiter`.
+3. Tippen Sie auf der Registerkarte `Allgemein`einen Namen für Ihre neue Aufgabe ein und optional eine Beschreibung. Wechseln Sie anschließend auf die Registerkarte `Trigger`.
 
     [![Name und Beschreibung][13]][13]
 
-4. Auf der nächsten Ansicht müssen Sie definieren, wie oft der Abgleich ausgeführt werden soll. Wir belassen die Auswahl bei `Täglich` und klicken auf `Weiter`.
+4. Hier müssen Sie definieren, wie oft der Abgleich ausgeführt werden soll. Klicken Sie auf `Neu`es öffnet sich ein Dialogfenster. Wir stellen Sie die Auswahl auf `Täglich` und klicken auf `Weiter`.
 
     [![Aufgabentrigger][14]][14]
 
-4. Auf der nächsten Ansicht müssen Sie definieren, wann genau am Tag der Abgleich ausgeführt werden soll. Tippen Sie hier die gewünschte Urhzeit ein, in unserem Beispiel also 21:00. Klicken Sie auf `Weiter`.
+4. Nun müssen Sie definieren, wie oft am Tag der Abgleich ausgeführt werden soll. Stellen Sie hier 10 Minuten ein. Klicken Sie auf `OK`.
 
     [![Tägliche Wiederholung][15]][15]
 
-5. Auf der nächsten Ansicht müssen Sie definieren, was denn nun geschehen soll. Wir belassen die Auswahl bei `Programm starten` und klicken auf `Weiter`.
+5. Wechseln Sie nun auf die Registerkarte `Aktionen` und KLicken Sie auf `Neu`. Hier müssen Sie definieren, was denn nun geschehen soll. Wir belassen die Auswahl bei `Programm starten`.
 
     [![Aktion][16]][16]
 
@@ -230,13 +230,11 @@ Los geht's:
     Argumente hinzufügen  | `-command "& {Start-DaVinciExport sdui .\davinci.json *> .\logs\log-sdui-$(Get-Date -f yyyy-MM-dd).txt}"`
     Starten in (optional) | `c:\davinci`
 
-    Das Ganze sieht dann so aus. Klicke anschließend wieder auf `Weiter`.
+    Das Ganze sieht dann so aus. Klicke anschließend wieder auf `OK`.
 
     [![Programm starten][17]][17]
 	
-7. Jetzt nocheinmal alles zusammengefasst. Das sieht gut aus, wir können auf `Fertigstellen` klicken.
-
-    [![Zusammenfassung][18]][18]
+7. Das sieht gut aus, wir können auf `OK` klicken.
 
 Die Aufgabenplanung erstellt jetzt die gewünschte Aufgabe. 
 
