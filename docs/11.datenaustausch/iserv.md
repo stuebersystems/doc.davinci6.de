@@ -90,7 +90,7 @@ Das PowerShell-Modul wird nun installiert.
 5. Tippen Sie nun folgenden PowerShell-Befehl ein:
 
     ```
-	Initialize-DaVinciExport davinci.json
+	Initialize-DaVinciExport iserv davinci.json
 	```
 	
     Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.

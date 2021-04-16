@@ -90,7 +90,7 @@ Das PowerShell-Modul wird nun installiert.
 5. Tippen Sie nun folgenden PowerShell-Befehl ein:
 
     ```
-	Initialize-DaVinciExport davinci.json
+	Initialize-DaVinciExport sdui davinci.json
 	```
 	
     Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
@@ -103,7 +103,7 @@ Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individue
 
 Eigenschaft                         | Bedeutung                      
 ----------------------------------- | -------------------------------
-`daVinci.SduiExport.PinCode`        |  Admin-PIN aus Sdui
+`daVinci.SduiExport.SduiPIN`        |  Admin-PIN aus Sdui
 
 Die Admin-PIN für Sdui finden Sie in Sdui unter `Administration > Stundenplan > Synchronisation`.
 
