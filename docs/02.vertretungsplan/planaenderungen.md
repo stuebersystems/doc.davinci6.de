@@ -237,12 +237,9 @@ Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgenderma�
 ![Freistellen](/assets/images/vertretungsplan/vp21.png)
 4. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
   ![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.](/assets/images/vertretungsplan/vp22.png)
-
 5. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums
   ein.
-
 6. Ergänzen Sie im Eingabefeld `Bemerkung` optional einen Infotext, der in der Spalte `Bemerkung` der erzeugten Fehlzeiten-Zeile ausgegeben werden soll.
-
 7. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
-Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzeiten-\/VertretungenListe und den korrespondierenden Stundenplänen eingetragen.
+Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzeiten-, Vertretungenliste und den korrespondierenden Stundenplänen eingetragen.
