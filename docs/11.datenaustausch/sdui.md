@@ -75,8 +75,6 @@ Das PowerShell-Modul wird nun installiert.
 
 ## Konfiguration
 
-### Konfiguration
-
 1. Legen Sie im Windows-Explorer ein neues Verzeichnis `c:\davinci` an (das Verzeichnis kann natürlich auch anders heißen).
 
 3. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
@@ -95,7 +93,7 @@ Das PowerShell-Modul wird nun installiert.
 	
     Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
 
-## Konfigurieren
+### Konfigurieren der json Datei
  
 Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
