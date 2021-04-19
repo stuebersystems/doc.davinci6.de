@@ -720,69 +720,6 @@ Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die
 Um hier einen Eintrag vorzunehmen, platzieren Sie einfach den Cursor in eines dieser Felder und
 tippen Sie den gewünschten Vermerk ein.
 
-## Neuen Zusatzunterricht einfügen
-
-Sie haben bereits im Kapitel „Planänderungen vornehmen“ die Möglichkeit kennengelernt `Zusatzunterricht`
-in den Stundenplan einzufügen und zu bearbeiten. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht Änderungen zur Verfügung. 
-
-Um in der Ansicht `Änderungen` neuen Zusatzunterricht einzufügen gehen Sie bitte folgendermaßen
-vor:
-
-1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
-
-2. Wählen Sie den Eintrag `Neuer Zusatzunterricht` aus dem Aufklappmenü.
-
-3. Markieren Sie in den Auswahlfeldern `Fach` und `Unterrichtsart` des erscheinenden Dialogfensters jeweils das zutreffende Kürzel. Bei Bedarf können Sie unter Kurs-Nr auch eine bestimmte Kursnummer angeben.
-
-![In diesem Dialogfenster tragen Sie die Veranstaltungsdaten des Zusatzunterrichts ein.](/assets/images/vertretungsplan/sub-plan82.png)
-
-4. Tragen Sie in den Eingabefeldern `Von` und `Bis`, die Anfangs- und die Endzeit des Zusatzunterrichts ein. Unter `Anrechnen` können Sie bei Bedarf eintragen, mit welchem Wert der Zusatzunterricht als positive oder negative Anrechenstunde festgehalten werden soll.
-
-5. Legen Sie die Teilnehmer am Zusatzunterricht aus der Liste der Klasse, Lehrer bzw. Räume fest.
-
-6. Tragen Sie optional in den Eingabefeldern `Mitteilung` und `Bemerkung` einen Text ein. Der unter Mitteilung angegebene Text wird als Information in Ihren publizierten Plänen mit ausgegeben  werden soll.
-
-7. Bestätigen Sie Ihre Angaben im Dialogfenster `Zusatzunterricht` mit `OK`. 
-
-Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.
-
-![Hier sehen Sie die Darstellung von Zusatzunterricht in der Änderungsliste.](/assets/images/vertretungsplan/sub-plan89.png)
-
-> Das Dialogfenster `Zusatzunterricht` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neuer Zusatzunterricht`.
-
-### Neue Mitteilung einfügen
-
-Sie haben bereits im Kapitel „Planänderungen vornehmen“ die Möglichkeit kennengelernt Mitteilungen
-in den Stundenplan einzufügen und zu bearbeiten. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Änderungen` zur Verfügung.
-
-Um in der Ansicht `Änderungen` eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
-
-1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
-
-2. Wählen Sie den Eintrag `Neue Mitteilung` aus dem Aufklappmenü.
-
-3. Geben Sie im Eingabefeld `Titel` des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
-
-4. Geben Sie im Eingabefeld `Text` einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
-
-![In diesem Fenster tragen Sie die Daten einer Mitteilung ein.](/assets/images/vertretungsplan/sub-plan86.png)
-
-5. Tragen Sie in den Eingabefeldern `Von` und `Bis` die Eckpunkte des Zeitraums ein, auf den sich die Mitteilung beziehen soll.
-
-6. Betätigen Sie die Pfeilschaltfläche-Schaltfläche der Eingabefelder `Klassen` bzw. `Lehrer` und setzen Sie den Haken vor Vertretern, auf die sich die Mitteilung beziehen soll.
-
-7. Markieren Sie bei Bedarf im Aufklappmenü des Auswahlfelds `Raum` das zutreffende Raum-Kürzel.
-
-8. Bestätigen Sie Ihre Angaben im Dialogfenster `Mitteilung` mit `OK`.
-
-Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.
-
-![Hier sehen Sie die Darstellung einer Mitteilung in der Änderungsliste.](/assets/images/vertretungsplan/sub-plan90.png)
-
-!!! info "Hinweis"
-
-  Das Dialogfenster `Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl Neue Mitteilung aus dem Kontextmenü.
-
 ## Vertretungsoptionen
 
 Über das Dialogfenster der DAVINCI-Optionen können Sie spezielle Einstellungen für den Vertretungsplan

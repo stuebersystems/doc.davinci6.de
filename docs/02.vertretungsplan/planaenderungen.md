@@ -1,6 +1,6 @@
 # Planänderungen vornehmen
 
-Neben Vertretzngserstellungen können Sie im Vertretungsplan auch sonstige Planänderungen vornehmen. Wir empfehlen dies im Programmbereich `Vertretungen > Stundenplan`zu machen.
+Neben Vertretungserstellungen können Sie im Vertretungsplan auch sonstige Planänderungen vornehmen. Wir empfehlen dies im Programmbereich `Vertretungen > Stundenplan`zu machen.
 
 ## Termine tauschen und verschieben
 
