@@ -138,30 +138,31 @@ Sie können Lehrer und Räume nicht nur in einem bestimmten Einzelplan und über
 
 Der Änderungsbalken trägt die Aufschrift „Lehrer-/ Raumtausch mit …“ [z.B. Lehrer/Raumtausch mit 30.08. Di 4 Erd]. Geänderte Terminelemente werden in Klammer gesetzt und neue Terminelemente mit einem Pluszeichen vorangestellt.
 
-## Unterichtsfach ändern
+## Unterrichtsfach ändern
 
 Sie können direkt im Stundenplan einem Termin ein neues Fach zuordnen.  Um einer Unterrichtsstunde ein anderes Fach zuzuweisen, führen Sie bitte folgende Schritte aus:  
 
 1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Fach ändern` in der Menügruppe `Start > Änderungen`.
-![Unterichtsfach ändern](/assets/images/vertretungsplan/vp32.png)
-
+![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp19.png)
 2. Markieren Sie im erscheinenden Dialogfenster Auswählen das gewünschte Fach.
-![Unterichtsfach ändern](/assets/images/vertretungsplan/vp31.png)
-
+![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp17.png)
 3. Bestätigen Sie Ihre Auswahl mit `OK`.
 
 Der Fachwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift Fachänderung. Das ehemalige Fach wird in Klammern gesetzt und das neue Fach mit einem Pluszeichen vorangestellt.
+![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp18.png)
 
 ## Raum ändern
 
 Sie können direkt im Stundenplan einem Termin einen neuen Raum zuordnen.  Um einer Unterrichtsstunde einen neuen Raum zuzuweisen, führen Sie bitte folgende Schritte aus:  
 
 1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Raum ändern` in der Menügruppe `Start > Änderungen`.
+![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp20.png)
 2. Markieren Sie im erscheinenden Dialogfenster `Auswählen` den gewünschten Raum.
-![Unterichtsraum ändern](/assets/images/vertretungsplan/vp15.png)
+![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp15.png)
 3. Bestätigen Sie Ihre Auswahl mit `OK`.
 
 Der Raumwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift Raumänderung. Der ehemalige Raum wird in Klammern gesetzt und der neue Raum mit einem Pluszeichen vorangestellt.
+![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp16.png)
 
 ## Zusatzunterricht einfügen
 
