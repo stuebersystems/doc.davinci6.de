@@ -13,7 +13,7 @@ Beide Möglichkeiten werden wir im Folgenden gesondert darstellen.
 
 ### Termine innerhalb eines Plans tauschen/verschieben
 
-Sie können Veranstaltungen innerhalb eines Lehrer-, Klassen- oder Raumplans tauschen oder auf freie Stundenplanpositionen verschieben. Dabei kann ein Terminwechsel immer entweder in einer oder zwischen zwei konkreten Kalenderwochen ausgeführt werden. Wenn Sie einen Tausch vornehmen möchten, der alle Kalenderwochen Ihrer Stundenplandatei umfasst, so müssten Sie diese Änderung in daVinci-Stundenplan durchführen.  
+Sie können Veranstaltungen innerhalb eines Lehrer-, Klassen- oder Raumplans tauschen oder auf freie Stundenplanpositionen verschieben. Dabei kann ein Terminwechsel immer entweder in einer oder zwischen zwei konkreten Kalenderwochen ausgeführt werden. Wenn Sie einen Tausch vornehmen möchten, der alle Kalenderwochen Ihrer Stundenplandatei umfasst, so müssten Sie diese Änderung in DAVINCI-Stundenplan durchführen.  
 
 #### Termine in der gleichen Kalenderwoche tauschen/verschieben
 
@@ -79,7 +79,7 @@ DAVINCI bietet Ihnen deshalb die Möglichkeit, den Tausch der planmäßig zugewi
 
 ### Lehrer/Räume innerhalb eines Plans tauschen
 
-Sie können Lehrer und Räume innerhalb eines Klassenplans, Räume (und nicht Lehrer) innerhalb eines Lehrerplans sowie Lehrer (und nicht Räume) innerhalb eines Raumplans tauschen. Dabei kann ein Lehrer- oder Raumwechsel immer entweder in einer oder zwischen zwei konkreten Kalenderwochen ausgeführt werden. Wenn Sie einen Tausch vornehmen möchten, der alle Kalenderwochen Ihrer Stundenplandatei umfasst, so müssten Sie diese Änderung in daVinci-Stundenplan durchführen.
+Sie können Lehrer und Räume innerhalb eines Klassenplans, Räume (und nicht Lehrer) innerhalb eines Lehrerplans sowie Lehrer (und nicht Räume) innerhalb eines Raumplans tauschen. Dabei kann ein Lehrer- oder Raumwechsel immer entweder in einer oder zwischen zwei konkreten Kalenderwochen ausgeführt werden. Wenn Sie einen Tausch vornehmen möchten, der alle Kalenderwochen Ihrer Stundenplandatei umfasst, so müssten Sie diese Änderung in DAVINCI-Stundenplan durchführen.
 
 **Lehrer/Räume in der gleichen Kalenderwoche tauschen**
 Um einen Lehrer- oder Raumtausch zwischen zwei Terminen der gleichen Kalenderwoche vorzunehmen, gehen Sie bitte folgendermaßen vor.  
@@ -168,41 +168,30 @@ Der Raumwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird 
 
 ## Zusatzunterricht einfügen
 
-Bisher haben wir vor allem Möglichkeiten betrachtet, mit denen sich bereits vorhandene Unterrichtstermine in der einen oder anderen Richtung verändern lassen. Im Lauf eines Planungszeitraums entsteht aber immer wieder Bedarf, neue Veranstaltungen eingeben zu können, deren Eintreffen bzw. genauer Termin zum Zeitpunkt der Planerstellung noch nicht feststand. Dabei handelt es sich in der Regel um Veranstaltungen mit einzelnen bzw. einer geringen Anzahl von Terminen, die keine dauerhafte Änderung des Standardwochenplans erfordern.
+Bisher haben wir vor allem Möglichkeiten betrachtet, mit denen sich bereits vorhandene Unterrichtstermine in der einen oder anderen Richtung verändern lassen. Im Laufe eines Planungszeitraums entsteht aber immer wieder Bedarf, neue Veranstaltungen eingeben zu können, deren Eintreffen bzw. genauer Termin zum Zeitpunkt der Planerstellung noch nicht feststand. Dabei handelt es sich in der Regel um Veranstaltungen mit einzelnen bzw. einer geringen Anzahl von Terminen, die keine dauerhafte Änderung des Standardwochenplans erfordern.
 
-Für derartige Fälle steht Ihnen in daVinci-Vertretungsplan das Instrument des Zusatzunterrichts  zur Verfügung. Dieses Instrument erlaubt Ihnen, eine neue Veranstaltung mit allen erforderlichen Elementen zu erfassen und an einem beliebigen Termin eines bestimmten Einzelwochenplans einzufügen. Dabei stehen Ihnen grundsätzlich zwei Möglichkeiten zu Verfügung:
+Für derartige Fälle steht Ihnen in DAVINCI-Vertretungsplan das Instrument des Zusatzunterrichts  zur Verfügung. Dieses Instrument erlaubt Ihnen, eine neue Veranstaltung mit allen erforderlichen Elementen zu erfassen und an einem beliebigen Termin eines bestimmten Einzelwochenplans einzufügen. Dabei stehen Ihnen grundsätzlich zwei Möglichkeiten zu Verfügung:
 
 * Der Zusatzunterricht findet an einem bisher freien Termin statt.
 * Der Zusatzunterricht findet an einem bereits verplanten Termin ergänzend zu anderem Unterricht statt.
 
 Um einem Termin neuen Zusatzunterricht zuzuweisen, gehen Sie in beiden Fällen bitte folgendermaßen vor:  
 
-1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und drücken Sie die Schaltfläche `Neu` in der Menügruppe `Start > Änderungen`.
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp34.png)
+1. Klicken Sie mit der rechten Maustaste auf das gewünschte Terminfeld und drücken Sie die Schaltfläche `Neu` in der Menügruppe `Start > Änderungen`.
 2. Wählen Sie den Eintrag `Neuer Zusatzunterricht` aus dem erscheinenden Aufklappmenü.
 3. Markieren Sie in den Auswahlfelder Fach und Unterrichtsart des erscheinenden Dialogfensters jeweils das zutreffende Kürzel. Optional können Sie eine Kursnummer angeben.
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp35.png)
+![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp13.png)
 4. Belassen Sie die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich der Zusatzunterricht nur auf den Zeitraum des markierten Termins erstreckt. Unter Anrechnen können Sie bei Bedarf eintragen, mit welchem Wert der Zusatzunterricht als positive oder negative Anrechenstunde festgehalten werden soll **oder** Verändern Sie die die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls der Zusatzunterricht sich auf weitere Termine erstrecken soll.
 5. Belassen Sie die vorbelegten Einträge bei den Teilnehmern Klasse, Raum bzw. Lehrer **oder** Wählen Sie die gewünschten Teilnehmer über Teilnehmer hinzufügen aus.
 6. Tragen Sie optional im Eingabefeld Mitteilung einen Text ein, der als Information in Ihren publizierten Plänen mit ausgegeben werden soll.  
 7. Bestätigen Sie Ihre Angaben im Dialogfenster „Neuer Zusatzunterricht“ mit `OK`.
 
 Der Zusatzunterricht wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird blau markiert und mit einem blauen Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift „Zusatzunterricht“.  
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp36.png)
-
-Findet parallel zum Zusatzunterricht noch anderer Unterricht statt, ergeben sich zwei unterschiedliche Möglichkeiten der Darstellung:
-
-* Das zugehörige Terminfeld wird zwischen beiden Terminen geteilt.
-* Der Zusatzunterricht überdeckt den anderen Termin.
-
-Welche Darstellung zum Tragen kommt, hängt von der Bildschirmauflösung ab. Ist die Auflösung entsprechend hoch eingestellt, so nutzt daVinci den vorhandenen Platz und zeigt beide Termine an. Ist sie hingegen für diese Darstellung zu niedrig, rückt der neu hinzugefügte Zusatzunterricht zunächst in den Vordergrund. Um den ausgeblendeten Termin wieder in den Vordergrund des Terminfeldes zu holen, führen Sie bitte folgende Schritte aus:  
-
-1. Halten Sie die „Strg“-Taste gedrückt und klicken Sie mit der linken Maustaste auf das zugehörige 1. Terminfeld: es erscheint ein Kontextmenü mit einer Liste aller diesem Terminfeld zugeordneten Veranstaltungen.
-2. Klicken Sie im Kontextmenü mit der linken Maustaste auf den Listeneintrag der Veranstaltung, die im Vordergrund angezeigt werden soll. Die Terminformationen der ausgewählten Veranstaltung werden nun im Vordergrund des Terminfeldes angezeigt.
+![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp14.png)
 
 ## Mitteilungen einfügen
 
-Mit dem Instrument des Zusatzunterrichts haben Sie bereits eine Möglichkeit kennen gelernt, wie Sie sehr einfach neue Unterrichtstermine, in Ihren Plan einfügen können. Nicht jede neue Information, die während eines laufenden Planungszeitraums in den fertigen Plan integriert werden soll, erfordert das Einfügen eines neuen Unterrichtstermins. So kann es z.B. vorkommen, dass Sie den freiwilligen Teilnehmern einer klassenübergreifenden Musik-AG mitteilen möchten, dass diese sich beim nächsten Termin zur gemeinsamen in der Aula der Schule versammeln sollen. Für derartige Fälle steht in daVinci-Vertretungsplan das Instrument der „Mitteilung“ zur Verfügung. Dieses Instrument erlaubt Ihnen, bestimmte Informationen mit konkreten Terminen und Planelementen, wie z.B. Klassen, Lehrern und Räumen zu verknüpfen.
+Mit dem Instrument des Zusatzunterrichts haben Sie bereits eine Möglichkeit kennen gelernt, wie Sie sehr einfach neue Unterrichtstermine, in Ihren Plan einfügen können. Nicht jede neue Information, die während eines laufenden Planungszeitraums in den fertigen Plan integriert werden soll, erfordert das Einfügen eines neuen Unterrichtstermins. So kann es z.B. vorkommen, dass Sie den freiwilligen Teilnehmern einer klassenübergreifenden Musik-AG mitteilen möchten, dass diese sich beim nächsten Termin zur gemeinsamen in der Aula der Schule versammeln sollen. Für derartige Fälle steht in DAVINCI-Vertretungsplan das Instrument der „Mitteilung“ zur Verfügung. Dieses Instrument erlaubt Ihnen, bestimmte Informationen mit konkreten Terminen und Planelementen, wie z.B. Klassen, Lehrern und Räumen zu verknüpfen.
 
 Dabei stehen Ihnen grundsätzlich zwei Möglichkeiten zu Verfügung:
 
@@ -222,14 +211,16 @@ Um einem Termin eine Mitteilung hinzuzufügen, gehen Sie in beiden Fällen bitte
 8. Bestätigen Sie Ihre Angaben im Dialogfenster `Neue Mitteilung` mit `OK`.
 
 Die Mitteilung wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird gelb markiert. Der Titel und der Infotext der Mitteilung werden im Terminfeld angezeigt.
-![Mitteilung einfügen]((/assets/images/vertretungsplan/vp12.png)
+![Mitteilung einfügen](/assets/images/vertretungsplan/vp12.png)
 
-Findet parallel zum eingetragenen Mitteilungs-Zeitraum noch anderer Unterricht statt, ergeben sich zwei unterschiedliche Möglichkeiten der Darstellung:
+## Darstellung
 
-* Das zugehörige Terminfeld wird zwischen Termin und Mitteilung geteilt.  
-* Die Mitteilung überdeckt den parallelen Termin.
+Findet parallel zum eingetragenen Zusatzunterricht oder Mitteilungs-Zeitraum noch anderer Unterricht statt, ergeben sich zwei unterschiedliche Möglichkeiten der Darstellung:
 
-Welche Darstellung zum Tragen kommt hängt von der Bildschirmauflösung ab. Ist eine ausreichend hohe Auflösung eingestellt, so nutzt daVinci den verfügbaren Raum und zeigt den Termin und die Mitteilung nebeneinander an. Ist die Auflösung hingegen für diese Darstellung zu niedrig, rückt die neu hinzugefügte Mitteilung standardmäßig in den Vordergrund. Um den ausgeblendeten Termin wieder in den Vordergrund des Terminfeldes zu holen, führen Sie bitte folgende Schritte aus:
+* Das zugehörige Terminfeld wird zwischen Termin und Zusatzunterricht/Mitteilung geteilt.  
+* Die Mitteilung/ der Zusatzunterricht überdeckt den parallelen Termin.
+
+Welche Darstellung zum Tragen kommt hängt von der Bildschirmauflösung ab. Ist eine ausreichend hohe Auflösung eingestellt, so nutzt DAVINCI den verfügbaren Raum und zeigt den Termin und die Mitteilung nebeneinander an. Ist die Auflösung hingegen für diese Darstellung zu niedrig, rückt die neu hinzugefügte Mitteilung standardmäßig in den Vordergrund. Um den ausgeblendeten Termin wieder in den Vordergrund des Terminfeldes zu holen, führen Sie bitte folgende Schritte aus:
 
 1. Halten Sie die „Strg“-Taste gedrückt und klicken Sie mit der linken Maustaste auf das zugehörige 1. Terminfeld: es erscheint ein Kontextmenü mit einer Liste aller Veranstaltungen, die diesem Terminfeld zugeordnet sind.
 2. Klicken Sie im Kontextmenü mit der linken Maustaste auf den Listeneintrag der Veranstaltung, die im Vordergrund angezeigt werden soll. Die Terminformationen der ausgewählten Veranstaltung werden nun im Vordergrund des Terminfeldes angezeigt.
