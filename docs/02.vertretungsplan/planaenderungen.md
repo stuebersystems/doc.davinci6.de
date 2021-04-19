@@ -214,15 +214,15 @@ Um einem Termin eine Mitteilung hinzuzufügen, gehen Sie in beiden Fällen bitte
 1. Klicken Sie mit der linke Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Neu` in der Menügruppe `Start > Änderungen`.  
 2. Wählen Sie den Eintrag `Neue Mitteilung` aus dem erscheinenden Aufklappmenü.  
 3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp37.png)
+![Mitteilung einfügen](/assets/images/vertretungsplan/vp11.png)
 4. Geben Sie im Eingabefeld Text einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
 5. Belassen Sie die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich die Mitteilung nur auf den Zeitraum des markierten Termins erstrecken soll  oder Verändern Sie die die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich die Mitteilung auf einen weiteren Zeitraum als den des markierten Termins erstrecken soll.
 6. Belassen Sie die vorbelegten Einträge in den Eingabefeldern Klasse bzw. Lehrer. oder Betätigen Sie die Pfeilschaltfläche-Schaltfläche der Eingabefelder Klasse bzw. Lehrer und setzen Sie den Haken vor den gewünschten Vertretern.
-7. Markieren Sie im Aufklappmenü des Auswahlfelds Raum das zutreffende Raum-Kürzel.
+7. Markieren Sie gegebenenfalls im Aufklappmenü des Auswahlfelds Raum das zutreffende Raum-Kürzel.
 8. Bestätigen Sie Ihre Angaben im Dialogfenster `Neue Mitteilung` mit `OK`.
 
 Die Mitteilung wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird gelb markiert. Der Titel und der Infotext der Mitteilung werden im Terminfeld angezeigt.
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp38.png)
+![Mitteilung einfügen]((/assets/images/vertretungsplan/vp12.png)
 
 Findet parallel zum eingetragenen Mitteilungs-Zeitraum noch anderer Unterricht statt, ergeben sich zwei unterschiedliche Möglichkeiten der Darstellung:
 
