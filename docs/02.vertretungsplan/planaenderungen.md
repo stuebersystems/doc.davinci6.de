@@ -157,11 +157,8 @@ Der Fachwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird 
 Sie können direkt im Stundenplan einem Termin einen neuen Raum zuordnen.  Um einer Unterrichtsstunde einen neuen Raum zuzuweisen, führen Sie bitte folgende Schritte aus:  
 
 1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Raum ändern` in der Menügruppe `Start > Änderungen`.
-![Unterichtsfach ändern](/assets/images/vertretungsplan/vp30.png)
-
 2. Markieren Sie im erscheinenden Dialogfenster `Auswählen` den gewünschten Raum.
-![Unterichtsraum ändern](/assets/images/vertretungsplan/vp33.png)
-
+![Unterichtsraum ändern](/assets/images/vertretungsplan/vp15.png)
 3. Bestätigen Sie Ihre Auswahl mit `OK`.
 
 Der Raumwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift Raumänderung. Der ehemalige Raum wird in Klammern gesetzt und der neue Raum mit einem Pluszeichen vorangestellt.
