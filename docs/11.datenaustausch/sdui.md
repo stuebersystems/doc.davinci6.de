@@ -159,7 +159,6 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 		"SduiExport": {
 			"SduiPIN": "abc-def-ghi",
 			"SourceProvider": "Server",
-			"SourceProvider": "Server",
 			"ServerName" : "localhost",
 			"ServerPort" : "8100",
 			"ServerUserName" : "admin",
