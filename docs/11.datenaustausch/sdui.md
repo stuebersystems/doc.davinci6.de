@@ -245,10 +245,10 @@ Das Ergebnis:
 
 Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
-[12]: /assets/images/datenaustausch/iserv/automation-01.png "Einfache Aufgabe erstellen"
-[13]: /assets/images/datenaustausch/iserv/automation-02.png "Name und Beschreibung"
-[14]: /assets/images/datenaustausch/iserv/automation-04.png "Tägliche Wiederholung"
-[15]: /assets/images/datenaustausch/iserv/automation-05.png "Programm starten"
-[16]: /assets/images/datenaustausch/iserv/automation-06.png "Eigenschaften"
-[17]: /assets/images/datenaustausch/iserv/automation-07.png "Unabhängig von der Benutzeranmeldung"
-[18]: /assets/images/datenaustausch/iserv/automation-08.png "Authentifizierung"
+[12]: /assets/images/datenaustausch/sdui/automation-01.png "Einfache Aufgabe erstellen"
+[13]: /assets/images/datenaustausch/sdui/automation-02.png "Name und Beschreibung"
+[14]: /assets/images/datenaustausch/sdui/automation-04.png "Tägliche Wiederholung"
+[15]: /assets/images/datenaustausch/sdui/automation-05.png "Programm starten"
+[16]: /assets/images/datenaustausch/sdui/automation-06.png "Eigenschaften"
+[17]: /assets/images/datenaustausch/sdui/automation-07.png "Unabhängig von der Benutzeranmeldung"
+[18]: /assets/images/datenaustausch/sdui/automation-08.png "Authentifizierung"
