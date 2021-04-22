@@ -14,9 +14,6 @@
 
 ## DAVINCI MOBILE APP [unveröffentlicht]
 
-* NEW: Testfunktion für die Serververbindung
-* NEW: Im Detailfenster einer Veranstaltung (Klick aufs Terminfeld) werden für Vertretungen auch die Vertretungsinformation und die Vertretungsmitteilung gezeigt (beide Informationen werden in DAVINCI Vertretungsplan in der Vertretungsliste in den gleichnamigen Spalten erfasst)
-* NEW: Die Bezeichnung des Klassenfehlgrunds wird beim Klick auf ein Terminfeld im Detailfenster zusätzlich zur Information "Klasse fehlt" gezeigt. 
 
 ## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
 
