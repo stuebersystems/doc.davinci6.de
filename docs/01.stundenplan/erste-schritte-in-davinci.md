@@ -102,7 +102,7 @@ Folgende Optionen werden Ihnen angeboten:
 | Neuen Plan erstellen und Daten übernehmen | Sie können eine neue Plandatei anlegen und die Stamm-, Unterrichts- und Rahmendaten aus einer anderen DAVINCI-Datei übernehmen, zum Beispiel bei einem Schuljahreswechsel. Bei dieser Option wird Ihnen im folgenden Dialog angeboten,die Klassennummerierungen um eins zu erhöhen (z.B.: „8a“ wird zu „9a“).
 | Neuen leeren Plan erstellen, aber aktuellen Planrahmen übernehmen | Sie können eine neue Plandatei anlegen, die nur die Rahmendaten der aktuell geöffneten DAVINCI-Datei enthält. Dabei werden alle Daten bis auf Fächer, Schlüsselverzeichnisse, Zeitrahmen und der Kalender gelöscht|
 
-## Neuen Plan erstellen und Daten übernehmen
+### Neuen Plan erstellen und Daten übernehmen (Schuljahreswechsel)
 
 Markieren Sie ``Neuen Plan erstellen und Daten übernehmen`` wenn Sie auf eine Vorjahresplandatei zurückgreifen und Daten übernehmen möchten. Geben Sie an, aus welchem Plan Sie die Daten übernehmen möchten und klicken Sie auf ``Weiter``.
 
@@ -120,7 +120,7 @@ Anschließend gelangen Sie zu den wesentlichen Schritten der Planneuerstellung.
 
 ![Schritte der Planneuerstellung](/assets/images/Planvorbereitungsassistent03.png)
 
-## Schritt 1 - Zeitraum eingeben
+#### Schritt 1 - Zeitraum eingeben
 
 Geben Sie den Zeitraum an, für den Ihr Plan gelten soll.
 
@@ -135,7 +135,7 @@ Registerkarte „Statistik“
 
 ![Plan-Eigenschaften, Registerkarte "Statistik"](/assets/images/Plan-Eigenschaften02.png)
 
-## Schritt 2 - Kalenderdaten importieren...
+#### Schritt 2 - Kalenderdaten importieren...
 
 Laden Sie den Kalender für Ihr Bundesland, um die Ferien- und Feiertage zu importieren.
 
@@ -143,7 +143,7 @@ Laden Sie den Kalender für Ihr Bundesland, um die Ferien- und Feiertage zu impo
 
 ![Kalender importieren](/assets/images/Kalender.Importieren.png)
 
-## Schritt 3 - Zeitrahmen einstellen
+#### Schritt 3 - Zeitrahmen einstellen
 
 Registerkarte "Allgemein"
 
@@ -161,7 +161,7 @@ Registerkarte "Positionen":
 
 ![Zeitrahmen, Register "Positionen" , Register "Positionen" ](/assets/images/Zeitrahmen.Positionen01.png)
 
-### Aufsichten-Zeitrahmen
+##### Aufsichten-Zeitrahmen
 
 Registerkarte "Allgemein"
 
