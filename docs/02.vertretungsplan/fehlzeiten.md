@@ -221,7 +221,7 @@ Um eine Fehlzeit wieder aus Ihrer DAVINCI-Datei zu löschen, führen Sie bitte d
 
 2. Wählen Sie den Befehl `Fehlzeit löschen` aus dem Kontextmenü oder klicken Sie auf die Schaltfläche Löschen in der Menügruppe `Start > Fehlzeiten`.
 
-  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit löschen“ ausgewählt.](/assets/images/vertretungsplan/sub-plan21.png)
+  ![Fehlzeit löschen](/assets/images/vertretungsplan/vp30.png)
 
 3. Bestätigen Sie Ihre Absicht im erscheinenden Dialogfenster mit `Ja`.
 
@@ -229,13 +229,13 @@ Die gewählte Fehlzeit wird nun aus der Liste, dem Stundenplan und dem Zeitplan 
 
 ## Fehlzeiten exportieren
 
-Um die Liste der Fehlzeiten nach Microsoft Excel, in eine Textdatei, ins HTML-Format oder in ein XML-Format zu exportieren, führen Sie bitte die folgenden Schritte aus:
+Wenn Sie im Bereich `Vertretungsplan > Fehlzeiten`die Ansicht `Liste`gewählt haben, können Sie diese exportieren. Um die Liste der Fehlzeiten nach Microsoft Excel, in eine Textdatei, ins HTML-Format oder in ein XML-Format zu exportieren, führen Sie bitte die folgenden Schritte aus:
 
 1. Wählen Sie auf der Registerkarte `Ansicht` in der Menügruppe `Fehlzeiten Ansicht` die Ansicht `Plan und Zeitplan`, `Plan und Liste`, `Liste und Zeitplan`, `Zeitplan` oder `Liste` aus.
 
 2. Drücken Sie bitte in der Menügruppe `Start > Fehlzeiten` die Schaltfläche `Exportieren`.
 
-  ![Über die Schaltfläche „Exportieren“ können Sie die Liste der Fehlzeiten als Microsoft Excel-, Text-, HTML- und XML-Datei exportieren..](/assets/images/vertretungsplan/sub-plan22.png)
+  ![Über die Schaltfläche „Exportieren“ können Sie die Liste der Fehlzeiten als Microsoft Excel-, Text-, HTML- und XML-Datei exportieren..](/assets/images/vertretungsplan/vp29.png)
 
 3. Geben Sie im Dialogfenster `Speichern unter` den Dateinamen an und unter `Dateityp` die Art der zu speichernden Datei an. Hier können Sie unter eine Excel-Datei, Textdatei, HTML-Datei oder XML-Datei wählen.
 
