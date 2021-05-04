@@ -8,7 +8,11 @@ Die Erfassung der Fehlzeiten nehmen Sie in der Ansicht `Fehlzeiten` vor. Zum Öf
 
 ## Fehlzeiten-Ansicht anpassen
 
-Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
+Anpassungen der Fehlzeitenansicht nehmen Sie über das Menü Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
+
+Nehmen Sie die Anpassung im Menü `Start > Fehlzeitenansicht` vor:.
+
+![Fehlzeiten-Ansicht anpassen](/assets/images/vertretungsplan/vp33.png)
 
 ### Zeitplan
 
@@ -18,7 +22,7 @@ In der Teilansicht „Zeitplan“ kann jeweils nur eine Liste der Lehrer oder Kl
 
 * Wählen Sie in der Navigationsleiste die Navigationsgruppe `Vertretungsplan` mit der Ansicht Fehlzeiten aus.
 
-![Vertretungsplan | Fehlzeiten](/assets/images/vertretungsplan/sub-plan1a.png)
+![Vertretungsplan |> Fehlzeiten](/assets/images/vertretungsplan/vp32.png)
 
 * Wählen Sie auf der Registerkarte Ansicht in der Menügruppe Fehlzeiten Ansicht eine Teilansicht mit einem Zeitplan aus: Plan und Zeitplan, Liste und Zeitplan oder Zeitplan.
 
@@ -205,7 +209,7 @@ Sie können die Angaben zu einer Fehlzeit im Nachhinein ändern oder ergänzen. 
 
 2. Wählen Sie den Befehl `Fehlzeit bearbeiten` aus dem Kontextmenü oder klicken Sie in der Menügruppe `Start > Fehlzeiten` auf die Schaltfläche `Bearbeiten`.
 
-  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit bearbeiten“ ausgewählt.](/assets/images/vertretungsplan/sub-plan20.png)
+  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit bearbeiten“ ausgewählt.](/assets/images/vertretungsplan/vp31.png)
 3. Ändern bzw. ergänzen Sie im erscheinenden Dialogfenster `Fehlzeiten` Ihre Angaben zu der aufgerufenen Fehlzeit.
 
 4. Bestätigen Sie Ihre Änderungen mit `Übernehmen und schließen`.
