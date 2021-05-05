@@ -109,11 +109,11 @@ Wie Sie nun vorgehen müssen, um eine neue Fehlzeit zu erfassen, erfahren Sie im
 
 ### Allgemeines
 
-Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen das Dialogfenster `Fehlzeiten` zur Verfügung. Dieses Dialogfenster können Sie über die Schaltfläche `Neue Fehlzeit` der Menügruppe `Start | Fehlzeiten` aufrufen. Hier tragen Sie die Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ein.
+Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen das Dialogfenster `Fehlzeiten` zur Verfügung. Dieses Dialogfenster können Sie über die Schaltfläche `Neue Fehlzeit` der Menügruppe `Start > Fehlzeiten` aufrufen. Hier tragen Sie die Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ein.
 
 ![Die Schaltfläche „Neue Fehlzeit“](/assets/images/vertretungsplan/sub-plan12.png)
 
-!!! hinweis Tipp
+!!! info "Hinweis"
      Rufen Sie für die Eingabe der Fehlzeiten die Standardansicht `Plan und Zeitplan` auf.
 
 ![Das Dialogfenster "Fehlzeit"](/assets/images/vertretungsplan/sub-plan13.png)
@@ -166,6 +166,57 @@ Der hinzugefügte Eintrag wird nun im Zeitplan, in der Liste und im Stundenplan 
 !!! info "Hinweis"
 
     Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
+
+### Eingaben Lehrerfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name | `Stammdaten > Lehrer > Kürzel`
+Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Fehlgrund|`Schlüsselverzeichnis > Lehrerfehlgründe`
+Detail|`Schlüsselverzeichnis > Lehrerfehlgrunddetails`
+Bemerkung|Freitext
+Anrechenstunden|Anzahl der durch die Fehlzeit betroffenen Lehrerfehlstunden
+Beginnt ganztägig|Fehlzeit beginnt in erster Position
+Endet Ganztägig|Fehlzeit endet in letzer Position
+Anrechnen|
+Folgende Änderungen betreffen diese Fehlzeit|
+Änderungen zurücksetzen|
+
+### Eingaben Raumfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name
+Beginnt
+Endet
+Fehlgrund
+Detail
+Bemerrkung
+Anrechenstunden
+Beginnt ganztägig
+Endet Ganztägig
+Anrechnen
+Folgende Änderungen betreffen diese Fehlzeit
+Änderungen zurücksetzen
+
+### Eingaben Klassenfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name
+Beginnt
+Endet
+Fehlgrund
+Detail
+Bemerrkung
+Anrechenstunden
+Beginnt ganztägig
+Endet Ganztägig
+Anrechnen
+Folgende Änderungen betreffen diese Fehlzeit
+Änderungen zurücksetzen
 
 ### Die Fehlzeiten im Stundenplan
 
