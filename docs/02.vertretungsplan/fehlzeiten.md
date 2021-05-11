@@ -180,9 +180,9 @@ Bemerkung|Freitext
 Anrechenstunden|Anzahl der durch die Fehlzeit betroffenen Lehrerfehlstunden
 Beginnt ganztägig|Fehlzeit beginnt in erster Position
 Endet Ganztägig|Fehlzeit endet in letzer Position
-Anrechnen|
-Folgende Änderungen betreffen diese Fehlzeit|
-Änderungen zurücksetzen|
+Anrechnen|die durch die Fehlzeit entstandenen Ausfallstunden werden unter `Vertretungsplan > Anrechenstunden` aufgeführt
+Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änderungen (Vertretungen, Zusatzunterricht, Fehlzeiten...)
+Änderungen zurücksetzen|setzen Sie den Haken, wenn Sie Änderungen, die von der Fehlzeit betroffen sind, rückgängig machen wollen
 
 ### Eingaben Raumfehlzeit
 
