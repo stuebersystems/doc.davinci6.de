@@ -30,7 +30,7 @@
 
 ### Allgemein
 
-* NEW: 
+* NEW: Abgleich DAVINCI - MAGELLAN 8
 
 ### STUNDENPLAN
 
