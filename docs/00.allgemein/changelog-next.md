@@ -38,7 +38,7 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX:
+* FIX: `Vertretungsplan > Anrechnen` Anrechenstunden können manuell hinzugefügt werden mit Auswahl des Lehrers
 
 ### SERVER
 
