@@ -26,11 +26,11 @@
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.70
+## DAVINCI Version 6.5.71
 
 ### Allgemein
 
-* NEW: Abgleich DAVINCI - MAGELLAN 8
+* NEW: 
 
 ### STUNDENPLAN
 
@@ -38,16 +38,15 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX: `Vertretungsplan > Anrechnen` Anrechenstunden können manuell hinzugefügt werden mit Auswahl des Lehrers
-* FIX: `Vertretungsplan > Vertretungen` fehlende Vorziehoptionen werden angezeigt
+* FIX: 
 
 ### SERVER
 
-* FIX: Doppelte Ausgabe von Mitteilungen für die Webbox korrigiert
+* FIX: 
 
 ### LOOK
 
-* FIX: DAVINCI LOOK liest die Pathsdatei daVinciLook.paths statt der daVinci.paths 
+* FIX: 
 
 ### KURSPLAN
 
