@@ -42,7 +42,7 @@
 
 ### SERVER
 
-* FIX: 
+* FIX: Doppelte Ausgabe von Mitteilungen für die Webbox korrigiert
 
 ### LOOK
 
