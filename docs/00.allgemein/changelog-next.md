@@ -39,6 +39,7 @@
 ### VERTRETUNGSPLAN
 
 * FIX: `Vertretungsplan > Anrechnen` Anrechenstunden können manuell hinzugefügt werden mit Auswahl des Lehrers
+* FIX: `Vertretungsplan > Vertretungen` fehlende Vorziehoptionen werden angezeigt
 
 ### SERVER
 
