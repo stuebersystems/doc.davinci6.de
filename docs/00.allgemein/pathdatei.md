@@ -44,12 +44,11 @@ Möchten Sie abweichende Speicherorte für diese Dateien angeben, zum Beispiel d
 
 Beispiel:
 
-``` 
-xml
+``` xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Preferences>
   <Paths>
-    <Entry Name="daVinciPrintFormatFile" Value="D:\Mein Verzeichnis\daVinci.pfm"/
+    <Entry Name="daVinciPrintFormatFile" Value="D:\Mein Verzeichnis\daVinci.pfm"/>
     <Entry Name="daVinciOptionsFolder" Value="D:\Mein Verzeichnis\daVinci.opt"/>
     <Entry Name="daVinciLicenseFolder" Value="D:\Mein Verzeichnis\daVinci.lic"/>
   </Paths>

@@ -20,7 +20,6 @@ Sie können Veranstaltungen innerhalb eines Lehrer-, Klassen- oder Raumplans tau
 Um einen Tausch mit zwei Terminen der gleichen Kalenderwoche vorzunehmen, gehen Sie bitte folgendermaßen vor.  
 
 1. Klicken Sie mit der linken Maustaste auf das Auswahlfeld Auswählen in der Menügruppe `Start > Aktuelle Ansicht` und wählen den gewünschten Einzelplan aus. Der ausgewählte Stundenplan wird nun im Planeditor angezeigt.
-![Auswahlfenster](/assets/images/vertretungsplan/vp23.png)
 
 2. Klicken Sie mit der linken Maustaste auf das Terminfeld des ersten „Tauschpartners“ und drücken Sie die Schaltfläche `Markieren` in der Menügruppe `Start > Änderungen`: Das zugehörige Terminfeld wird blau umrandet.  
 
@@ -93,7 +92,7 @@ Um einen Lehrer- oder Raumtausch zwischen zwei Terminen der gleichen Kalenderwoc
 6. Setzen Sie im erscheinenden Dialogfenster „Tauschen“, jeweils einen Haken in den Kontrollkästchen vor Lehrer tauschen und Räume tauschen, um beide Elemente zu tauschen oder Setzen Sie im erscheinenden Dialogfenster „Tauschen“ einen Haken entweder in das Kontrollkästchen vor Lehrer tauschen oder vor Räume tauschen, um nun eines der beiden Elemente zu tauschen.
 ![Lehrer/Raumtausch](/assets/images/vertretungsplan/vp28.png)
 7. Bestätigen Sie Ihre Auswahl mit OK.  Der vorgenommene Tausch wird nun im Stundenplan hinterlegt. Die beteiligten Termine werden mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift „Lehrer/Raumtausch mit …“. Geänderte Terminelemente werden in Klammer gesetzt und neu Terminelemente mit einem Pluszeichen vorangestellt.  
-![Lehrer/Raumtausch](/assets/images/vertretungsplan/vp29.png)
+
 
 **Lehrer/Räume zwischen zwei Kalenderwochen tauschen**
 Um einen Lehrer- oder Raumtausch zwischen zwei Terminen unterschiedlicher Kalenderwochen vorzunehmen, gehen Sie bitte folgendermaßen vor.  

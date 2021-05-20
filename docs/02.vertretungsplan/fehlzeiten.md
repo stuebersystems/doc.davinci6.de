@@ -8,7 +8,11 @@ Die Erfassung der Fehlzeiten nehmen Sie in der Ansicht `Fehlzeiten` vor. Zum Öf
 
 ## Fehlzeiten-Ansicht anpassen
 
-Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
+Anpassungen der Fehlzeitenansicht nehmen Sie über das Menü Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
+
+Nehmen Sie die Anpassung im Menü `Start > Fehlzeitenansicht` vor:.
+
+![Fehlzeiten-Ansicht anpassen](/assets/images/vertretungsplan/vp33.png)
 
 ### Zeitplan
 
@@ -18,7 +22,7 @@ In der Teilansicht „Zeitplan“ kann jeweils nur eine Liste der Lehrer oder Kl
 
 * Wählen Sie in der Navigationsleiste die Navigationsgruppe `Vertretungsplan` mit der Ansicht Fehlzeiten aus.
 
-![Vertretungsplan | Fehlzeiten](/assets/images/vertretungsplan/sub-plan1a.png)
+![Vertretungsplan |> Fehlzeiten](/assets/images/vertretungsplan/vp32.png)
 
 * Wählen Sie auf der Registerkarte Ansicht in der Menügruppe Fehlzeiten Ansicht eine Teilansicht mit einem Zeitplan aus: Plan und Zeitplan, Liste und Zeitplan oder Zeitplan.
 
@@ -105,11 +109,11 @@ Wie Sie nun vorgehen müssen, um eine neue Fehlzeit zu erfassen, erfahren Sie im
 
 ### Allgemeines
 
-Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen das Dialogfenster `Fehlzeiten` zur Verfügung. Dieses Dialogfenster können Sie über die Schaltfläche `Neue Fehlzeit` der Menügruppe `Start | Fehlzeiten` aufrufen. Hier tragen Sie die Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ein.
+Für die Erfassung der Fehlzeiten von Klassen, Lehrern und Räumen steht Ihnen das Dialogfenster `Fehlzeiten` zur Verfügung. Dieses Dialogfenster können Sie über die Schaltfläche `Neue Fehlzeit` der Menügruppe `Start > Fehlzeiten` aufrufen. Hier tragen Sie die Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ein.
 
 ![Die Schaltfläche „Neue Fehlzeit“](/assets/images/vertretungsplan/sub-plan12.png)
 
-!!! hinweis Tipp
+!!! info "Hinweis"
      Rufen Sie für die Eingabe der Fehlzeiten die Standardansicht `Plan und Zeitplan` auf.
 
 ![Das Dialogfenster "Fehlzeit"](/assets/images/vertretungsplan/sub-plan13.png)
@@ -163,6 +167,57 @@ Der hinzugefügte Eintrag wird nun im Zeitplan, in der Liste und im Stundenplan 
 
     Passen Sie das in der Ansicht `Zeitplan` zugrunde gelegte Zeitraster an die zu erfassenden Fehlzeiten an. Mit einem Stundenraster lassen sich einzelne Fehlstunden einfacher erfassen. Ein Tagesraster erweist sich als geeigneter, wenn Sie Fehlzeiten erfassen, die sich über mehrere Tage erstrecken.
 
+### Eingaben Lehrerfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name | `Stammdaten > Lehrer > Kürzel`
+Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Fehlgrund|`Schlüsselverzeichnis > Lehrerfehlgründe`
+Detail|`Schlüsselverzeichnis > Lehrerfehlgrunddetails`
+Bemerkung|Freitext
+Anrechenstunden|Anzahl der durch die Fehlzeit betroffenen Lehrerfehlstunden
+Beginnt ganztägig|Fehlzeit beginnt in erster Position
+Endet Ganztägig|Fehlzeit endet in letzer Position
+Anrechnen|die durch die Fehlzeit entstandenen Ausfallstunden werden unter `Vertretungsplan > Anrechenstunden` aufgeführt
+Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änderungen (Vertretungen, Zusatzunterricht, Fehlzeiten...)
+Änderungen zurücksetzen|setzen Sie den Haken, wenn Sie Änderungen, die von der Fehlzeit betroffen sind, rückgängig machen wollen
+
+### Eingaben Raumfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name
+Beginnt
+Endet
+Fehlgrund
+Detail
+Bemerrkung
+Anrechenstunden
+Beginnt ganztägig
+Endet Ganztägig
+Anrechnen
+Folgende Änderungen betreffen diese Fehlzeit
+Änderungen zurücksetzen
+
+### Eingaben Klassenfehlzeit
+
+Eintragung|Bedeutung
+-|-
+Name
+Beginnt
+Endet
+Fehlgrund
+Detail
+Bemerrkung
+Anrechenstunden
+Beginnt ganztägig
+Endet Ganztägig
+Anrechnen
+Folgende Änderungen betreffen diese Fehlzeit
+Änderungen zurücksetzen
+
 ### Die Fehlzeiten im Stundenplan
 
 Fehlzeiten werden im Stundenplan standardmäßig mit einer roten Überschrift im Terminfeld gekennzeichnet. Die Überschrift zeigt je nach Art der Fehlzeit bei Raum- und Lehrerfehlzeiten den Vermerk `Raum nicht verfügbar` bzw. `Lehrer fehlt`. Klassenfehlzeiten tragen den Hinweis `Klasse fehlt`. Die die Fehlzeit erzeugenden Lehrer, Räume und Klassen sind im Stundenplan entsprechend geklammert.
@@ -205,7 +260,7 @@ Sie können die Angaben zu einer Fehlzeit im Nachhinein ändern oder ergänzen. 
 
 2. Wählen Sie den Befehl `Fehlzeit bearbeiten` aus dem Kontextmenü oder klicken Sie in der Menügruppe `Start > Fehlzeiten` auf die Schaltfläche `Bearbeiten`.
 
-  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit bearbeiten“ ausgewählt.](/assets/images/vertretungsplan/sub-plan20.png)
+  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit bearbeiten“ ausgewählt.](/assets/images/vertretungsplan/vp31.png)
 3. Ändern bzw. ergänzen Sie im erscheinenden Dialogfenster `Fehlzeiten` Ihre Angaben zu der aufgerufenen Fehlzeit.
 
 4. Bestätigen Sie Ihre Änderungen mit `Übernehmen und schließen`.
@@ -221,7 +276,7 @@ Um eine Fehlzeit wieder aus Ihrer DAVINCI-Datei zu löschen, führen Sie bitte d
 
 2. Wählen Sie den Befehl `Fehlzeit löschen` aus dem Kontextmenü oder klicken Sie auf die Schaltfläche Löschen in der Menügruppe `Start > Fehlzeiten`.
 
-  ![Ein Eintrag des Lehrers „Con“ im Fehlzeiten-Zeitplan wurde markiert und im Kontextmenü der Befehl „Fehlzeit löschen“ ausgewählt.](/assets/images/vertretungsplan/sub-plan21.png)
+  ![Fehlzeit löschen](/assets/images/vertretungsplan/vp30.png)
 
 3. Bestätigen Sie Ihre Absicht im erscheinenden Dialogfenster mit `Ja`.
 
@@ -229,13 +284,13 @@ Die gewählte Fehlzeit wird nun aus der Liste, dem Stundenplan und dem Zeitplan 
 
 ## Fehlzeiten exportieren
 
-Um die Liste der Fehlzeiten nach Microsoft Excel, in eine Textdatei, ins HTML-Format oder in ein XML-Format zu exportieren, führen Sie bitte die folgenden Schritte aus:
+Wenn Sie im Bereich `Vertretungsplan > Fehlzeiten`die Ansicht `Liste`gewählt haben, können Sie diese exportieren. Um die Liste der Fehlzeiten nach Microsoft Excel, in eine Textdatei, ins HTML-Format oder in ein XML-Format zu exportieren, führen Sie bitte die folgenden Schritte aus:
 
 1. Wählen Sie auf der Registerkarte `Ansicht` in der Menügruppe `Fehlzeiten Ansicht` die Ansicht `Plan und Zeitplan`, `Plan und Liste`, `Liste und Zeitplan`, `Zeitplan` oder `Liste` aus.
 
 2. Drücken Sie bitte in der Menügruppe `Start > Fehlzeiten` die Schaltfläche `Exportieren`.
 
-  ![Über die Schaltfläche „Exportieren“ können Sie die Liste der Fehlzeiten als Microsoft Excel-, Text-, HTML- und XML-Datei exportieren..](/assets/images/vertretungsplan/sub-plan22.png)
+  ![Über die Schaltfläche „Exportieren“ können Sie die Liste der Fehlzeiten als Microsoft Excel-, Text-, HTML- und XML-Datei exportieren..](/assets/images/vertretungsplan/vp29.png)
 
 3. Geben Sie im Dialogfenster `Speichern unter` den Dateinamen an und unter `Dateityp` die Art der zu speichernden Datei an. Hier können Sie unter eine Excel-Datei, Textdatei, HTML-Datei oder XML-Datei wählen.
 

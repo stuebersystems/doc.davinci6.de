@@ -30,7 +30,7 @@
 
 ### Allgemein
 
-* NEW: 
+* NEW: Abgleich DAVINCI - MAGELLAN 8
 
 ### STUNDENPLAN
 
@@ -38,11 +38,12 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX:
+* FIX: `Vertretungsplan > Anrechnen` Anrechenstunden können manuell hinzugefügt werden mit Auswahl des Lehrers
+* FIX: `Vertretungsplan > Vertretungen` fehlende Vorziehoptionen werden angezeigt
 
 ### SERVER
 
-* FIX: 
+* FIX: Doppelte Ausgabe von Mitteilungen für die Webbox korrigiert
 
 ### LOOK
 
