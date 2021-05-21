@@ -4,6 +4,8 @@ IServ ist eine Schulplattform für die Digitalisierung von Prozessen in der Schu
 
 ## Manueller Datenaustausch mit IServ
 
+### Workflow in DAVINCI
+
 Die Daten aus DaVinci werden üblicherweise in einer einzelnene JSON-Datei exportiert.
 
 Wählen Sie in DAVINCI über `Plan > Importieren und Exportieren` im Import/Export-Assistent unter Exportieren `DAVINCI JSON-Daten exportieren` aus.
