@@ -211,30 +211,3 @@ In den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für d
 Die Informationen zum Upload nach LANiS finden Sie hier:
 
 [Export für Schulportal Hessen](/10.regionales/schulportal-hessen/)
-
-### Export nach IServ
-
-Die Daten aus DaVinci werden üblicherweise in einer einzelnene JSON-Datei exportiert.
-
-![DAVINCI JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
-
-* Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .json
-
-* Zieladresse: in den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
-
-![Upload](/assets/images/Datenaustausch/export2.png)
-
-* Zeitraum: Auswahl des zu exportierenden Zeitraumes
-
-* Auswahl: Wählen Sie, ob Sie Alle Daten oder Klasse, Lehrer, Schüler exportieren möchten. Sie können zusätzlich wählen ob Termine, Änderungen, Fehlzeiten, Kalendereinträge, Schülernamen mitexportiert werden sollen.
-
-In IServ:
-Klicken Sie auf Hochladen, navigieren zur entsprechenden Exportdatei aus DaVinci und klicken dann auf OK.
-
-Wählen Sie anschließend unter Format den Wert DaVinci aus und bestätigen mit Hochladen.
-
-[Informationen dazu hier](https://iserv.eu/doc/modules/timetable/#davinci)
-
-!!! info "Hinweis"
-
-    Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
