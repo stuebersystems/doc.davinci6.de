@@ -1,4 +1,6 @@
-# Dateienpfad und Funktion
+# Speicherung von Einstellungen
+
+In DAVINCI werden zusätzlich zu den Planungsdaten Einstellungen gespeichert. Nachstehend finden Sie eine Auflistung von Dateien, die angelegt werden und deren Zweck.
 
 Speicherort|Funktion
 --|--
