@@ -6,7 +6,7 @@ Speicherort|Funktion
 --|--
 C:\ProgramData\Stueber Systems\daVinci 6\daVinci.colors| Speichert die Farbeinstellungen aus `DAVINCI > Plan > Optionen > Farben`
 C:\ProgramData\Stueber Systems\daVinci 6\daVinci.hfm| speichert Einstellungen für den HTML-Export oder den nicht mehr unterstützten INFOSERVER-Export per HTML (aktueller Übertrag per json-Daten)
-C:\ProgramData\Stueber Systems\daVinci 6\daVinci.lic| speichert die Lizenzdaten
+C:\ProgramData\Stueber Systems\daVinci 6\daVinci.lic| Speichert die Lizenzdaten
 C:\ProgramData\Stueber Systems\daVinci 6\daVinci.pfm| Druckformate für DAVINCI (speichert die durch den Nutzer geänderte Version)
 C:\ProgramData\Stueber Systems\daVinci 6\daVinci.site| Speichert die Site-Infos (Bundesland etc.)
 C:\Users\angemeldeter.Benutzer\AppData\Roaming\Stueber Systems\daVinci 6\daVinci.servers| Liste der Server-Verbindungen und die opt. Startdatei im Servermodus (`Plan > Server verwalten > Serververbindung markieren > Bearbeiten > Plandatei`)
