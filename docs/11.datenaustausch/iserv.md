@@ -1,6 +1,42 @@
 # Datenaustausch mit IServ
 
-IServ ist eine Schulplattform für das Digitalisierung von Prozessen in der Schule. DAVINCI kann Stundenplandaten mit IServ abgleichen. Diese werden dann in IServ angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
+IServ ist eine Schulplattform für die Digitalisierung von Prozessen in der Schule. DAVINCI kann Stundenplandaten mit IServ abgleichen. Diese werden dann in IServ angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
+
+## Manueller Datenaustausch mit IServ
+
+### Workflow in DAVINCI
+
+Die Daten aus DaVinci werden üblicherweise in einer einzelnene JSON-Datei exportiert.
+
+Wählen Sie in DAVINCI über `Plan > Importieren und Exportieren` im Import/Export-Assistent unter Exportieren `DAVINCI JSON-Daten exportieren` aus.
+
+Folgendes Fenster öffnet sich:
+
+![DAVINCI JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
+
+* Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .json
+
+* Zieladresse: in den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
+
+![Upload](/assets/images/Datenaustausch/export2.png)
+
+* Zeitraum: Auswahl des zu exportierenden Zeitraumes
+
+* Auswahl: Wählen Sie, ob Sie Alle Daten oder Klasse, Lehrer, Schüler exportieren möchten. Sie können zusätzlich wählen ob Termine, Änderungen, Fehlzeiten, Kalendereinträge, Schülernamen mitexportiert werden sollen.
+
+### Was ist in IServ zu tun?
+
+Klicken Sie auf `Hochladen`, navigieren zur entsprechenden Exportdatei aus DAVINCI und klicken dann auf `OK`.
+
+Wählen Sie anschließend unter Format den Wert `DAVINCI` aus und bestätigen mit `Hochladen`.
+
+Informationen dazu finden Sie [hier.](https://iserv.eu/doc/modules/timetable/#davinci)
+
+!!! info "Hinweis"
+
+    Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
+
+## Automatisierter Datenaustausch mit IServ
 
 Der Workflow sieht grob wie folgt aus:
 
@@ -8,11 +44,11 @@ Der Workflow sieht grob wie folgt aus:
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
-## Voraussetzungen
+### Voraussetzungen
 
 Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DAVINCI benötigt.
 
-### PowerShell 7
+#### PowerShell 7
 
 Die Systemvoraussetzungen für eine erfolgreiche Ausführung der PowerShell-Skripte ist **PowerShell 7**. [PowerShell 7][1] ist nicht Teil des Betriebssystems und muss separat installiert werden. 
 
@@ -47,7 +83,7 @@ Jetzt können Sie lokale PowerShell-Skripte problemlos starten.
 [5]: /assets/images/datenaustausch/iserv/requirements-03.png "Ausführungsrichtlinie anpassen"
 [6]: https://blog.stueber.de/posts/powershell7-unter-windows-10/
 
-### PSDaVinci
+#### PSDaVinci
 
 Installieren Sie das PowerShell-Modul [PSDaVinci][7]:
 
@@ -73,9 +109,9 @@ Das PowerShell-Modul wird nun installiert.
 [10]: /assets/images/datenaustausch/iserv/requirements-06.png "Untrusted repository"
 [11]: https://github.com/stuebersystems/psdavinci
 
-## Konfiguration
-
 ### Konfiguration
+
+#### Konfiguration
 
 1. Legen Sie im Windows-Explorer ein neues Verzeichnis `c:\davinci` an (das Verzeichnis kann natürlich auch anders heißen).
 
@@ -95,7 +131,7 @@ Das PowerShell-Modul wird nun installiert.
 	
     Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
 
-## Konfigurieren
+### Konfigurieren
  
 Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
@@ -103,7 +139,7 @@ Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individue
 
 Eigenschaft                          | Bedeutung                      
 ------------------------------------ | -------------------------------
-`daVinci.IServExport.IServUrl        |  URL Deiner IServ-Instanz
+`daVinci.IServExport.IServUrl `       |  URL Deiner IServ-Instanz
 `daVinci.IServExport.IServApiToken`  |  API-Token aus IServ
 
 Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
@@ -136,7 +172,7 @@ Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich j
 	
 	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DAVINCI Datei oder mit einer Datei auf dem DAVINCI Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
 
-### Beispiel für eine lokale DAVINCI Datei
+#### Beispiel für eine lokale DAVINCI Datei
 
 Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie folgt aussehen:
 
@@ -153,7 +189,7 @@ Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie f
 }
 ```
 
-### Beispiel für eine DAVINCI-Serverdatei
+#### Beispiel für eine DAVINCI-Serverdatei
 
 Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird**, könnte wie folgt aussehen:
 
@@ -175,7 +211,7 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 }
 ```
 
-## Testen
+### Testen
 
 1. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
 
@@ -193,11 +229,11 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 
 Die Daten aus DAVINCI werden direkt nach IServ übertragen.	
 	
-## Automation
+### Automation
 
 Die Synchronisation zwischen DAVINCI und IServ kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
 
-### Ein Beispiel
+#### Ein Beispiel
 
 Wir wollen, dass der Abgleich zwischen DAVINCI und IServ alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
 
@@ -249,7 +285,7 @@ Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausg
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach IServ alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach IServ alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/iserv/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/iserv/automation-02.png "Name und Beschreibung"

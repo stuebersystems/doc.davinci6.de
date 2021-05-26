@@ -45,6 +45,26 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
+## DAVINCI Version 6.5.70 (20.05.2021)
+
+### Allgemein
+
+* NEW: Abgleich DAVINCI - MAGELLAN 8
+
+### VERTRETUNGSPLAN
+
+* FIX: `Vertretungsplan > Anrechnen` Anrechenstunden können manuell hinzugefügt werden mit Auswahl des Lehrers
+* FIX: `Vertretungsplan > Vertretungen` fehlende Vorziehoptionen werden angezeigt
+
+### SERVER
+
+* FIX: Doppelte Ausgabe von Mitteilungen für die Webbox korrigiert
+
+### LOOK
+
+* FIX: DAVINCI LOOK liest die Pathsdatei daVinciLook.paths statt der daVinci.paths 
+
+
 ## DAVINCI Version 6.5.69 (25.03.2021)
 
 ### STUNDENPLAN
