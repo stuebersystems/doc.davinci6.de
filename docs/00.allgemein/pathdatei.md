@@ -14,7 +14,7 @@ Folgende Dateien werden beim Programmstart von DAVINCI gelesen:
 | daVinci.opt     | enthält die DAVINCI-Optionseinstellungen             |
 | daVinci.hfm     | enthält die HTML Exportformate                       |
 | daVinci.pfm     | enthält die Druckformate                             |
-| daVinci.cfg     | enthält die Aktuelle Login-Daten                     |
+| daVinci.cfg     | enthält die aktuellen Login-Daten                     |
 | daVinci.site    | enthält die Standortdaten (Schulname, Adresse, etc.) |
 | daVinci.servers | enthält die Serververbindung und Startdatei          |
 
