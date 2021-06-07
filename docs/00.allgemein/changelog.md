@@ -45,6 +45,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
+## DAVINCI Version 6.5.72 (07.06.2021)
+
+### Allgemein
+
+* FIX: Korrekturen zum Abgleich DAVINCI Vertretungsplan mit dem ENBREA Klassenbuch bezüglich der Darstellung der Vertretungsplaninformationen
+* 
+
 ## DAVINCI Version 6.5.70 (20.05.2021)
 
 ### Allgemein
