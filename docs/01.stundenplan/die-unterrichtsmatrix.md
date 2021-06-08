@@ -16,4 +16,4 @@ Die Unterrichtsmatrix dient nicht nur der übersichtlichen Darstellung der Gesam
 
 Zu diesem Zweck steht Ihnen in der Ansicht „Unterrichtsmatrix“ das Detailfenster ``Passende Lehrer`` zur Verfügung. Damit Sie einer Veranstaltung über die-ses Detailfenster einen Lehrer zuweisen können, müssen Sie die zugehörige Zelle in der aufgerufenen Unterrichtsmatrix markieren. Die verfügbaren Lehrer für die gewählte Veranstaltung werden daraufhin im Detailfenster angezeigt.
 
-Wie Sie mit dem Zusatzfenster ``Passende Lehrer`` einen bestimmten Lehrer auswählen und zuweisen können, finden Sie unter [Mit der Veranstaltungsliste arbeiten](/davinci-stundenplan/stundenplan-erstellen/mit-der-veranstaltungsliste-arbeiten.md).
+Wie Sie mit dem Zusatzfenster ``Passende Lehrer`` einen bestimmten Lehrer auswählen und zuweisen können, finden Sie unter [Mit der Veranstaltungsliste arbeiten](/davinci-stundenplan/stundenplan-erstellen/unterrichtsveranstaltungen.md).

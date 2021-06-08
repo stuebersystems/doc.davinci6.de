@@ -92,7 +92,7 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 ## DAVINCI WEBBOX Version 1.10.4 
 
-[Anleitung für die Aktualisierung](https://doc.davinci6.stueber.de/09.infoserver/update-internet-publication/infoserver-und-webbox-aktualisieren/)
+[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
 
 * FIX: geblockter Unterricht wird wieder vollständig dargestellt 
 * FIX: Unterricht ohne Klassen wird wieder in den Lehrerplänen dargestellt
@@ -100,7 +100,7 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
 ## DAVINCI Version 6.5.50
 

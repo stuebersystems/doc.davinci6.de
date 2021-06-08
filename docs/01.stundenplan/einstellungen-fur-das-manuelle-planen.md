@@ -62,10 +62,10 @@ Kein Drag & Drop für Stundeneinträge | Termine im Plan können nicht per Drag 
 Wegzeitkonflikte anzeigen | Im Plan werden Wegzeitkonflikte mit einem gelben Warnsymbol unten im Termin angezeigt
 Warnung: Fach mehrfach am Tag | Wenn Sie einen Termin verplanen und bereits ein anderer Termin der gleichen Veranstaltung an diesem Tag verplant ist, erscheint eine entsprechende Warnung.
 Register unten anzeigen | Zeigt für den aktuell markierten Plancursor-Termin die Registerkarten der beteiligten Klassen, Lehrer, Räume unter dem Plan an, mit denen Sie schnell auf den jeweiligen Plan umschalten können
-Termine der Veranstaltung hervorheben | Siehe [Termine der Veranstaltung hervorheben](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/termine-der-veranstaltung-hervorheben.md)
-Positionskonflikte anzeigen | Siehe [Positionskonflikte anzeigen](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/positionskonflikte-anzeigen.md)
-Zeitkonflikte anzeigen | Siehe [Zeitkonflikte anzeigen](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/zeitkonflikte-anzeigen.md) 
-Passende Termine anzeigen | Siehe [Passende Termine hervorheben](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/zeitkonflikte-anzeigen.md)
+Termine der Veranstaltung hervorheben | Siehe [Termine der Veranstaltung hervorheben](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/#termine-der-veranstaltung-hervorheben.md)
+Positionskonflikte anzeigen | Siehe [Positionskonflikte anzeigen](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/#positionskonflikte-anzeigen.md)
+Zeitkonflikte anzeigen | Siehe [Zeitkonflikte anzeigen](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/#zeitkonflikte-anzeigen.md) 
+Passende Termine anzeigen | Siehe [Passende Termine hervorheben](/davinci-stundenplan/stundenplan-erstellen/einstellungen-fur-das-manuelle-planen/#zeitkonflikte-anzeigen.md)
 
 ## Frei bewegliche Planfenster
 
