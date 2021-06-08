@@ -241,4 +241,4 @@ Eine ``*.daVinci.zip``-Datei kann mit DAVINCI geöffnet werden, ohne dass diese 
 
 ## Datei speichern (im Serverbetrieb)
 
-Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.enterprise/allgemeines/).
+Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.enterprise/00.allgemeines/).

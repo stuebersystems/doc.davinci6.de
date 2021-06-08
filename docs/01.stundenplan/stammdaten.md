@@ -16,7 +16,7 @@ Bei den Datenkategorien die hier erfasst werden können, handelt es sich namentl
 
 ![Ansicht](/assets/images/Optionen.Ansicht.Stammdaten.png)
 
-Da die Stammdaten-Ansichten aus Listen bestehen, sollten Sie den Abschnitt [Mit Listen arbeiten](//01.stundenplan/mit-listen-arbeiten/) lesen, um sich mit den Ansichts- und Sortierungsoptionen vertraut zu machen.
+Da die Stammdaten-Ansichten aus Listen bestehen, sollten Sie den Abschnitt [Mit Listen arbeiten](/01.stundenplan/mit-listen-arbeiten/) lesen, um sich mit den Ansichts- und Sortierungsoptionen vertraut zu machen.
 
 Um Stammdaten eintragen, bearbeiten oder löschen zu können, müssen Sie darauf achten, dass der Aufruf `Liste bearbeiten` aktiv ist.
 
