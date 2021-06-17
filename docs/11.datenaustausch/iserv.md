@@ -200,7 +200,6 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 			"IServUrl": "https://mein-iserv.de",
 			"IServApiToken": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345==",
 			"SourceProvider": "Server",
-			"SourceProvider": "Server",
 			"ServerName" : "localhost",
 			"ServerPort" : "8100",
 			"ServerUserName" : "admin",
