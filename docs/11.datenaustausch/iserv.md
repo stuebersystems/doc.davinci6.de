@@ -263,7 +263,7 @@ Los geht's:
     Feld                  | Eingabe
     --------------------- | -------
     Programm/Skript       | `pwsh.exe`
-    Argumente hinzufügen  | `-command "& {Start-DaVinciExport sdui .\davinci.json *> .\logs\log-sdui-$(Get-Date -f yyyy-MM-dd).txt}"`
+    Argumente hinzufügen  | `-command "& {Start-DaVinciExport iserv .\davinci.json *> .\logs\log-sdui-$(Get-Date -f yyyy-MM-dd).txt}"`
     Starten in (optional) | `c:\davinci` Bitte prüfen Sie, ob das Verzeichnis "davinci" an der Stelle angelegt wurde und ggfs. passen Sie bitte den Pfad an. Bitte im davinci-Verzeichnis ein neues Verzeichnis "logs" erstellen!
 
 	
