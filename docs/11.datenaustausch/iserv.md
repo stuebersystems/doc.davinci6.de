@@ -264,8 +264,9 @@ Los geht's:
     --------------------- | -------
     Programm/Skript       | `pwsh.exe`
     Argumente hinzufügen  | `-command "& {Start-DaVinciExport sdui .\davinci.json *> .\logs\log-sdui-$(Get-Date -f yyyy-MM-dd).txt}"`
-    Starten in (optional) | `c:\davinci`
+    Starten in (optional) | `c:\davinci` Bitte prüfen Sie, ob das Verzeichnis "davinci" an der Stelle angelegt wurde und ggfs. passen Sie bitte den Pfad an. Bitte im davinci-Verzeichnis ein neues Verzeichnis "logs" erstellen!
 
+	
     Das Ganze sieht dann so aus. Klicke Sie anschließend wieder auf `OK`.
 
     [![Aktion][15]][15]
