@@ -34,7 +34,7 @@ Informationen dazu finden Sie [hier.](https://iserv.eu/doc/modules/timetable/#da
 
 !!! info "Hinweis"
 
-    Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
+    Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt werden, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
 
 ## Automatisierter Datenaustausch mit IServ
 
@@ -58,7 +58,7 @@ Die Systemvoraussetzungen für eine erfolgreiche Ausführung der PowerShell-Skri
 
     [![PowerShell-Setup (Windows x64)][3]][3]
 	
-3. Starten Sie das MSI-Paket auf Deinem Computer und folgen Sie den Anweisungen.
+3. Starten Sie das MSI-Paket auf Ihrem Computer und folgen Sie den Anweisungen.
 
 Die Ausführung von lokalen PowerShell-Skripten unter Windows Server 2019 ist standardmäßig erlaubt, unter Windows 10 jedoch nicht. In der Regel kann man mit der Ausführungsrichtlinie `RemoteSigned` gut leben. 
 
@@ -144,12 +144,16 @@ Eigenschaft                          | Bedeutung
 
 Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
 
+#### lokale DAVINCI-Datei
+
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
 
 Eigenschaft                          | Bedeutung
 ------------------------------------ | ---------
 `daVinci.IServExport.SourceProvider` | Wert = `File`
 `daVinci.IServExport.SourceFileName` | Vollständiger Dateiname der DAVINCI-Datei
+
+#### DAVINCI-Datei auf einem DAVINCI-Server
 
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird** auf alle Fälle überschrieben werden:
 
@@ -164,6 +168,8 @@ Eigenschaft                          | Bedeutung
 
 Es empfiehlt sich einen seperaten DAVINCI-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DAVINCI anmelden zu können.
 
+![Benutzer](/assets/images/datenaustausch/iserv/iserv01.png)
+
 Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich jederzeit überschrieben werden.
 
 !!! warning "Hinweise"
@@ -172,7 +178,7 @@ Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich j
 	
 	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DAVINCI Datei oder mit einer Datei auf dem DAVINCI Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
 
-#### Beispiel für eine lokale DAVINCI Datei
+#### Beispiel für eine lokale DAVINCI-Datei
 
 Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie folgt aussehen:
 
@@ -199,7 +205,6 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 		"IServExport": {
 			"IServUrl": "https://mein-iserv.de",
 			"IServApiToken": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345==",
-			"SourceProvider": "Server",
 			"SourceProvider": "Server",
 			"ServerName" : "localhost",
 			"ServerPort" : "8100",
@@ -258,9 +263,10 @@ Los geht's:
     Feld                  | Eingabe
     --------------------- | -------
     Programm/Skript       | `pwsh.exe`
-    Argumente hinzufügen  | `-command "& {Start-DaVinciExport sdui .\davinci.json *> .\logs\log-sdui-$(Get-Date -f yyyy-MM-dd).txt}"`
-    Starten in (optional) | `c:\davinci`
+    Argumente hinzufügen  | `-command "& {Start-DaVinciExport iserv .\davinci.json *> .\logs\log-iserv-$(Get-Date -f yyyy-MM-dd).txt}"`
+    Starten in (optional) | `c:\davinci` Bitte prüfen Sie, ob das Verzeichnis "davinci" an der Stelle angelegt wurde und ggfs. passen Sie bitte den Pfad an. Bitte im davinci-Verzeichnis ein neues Verzeichnis "logs" erstellen!
 
+	
     Das Ganze sieht dann so aus. Klicke Sie anschließend wieder auf `OK`.
 
     [![Aktion][15]][15]
