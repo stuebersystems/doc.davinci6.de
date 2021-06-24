@@ -42,7 +42,7 @@
 
 ### SERVER
 
-* FIX: 
+* FIX: Zusatzunterrichte wurden als offene Vertretungen kategorisiert, als Ergebnis konnte es zur falschen bzw. unvollständigen JSON-Ausgabe (WEBBOX, App) führen 
 
 ### LOOK
 
