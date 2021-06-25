@@ -158,11 +158,11 @@ nav:
   - Allgemeines: 04.ressourcen/01.allgemeines.md
   - So gehen Sie vor: 04.ressourcen/02.einsatz.md
 - LOOK: 
-  - Allgemeines: 05.look/allgemeines.md
+  - Allgemeines: 05.look/00.allgemeines.md
   - Installation und Update: 05.look/01.installation.md
-  - Ansichten: 05.look/ansichten.md
-  - Funktionalitäten: 05.look/funktionalitaeten.md
-  - Einrichtung für E-Boards: 05.look/eboard.md
+  - Ansichten: 05.look/02.ansichten.md
+  - Funktionalitäten: 05.look/04.funktionalitaeten.md
+  - Einrichtung für E-Boards: 05.look/03.eboard.md
 - ENTERPRISE:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
   - DAVINCI SERVER: 
@@ -214,4 +214,4 @@ nav:
   - Sicherheit: 09.infoserver/security.md
   - Netzwerktipps: 09.infoserver/network-configuration.md
   - Netzwerke verbinden: 09.infoserver/powershell.md
-  - Update: 09.infoserver/infoserver-und-webbox-aktualisieren.md
+  - Update: 09.infoserver/update.md
