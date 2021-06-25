@@ -111,8 +111,6 @@ Das PowerShell-Modul wird nun installiert.
 
 ### Konfiguration
 
-#### Konfiguration
-
 1. Legen Sie im Windows-Explorer ein neues Verzeichnis `c:\davinci` an (das Verzeichnis kann natürlich auch anders heißen).
 
 3. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
@@ -131,8 +129,6 @@ Das PowerShell-Modul wird nun installiert.
 	
     Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
 
-### Konfigurieren
- 
 Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
 Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individuellen Zugang zu IServ:
@@ -144,7 +140,7 @@ Eigenschaft                          | Bedeutung
 
 Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
 
-#### lokale DAVINCI-Datei
+#### Lokale DAVINCI-Datei
 
 Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
 
@@ -233,7 +229,7 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 	```
 
 Die Daten aus DAVINCI werden direkt nach IServ übertragen.	
-	
+
 ### Automation
 
 Die Synchronisation zwischen DAVINCI und IServ kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
