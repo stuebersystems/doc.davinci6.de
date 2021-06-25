@@ -46,6 +46,14 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
+
+## DAVINCI Version 6.5.72 (24.06.2021)
+
+### SERVER
+
+* FIX: Zusatzunterrichte wurden als offene Vertretungen kategorisiert, als Ergebnis konnte es zur falschen bzw. unvollständigen JSON-Ausgabe (WEBBOX, App) führen 
+* 
+
 ## DAVINCI Version 6.5.71 (07.06.2021)
 
 ### Allgemein

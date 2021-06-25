@@ -26,7 +26,7 @@
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.72
+## DAVINCI Version 6.5.73
 
 ### Allgemein
 
@@ -42,7 +42,7 @@
 
 ### SERVER
 
-* FIX: Zusatzunterrichte wurden als offene Vertretungen kategorisiert, als Ergebnis konnte es zur falschen bzw. unvollständigen JSON-Ausgabe (WEBBOX, App) führen 
+* FIX: 
 
 ### LOOK
 
