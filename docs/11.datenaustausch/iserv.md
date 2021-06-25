@@ -120,14 +120,12 @@ Das PowerShell-Modul wird nun installiert.
     ```
     cd c:\davinci
     ```
-
 5. Tippen Sie nun folgenden PowerShell-Befehl ein:
 
     ```
 	Initialize-DaVinciExport iserv davinci.json
 	```
-	
-    Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
+Es wird jetzt eine Konfigurationsdatei `davinci.json` angelegt, die als Vorlage für die weitere Konfiguration dient.
 
 Die gesamte Konfiguration des Imports befindet sich in der Textdatei `davinci.json`. Öffnen Sie diese Datei in einem Texteditor und überschreiben die gewünschten Eigenschaften.
 
@@ -135,7 +133,7 @@ Die folgende Eigenschaft *muss* angepasst werden. Sie konfiguriert den individue
 
 Eigenschaft                          | Bedeutung                      
 ------------------------------------ | -------------------------------
-`daVinci.IServExport.IServUrl `       |  URL Deiner IServ-Instanz
+`daVinci.IServExport.IServUrl `      |  URL Deiner IServ-Instanz
 `daVinci.IServExport.IServApiToken`  |  API-Token aus IServ
 
 Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
