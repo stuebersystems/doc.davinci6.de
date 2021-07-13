@@ -13,17 +13,16 @@ Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DAVINCI
 
 ![Dialog unter Plan > DAVINCI-Optionen > Meine Daten](/assets/images/sac.optionen.png)
 
-Sie erhalten von der Sächsischen Bildungsagentur ein Vorlage für die zu nutzenden Fächern und Schulformen für Sachsen:
+Sie erhalten von der Sächsischen Bildungsagentur eine XML-Datei mit den Fächern und Schulformen für Sachsen:
 
 1. Geben Sie unter `Plan > DAVINCI-Optionen > Meine Daten`
 
 * bei `Schultyp` Ihr Schulartkürzel ein
 * bei `Dienststelle/SchulNr` Ihre Dienststellenummer ein
   
-2. Tragen Sie in den `Stammdaten > Fächer` die Fächer entsprechend ein
-  
-3. Weisen Sie in den `Stammdaten > Klassen > Schulform`die entsprechende Schulform zu. Grundlage ist das Schlüsslverzeichnis `Schulformen` welches vorher entsrpechend der Vorgabe zu füllen ist. 
+2. Laden Sie mit `Plan > Importieren und Exportieren > Statistikdaten importieren > Sachsen Fachdaten importieren` die Fächer bzw. Schulformen für Ihrer Schulart: Für berufsbildende Schulen werden die Schularten im Schlüsselverzeichnis `Extras > Schularten`, für allgemeinbildende Schulen werden die Fächer als Stammdaten `Stammdaten > Fächer`, eingelesen.
 
+3. Weisen Sie jeder Klasse unter `Stammdaten > Klassen > Schulform` eine Schulform zu.
 
 !!! info "Hinweis"
 
