@@ -50,6 +50,9 @@ Die Einträge in einer Schlüsseldatei müssen in einer TXT-, CSV- oder KEYS-Dat
 ```
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ```
+!!! tip Tip
 
+    Wenn Sie Schlüsseldateien importieren möchten, beachten Sie bitte: Die Dateien müssen immer den Aufbau haben wie im Schlüsselverzeichnis und sie mpssen einem bestimmten Format entsprechen. Sie müssten aus Excel heraus eine Daten über "Speichern unter" als "CSV (Trennzeichen getrennt)" speichern.
+    
 !!! info Hinweis
     Eine Übersicht über die verwendeten Schlüsselverzeichnisse finden Sie [hier](/00.allgemein/schluesselverzeichnisse/)
