@@ -38,7 +38,7 @@
 
 ### VERTRETUNGSPLAN
 
-* FIX: 
+* FIX: `Übersichten > Ausfallstatistik`Export 
 
 ### SERVER
 
