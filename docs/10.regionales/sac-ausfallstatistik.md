@@ -2,6 +2,8 @@
 
 Die Übersicht `Übersichten > Ausfallstatistik` liefert die für die Landesstatistik Sachsen benötigten Daten.
 
+Die grundlegende Beschreibung der Ausfallstatistik finden Sie [hier](https://doc.davinci6.stueber.de/08.analytics/ausfallstatistik/)
+
 Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DAVINCI
 
 1. die entsprechenden Schulformen (berufsbildenden Schulen) bzw. Fächer (allgemeinbildende Schulen) verwenden
