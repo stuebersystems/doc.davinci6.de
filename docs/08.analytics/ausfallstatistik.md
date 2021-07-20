@@ -1,12 +1,20 @@
 # Übersicht "Ausfallstatistik"
 
+[1]:/assets/images/analytics/ausfallstatistik01.png
+[2]:/assets/images/analytics/schulformen.png
+[3]:/assets/images/analytics/analytics.lehrerfehlgruende.png
+[4]:/assets/images/analytics/klassenfehlgruende.png
+[5]:/assets/images/analytics/ausfallstatistik02.png
+[6]:/assets/images/analytics/ausfallstatistik03.png
+[7]:/assets/images/analytics/ausfallstatistik04.png
+
 Die Ausfallstatistik liefert den Unterrichtsausfall nach Fächern oder nach Schulformen entweder aus Schüler- oder aus Lehrersicht. Dazu werden die Vertretungsstunden gemäß ihrer Qualifizierung durch Lehrer/Klassen-Fehlgründe und durch Vertretungsentfallgründe aufsummiert.
 
 !!! info "Hinweis"
 
     Bei dieser Statistik werden nur Stunden erfasst, die Statistik relevant sind. Sie können Klassen (siehe `Stammdaten > Klassen > Details`), Lehrer (siehe `Stammdaten > Lehrer > Details`), Fächer (siehe `Stammdaten > Fächer > Details`) und Zusatzunterricht (im Eingabe Dialog) als `Nicht Statistik relevant` vermerken.
 
-![Übersicht Ausfallstatistik](/assets/images/analytics/ausfallstatistik01.png)
+[![Ausfallstatistik][1]][1]
 
 ## Die Sichtweisen
 
@@ -17,7 +25,7 @@ Die Ausfallstatistik liefert den Unterrichtsausfall nach Fächern oder nach Schu
 
 !!! info "Hinweis"
 
-  Bitte beachten Sie folgenden Spezialfall: Bei der Sichtweise `Nach Schülern` wird der Unterricht in geblockten Veranstaltungen aufgrund der Schüleranzahl in der betreffenden Gruppe (siehe Dialog `Veranstaltungsdetails > Schüleranzahl` oder `Veranstaltungsliste > Schüler`) anteilig an der Gesamtschülerzahl in der Klasse (siehe `Stammdaten > Klassen > Schüler`) errechnet (fehlt diese Schülerzahl, ist also der Wert Null, dann wird keine anteilige Berechnung durchgeführt), z.B:
+    Bitte beachten Sie folgenden Spezialfall: Bei der Sichtweise `Nach Schülern` wird der Unterricht in geblockten Veranstaltungen aufgrund der Schüleranzahl in der betreffenden Gruppe (siehe Dialog `Veranstaltungsdetails > Schüleranzahl` oder `Veranstaltungsliste > Schüler`) anteilig an der Gesamtschülerzahl in der Klasse (siehe `Stammdaten > Klassen > Schüler`) errechnet (fehlt diese Schülerzahl, ist also der Wert Null, dann wird keine anteilige Berechnung durchgeführt), z.B:
 
 ```txt
 
@@ -42,20 +50,20 @@ Stundenwert = 1 Stunde * 12/24 = 0,5
 | Gruppiert | Beschreibung |
 | --- | --- |
 | Nach Fächern | Diese Ansicht gruppiert die Summen nach Fächern. Dazu müssen Sie unter `Stammdaten > Fächer` die entsprechenden Fächer eingeben. Es erscheinen alle dort angegebenen Fächer mit einer Angabe in der Spalte "Schlüssel". |
-| Nach Schulform | Diese Ansicht gruppiert die Summen nach Schulformen. Sie müssen dazu jeder Klasse unter `Stammdaten > Klassen > Schulform` eine Schulform zugeordnet haben. Dazu müssen Sie im Schlüsselverzeichnis `Schulformen` die entsprechenden Schulformen eingeben. Es erscheinen alle dort angegebenen Schulformen mit einer Angabe unter "Schlüssel" als Zeilen. |
+| Nach Schulform | Diese Ansicht gruppiert die Summen nach Schulformen. Sie müssen dazu jeder Klasse unter `Stammdaten > Klassen > Schulform` eine Schulform zugeordnet haben. Dazu müssen Sie unter `Extras > Schlüsselverzeichnisse > Schulformen im Schlüsselverzeichnis `Schulformen` die entsprechenden Schulformen eingeben. Es erscheinen alle dort angegebenen Schulformen mit einer Angabe unter "Schlüssel" als Zeilen. |
+| Nach Schulform | Diese Ansicht gruppiert die Summen nach Schulformen. Sie müssen dazu jeder Klasse unter `Stammdaten > Klassen > Schulform` eine Schulform zugeordnet haben. Dazu müssen Sie unter `Extras > Schlüsselverzeichnisse > Schulformen` die entsprechenden Schulformen eingeben. Es erscheinen alle dort angegebenen Schulformen mit einer Angabe unter "Schlüssel" als Zeilen.|
 
-![Schlüsselverzeichnis Schulformen](/assets/images/analytics/schulformen.png)
+[![Schlüsselverzeichnis Schulformen][2]][2]
 
 ## Die Spalten
 
-Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeichneten Lehrerfehlgründe, Klassenfehlgründe und Vertretungsentfallgründe. Dabei geht DAVINCI nach folgender Regel vor: Es erscheinen diejenigen Kürzel als Spalten in der Tabelle, die einen Schlüsselwert in der Spalte "Schlüssel" des jeweiligen Schlüsselverzeichnisses haben. Zusätzlich wird das erste Kürzel als Spalte aufgeführt, dass keinen Eintrag in der Spalte "Schlüssel" hat. Es dient dazu alle weiteren Gründe zu sammeln, solange diese ebenfalls keine Angabe bei "Schlüssel" haben.
+Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeichneten Lehrerfehlgründe, Klassenfehlgründe und Vertretungsentfallgründe. Dabei geht DAVINCI nach folgender Regel vor: Es erscheinen diejenigen Kürzel als Spalten in der Tabelle, die einen Schlüsselwert in der Spalte "Schlüssel" des jeweiligen Schlüsselverzeichnisses haben. Zusätzlich wird das erste Kürzel als Spalte aufgeführt, dass keinen Eintrag in der Spalte "Schlüssel" hat. Es dient dazu, alle weiteren Gründe zu sammeln, solange diese ebenfalls keine Angabe im Feld "Schlüssel" haben.
 
-![Schlüsselverzeichnis Lehrerfehlgründe](/assets/images/analytics/analytics.lehrerfehlgruende.png)
+[![Schlüsselverzeichnis > Lehrerfehlgründe][3]][3]
 
-![Schlüsselverzeichnis Klassenfehlgründe](/assets/images/analytics/klassenfehlgruende.png)
+[![Schlüsselverzeichnis > Klassenfehlgründe][4]][4]
 
-
-![Übersicht Ausfallstatistik](/assets/images/analytics/ausfallstatistik02.png)
+[![Übersichten > Ausfallstatistik][5]][5]
 
 | Spalte | Beschreibung |
 | --- | --- |
@@ -63,14 +71,14 @@ Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeic
 | Ausfall | Summe der ausgefallene Stunden, bei denen ein Vertretungsentfallgrund angegeben wurde |
 | Planm. Ausfall | Planmäßiger Ausfall, d.h. die Stunden die von Vertretungen laut Plan betroffen sind, unabhängig davon ob sie vertreten wurden oder entfallen sind |
 
-![Übersicht Ausfallstatistik](/assets/images/analytics/ausfallstatistik03.png)
+[![Übersichten > Ausfallstatistik][6]][6]
 
 | Spalte | Beschreibung |
 | --- | --- |
 | Außerplanmäßiger Unterrichtsausfall wegen | Unterrichtsausfall, weil ein anderes Fach vertreten wurde oder die Stunde entfallen ist |
 | Unterrichtsausfall wegen | Geplanter Unterricht fällt aus, aufgeschlüsselt nach Fehlgründen (Lehrer- und Klassenfehlgründen) |
 
-![Übersicht Ausfallstatistik](/assets/images/analytics/ausfallstatistik04.png)
+[![Übersichten > Ausfallstatistik][7]][7]
 
 | Spalte | Beschreibung |
 | --- | --- |
@@ -79,8 +87,8 @@ Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeic
 
 ## Ergebnis exportieren
 
-Über die Schaltfläche `Exportieren`können Sie die Daten als XML-Datei für die Landesstatistik Sachsen speichern. Über `Start > Exportieren` können die die Tabelle als Excel-, HTML- oder Textdatei speichern.
+Über `Start > Exportieren` können Sie die Daten als für die Ausfallstatistik Sachsen exportieren. Diese können Sie als XML-Datei, Excel-, HTML- oder Textdatei speichern.
 
 !!! info "Hinweis"
 
-     Wie Sie mit der Ausfallstatistik die sächsische Landesstatistik erstellen können, erfahren Sie im Abschnitt "Sachsen" unter dem Punkt "Regionales".
+     Wie Sie mit der Ausfallstatistik die sächsische Landesstatistik erstellen können, erfahren Sie im DAVINCI Benutzerhandbuch unter Regionales im Abschnitt [Sachsen](https://doc.davinci6.stueber.de/10.regionales/sac-ausfallstatistik).
