@@ -1,5 +1,19 @@
 # Fachwahlen eingeben
 
+[1]:/assets/images/KP/fachwahlen_01.png
+[2]:/assets/images/KP/fachwahlen_02.png
+[3]:/assets/images/KP/fachwahlen_03.png
+[4]:/assets/images/KP/fachwahlen_04.png
+[5]:/assets/images/KP/fachwahlen_05.png
+[6]:/assets/images/KP/fachwahlen_06.png
+[7]:/assets/images/KP/fachwahlen_07.png
+[8]:/assets/images/KP/fachwahlen_08.png
+[9]:/assets/images/KP/fachwahlen_09.png
+[10]:/assets/images/KP/fachwahlen_10.png
+[11]:/assets/images/KP/fachwahlen_11.png
+[12]:/assets/images/KP/fachwahlen_12.png
+[13]:/assets/images/KP/fachwahlen_13.png
+
 Die Fachwahlen der Schüler werden in der Ansicht `Kursplan > Fachwahlen` erfasst und ggf. auch entsprechend der bundeslandspezifischen Fachwahlüberprüfung geprüft. Damit eine Fachwahlüberprüfung aufgrund eines Fachwahlskriptes erfolgen kann, sind gewisse Voreinstellungen im Stammdatenfenster erforderlich.
 
 ## Voreinstellungen Stammdatenfenster
@@ -10,7 +24,7 @@ In DAVINCI definieren Sie in den DAVINCI-Stammdaten die Klassen. Sie können ein
 
 Bitte beachten Sie dazu folgende notwendige Eingaben:
 
-| Spalte         | Bedeutung                                                                                                          |
+| Spalte        | Bedeutung                                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Stufe          | Angaben für den Jahrgang (11, 12, 13)                                                                              |
 | Modus          | Stellen Sie hier „Kurse“ ein, dann kann zwischen diesen Klassen in der Ansicht „Kursplan“ geblättert werden.       |
@@ -26,7 +40,7 @@ Halbjahre überprüfen, wie es aktuell in Berlin der Fall ist:
 | Startjahr | Tragen Sie hier ausgehend vom Jahrgang das Startjahr für den Eintritt in die gymnasiale Oberstufe ein. Startjahr der Klasse                                                                                                                                                      |
 | Halbjahr  | Nummer des Halbjahres, in dem sich die Klasse aktuell für diesen Planungszeitraum befindet, d.h. 1, 2, 3, 4, 5, 6 (E1=1, E2=2....Q3=5, Q4=6). Aus Startjahr und Halbjahresindex errechnet sich, welche Fächer der Schüler in diesem Zeitraum bzw. in diesem Halbjahr belegt hat. |
 
-![Liste der Klassen bzw. Jahrgänge](/assets/images/KP/fachwahlen1.png)
+[![Liste der Klassen bzw. Jahrgänge][1]][1]
 
 !!! warning "Wichtig"
 
@@ -65,19 +79,19 @@ Namensanfang der Fachwahlskripte:
 
 ### Stammdaten Fächer
 
-Im Falle Sie nutzen das von uns mitgelieferte Fachwahlskript, müssen Sie jedem Fach, dass Sie in der Oberstufe verwenden, im Stammdatenfenster `Fächer` eine Fachkategorie zuweisen. Welche Fachkategorien das Fachwahlskript für Ihr Bundesland verwendet, finden Sie unter [Fachkategien](https://doc.la.stueber.de/fachwahlen/). Bitte wählen Sie in diesem Kapitel Ihr Bundesland aus und verwenden Sie nur die gekennzeichneten Fachkategorien.
+Im Falle Sie nutzen das von uns mitgelieferte Fachwahlskript, müssen Sie jedem Fach, dass Sie in der Oberstufe verwenden, unter `Stammdaten > Fächer` ein Fachkategorie zuweisen. Welche Fachkategorien das Fachwahlskript für Ihr Bundesland verwendet, finden Sie unter [Fachkategien](https://doc.la.stueber.de/fachwahlen/). Bitte wählen Sie in diesem Kapitel Ihr Bundesland aus und verwenden Sie nur die gekennzeichneten Fachkategorien.
 
-![Stammdatenfenster Fächer mit Hinterlegung Kategorien je Fach, die für die Fachwahlüberprüfung erforderlich sind](/assets/images/KP/fachwahlen2.png)
+[![Stammdatenfenster Fächer mit Hinterlegung Kategorien je Fach, die für die Fachwahlüberprüfung erforderlich sind][1]][1]
 
 ### Schüler eingeben
 
 Wechseln Sie in die Ansicht `Kursplan > Schüler`. Hier werden alle Schüler des jeweiligen Oberstufenjahrgangs angezeigt. Sie können die Schüler (der Oberstufenjahrgänge) über den Befehl `Neu` eingeben. In der Ansicht `Kursplan > Schüler` wird der Schüler automatisch dem eingestellten Jahrgang zugeordnet.
 
-![Ansicht `Kursplan > Schüler" im Jahrgang 11](/assets/images/KP/fachwahlen3.png)
+[![Ansicht `Kursplan > Schüler" im Jahrgang 11][3]][3]
 
 Alternativ dazu können Sie die Schüler auch in der Ansicht `Stammdaten > Schüler` eingeben. Dort werden Ihnen sämtliche Schüler aller Klassen angezeigt. In dieser Ansicht muss jeder Schüler in der Spalte „Klasse“ einem Jahrgang zugeordnet werden. Jahrgang und Klasse ist in diesem Fall gleichbedeutend.
 
-![Ansicht `Stammdaten > Schüler"](/assets/images/KP/fachwahlen4.png)
+[![Ansicht `Stammdaten > Schüler`][4]][4]
 
 Wenn Sie in der Schulverwaltung MAGELLAN einsetzen, können Sie u.a. auch Schülerdaten nach DAVINCI übergeben. Weitere Informationen finden Sie dazu im Abschnitt [Fachwahl aus MAGELLAN importieren](https://doc.davinci6.stueber.de/03.kursplan/fachwahlen/#fachwahl-aus-magellan-importieren).
 
@@ -90,11 +104,11 @@ Wenn Sie in der Schulverwaltung MAGELLAN einsetzen, können Sie u.a. auch Schül
 Falls Sie MAGELLAN einsetzen, können Sie über den Befehl `Plan > Importieren und Exportieren` die
 Schüler aus MAGELLAN übernehmen. Sie können die Schüler von MAGELLAN importieren, die Fachwahlen eingeben und die Fachwahlen der Schüler dann wieder nach MAGELLAN exportieren.
 
-![Datenimport von MAGELLAN starten](/assets/images/KP/fachwahlen5.png)
+[![Datenimport von MAGELLAN starten][5]][5]
 
 !!! info "Hinweis"
 
-    Die Fachwahleingabe ist auch in MAGELLAN möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus MAGELLAN können per Import nach DAVINCI übernommen werden. MAGELLAN verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DAVINCI. DAVINCI bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DAVINCI erfassen sollten.
+  Die Fachwahleingabe ist auch in MAGELLAN möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus MAGELLAN können per Import nach DAVINCI übernommen werden. MAGELLAN verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DAVINCI. DAVINCI bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DAVINCI erfassen sollten.
 
 ## Fachwahlen in DAVINCI KURSPLAN eingeben
 
@@ -102,7 +116,7 @@ Schüler aus MAGELLAN übernehmen. Sie können die Schüler von MAGELLAN importi
 
 Wechseln Sie in die Ansicht `Kursplan > Fachwahlen`. Hier können Sie für jeden Schüler dessen Fachwahl bestimmen. Wenn Sie bei der betreffenden Klasse des Schülers unter `Stammdaten > Klassen` in der Spalte „Skript“ das betreffende Fachwahlskript angegeben haben, wird die Eingabe entsprechend der durch das Skript geprüften Oberstufenverordnung überprüft. Der Name des jeweilige Skripts wird rechts oben in der Ansicht angezeigt. Ggf. werden Fehlermeldungen, Fachwahlkombinationsnummer oben in der Ansicht angezeigt. Geben Sie die gewünschten Fächer über `Start > Neu` ein und machen Sie die entsprechenden Angaben in den Spalten „Unterrichtsart“, „Fachstatus“ und „Stunden“.
 
-![Die Fachwahlen eines Schülers](/assets/images/KP/fachwahlen6.png)
+[![Die Fachwahlen eines Schülers][6]][6]
 
 Mit der Markieren-Schaltflächen können Sie alle Halbjahre eines Fachs markieren (Hintergrund Weiß) oder demarkieren (Hintergrund Grau). Indem Sie eine Halbjahreszelle in der Tabelle anklicken, können Sie einzelne Halbjahre markieren bzw. demarkieren. Das aktuelle Halbjahr “Q1“ (siehe Spalte „Halbjahr“ in der Ansicht `Stammdaten > Klassen`) ist durch die Hintergrundfarbe markiert. Im Bereich „Kurswahl“ ist der jeweils gewählte Kurs durch den hervorgehobenen Zellenrahmen markiert.
 
@@ -127,7 +141,7 @@ Die Fachwahlangaben:
 
 Sie können Sie die Fachwahlen auch direkt in der Ansicht `Kursplan > Schüler` eintippen. Klicken Sie dazu in der Schülerzeile auf die betreffende Zelle. Achten Sie darauf, dass dabei Liste bearbeiten markiert ist.
 
-![Ansicht `Kursplan > Schüler`, Fachwahl direkt eingeben in Spalten 1-hier 11)](/assets/images/KP/fachwahlen10.png)
+[![Ansicht `Kursplan > Schüler`, Fachwahl direkt eingeben in Spalten 1-hier 11)][10]][10]
 
 !!! info "Hinweis"
 
@@ -147,7 +161,7 @@ Hier finden Sie eine kurze Erklärung.
 
 Eine Erklärung der Farben können Sie jederzeit über die DAVINCI-Optionen nachlesen. Öffnen Sie diese über `Extras > Optionen`, wechseln Sie in der Navigation auf "Farben" und dann in die Registerkarte "Kursplan". Sie können diese Farben nach Belieben verändern und jederzeit über die Schaltfläche `Standardangabe wiederherstellen` auf den Standard zurücksetzen.
 
-![DAVINCD-Optionen, Farben im Bereich Kursplan](/assets/images/KP/fachwahlen11.png)
+[![DAVINCI-Optionen, Farben im Bereich Kursplan][11]][11]
 
 ### Fachwahl durch Anlegen einer Stundentafel in der Ansicht `Kursplan > Schüler` zuweisen
 
@@ -159,11 +173,11 @@ Mit der Schaltfläche `Start > Fachwahl erzeugen` können Sie für den aktuell m
 
 Standardmäßig ist die Stundentafel des Jahrgangs eingestellt, Sie können aber auch eine andere wählen, wenn z.B. die Schüler nur aus einer von wenigen Fachkombinationen wählen können, weil an Ihre Schule nur diese Kombinationen angeboten werden.
 
-![Die Fachwahlen eines Schülers über Zuweisung einer Stundentafel hinterlegen ](/assets/images/KP/fachwahlen7.png)
+[![Die Fachwahlen eines Schülers über Zuweisung einer Stundentafel hinterlegen][7]][7]
 
-![Ansicht `Stammdaten > Stundentafeln`, Liste möglicher Stundentafeln aller Jahrgänge inkl. Oberstufe](/assets/images/KP/fachwahlen8.png)
+[![Ansicht `Stammdaten > Stundentafeln`, Liste möglicher Stundentafeln aller Jahrgänge inkl. Oberstufe][8]][8]
 
-![Fachliste einer Stundentafel](/assets/images/KP/fachwahlen9.png)
+[![Fachliste einer Stundentafel][9]][9]
 
 Die Bedeutung der Stundentafelspalten:
 
@@ -178,7 +192,7 @@ Die weiteren Spalten sind in diesem Zusammenhang nicht relevant.
 
 Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie den bzw. die gewünschten Schüler. Mit `Strg+Mausklick` und `Shift+Mausklick` können Sie mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menüleiste auf `Löschen`, um die entsprechenden Zeilen zu löschen.
 
-![Ansicht KURSPLAN > Schüler](/assets/images/KP/fachwahlen12.png)
+[![Ansicht KURSPLAN > Schüler][12]][12]
 
 Das Dialogfenster `Schülerdaten löschen` öffnet sich und gibt Ihnen folgende Optionen:
 
@@ -188,7 +202,7 @@ Das Dialogfenster `Schülerdaten löschen` öffnet sich und gibt Ihnen folgende 
   
 Bitte wählen Sie hier die Option `Fachwahlen löschen`.
 
-![Schülerdaten löschen-Dialog](/assets/images/KP/fachwahlen13.png)
+[![Schülerdaten löschen-Dialog][13]][13]
 
 !!! info "Hinweis"
 

@@ -1,10 +1,16 @@
 # Kursangebot erstellen
 
+[1]:/assets/images/KP/kursangebot_01.png
+[2]:/assets/images/KP/kursangebot_02.png
+[3]:/assets/images/KP/kursangebot_03.png
+[4]:/assets/images/KP/kursangebot_04.png
+[5]:/assets/images/KP/kursangebot_05.png
+
 Sind die Fachwahlen den entsprechenden Schülern zugeordnet und vom angegebenen Fachwahlskript überprüft, werden im nächsten Schritt die Kurse zu den Fachwahlen erstellt, die später zu Blöcken zusammengefasst werden können.
 
 Für die Kursbildung in DAVINCI müssen Sie vorab wichtige Einstellungen in Ihrer Plandatei treffen. Diese nehmen Sie im Dialogfenster `Plan > Eigenschaften > Kursplan` vor.
 
-![Plan-Eigenschaften, Vorgaben für den KURSPLAN](/assets/images/KP/kursangebot1.png)
+[![Plan-Eigenschaften, Vorgaben für den KURSPLAN][1]][1]
 
 Wählen Sie hier Ihre Standard-Unterrichtsart für einen Grundkurs aus den vorgegebenen Möglichkeiten aus. Zur besseren Unterscheidung der Grund- und Leistungskurse können Sie mit den Optionen festlegen, ob diese Unterrichtsart im Programm klein geschrieben wird oder/und alle anderen Kurse groß geschrieben werden. Stellen Sie bei den Vorgaben ein, ab wie vielen Teilnehmern ein neuer Kurs eröffnet werden soll und was die maximale Teilnehmerzahl sein darf.
 
@@ -92,11 +98,11 @@ Wie bereits erwähnt wird der Durchschnitt immer ganzzahlig angegeben. Betrachte
 
 ## Kurse erzeugen
 
-![Die Kursplanansicht für Kurse](/assets/images/courseplan12.png)
+[![Die Kursplanansicht für Kurse][2]][2]
 
 Wählen Sie im Bereich `Kurse` zunächst die Jahrgangsstufe aus, für die Sie die Kurse erzeugen möchten. Um die Kurse zu erzeugen wählen Sie den Befehl Kurse erzeugen im Menü `Start`. In dem folgenden Dialogfenster erhalten Sie nun einen Überblick über die erstellten Kurse.
 
-![Kurse erzeugen](/assets/images/courseplan13.png)
+[![Kurse erzeugen][3]][3]
 
 Die Spalte `Kursanzahl` wird als Vorgabe aus den Angaben im Dialog `Plan > Eigenschaften` errechnet. Ändern Sie ggf. die Angaben in dieser Spalte. In der Spalte Schüler können Sie sehen, wie viele Schüler dieses Fach gewählt haben. Die Spalte `Optimal` errechnet sich aus dem Spaltenwerten „Schüler“ geteilt durch die „Kursanzahl“ (nur der ganzzahlige Anteil), d.h. in bei dieser Schülerzahl je Kurs ist die Abweichung der Schülerzahlen in den Kursen des Fachs im Idealfall Null. Die Optimale Schülerzahl gilt es im Folgenden bei der Blockung und Verteilung anzustreben. Wenn Sie die Angabe in der Spalten „Kursanzahl“ ist ein von DAVINCI errechneter Vorgabewert. Sie sollten ihn ggf. ändern.
 
@@ -127,7 +133,7 @@ Bemerkung | Beliebiger Bemerkungstext, der im Ausdruck, im HTML-Export sowie in 
 Wochen | Kalenderwochen, in denen der Unterricht stattfindet. Beim Kopieren der Stundentafel wird hier standardmäßig der Eintrag „Jede Woche“ eingetragen. Wurde einer Klasse in den Stammdaten eine Periode zugewiesen, erscheinen in dieser Spalte die Kalenderwochen der Periode. Wird nur einzelnen Unterrichtsveranstaltungen eine Periode zugewiesen, dann erscheinen an dieser Stelle in den betroffenen Veranstaltungszeilen ebenfalls die zugehörigen Periodenwochen.
 Wochenanzahl | Anzahl der Woche gemäß zugwiesener Periode
 Klassen | Kürzel der Klassen an, die einer Unterrichtsveranstaltung als Teilnehmer zugewiesen sind. Beim Kopieren der Stundentafeln wird pro Klassenplan die zugehörige Klasse eintragen.
-Unterrichtsart | siehe  ``Extras > Schlüsselverzeichnisse > Unterrichtsarten``, wichtige Differenzierung z.B. für Leistungs- und Grundkurse sowie Profilfächer für die gymnasiale Oberstufe
+Unterrichtsart | siehe  `Extras > Schlüsselverzeichnisse > Unterrichtsarten`, wichtige Differenzierung z.B. für Leistungs- und Grundkurse sowie Profilfächer für die gymnasiale Oberstufe
 Gültig von/bis | Mit diesen beiden Feldern können Sie die Veranstaltung befristen.
 Nr | Veranstaltungsnummer, z.B. Vorlesungsnummer. Diese Angabe hat keine direkte Funktion für die weitere Stundenplanung und besitzt ausschließlich informativen Charakter. 
 Schiene | Die Spalte „Schiene“ zeigt die Zeitschiene an, auf der eine Veranstaltung angesiedelt ist. Standardmäßig ist hier die Zeitschiene „A“ hinterlegt. Darüber hinaus stehen die Zeitschienen „B“, „C“, „D“, „E“ und „X“ zur Verfügung. Durch die Platzierung von Veranstaltungen auf unterschiedliche Zeitschienen, können Sie der Setzautomatik differenzierte Vorgabenmachen, welche Veranstaltungen sich im Plan überschneiden dürfen und welche nicht.
@@ -165,7 +171,7 @@ Um einen Kurs zu löschen wählen Sie den Kurs in der Veranstaltungsliste aus un
 
 ## Mehrfachzuweisungen
 
-![Mehrfachzuweisung](/assets/images/courseplan18.png)
+[![Mehrfachzuweisung][5]][5]
 
 Mit Hilfe des Befehls `Start > Mehrfachzuweisung` können Sie mehreren Schülern ein neues Fach bzw.
 einen neuen Kurs zuweisen.

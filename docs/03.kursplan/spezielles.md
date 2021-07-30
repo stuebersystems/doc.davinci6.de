@@ -1,6 +1,12 @@
 
 # Spezielles
 
+[1]:/assets/images/KP/spezielles_01.png
+[2]:/assets/images/KP/spezielles_02.png
+[3]:/assets/images/KP/spezielles_03.png
+[4]:/assets/images/KP/spezielles_04.png
+[5]:/assets/images/KP/spezielles_05.png
+
 ## Aufgestockte Grundkurse
 
 Aufgestockte Grundkurse werden dann eingerichtet, wenn die Schüleranzahl für einen Leistungskurs zu gering ist. Nehmen wir an, im Latein Grundkurs „la1“ sind 10 Schüler und im Leistungskurs „LA1“ sind nur 5 Schüler. Der Leistungskurs muss wegen zu geringer Schülerzahl mit dem Grundkurs zusammengelegt werden, d.h. der Grundkurs „la1“ wird zum aufgestockten Grundkurs. Der Grundkurs wird 3stündig und der Leistungskurs 5stündig unterrichtet. Geben Sie einen 3stündigen Grundkurs „la1“ mit 15 Schülern (Leistungs- und Grundkursschüler) ein und markieren Sie den Kurs als aufgestockten Grundkurs, indem Sie in der Ansicht `Kursplan > Kurse` den Grundkurs in Spalte "Fachstatus" mit dem Eintrag "AufgstGK" versehen. Grundlage bildet das Schlüsselverzeichnis "Fachstatus", hier muss "AufgstGK" definiert sein. Dem dazugehörigen Leistungskurs muss die Unterrichtsart "LK" zugewiesen sein.
@@ -9,7 +15,7 @@ Aufgestockte Grundkurse werden dann eingerichtet, wenn die Schüleranzahl für e
 
     Unter `Extras > Schlüsselverzeichnis > Fachstatus` können Sie beim „Fachstatus“ für das Kürzel „AufgstGK“ eine Farbe einstellen. Der aufgestockte Grundkurs wird dann in der Ansicht `Kursplan > Schüler` entsprechend farblich dargestellt.
 
-![Schlüsselverzeichnis "Fachstatus"](/assets/images/KP/KP_Fachstatus.png)
+[![Schlüsselverzeichnis "Fachstatus"][1]][1]
 
 !!! info "Hinweis"
 
@@ -25,13 +31,13 @@ Die Kursplanung der Oberstufenschüler soll in die Plandatei für das neue Schul
 1. Rufen Sie dazu über `Plan > Neu` den Planvorbereitungsassistenten auf.
 2. Ihnen stehen drei Wege zur Verfügung. Wählen Sie bitte ``Neuen Plan erstellen und Daten übernehmen`` und wählen Sie Ihre Vorjahresplandatei aus.
 
-![Neuen Plan erstellen und Daten übernehmen](/assets/images/KP.neuesSJ.png)
+[![Neuen Plan erstellen und Daten übernehmen][2]][2]
 
 3. Klicken Sie auf `Weiter`.
 
 4. Wählen Sie hier bitte `Neues Schuljahr`. Ihre Klassenkürzel werden umbenannt und die Klassenstufe wird erhöht.
 
-![Option "Neues Schuljahr"](/assets/images/KP.neuesSJ02.png)
+[![Option "Neues Schuljahr"][3]][3]
 
 5. Im nächsten Fenster wählen Sie unbedingt `Alles übernehmen`. Veranstaltungen, gesetzte Pläne, Aufsichten und die Kurszuweisung in der gymnasialen Oberstufe werden übernommen. 
 6. Klicken Sie auf `Weiter`. Es wird Ihnen eine Liste aufgezeigt, die Sie bitte Schritt für Schritt durchgehen.
@@ -45,13 +51,13 @@ Passen Sie im Stammdatenfenster Ihre Stammdaten an die neuen Gegebenheiten an. D
 
     Eintragungen in den Felder "Lehrer 1", "Lehrer 2" sowie "Raum" müssen ggf. auch aktualisiert werden.
 
-![Menü Stammdaten](/assets/images/KP.neuesSJ01.png)
+[![Menü Stammdaten][4]][4]
 
 #### Stammdatenfenster "Schüler"
 
 Löschen Sie hier die Schüler der Klasse "14", diese haben bereits Ihre Schule verlassen.
 
-![Stammdatenfenster "Schüler"](/assets/images/KP.neuesSJ03.png)
+[![Stammdatenfenster "Schüler"][5]][5]
 
 #### Stammdatenfenster "Klassen"
 
