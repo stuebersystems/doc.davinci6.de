@@ -1,5 +1,22 @@
 # Planänderungen vornehmen
 
+[155]:/assets/images/vertretungsplan/sub-plan155.png
+[156]:/assets/images/vertretungsplan/sub-plan156.png
+[157]:/assets/images/vertretungsplan/sub-plan157.png
+[158]:/assets/images/vertretungsplan/sub-plan158.png
+[159]:/assets/images/vertretungsplan/sub-plan159.png
+[160]:/assets/images/vertretungsplan/sub-plan160.png
+[161]:/assets/images/vertretungsplan/sub-plan161.png
+[162]:/assets/images/vertretungsplan/sub-plan162.png
+[163]:/assets/images/vertretungsplan/sub-plan163.png
+[164]:/assets/images/vertretungsplan/sub-plan164.png
+[165]:/assets/images/vertretungsplan/sub-plan165.png
+[166]:/assets/images/vertretungsplan/sub-plan166.png
+[167]:/assets/images/vertretungsplan/sub-plan167.png
+[168]:/assets/images/vertretungsplan/sub-plan168.png
+[169]:/assets/images/vertretungsplan/sub-plan169.png
+
+
 Neben Vertretungserstellungen können Sie im Vertretungsplan auch sonstige Planänderungen vornehmen. Wir empfehlen dies im Programmbereich `Vertretungen > Stundenplan`zu machen.
 
 ## Termine tauschen und verschieben
@@ -24,16 +41,20 @@ Um einen Tausch mit zwei Terminen der gleichen Kalenderwoche vorzunehmen, gehen 
 2. Klicken Sie mit der linken Maustaste auf das Terminfeld des ersten „Tauschpartners“ und drücken Sie die Schaltfläche `Markieren` in der Menügruppe `Start > Änderungen`: Das zugehörige Terminfeld wird blau umrandet.  
 
 3. Klicken Sie mit der linken Maustaste auf den zweiten Tauschpartner und drücken Sie die Schaltfläche `Termin(e) verschieben` oder `Termine vertauschen`in der Menügruppe `Start > Änderungen`.
-![Auswahlfenster](/assets/images/vertretungsplan/vp25.png)
+
+[![Auswahlfenster][155]][155]
 
 4. Beim Tauschen von Terminen können Sie optional über das Dialogfenster Lehrer und/oder Räume vom Tausch ausschließen.
-![Auswahlfenster](/assets/images/vertretungsplan/vp26.png)
+
+[![Auswahlfenster][156]][156]
 
 Der Tausch bzw. die Verschiebung wird nun im Planungsfenster vorgenommen. Jeder verschobene Termin wird dabei auf zwei komplementäre Arten im Plan markiert. Zum Einen wird der Termin an der ursprünglichen Position rot markiert und durch einen Änderungsbalken mit der Aufschrift „Auf … getauscht“ versehen. Zum anderen wird der Termin an der neuen Position durch einen roten Änderungsbalken mit der Aufschrift „Von … getauscht“ gekennzeichnet.  
 
 !!!info Hinweis
 
-    Nutzen Sie den Aufruf `Passende Termine hervorheben`in der Menügruppe `Start > Inhalte wechseln > Planansicht`um die möglichen Positionen anzuzeigen. ![Passende Termine hervorheben](/assets/images/vertretungsplan/vp24.png)
+    Nutzen Sie den Aufruf `Passende Termine hervorheben`in der Menügruppe `Start > Inhalte wechseln > Planansicht`um die möglichen Positionen anzuzeigen. 
+    
+[![Passende Termine hervorheben][157]][157]
 
 #### Termine zwischen zwei Kalenderwochen tauschen
 
@@ -88,9 +109,13 @@ Um einen Lehrer- oder Raumtausch zwischen zwei Terminen der gleichen Kalenderwoc
 3. Bestätigen Sie Ihre Auswahl. Der ausgewählte Stundenplan wird nun im Planungsfenster angezeigt.
 4. Klicken Sie mit der linken Maustaste auf das Terminfeld des ersten „Tauschpartners“ und wählen Sie den Befehl `Markieren` aus der Menügruppe `Start > Änderungen`: das zugehörige Terminfeld wird blau umrandet.
 5. Klicken Sie mit der linken Maustaste auf den zweiten Tauschpartner und drücken Sie die Schaltfläche `Lehrer/Raum tauschen` der Menügruppe `Start > Änderungen`.
-![Lehrer/Raumtausch](/assets/images/vertretungsplan/vp27.png)
+
+[![Lehrer/Raumtausch][158]][158]
+
 6. Setzen Sie im erscheinenden Dialogfenster „Tauschen“, jeweils einen Haken in den Kontrollkästchen vor Lehrer tauschen und Räume tauschen, um beide Elemente zu tauschen oder Setzen Sie im erscheinenden Dialogfenster „Tauschen“ einen Haken entweder in das Kontrollkästchen vor Lehrer tauschen oder vor Räume tauschen, um nun eines der beiden Elemente zu tauschen.
-![Lehrer/Raumtausch](/assets/images/vertretungsplan/vp28.png)
+
+[![Lehrer/Raumtausch][159]][159]
+
 7. Bestätigen Sie Ihre Auswahl mit OK.  Der vorgenommene Tausch wird nun im Stundenplan hinterlegt. Die beteiligten Termine werden mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift „Lehrer/Raumtausch mit …“. Geänderte Terminelemente werden in Klammer gesetzt und neu Terminelemente mit einem Pluszeichen vorangestellt.  
 
 
@@ -142,26 +167,36 @@ Der Änderungsbalken trägt die Aufschrift „Lehrer-/ Raumtausch mit …“ [z.
 Sie können direkt im Stundenplan einem Termin ein neues Fach zuordnen.  Um einer Unterrichtsstunde ein anderes Fach zuzuweisen, führen Sie bitte folgende Schritte aus:  
 
 1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Fach ändern` in der Menügruppe `Start > Änderungen`.
-![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp19.png)
+
+[![Unterrichtsfach ändern][160]][160]
+
 2. Markieren Sie im erscheinenden Dialogfenster Auswählen das gewünschte Fach.
-![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp17.png)
+
+[![Unterrichtsfach ändern][161]][161]
+
 3. Bestätigen Sie Ihre Auswahl mit `OK`.
 
 Der Fachwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift Fachänderung. Das ehemalige Fach wird in Klammern gesetzt und das neue Fach mit einem Pluszeichen vorangestellt.
-![Unterrichtsfach ändern](/assets/images/vertretungsplan/vp18.png)
+
+[![Unterrichtsfach ändern][162]][162]
 
 ## Raum ändern
 
 Sie können direkt im Stundenplan einem Termin einen neuen Raum zuordnen.  Um einer Unterrichtsstunde einen neuen Raum zuzuweisen, führen Sie bitte folgende Schritte aus:  
 
 1. Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Raum ändern` in der Menügruppe `Start > Änderungen`.
-![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp20.png)
+
+[![Unterrichtsraum ändern][163]][163]
+
 2. Markieren Sie im erscheinenden Dialogfenster `Auswählen` den gewünschten Raum.
-![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp15.png)
+
+[![Unterrichtsraum ändern][164]][164]
+
 3. Bestätigen Sie Ihre Auswahl mit `OK`.
 
 Der Raumwechsel wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird mit einem roten Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift Raumänderung. Der ehemalige Raum wird in Klammern gesetzt und der neue Raum mit einem Pluszeichen vorangestellt.
-![Unterrichtsraum ändern](/assets/images/vertretungsplan/vp16.png)
+
+[![Unterrichtsraum ändern][164]][164]
 
 ## Zusatzunterricht einfügen
 
@@ -177,14 +212,16 @@ Um einem Termin neuen Zusatzunterricht zuzuweisen, gehen Sie in beiden Fällen b
 1. Klicken Sie mit der rechten Maustaste auf das gewünschte Terminfeld und drücken Sie die Schaltfläche `Neu` in der Menügruppe `Start > Änderungen`.
 2. Wählen Sie den Eintrag `Neuer Zusatzunterricht` aus dem erscheinenden Aufklappmenü.
 3. Markieren Sie in den Auswahlfelder Fach und Unterrichtsart des erscheinenden Dialogfensters jeweils das zutreffende Kürzel. Optional können Sie eine Kursnummer angeben.
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp13.png)
+
+[![Zusatzunterricht einfügen][165]][165]
+
 4. Belassen Sie die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich der Zusatzunterricht nur auf den Zeitraum des markierten Termins erstreckt. Unter Anrechnen können Sie bei Bedarf eintragen, mit welchem Wert der Zusatzunterricht als positive oder negative Anrechenstunde festgehalten werden soll **oder** Verändern Sie die die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls der Zusatzunterricht sich auf weitere Termine erstrecken soll.
 5. Belassen Sie die vorbelegten Einträge bei den Teilnehmern Klasse, Raum bzw. Lehrer **oder** Wählen Sie die gewünschten Teilnehmer über Teilnehmer hinzufügen aus.
 6. Tragen Sie optional im Eingabefeld Mitteilung einen Text ein, der als Information in Ihren publizierten Plänen mit ausgegeben werden soll.  
 7. Bestätigen Sie Ihre Angaben im Dialogfenster „Neuer Zusatzunterricht“ mit `OK`.
 
 Der Zusatzunterricht wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird blau markiert und mit einem blauen Änderungsbalken gekennzeichnet. Der Änderungsbalken trägt die Aufschrift „Zusatzunterricht“.  
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp14.png)
+[![Zusatzunterricht einfügen][166]][166]
 
 ## Mitteilungen einfügen
 
@@ -200,7 +237,9 @@ Um einem Termin eine Mitteilung hinzuzufügen, gehen Sie in beiden Fällen bitte
 1. Klicken Sie mit der linke Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Neu` in der Menügruppe `Start > Änderungen`.  
 2. Wählen Sie den Eintrag `Neue Mitteilung` aus dem erscheinenden Aufklappmenü.  
 3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp11.png)
+
+[![Mitteilung einfügen][167]][167]
+
 4. Geben Sie im Eingabefeld Text einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
 5. Belassen Sie die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich die Mitteilung nur auf den Zeitraum des markierten Termins erstrecken soll  oder Verändern Sie die die vorbelegten Zeitangaben in den Eingabefeldern Von und Bis, falls sich die Mitteilung auf einen weiteren Zeitraum als den des markierten Termins erstrecken soll.
 6. Belassen Sie die vorbelegten Einträge in den Eingabefeldern Klasse bzw. Lehrer. oder Betätigen Sie die Pfeilschaltfläche-Schaltfläche der Eingabefelder Klasse bzw. Lehrer und setzen Sie den Haken vor den gewünschten Vertretern.
@@ -208,7 +247,8 @@ Um einem Termin eine Mitteilung hinzuzufügen, gehen Sie in beiden Fällen bitte
 8. Bestätigen Sie Ihre Angaben im Dialogfenster `Neue Mitteilung` mit `OK`.
 
 Die Mitteilung wird nun im Stundenplan hinterlegt. Der zugehörige Termin wird gelb markiert. Der Titel und der Infotext der Mitteilung werden im Terminfeld angezeigt.
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp12.png)
+
+[![Mitteilung einfügen][168]][168]
 
 ## Darstellung
 
@@ -235,7 +275,9 @@ Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgenderma�
 2.  Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Freistellen` in der Menügruppe `Start > Änderungen`.
 ![Freistellen](/assets/images/vertretungsplan/vp21.png)
 4. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
-  ![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.](/assets/images/vertretungsplan/vp22.png)
+
+[![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.][169]][169]
+
 5. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums
   ein.
 6. Ergänzen Sie im Eingabefeld `Bemerkung` optional einen Infotext, der in der Spalte `Bemerkung` der erzeugten Fehlzeiten-Zeile ausgegeben werden soll.

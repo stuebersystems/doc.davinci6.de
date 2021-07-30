@@ -1,8 +1,16 @@
 # Änderungen verfolgen und bearbeiten in der Änderungsliste
 
+[88]:/assets/images/vertretungsplan/sub-plan88.png
+[143]:/assets/images/vertretungsplan/sub-plan143.png
+[144]:/assets/images/vertretungsplan/sub-plan144.png
+[145]:/assets/images/vertretungsplan/sub-plan145.png
+[146]:/assets/images/vertretungsplan/sub-plan146.png
+[147]:/assets/images/vertretungsplan/sub-plan147.png
+
+
 Durch Fehlzeiten entstehen für betroffene Termine Änderungselemente, welche die Grundlage für Vertretungen sind. Zu diesen Änderungen zählen auch Zusatzunterricht, Fehlstellen und Raumbuchungen und weitere Änderungen am regulären Plan. Alle Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden in der Änderungsliste chronologisch aufgelistet. Gehen Sie dazu in die Ansicht `Vertretungsplan > Änderungen`. Sie können dort auch gelöscht bzw. teilweise geändert werden. Wenn Sie mit dem DAVINCI ENTERPRISE Server arbeiten, können Sie in den Spalten `Geändert Zeit` und `Geändert von` erkennen, wer wann die letzte Modifikation am jeweiligen Änderungselement durchgeführt hat.
 
-![Dies ist die Ansicht „Änderungen“](/assets/images/vertretungsplan/sub-plan88.png)
+[![Dies ist die Ansicht „Änderungen“][88]][88]
 
 ## Änderungen nachvollziehen
 
@@ -66,7 +74,8 @@ In der Ansicht `Änderungen` stehen Ihnen folgende Instrumente zur Verfügung, m
 ### Bemerkungen, Mitteilungen, Infozeile einfügen
 
 Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die Felder Bemerkung, Mitteilung und Info das Eingeben zusätzlicher Informationen zu einer bestehenden Terminänderung. Um hier einen Eintrag vorzunehmen, platzieren Sie einfach den Cursor in eines dieser Felder und wählen `Start > Änderung > Bearbeiten`.  Im Dialogfenster können Sie die entsprechenden Werte eintragen. Sie können hier Freitext eintragen oder die Vorgabewerte aus `Extras Optionen > Vertretungsplan`.
-![Bemerkungen, Mitteilungen, Infozeile einfügen](/assets/images/vertretungsplan/vp01.png)
+
+[![Bemerkungen, Mitteilungen, Infozeile einfügen][143]][143]
 
 ### Neuen Zusatzunterricht einfügen
 
@@ -81,12 +90,15 @@ Um in der Ansicht „Änderungen“ neuen Zusatzunterricht einzufügen gehen Sie
 5. Legen Sie die Teilnehmer am Zusatzunterricht aus der Liste der Klasse, Lehrer bzw. Räume fest.
 6. Tragen Sie optional in den Eingabefeldern Mitteilung und Bemerkung einen Text ein. Der unter Mitteilung angegebene Text wird als Information in Ihren publizierten Plänen mit ausgegeben werden soll.  
 7. Bestätigen Sie Ihre Angaben im Dialogfenster „Zusatzunterricht“ mit `Ok`.
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp02.png)
 
-Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.  
-![Zusatzunterricht einfügen](/assets/images/vertretungsplan/vp03.png)
+[![Zusatzunterricht einfügen][144]][144]
+
+Der eingetragene Zusatzunterricht wird nun in der Änderungsliste hinterlegt. Er wird ebenfalls im Planungsfenster der betroffenen Einzelpläne angezeigt.
+
+[![Zusatzunterricht einfügen][145]][145]
 
 !!! info "Hinweis"
+
     Das Dialogfenster „Zusatzunterricht“ können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neuer Zusatzunterricht`
 
 ### Neue Mitteilung einfügen
@@ -102,10 +114,11 @@ Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > 
 7. Markieren Sie bei Bedarf im Aufklappmenü des Auswahlfelds Raum das zutreffende Raum-Kürzel.
 8. Bestätigen Sie Ihre Angaben im Dialogfenster „Mitteilung“ mit `Ok`.
 
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp04.png)
+[![Mitteilung einfügen][146]][146]
 
 Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird ebenfalls im Planungsfenster der  betroffenen Einzelpläne angezeigt.  
-![Mitteilung einfügen](/assets/images/vertretungsplan/vp05.png)
+
+[![Mitteilung einfügen][147]][147]
 
 !!! info "Hinweis"
     Das Dialogfenster `Neue Mitteilung` können Sie auch über das Kontextmenü der rechten Maustaste aufrufen. Drücken Sie dazu die rechte Maustaste und wählen Sie den Befehl `Neue Mitteilung`.
@@ -113,6 +126,7 @@ Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird
 ### Neue Raumbuchung
 
 !!! info "Hinweis"
+
     Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
 
 Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Raumbuchungen vorzunehmen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung. Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
@@ -129,6 +143,7 @@ Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > 
 ### Änderungen löschen
 
 !!! warning "Wichtig"
+
     Bitte seien Sie beim Löschen umsichtig und überlegen Sie genau, welche Elemente Sie wirklich löschen wollen!
 
 Sie können mit `Löschen` auch Änderungselemente löschen, die aufgrund von Fehlzeiten erstellt wurden. In diesem Moment gibt es zwar die Fehlzeit, aber eben keine Vertretungselemente mehr dafür. Derartige Änderungen werden eigentlich beim Löschen der entsprechenden Fehlzeit in der Ansicht `Vertretungen > Fehlzeit` automatisch mit gelöscht. Sollten Sie Änderungselemente, die aufgrund von Fehlzeiten erstellt wurden, gelöscht haben, können Sie diese wie folgt wieder neu erstellen lassen:
@@ -139,4 +154,4 @@ Sie können mit `Löschen` auch Änderungselemente löschen, die aufgrund von Fe
 
 ### Änderungen zurücksetzen
 
-Hier können Sie Vertretungsregelungen wieder rückgängig machen. Diese erscheinen dann auuch wieder als offene Vertretungeung in der Ansicht `Vertretungen > Vertretungen`
+Hier können Sie Vertretungsregelungen wieder rückgängig machen. Diese erscheinen dann auuch wieder als offene Vertretungeung in der Ansicht `Vertretungen > Vertretungen`.

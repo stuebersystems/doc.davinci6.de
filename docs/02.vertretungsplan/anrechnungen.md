@@ -1,7 +1,11 @@
 # Liste der Anrechnungen
 
+[148]:/assets/images/vertretungsplan/sub-plan148.png
+[149]:/assets/images/vertretungsplan/sub-plan149.png
+
 Durch Fehlzeiten von Klassen bzw. Lehrern und den Einsatz von Lehrern als Vertreter können negative als auch positive Anrechenstunden entstehen. Negative Anrechenstunden sind semantisch gesehen grundsätzlich Stunden, die der Lehrer später nachholen müsste. Fehlt beispielweise eine Klasse zu einem Zeitraum, in dem der Lehrer regulär Unterricht hätte, so entfallen ihm Stunden, die er eigentlich später durch zusätzlichen Unterricht ausgleichen müsste (siehe Abschnitt „Sonderfall „Klasse fehlt““ auf Seite 20). Positive Anrechenstunden können entstehen, wenn ein Lehrer beispielsweise eine Vertretung hält, Zusatzunterricht hat oder sonstige zusätzliche anrechenfähige Aktivitäten für die Schule unternimmt. Positive und negative Anrechenstunden können miteinander verrechnet werden. Die Verwaltung von Anrechenstunden von Lehrern erfolgt in einer gesonderten Liste. Zum Öffnen der Ansicht wählen Sie `Vertretungsplan > Anrechnungen` aus.
-![Liste der Anrechnungen](/assets/images/vertretungsplan/vp06.png)
+
+[![Liste der Anrechnungen][148]][148]
 
 Spalten | Bedeutung
 -|-
@@ -59,6 +63,6 @@ Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten geh
 
 Die Vertretungsstatistik beinhaltet eine Auflistung aller positiven bzw. negativen Anrechnungsstunden, der Fehlgründe, der Aufsichtsvertretungen, der Aufsichtsausfälle und des Unterrichtsausfalls pro Lehrer.
 
-![Dialogfensters „Vertretungsstatistik“](/assets/images/vertretungsplan/vp07.png)
+[![Dialogfensters „Vertretungsstatistik“][149]][149]
 
 Die Ansicht kann nach Teams über die Auswahlbox Team gefiltert werden.  Bei der Anzeige der Aufsichtsdauer kann zwischen den Einheiten Anzahl der Aussichten und Minuten für die Registerkarten Aufsichtsvertretungen und Aufsichtsausfall wählen. Über die Schaltfläche Exportieren kann die Ansicht der aktuellen Registerkarte in eine Excel-, Text-, HTML- oder XML-Datei exportiert werden.

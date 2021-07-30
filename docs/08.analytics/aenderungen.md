@@ -31,8 +31,8 @@ So sollten Sie vorgehen:
 
 Die Übersicht unterscheidet Vertretungen durch Lehrer von Vertretungen durch Erzieher, Betreuer oder andere. Zudem wird der Entfall einer Vertretung durch selbstorganisiertes Lernen erfasst. Dazu müssen Sie die folgenden Schlüsselverzeichnisse verwenden:
 
-* ``Extras > Schlüsselverzeichnisse > Lehrerarten``
-* ``Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe``
+* `Extras > Schlüsselverzeichnisse > Lehrerarten`
+* `Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe`
 
 Im Bereich „Filter“ können Sie angeben, über welchen Lehrerarten-Schlüssel ein „Lehrer“ ausgezeichnet wurde und welcher Entfallgrund-Schlüssel „Selbstorgansiertes Lernen“ kennzeichnet. Sie müssen dazu jeden Lehrer in
 der Ansicht ``Stammdaten > Lehrer`` in der Spalte „Art“ als „Lehrer“, „Betreuer“, „Erzieher“ oder anders kennzeichnen. Den Entfallgrund weisen Sie bei der Erstellung eines Entfalls in der Ansicht ``Vertretungsplan > Vertretungen`` im entsprechenden Dialogfenster zu. Bitte beachten Sie,
