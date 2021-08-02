@@ -255,13 +255,13 @@ zuordnen. Der bzw. die Schüler erhalten einen weiteren Kurs zugeordnet.
 
 Kursschnittmengen bzw. Fachschnittmengen geben Hinweise darauf, welche Kurse eher zusammen geblockt werden, nämlich die mit kleiner oder möglichst leerer Schnittmenge bzw. wie viele Schüler ggf. umwählen müssen. Zu Anzeige der Kurs- bzw. Fachschnittmenge stehen Ihnen zwei Dialogfenster und die Ansicht `Kursplan > Blöcke` zur Verfügung. Über den Befehl Kursschnittmenge öffnet sich ein Dialogfenster, indem Sie mit "Strg + Maustaste" mehrere Kurse bzw. Fächer markieren können: die jeweilige Schnittmenge, also die Schüler die die gewählten Fächer bzw. Kurse gemeinsam in ihrer Fachwahl bzw. als Kurse haben, wird rechts angezeigt.
 
-[![Kursschnittmenge]][9]][9]
+[![Kursschnittmenge][9]][9]
 
 Alternativ lässt sich über den Befehl Schnittmengen ein Dialogfenster öffnen, indem die Fächer bzw. Kurse an beiden Achsen gelistet sind. In den Tabellenzellen werden ggf. die Schnittmengen zwischen den beiden betreffenden Fächern bzw. Kursen angezeigt. Wenn sie die Option nur Schüleranzahl markieren, werden Ihnen nur die Teilnehmeranzahlen in der jeweiligen Schnittmenge angezeigt.
 
-[![Schnittmengen]][10]][10]
+[![Schnittmengen][10]][10]
 
-[![Schnittmengen mit jeweiliger Anzahl der Schüler in der Schnittmenge]][11]][11]
+[![Schnittmengen mit jeweiliger Anzahl der Schüler in der Schnittmenge][11]][11]
 
 Schnittmengen zwischen Kursen können Sie auch in der Ansicht `Kursplan > Blöcke` anzeigen. Voraussetzung dafür ist, dass die Kurse geblockt und die Schüler auf die Kurse verteilt sind.
 Klicken Sie in der Ansicht `Kursplan > Blöcke` auf einen beliebigen Kurs und dann `Strg` auf einen beliebigen anderen Kurs. Im Zusatzfenster "Kursteilnehmer" werden für diese beiden gewählten Kurse die Schnittmenge der Schüler angezeigt.
