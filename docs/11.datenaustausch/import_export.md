@@ -110,7 +110,6 @@ Der Ablauf ist hier beschrieben:
 Der Ablauf ist hier beschrieben:
 [Statistik Niedersachsen](/10.regionales/niedersachsen/)
 
-Der Ablauf ist hier beschrieben:
 #### Statistik Nordrhein-Westfalen ABS (Extern.dat) exportieren
 
 Der Ablauf ist hier beschrieben:

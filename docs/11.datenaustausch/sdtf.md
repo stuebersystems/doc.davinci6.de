@@ -47,7 +47,7 @@ Um eine Schuldatentransferdatei aus DAVINCI zu exportieren, gehen Sie bitte folg
 |`Alle Feldinhalte (auch leere) importieren` ODER `Leere Feldinhalte ignorieren, gefüllte ersetzen` | |
 |`Datensatz über Kürzel identifizieren` ODER `Datensatz über ID identifizieren` ODER `Datensatz über ID identifizieren, Kürzel nicht überschreiben`||
 
-![Importieren und Exportieren-Assistent](/assets/images/KP/datenabgleich2.png)
+![Importieren und Exportieren-Assistent](/assets/images/datenaustausch/datenabgleich2.png)
 
 6. Bestätigen Sie Ihre Angaben mit `Weiter`. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand des grünen Fortschrittsbalkens im Dialogfenster `Importieren` erkennen.
 
