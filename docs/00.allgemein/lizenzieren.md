@@ -7,7 +7,7 @@ Wenn Sie DAVINCI zum ersten Mal nach der Installation starten, öffnet sich der 
 
 ![Willkommensassistent](/assets/images/allgemein/allgemein3.png)
 
-![Willkommensassistent](/assets/images/Willkommensassistent02.png)
+![Willkommensassistent](/assets/images/allgemein/Willkommensassistent02.png)
 
 ### Testlizenz anfordern
 
@@ -15,7 +15,7 @@ Sollten Sie noch nicht über Lizenzdaten für DAVINCI verfügen, können Sie mit
 
 Wählen Sie `Eine Testlizenz anfordern` öffnet sich folgendes Fenster:  
 
-![Eine Testlizenz anfordern](/assets/images/TestlizenzAnfordern.png)
+![Eine Testlizenz anfordern](/assets/images/allgemein/TestlizenzAnfordern.png)
 
 !!! warning "Wichtig"
 
@@ -23,13 +23,13 @@ Wählen Sie `Eine Testlizenz anfordern` öffnet sich folgendes Fenster:
 
 Lizenzdaten für den Einsatz von DAVINCI erhalten Sie von uns per E-Mail, sie beinhalten Name, Standort und Schlüssel des Lizenznehmers, die im Text der Lizenzierungs-Email aufgeführt sind. Zusätzlich erhalten Sie im Anhang der Lizenzierungs-Email die Datei DAVINCI6.lic mit Ihren individuellen Lizenzinformationen. Sie können diese Datei importieren über ``Lizenz importieren`` oder die Lizenzdaten per Hand in die vorgesehenen Felder eingeben.
 
-![Meine Lizenzdaten eingeben](/assets/images/MeineLizenzEingeben.png)
+![Meine Lizenzdaten eingeben](/assets/images/allgemein/MeineLizenzEingeben.png)
 
 !!! warning "Wichtig"
 
     Mit der Neuinstallation von DAVINCI öffnet sich nach Eingabe Ihrer Testlizenz/Lizenz automatisch das DAVINCI Optionen-Fenster. Bitte vervollständigen Sie hier unter "Meine Daten" die verpflichtenden Angaben.
 
-![Daten](/assets/images/DAV.Optionen.MeineDatenpng.png)
+![Daten](/assets/images/allgemein/DAV.Optionen.MeineDatenpng.png)
 
 ## Neue Lizenz erfassen
 

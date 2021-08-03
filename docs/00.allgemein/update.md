@@ -30,7 +30,7 @@ Sie können den Download auch aus dem Programm heraus starten. Öffnen Sie dazu 
 Sie können in DAVINCI das automatische Update aktivieren, wenn Sie den Updatevorgang  
 automatisieren möchten. Aktivieren Sie diese Option unter `Extras > Optionen > Auto-Update`. Das Update wird über die Update-Infodatei gesteuert, die Sie auf dieser Registerkarte ebenfalls angeben müssen. Standardmäßig liegt diese Date bzw. Die Updatedatei selbst auf den STÜBER SYSTEMS Website, klicken sie dazu ggf. auf `Standardvorgabe wiederherstellen`.
 
-![Die Ansicht `Auto-Update` im Dialogfenster DAVINCI Optionen](/assets/images/AutoUpdate.png)
+![Die Ansicht `Auto-Update` im Dialogfenster DAVINCI Optionen](/assets/images/allgemein/AutoUpdate.png)
 
 ### Automatisches Update – im Netzwerk
 
