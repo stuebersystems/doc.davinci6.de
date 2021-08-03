@@ -13,7 +13,7 @@ Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DAVINCI
 
 ## Schulformen
 
-![Dialog unter Plan > DAVINCI-Optionen > Meine Daten](/assets/images/sac.optionen.png)
+![Dialog unter Plan > DAVINCI-Optionen > Meine Daten](/assets/images/regionales/sac.optionen.png)
 
 Sie erhalten von der Sächsischen Bildungsagentur ein Vorlage für die zu nutzenden Fächern und Schulformen für Sachsen:
 
