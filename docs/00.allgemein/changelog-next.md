@@ -17,7 +17,7 @@
 
 ## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
 
-[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
+[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/update/)
 
 !!! warning "Wichtig"
 
