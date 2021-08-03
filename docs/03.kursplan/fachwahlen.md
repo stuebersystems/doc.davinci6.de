@@ -11,7 +11,6 @@
 [9]:/assets/images/KP/fachwahlen_09.png
 [10]:/assets/images/KP/fachwahlen_10.png
 [11]:/assets/images/KP/fachwahlen_11.png
-[12]:/assets/images/KP/fachwahlen_12.png
 [13]:/assets/images/KP/fachwahlen_13.png
 
 Die Fachwahlen der Schüler werden in der Ansicht `Kursplan > Fachwahlen` erfasst und ggf. auch entsprechend der bundeslandspezifischen Fachwahlüberprüfung geprüft. Damit eine Fachwahlüberprüfung aufgrund eines Fachwahlskriptes erfolgen kann, sind gewisse Voreinstellungen im Stammdatenfenster erforderlich.
@@ -79,7 +78,7 @@ Namensanfang der Fachwahlskripte:
 
 ### Stammdaten Fächer
 
-Im Falle Sie nutzen das von uns mitgelieferte Fachwahlskript, müssen Sie jedem Fach, dass Sie in der Oberstufe verwenden, unter `Stammdaten > Fächer` ein Fachkategorie zuweisen. Welche Fachkategorien das Fachwahlskript für Ihr Bundesland verwendet, finden Sie unter [Fachkategien](https://doc.la.stueber.de/fachwahlen/). Bitte wählen Sie in diesem Kapitel Ihr Bundesland aus und verwenden Sie nur die gekennzeichneten Fachkategorien.
+Im Falle Sie nutzen das von uns mitgelieferte Fachwahlskript, müssen Sie jedem Fach, dass Sie in der Oberstufe verwenden, unter `Stammdaten > Fächer` ein Fachkategorie zuweisen. Welche Fachkategorien das Fachwahlskript für Ihr Bundesland verwendet, finden Sie unter [Fachkategorien](https://doc.la.stueber.de/fachwahlen/). Bitte wählen Sie in diesem Kapitel Ihr Bundesland aus und verwenden Sie nur die gekennzeichneten Fachkategorien.
 
 [![Stammdatenfenster Fächer mit Hinterlegung Kategorien je Fach, die für die Fachwahlüberprüfung erforderlich sind][1]][1]
 
@@ -108,7 +107,7 @@ Schüler aus MAGELLAN übernehmen. Sie können die Schüler von MAGELLAN importi
 
 !!! info "Hinweis"
 
-  Die Fachwahleingabe ist auch in MAGELLAN möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus MAGELLAN können per Import nach DAVINCI übernommen werden. MAGELLAN verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DAVINCI. DAVINCI bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DAVINCI erfassen sollten.
+    Die Fachwahleingabe ist auch in MAGELLAN möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus MAGELLAN können per Import nach DAVINCI übernommen werden. MAGELLAN verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DAVINCI. DAVINCI bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DAVINCI erfassen sollten.
 
 ## Fachwahlen in DAVINCI KURSPLAN eingeben
 
@@ -191,8 +190,6 @@ Die weiteren Spalten sind in diesem Zusammenhang nicht relevant.
 ## Fachwahlen löschen
 
 Wechseln Sie in die Ansicht `Kursplan > Schüler` und markieren Sie den bzw. die gewünschten Schüler. Mit `Strg+Mausklick` und `Shift+Mausklick` können Sie mehrere Zeilen in der Tabelle markieren. Klicken Sie oben im Menüleiste auf `Löschen`, um die entsprechenden Zeilen zu löschen.
-
-[![Ansicht KURSPLAN > Schüler][12]][12]
 
 Das Dialogfenster `Schülerdaten löschen` öffnet sich und gibt Ihnen folgende Optionen:
 

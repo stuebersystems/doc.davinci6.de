@@ -165,7 +165,7 @@ Wenn Sie einen Kurs duplizieren wollen, markieren Sie den betreffende Kurs in de
 
 Um einen Kurs zu löschen wählen Sie den Kurs in der Veranstaltungsliste aus und wählen Sie `Löschen` in der Menüleiste oder im Kontextmenü, welches Sie mit einem Rechtsklick auf den Kurs öffnen können. Mit "Strg + Mausklick" und "Shift + Mausklick" können Sie mehrere Zeilen markieren und so mehrere Kurse gleichzeitig löschen.
 
-!!! info "Hinweis"
+!!! danger "Hinweis"
 
     Das Löschen von Kursen kann nicht rückgängig gemacht werden.
 

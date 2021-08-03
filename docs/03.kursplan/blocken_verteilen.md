@@ -107,7 +107,7 @@ Akzeptiere Blockkonflikte | Akzeptiert Blockkonflikte aufgrund von zwei Kursen e
 
 !!! info "Hinweis"
 
-    HINWEIS: Es empfiehlt sich das Blocken der Kurse und die Schülerverteilung gleichzeitig durchzuführen, weil hier die Automatik die Schüler sinnvoller verteilen kann. Dadurch werden Zeitkonflikte und unnötige Kurszuordnungen vermieden.
+    Es empfiehlt sich das Blocken der Kurse und die Schülerverteilung gleichzeitig durchzuführen, weil hier die Automatik die Schüler sinnvoller verteilen kann. Dadurch werden Zeitkonflikte und unnötige Kurszuordnungen vermieden.
 
 Die Automatik hält folgende Bedingungen ein:
 

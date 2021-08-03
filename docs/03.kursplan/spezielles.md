@@ -63,7 +63,7 @@ Löschen Sie hier die Schüler der Klasse "14", diese haben bereits Ihre Schule 
 
 Löschen Sie anschließend im Stammdatenfenster "Klassen" die Klasse 14.
 
-### Bereich STUNDENPLAN
+### Bereich Stundenplan
 
 #### Gesetzte Termine löschen
 
@@ -71,11 +71,11 @@ Haben Sie im Planvorbereitungsassistenten die Daten aus der Vorjahresplandatei �
 
 Gehen Sie dazu wie folgt vor:
 
-##### Alle Termine einer/aller Klassen löschen
+**Alle Termine einer/aller Klassen löschen**
 
 Unter der Menügruppe `Automatik > Verplanungen zurücksetzen` oder unter `Start > Veranstaltungen > Löschen > Verplanungen zurücksetzen` können Sie gesetzte Termine aus dem Plan entfernen.
 
-##### Verschiedene Termine aus Plänen löschen
+**Verschiedene Termine aus Plänen löschen**
 
 Um einen bestimmten oder mehrere Termine wieder aus dem Plan zu entfernen, führen Sie bitte folgende Schritte aus:
 
@@ -83,6 +83,6 @@ Um einen bestimmten oder mehrere Termine wieder aus dem Plan zu entfernen, führ
 2. Betätigen Sie in der Menüleiste `Start > Stundenplan`  die Schaltfläche `Eintrag entfernen`.
 3. Der Termin wird nun aus dem Planungsfenster entfernt und befindet sich wieder in der Terminliste des „Unverplant“-Fensters.
 
-### Bereich KURSPLAN
+### Bereich Kursplan
 
 Im Bereich  `Kursplan > Kurse` und `Kursplan > Blöcke` wurden die Blockbezeichnungen automatisch an die neue Klassenstufe angepasst. Der Block ``12#01`` wurde auf Block ``13#01`` hochgesetzt.
