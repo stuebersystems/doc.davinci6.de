@@ -13,7 +13,7 @@ Wenn Sie das Modul DAVINCI ANALYTICS lizenziert haben, finden Sie in DAVINCI im 
 * Lehrer Mehrarbeit
 * Ausfallstatistik
 
-![Bereich "Übersichten"](/assets/images/Analytics01.png)
+[![Bereich "Übersichten"][1]][1]
 
 Die Daten für die Analyse der Übersichten "Änderungen", "Unterricht" und "Unterrichtsstatistik werden in einer Datei mit der Endung „.sc“ (für „statistic“) abgespeichert. Die .SC-Datei wird im Ordner DaVinciStatisticFolder (siehe Dialogfenster ``Hilfe > System-Informationen``) gespeichert. Es handelt sich dabei um eine Datei im JSON-Format. In der Regel werden Sie mit jeder Planänderung eine neue Plandatei mit einem neuen Gültigkeitszeitraum erstellen. In der Statistik-Datei können beliebig viele Tage abgespeichert werden, d.h. Sie können dort die Ergebnisse aus allen Plandateien eines Schuljahres aggregieren.
 
@@ -23,8 +23,7 @@ Ergeben sich im Schuljahr weitreichende Änderungen im Stundenplanbereich erstel
 
 Bitte beachten Sie folgende Einstellungen in den Dateieigenschaften `Plan > Eigenschaften > Zeitraum`  
 
-![Planeigenschaften Registerkarte Zeitraum](/assets/images/analytics/Dateieigenschaften.png)
-
+[![Planeigenschaften Registerkarte Zeitraum][2]][2]
 Hier geben Sie den jeweiligen Hauptzeitraum der Plandatei an, d.h. der Zeitraum für den auch die Vertretungsinformationen für Analytics genutzt werden sollen.
 
 um in den Übersichten für Analytics die Werte mehrerer Plandateien zusammenzufassen gehen Sie bitte wie folgt vor:
@@ -32,9 +31,11 @@ um in den Übersichten für Analytics die Werte mehrerer Plandateien zusammenzuf
 1. Öffnen Plandatei 1
 In den Ansichten werden die Änderungen mit einem schwarzem Stern gekennzeichnet
 
-![Plandatei 1](/assets/images/analytics/allgemein1.png)
+[![Plandatei 1][3]][3]
 
 2. Öffnen Plandatei 2
 Änderungen aus Plandatei 1 werden mit grauem Stern gezeigt, Änderung aus Plandatei 2 (aktuell geöffnete) werden nun mit dem schwarzen Stern gekennzeichnet
 
-![Plandatei 2](/assets/images/analytics/allgemein2.png)
+[1]:/assets/analytics/images/Analytics01.png
+[2]:/assets/images/analytics/Dateieigenschaften.png
+[3]:/assets/images/analytics/allgemein1.png

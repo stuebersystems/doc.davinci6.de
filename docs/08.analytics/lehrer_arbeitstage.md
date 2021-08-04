@@ -41,7 +41,7 @@ Lehrer|Anzahl der fehlenden Lehrer im ausgewählten Zeitraum, Dauer der Fehlzeit
 
 ## Ansicht "Lehrer"
 
-![Ansicht Lehrer](/assets/images/LehrerArbeitstage.png)
+[![Ansicht Lehrer][1]][1] 
 
 ### Bereich Lehrer
 
@@ -68,3 +68,5 @@ Spalte | Erläuterungen
 --------|-------------------------------------------
 Tage| Fehlzeittage auf Grund des ausgewählten Fehlgrundes
 Stunden |Fehlzeitstunden auf Grund des ausgewählten Fehlgrundes
+
+[1]:/assets/images/analytics/Lehrerarbeitstage.png

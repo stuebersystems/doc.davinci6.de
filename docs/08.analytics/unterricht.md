@@ -7,7 +7,7 @@ Diese Übersicht zeigt Unterricht für Lehrer/Klassen/Fächer/Räume aus Fachsic
 * Zeitraum: Auswahl des anzuzeigenden Zeitraumes
 * Statistikdatei: Angabe der Statistikdatei
 
-![Übersicht Unterricht](/assets/images/Analytics02.png)
+[![Übersicht Unterricht][1]][1]
 
 ## Bereich Zeit
 
@@ -40,3 +40,5 @@ Art | Fehlgrund des Lehrers
 Info | aa
 Bemerkung | aa
 Fehlgrund |aa
+
+[1]:/assets/images/analytics/Analytics02.png 

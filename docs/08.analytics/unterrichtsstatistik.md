@@ -8,7 +8,7 @@ Diese Übersicht zeigt Unterricht für Lehrer/Klassen pro Tag. Es kann nach dem 
 * Zeitraum: Auswahl des anzuzeigenden Zeitraumes
 * Statistikdatei: Angabe der Statistikdatei
 
-![Unterrichtsstatistik](/assets/images/UNTERRICHTSSTA.png)
+[![Unterrichtsstatistik][1]][1]
 
 ## Bereich Zeit
 
@@ -37,3 +37,5 @@ geändert | Summe der ausgefallenen bzw. Zusätzlichen Lehrerstunden am Tag (ent
 Zusätzlich |Summe der zusätzlichen Lehrerstunden am Tag (entspricht der Vertretungsstunden, die Lehrer zusätzlich zu Ihrem Unterricht machen)
 entfallen | Summe der entfallenen Stunde (entspricht den noch offenen Vertretungen, bzw. vorgezogenem Unterricht)
 Zusatzunterricht |  Summe des Zusatzunterrichts für den Tag (entspricht dem eingetragenen Zusatzunterricht)
+
+[1]:/assets/images/analytics/UNTERRICHTSSTA.png

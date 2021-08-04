@@ -16,7 +16,7 @@ Pivot | Pivot Tabelle der Registerkarte „Vertretungen“
 
 So sollten Sie vorgehen:
 
-![Filterangaben](/assets/images/Filter.png)
+[![Filterangaben][1]][1]
 
 1. Stellen Sie unter ``Fehlgrund Schlüssel`` den Fehlgrund für ``krank`` ein.
 2. Stellen Sie unter ``Lehrerart Schlüssel`` die Lehrerart
@@ -25,7 +25,8 @@ So sollten Sie vorgehen:
 ``Selbstorganisierendes Lernen`` ein.
 4. Klicken Sie auf ``Aktualisieren`` um die Liste neu anzuzeigen. Indem Sie mehrere oder alle Zeilen der Liste markieren und auf Exportieren klicken, können Sie die Liste nach Excel und in andere Formate exportieren.
 
-![Kopfspalten](/assets/images/analytics/aenderungen01.png)
+[![Kopfspalten](/assets/images/analytics/aenderungen01.png)
+][2][2]
 
 ## Register Ausfall
 
@@ -58,7 +59,7 @@ Anrechnen | Summe der Anrechenstunden an diesem Tag
 
 ### Bereich Lehrerausfall
 
-![Lehrerausfall](/assets/images/analytics/aenderungen02.png)
+[![Lehrerausfall][3]][3]
 
 Spalte | Erläuterungen
 --------|-------------------------------------------
@@ -73,7 +74,7 @@ Andere | Anzahl der Entfälle aus anderen Fehlgründen für den Tag
 
 ### Bereich Vertretung
 
-![Vertretungen](/assets/images/analytics/aenderungen03.png)
+[![Vertretungen][4]][4] 
 
 Spalte | Erläuterungen
 --------|-------------------------------------------
@@ -115,3 +116,8 @@ in Arbeit
 ## Register Pivot
 
 in Arbeit
+
+[1]:/assets/images/analytics/Filter1.png
+[2]:/assets/images/analytics/aenderungen01.png
+[3]:/assets/images/analytics/aenderungen02.png
+[4]://assets/images/analytics/aenderungen03.png
