@@ -25,8 +25,7 @@ So sollten Sie vorgehen:
 ``Selbstorganisierendes Lernen`` ein.
 4. Klicken Sie auf ``Aktualisieren`` um die Liste neu anzuzeigen. Indem Sie mehrere oder alle Zeilen der Liste markieren und auf Exportieren klicken, können Sie die Liste nach Excel und in andere Formate exportieren.
 
-[![Kopfspalten](/assets/images/analytics/aenderungen01.png)
-][2][2]
+[![Kopfspalten][2]][2]
 
 ## Register Ausfall
 
@@ -74,7 +73,7 @@ Andere | Anzahl der Entfälle aus anderen Fehlgründen für den Tag
 
 ### Bereich Vertretung
 
-[![Vertretungen][4]][4] 
+[![Vertretungen][4]][4]
 
 Spalte | Erläuterungen
 --------|-------------------------------------------

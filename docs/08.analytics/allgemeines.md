@@ -36,6 +36,6 @@ In den Ansichten werden die Änderungen mit einem schwarzem Stern gekennzeichnet
 2. Öffnen Plandatei 2
 Änderungen aus Plandatei 1 werden mit grauem Stern gezeigt, Änderung aus Plandatei 2 (aktuell geöffnete) werden nun mit dem schwarzen Stern gekennzeichnet
 
-[1]:/assets/analytics/images/Analytics01.png
+[1]:/assets/images/analytics/Analytics01.png
 [2]:/assets/images/analytics/Dateieigenschaften.png
 [3]:/assets/images/analytics/allgemein1.png
