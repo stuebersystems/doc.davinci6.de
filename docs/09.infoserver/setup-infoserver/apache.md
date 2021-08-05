@@ -16,7 +16,7 @@ Gehen Sie wie folgt vor:
 1. Öffnen Sie auf dem Rechner, auf dem Ihr DAVINCI Server läuft bitte den Punkt ```Systemsteuerung > daVinci-Server (32 bit) > Karte "Dienst"```. 
 2. Unten links öffen Sie den Punkt "Lizenz" und importieren Ihre Lizenzdatei.
 
-![Bitte importieren Sie die Lizenz im DAVINCI ENTERPRISE Control](/assets/images/islizenz.png)
+[![Bitte importieren Sie die Lizenz im DAVINCI ENTERPRISE Control][1]][1] 
 
 ## Installation des DAVINCI INFOSERVER
 
@@ -76,7 +76,7 @@ http://localhost/daVinciIS.dll
 
 !!! info "Hinweis"
 
-  Bitte beachten Sie, dass Pfadangaben unter Apache immer mit einem `/`definiert werden und nicht mit einem `\`. Dies liegt in der Linux-Herkunft des Apache-Projekts begründet.
+    Bitte beachten Sie, dass Pfadangaben unter Apache immer mit einem `/`definiert werden und nicht mit einem `\`. Dies liegt in der Linux-Herkunft des Apache-Projekts begründet.
 
 ## Ein erster Test
 
@@ -89,8 +89,8 @@ http://localhost/davinciis.dll
 ```
 
 1. Wenn Ihr Web-Browser nun folgende vom DAVINCI INFOSERVER generierte Meldung anzeigt, ist der DAVINCI INFOSERVER bereit auf Anfragen zu reagieren:
-  
-![Fehlerseite des DAVINCI INFOSERVERS](/assets/images/davinciis-first-test.png)
+
+[![Fehlerseite des DAVINCI INFOSERVERS][2]][2] 
 
 ## Den DAVINCI INFOSERVER konfigurieren
 
@@ -102,7 +102,7 @@ Ist dies der Fall, können Sie den DAVINCI INFOSERVER konfigurieren:
 
 2. Wechseln Sie auf die Registerkarte `Server-Verbindung` und tragen Sie dort die Verbindungsdaten zu Ihrem DAVINCI SERVER ein. Für die Kommunikation mit dem DAVINCI-SERVER ist ein Benutzerkonto mit entsprechenden Rechten notwendig. Verwenden Sie bitte als Benutzer Ihren zuvor definierten "Webuser" und das dazugehörige Passwort. Weitere Informationen zum Benutzer "Webuser" finden Sie im Kapitel "Benutzerverwaltung".
 
- ![Server-Verbindung](/assets/images/server-verbindung.jpg) 
+[![Server-Verbindung][3]][3] 
 
 3. Der Pfad unter `Webseiten-Pfad` ist in der Regel bereits ausgefüllt und muss nicht geändert werden:
 
@@ -147,9 +147,15 @@ Um diesen Parameter zu aktivieren, öffnen Sie auf dem Rechner, auf dem Ihr DAVI
 
 Sie finden in diesem Verzeichnis die Datei `daVinciInfoServerConfig.xml`.
 
-![daVinciInfoServerConfig.xml](/assets/images/infoserver.config.png)
+[![daVinciInfoServerConfig.xml][4]][4] 
 
 Öffnen Sie diese Datei bitte nicht per Doppelklick, sondern über `Rechtsklick > Öffnen mit > Editor`. Passen Sie den Wert für den Tag "CompressionEnabled" von 0 (deaktiviert) auf 1 (aktiviert) an.
 Starten Sie anschließend den Webserver bitte einmal neu.
 
-![Wechseln Sie zum Tag "CompressionEnabled"](/assets/images/infoserver.config01.png)
+[![Wechseln Sie zum Tag "CompressionEnabled"][5]][5] 
+
+[1]:/assets/images/is/islizenz.png
+[2]:/ssets/images/is/davinciis-first-test.png
+[3]:/assets/images/is/server-verbindung.jpg
+[4]:/assets/images/is/infoserver.config.png
+[5]:/assets/images/is/infoserver.config01.png

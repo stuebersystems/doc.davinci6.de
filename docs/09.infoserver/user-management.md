@@ -63,7 +63,7 @@ Um die automatischen Kennwörter den Nutzern mitzuteilen finden Sie die Option `
 
 ![Kennungen exportieren](/assets/images/Kennungen_exportieren.jpg)
 
-Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](/07.explorer/allgemeines.md#benutzer_verwalten) des DAVINCI-EXPLORERS.
+Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](https://doc.davinci6.stueber.de/06.enterprise/06.benutzer/) des DAVINCI-EXPLORERS.
 
 !!! info "Hinweis"
 

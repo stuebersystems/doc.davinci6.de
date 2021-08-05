@@ -18,7 +18,7 @@ Gehen Sie wie folgt vor:
 1. Öffnen Sie auf dem Rechner, auf dem Ihr DAVINCI Server läuft bitte den Punkt ```Systemsteuerung > daVinci-Server (32 bit) > Karte "Dienst"```.
 2. Unten links öffen Sie den Punkt "Lizenz" und importieren Ihre Lizenzdatei.
 
-![Bitte importieren Sie die Lizenz im DAVINCI ENTERPRISE Control](/assets/images/islizenz.png)
+[![Bitte importieren Sie die Lizenz im DAVINCI ENTERPRISE Control][1]][1] 
 
 ## Installation des DAVINCI INFOSERVER
 
@@ -58,11 +58,11 @@ Gehen Sie wie folgt vor:
 
 6. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DAVINCI-INFOSERVER 6`)
 
-![ "Modulzuordnung hinzufügen"](/assets/images/iis-win75-add-module.png)
+[![Modulzuordnung hinzufügen][2]][2] 
 
-7. Klicken Sie zusätzlich auf die Schaltfläche `Einschränkungen` und entfernen Sie die Markierung `Handler nur bei folgender Zuordnung aufrufen` auf der Registerkarte "Zuordnung".
+7. Klicken Sie zusätzlich auf die Schaltfläche `Einschränkungen` und entfernen Sie die Markierung `Händler nur bei folgender Zuordnung aufrufen` auf der Registerkarte "Zuordnung".
 
-!["Einschränkungen der Modulzuordnung"[](/assets/images/iis-win75-add-module-limitations.png)
+[!["Einschränkungen der Modulzuordnung"][3]][3] 
 
 * Bestätigen Sie beide Dialogfenster mit `OK`.
 
@@ -78,7 +78,7 @@ Dann genügt die folgende Einstellung im IIS-Manager:
 
 2. Setzen Sie die Eigenschaft "32-Bit Anwendungen aktivieren" auf `True` und klicken Sie anschließend auf `OK`.
 
-![ "32-Bit-Anwendungen aktivieren"](/assets/images/iis-win10-32bit.png)
+[!["32-Bit-Anwendungen aktivieren"][4]][4] 
 
 ### 2. Andere Anwendungen nutzen parallel den Webserver
 
@@ -99,8 +99,7 @@ Gehen Sie wie folgt vor:
 ```txt
    ...\Stueber Systems\daVinci 6\ISAPI64\daVinciIS.dll
 ```
-
-![Verweisen Sie auf die Datei unter ```... > Stueber Systems > daVinci 6 > ISAPI64```](/assets/images/_infoserver.dll.64.png)
+[![Verweisen Sie auf die Datei unter ```... > Stueber Systems > daVinci 6 > ISAPI64```][5]][5] 
 
 ## Ein erster Test
 
@@ -114,7 +113,7 @@ Unser DAVINCI INFOSERVER ist nun installiert, aber noch nicht konfiguriert. Wir 
 
 2. Wenn Ihr Web-Browser nun folgende vom DAVINCI INFOSERVER generierte Meldung anzeigt, ist der DAVINCI INFOSERVER bereit auf Anfragen zu reagieren:
 
-![Fehlerseite des DAVINCI INFOSERVERS](/assets/images/davinciis-first-test-ie.png) 
+[![Fehlerseite des DAVINCI INFOSERVERS][6]][6] 
 
 ## Den DAVINCI INFOSERVER konfigurieren
 
@@ -126,7 +125,7 @@ Ist dies der Fall, können Sie den DAVINCI INFOSERVER konfigurieren:
 
 2. Wechseln Sie auf die Registerkarte `Server-Verbindung` und tragen Sie dort die Verbindungsdaten zu Ihrem DAVINCI SERVER ein. Für die Kommunikation mit dem DAVINCI-SERVER ist ein Benutzerkonto mit entsprechenden Rechten notwendig. Verwenden Sie bitte als Benutzer Ihren zuvor definierten "Webuser" und das dazugehörige Passwort. Weitere Informationen zum Benutzer "Webuser" finden Sie im Kapitel "Benutzerverwaltung".
 
-![ "Server-Verbindung"](/assets/images/server-verbindung.jpg)
+[!["Server-Verbindung"][7]][7] 
 
 4. Der Pfad unter `Webseiten-Pfad` ist in der Regel bereits ausgefüllt und muss nicht geändert werden:
 
@@ -171,9 +170,19 @@ Um diesen Parameter zu aktivieren, öffnen Sie auf dem Rechner, auf dem Ihr DAVI
 
 Sie finden in diesem Verzeichnis die Datei `daVinciInfoServerConfig.xml`.
 
-![daVinciInfoServerConfig.xml](/assets/images/infoserver.config.png)
+[![daVinciInfoServerConfig.xml][8]][8] 
 
 Öffnen Sie diese Datei bitte nicht per Doppelklick, sondern über `Rechtsklick > Öffnen mit > Editor`. Passen Sie den Wert für den Tag "CompressionEnabled" von 0 (deaktiviert) auf 1 (aktiviert) an.
 Starten Sie anschließend den Webserver bitte einmal neu.
 
-![Wechseln Sie zum Tag "CompressionEnabled"](/assets/images/infoserver.config01.png)
+[![Wechseln Sie zum Tag "CompressionEnabled"][9]][9]
+
+[1]:/assets/images/is/islizenz.png
+[2]:/assets/images/is/iis-win75-add-module.png
+[3]:/assets/images/is/iis-win75-add-module-limitations.png
+[4]:/assets/images/is/iis-win10-32bit.png
+[5]:/assets/images/is/_infoserver.dll.64.png
+[6]:/assets/images/is/davinciis-first-test-ie.png
+[7]:/assets/images/is/server-verbindung.jpg
+[8]:/assets/images/is/infoserver.config.png
+[9]:/assets/images/is/infoserver.config01.png
