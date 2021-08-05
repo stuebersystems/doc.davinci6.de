@@ -43,12 +43,12 @@ C:\Program Files (x86)\Stueber Systems\daVinci 6\ISAPI\daVinciIS.dll
 ```
 
 6. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DAVINCI-INFOSERVER 6`)
-  
-![ "Modulzuordnung hinzufügen"](/assets/images/iis-win10-add-module.png)
+
+[![Modulzuordnung hinzufügen][1]][1] 
 
 7. Klicken Sie zusätzlich auf die Schaltfläche `Einschränkungen` und entfernen Sie die Markierung `Handler nur bei folgender Zuordnung aufrufen` auf der Registerkarte "Zuordnung".
-  
-![ "Einschränkungen der Modulzuordnung"](/assets/images/iis-win10-add-module-limitations.png)
+
+[![Beschriftung][2]][2] 
 
 * Bestätigen Sie beide Dialogfenster mit `OK`.
 
@@ -58,7 +58,7 @@ Sollten Sie eine 64-bit-Version von Windows einsetzen, müssen Sie zusätzlich n
 
 2. Setzen Sie die Eigenschaft "32-Bit Anwendungen aktivieren" auf `True` und klicken Sie anschließend auf `OK`.
 
-![ "32-Bit-Anwendungen aktivieren"](/assets/images/iis-win10-32bit.png)
+[!["32-Bit-Anwendungen aktivieren"][3]][3] 
 
 ## Ein erster Test
 
@@ -71,8 +71,8 @@ http://localhost/isapi/davinciis.dll
 ```
 
 1. 2. Wenn Ihr Web-Browser nun folgende vom DAVINCI INFOSERVER generierte Meldung anzeigt, ist der DAVINCI INFOSERVER bereit auf Anfragen zu reagieren:
-  
-  ![Fehlerseite des DAVINCI INFOSERVERS](/assets/images/davinciis-first-test.png)
+
+[![Fehlerseite des DAVINCI INFOSERVERS][4]][4] 
 
 ## Den DAVINCI INFOSERVER konfigurieren
 
@@ -84,7 +84,7 @@ Ist dies der Fall, können Sie den DAVINCI INFOSERVER konfigurieren:
 
 2. Wechseln Sie auf die Registerkarte `Server-Verbindung` und tragen Sie dort die Verbindungsdaten zu Ihrem DAVINCI SERVER ein. Für die Kommunikation mit dem DAVINCI-SERVER ist ein Benutzerkonto mit entsprechenden Rechten notwendig. Verwenden Sie bitte als Benutzer Ihren zuvor definierten "Webuser" und das dazugehörige Passwort. Weitere Informationen zum Benutzer "Webuser" finden Sie im Kapitel "Benutzerverwaltung".
 
-![Server-Verbindung](/assets/images/server-verbindung.jpg)
+[![Server-Verbindung][5]][5]
 
 4. Der Pfad unter `Webseiten-Pfad` ist in der Regel bereits ausgefüllt und muss nicht geändert werden:
 
@@ -128,3 +128,9 @@ Möchten Sie eine neue Version des DAVINCI INFOSERVER einspielen, gehen Sie wie 
 3. Starten Sie den Apache IIS-Web-Server neu.
 
 4. Testen Sie mit Ihrem Web-Browser, ob der DAVINCI INFOSERVER wie erwartet reagiert (siehe vorherigen Abschnnitt)
+
+[1]:/assets/images/is/iis-win10-add-module.png
+[2]:/assets/images/is/iis-win10-add-module-limitations.png
+[3]:/assets/images/is/iis-win10-32bit.png
+[4]:/assets/images/is/davinciis-first-test.png
+ [5]:/assets/images/is/server-verbindung.jpg
