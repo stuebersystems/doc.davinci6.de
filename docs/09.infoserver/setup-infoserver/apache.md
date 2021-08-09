@@ -155,7 +155,7 @@ Starten Sie anschließend den Webserver bitte einmal neu.
 [![Wechseln Sie zum Tag "CompressionEnabled"][5]][5] 
 
 [1]:/assets/images/is/islizenz.png
-[2]:/ssets/images/is/davinciis-first-test.png
+[2]:/assets/images/is/davinciis-first-test.png
 [3]:/assets/images/is/server-verbindung.jpg
 [4]:/assets/images/is/infoserver.config.png
 [5]:/assets/images/is/infoserver.config01.png
