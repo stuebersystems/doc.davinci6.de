@@ -16,7 +16,8 @@ Gehen Sie wie folgt vor:
    * Webserver / Anwendungsentwicklung / ISAPI-Erweiterungen
    * Webserver / Sicherheit / Anforderungsfilterung  
 
-![Internetinformationsdienste als Windows-Feature](/assets/images/IIS7.5-Windows-Features.png)
+[![Internetinformationsdienste als Windows-Feature][1]][1] 
+
 
 3. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
 
@@ -26,7 +27,7 @@ Der IIS-Web-Server ist nun installiert. Probieren Sie ihn aus:
 
 * Öffnen Sie Ihren Web-Browser auf dem gleichen Computer, auf dem Sie soeben den IIS-Web-Server installiert haben und tippen Sie `http://localhost` ein. Wenn die folgende Seite in Ihrem Browser erscheint, haben Sie alles richtig gemacht:
 
-  ![IIS 7.5-Standardwebseite](/assets/images/iis-7.5-test.png)
+[![IIS 7.5-Standardwebseite][2]][2] 
 
 Bis jetzt hat sich alles nur auf dem Computer abgespielt, auf dem Sie den IIS-Web-Server installiert haben. Sinn und Zweck der ganzen Arbeit ist es jedoch, dass Ihr Web-Server im Netzwerk erreichbar ist. Daher sollten Sie auch den Zugriff von einem entfernten Computer aus testen:
 
@@ -49,5 +50,8 @@ Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die einge
 2. Wählen Sie die Option `Eingehende Regeln` aus der linken Seite.  
 3. Wählen Sie die Regeln "WWW-Dienste (Eingehender HTTP-Datenverkehr)" und falls gewünscht "WWW-Dienste (Eingehender HTTPS-Datenverkehr)" aus und aktivieren Sie sie per Rechts-Klick.
 
-![Eingehende Regeln  &apos;WWW-Dienste (Eingehender HTTP-Datenverkehr)&apos; aktivieren](/assets/images/Eingehende-Regeln-IIS.png)
+[![Eingehende Regeln  &apos;WWW-Dienste (Eingehender HTTP-Datenverkehr)&apos; aktivieren][3]][3] 
 
+[1]:/assets/images/is/IIS7.5-Windows-Features.png
+[2]:/assets/images/is/iis-7.5-test.png
+[3]:/assets/images/is/Eingehende-Regeln-IIS.png

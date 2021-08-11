@@ -24,19 +24,19 @@ Gehen Sie wie folgt vor:
 
 2. Starten Sie das Setup und beantworten Sie die Fragen des Assistenten 
   
-![XAMPP-Setup](/assets/images/xampp-installer.png)
+[![XAMPP-Setup][1]][1] 
 
 3. Für eine minimale Installation von Apache kreuzen Sie unter `Select Components` die folgenden Einträge an: 
-   
-![Minimale XAMPP-Installation](/assets/images/xampp-installer-minimal.png)
+
+[![Beschriftung][2]][2] 
 
 4. Bei der Frage nach dem Installationsordner belassen Sie unter `Installation folder` die Vorgabeeinstellung. Die Installation im Programme-Verzeichis von Windows wird nicht empfohlen. 
-  
-![XAMPP-Standardordner](/assets/images/xampp-installer-folder.png)
+
+[![XAMPP-Standardordner][3]][3] 
 
 5. Nach Abschluss der Installation meldet sich unter Umständen die Windows-Firewall. Diese fragt Sie, ob der Apache HTTP Server Zugriff auf das Netzwerk bekommen soll. Bestätigen Sie dies bitte. 
-   
-![Firewall-Bestätigung](/assets/images/xampp-installer-firewall.png)
+
+[![Beschriftung][4]][4] 
 
 6. Zu guter Letzt werden sie gefragt, ob Sie das XAMPP Control Panel starten möchten. Ja, das wollen wir. 
 
@@ -45,12 +45,12 @@ Gehen Sie wie folgt vor:
 Der Apache HTTP Server ist nun installiert. Starten Sie ihn und probieren Sie ihn aus:
 
 1. Klicken Sie im XAMPP Control Panel in der ersten Zeile hinter `Apache` auf `Starten`. Der Apache HTTP Server wird nun gestartet.  
-  
-  ![XAMPP-Standardordner](/assets/images/xampp-control-panel.png)
+
+[![Beschriftung][5]][5] 
 
 2. Öffnen Sie Ihren Web-Browser auf dem gleichen Computer, auf dem Sie soeben Apache installiert haben und tippen Sie `http://localhost` ein. Wenn die folgende Seite in Ihrem Browser erscheint, haben Sie alles richtig gemacht:  
-  
-  ![Apache-Standardwebseite](/assets/images/apache-test.png)
+
+[![Beschriftung][6]][6] 
 
 Bis jetzt hat sich alles nur auf dem Computer abgespielt, auf dem Sie Apache installiert haben. Sinn und Zweck der ganzen Arbeit ist es jedoch, dass Ihr Web-Server im Netzwerk erreichbar ist. Daher sollten Sie auch den Zugriff von einem entfernten Computer aus testen:
 
@@ -66,7 +66,7 @@ Waren alle Tests positiv, haben Sie einen einsatzbereiten Apache HTTP Server in 
 
 Möchten Sie, dass Ihr Web-Server auch im Internet, also auch außerhalb Ihres lokalen Netzwerk, erreichbar ist, müssen Sie noch ein paar weitere Details beachten. Das Kapitel [Tipps zum Einrichten Ihres Netzwerks] gibt Ihnen dazu nützliche Hinweise.
 
-## Optionale Konfiguration{#Konfiguration}
+## Optionale Konfiguration
 
 Möchten Sie die Standardeinstellungen Ihres Apache ändern, so müssen Sie die Datei `httpd.conf` in einem Texteditor öffnenn und editieren. Bei einer Standardinstallation mit XAMPP befindet sich die Datei im folgenden Verzeichnius:
 
@@ -119,7 +119,14 @@ Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die einge
 2. Wählen Sie die Option `Eingehende Regeln` aus der linken Seite.
 3. Wählen Sie die Regeln "Apache HTTP Server" aus und aktivieren Sie sie per Rechts-Klick.
 
-![Eingehende Regeln  "Apache HTTP Server" aktivieren](/assets/images/Eingehende-Regeln-Apache.png)
-
+[![Eingehende Regeln  "Apache HTTP Server" aktivieren][7]][7] 
 
 [Tipps zum Einrichten Ihres Netzwerks]: ../network-configuration.md
+
+[1]:/assets/images/is/xampp-installer.png
+[2]:/assets/images/is/xampp-installer-minimal.png
+[3]:/assets/images/is/xampp-installer-folder.png
+[4]:/assets/images/is/xampp-installer-firewall.png
+[5]:/assets/images/is/xampp-control-panel.png
+[6]:/assets/images/is/apache-test.png
+[7]:/assets/images/is/Eingehende-Regeln-Apache.png

@@ -39,7 +39,7 @@ http://localhost/davinci-timetable.html
 
 Diese URL sollte Ihnen im Idealfall eine Stundenplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Ein Stundenplan in der DAVINCI-WEBBOX"](/assets/images/webbox-timetable.png)
+[!["Ein Stundenplan in der DAVINCI-WEBBOX"][1]][1]
 
 Ein weiterer Test:
 
@@ -49,7 +49,8 @@ http://localhost/davinci-substitutions.html
 
 Diese URL sollte Ihnen im Idealfall eine Vertretungsplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"](/assets/images/webbox-substitutions.png)
+[![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"][2]][2]
+
 
 !!! info "Hinweis"
 
@@ -60,3 +61,6 @@ Diese URL sollte Ihnen im Idealfall eine Vertretungsplanansicht zurückliefern, 
 Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller Aufrufparameter sowie zahlreiche Beispiele für das Einbinden der DAVINCI-WEBBOX in Ihre Webseite.
 
 [davinci-webbox.stueber.de]: http://davinci-webbox.stueber.de
+
+[1]:/assets/images/is/webbox-timetable.png
+[2]:/assets/images/is/webbox-substitutions.png
