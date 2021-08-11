@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor:
 
 5. Tragen Sie in diesem Dialogfenster unter "Name" den Wert `Access-Control-Allow-Origin` und unter "Wert" `*` ein. Bestätigen Sie mit `OK`.
 
-![ "HTTP-Antwortheader hinzufügen"](/assets/images/webbox-http-header.png)
+[!["HTTP-Antwortheader hinzufügen"][1]][1] 
 
 Nach dem gleichen Muster fügen Sie bitte auch die folgenden HTTP-Antwortheader hinzu:
 
@@ -58,16 +58,17 @@ Sollten Sie nicht alle drei Einträge finden, müssen Sie die jeweils fehlenden 
 1. Klicken Sie dazu auf der rechten Seite unter "Aktionen" auf Hinzufügen. Ein Dialgofenster öffnet sich.
 
 2. Für `json` tragen Sie unter Dateinamenerweiterung `json` und unter MIME-Typ `application/json` ein.
-  
-![ "MIME-Typ für json registrieren"](/assets/images/webbox-register-json.png)
+
+[![Beschriftung][2]][2] 
 
 3. Wiederholen Sie diese kation für die foglednen Dateinamenerweiterung. Für `svg` tragen Sie unter Dateinamenerweiterung `svg` und unter MIME-Typ `image/svg+xml` ein.
-  
-![ "MIME-Typ für svg registrieren"](/assets/images/webbox-register-svg.png)
+
+[!["MIME-Typ für svg registrieren"][3]][3] 
 
 4. Für `woff` tragen Sie unter Dateinamenerweiterung `woff` und unter MIME-Typ `font/x-woff` ein.
-  
-![ "MIME-Typ für woff registrieren"](/assets/images/webbox-register-woff.png)
+
+[![Beschriftung][14]][4] 
+
 
 ## Die DAVINCI-WEBBOX testen
 
@@ -81,7 +82,7 @@ http://localhost/davinci-timetable.html
 
 Diese URL sollte Ihnen im Idealfall eine Stundenplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Ein Stundenplan in der DAVINCI-WEBBOX"](/assets/images/webbox-timetable.png)
+[![Beschriftung][5]][5] 
 
 Ein weiterer Test:
 
@@ -106,3 +107,9 @@ Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller
 ## Die DAVINCI-WEBBOX aktualisieren
 
 Die aktualisierten Dateien der DAVINCI WEBBOX stellen wir auf der Webseite [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/) zum Download zur Verfügung. Bitte laden Sie sich das hinterlegte Ziparchiv herunter und legen es auf dem Rechner ab, auf dem Ihr Webserver läuft. Entpacken Sie die Dateien und legen sie an der entsprechenden Stelle ab, standardmäßig wäre der Pfad `C:\inetpub\wwwroot`.
+
+[1]:/assets/images/is/webbox-http-header.png
+[2]:/assets/images/is/webbox-register-json.png
+[3]:/assets/images/is/webbox-register-svg.png
+[4]:assets/images/is/webbox-register-woff.png
+[5]:/assets/is/images/webbox-timetable.png
