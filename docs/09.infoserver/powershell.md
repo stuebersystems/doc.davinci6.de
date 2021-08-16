@@ -2,7 +2,7 @@
 
 In vielen Schulen kann kein öffentlicher Web-Server im Verwaltungsnetz betrieben werden. Das bedeutet u.a., dass der DAVINCI INFOSERVER nicht von außen zugreifbar ist. Die Lösung besteht darin, den DAVINCI INFOSERVER auf einem Web-Server in einem anderen öffentlich zugänglichen Netzwerk zu installieren. Dazu muss sichergestellt werden, dass der DAVINCI INFOSERVER von dort auf Daten eines DAVINCI SERVER im Verwaltungsnetzwerk zugreifen kann.
 
-![Netzwerke verbinden](/assets/images/sigma1.svg)
+[![Netzwerke verbinden][1]][1] 
 
 ## Grundlegende Vorgehensweise
 
@@ -18,7 +18,7 @@ Die Antwort umfasst den Einsatz einiger zusätzlicher Software-Komponenten und s
 
 Zusammengefasst: Durch regelmäßiges Kopieren der DAVINCI-Plandatei sowie der DAVINCI-Benutzerdatei aus dem Verwaltungsnetzwerk in das öffentlich zugängliche Netzwerk wird eine Synchronisierung implementiert, die es erlaubt, einen DAVINCI-INFOSERVER außerhalb des Verwaltungsnetzwerkes zu betreiben.
 
-![Daten übertragen](/assets/images/sigma2.svg)
+[![Daten übertragen][2]][2] 
 
 Bleibt noch die Frage zu klären, wie genau dieser Automatismus aussieht. Wir bieten hierzu eine Skript-basierte Lösung auf Basis von Powershell an. Sie ist frei verfügbar und Open Source.
 
@@ -30,7 +30,7 @@ Powershell ist Bestandteil von Windows und ist u.a. speziell für die Automation
 
 Im Folgenden zeigen wir Ihnen einen kompletten Workflow für unser oben beschriebenes Szenario:
 
-![Workflow](/assets/images/sigma3.svg)
+[![Workflow][3]][3]
 
 ### Schritt 1: Vorbereitung
 
@@ -40,7 +40,7 @@ Im Folgenden zeigen wir Ihnen einen kompletten Workflow für unser oben beschrie
 
 3. Öffnen Sie in der Systemsteuerung das DAVINCI Server Control, wählen die Unterkarte `Arbeitsbereich` und setzen das Häkchen für `Sensitiv für Dateiänderungen`.
 
-![Sensitiv für Dateiänderung](/assets/images/sensitiv.haken.png)
+ [![Sensitiv für Dateiänderung][4]][4] 
 
 1. [Installieren Sie den DAVINCI INFOSERVER](/09.infoserver/setup-infoserver/README.md).
 
@@ -67,3 +67,8 @@ Perfekt dafür geeignet ist das Powershell-Skript [restartDavServer.ps1](https:/
 ## Schritt 4: Kontrolle
 
 Das war's! Sie können den Workflow testen, indem Sie im Verwaltungsnetzwerk eine Änderung in der entsprechenden DAVINCI-Plandatei vornehmen. Einige Sekunden später sollte diese auch vom DAVINCI INFOSERVER publiziert werden.
+
+[1]:/assets/images/is/sigma1.svg
+[2]:/assets/images/is/sigma2.svg
+[3]:/assets/images/is/sigma3.svg
+[4]:/assets/images/issensitiv.haken.png
