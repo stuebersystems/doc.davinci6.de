@@ -18,9 +18,9 @@ Gehen Sie wie folgt vor:
 
    * Webserver / Allgemeine HTTP-Features / Statischer Inhalt
    * Webserver / Anwendungsentwicklung / ISAPI-Erweiterungen
-   * Webserver / Sicherheit / Anforderungsfilterung  
+   * Webserver / Sicherheit / Anforderungsfilterung 
 
-![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features.png)
+[![Internetinformationsdienste als Windows-Feature][1]][1] 
 
 In einer neueren Version vom ISS 10 (2019) schauen Sie bitte hier:
 
@@ -29,8 +29,7 @@ In einer neueren Version vom ISS 10 (2019) schauen Sie bitte hier:
 * Internetinformationsdienste / WWW-Dienste / Leistungsfeatures
 * Internetinformationsdienste / WWW-Dienste / Sicherheit
 
-![Internetinformationsdienste als Windows-Feature](/assets/images/IIS8-Windows-Features-1.png)
-5. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
+1. Zum Schluss wählen Sie `Weiter`, anschließend `Installieren`.
 
 ## Testen
 
@@ -38,7 +37,7 @@ Der IIS-Web-Server ist nun installiert. Probieren Sie ihn aus:
 
 * Öffnen Sie Ihren Web-Browser auf dem gleichen Computer, auf dem Sie soeben den IIS-Web-Server installiert haben und tippen Sie `http://localhost` ein. Wenn die folgende Seite in Ihrem Browser erscheint, haben Sie alles richtig gemacht:
 
-  ![IIS 10-Standardwebseite](/assets/images/iis-10-test.png)
+[![IIS 10-Standardwebseite][2]][2] 
 
 Wenn die Seite nicht erscheint, kann ein Neustart des Rechners notwendig sein.
 
@@ -66,6 +65,10 @@ Falls Ihr Web-Server im Netzwerk nicht erreichbar ist, prüfen Sie, ob die einge
 
 3. Wählen Sie die Regeln "WWW-Dienste (Eingehender HTTP-Datenverkehr)" und falls gewünscht "WWW-Dienste (Eingehender HTTPS-Datenverkehr)" aus und aktivieren Sie sie per Rechts-Klick.
 
-![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren](/assets/images/Eingehende-Regeln-IIS.png)
+[![Eingehende Regeln  &quot;WWW-Dienste (Eingehender HTTP-Datenverkehr)&quot; aktivieren][3]][3] 
 
 [Tipps zum Einrichten Ihres Netzwerks]: ../network-configuration.md
+
+[1]:/assets/images/is/IIS8-Windows-Features-1.png
+[2]:/assets/images/is/iis-10-test.png
+[3]:/assets/images/is/Eingehende-Regeln-IIS.png
