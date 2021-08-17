@@ -1,4 +1,4 @@
-# Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert
+# Welche Vertretungsinformationen werden für DAVINCI LOOK oder die WEBBOX publiziert
 
 Nicht alle in DAVINCI erkennbaren Plan- oder Vertretungsinformationen werden in LOOK oder der WEBBOX sichtbar. Letztlich sollen beispielsweise bezogen auf Vertretungsplaneinträge die Betroffenen über die abschließende Regelung informiert werden - nicht über den Zwischenstand.
 Nachstehend finden Sie verschiedene Szenarien und das jeweilige Ergebnis der Publikationsmodule.
@@ -24,7 +24,7 @@ Hintergrund:
 
 Wir stellen die Veranstaltungen in der Höhe anteilig der Dauer dar.
 
-Beispiel: 
+Beispiel:
 
 Sie haben im Standardzeitrahmen eine Position von 9:00 bis 9:45 definiert, die nächste Position geht von 10:00 bis 10:45 Uhr, dazwischen liegt eine viertel Stunde Pause, laut `Hauptzeitrahmen`. Im Klassenzeitrahmen haben Sie etwas anderes definiert, hier kann auch eine Veranstaltung von 09:45 bis 10:00 Uhr gehen, diese Veranstaltung kann innerhalb des `Hauptzeitrahmens` in der Webbbox/App nicht dargestellt werden.
 Dauert die Veranstaltung von 9:45 bis 10:00 Uhr ist der darstellbare Zeitraum (5 min) so winzig, dass die Inhalte nur schwer lesbar sein werden.
