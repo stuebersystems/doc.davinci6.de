@@ -153,3 +153,9 @@ Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Farben` Farbvorgaben
 ![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Farben`.](/assets/images/vertretungsplan/vp10.png)
 
 Auf der Registerkarte `Allgemein` können die Farben für `Abwesend`, `Änderung`, `Neue Änderung` und `Unterrichtsfrei` festgelegt werden.
+
+## Extras
+
+Im Menü `Extras > Weitere Planaktionen` haben Sie die Möglichkeit Planänderungen bis zu einem gewählten Zeitpunkt aus der Datei zu löschen. Nutzen Sie diese Funktion beispielsweise, wenn Sie für das neue Schuljahr jeweils mit einer Plankopie arbeiten, um alte Vertretungplaninformationen zu löschen.
+
+![Alte Änderungen](/assets/images/vertretungsplan/sub-plan170.png)
