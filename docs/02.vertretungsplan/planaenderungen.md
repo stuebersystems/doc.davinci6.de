@@ -270,16 +270,23 @@ Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzei
 
 ## Fehlstelle erzeugen
 
+Um eine neue Fehlstelle zu erzeugen,  gehen Sie bitte folgendermaßen vor:
+
+1. Öffnen Sie den betreffenden Klassenplan und markieren Sie mit der Maus die geünschte Positione für die Fehlstelle im Plan.
+2. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
+3. Wählen Sie den Eintrag `Neue Fehlstelle` aus dem Aufklappmenü.
+4. Es wird ein Fehlstelle an diser Stelle im Plan erzeugt und wie eine offene Fehlzeit in der Ansicht `Vertretungen > Vertretungen` in der Liste der offenen Vertretungen angezeigt.
+
 ## Neue Raumbuchung
 
 !!! info "Hinweis"
 
     Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
 
-Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
+Um eine neue Raumbuchung einzufügen gehen Sie bitte folgendermaßen vor:
 
 1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
-2. Wählen Sie den Eintrag `Neue Raubuchung` aus dem Aufklappmenü.
+2. Wählen Sie den Eintrag `Neue Raumbuchung` aus dem Aufklappmenü.
 3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
 4. Geben Sie im Eingabefeld Mitteilung einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
 5. Geben Sie im Eingabefeld Bemerkung einen Info-Text ein, der als Bemerkung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
