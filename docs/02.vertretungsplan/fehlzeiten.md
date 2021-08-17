@@ -186,7 +186,7 @@ Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änder
 
 ### Eingaben Raumfehlzeit
 
-Eintragung|
+Eintragung|Bedeutung
 -|-
 Name | `Stammdaten > Raum > Kürzel`
 Ersatzraum|der gewählte Raum wird gesammelt ohne Überschneidungsprüfung für alle offenen Fehlzeitenpositionen übernommen, die Raumfehltzeit taucht nicht in der Liste der offenen Vertretungen auf
@@ -201,7 +201,7 @@ Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änder
 
 ### Eingaben Klassenfehlzeit
 
-Eintragung|
+Eintragung|Bedeutung
 -|-
 Name| `Stammdaten > Klasse > Kürzel`
 nur Kurs| speziell für Oberstufenpläne, die Fehlzeit gilt nicht für die gesamte Klasse sondern nur für den gewählten Kurs
