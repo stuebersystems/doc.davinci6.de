@@ -1,29 +1,5 @@
 # Fehlzeiten erfassen
 
-[4]:/assets/images/vertretungsplan/sub-plan4.png
-[2a]:/assets/images/vertretungsplan/sub-plan2a.png
-[3a]:/assets/images/vertretungsplan/sub-plan3a.png
-[4a]:/assets/images/vertretungsplan/sub-plan4a.png
-[5a]:/assets/images/vertretungsplan/sub-plan5a.png
-[7]:/assets/images/vertretungsplan/sub-plan7.png
-[8]:/assets/images/vertretungsplan/sub-plan8.png
-[9]:/assets/images/vertretungsplan/sub-plan9.png
-[10]:/assets/images/vertretungsplan/sub-plan10.png
-[11]:/assets/images/vertretungsplan/sub-plan11.png
-[12]:/assets/images/vertretungsplan/sub-plan12.png
-[13]:/assets/images/vertretungsplan/sub-plan13.png
-[14]:/assets/images/vertretungsplan/sub-plan14.png
-[15]:/assets/images/vertretungsplan/sub-plan15.png
-[16]:/assets/images/vertretungsplan/sub-plan16.png
-[17]:/assets/images/vertretungsplan/sub-plan17.png
-[18]:/assets/images/vertretungsplan/sub-plan18.png
-[19]:/assets/images/vertretungsplan/sub-plan19.png
-[150]:/assets/images/vertretungsplan/sub-plan150.png
-[151]:/assets/images/vertretungsplan/sub-plan151.png
-[152]:/assets/images/vertretungsplan/sub-plan152.png
-[153]:/assets/images/vertretungsplan/sub-plan153.png
-[154]:/assets/images/vertretungsplan/sub-plan154.png
-
 Die Fehlzeiten von Lehrern, Klassen und Räumen bilden das Fundament für Ihre Vertretungspläne. Aus den Informationen über fehlende Lehrer, abwesende Klassen und gesperrte Räume ergeben sich die erforderlichen Vertretungen sowie die Ressourcen, die Ihnen für die Vertretungserstellung zur Verfügung stehen.
 
 Die Erfassung der Fehlzeiten nehmen Sie in der Ansicht `Fehlzeiten` vor. Zum Öffnen der Ansicht wählen Sie in der Navigationsleiste die Navigationsgruppe `Vertretungsplan` mit der Ansicht `Fehlzeiten` aus.
@@ -203,7 +179,7 @@ Detail|`Schlüsselverzeichnis > Lehrerfehlgrunddetails`
 Bemerkung|Freitext
 Anrechenstunden|Anzahl der durch die Fehlzeit betroffenen Lehrerfehlstunden
 Beginnt ganztägig|Fehlzeit beginnt in erster Position
-Endet Ganztägig|Fehlzeit endet in letzer Position
+Endet Ganztägig|Fehlzeit endet in letzter Position
 Anrechnen|die durch die Fehlzeit entstandenen Ausfallstunden werden unter `Vertretungsplan > Anrechenstunden` aufgeführt
 Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änderungen (Vertretungen, Zusatzunterricht, Fehlzeiten...)
 Änderungen zurücksetzen|setzen Sie den Haken, wenn Sie Änderungen, die von der Fehlzeit betroffen sind, rückgängig machen wollen
@@ -212,35 +188,29 @@ Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änder
 
 Eintragung|
 -|-
-Name |
-Beginnt|
-Endet|
-Fehlgrund|
-Detail|
-Bemerrkung|
-Anrechenstunden|
-Beginnt ganztägig|
-Endet Ganztägig|
-Anrechnen|
-Folgende Änderungen betreffen diese Fehlzeit|
-Änderungen zurücksetzen|
+Name | `Stammdaten > Raum > Kürzel`
+Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Fehlgrund|`Schlüsselverzeichnis > Raumfehlgründe`
+Bemerkung|Freitext
+Beginnt ganztägig|Fehlzeit beginnt in erster Position
+Endet Ganztägig|Fehlzeit endet in letzter Position
+Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änderungen (Vertretungen, Zusatzunterricht, Fehlzeiten...)
+Änderungen zurücksetzen|setzen Sie den Haken, wenn Sie Änderungen, die von der Fehlzeit betroffen sind, rückgängig machen wollen
 
 ### Eingaben Klassenfehlzeit
 
 Eintragung|
 -|-
-Name|
-Beginnt|
-Endet|
-Fehlgrund|
-Detail|
-Bemerrkung|
-Anrechenstunden|
-Beginnt ganztägig|
-Endet ganztägig|
-Anrechnen|
-Folgende Änderungen betreffen diese Fehlzeit|
-Änderungen zurücksetzen|
+Name| `Stammdaten > Klasse > Kürzel`
+Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
+Fehlgrund|`Schlüsselverzeichnis > Klassenfehlgründe`
+Bemerkung|Freitext
+Beginnt ganztägig|Fehlzeit beginnt in erster Position
+Endet ganztägig|Fehlzeit endet in letzter Position
+Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änderungen (Vertretungen, Zusatzunterricht, Fehlzeiten...)
+Änderungen zurücksetzen|setzen Sie den Haken, wenn Sie Änderungen, die von der Fehlzeit betroffen sind, rückgängig machen wollen
 
 ### Die Fehlzeiten im Stundenplan
 
@@ -322,3 +292,28 @@ Wenn Sie im Bereich `Vertretungsplan > Fehlzeiten`die Ansicht `Liste`gewählt ha
 4. Bestätigen Sie Ihre Absicht im erscheinenden Dialogfenster mit `Speichern`.
 
 In Anhängigkeit vom gewählten Dateityp wird jetzt die exportierte Datei in Microsoft Excel, Microsoft Word oder in Ihrem aktiven Browser (z.B. Internet Explorer) angezeigt. Die exportierten Daten werden dann im Format der Fehlzeiten-Liste exportiert.
+
+
+[4]:/assets/images/vertretungsplan/sub-plan4.png
+[2a]:/assets/images/vertretungsplan/sub-plan2a.png
+[3a]:/assets/images/vertretungsplan/sub-plan3a.png
+[4a]:/assets/images/vertretungsplan/sub-plan4a.png
+[5a]:/assets/images/vertretungsplan/sub-plan5a.png
+[7]:/assets/images/vertretungsplan/sub-plan7.png
+[8]:/assets/images/vertretungsplan/sub-plan8.png
+[9]:/assets/images/vertretungsplan/sub-plan9.png
+[10]:/assets/images/vertretungsplan/sub-plan10.png
+[11]:/assets/images/vertretungsplan/sub-plan11.png
+[12]:/assets/images/vertretungsplan/sub-plan12.png
+[13]:/assets/images/vertretungsplan/sub-plan13.png
+[14]:/assets/images/vertretungsplan/sub-plan14.png
+[15]:/assets/images/vertretungsplan/sub-plan15.png
+[16]:/assets/images/vertretungsplan/sub-plan16.png
+[17]:/assets/images/vertretungsplan/sub-plan17.png
+[18]:/assets/images/vertretungsplan/sub-plan18.png
+[19]:/assets/images/vertretungsplan/sub-plan19.png
+[150]:/assets/images/vertretungsplan/sub-plan150.png
+[151]:/assets/images/vertretungsplan/sub-plan151.png
+[152]:/assets/images/vertretungsplan/sub-plan152.png
+[153]:/assets/images/vertretungsplan/sub-plan153.png
+[154]:/assets/images/vertretungsplan/sub-plan154.png
