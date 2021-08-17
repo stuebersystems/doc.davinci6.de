@@ -189,6 +189,7 @@ Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änder
 Eintragung|
 -|-
 Name | `Stammdaten > Raum > Kürzel`
+Ersatzraum|der gewählte Raum wird gesammelt ohne Überschneidungsprüfung für alle offenen Fehlzeitenpositionen übernommen, die Raumfehltzeit taucht nicht in der Liste der offenen Vertretungen auf
 Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
 Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
 Fehlgrund|`Schlüsselverzeichnis > Raumfehlgründe`
@@ -203,6 +204,7 @@ Folgende Änderungen betreffen diese Fehlzeit|von der Fehlzeit betroffene Änder
 Eintragung|
 -|-
 Name| `Stammdaten > Klasse > Kürzel`
+nur Kurs| speziell für Oberstufenpläne, die Fehlzeit gilt nicht für die gesamte Klasse sondern nur für den gewählten Kurs
 Beginnt|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
 Endet|Datum, Positionsbezeichnung laut Zeitrahmen, Uhrzeit
 Fehlgrund|`Schlüsselverzeichnis > Klassenfehlgründe`
