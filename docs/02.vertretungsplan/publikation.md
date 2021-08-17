@@ -1,33 +1,20 @@
 # Publikationen
 
-[96]:/assets/images/vertretungsplan/sub-plan96.png
-[97]:/assets/images/vertretungsplan/sub-plan97.png
-[98]:/assets/images/vertretungsplan/sub-plan98.png
-[99]:/assets/images/vertretungsplan/sub-plan99.png
-[101]:/assets/images/vertretungsplan/sub-plan101.png
-[102]:/assets/images/vertretungsplan/sub-plan102.png
-[103]:/assets/images/vertretungsplan/sub-plan103.png
-[104]:/assets/images/vertretungsplan/sub-plan104.png
-[118]:/assets/images/vertretungsplan/sub-plan118.png
-[119]:/assets/images/vertretungsplan/sub-plan119.png
-[120]:/assets/images/vertretungsplan/sub-plan120.png
-[121]:/assets/images/vertretungsplan/sub-plan121.png
-[124]:/assets/images/vertretungsplan/sub-plan124.png
-[125]:/assets/images/vertretungsplan/sub-plan125.png
-[126]:/assets/images/vertretungsplan/sub-plan126.png
-[127]:/assets/images/vertretungsplan/sub-plan127.png
-[128]:/assets/images/vertretungsplan/sub-plan128.png
-[129]:/assets/images/vertretungsplan/sub-plan129.png
-[132]:/assets/images/vertretungsplan/sub-plan132.png
-[133]:/assets/images/vertretungsplan/sub-plan133.png
-
 ## Änderungen veröffentlichen
 
 Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DAVINCI bzw. DAVINCI-LOOK sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
 
+!!! warning "Wichtig"
+
+      Um diese Funktionalität zu nutzen, aktivieren Sie bitte in den Dateieigenschaften `Plan > Eigenschaften > Datenschutz` die Optionen `Änderungen freigeben`.
+
 In der Änderungsliste sind Änderungen zunächst in der Spalte Status mit dem Wert `Unveröffentlicht` gekennzeichnet. Auf diese Weise können Änderungen erstellt werden, ohne dass diese direkt für alle sichtbar sind. Wenn die Änderungen fertig abgeschlossen sind, müssen diese veröffentlicht werden.
 
+Die Schaltfläche `Änderungen freigeben` finden Sie in der Menügruppe `Publizieren > Pläne veröffentlichen`.
+
 [![Die Schaltfläche `Änderungen freigeben` finden Sie in der Menügruppe `Publizieren > Pläne veröffentlichen`.][96]][96]
+
+Im Dialogfenster `Änderungen freigeben` legen Sie fest, ob Sie nur eigene oder Änderungen anderer Bearbeiter veröffentlichen.
 
 [![Im Dialogfenster `Änderungen freigeben` legen Sie fest, ob Sie nur eigene oder Änderungen anderer Bearbeiter veröffentlichen..][97]][97]
 
@@ -65,7 +52,7 @@ Mit der Auswahl der Vorschau gelangen Sie in ein Fenster mit umfangreicher Funkt
 
 [![Im Dialogfenster der Druckvorschau können Sie sowohl das Druckergebnis ansehen als auch Einstellungen des ausgewählten Druckformats direkt ändern.][101]][101]
 
-##### Menügruppe Bericht
+**Menügruppe Bericht**
 
 Über die Schaltfläche `Design` gelangen Sie direkt zu den Detaileinstellungen des definierten Druckformats. Alle Änderungen werden direkt im Druckformat gespeichert und unmittelbar in der Vorschau
 angezeigt.
@@ -76,7 +63,7 @@ angezeigt.
 
       Bei geschickter Anordnung von Vorschaufenster und dem Dialogfenster für die Detaileinstellungen des Druckformats, können Sie beide Fenster nebeneinander anzeigen. Wenn Sie jetzt Änderungen im Dialogfenster des Druckformats vornehmen und anschließend auf die Schaltfläche `Übernehmen` klicken, werden die Änderungen sofort im Vorschaufenster sichtbar, ohne das Dialogfenster verlassen zu müssen.
 
-##### Menügruppe Ausgabe
+**Menügruppe Ausgabe**
 
 Hier können Sie über die Schaltfläche `Drucken` die Ausgabe direkt auf den Drucker ausgeben.
 
@@ -84,7 +71,7 @@ Hier können Sie über die Schaltfläche `Drucken` die Ausgabe direkt auf den Dr
 
 Das Dialogfenster zur Auswahl der Druckeroptionen wird aufgerufen, wenn Sie die Schaltfläche `Druckdialog` anwählen. Optional können Sie die Ausgabe in eine PDF-Datei exportieren, wenn Sie auf die Schaltfläche `Nach PDF exportieren` drücken.
 
-##### Menügruppe Format
+**Menügruppe Format**
 
 Mit der Schaltfläche `Seite einrichten` können Sie das Dialogfenster zum Einrichten der Seite für den Ausdruck aufrufen.
 
@@ -92,7 +79,7 @@ Mit der Schaltfläche `Seite einrichten` können Sie das Dialogfenster zum Einri
 
 In diesem Dialogfenster können Sie auf insgesamt vire Registerkarten grundlegende Seiteneinstellungen vornehmen.
 
-##### Menügruppe Zoom
+**Menügruppe Zoom**
 
 Sie können über die Schaltflächen `Ganze Seite`, `Zwei Seiten` oder allgemein über das Aufklappmenü
 `Seiten` festlegen, wie viel Seiten gleichzeitig in der Vorschau dargestellt werden sollen.
@@ -101,13 +88,13 @@ Sie können über die Schaltflächen `Ganze Seite`, `Zwei Seiten` oder allgemein
 
 Das Aufklappmenü `Zoom` ermöglicht diverse Einstellung für die prozentuale Darstellung der Originalgröße.
 
-##### Menügruppe Navigation
+**Menügruppe Navigation**
 
 Hier können Sie die zwischen den einzelnen Seiten der Vorschau navigieren.
 
 [![Hier sehen Sie die Schaltflächen der Menügruppe "Navigation"][119]][119]
 
-##### Menügruppe Vorschau
+**Menügruppe Vorschau**
 
 Über Anwahl der Schaltfläche `Kleinansicht` wird die Vorschau in eine linke und eine rechte Fläche unterteilt. Links wird die einzelne Seite in der gewünschten Größe angezeigt und auf der rechten werden alle Seiten in Miniaturansicht zur schnellen Anwahl angezeigt.
 
@@ -115,7 +102,7 @@ Hier können Sie die zwischen den einzelnen Seiten der Vorschau navigieren.
 
 Das Aufklappmenü `Ansicht` ermöglich das Einblenden von Rändern, der Ränderleiste oben und/oder der Statusleiste unten in der Vorschau. Ränder selbst werden dabei in der Vorschau des Berichts durch gestrichelte Linien dargestellt.
 
-### Tagesaktuell Stundenpläne drucken
+### Tagesaktuelle Stundenpläne drucken
 
 Neben dem Druck von regulären Stundenplänen können Stundenpläne auch tagesaktuelle aufgrund von eventuellen Veränderung im Vertretungsplan ausgegeben werden.
 
@@ -286,8 +273,33 @@ Nähere Informationen zur Umsetzung finden Sie [hier](09.infoserver/allgemeines/
 
 Klicken Sie im Modul DAVINCI LOOK auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
 
+Nähere Informationen zur Umsetzung finden Sie [hier](https://doc.davinci6.stueber.de/05.look/02.ansichten/#die-ansicht-vertretungsplan)
+
 ## Public Displays
 
 Sie können den DAVINCI Vertretungsplan oder Stundenplan auf E-Boards in Ihrer Schule publizieren.
 
 Durch die direkte Integration der DAVINCI WEBBOX in CONFIRE SHOWTIME ist die Umsetzung der Darstellung denkbar einfach.
+
+Nähere Informationen zur Umsetzung finden Sie [hier](https://doc.showtime2.stueber.de/howto/create-projects/manage-layouts/davinci.html)
+
+[96]:/assets/images/vertretungsplan/sub-plan96.png
+[97]:/assets/images/vertretungsplan/sub-plan97.png
+[98]:/assets/images/vertretungsplan/sub-plan98.png
+[99]:/assets/images/vertretungsplan/sub-plan99.png
+[101]:/assets/images/vertretungsplan/sub-plan101.png
+[102]:/assets/images/vertretungsplan/sub-plan102.png
+[103]:/assets/images/vertretungsplan/sub-plan103.png
+[104]:/assets/images/vertretungsplan/sub-plan104.png
+[118]:/assets/images/vertretungsplan/sub-plan118.png
+[119]:/assets/images/vertretungsplan/sub-plan119.png
+[120]:/assets/images/vertretungsplan/sub-plan120.png
+[121]:/assets/images/vertretungsplan/sub-plan121.png
+[124]:/assets/images/vertretungsplan/sub-plan124.png
+[125]:/assets/images/vertretungsplan/sub-plan125.png
+[126]:/assets/images/vertretungsplan/sub-plan126.png
+[127]:/assets/images/vertretungsplan/sub-plan127.png
+[128]:/assets/images/vertretungsplan/sub-plan128.png
+[129]:/assets/images/vertretungsplan/sub-plan129.png
+[132]:/assets/images/vertretungsplan/sub-plan132.png
+[133]:/assets/images/vertretungsplan/sub-plan133.png
