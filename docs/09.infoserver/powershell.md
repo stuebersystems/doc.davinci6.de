@@ -71,4 +71,4 @@ Das war's! Sie können den Workflow testen, indem Sie im Verwaltungsnetzwerk ein
 [1]:/assets/images/is/sigma1.svg
 [2]:/assets/images/is/sigma2.svg
 [3]:/assets/images/is/sigma3.svg
-[4]:/assets/images/issensitiv.haken.png
+[4]:/assets/images/is/sensitiv.haken.png

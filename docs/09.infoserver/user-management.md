@@ -28,13 +28,13 @@ Die Vergabe der Benutzernamen kann auch alternativ durch DAVINCI automatisch erf
 
 * Prüfen Sie unter `Plan > DAVINCI Optionen > Bezeichnungen`, ob Ihre gewünschte Bezeichnung bereits ausgewählt wurde.
 
-![Bezeichnungen](/assets/images/bezeichnungen.png)
+Bild [![Bezeichnungen][1]][1]
 
 * Markieren Sie anschließend in der Ansicht `Stammdaten > Lehrer` die Lehrer durch Mehrfachmarkierung, die einen neuen Benutzernamen bekommen sollen.
 
 * Wählen Sie dann die rechte Maustaste und dort den Menüpunkt `Benutzernamen vorbesetzen` und bestätigen Sie die Sicherheitsabfrage mit `OK`.
 
-![Benutzer generieren](/assets/images/benutzer_generieren.jpg)
+[![Benutzer generieren][2]][2]
 
 * Die zuvor markierten Lehrer erhalten jetzt das Lehrerkürzel als Benutzername.
 
@@ -57,11 +57,11 @@ Für jeden in der DAVINCI-Plandatei zuvor definierten Benutzernamen muss nun im 
 Dazu können Sie die aus DAVINCI exportierten Benutzerdaten importieren oder Benutzer manuell anlegen.  
 Passworte für die Benutzer können Sie einzeln vergeben oder für mehrere Benutzer automatisch erzeugen lassen. Markieren Sie dazu die Benutzer in der Übersicht und wählen dann in der Menüleiste den Punkt `Kennungen erzeugen` aus.
 
-![Kennungen erzeugen](/assets/images/Kennungen_erzeugen.jpg)
+[![Kennungen erzeugen][3]][3]
 
 Um die automatischen Kennwörter den Nutzern mitzuteilen finden Sie die Option `Exportieren` in der Menüleiste. Es wird eine Textdatei erzeugt, die die persönlichen Zugangsdaten enthält.
 
-![Kennungen exportieren](/assets/images/Kennungen_exportieren.jpg)
+[![Kennungen exportieren][4]][4]
 
 Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](https://doc.davinci6.stueber.de/06.enterprise/06.benutzer/) des DAVINCI-EXPLORERS.
 
@@ -82,9 +82,9 @@ Erzeugen Sie im DAVINCi-EXPLORER auf der Unterkarte `Benutzergruppen`über die S
 ## Benutzerrechte und -gruppen der Plandatei zuordnen
 
 Wählen Sie auf der Unterkarte `Plandateien` die Ebene aus, auf die die Benutzer zugreifen sollen und klicken dann auf die Schaltfläche  `Richtlinien` in der Menüleiste. Auf der Unterkarte `Benutzergruppen` fügen Sie Ihre angelegten Benutzergruppen hinzu.
-Auf der Unterkarte `Plandateien` wählen Sie anschließend den `Arbeitsbereich` aus, klicken dann auf die Schaltfläche `Richtlinien ` Unterkarte `Benutzer` fügen Sie Ihren "Webuser" hinzu,
+Auf der Unterkarte `Plandateien` wählen Sie anschließend den `Arbeitsbereich` aus, klicken dann auf die Schaltfläche `Richtlinien` Unterkarte `Benutzer` fügen Sie Ihren "Webuser" hinzu,
 
-![Benutzer zuordnen](/assets/images/Benutzer_zuordnen.jpg)
+[![Benutzer zuordnen][5]][5]
 
 !!! info "Hinweis"
 
@@ -94,14 +94,14 @@ Auf der Unterkarte `Plandateien` wählen Sie anschließend den `Arbeitsbereich` 
 
 Im DAVINCI-EXPLORER können Sie für die  Benutzergruppen unter den "Richtlinien für DAVINCI INFOSERVER”  bestimmen, welche Rechte der Benutzer für die betreffende Plandatei erhalten soll.
 
-![Richtlinien Infoserver](/assets/images/richtlinien_infoserver.png)
+Bild [![Richtlinien Infoserver][6]][6]
 
 |Richtlinie|Optionen|
 |--|--|
 |**Daten exportieren**|* Nicht erlaubt|
 | |* HTML exportieren erlaubt|
 | |* XML und HTML exportieren erlaubt|
-| |Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden.<br/>**Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**|
+| |Der DAVINCI-INFOSERVER kann XML-Daten und/oder HTML-Daten vom DAVINCI-SERVER abholen, beides wird für DAVINCI-MOBILE und DAVINCI-WEBBOX nicht mehr benötigt, beide Anwendungen erhalten Daten im Format Json. Sie haben an dieser Stelle die Möglichkeit den alten Output für HTML und XML-Daten zu unterbinden.<br/> **Für den Einsatz der WEBBOX empfehlen wir hier die Auswahl "Nicht erlaubt" zu treffen.**|
 |**DAVINCI WEBBOX Logout/Login anzeigen**|* Ja|
 | |* Nein|
 | |Möchten Sie, dass für die DAVINCI WEBBOX **der Schalter zum Aufruf des Anmeldefenster gezeigt wird**, dann wählen Sie bitte "Ja". Wenn Sie in der DAVINCI WEBBOX Inhalte zeigen möchten, die alle sehen dürfen, können Sie den Schalter zum Aufruf des Anmeldefenster mit der Auswahl "Nein" ausblenden.|
@@ -109,7 +109,7 @@ Im DAVINCI-EXPLORER können Sie für die  Benutzergruppen unter den "Richtlinien
 | |* Nein|
 | |Hier können Sie entscheiden, ob der Lehrer in der DAVINCI WEBBOX und der App DAVINCI MOBILE im Stundenplan und **in der Vertretungsliste in der Spalte "Vertreter" mit seinem Namen (Auswahl JA) oder nur mit seinem Kürzel (Auswahl NEIN) angezeigt werden soll**.|
 
-**Stundenpläne anzeigen**
+## Stundenpläne anzeigen
 
 Folgende Richtlinien stehen zur Auswahl:
 
@@ -190,7 +190,7 @@ Den Benutzer "Webuser" legen Sie im DAVINCI EXPLORER auf der Karte Benutzer an u
 
 Weisen Sie diesen neuen Benutzer bitte **keiner** Benutzergruppe zu, sondern wechseln Sie auf die Karte `Plandateien`, markieren auf der linken Seite bitte den `Arbeitsbereich`, klicken dann links oben auf `Richtlinien` und fügen den Benutzer auf der Unterkarte `Benutzer` über die Schaltfläche `Hinzufügen` hinzu.
 
-![Webuser dem Arbeitsbereich zuweisen](/assets/images/webuser.png)
+[![Webuser dem Arbeitsbereich zuweisen][7]][7]
 
 mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-SERVER  unter `Start > Systemsteuerung >  DAVINCI Infoserver > Server-Verbindung` verwendet.
 
@@ -205,9 +205,11 @@ mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-S
 | Daten exportieren | Für den Funktionstest des DAVINCI INFOSERVERS, wählen Sie "XML und HTML exportieren erlaubt".<br/> Möchten Sie nur mit der DAVINCI WEBBOX und DAVINCI MOBILE arbeiten, wählen Sie bitte "Nicht erlaubt". |
 | DaVinci-Webbox LogIn/LogOut anzeigen | Möchten Sie, dass kein Zugriff ohne vorherige Anmeldung möglich ist, wählen Sie bitte "Ja". |
 |DAVINCI WEBBOX/MOBILE Lehrernamen zeigen|Wählen Sie hier "Nein" aus.
-| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/> Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". |
+| Stundenpläne anzeigen | Wenn ohne Anmeldung kein Inhalt dargestellt werden soll, wählen Sie bitte "Nicht erlaubt". <br/> Sollte ohne Anmeldung z.B. nur der Vertretungsplan sichtbar sein, wählen Sie "Gast: Vertretungsliste, Raumpläne erlaubt". 
 
-![empfohlene Einstellungen für den Webuser](/assets/images/wb.empfehlung.png)
+Die sind die empfohlenen Einstellungen für den Webuser.
+
+[![empfohlene Einstellungen für den Webuser][8]][8]
 
 !!! info "Hinweis"
 
@@ -216,7 +218,21 @@ mit Berechtigungen versehen und später für die Server-Verbindung zum DAVINCI-S
 ```
 http://Ihr Server/davinci-timetable.html?account=private
 ```
+Start der WEBBOX ohne den Parameter account=private
 
-![Start der WEBBOX ohne den Parameter account=private](/assets/images/wb.ohne.parameter.png)
+[![Beschriftung][9]][9] 
 
-![Start der WEBBOX mit dem Parameter account=private](/assets/images/wb.mit.parameter.png)
+Start der WEBBOX mit dem Parameter account=private
+
+[![Beschriftung][10]][10]
+
+[1]:/assets/images/is/bezeichnungen.png
+[2]:/assets/images/is/benutzer_generieren.jpg
+[3]:/assets/images/is/Kennungen_erzeugen.jpg
+[4]:/assets/images/is/Kennungen_exportieren.jpg
+[5]:/assets/images/is/Benutzer_zuordnen.jpg
+[6]:/assets/images/is/richtlinien_infoserver.png
+[7]:/assets/images/is/webuser.png
+[8]:/assets/images/is/wb.empfehlung.png
+[9]:/assets/images/is/wb.ohne.parameter.png
+[10]:/assets/images/is/wb.mit.parameter.png
