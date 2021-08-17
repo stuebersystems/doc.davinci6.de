@@ -32,9 +32,13 @@ Möchten Sie eine neue Version der DAVINCI WEBBOX einspielen, gehen Sie wie folg
 
 1. Prüfen Sie, welche Version Sie aktuell einsetzen. Rufen Sie Ihre WEBBOX-Seite auf und schauen unten rechts unter dem i-Symbol.
 
-![Klicken Sie auf das i-Symbol!](/assets/images/webbox01.png)
+Klicken Sie auf das i-Symbol!
 
-![Die eingesetzte Version wird gezeigt.](/assets/images/webbox02.png)
+[![Klicken Sie auf das i-Symbol!][1]][1] 
+
+Die eingesetzte Version wird gezeigt
+
+[![Beschriftung][2]][2]
 
 Ob eine neuere Ausgabe der WEBBOX-Dateien vorliegt, können Sie unter [https://davinci-webbox.stueber.de/](https://davinci-webbox.stueber.de/)prüfen.
 
@@ -48,3 +52,6 @@ InternetInformationServer|`C:\inetpub\wwwroot`
 !!! warning "Wichtig"
 
     Starten Sie bitte abschließend den Web-Server und Ihren DAVINCI-Server neu!
+    
+[1]:/assets/images/is/webbox01.png
+[2]:/assets/images/is/webbox02.png
