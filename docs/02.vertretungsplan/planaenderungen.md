@@ -1,22 +1,5 @@
 # Planänderungen vornehmen
 
-[155]:/assets/images/vertretungsplan/sub-plan155.png
-[156]:/assets/images/vertretungsplan/sub-plan156.png
-[157]:/assets/images/vertretungsplan/sub-plan157.png
-[158]:/assets/images/vertretungsplan/sub-plan158.png
-[159]:/assets/images/vertretungsplan/sub-plan159.png
-[160]:/assets/images/vertretungsplan/sub-plan160.png
-[161]:/assets/images/vertretungsplan/sub-plan161.png
-[162]:/assets/images/vertretungsplan/sub-plan162.png
-[163]:/assets/images/vertretungsplan/sub-plan163.png
-[164]:/assets/images/vertretungsplan/sub-plan164.png
-[165]:/assets/images/vertretungsplan/sub-plan165.png
-[166]:/assets/images/vertretungsplan/sub-plan166.png
-[167]:/assets/images/vertretungsplan/sub-plan167.png
-[168]:/assets/images/vertretungsplan/sub-plan168.png
-[169]:/assets/images/vertretungsplan/sub-plan169.png
-
-
 Neben Vertretungserstellungen können Sie im Vertretungsplan auch sonstige Planänderungen vornehmen. Wir empfehlen dies im Programmbereich `Vertretungen > Stundenplan`zu machen.
 
 ## Termine tauschen und verschieben
@@ -284,3 +267,41 @@ Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgenderma�
 7. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
 Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzeiten-, Vertretungenliste und den korrespondierenden Stundenplänen eingetragen.
+
+## Fehlstelle erzeugen
+
+## Neue Raumbuchung
+
+!!! info "Hinweis"
+
+    Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
+
+Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
+
+1. Klicken Sie in der Menügruppe `Start > Änderungen` auf die Schaltfläche `Neu`.
+2. Wählen Sie den Eintrag `Neue Raubuchung` aus dem Aufklappmenü.
+3. Geben Sie im Eingabefeld Titel des erscheinenden Dialogfensters eine Bezeichnung ein, die als Mitteilungs-Titel in den Bildschirmplänen und den publizierten Plänen erscheinen soll.
+4. Geben Sie im Eingabefeld Mitteilung einen Info-Text ein, der als Mitteilung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+5. Geben Sie im Eingabefeld Bemerkung einen Info-Text ein, der als Bemerkung in den Bildschirmplänen sowie den publizierten Plänen erscheinen soll.
+6. Tragen Sie in den Eingabefeldern Datum und Dauer die Eckpunkte des Zeitraums ein, auf den sich die Raumbuchung beziehen soll.
+7. Belassen Sie die vorbelegten Einträge bei den Teilnehmern Klasse, Raum bzw. Lehrer **oder** Wählen Sie die gewünschten Teilnehmer über Teilnehmer hinzufügen aus.
+8. Bestätigen Sie Ihre Angaben im Dialogfenster Neue Raumbuchung mit `Ok`.
+
+## Ressourcen zuweisen
+
+[155]:/assets/images/vertretungsplan/sub-plan155.png
+[156]:/assets/images/vertretungsplan/sub-plan156.png
+[157]:/assets/images/vertretungsplan/sub-plan157.png
+[158]:/assets/images/vertretungsplan/sub-plan158.png
+[159]:/assets/images/vertretungsplan/sub-plan159.png
+[160]:/assets/images/vertretungsplan/sub-plan160.png
+[161]:/assets/images/vertretungsplan/sub-plan161.png
+[162]:/assets/images/vertretungsplan/sub-plan162.png
+[163]:/assets/images/vertretungsplan/sub-plan163.png
+[164]:/assets/images/vertretungsplan/sub-plan164.png
+[165]:/assets/images/vertretungsplan/sub-plan165.png
+[166]:/assets/images/vertretungsplan/sub-plan166.png
+[167]:/assets/images/vertretungsplan/sub-plan167.png
+[168]:/assets/images/vertretungsplan/sub-plan168.png
+[169]:/assets/images/vertretungsplan/sub-plan169.png
+
