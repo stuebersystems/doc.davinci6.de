@@ -234,11 +234,11 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
 
 Die erstellte Vertretung wird nun in der Fehlzeiten-Liste und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
 
-#### Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Darstellung 
 
-1. Das Feld `Art` zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
+Das Feld `Art` in der Liste der Offenen Vertretungen zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
 
-2. Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
+Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
 
   ![Anhand der Einträge In der Spalte "Status" der Fehlzeiten-/ Vertretungenliste sehen Sie, ob die Änderung bereits erstellt wurde.](/assets/images/vertretungsplan/sub-plan38.png)
 
@@ -285,15 +285,15 @@ Um eine Vertretung durch Vorziehen von Unterricht zu erstellen, gehen Sie bitte 
 5. Entscheiden Sie über das Kontrollkästchen Sollen Fehlstellen für die Klasse(n) erzeugt werden?, ob an der ursprünglichen Planposition des vorgezogenen Unterrichts eine „Fehlstelle“ eingefügt wird. Fehlstellen können selbst vertreten werden.
 6. Klicken Sie auf `OK`.
 
-Die erstellte Vertretung wird nun in der Fehlzeiten-\/Vertretungen-Liste und den Stundenplänen eingetragen.
+Die erstellte Vertretung wird nun in der Fehlzeiten-, Vertretungen-Liste und den Stundenplänen eingetragen.
 
-#### Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Darstellung
 
-1. Das Feld `SArt` zeigt den Eintrag `Verschoben` und ist nicht mehr gelb markiert.
+Das Feld `SArt` in der Liste der offnene Vertretungen zeigt den Eintrag `Verschoben` und ist nicht mehr gelb markiert.
 
-2. Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
+Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
 
-3. Genauso werden in den Feldern `Fach` und `Raum` die ursprünglichen Einträge eingeklammert und die Vertretungslösungen mit einem Pluszeichen vorangestellt.
+Genauso werden in den Feldern `Fach` und `Raum` die ursprünglichen Einträge eingeklammert und die Vertretungslösungen mit einem Pluszeichen vorangestellt.
 
 ![Wird eine Vertretung durch das Vorziehen einer Stunde durchgeführt, so wird dies in der
 Fehlzeiten-/Vertretungen-Liste durch „Von 10.10. Mi 5verschoben" gekennzeichnet.](/assets/images/vertretungsplan/sub-plan43.png)
@@ -303,9 +303,9 @@ Fehlzeiten-/Vertretungen-Liste durch „Von 10.10. Mi 5verschoben" gekennzeichne
 | <img src="/assets/images/vertretungsplan/sub-plan44.png"> | Die Planänderung wird an zwei Stellen markiert. Der ursprüngliche Termin wird rot markiert. Der rote Änderungsbalken erhält die Aufschrift „Verschoben auf …“. |
 | <img src="/assets/images/vertretungsplan/sub-plan45.png"> | Der Änderungsbalken des neuen Termins erhält die Aufschrift „Von … verschoben“. Der Wechsel bei den Lehrern und gegebenenfalls Räumen und Fächern wird wie in der Fehlzeitenliste durch ein Pluszeichen vor dem neuen Eintrag und die Einklammerung des ursprünglichen Eintrags gekennzeichnet. |
 
-### Fehlstellen erzeugen und vertreten
+### Sonderfall Fehlstellen erzeugen und vertreten
 
-Sie haben bereits im letzten Kapitel die Möglichkeit kennengelernt eine Fehlstelle zu erzeugen, um für einen Termin, den Sie vorziehen möchten, selbst wieder eine Vertretung erstellen zu können. Die Option eine Fehlstelle einzufügen wird Ihnen standardmäßig angeboten, wenn Sie den Unterricht eines Lehrers zur Vertretung vorziehen. Darüber hinaus können Sie das Instrument aber auch unabhängig von einer konkreten Vorziehoperation nutzen. Eine Fehlstelle kann an jedem freien Termin eingefügt werden, zu dem kein Unterricht (mehr) stattfindet.
+Sie können Fehlstellen erzeugen, um für einen Termin, den Sie vorziehen möchten, selbst wieder eine Vertretung erstellen zu können. Die Option eine Fehlstelle einzufügen wird Ihnen standardmäßig angeboten, wenn Sie den Unterricht eines Lehrers zur Vertretung vorziehen. Darüber hinaus können Sie das Instrument aber auch unabhängig von einer konkreten Vorziehoperation nutzen. Eine Fehlstelle kann an jedem freien Termin eingefügt werden, zu dem kein Unterricht (mehr) stattfindet.
 
 Was unterscheidet nun aber das Instrument der Fehlstelle von einer normalen Fehlzeit, die Sie in der
 Fehlzeiten-Ansicht eintragen? Bei einer normalen Lehrer- bzw. Raumfehlzeit werden nur die Termine zur Vertretung angeboten, die auch von einem Unterrichtsausfall betroffen sind. Freistunden in Lehrer- und Raumplänen, die innerhalb einer Fehlzeit liegen, tauchen hingegen in der Fehlzeiten-Liste der Vertretungsansicht nicht auf. Dies ist nur folgerichtig, da für Stunden, in denen kein Unterricht ausfällt auch kein Ersatzraum oder -lehrer gefunden werden muss.
@@ -326,15 +326,13 @@ Im vorherigen Kapitel wurde bereits gezeigt, wie Sie eine Fehlstelle im Rahmen d
 
 Die erzeugte Fehlstelle wird nun in der Fehlzeiten-Liste und in den betroffenen Klassenplänen eingetragen.
 
-## Fehlzeiten-/ Vertretungen-Liste
+#### Darstellung
 
-Eine neu angelegte Fehlstelle erhält im Feld `Art` den Eintrag `Fehlstelle`.
+Eine neu angelegte Fehlstelle erhält in der LÖiste der Offenen Vertretungen im Feld `Art` den Eintrag `Fehlstelle`.
 
 ![Dies ist die Anzeige einer Fehlstelle in der Fehlzeiten-/Vertretungen-Liste vor der Vertretung.](/assets/images/vertretungsplan/sub-plan46.png)
 
-## Stundenplan
-
-Für die die neue Fehlstelle wird ein neues Terminfeld angelegt. Der rote Änderungsbalken des Termins erhält die Aufschrift „Fehlstelle“.
+Für die neue Fehlstelle wird in der Ansicht Stundenplan ein neues Terminfeld angelegt. Der rote Änderungsbalken des Termins erhält die Aufschrift „Fehlstelle“.
 
 ![Hier sehen Sie eine neu erzeugte Fehlstelle im Klassenplan.](/assets/images/vertretungsplan/sub-plan47.png)
 
@@ -342,20 +340,17 @@ Für eine neu angelegte Fehlstelle können Sie genauso wie für andere Fehlzeite
 
 Eine erstellte Vertretung für eine Fehlstelle wird in der Fehlzeiten-Liste und im Stundenplan folgendermaßen markiert:
 
-## Markierung vertretener Fehlstellen in der Fehlzeiten-/ Vertretungen-Liste
+#### Darstellung
 
-1. Das Feld `Art` erhält den Eintrag `Zusätzlich` und ist nicht mehr gelb markiert.
+Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Zusätzlich` und ist nicht mehr gelb markiert.
 
-2. Neue Einträge in den Feldern `Lehrer`, `Fach` und `Raum` werden mit einem Pluszeichen versehen.
-
+Neue Einträge in den Feldern `Lehrer`, `Fach` und `Raum` werden mit einem Pluszeichen versehen.
 
 ![Dies ist die Anzeige einer vertretenen Fehlstelle in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan48.png)
 
-## Markierung vertretener Fehlstellen im Stundenplan
+Das Terminfeld im Stundenplan behält sein rote Markierung sowie die Aufschrift `Zusätzlich` in Lehrer- und Raumplan bzw. `Vertreten` im Klassenplan.
 
-1. Das Terminfeld behält sein rote Markierung sowie die Aufschrift `Zusätzlich` in Lehrer- und Raumplan bzw. `Vertreten` im Klassenplan.
-
-2. Neue Lehrer, Räume und Fächer werden wie in der Fehlzeiten-Liste mit einem vorangestellten Pluszeichen markiert
+Neue Lehrer, Räume und Fächer werden wie in der Fehlzeiten-Liste mit einem vorangestellten Pluszeichen markiert
 
 ![So wird eine vertretene Fehlstelle im Stundenplan der Klasse angezeigt.](/assets/images/vertretungsplan/sub-plan49.png)
 
