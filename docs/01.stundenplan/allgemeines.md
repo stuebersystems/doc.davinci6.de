@@ -54,12 +54,12 @@ Für die an die Stammdateneingabe anknüpfenden Planungsschritte steht Ihnen der
 
 !!! info "Hinweis"
 
-    Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für das Modul DAVINCI JAHRESTERMINE.
+    Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für das Modul DAVINCI JAHRESTERMINE. Sie können so z.B. 5 Stunden einer Veranstaltung auf 5 beliebige Daten des Jahres legen.)
 
 ## Grundlegende Themen
 
-    * Benutzeroberfläche - Ansichten
-    * Unterrichtsverteilung planen
+* Benutzeroberfläche - Ansichten
+* Unterrichtsverteilung planen
 
 Der zweite Abschnitt vermittelt, wie Sie Stundenpläne zur Bearbeitung auswählen können. Im nächsten Schritt wird gezeigt, wie Sie Unterrichtsveranstaltungen erzeugen und bearbeiten können.
 
