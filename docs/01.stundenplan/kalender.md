@@ -28,18 +28,17 @@ Der Programmbereich `Kalender` dient dem:
 * erfassen von persönlichen schulischen und nicht-schulischen Termine z.B. Prüfungen, Elternsprechstunden oder Zahnarztbesuche. Dafür können Sie einen persönlichen Zusatzkalender anlegen, der nur von Ihnen eingesehen werden kann.
 * erfassen von Aufgabenplanung z.B. die Teilnehmer sowie den Zeitraum für die Vorbereitungen zum „Tag der offenen Tür“.
 
-### Mit den Listen des Kalenders arbeiten
+Die Einträge, die Sie in der Kalenderansicht vornehmen, werden in drei Listen hinterlegt, die Sie in den Ansichten „Ereignisse“, „Aufgaben“ und „Termine“ finden. Die Spaltenfelder dieser Listen zeigen die wesentlichen Angaben zu den erstellten Terminen und Aufgaben. Wie Sie in DAVINCI 6 mit Listen arbeiten, erfahren Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/mit-listen-arbeiten).
 
-Die Einträge, die Sie in der Kalenderansicht vornehmen, werden in drei Listen hinterlegt, die Sie in den Ansichten „Ereignisse“, „Aufgaben“ und „Termine“ finden. Die Spaltenfelder dieser Listen zeigen die wesentlichen Angaben zu den erstellten Terminen und Aufgaben. Wie Sie in DAVINCI 6 mit Listen arbeiten, erfahren Sie [hier](/davinci-stundenplan/stundenplan-erstellen/mit-der-veranstaltungsliste-arbeiten.md).
-Ihnen stehen hier folgende Funktionen zur Verfügung:
+Es stehen Ihnen stehen folgende Funktionen zur Verfügung:
 
-Funktionen | Was ist damit möglich?
+Funktionen | Wo zu finden?
 --|--
 Einträge hinzufügen | Unter `Start > Neu` können Sie einen Eintrag zur Liste hinzufügen.
 Einträge bearbeiten | Mit `Start > Bearbeiten` können Sie ein in der Liste markiertes Element bearbeiten.
 Einträge duplizieren | Mit der Funktionstaste <kbd>F2</kbd> oder im Menü `Start > Neu > Termin duplizieren` können Sie ein in der Liste markiertes Element duplizieren.
 Einträge löschen | Mit `Start > löschen` wird ein in der Liste markiertes Element gelöscht.
-* **Listen exportieren** Unter `Start > Exportieren` können Sie die gesamte Liste in folgende Formate überführen: *.txt, *.xls, *.html und *.xml
+Listen exportieren | Unter `Start > Exportieren` können Sie die gesamte Liste in folgende Formate überführen: *.txt, *.xls, *.html und *.xml
 
 ## Bereich `Kalender > Kalender`
 
@@ -47,15 +46,15 @@ Dieser Arbeitsbereich ist zweigeteilt. Den überwiegenden Teil des Programmfenst
 
 ### Aufbau
 
-Standardmäßig sind im Programmbereich `Kalender` bereits zwei Kalender angelegt:
-
-Der Kalender `Unterricht` enthält alle Veranstaltungstermine, die in den Bereichen `Stundenplan` und `Kalender` eingetragen werden.
-
-Der Kalender `Hauptkalender` enthält alle Ereignisse und Aufgaben, für die keine eigenen Zusatzkalender angelegt werden.
-
-Beide Kalender können gemeinsam oder einzeln angezeigt werden. Die Ereignisse und Aufgaben eines deaktivierten Kalenders werden ausgeblendet. Öffnen Sie `Kalender > Ansicht` und wählen den gewünschten Kalender über die Checkbox an bzw. ab.
+Standardmäßig sind im Programmbereich `Kalender` bereits zwei Kalender angelegt.
 
 ![Im Zusatzfenster "Ansicht" können Sie Kalender auswählen.](/assets/images/KalenderCheckbox01.png)
+
+Der Zusatzkalender `Unterricht` enthält alle Veranstaltungstermine, die in den Bereichen `Stundenplan` und `Kalender` eingetragen werden.
+
+Der Zusatzkalender `Hauptkalender` enthält alle Ereignisse und Aufgaben, für die keine eigenen Zusatzkalender angelegt werden.
+
+Beide Kalender können gemeinsam oder einzeln angezeigt werden. Die Ereignisse und Aufgaben eines deaktivierten Kalenders werden ausgeblendet. Öffnen Sie `Kalender > Ansicht` und wählen den gewünschten Kalender über die Checkbox an bzw. ab.
 
 Die Anzeige der Termine auf dem Kalenderblatt wird an die getroffene Auswahl angepasst.
 
@@ -143,12 +142,12 @@ DAVINCI 6 unterstützt das iCalender-Format für den Austausch von Kalenderdaten
 
 Kalenderdaten, die in diesem Format vorliegen, können Sie nach DAVINCI importieren. Dies ermöglicht den Import von Terminen aus zahlreichen anderen Kalenderprogrammen, z.B. Mozilla Sunbird, Google Kalender.
 
-Um im Programmbereich „Kalender“ einen Kalender (z.B.: einen DAVINCI Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
+Um im Programmbereich `Kalender` einen Kalender (z.B.: einen DAVINCI Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
 
 !!! info "Hinweis"
 
-    Die offiziellen Feier- und Ferientage Ihres Bundeslandesfinden Sie hier:
-    **Windows 7/8/10** C:\Users\Public\Documents\Stueber Systems\daVinci 6\Beispiele\Kalender
+    Die offiziellen Feier- und Ferientage Ihres Bundeslandes finden Sie hier:
+    Windows 7/8/10 C:\Users\Public\Documents\Stueber Systems\daVinci 6\Beispiele\Kalender
 
 ### Termine exportieren
 
