@@ -1,7 +1,5 @@
 # Vertretungen
 
-## Vertretungen erstellen
-
 Die eingetragenen Fehlzeiten definieren die Problemstellung, für die der Vertretungsplaner eine Lösung finden muss. Für die abwesenden Lehrer und die nicht verfügbaren Räume muss Ersatz gefunden werden. Die eingetragenen Klassenfehlzeiten geben Aufschluss, welche Lehrer für eine Vertretung außerplanmäßig zur Verfügung stehen. Lehrerunterricht in einer abwesenden Klasse muss nicht vertreten werden.
 
 Für die Erstellung Ihrer Lehrer- und Raumvertretungen steht Ihnen die Ansicht „Vertretungen“ zur Verfügung. Um diese Ansicht zu öffnen, wählen Sie in der Navigationsleiste die Navigationsgruppe Vertretungsplan mit der Ansicht Vertretungen aus.
@@ -79,6 +77,10 @@ Um Ihre individuelle Bewertung dieser Parameter vorzunehmen, gehen Sie bitte fol
 
 4. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
+## Vorgabenwerte für Vertreter
+
+Im Menü `Start > Vertretungen > Einstellungen`können Sie Vorgaben für die automatische Vertretungserstellung machen. Die hier eingetragenen Werte finden sich auch als Indikatoren für die manuelle Vertretungsplanung wieder.
+
 ### Eignungsfaktoren
 
 Auf der Registerkarte "Eignungsfaktoren" des Dialogfensters `Vertretungseinstellungen` stehen für die Gewichtung der Eignungsfaktoren mehrere Parameter zur Verfügung, die der Vertretungsplaner mit einer Zahl zwischen 0 (unwichtig) bis 1000 (sehr wichtig) einstufen kann bzw. bei den Angaben zu den Anrechnungsstunden durch konkrete Werte festlegen kann.
@@ -129,23 +131,11 @@ Auf der Registerkarte "Anzeigen" des Dialogfensters `Vertretungseinstellungen` k
 
 ![Einstellungen für die Vertretungserstellung](/assets/images/vertretungsplan/sub-plan34.png)
 
-## Vertreter anzeigen
+#### Vertreter anzeigen
 
-Sie können im DAVINCI-Vertretungsplan einstellen, dass Ihnen zur Vertretung von Gruppenunterricht keine Vertreter zum Vorziehen angeboten werden, deren zugehöriger Unterricht im Klassenverband stattfindet. Umgekehrt sorgt die entsprechende Einstellung auch dafür, dass für Unterricht im Klassenverband kein Vertreter zum Vorziehen angezeigt wird, der einem Gruppenunterricht zugewiesen ist.
+Sie können hier einstellen, dass Ihnen zur Vertretung von Gruppenunterricht keine Vertreter zum Vorziehen angeboten werden, deren zugehöriger Unterricht im Klassenverband stattfindet. Umgekehrt sorgt die entsprechende Einstellung auch dafür, dass für Unterricht im Klassenverband kein Vertreter zum Vorziehen angezeigt wird, der einem Gruppenunterricht zugewiesen ist.
 
-Um diese Einstellung zu treffen gehen Sie bitte folgendermaßen vor:
-
-1. Wählen Sie in der Navigationsleiste die Navigationsgruppe `Vertretungsplan` mit der Ansicht `Vertretungen` aus.
-
-2. Klicken Sie die Schaltfläche `Einstellungen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
-
-3. Wählen Sie die Registerkarte `Anzeigen` im Dialogfenster `Vertretungseinstellungen`.
-
-4. Markieren Sie das Optionsfeld `Unterricht` im Klassenverband beachten.
-
-Die Anzeige der möglichen Vertreter zum Vorziehen von Unterricht wird nun an das Klassenverbandskriterium angepasst.
-
-## Vorziehbare Vertreter
+#### Vorziehbare Vertreter
 
 Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft. Soll die Suche auch in der vom Vertretungstermin aus gesehenen Vergangenheit erfolgen, so müssen Sie unter `Start > Einstellungen` unter der Reisterkarten "Anzeigen" das Optionsfeld `Aber nicht aus der Vergangenheit` deaktivieren.
 
@@ -154,7 +144,7 @@ Eintrag im Feld `Tage vor Vertretungsdatum für vorziehbare Termine` berücksich
 
 ![Einstellungen für die Vertretungserstellung](/assets/images/vertretungsplan/sub-plan34.png)
 
-## Farben in Stundenplänen
+#### Farben in Stundenplänen
 
 Um die in den Stammdaten von DAVINCI festgelegten Farben für Lehrer, Klassen, Fächer und Räume in
 den Stundenplänen nicht anzuzeigen, können Sie `Start` die Schaltfläche "Schwarz/Weiß" aktivieren.

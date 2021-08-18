@@ -8,7 +8,8 @@ Die Erfassung der Fehlzeiten nehmen Sie in der Ansicht `Fehlzeiten` vor. Zum Öf
 
 ## Fehlzeiten-Ansicht anpassen
 
-Anpassungen der Fehlzeitenansicht nehmen Sie über das Menü Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
+Anpassungen der Fehlzeitenansicht nehmen Sie über das Menü `Start > Fehlzeiten Ansicht`vor. 
+Die Fehlzeiten-Ansicht unterteilt sich in die drei Teilansichten Plan, Zeitplan und Liste. „Plan“ steht hierbei als Abkürzung für Stundenplan. Dabei können jeweils nur maximal zwei der drei verfügbaren Teilansichten gleichzeitig dargestellt werden. Die Standardansicht besteht aus den Teilansichten „Plan“ und „Zeitplan“. Im Folgenden werden wir die drei Teilansichten gesondert vorstellen.
 
 Nehmen Sie die Anpassung im Menü `Start > Fehlzeitenansicht` vor:
 
