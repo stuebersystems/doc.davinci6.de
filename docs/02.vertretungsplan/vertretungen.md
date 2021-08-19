@@ -307,8 +307,7 @@ Fehlzeiten-/Vertretungen-Liste durch „Von 10.10. Mi 5verschoben" gekennzeichne
 
 Sie können Fehlstellen erzeugen, um für einen Termin, den Sie vorziehen möchten, selbst wieder eine Vertretung erstellen zu können. Die Option eine Fehlstelle einzufügen wird Ihnen standardmäßig angeboten, wenn Sie den Unterricht eines Lehrers zur Vertretung vorziehen. Darüber hinaus können Sie das Instrument aber auch unabhängig von einer konkreten Vorziehoperation nutzen. Eine Fehlstelle kann an jedem freien Termin eingefügt werden, zu dem kein Unterricht (mehr) stattfindet.
 
-Was unterscheidet nun aber das Instrument der Fehlstelle von einer normalen Fehlzeit, die Sie in der
-Fehlzeiten-Ansicht eintragen? Bei einer normalen Lehrer- bzw. Raumfehlzeit werden nur die Termine zur Vertretung angeboten, die auch von einem Unterrichtsausfall betroffen sind. Freistunden in Lehrer- und Raumplänen, die innerhalb einer Fehlzeit liegen, tauchen hingegen in der Fehlzeiten-Liste der Vertretungsansicht nicht auf. Dies ist nur folgerichtig, da für Stunden, in denen kein Unterricht ausfällt auch kein Ersatzraum oder -lehrer gefunden werden muss.
+Was unterscheidet nun aber das Instrument der Fehlstelle von einer normalen Fehlzeit, die Sie in der Fehlzeiten-Ansicht eintragen? Bei einer normalen Lehrer- bzw. Raumfehlzeit werden nur die Termine zur Vertretung angeboten, die auch von einem Unterrichtsausfall betroffen sind. Freistunden in Lehrer- und Raumplänen, die innerhalb einer Fehlzeit liegen, tauchen hingegen in der Fehlzeiten-Liste der Vertretungsansicht nicht auf. Dies ist nur folgerichtig, da für Stunden, in denen kein Unterricht ausfällt auch kein Ersatzraum oder -lehrer gefunden werden muss.
 
 Allerdings entstehen im Rahmen der Vertretungserstellung für ausgefallene Unterrichtsstunden immer wieder Situationen, die weitergehende Planänderungen erforderlich machen oder nahelegen. Ein klassisches Beispiel für eine derartige Konstellation ist eine vorgezogene Unterrichtsstunde, auf deren ursprüngliche Planposition nun selbst wieder Unterricht geschoben werden soll. Da der Unterricht an dieser Stelle nicht ausfällt, sondern vorgezogen wird, wird der Termin nicht standardmäßig zur Vertretung angeboten. Durch das Einfügen einer Fehlstelle können Sie derartige Fälle trotzdem nahtlos in den üblichen Arbeitsgang der Vertretungserstellung integrieren.
 
@@ -326,7 +325,7 @@ Im vorherigen Kapitel wurde bereits gezeigt, wie Sie eine Fehlstelle im Rahmen d
 
 Die erzeugte Fehlstelle wird nun in der Fehlzeiten-Liste und in den betroffenen Klassenplänen eingetragen.
 
-#### Darstellung
+#### Darstellung der Fehlstelle
 
 Eine neu angelegte Fehlstelle erhält in der LÖiste der Offenen Vertretungen im Feld `Art` den Eintrag `Fehlstelle`.
 
@@ -340,7 +339,7 @@ Für eine neu angelegte Fehlstelle können Sie genauso wie für andere Fehlzeite
 
 Eine erstellte Vertretung für eine Fehlstelle wird in der Fehlzeiten-Liste und im Stundenplan folgendermaßen markiert:
 
-#### Darstellung
+#### Darstellung der vertretenen Fehlstelle
 
 Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Zusätzlich` und ist nicht mehr gelb markiert.
 
@@ -363,7 +362,7 @@ Indirekte Vertreter sind Lehrer, die zum Zeitpunkt des zu vertretenden Termins s
 
 !!! info "Hinweis"
 
-  Ist ein mögliche Vertreter Teil einer Blockung, in der ein Lehrer zu vertreten ist, so wird dieser Lehrer in der Liste der direkten Vertreter aufgeführt. Grundsätzlich stehen alle Lehrer für eine Vertretung zur Verfügung, die zum Termin nicht eine Fehlzeit haben bzw. mit einer fehlenden Klasse mitfahren. Sie werden dann entweder als direkte oder als indirekte Vertreter für den Einsatz angeboten.
+    Ist ein mögliche Vertreter Teil einer Blockung, in der ein Lehrer zu vertreten ist, so wird dieser Lehrer in der Liste der direkten Vertreter aufgeführt. Grundsätzlich stehen alle Lehrer für eine Vertretung zur Verfügung, die zum Termin nicht eine Fehlzeit haben bzw. mit einer fehlenden Klasse mitfahren. Sie werden dann entweder als direkte oder als indirekte Vertreter für den Einsatz angeboten.
 
 DAVINCI bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht des indirekten Vertreters:
 
@@ -374,6 +373,8 @@ DAVINCI bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht de
 Beide Varianten sollen im Folgenden gesondert vorgestellt werden.
 
 ![Dialogfenster „Indirekten Vertreter einsetzen“](/assets/images/vertretungsplan/sub-plan50.png)
+
+### Vertreter übernimmt den Unterricht zusätzlich
 
 Um einer Fehlzeit einen indirekten Vertretungslehrer zuzuweisen, der den ausgefallenen Unterricht zusätzlich zu seinem eigenen übernimmt, gehen Sie bitte folgendermaßen vor:
 
@@ -388,23 +389,26 @@ Um einer Fehlzeit einen indirekten Vertretungslehrer zuzuweisen, der den ausgefa
 
 Die Markierung in den Stundenplänen und der Fehlzeiten-Liste entspricht der Kennzeichnung bei zusätzlich eingesetzten direkten Vertretern. Wenn Sie einen indirekten Vertreter von seinem eigenen Unterricht freistellen möchten, müssen Sie das Optionsfeld Vertreter freistellen markieren.
 
-### Fehlzeitenliste
+#### Darstellung
 
-Die neue angelegte Zeile erhält im Feld `Art` den Eintrag `Freigestellt`.
+Die neue angelegte Zeile erhält im Feld `Art` inn der Liste der offenen Vertretungen den Eintrag `Freigestellt`.
 
 ![Hier sehen Sie einen Eintrag für einen freigestellten Lehrer in der Liste der Fehlzeiten/Vertretungen aus.](/assets/images/vertretungsplan/sub-plan51.png)
 
-### Stundenplan
 
-Das Terminfeld erhält einen roten Änderungsbalken mit der Aufschrift „Freigestellt“.
+Das Terminfeld im Stundenplan erhält einen roten Änderungsbalken mit der Aufschrift „Freigestellt“.
 
 ![Hier sehen Sie ein Terminfeld für freigestellten Unterricht im Stundenplan.](/assets/images/vertretungsplan/sub-plan52.png)
+
+### Vertreter wird vom Unterricht freigestellt
 
 Für die freigestellten Unterrichtsstunden eines indirekten Vertreters können Sie genauso wie für andere Fehlzeiten direkte und indirekte Vertreter, Vertretungsräume und Vertretungsfächer einsetzen.
 
 Die Markierung von Vertretungen für freigestellte Unterrichtsstunden in den Stundenplänen und der Fehlzeiten-Liste entspricht der Kennzeichnung bei zusätzlich eingesetzten direkten Vertretern.
 
 ## Analoge Vertretungen für Folgetermine
+
+### Vertretungslehrer für mehrere Termine zuweisen
 
 Wenn ein Lehrer über mehrere Wochen fehlt, so besteht die Möglichkeit, bei der Vertretungserstellung eine bereits gefundene Vertretungslösung auch für die der Folgetermine in den anderen Wochen zu übernehmen. Voraussetzung dafür ist, dass die Stundenpläne des fehlenden und des vertretenden Lehrers die gleiche Vertretungslösung auch wieder zulassen. daVinci prüft für eine mehrwöchige Fehlzeit diese Bedingung automatisch im Hintergrund und aktiviert die Option, den Vertretungslehrer aus der Vorwoche zu übernehmen nur dann, falls die Möglichkeit auch tatsächlich gegeben ist.
 
@@ -441,12 +445,12 @@ Die aus der Vorwoche übernommene Vertretung wird nun in der Fehlzeiten-Liste un
 
 ## Vertretungslehrer über die Automatik zuweisen
 
-Statt geeignete Vertreter manuell zuzuweisen, können Sie Ihre Lehrer-Vertretungen auch durch die Vertretungsautomatik von daVinci 6 erstellen lassen. Die Vertretungsautomatik benutzt die Eignungszahl, die sich aus Ihren Gewichtungen im Dialogfenster `Vertretungseinstellungen` ergibt (siehe Abschnitt „Eignungsfaktoren“), und weist jeder Lehrer-Fehlzeit den möglichen Vertreter mit der höchsten Eignungszahl zu.
+Statt geeignete Vertreter manuell zuzuweisen, können Sie Ihre Lehrer-Vertretungen auch durch die Vertretungsautomatik von daVinci 6 erstellen lassen. Die Vertretungsautomatik benutzt die Eignungszahl, die sich aus Ihren Gewichtungen im Dialogfenster `Vertretungseinstellungen` ergibt (siehe Abschnitt [„Eignungsfaktoren“](https://doc.davinci6.stueber.de/02.vertretungsplan/vertretungen/#eignungsfaktoren)), und weist jeder Lehrer-Fehlzeit den möglichen Vertreter mit der höchsten Eignungszahl zu.
 
 Um die Vertretungen der Lehrer-Fehlzeiten mit Hilfe der Automatik vertreten zu lassen, gehen Sie bitte
 folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten\/Vertretungen-Liste die Fehlzeiten, für die Sie eine Vertretung erstellen wollen. Dabei können Sie auch mehr als eine Fehlzeit auf einmal auswählen, indem Sie den ersten Fehlzeit markieren und über die Tastenkombination Linke Maustaste + Strg bzw. Linke Maustaste + Umschalttaste weiter Fehlzeiten markieren.
+1. Markieren Sie in der Liste der offenen Vertretungen die Fehlzeiten, für die Sie eine Vertretung erstellen wollen. Dabei können Sie auch mehr als eine Fehlzeit auf einmal auswählen, indem Sie den ersten Fehlzeit markieren und über die Tastenkombination Linke Maustaste + Strg bzw. Linke Maustaste + Umschalttaste weiter Fehlzeiten markieren.
 
 2. Wählen Sie die rechte Maustaste und wählen Sie im Kontextmenü den Eintrag `Automatik starten` oder betätigen Sie die Schaltfläche `Automatik starten`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
@@ -458,8 +462,7 @@ folgendermaßen vor:
 
 5. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
-
-Die von der Automatik erstellten Vertretungen werden nun in der Fehlzeiten-\/Vertretungen-Liste und den Stundenplänen hinterlegt.
+Die von der Automatik erstellten Vertretungen werden nun in der Liste der offenen Vertretungenund den Stundenplänen hinterlegt.
 
 !!! info "Hinweis"
 
@@ -503,21 +506,19 @@ Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen S
 
 Die angelegte Freistunde wird nun in der Fehlzeiten-\/ Vertretungen-Liste und den betroffenen Stundenplänen eingetragen. Freistunden werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert:
 
-#### Markierung in der Fehlzeiten-/Vertretungen-Liste
+#### Darstellung 
 
-1. Das Feld `Art` erhält den Eintrag `Frei` und wird nicht mehr gelb hinterlegt.
+Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Frei` und wird nicht mehr gelb hinterlegt.
 
-2. Im Feld `Lehrer` wird der fehlende Lehrer in Klammern gesetzt.
+Im Feld `Lehrer` wird der fehlende Lehrer in Klammern gesetzt.
 
-  ![Dies ist die Anzeige einer Lehrerfehlzeit in der Fehlzeiten-/Vertretungen-Liste, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan59.png)
+![Dies ist die Anzeige einer Lehrerfehlzeit in der Fehlzeiten-/Vertretungen-Liste, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan59.png)
 
-#### Markierung im Stundenplan
+Der Fehlzeitenbalken im Stundenplan erhält die Aufschrift `Frei`.
 
-1. Der Fehlzeitenbalken erhält die Aufschrift `Frei`.
+Der fehlende Lehrer wird  in Klammern gesetzt.
 
-2. Der fehlende Lehrer wird wie in der Fehlzeiten-\/Vertretungen-Liste in Klammern gesetzt.
-
-  ![Dies ist die Anzeige einer Lehrerfehlzeit im Stundenplan, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan60.png)
+[Dies ist die Anzeige einer Lehrerfehlzeit im Stundenplan, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan60.png)
 
 ## Vertretungsräume zuweisen
 
@@ -526,7 +527,7 @@ der Vertreterliste geöffnet haben, werden Ihnen alle in der Plandatei hinterleg
 
 Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit die zu bearbeitende Fehlzeit.
+1. Markieren Sie in der Liste der offenen Vertretungen die Fehlzeit die zu bearbeitende Fehlzeit.
 
 2. Öffnen Sie die Registerkarte `Räume` und markieren Sie den gewünschten Ersatzraum. Hier werden zunächst alle freien Räume und dann alle belegten Räume aufgelistet. Die belegten Räume sind mit einem vorangestellten Minuszeichen zu unterscheiden.
 
@@ -534,25 +535,23 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   _Oder:_ Klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
-4. Die erstellte Vertretung wird nun in der Fehlzeiten-\/Vertretungen-Liste und den betroffenen Stundenplänen eingetragen.
+4. Die erstellte Vertretung wird nun in der Liste der offnenn Verte und den betroffenen Stundenplänen eingetragen.
 
 !!! info "Hinweis"
 
-  Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert.
+    Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Liste der offenen Vertretungen und im Stundenplan folgendermaßen markiert.
 
-### Markierung in der Fehlzeiten-/Vertretungen-Liste
+### Darstellung 
 
-1. Das Feld `Art` erhält den Eintrag „Raumänderung“ und wird nicht mehr gelb hinterlegt.
+Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag „Raumänderung“ und wird nicht mehr gelb hinterlegt.
 
-2. Im Feld `Raum` wird der neue Raum mit einem Pluszeichen vor den geklammerten bisherigen Raum gestellt.
+Im Feld `Raum` wird der neue Raum mit einem Pluszeichen vor den geklammerten bisherigen Raum gestellt.
 
-  ![Dies ist die Anzeige einer Raumvertretung in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan61.png)
+![Dies ist die Anzeige einer Raumvertretung in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan61.png)
 
-### Markierung im Stundenplan 
+Der Änderungsbalken im Stundenplan erhält die Aufschrift `Raumänderung`.
 
-1. Der Änderungsbalken erhält die Aufschrift `Raumänderung`.
-
-2. Der neue Raum wird wie in der Fehlzeiten-\/Vertretungen-Liste mit einem Pluszeichen vor die Klammer gesetzt.
+Der neue Raum wird mit einem Pluszeichen vor die Klammer gesetzt.
 
   ![Dies ist die Anzeige einer Raumvertretung im Stundenplan einer Klasse.](/assets/images/vertretungsplan/sub-plan62.png)
 
@@ -563,81 +562,33 @@ Vertretungsfächer können Sie für jede bearbeitete Lehrer-Fehlzeit, Fehlstelle
 
 Um für eine bearbeitete Fehlzeit, Fehlstelle oder Freistellung ein Vertretungsfach zuzuweisen, gehen Sie bitte folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungenliste die zu bearbeitende Fehlzeit.
+1. Markieren Sie in der Liste der offenen Vertretungen die zu bearbeitende Fehlzeit.
 
 2. Öffnen Sie die Registerkarte `Fächer` der Vertreterliste und markieren Sie das gewünschte Ersatzfach.
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen` auf dem Kopfbalken der Vertreterliste.
 
+Die geänderte Fachzuordnung wird nun in der Liste der offenen Vertretungen und den korrespondierenden Stundenplänen eingetragen.
 
-Die geänderte Fachzuordnung wird nun in der Fehlzeiten-\/Vertretungen-Liste und den korrespondierenden Stundenplänen eingetragen.
+Fachänderungen werden in der Liste der offenen Vertretungen und im Stundenplan folgendermaßen markiert
 
-Raumvertretungen werden in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert
+### Darstellung
 
-### Markierung in der Fehlzeiten-Liste
+Das Feld `Art` in der Liste der offenen Vertretungen verändert sich durch die geänderte Fachzuweisung nicht.
 
-1. Das Feld `Art` verändert sich durch die geänderte Fachzuweisung nicht.
-
-2. Im Feld `Fach` wird das alte Fach eingeklammert und das neue Fach mit einem Pluszeichen vorangestellt.
+Im Feld `Fach` wird das alte Fach eingeklammert und das neue Fach mit einem Pluszeichen vorangestellt.
 
   ![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.](/assets/images/vertretungsplan/sub-plan63.png)
 
-### Markierung im Stundenplan
+Die farbliche Markierung im Stundenplan des bearbeiteten Termins ändert sich nicht.
 
-* Die farbliche Markierung des bearbeiteten Termins ändert sich nicht.
-
-* Das alte Fach wird wie in der Fehlzeiten-Liste eingeklammert und das neue Fach mit einem Pluszeichen vor die Klammer gesetzt.
+Das alte Fach wird wie in der Fehlzeiten-Liste eingeklammert und das neue Fach mit einem Pluszeichen vor die Klammer gesetzt.
 
   ![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.](/assets/images/vertretungsplan/sub-plan64.png)
 
-## Lehrer und Raum freistellen
-
-Sie haben im Zusammenhang mit der Zuweisung eines indirekten Vertreters bereits die Möglichkeit kennengelernt, einen Lehrer von seinen planmäßigen Unterrichtsverpflichtungen freizustellen. Die Option, einen Lehrer freizustellen, wird Ihnen standardmäßig angeboten, wenn Sie einen indirekten Vertreter zuweisen. Darüber hinaus besteht die Möglichkeit, einen Lehrer direkt im Planungsfenster der Vertretungsansicht freizustellen. Außerdem steht dort die Funktion des Freistellens nicht nur für Lehrer, sondern auch für Räume zur Verfügung. Sie können für jeden Plantermin entscheiden, ob Sie nur eines oder zwei dieser Terminelemente freistellen möchten. Die Konsequenz ist jeweils, dass der entsprechende Termin in der Fehlzeiten-Liste zur Vertretung angeboten wird.
-
-Worin besteht nun eigentlich der Unterschied zwischen einer normalen Fehlzeit, die Sie in der Fehlzeiten Ansicht erfassen, und einer Freistellung? Mit einer Freistellung heben Sie, genauso wie bei einer normalen Fehlzeit, die Zuordnung eines Teilnehmers zu einem bestimmten Termin auf. Im Gegensatz zu einer normalen Fehlzeit, bedeutet aber eine Freistellung, dass der zugehörige Terminteilnehmer für parallel liegende Termine als potenzieller Vertreter zur Verfügung steht.
-
-Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgendermaßen vor:
-
-1. Rufen Sie den gewünschten Einzelplan auf.
-
-2. Klicken Sie mit der rechten Maustaste auf das Terminfeld, für das Sie eine Freistellung vornehmen möchten.
-
-3. Wählen Sie den Befehl `Freistellen` aus dem Kontextmenü.
-
-4. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
-
-  ![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.](/assets/images/vertretungsplan/sub-plan65.png)
-
-5. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums
-  ein.
-
-6. Ergänzen Sie im Eingabefeld `Bemerkung` optional einen Infotext, der in der Spalte `Bemerkung` der erzeugten Fehlzeiten-Zeile ausgegeben werden soll.
-
-7. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
-
-Der Termin, für den die Freistellung vorgenommen wurde, wird nun in der Fehlzeiten-\/VertretungenListe und den korrespondierenden Stundenplänen eingetragen.
-
-### Fehlzeiten-/Vertretungen-Liste
-
-Die neue angelegte Zeile erhält im Feld `Art` den Eintrag `Freigestellt`.
-
-![Dies ist die Anzeige für einen freigestellten Termin in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan66.png)
-
-### Stundenplan
-
-Das Terminfeld erhält einen roten Änderungsbalken mit der Aufschrift `Freigestellt`.
-
-![Dies ist die Anzeige für einen freigestellten Termin in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan67.png)
-
-Für die freigestellten Unterrichtsstunden können Sie genauso wie für andere Fehlzeiten direkte und indirekte Vertreter, Vertretungsräume und Vertretungsfächer einsetzen. Folgen Sie dabei jeweils der Vorgehensweise, die in den betreffenden Unterkapiteln dieses Handbuchs beschrieben ist.
-
-!!! info "Hinweis"
-
-   Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Freistellen von Terminelementen mit der hier beschriebenen Vorgehensweise.
-
 ## Termine teilen (und zusammenfassen) 
 
-In der Fehlzeiten-\/Vertretungen-Liste der Ansicht Vertretungen werden die Unterrichtstermine immer so dargestellt, wie sie in der Stundenplandatei angelegt wurden, d.h. Einzelstundentermine werden als Einzelstunden, Doppelstundentermine als Doppelstunden usw. zur Vertretung angeboten. Dabei kann das Problem auftreten, dass sich für Mehrstundentermine keine adäquaten Vertretungslösungen finden lassen. Deshalb gibt es die Möglichkeit mehrstündige Unterrichtstermine zu teilen. Auf diese Weise können Sie für die einzelnen Teilstunden gesondert nach einer Vertretung zu suchen.
+In der Liste der offenen Vertretungen der Ansicht Vertretungen werden die Unterrichtstermine immer so dargestellt, wie sie in der Stundenplandatei angelegt wurden, d.h. Einzelstundentermine werden als Einzelstunden, Doppelstundentermine als Doppelstunden usw. zur Vertretung angeboten. Dabei kann das Problem auftreten, dass sich für Mehrstundentermine keine adäquaten Vertretungslösungen finden lassen. Deshalb gibt es die Möglichkeit mehrstündige Unterrichtstermine zu teilen. Auf diese Weise können Sie für die einzelnen Teilstunden gesondert nach einer Vertretung zu suchen.
 
 Um einen mehrstündigen Termin, z.B. eine Doppelstunde zu teilen, gehen Sie bitte folgendermaßen
 vor:
@@ -658,7 +609,7 @@ Die Einzelstunden der mehrstündigen Fehlzeit werden nun wieder zu einer Zeile, 
 
 ## Aufsichten vertreten
 
-Beim Eintrag einer Fehlzeit für einen Lehrer werden neben seinen eigentlichen Unterrichtsterminen auch seine innerhalb der Fehlzeit liegenden Aufsichten als zu vertretende Elemente in der Fehlstunden-\/Vertretungen-Liste festgehalten.
+Beim Eintrag einer Fehlzeit für einen Lehrer werden neben seinen eigentlichen Unterrichtsterminen auch seine innerhalb der Fehlzeit liegenden Aufsichten als zu vertretende Elemente in der Liste der offenen Vertretungen festgehalten.
 
 ### Beispiel
 
@@ -674,35 +625,27 @@ für die Unterrichtsstunde.
 
 Um für eine Aufsicht einen Vertreter zu finden, gehen Sie wie folgt vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit mit einer Aufsicht, für die Sie eine Vertretung erstellen wollen.
+1. Markieren Sie in der Liste der offenen Vertretungen die Fehlzeit mit einer Aufsicht, für die Sie eine Vertretung erstellen wollen.
 
 2. Öffnen Sie die Registerkarte `Lehrer` und markieren Sie einen der angezeigten Lehrer.
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen`, die sich links auf dem Kopfbalken der Vertreterliste befindet oder klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
-Eine erstellte Vertretung für eine Aufsicht wird in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan folgendermaßen markiert:
+Eine erstellte Vertretung für eine Aufsicht wird in der Liste der offenen Vertretungen und im Stundenplan folgendermaßen markiert:
 
-### Markierung vertretener Aufsicht in der Fehlzeiten-\/ Vertretungen-Liste
+### Darstellung
 
-1. Das Feld `Art` erhält den Eintrag `Aufsichtsänderung` und ist nicht mehr gelb markiert.
+Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Aufsichtsänderung` und ist nicht mehr gelb markiert.
 
-2. Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
+Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
 
 ![Dies ist die Anzeige einer vertretenen Aufsicht in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan70.png)
 
 ### Markierung vertretener Aufsicht im Stundenplan
 
-1. Der Aufsichtsbereich wird geklamert.
+Der Aufsichtsbereich im Stundenplan wird geklamert.
 
-2. Der Vertreter wird mit eine vorangestellten Pluszeichen und seinem Kürzel vor der Klammer gezeigt.
+Der Vertreter wird mit eine vorangestellten Pluszeichen und seinem Kürzel vor der Klammer gezeigt.
 
 ![Dies ist eine vertretene Aufsicht im Stundenplan.](/assets/images/vertretungsplan/sub-plan71.png)
-
-## Bemerkungen, Mitteilungen, Infozeile einfügen
-
-Im Spaltenbereich der zusätzlichen Informationen zur Änderung ermöglichen die Felder `Bemerkung`,
-`Mitteilung` und `Info` das Eingeben zusätzlicher Informationen zu einer bestehenden Terminänderung.
-Um hier einen Eintrag vorzunehmen, platzieren Sie einfach den Cursor in eines dieser Felder und
-tippen Sie den gewünschten Vermerk ein.
-
 
