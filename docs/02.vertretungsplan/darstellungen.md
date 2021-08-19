@@ -6,7 +6,7 @@ Zusatzunterricht|<img src="/assets/images/vertretungsplan/sub-plan172.jpg"> |<im
 Mitteilung|keine Darstellung |<img src="/assets/images/vertretungsplan/sub-plan173.jpg"> 
 Fehlstelle|<img src="/assets/images/vertretungsplan/sub-plan175.jpg">|<img src="/assets/images/vertretungsplan/sub-plan174.jpg">
 Neue Raumbuchung||
-Termin verschieben||
+Termin verschieben|<img src="/assets/images/vertretungsplan/sub-plan182.png">|<img src="/assets/images/vertretungsplan/sub-plan180.png"><br><img src="/assets/images/vertretungsplan/sub-plan181.png">
 Termin vertauschen||
 Lehrertausch||
 Raumtausch||
