@@ -20,7 +20,7 @@ Wenn ein neuer Plan veröffentlicht werden soll, dann gibt es zwei Möglichkeite
 1. Öffnen Sie das Modul `DAVINCI Explorer` und rufen den Unterpunkt `Plandateien` auf.
 [![Plandatei auf Platzhalter hochladen][1]][1]
 
-2. Laden Sie die vorbereitete Plandatei über die Schaltfläche `Hochladen` auf den bestehenden Platzhalter. Wenn Sie die alte Plandatei gern archivieren möchten, dann laden Sie diese zuvor herunter. 
+2. Laden Sie die vorbereitete Plandatei über die Schaltfläche `Hochladen` auf den bestehenden Platzhalter. **Achtung:** Wenn Sie die alte Plandatei gern archivieren möchten, dann laden Sie diese zuvor herunter. 
 
 3. Beenden Sie den `DAVINCI Explorer` und stoppen und starten den DAVINCI Serverdienst einmal neu. Fertig!
 [![DAVINCI Serverdienst stoppen und neu starten][2]][2] 
