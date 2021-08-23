@@ -103,10 +103,11 @@ nav:
     - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
 - STUNDENPLAN: 
   - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
-  - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
-  - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
-  - Stammdaten: 01.stundenplan/stammdaten.md
-  - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
+    - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
+    - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
+    - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
+    - DAVINCI Optionen: 01.stundenplan/optionen.md
+  - Stammdaten: 01.stundenplan/stammdaten.md  
   - Stundenplan erstellen: 
     - Allgemeines: 01.stundenplan/allgemeines.md
     - Programmansichten einstellen: 01.stundenplan/ansichten.md
@@ -137,7 +138,6 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
-  - DAVINCI Optionen: 01.stundenplan/optionen.md
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
