@@ -26,13 +26,13 @@ DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien li
 | --- | --- |
 | daVinciLogo.png | Kundenlogo zum Einbinden in DAVINCI |
 | daVinci.cfg | Aktuelle Login-Daten für DAVINCI |
-| daVinci.opt | Optionsdatei für DAVINCI |
+| daVinci.opt | Optionsdatei für DAVINCI, Informationen zu den Einstellungsmöglichkeiten für die DAVINCI Optionen finden Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/optionen/)|
 | daVinci.hfm | HTML Exportformate |
 | daVinci.lic | DAVINCI /DAVINCI Look Lizenzdaten |
 | daVinci.pfm | DAVINCI /DAVINCI Look Druckformate |
 | daVinci.site | Standortdaten (Schulname, Adresse, etc.) |
 | daVinci.sms | SMS-Logbuch |
-| daVinci.paths | [DAVINCI  Paths-Datei](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/) |
+| daVinci.paths | Datei zum Ablegen zentraler Einstellungen, Informationen zu den Einstellungsmöglichkeiten finden Sie [hier](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/) |
 | daVinciExplorer.opt | daVinci EXPLORER Optionsdatei |
 | daVinciLook.cfg | Aktuelle Login-Daten für DAVINCI LOOK |
 | daVinciLook.opt | Optionsdatei für DAVINCI LOOK |

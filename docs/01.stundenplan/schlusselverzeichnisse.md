@@ -56,3 +56,5 @@ Die Einträge in einer Schlüsseldatei müssen in einer TXT-, CSV- oder KEYS-Dat
     
 !!! info Hinweis
     Eine Übersicht über die verwendeten Schlüsselverzeichnisse finden Sie [hier](/00.allgemein/schluesselverzeichnisse/)
+
+Eine Übersicht über die in DAVINCI verwendeten Schlüssleverzeichnisse finden Sie [hier](https://doc.davinci6.stueber.de/00.allgemein/schluesselverzeichnisse/).
