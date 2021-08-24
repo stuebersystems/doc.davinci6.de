@@ -102,11 +102,11 @@ nav:
       - LernSax: 10.regionales/sac-lernsax.md
     - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
 - STUNDENPLAN: 
-    - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
-    - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
-    - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
-    - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
-    - DAVINCI Optionen: 01.stundenplan/optionen.md
+  - Erste Schritte in DAVINCI: 01.stundenplan/erste-schritte-in-davinci.md
+  - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
+  - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
+  - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
+  - DAVINCI Optionen: 01.stundenplan/optionen.md
   - Stammdaten: 01.stundenplan/stammdaten.md  
   - Stundenplan erstellen: 
     - Allgemeines: 01.stundenplan/allgemeines.md
