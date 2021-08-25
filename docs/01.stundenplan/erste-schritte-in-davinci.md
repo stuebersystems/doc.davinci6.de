@@ -6,7 +6,7 @@ Durch die [Installation](https://doc.davinci6.stueber.de/00.allgemein/installati
 
 ## Plan-Eigenschaften
 
-![Plan Eigenschaften](/assets/images/Plan-Eigenschaften.png)
+[![Plan Eigenschaften][1]][1] 
 
 Das Dialogfenster  `Plan > Eigenschaften` gibt Ihnen Informationen zur aktuellen Plandatei und erlaubt einige wichtige Datei-Einstellungen, auf die wir in den entsprechenden Abschnitten näher eingehen werden.
 
@@ -42,7 +42,7 @@ DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien li
 
 ## Arbeitsumgebung kennenlernen
 
-![Willkommensfenster](/assets/images/willkommen01.png)
+[![Willkommensfenster][2]][2] 
 
 Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird, vermittelt einen ersten Überblick über die Arbeitsumgebung. DAVINCI gliedert sich in sieben Programmbereiche, die für unterschiedliche Aufgaben zuständig sind. Jeder Programmbereich bietet eine speziell an die eigene Funktion angepasste Benutzeroberfläche.
 
@@ -50,7 +50,7 @@ Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird
 | --- | --- |
 | **Stammdaten** | Hier erfassen Sie die zentralen Akteure und Ressourcen, die Sie für die Unterrichtsplanung benötigen. Hier geben Sie z.B. Klassen, Lehrer, Fächer und Räume ein. |
 |**Kalender**| Hier tragen Sie Termine in einer Kalenderansicht ein. Sie können hier Ereignisse, die keinen klassischen Unterrichtscharakter haben, hinterlegen. Außerdem können Sie hier Aufgaben eingeben und verwalten, die noch keinen direkten Terminbezug aufweisen.|  
-| **Stundenplan**| Hier erstellen und bearbeiten Sie Unterrichtsveranstaltungen und legen die Termine fest, an denen diese Veranstaltungen stattfinden sollen. Mit einem grafischen Planeditor können Sie Veranstaltungen und Termine per Drag & Drop ver- oder entplanen.| 
+| **Stundenplan**| Hier erstellen und bearbeiten Sie Unterrichtsveranstaltungen und legen die Termine fest, an denen diese Veranstaltungen stattfinden sollen. Mit einem grafischen Planeditor können Sie Veranstaltungen und Termine per Drag & Drop ver- oder entplanen.|
 | **Vertretungsplan**| In dieser Ansicht erstellen Sie die täglichen Planänderungen aufgrund fehlender Lehrer, Räume und Klassen und bestimmen Sie passende Vertreter.|
 | **Kursplan**| Hier können Sie die Fachwahlen der Schüler erfassen und aufgrund dessen das Kursangebot erstellen. Anschließend können Sie die Kurse blocken und die Schüler auf die Kurse verteilen.|
 | **Übersichten**| In den `Übersichten` erhalten Sie alle Listen und Berechnungen, die Sie hier gefiltert, gruppiert und/oder sortiert drucken oder exportieren können.
@@ -71,9 +71,9 @@ Um eine DAVINCI Datei zu öffnen gehen Sie auf Plan und wählen die Datei entwed
 Bei der Installation von DAVINCI werden Beispieldateien auf Ihren Computer kopiert, die Sie für Tests nutzen können. Diese Beispieldateien werden standardmäßig unter folgendem Dateipfad auf Ihrem Computer gespeichert:
 **Windows 8/10** ```C:\Users\Public\Documents\Stueber Systems\daVinci 6\Beispiele```
 
-Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Schnellstart-Schaltfläche Beispiel öffnen betätigen. 
+Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Schnellstart-Schaltfläche Beispiel öffnen betätigen.
 
-![Willkommensfenster - Beispiel Dateien](/assets/images/Bsp.DAteien.png)
+[![Willkommensfenster - Beispiel Dateien][3]][3] 
 
 !!! info "Hinweis"
 
@@ -86,13 +86,13 @@ Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Sc
 | Immer mit zuletzt geöffneter Plandatei starten | Mit dieser Option startet DAVINCI jeweils mit der Plandatei, die zuletzt auf dem Rechner zur Bearbeitung geöffnet war.|
 | Immer mit der folgenden Plandatei starten | Geben Sie den Pfad zur gewünschten Plandatei im Textfeld an oder wählen Sie ihn unter Plandatei auswählen direkt aus.|
 
-![Optionen](/assets/images/DAV.Optionen.PLandatei.png)
+[![Optionen][4]][4]
 
 ## Neue Plandatei anlegen
 
 Für das Anlegen einer neuen Plandatei steht Ihnen in DAVINCI 6 ein eigener Programmassistent zur Verfügung. Den Planvorbereitungsassistenten können Sie aufrufen, indem Sie auf `Plan > Neu` klicken.
 
-![Planvorbereitungsassistent](/assets/images/Planvorbereitungsassistent01.png)
+[![Planvorbereitungsassistent][5]][5]
 
 Folgende Optionen werden Ihnen angeboten:
 
@@ -106,19 +106,19 @@ Folgende Optionen werden Ihnen angeboten:
 
 Markieren Sie ``Neuen Plan erstellen und Daten übernehmen`` wenn Sie auf eine Vorjahresplandatei zurückgreifen und Daten übernehmen möchten. Geben Sie an, aus welchem Plan Sie die Daten übernehmen möchten und klicken Sie auf ``Weiter``.
 
-![Neuen Plan erstellen und Daten übernehmen](/assets/images/Neuen.Plan.erstellen.Daten.übernehmen.png)
+[![Neuen Plan erstellen und Daten übernehmen][6]][6]
 
-Wählen Sie zwischen ``Neues Schuljahr`` oder ``Planwechsel innerhalb des Schuljahres`` und klicken Sie auf ``Weiter``. 
+Wählen Sie zwischen ``Neues Schuljahr`` oder ``Planwechsel innerhalb des Schuljahres`` und klicken Sie auf ``Weiter``.
 
-![Planvorbereitungsassistent "Neues Schuljahr"](/assets/images/Neuen.Plan.Neues.SJ.png)
+[![Planvorbereitungsassistent "Neues Schuljahr"][7]][7]
 
-Wählen Sie zwischen ``Unterrichtsverteilung und Aufsichten löschen`` oder ``Alles übernehmen`` und klicken Sie auf ``Weiter``. 
+Wählen Sie zwischen ``Unterrichtsverteilung und Aufsichten löschen`` oder ``Alles übernehmen`` und klicken Sie auf ``Weiter``.
 
-![Wählen Sie hier, ob Sie alle Daten übernehmen möchten oder nur eine Teilmenge](/assets/images/Neuen.Plan.Neues.SJ.Löschen.Übernehmen.png)
+[![Wählen Sie hier, ob Sie alle Daten übernehmen möchten oder nur eine Teilmenge][8]][8]
 
 Anschließend gelangen Sie zu den wesentlichen Schritten der Planneuerstellung.
 
-![Schritte der Planneuerstellung](/assets/images/Planvorbereitungsassistent03.png)
+[![Schritte der Planneuerstellung][9]][9]
 
 #### Schritt 1 - Zeitraum eingeben
 
@@ -242,3 +242,13 @@ Eine ``*.daVinci.zip``-Datei kann mit DAVINCI geöffnet werden, ohne dass diese 
 ## Datei speichern (im Serverbetrieb)
 
 Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.enterprise/00.allgemeines/).
+
+[1]:/assets/images/stundenplan/Plan-Eigenschaften.png
+[2]:/assets/images/stundenplan/willkommen01.png
+[3]:/assets/images/stundenplan/Bsp.DAteien.png
+[4]:/assets/images/stundenplan/DAV.Optionen.PLandatei.png
+[5]:/assets/images/stundenplan/Planvorbereitungsassistent01.png
+[6]:/assets/images/stundenplan/Neuen.Plan.erstellen.Daten.übernehmen.png
+[7]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.pngets/images/.../...png 
+[8]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.Löschen.Übernehmen.png
+[9]:/assets/images/stundenplan/Planvorbereitungsassistent03.png

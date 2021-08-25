@@ -67,7 +67,7 @@ Weitere Information hierzu finden Sie in dem Abschnitt [Benutzerverwaltung](http
 
 !!! info "Hinweis"
 
-    Ein Benutzer im DAVINCI-Explorer vom Typ "Lehrer", "Klasse" bzw. "Schüler" muss immer eine korrespondierende Kennung in der dem DAVINCI-INFOSERVER zugeordenten Plandatei haben, damit diese Benutzer sich korrekt in der DAVINCI-APP anmelden kann.
+    Ein Benutzer im DAVINCI-Explorer vom Typ "Lehrer", "Klasse" bzw. "Schüler" muss immer eine korrespondierende Kennung in der dem DAVINCI-INFOSERVER zugeordneten Plandatei haben, damit diese Benutzer sich korrekt in der DAVINCI-APP anmelden kann.
 
 ## Benutzergruppen einrichten
 
