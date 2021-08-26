@@ -6,7 +6,7 @@ Durch die [Installation](https://doc.davinci6.stueber.de/00.allgemein/installati
 
 ## Plan-Eigenschaften
 
-[![Plan Eigenschaften][1]][1] 
+[![Plan Eigenschaften][1]][1]
 
 Das Dialogfenster  `Plan > Eigenschaften` gibt Ihnen Informationen zur aktuellen Plandatei und erlaubt einige wichtige Datei-Einstellungen, auf die wir in den entsprechenden Abschnitten näher eingehen werden.
 
@@ -42,7 +42,7 @@ DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien li
 
 ## Arbeitsumgebung kennenlernen
 
-[![Willkommensfenster][2]][2] 
+[![Willkommensfenster][2]][2]
 
 Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird, vermittelt einen ersten Überblick über die Arbeitsumgebung. DAVINCI gliedert sich in sieben Programmbereiche, die für unterschiedliche Aufgaben zuständig sind. Jeder Programmbereich bietet eine speziell an die eigene Funktion angepasste Benutzeroberfläche.
 
@@ -73,7 +73,7 @@ Bei der Installation von DAVINCI werden Beispieldateien auf Ihren Computer kopie
 
 Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Schnellstart-Schaltfläche Beispiel öffnen betätigen.
 
-[![Willkommensfenster - Beispiel Dateien][3]][3] 
+[![Willkommensfenster - Beispiel Dateien][3]][3]
 
 !!! info "Hinweis"
 
@@ -124,24 +124,24 @@ Anschließend gelangen Sie zu den wesentlichen Schritten der Planneuerstellung.
 
 Geben Sie den Zeitraum an, für den Ihr Plan gelten soll.
 
-![Plan-Eigenschaften, Registerkarte "Zeitraum"](/assets/images/Plan-Eigenschaften01.png)
+[![Plan-Eigenschaften, Registerkarte "Zeitraum"][10]][10]
 
 Registerkarte „Statistik“
 
 * _Zeitdauerangaben_: Tragen Sie die zur Berechnung der Stundenangaben für die Statistik entsprechende Zeitdauer ein.
 * _Wochenbezogene Summen_: Hier können Sie die Kalenderwochen kennzeichnen, in denen kein Unterricht stattfindet. Entfernen Sie im unteren Fenster den Haken bei den Wochen, in denen kein Unterricht stattfindet. Bitte den Haken nur vor ganzen Ferienwochen entfernen! Wichtig ist diese Angabe insbesondere, wenn Sie mit Perioden arbeiten oder eine wochenbezogene Berechnung der Unterrichtsstunden wünschen.
 * _Verrechnungsart_: Wenn man im Zeitrahmen den Haken vor ``Termin-Ende beim Verplanen automatisch an Zeitrahmen anpassen`` gesetzt hat, kann man über die Option ``Mit Minuten pro Einheit`` laut Zeitrahmen anstatt realer Dauer laut Plan rechnen“ entscheiden, ob in der Summenbildung die Unterrichtsstunde als 45 min gewertet werden soll, oder die Dauer lt. Positionen (die ja abweichen, 40 min, 45 min) einfließen sollen.
-* Die Option _Mit Wertfaktoren (aus Stundentafel, Fach, Klasse, Veranstaltung) _benötigen Sie, wenn Sie mit dem Hamburger Lehrerarbeitszeitmodell rechnen wollen. Nachträglich gelangen Sie über ``Plan > Eigenschaften > Statistik`` in dieses Menü.
+* Die Option _Mit Wertfaktoren (aus Stundentafel, Fach, Klasse, Veranstaltung)_ benötigen Sie, wenn Sie mit dem Hamburger Lehrerarbeitszeitmodell rechnen wollen. Nachträglich gelangen Sie über ``Plan > Eigenschaften > Statistik`` in dieses Menü.
 
-![Plan-Eigenschaften, Registerkarte "Statistik"](/assets/images/Plan-Eigenschaften02.png)
+[![Plan-Eigenschaften, Registerkarte "Statistik"][11]][11]
 
-#### Schritt 2 - Kalenderdaten importieren...
+#### Schritt 2 - Kalenderdaten importieren
 
 Laden Sie den Kalender für Ihr Bundesland, um die Ferien- und Feiertage zu importieren.
 
 `…:\Users\Public\Documents\Stueber Systems\daVinci 6\Kalender`
 
-![Kalender importieren](/assets/images/Kalender.Importieren.png)
+[![Kalender importieren][12]][12]
 
 #### Schritt 3 - Zeitrahmen einstellen
 
@@ -149,7 +149,7 @@ Registerkarte "Allgemein"
 
 * Hier können Sie vorgeben, aus wie viel Positionen Ihr Tag besteht und welche Dauer eine Position hat.
 
-![Zeitrahmen, Register "Allgemein"](/assets/images/Zeitrahmen.Allgemein01.png)
+[![Zeitrahmen, Register "Allgemein"][13]][13]
 
 Registerkarte "Positionen":
 
@@ -159,7 +159,7 @@ Registerkarte "Positionen":
 * Trennlinie: zwischen den einzelnen Positionen können Sie Trennlinien einfügen, diese können auch im Ausdruck verwendet werden
 * Doppelstunde: gesetzter Haken heißt für die Automatik, wann eine Doppelstunde beginnen darf, also von der Automatik verplant werden soll
 
-![Zeitrahmen, Register "Positionen" , Register "Positionen" ](/assets/images/Zeitrahmen.Positionen01.png)
+[![Zeitrahmen, Register "Positionen" , Register "Positionen"][14]][14]
 
 ##### Aufsichten-Zeitrahmen
 
@@ -171,7 +171,7 @@ Registerkarte "Positionen"
 
 * Tragen Sie Beginn- und Endzeiten der zu beaufsichtigenden Pausen ein
 
-![Aufsichten-Zeitrahmen](/assets/images/Zeitrahmen.Aufsichten.png)
+[![Aufsichten-Zeitrahmen][15]][15]
 
 !!! info "Hinweis"
 
@@ -185,12 +185,12 @@ Gehen Sie hier wie folgt vor:
 
 * Markieren Sie ``Neuen leeren Plan`` da Sie zum ersten Mal Ihre Stundenplanung mit DAVINCI vornehmen.
 
-![Planvorbereitunsassistent - Neuen leeren Plan erstellen](/assets/images/Neuen.leeren.Plan.png)
+[![Planvorbereitunsassistent - Neuen leeren Plan erstellen][16]][16]
 
 * Klicken Sie auf ``Weiter``.
 * Bereiten Sie die Planerstellung für das neue Schuljahr mit Hilfe dieser Liste vor.
-  
-![Schritte der Planneuerstellung](/assets/images/Planvorbereitungsassistent02.png)
+
+[![Schritte der Planneuerstellung][17]][17]
 
 1. Zeitraum eingeben
 2. Kalenderdaten importieren
@@ -203,7 +203,7 @@ Gehen Sie hier wie folgt vor:
 
 Um bei jedem Speichern eine Sicherungskopie Ihrer Datei zu erstellen, öffnen Sie die Programm Optionen unter  `Plan > DAVINCI-Optionen` oder `Extras > Optionen` im Reiter `Plandatei`.
 
-![DAVINCI Optionen - Backup](/assets/images/opt.sicherung.png)
+[![DAVINCI Optionen - Backup][18]][18]
 
 Wählen Sie im unteren Drittel die Option ``Sicherungskopie (.Backup-Datei) der Datei anlegen`` wenn Sie im lokalen Betrieb (ohne den Einsatz von DAVINCI ENTERPRISE arbeiten). Nun wird bei jedem Speichern von Ihrer Datei eine Sicherungskopie angelegt, welche als Dateierweiterung das Datum und die Endung ``.BACKUP`` trägt.
 
@@ -232,8 +232,6 @@ Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in
 
 Sie können festlegen, dass Ihre DAVINCI-Datei in einem bestimmten Zeitintervall automatisch gespeichert wird. Auch beim automatischen Speichern wird jedes Mal eine Sicherungskopie angelegt. Öffnen Sie die DAVINCI Optionen unter `Plan > DAVINCI-Optionen` oder `Extras > Optionen` im Reiter ``Plandatei`` und wählen die Option ``Automatische Sicherung der Daten nach X Minuten`` und tragen Sie ein, wie viele Minuten zwischen den Sicherungen liegen sollen.
 
-![DAVINCI Optionen - Backup](/assets/images/opt.sicherung.png)
-
 ### Plandatei speichern
 
 Um eine Plandatei in dem gewünschten Zielverzeichnis auf Ihrem Rechner zu speichern, klicken Sie auf  `Plan > Speichern unter` und wählen Sie DAVINCI-Datei. Sie haben darüber hinaus die Möglichkeit, eine DAVINCI-Datei in komprimierter Form, also mit deutlich reduzierter Dateigröße zu speichern. Dies bietet sich z.B. an, wenn Sie Ihre Datei per E-Mail versenden möchten. Wenn Sie diese Option wählen, wird Ihre DAVINCI-Datei mit der Endung ``.daVinci.zip`` als gezippte Datei gespeichert.
@@ -252,3 +250,12 @@ Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davi
 [7]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.pngets/images/.../...png 
 [8]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.Löschen.Übernehmen.png
 [9]:/assets/images/stundenplan/Planvorbereitungsassistent03.png
+[10]:/assets/images/stundenplan/Plan-Eigenschaften01.png
+[11]:/assets/images/stundenplan/Plan-Eigenschaften02.png
+[12]:/assets/images/stundenplan/Kalender.Importieren.png
+[13]:/assets/images/stundenplan/Zeitrahmen.Allgemein01.png
+[14]:/assets/images/stundenplan/Zeitrahmen.Positionen01.png
+[15]:/assets/images/stundenplan/Zeitrahmen.Aufsichten.png
+[16]:/assets/images/stundenplan/Neuen.leeren.Plan.png
+[17]:/assets/images//stundenplan/Planvorbereitungsassistent02.png
+[18]:/assets/images/stundenplan/opt.sicherung.png
