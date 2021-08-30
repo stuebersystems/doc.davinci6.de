@@ -247,7 +247,7 @@ Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davi
 [4]:/assets/images/stundenplan/DAV.Optionen.PLandatei.png
 [5]:/assets/images/stundenplan/Planvorbereitungsassistent01.png
 [6]:/assets/images/stundenplan/Neuen.Plan.erstellen.Daten.übernehmen.png
-[7]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.pngets/images/.../...png 
+[7]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.png
 [8]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.Löschen.Übernehmen.png
 [9]:/assets/images/stundenplan/Planvorbereitungsassistent03.png
 [10]:/assets/images/stundenplan/Plan-Eigenschaften01.png
@@ -257,5 +257,5 @@ Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davi
 [14]:/assets/images/stundenplan/Zeitrahmen.Positionen01.png
 [15]:/assets/images/stundenplan/Zeitrahmen.Aufsichten.png
 [16]:/assets/images/stundenplan/Neuen.leeren.Plan.png
-[17]:/assets/images//stundenplan/Planvorbereitungsassistent02.png
+[17]:/assets/images/stundenplan/Planvorbereitungsassistent02.png
 [18]:/assets/images/stundenplan/opt.sicherung.png
