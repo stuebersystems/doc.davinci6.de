@@ -111,5 +111,5 @@ Die aktualisierten Dateien der DAVINCI WEBBOX stellen wir auf der Webseite [davi
 [1]:/assets/images/is/webbox-http-header.png
 [2]:/assets/images/is/webbox-register-json.png
 [3]:/assets/images/is/webbox-register-svg.png
-[4]:assets/images/is/webbox-register-woff.png
-[5]:/assets/is/images/webbox-timetable.png
+[4]:/assets/images/is/webbox-register-woff.png
+[5]:/assets/is/images/is/webbox-timetable.png
