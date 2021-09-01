@@ -196,4 +196,4 @@ Starten Sie anschließend den Webserver bitte einmal neu.
 [7]:/assets/images/is/server-verbindung.jpg
 [8]:/assets/images/is/guid.png
 [9]:/assets/images/is/infoserver.config.png
-[10]://assets/images/is/infoserver.config01.png
+[10]:/assets/images/is/infoserver.config01.png
