@@ -67,7 +67,7 @@ Sollten Sie nicht alle drei Einträge finden, müssen Sie die jeweils fehlenden 
 
 4. Für `woff` tragen Sie unter Dateinamenerweiterung `woff` und unter MIME-Typ `font/x-woff` ein.
 
-[![Beschriftung][14]][4] 
+[![Beschriftung][4]][4] 
 
 
 ## Die DAVINCI-WEBBOX testen
@@ -112,4 +112,4 @@ Die aktualisierten Dateien der DAVINCI WEBBOX stellen wir auf der Webseite [davi
 [2]:/assets/images/is/webbox-register-json.png
 [3]:/assets/images/is/webbox-register-svg.png
 [4]:/assets/images/is/webbox-register-woff.png
-[5]:/assets/is/images/is/webbox-timetable.png
+[5]:/assets/images/is/webbox-timetable.png
