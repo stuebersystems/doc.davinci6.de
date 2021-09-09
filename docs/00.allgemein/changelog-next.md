@@ -34,7 +34,7 @@
 
 ### STUNDENPLAN
 
-* FIX:
+* FIX: `Stundenplan > Jahresverteilung`geplant Summen 
 
 ### VERTRETUNGSPLAN
 
