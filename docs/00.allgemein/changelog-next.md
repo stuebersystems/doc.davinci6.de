@@ -39,6 +39,7 @@
 ### VERTRETUNGSPLAN
 
 * FIX: `Übersichten > Ausfallstatistik` Export 
+* FIX: Verlängerung einer Lehrerfehlzeit hat bei vorgezogenen Stunden zu Leereinträgen in der Änderungsliste geführt, dieses Problem ist gelöst. Achtung, bestehende Leereinträge werden durch das Update nicht bereinigt, müssen also manuell aus der Änderungsliste entfernt werden.
 
 ### SERVER
 
