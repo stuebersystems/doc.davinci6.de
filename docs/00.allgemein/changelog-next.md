@@ -51,7 +51,7 @@
 
 ### KURSPLAN
 
-* FIX:
+* FIX: automatisches Anlegen von Kursen bei mehreren Klassen einer Jahrgangsstufe
   
 ### DRUCK
 
