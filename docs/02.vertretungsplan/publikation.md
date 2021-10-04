@@ -267,7 +267,7 @@ So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Sc
 
 DAVINCI bietet Ihnen die Möglichkeit, Ihre Vertretungsplandaten publikumswirksam und ohne Zeitverzögerung via Internet auf Smart Phones, Tablets und Webseiten zur Verfügung zu stellen.
 
-Nähere Informationen zur Umsetzung finden Sie [hier](09.infoserver/allgemeines/)
+Nähere Informationen zur Umsetzung finden Sie [hier]([09.infoserver/allgemeines/](https://doc.davinci6.stueber.de/02.vertretungsplan/publikation/#davinci-app-und-webbox))
 
 ## DAVINCI LOOK
 
