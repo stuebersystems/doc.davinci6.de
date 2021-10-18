@@ -26,7 +26,7 @@
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.73
+## DAVINCI Version 6.5.74
 
 ### Allgemein
 
@@ -34,12 +34,11 @@
 
 ### STUNDENPLAN
 
-* FIX: `Stundenplan > Jahresverteilung`geplant Summen 
+* FIX: 
 
 ### VERTRETUNGSPLAN
 
-* FIX: `Übersichten > Ausfallstatistik` Export 
-* FIX: Verlängerung einer Lehrerfehlzeit hat bei vorgezogenen Stunden zu Leereinträgen in der Änderungsliste geführt, dieses Problem ist gelöst. Achtung, bestehende Leereinträge werden durch das Update nicht bereinigt, müssen also manuell aus der Änderungsliste entfernt werden.
+* FIX: `
 
 ### SERVER
 
@@ -51,8 +50,8 @@
 
 ### KURSPLAN
 
-* FIX: automatisches Anlegen von Kursen bei mehreren Klassen einer Jahrgangsstufe
-  
+* FIX: 
+
 ### DRUCK
 
 * FIX:

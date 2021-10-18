@@ -41,13 +41,26 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
+## DAVINCI Version 6.5.73 (07.10.2021)
+
+### STUNDENPLAN
+
+* FIX: `Stundenplan > Jahresverteilung`geplant Summen 
+
+### VERTRETUNGSPLAN
+
+* FIX: `Übersichten > Ausfallstatistik` Export 
+* FIX: Verlängerung einer Lehrerfehlzeit hat bei vorgezogenen Stunden zu Leereinträgen in der Änderungsliste geführt, dieses Problem ist gelöst. Achtung, bestehende Leereinträge werden durch das Update nicht bereinigt, müssen also manuell aus der Änderungsliste entfernt werden.
+
+### KURSPLAN
+
+* FIX: automatisches Anlegen von Kursen bei mehreren Klassen einer Jahrgangsstufe
 
 ## DAVINCI Version 6.5.72 (24.06.2021)
 
 ### SERVER
 
 * FIX: Zusatzunterrichte wurden als offene Vertretungen kategorisiert, als Ergebnis konnte es zur falschen bzw. unvollständigen JSON-Ausgabe (WEBBOX, App) führen 
-* 
 
 ## DAVINCI Version 6.5.71 (07.06.2021)
 
