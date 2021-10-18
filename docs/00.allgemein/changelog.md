@@ -16,6 +16,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DAVINCI Version 6.5.74 (18.10.2021)
+
+### Allgemein
+
+* FIX: Kalenderdatei 2021/2022 für SHL korrigiert
+* FIX: SDUI Upload korrigiert
 
 ## DAVINCI MOBILE APP
 
