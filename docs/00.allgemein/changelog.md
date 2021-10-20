@@ -40,10 +40,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Darstellung von Fehlzeiten in der Vertretungsansicht bei vorherigem Feiertag
 * FIX: Anzeige von Wochentagen in der Vertretungsliste (davinci-substitutions.html) korrigiert
 * NEW: Neuer Parameter (+ Wert) "substSort=key". Dieser Parameter arbeitet gemeinsam mit dem Parameter "substKey".
-  Beispiele:
-
-1. Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
-2. Gruppiert und sortiert nach KLasse: .../davinci-substitutions.html?substKey=class&substSort=key
+  **Beispiele:**
+Gruppiert und sortiert nach Lehrer: .../davinci-substitutions.html?substKey=teacher&substSort=key
+Gruppiert und sortiert nach KLasse: .../davinci-substitutions.html?substKey=class&substSort=key
 * FIX: Anzeige von Kalendereignissen und damit verbundenen Unterrichtsstunden
 * FIX: Anzahl der Klassen in der Anzeige "Alle Klassen" erhöht
 
