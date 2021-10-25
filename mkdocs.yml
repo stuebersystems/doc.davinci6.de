@@ -139,6 +139,7 @@ nav:
     - Kurznachrichten versenden: 01.stundenplan/kurznachrichten-versenden.md
     - HTML-Export: 01.stundenplan/html-export.md
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
+  - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - VERTRETUNGSPLAN:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
@@ -149,6 +150,7 @@ nav:
   - Änderungsliste: 02.vertretungsplan/aenderung.md
   - Publikationen: 02.vertretungsplan/publikation.md
   - Was wird gezeigt?: 02.vertretungsplan/veroeffentlichung.md
+  - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - KURSPLAN: 
   - Allgemein: 03.kursplan/allgemeines.md
   - Fachwahlen eingeben: 03.kursplan/fachwahlen.md
@@ -159,6 +161,7 @@ nav:
 - RESSOURCENPLAN: 
   - Allgemeines: 04.ressourcen/01.allgemeines.md
   - So gehen Sie vor: 04.ressourcen/02.einsatz.md
+  - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - LOOK: 
   - Allgemeines: 05.look/00.allgemeines.md
   - Installation und Update: 05.look/01.installation.md
@@ -179,6 +182,7 @@ nav:
     - Zugriffsrechte: 06.enterprise/08.rechte.md
     - Übersicht über die Rechte: 06.enterprise/10.rechteuebersicht.md
     - Mandanten: 06.enterprise/09.mandanten.md
+  - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - ANALYTICS: 
     - Allgemein: 08.analytics/allgemeines.md
     - Änderungen: 08.analytics/aenderungen.md
@@ -218,3 +222,4 @@ nav:
   - Netzwerke verbinden: 09.infoserver/powershell.md
   - Update: 09.infoserver/update.md
   - Planwechsel: 09.infoserver/planwechsel.md
+  - Knowledge Base (FAQ): https://doc.kb.stueber.de/
