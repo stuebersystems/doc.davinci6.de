@@ -20,6 +20,10 @@ Folgendes Fenster öffnet sich:
 
 ![Upload](/assets/images/Datenaustausch/export2.png)
 
+!!! info "Hinweis"
+
+	Bei Iserv erfolgt damit jedoch kein automatischer Datenupload. In IServ muss die Datei damit immer nochmals hochgeladen werden.
+
 * Zeitraum: Auswahl des zu exportierenden Zeitraumes
 
 * Auswahl: Wählen Sie, ob Sie Alle Daten oder Klasse, Lehrer, Schüler exportieren möchten. Sie können zusätzlich wählen ob Termine, Änderungen, Fehlzeiten, Kalendereinträge, Schülernamen mitexportiert werden sollen.
@@ -36,7 +40,7 @@ Informationen dazu finden Sie [hier.](https://iserv.eu/doc/modules/timetable/#da
 
     Bitte beachten Sie, dass in ISERV nur die Einträge angezeigt werden, auf die alle Filter zutreffen. Wenn man also zum Beispiel den Stundenplan einer bestimmten Klasse ansehen möchte, muss man den mittleren und rechten Filter auf "Alle Lehrer" bzw. "Alle Räume" und den linken Filter auf die entsprechende Klasse stellen.
 
-## Automatisierter Datenaustausch mit IServ
+## Automatisierter Datenaustausch mit IServ - Aktuell in Bearbeitung für die Umsetzung
 
 Der Workflow sieht grob wie folgt aus:
 
