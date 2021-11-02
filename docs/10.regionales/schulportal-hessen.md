@@ -1,22 +1,32 @@
 # Schulportal HESSEN
 
-In DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie der Vertretungsdaten ins Schulportal HESSEN integriert. Das Schulportal HESSEN ist ein Service, der von der _Hessischen Lehrkräfteakademie_ den Schulen zur Verfügung gestellt wird.
+Mit DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie der Vertretungsplandaten in das Schulportal HESSEN möglich. Das Schulportal HESSEN ist ein Service, der von der _Hessischen Lehrkräfteakademie_ den Schulen zur Verfügung gestellt wird.
 
-## Export der Stunden- und Aufsichtspläne für das Schulportal Hessen 
+## Stunden- und Aufsichtspläne
 
-Im Schulprotal HESSEN kann die Datei des XML-Exports aus DAVINCI ausgewertet werden. Der XML-Export enthält den Stunden- und Aufsichtsplan aus DAVINCI. Um die Daten im Schulportal HESSEN anzeigen zu lassen, muss der Export der XML-Datei aus Sicht aller Wochen erfolgen. Hier werden jedoch aktuell keine Informationen über die Perioden übergeben.
+## JSON Export
 
-Da die Funktion des Exportes der DAVINCI Daten in eine XML-Datei zukünftig nicht mehr unterstützt wird, ist das Einlesen einer JSON Datei (über den Export aus DAINCI) ins Schulportal HESSEN geplant. Über den JSON Export werden die Daten wochenweise übergeben und enthalten somit Informationen über periodisch stattfindende Veranstaltungen.
+Über den JSON Export werden Stunden- und Aufsichtspläne wochenweise übergeben und enthalten somit Informationen über periodisch stattfindende Veranstaltungen.
 
-### DAVINCI XML-Daten exportieren
+#### DAVINCI JSON-Daten exportieren
 
-1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI XML-Daten exportieren` aus und klicken Sie auf `Weiter`.
+Doku in Bearbeitung
+
+1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI JSON-Daten exportieren` aus und klicken Sie auf `Weiter`.
 
 2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie `alle Wochen` aus. Klicken Sie auf `Weiter`.
 
-![Import/Export-Assistent, DAVINCI XML-Daten exportieren](/assets/images/regionales/sshot12.png)
+### XML Export (bitte zukünftig nicht mehr verwenden)
 
-Diese DAVINCI XML-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
+Im Schulprotal HESSEN kann die Datei des XML-Exports aus DAVINCI ausgewertet werden. Der XML-Export enthält den Stunden- und Aufsichtsplan aus DAVINCI. Um die Daten im Schulportal HESSEN anzeigen zu lassen, muss der Export der XML-Datei aus Sicht aller Wochen erfolgen. Hier werden jedoch aktuell keine Informationen über die Perioden übergeben.
+
+#### DAVINCI XML-Daten exportieren
+
+1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI XML-Daten exportieren` aus und klicken Sie auf `Weiter`.
+
+2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie entweder `Alle Wochen` oder `Nur Wochen` und geben ein `Von` und `Bis`-Datum ein. Letzteres ermöglicht einen Export von wochenbezogenen Veranstaltungen. Bitte beachten Sie in diesem Falle unbedingt darauf, dass Sie unter `Auswahl` den Haken vor `Termine` gesetzt haben. Klicken Sie auf `Weiter`.
+
+Diese DAVINCI JSON-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
 
 ## Export der Vertretungspläne für das Schulportal HESSEN
 
