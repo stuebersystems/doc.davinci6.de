@@ -4,19 +4,13 @@ Der Apache HTTP Server ist ein quelloffener und freier Web-Server der Apache Sof
 
 Dieses Kapitel beschreibt die Grundinstallation des Apache HTTP Server. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVER, Intstallation der DAVINCI WEBBOX).
 
-## Inhalte
-
-* [Installation](#Installation)
-* [Testen](#Testen)
-* [Optionale Konfiguration](#Konfiguration)
-
-## Installation{#Installation}
+## Installation
 
 Es gibt verschiedene Möglichkeiten, den Apache HTTP Server zu installieren. Eine einfache und effektive Möglichkeit ist die Benutzung von XAMPP. XAMPP ist eine ebenfalls freie Software, die verschiedene Open-Source-Lösungen zu einem leicht zu konfigurierenden Paket zusammenfasst. Eine dieser Lösungen ist eben der Apache HTTP Server
 
 !!! warning "Wichtig"
 
-    Apache unterstützt ISAPI-Module nur in der 32-Bit-Version. Bei einer Installation von XAMPP daher unbedingt die 32-bit-Version benutzen.
+    Apache unterstützt ISAPI-Module nur in der 32-Bit-Version. **Bei einer Installation von XAMPP daher unbedingt die 32-Bit-Version benutzen**.
 
 Gehen Sie wie folgt vor:
 
@@ -40,7 +34,7 @@ Gehen Sie wie folgt vor:
 
 6. Zu guter Letzt werden sie gefragt, ob Sie das XAMPP Control Panel starten möchten. Ja, das wollen wir. 
 
-## Testen{#Testen}
+## Testen
 
 Der Apache HTTP Server ist nun installiert. Starten Sie ihn und probieren Sie ihn aus:
 
