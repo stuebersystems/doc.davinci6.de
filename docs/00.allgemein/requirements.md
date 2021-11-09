@@ -4,8 +4,8 @@
 
 | DAVINCI| Kompatibilität|
 | -- | -- |
-| **Betriebssystem 32-Bit** | Windows 8 / Windows 10 |
-| **Betriebssystem 64-Bit** | Windows 8 / Windows 10 / Windows 2012 / Windows 2016 / Windows 2019|
+| **Betriebssystem 32-Bit** | Windows 8/10 |
+| **Betriebssystem 64-Bit** | Windows 8/10 und Windows Server 2008 R2/2012/2016/2019/2022|
 | **Hardware** | DAVINCI benötigt keine besonderen Hardware-Anforderungen |
 | **Bildschirmauflösung** | Die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten |
 
@@ -13,8 +13,8 @@
 
 | DAVINCI INFOSERVER | Kompatibilität |
 | -- | -- |
-| **Betriebssysteme** | Windows Server 2008 R2 / Windows 8 / Windows 10 / Windows Server 2012 / Windows Server 2016 / Windows 2019 |
-| **Webserver** | Windows InternetInformationServer 7<br/>Windows InternetInformationServer 7.5<br/> Windows InternetInformationServer 8<br/>Windows InternetInformationServer 8.5<br/>Windows InternetInformationServer 10<br/>Apache |
+| **Betriebssysteme** | Windows Server 2008 R2/2012/2016/2019/2022|
+| **Webserver** | Windows InternetInformationServer 7/7.5/8/8.5/10 und Apache 32-Bit|
 
 ## DAVINCI MOBILE APP
 
