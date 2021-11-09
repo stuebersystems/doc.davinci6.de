@@ -30,7 +30,7 @@ Im Dialogfenster `Eigenschaften > Zeitraum` können Sie die Zeitraumdaten Ihrer 
 | Ansichten                  | Bedeutung                                                                                                                                                |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Planungszeitraum           | Der Planungszeitraum beschreibt den Zeitraum indem sich die Stammdaten nicht grundlegend verändern (z.B.: ein Schuljahr)                                 |
-| Hauptzeitraum dieser Datei | Die Planversion beschreibt einen Teilabschnitt des angegebenen Planungszeitraums.(z.B.: ein Halbjahr). Start- und Enddatum - die Gültigkeit der Planung. |
+| Hauptzeitraum dieser Datei | Die Planversion beschreibt einen Teilabschnitt des angegebenen Planungszeitraums.(z.B.: ein Halbjahr). Start- und Enddatum - die Gültigkeit der Planung. Diese Angaben sind unter anderem wichtig bei der Nutzung von DAVINCI ANALYTICS und dem ENBREA KLASSENBUCH |
 | Woche                      | Hier können Sie die Unterrichtstage der Woche festlegen.                                                                                                 |
 | Standard-Zeitrahmen        | Mit der Schaltfläche `Standard-Zeitrahmen bearbeiten...` gelangen Sie direkt zum Hauptzeitrahmen und können ihn hier auch bearbeiten.                    |
 
