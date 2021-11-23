@@ -15,6 +15,11 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DAVINCI Version 6.5.75 (22.11.2021)
+
+### Allgemein
+
+* FIX: Abgleich DAVINCI - ENBREA Klassenbuch (Alpha)
 
 ## DAVINCI Version 6.5.74 (18.10.2021)
 
