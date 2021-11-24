@@ -72,17 +72,17 @@ KuerzArt | Begründung für die gekürzten Stunden:<br/> L Lehrermangel<br/> V V
 Feld | Beschreibung
 -----------|-------------------
 1. | `Kennung`: fortlaufende Kennung die Unterrichtselemente werden durchnummeriert
-2. | `Schulnummer`: Nummer der Schule z.B. 0199
-3. | `Schulart`Art der Schule z.B. GY
-4. | `Bezeichnung der Klasse`: z. B. 9a
+2. | `Schulnummer`: Nummer der Schule z.B. 0199 `Stammdaten > Klasse > Schule`
+3. | `Schulart`Art der Schule z.B. GY wird aktuell nicht aus DAVINCI exportiert
+4. | `Bezeichnung der Klasse`: z. B. 9a `Stammdaten > Klasse > Kürzel`
 5. | `Kennung der Klassengruppe`: z. B. nt
-6. | `Fach`: Fachbezeichner, wie er von der Schule in ASV gewählt wurde<br/> z. B. E für Englisch
+6. | `Fach`: Fachbezeichner, wie er von der Schule in ASV gewählt wurde<br/> z. B. E für Englisch `Stammdaten > Fach > Kürzel`
 7. | mehrere Lehrkräfte eingesetzt sind. <br/>z. B. 1 bei besonderem Unterricht bleibt dieses Feld leer
-8. | `Kürzel der Lehrkraft`: z. B. Hu
-9. | `Lehrerwochenstunden`: z. B. 5
+8. | `Kürzel der Lehrkraft`: z. B. Hu `Stammdaten > Lehrer > Kürzel`
+9. | `Lehrerwochenstunden`: z. B. 5 `Stundenplan > Veranstaltungen > Ist/W`
 10.| `Wiederholungsfaktor`: Gibt an, wie oft dieses Unterrichtselement im ausgewählten Schuljahr wiederholt wird wenn die Schule nach dem Wochenstundenprinzip arbeitet ist dieser Wert immer 0 sonst Anzahl der Wiederholungen
 11. | `Unterrichtsart`: Art des Unterrichts z. B. p<br/> (siehe `Stundenplan > Veranstaltungen > Fachstatus.Schlüssel`) <br/> WICHTIG: Der DAVINCI-Fachstatus ist die WinLD-Unterrichtsart
-12.| `Koppel`:  Bezeichnung der Koppel, wenn ein gekoppeltes Unterrichtselement vorliegt bei ungekoppeltem Unterrichtselement leer
+12.| `Koppel`:  Bezeichnung der Koppel, wenn ein gekoppeltes Unterrichtselement vorliegt bei ungekoppeltem Unterrichtselement leer `Stundenplan > Veranstaltungen > Block`
 13. | `Kursbezeichner`: Bezeichner des Kurses
 14. | `wissenschaftlich`: das Unterrichtselement wird für die Lehrkraft wissenschaftlich gewertet
 15. | `Kuerzung`: Art und Umfang einer Abweichung von der Stundentafel
