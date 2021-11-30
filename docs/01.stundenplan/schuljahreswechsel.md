@@ -54,15 +54,15 @@ Gehen Sie dazu bitte folgendermaßen vor:
 4. Wählen Sie im Dialogfenster `Veranstaltungen kopieren` die Klasse, in deren Veranstaltungsliste kopiert werden soll, aus dem Aufklappmenü des Feldes `In folgende Klasse kopieren`.
 5. Setzen Sie den Haken in den Kontrollfeldern vor „Ohne Lehrer“ bzw. „Ohne Raum“ um die Veranstaltung mit der vorgenommenen Lehrer- und/ oder Raumzuweisung zu übernehmen.
 6. Aktivieren Sie ggf. für geblockte Veranstaltungen die gewünschte Option für das Kopieren der Blockinformationen:
-   
+
+
 * **Gleiche Blöcke** - Kopiert die ausgewählten Veranstaltungen mit dem gleichen Blockkürzel in die Zielklasse
    
 * **Neue Blöcke** - Kopiert die ausgewählten Veranstaltungen mit dem gleichen Blockkürzel in die Zielklasse
   
 * **Ohne Blocknummer** - Kopiert die ausgewählten Veranstaltungen ohne Blockkürzel in die Zielklasse
 
-Bestätigen Sie Ihre Einstellungen mit OK. 
-Die ausgewählten Veranstaltungen werden nun in die Zielklasse übertragen. 
+Bestätigen Sie Ihre Einstellungen mit `OK`. Die ausgewählten Veranstaltungen werden nun in die Zielklasse übertragen.
 
 ![Blockinformationen](/assets/images/stundenplan/11.png)
 
