@@ -15,6 +15,23 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
+
+[**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/update/)
+
+!!! warning "Wichtig"
+
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+
+* FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
+* NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
+
+## DAVINCI Version 6.5.76 (unveröffentlicht)
+
+### Allgemein
+
+* Fix: E-Mail-Versand korrigiert (interner SMTP-Client unterstützt jetzt TLS 1.1 oder 1.2)
+
 ## DAVINCI Version 6.5.75 (22.11.2021)
 
 ### Allgemein
