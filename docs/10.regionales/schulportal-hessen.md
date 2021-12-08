@@ -6,6 +6,9 @@ Mit DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie de
 
 ## JSON Export
 
+!!! warning Wichtig
+    Vor dem Start des Imports in LANIS wird dort die Dateiendung überprüft. Hier kann es zu Problemen kommen, wenn Sie im Dateinamen Punkte verwendet haben, zum Beispiel Plan 11.11.2021.json.
+
 Über den JSON Export werden Stunden- und Aufsichtspläne wochenweise übergeben und enthalten somit Informationen über periodisch stattfindende Veranstaltungen.
 
 #### DAVINCI JSON-Daten exportieren
