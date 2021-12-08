@@ -1,8 +1,17 @@
 # Allgemein
 
+[1]:/assets/images/vertretungsplan/sub-plan1.png
+[2]:/assets/images/vertretungsplan/Dateieigenschaften.png
+[3]:/assets/images/vertretungsplan/sub-plan2.png
+[4]:/assets/images/vertretungsplan/sub-plan3.png
+[5]:/assets/images/vertretungsplan/vp08.png
+[6]:/assets/images/vertretungsplan/vp09.png
+[7]:/assets/images/vertretungsplan/vp10.png
+[8]:/assets/images/vertretungsplan/sub-plan170.png
+
 Der Stundenplan unterliegt in der Regel täglich Änderungen, die daher kommen, dass Lehrer fehlen oder Unterricht aufgrund von Klassenfahren oder aus anderen Gründen entfällt. Dies führt zu Änderungen im Stundenplan aufgrund von Vertretungen, über die die betroffenen Lehrer und Klassen schnell informiert werden müssen. Dieser Aufgabe dient die Ansicht `Vertretungsplan` in DAVINCI.
 
-![Vertretungsplan](/assets/images/vertretungsplan/sub-plan1.png)
+[![Vertretungsplan][1]][1]
 
 Sie öffnen die Ansicht `Vertretungsplan`, indem Sie in der linken Navigationsleiste auf `Vertretungsplan` klicken.
 
@@ -36,7 +45,7 @@ DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schn
 
 Öffen Sie die DaVIINVI Planeigenschaften über die `Plan > Eigenschaften`. Auf der Registerkarte `Datenschutz` finden die Eintragungsmgölcihkeiten für den Vertretungsplanbereich:
 
-![Dateieigenschaften](/assets/images/vertretungsplan/Dateieigenschaften.png)
+[![Dateieigenschaften][2]][2]
 
 ### Änderungen
 
@@ -64,7 +73,7 @@ Bei der Erstellung der eigentlichen Vertretung werden bestimmte Schlüsselverzei
 
 * Klicken Sie die Schaltfläche `Schlüsselverzeichnisse` in der Menügruppe `Extras > Verwalten`.
 
-![Schlüsselverzeichnisse](/assets/images/vertretungsplan/sub-plan2.png)
+[![Schlüsselverzeichnisse][3]][3]
 
 Um eine bestimmtes Schlüsselverzeichnis zu bearbeiten, gehen Sie beispielsweise für das Schlüsselverzeichnis „Lehrerfehlgründe" wie folgt vor:
 
@@ -74,7 +83,7 @@ Um eine bestimmtes Schlüsselverzeichnis zu bearbeiten, gehen Sie beispielsweise
 
 * Markieren im Dialogfenster `Schlüsselverzeichnisse` den Eintrag "09 Lehrerfehlgründe". Klicken Sie dann auf `Bearbeiten`.
 
-![Lehrerfehlgründe](/assets/images/vertretungsplan/sub-plan3.png)
+[![Lehrerfehlgründe][4]][4]
 
 Folgende Schlüsselverzeichnisse werden in daVinci-Vertretungsplan verwendet:
 
@@ -117,7 +126,8 @@ erstellen,
 * die Behandlung von Doppelstunden bzw. Terminblöcken,
 * vorziehbare Vertreter
 
-![Dies ist das Dialogfenster „daVinci-Optionen“ mit dem Bereich `Vertretungsplan`.](/assets/images/vertretungsplan/vp08.png)
+[![Dies ist das Dialogfenster „daVinci-Optionen“ mit dem Bereich `Vertretungsplan`.][5]][5]
+
 
 **Vordefinierte Infos, Mitteilungen und Bemerkungen**
 
@@ -133,7 +143,7 @@ Ist das Feld nicht markiert, werden für beide Stunden der Doppelstunde bzw. fü
 
 Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Plananzeige` Einstellungen für Änderungen im Plan in der Gruppe Änderungen vornehmen.
 
-![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Plananzeige`.](/assets/images/vertretungsplan/vp09.png)
+[![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Plananzeige`.][6]][6]
 
 Sie können im DAVINCI-Vertretungsplan angeben, wie neue Änderungen im Vertretungsplan in den Stundenplänen auf dem Bildschirm und im Ausdruck speziell gekennzeichnet werden.
 
@@ -150,7 +160,8 @@ Zur analogen Kennzeichnung einer neuen Änderung im Ausdruck folgen Sie bitte de
 
 Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Farben` Farbvorgaben für bestimmte Einstellungen speziell für DAVINCI-Vertretungsplan vornehmen.
 
-![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Farben`.](/assets/images/vertretungsplan/vp10.png)
+[![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Farben`][7]][7]
+
 
 Auf der Registerkarte `Allgemein` können die Farben für `Abwesend`, `Änderung`, `Neue Änderung` und `Unterrichtsfrei` festgelegt werden.
 
@@ -158,4 +169,5 @@ Auf der Registerkarte `Allgemein` können die Farben für `Abwesend`, `Änderung
 
 Im Menü `Extras > Weitere Planaktionen` haben Sie die Möglichkeit Planänderungen bis zu einem gewählten Zeitpunkt aus der Datei zu löschen. Nutzen Sie diese Funktion beispielsweise, wenn Sie für das neue Schuljahr jeweils mit einer Plankopie arbeiten, um alte Vertretungplaninformationen zu löschen.
 
-![Alte Änderungen](/assets/images/vertretungsplan/sub-plan170.png)
+[![Alte Änderungen][8]][8]
+
