@@ -171,8 +171,8 @@ nav:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
   - DAVINCI SERVER: 
     - Installation und Updates: 06.enterprise/01.installation.md
-    - Einrichtung: 06.enterprise/02.einrichten.md
     - DAVINCI SERVER Control: 06.enterprise/03.control.md
+    - Einrichtung: 06.enterprise/02.einrichten.md    
     - Client- und Serververbindung: 06.enterprise/04.verwenden.md
   - DAVINCI EXPLORER: 
     - Start: 06.enterprise/05.explorer.md
