@@ -9,6 +9,7 @@ Neue Raumbuchung||
 Termin verschieben|<img src="/assets/images/vertretungsplan/sub-plan182.png">|<img src="/assets/images/vertretungsplan/sub-plan180.png"><br><img src="/assets/images/vertretungsplan/sub-plan181.png">
 Termin vertauschen|<img src="/assets/images/vertretungsplan/sub-plan188.png">|<img src="/assets/images/vertretungsplan/sub-plan187.png">
 Lehrertausch|<img src="/assets/images/vertretungsplan/sub-plan184.png">|<img src="/assets/images/vertretungsplan/sub-plan183.png">
-Raumtausch|<img src="/assets/images/vertretungsplan/sub-plan186.png"|<img src="/assets/images/vertretungsplan/sub-plan181.png">
+Raumtausch|<img src="/assets/images/vertretungsplan/sub-plan186.png">|<img src="/assets/images/vertretungsplan/sub-plan181.png">
 Fach ändern|<img src="/assets/images/vertretungsplan/sub-plan178.jpg">|<img src="/assets/images/vertretungsplan/sub-plan176.jpg">
 Raum ändern|<img src="/assets/images/vertretungsplan/sub-plan179.jpg">|<img src="/assets/images/vertretungsplan/sub-plan177.jpg">
+
