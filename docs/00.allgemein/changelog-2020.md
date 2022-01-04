@@ -1,10 +1,4 @@
-# Was ist neu
-
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in DAVINCI 6 und in der DAVINCI WEBBOX.
-
-* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2019](changelog-2019.md), [2018](changelog-2018.md), [2017](changelog-2017.md),  [2016](changelog-2016.md), [2015](changelog-2015.md), [2014 und früher](changelog-archive.md).
-
-* Was wir für die nächste Ausgabe planen, sehen Sie im Kapitel [Voraussichtliche Änderungen](changelog-next.md).
+# Änderungen 2020
 
 ## LEGENDE
 
@@ -13,8 +7,6 @@ Abkürzung  |  Bedeutung
 FIX |  Korrektur bestehender Funktionalität
 NEW |  Neue Funktionalität  
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
-
----
 
 ## DAVINCI Version 6.5.67 (11.08.2020)
 

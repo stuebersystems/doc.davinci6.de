@@ -1,11 +1,5 @@
 ﻿# Änderungen 2018
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in DAVINCI 6 und in der DAVINCI WEBBOX.
-
-* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2017](changelog-2017.md),  [2016](changelog-2016.md), [2015](changelog-2015.md), [2014 und früher](changelog-archive.md).
-
-* Was im laufenden Jahr veröffentlicht wurde wir für die nächste Ausgabe planen, sehen Sie im Kapitel [Voraussichtliche Änderungen](changelog-next.md).
-
 ## LEGENDE
 
 Abkürzung | Bedeutung
