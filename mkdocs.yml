@@ -74,8 +74,8 @@ nav:
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
   - Pathdatei: 00.allgemein/pathdatei.md
-  - Speicherung von Einstellungen: 00.allgemein/dateien.md
   - Referenzen:
+    - Speicherung von Einstellungen: 00.allgemein/dateien.md
     - Symbole: 00.allgemein/ubersicht-symbole.md
     - Tastaturkürzel: 00.allgemein/ubersicht-tastenkurzel.md
     - Schlüsselverzeichnisse: 00.allgemein/schluesselverzeichnisse.md
