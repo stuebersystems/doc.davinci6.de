@@ -32,13 +32,13 @@ Kategorie|Information ob es sich um eine Anrechenstunde aus Klassenfehlzeit, Leh
 Details|Lehrer-, Klassenfehlgründe `Extras > Schlüsselverzeichnisse > Lehrer-, Klassenfehlgründe`
 Stunden|Anzahl der positiven oder negativen Anrechenstunden
 
-### Anpassung der Liste der Anrechenstunden
+### Anpassen der Liste der Anrechenstunden
 
 Sie können die Änderungsliste nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern. Dies hilft Ihnen, den angezeigten Ausschnitt der eingetragenen Änderungen sehr flexibel an Ihre konkreten Erfordernisse anpassen zu können. 
 
 Wie Sie die Listenfunktionen des Filterns und Gruppierens nutzen können, können Sie im Bereich [Mit Listen arbeiten](https://doc.davinci6.stueber.de/01.stundenplan/mit-listen-arbeiten/) nachlesen.
 
-## Manuelles Erzeugen von Anrechenstunden
+### Manuelles Erzeugen von Anrechenstunden
 
 Das Erzeugen von Anrechenstunden entsteht im Regelfall durch das Eintragen von Fehlzeiten für Klassen bzw. Lehrer, den Einsatz von Vertretern oder Zusatzunterricht entstehen. Vorausgesetzt dies wurde im entsprechenden Dialogfenster im Feld "Anrechenstunde" eingetragen. Zusätzlich können Sie Anrechenstunden in der Ansicht  `Vertretungsplan > Anrechnungen` selbst erfassen.
 
@@ -52,7 +52,7 @@ Dazu gehen Sie wie folgt vor:
 
     Um eine statistische Auswertung der Stunden je Monat und Lehrer erhalten, können Sie die Liste der Anrechnungen nach der Spalte "Lehrer" und innerhalb der Gruppierung "Lehrer" nach der Spalte "Monat" gruppieren.
 
-## Bearbeiten von Anrechenstunden
+### Bearbeiten von Anrechenstunden
 
 Um einen erstellten Eintrag für Anrechenstunden nachträglich zu bearbeiten, gehen Sie wie folgt vor:
 
