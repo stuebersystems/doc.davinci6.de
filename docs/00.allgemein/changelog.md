@@ -30,7 +30,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
+### Skripte
 
+* FIX: SAC-FW-APO-2014.js
 
 ## DAVINCI Version 6.5.76 (25.01.2022)
 
