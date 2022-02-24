@@ -35,7 +35,7 @@ In diesem Fall müssten allen Kollegen/Klassen individuelle Zeitrahmen (ein Posi
 
 ## Sperrung und Sperrungsbemerkung
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)|sichtbar
@@ -45,7 +45,7 @@ WEBBOX Vertretungsliste| nicht sichtbar
 
 ## Offene Lehrerfehlzeit (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)| sichtbar
@@ -55,7 +55,7 @@ WEBBOX Vertretungsliste| nicht sichtbar
 
 ## Offene Lehrerfehlzeit (nicht öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |nicht sichtbar
 LOOK (Klassenplan)| nicht sichtbar
@@ -65,7 +65,7 @@ WEBBOX Vertretungsliste| nicht sichtbar
 
 ## Fehlgründe
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |optional sichtbar (`DAVINCI > Plan > Eigenschaften > Datenschutz`)
 LOOK (Klassenplan)| optional sichtbar (`DAVINCI > Plan > Eigenschaften > Datenschutz`)
@@ -75,7 +75,7 @@ WEBBOX Vertretungsliste| nicht sichtbar
 
 ## Klassenfehlzeit (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan) |sichtbar
@@ -85,7 +85,7 @@ WEBBOX Vertretungsliste |sichtbar
 
 ## Klassenfehlzeit (nicht öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |nicht sichtbar
 LOOK (Klassenplan)| nicht sichtbar
@@ -95,7 +95,7 @@ WEBBOX Vertretungsliste |nicht sichtbar
 
 ## Zusatzunterricht (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)|sichtbar
@@ -105,7 +105,7 @@ WEBBOX Vertretungsliste |sichtbar
 
 ## Zusatzunterricht (nicht öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK |nicht sichtbar
 WEBBOX Planansicht|nicht sichtbar
@@ -113,7 +113,7 @@ WEBBOX Vertretungsliste |nicht sichtbar
 
 ## Mitteilung
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) | sichtbar
 LOOK (Klassenplan)|sichtbar
@@ -124,7 +124,7 @@ WEBBOX Vertretungsliste|sichtbar
 
 ## Offene Raumfehlzeit (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)|sichtbar
@@ -133,7 +133,7 @@ WEBBOX Vertretungsliste|nicht sichtbar
 
 ## Offene Raumfehlzeit (nicht öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan)| nicht sichtbar
 LOOK (Klassenplan) |nicht  sichtbar
@@ -142,7 +142,7 @@ WEBBOX Vertretungsliste|nicht sichtbar
 
 ## Vertretene Lehrerfehlzeit (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan) |sichtbar
 LOOK (Klassenplan)|sichtbar
@@ -152,7 +152,7 @@ WEBBOX Vertretungsliste|sichtbar
 
 ## Vertretene Lehreraufsicht (öffentlich)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK (Lehrerplan)| sichtbar
 WEBBOX Planansicht (Lehrerplan)| sichtbar
@@ -160,7 +160,7 @@ WEBBOX Vertretungsliste| sichtbar
 
 ## Raumbuchung (über DAVINCI LOOK)
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK |sichtbar
 WEBBOX Planansicht|nicht sichtbar
@@ -168,7 +168,7 @@ WEBBOX Vertretungsliste |nicht sichtbar
 
 ## Aufsichten
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK |sichtbar
 WEBBOX Planansicht|sichtbar
@@ -176,7 +176,7 @@ Mobile App| sichtbar
 
 ## Aufsichten Vertretungen
 
-Stelle|sichtbar
+Stelle|Sichtbarkeit
 --|--
 LOOK |sichtbar
 WEBBOX Planansicht|sichtbar
