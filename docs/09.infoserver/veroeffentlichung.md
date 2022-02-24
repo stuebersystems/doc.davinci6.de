@@ -173,7 +173,6 @@ Stelle|sichtbar
 LOOK |sichtbar
 WEBBOX Planansicht|sichtbar
 Mobile App| sichtbar
-WEBBOX Vertretungsliste |nicht sichtbar
 
 ## Aufsichten Vertretungen
 
