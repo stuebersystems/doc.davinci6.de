@@ -165,3 +165,22 @@ Stelle|sichtbar
 LOOK |sichtbar
 WEBBOX Planansicht|nicht sichtbar
 WEBBOX Vertretungsliste |nicht sichtbar
+
+## Aufsichten
+
+Stelle|sichtbar
+--|--
+LOOK |sichtbar
+WEBBOX Planansicht|sichtbar
+Mobile App| sichtbar
+WEBBOX Vertretungsliste |nicht sichtbar
+
+## Aufsichten Vertretungen
+
+Stelle|sichtbar
+--|--
+LOOK |sichtbar
+WEBBOX Planansicht|sichtbar
+WEBBOX Vertretungsliste |sichtbar
+Mobile App| sichtbar
+Mobile App Vertretungsliste| sichtbar
