@@ -32,7 +32,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
-* NEW: Kalenderdateien SJ 2022/2023
+* NEW: Kalenderdateien SJ 2022/2023. Unter folgendem Link können Sie den gewünschten Kalender herunterladen.
+Bitte speichern Sie die Datei lokal und verweisen dann aus DAVINCI über `Kalender > Importieren` auf den Kalender für Ihre Region. 
+[https://my.hidrive.com/share/63dd-bod4u](https://my.hidrive.com/share/63dd-bod4u)
 
 ### Skripte
 
