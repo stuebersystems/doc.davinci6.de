@@ -16,8 +16,8 @@ Zur Anzeige der Gebäudepläne nutzen Sie bitte folgenden URL - Parametermeter:
 
 `views=timetable|calendar|substitutions|floorplan` 
 
-Beispiel: https://davinci.local/davinci-timetable.html?views=timetable|calendar|substitutions|floorplan
+Beispiel: [https://davinci.local/davinci-timetable.html?views=timetable|calendar|substitutions|floorplan](https://davinci.local/davinci-timetable.html?views=timetable|calendar|substitutions|floorplan)
 
-Weitere Ausführungen dazu finden Sie [hier](https://test.davinci-webbox.stueber.de/).
+Weitere Ausführungen dazu finden Sie unter [https://davinci-webbox.stueber.de/](https://davinci-webbox.stueber.de/).
 
-[Hier](https://test.davinci-webbox.stueber.de/) finden Sie Beispiele anderer Gebäudepläne, die mit verbundenen URL Parameter arbeiten.
+Unter [[https://davinci-webbox.stueber.de/](https://davinci-webbox.stueber.de/) finden Sie Beispiele anderer Gebäudepläne, die mit verbundenen URL-Parameter arbeiten.
