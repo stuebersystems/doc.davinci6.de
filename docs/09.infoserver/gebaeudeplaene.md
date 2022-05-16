@@ -21,3 +21,39 @@ Beispiel: [https://davinci.local/davinci-timetable.html?views=timetable|calendar
 Weitere Ausführungen dazu finden Sie unter [https://davinci-webbox.stueber.de/](https://davinci-webbox.stueber.de/).
 
 Unter [[https://davinci-webbox.stueber.de/](https://davinci-webbox.stueber.de/) finden Sie Beispiele anderer Gebäudepläne, die mit verbundenen URL-Parameter arbeiten.
+
+## Zwischen Ebenen wechseln
+
+Gebäudepläne können mehrere Ebenen beinhalten. Um zwischen den Ebenen zu wechseln, gibt es mehrere Möglichkeiten.
+
+### Variante 1
+
+`Ihr Server/davinci-timetable.html?views=timetable|calendar|substitutions|floorplan#`
+
+Im oben stehenden Link wird die Vorlage `davinci-timetable.html` in Kombination mit dem Parameter `views=timetable|calendar|substitutions|floorplan#` verwendet. Damit wird im unteren Bereich ein Symbol zum Aufrufen des Gebäudeplans gezeigt.
+
+![Symbol zum Aufrufen der Ansicht Gebäudepläne](/assets/images/gebaeudeplaene/01.png)
+
+Zwischen den Ebenen wechseln Sie über die Auswahl am rechten oberen Fensterrand.
+
+![Wechseln zwischen den Ebenen](/assets/images/gebaeudeplaene/02.png)
+
+### Variante 2
+
+Alternativ können Sie auch, wenn Sie keine Stundenpläne oder Vertretungspläne anzeigen möchten die Vorlage `DAVINCI-floorplan.html` verwenden.
+Hier können Sie per Parameter gezielt eine bestimmte Ebene aufzurufen, beispielsweise um auf dem Bildschirm auf Etage 1 genau den Plan der Etage zu zeigen. 
+
+Beispiellink: <br/>`Ihr Server/davinci-floorplan.html?floor=1`
+Hier wird die Vorlage DAVINCI-floorplan.html verwendet und es wird gezielt die Ebene/Etage 1 gezeigt.
+Die Ebenen werden von Ebene 0 aus aufsteigend nummeriert, dass Erdgeschoss wäre die `Floor=0`, das erste Geschoss wäre `Floor=1` usw. 
+
+### Variante 3
+
+Sie verwenden die DAVINCI-floorplan.html und möchten Ebenen per Klick auswählen können.
+
+Beispiellink: <br/>`Ihr Server/davinci-floorplan.html?showFloorSelector=true`
+
+Obenstehender Link ruft die Vorlage `DAVINCI-floorplan.html` auf und aktiviert die Ebenenauswahl über den Parameter `showFloorSelector=true`.
+Die Ebenenauswahl wird im unteren Bereich der Seite gezeigt.
+
+![Wechseln zwischen den Ebenen](/assets/images/gebaeudeplaene/03.png)
