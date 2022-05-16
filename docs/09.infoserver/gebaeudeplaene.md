@@ -10,7 +10,7 @@ So funktioniert's:<br/>Sie senden uns Ihren Gebäudeplan mit den Gebäudeebenen-
 
 Nach Beauftragung fertigen wir für jede Ebene eine SVG-Datei an. Die Räume in der SVG-Datei werden dann mit einer ID versehen. Die Räume sind über die jeweilige ID per JavaScript identifizierbar und können von einer Applikation mit Informationen gefüllt werden.
 
-Wenn Sie möchten, helfen wir Ihnen Ihren SVG-Flurplan in Ihre Anwendung einzubetten, alternativ finden Sie im folgenden Kapitel eine Anleitung.
+Wenn Sie möchten, helfen wir Ihnen Ihren SVG-Flurplan in Ihre Anwendung einzubetten.
 
 ## Einbinden von Gebäudeplänen
 
