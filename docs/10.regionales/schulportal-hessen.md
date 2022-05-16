@@ -11,6 +11,12 @@ Mit DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie de
 
 Über den JSON Export werden Stunden- und Aufsichtspläne wochenweise übergeben und enthalten somit Informationen über periodisch stattfindende Veranstaltungen.
 
+Generell gilt für den Export für einen Zeitraum:
+
+Wenn Option "Alle Wochen" in DAVINCI gewählt wurde, dann enthält die JSON.Datei keine Terminangaben für die Stunde, sondern nur die Nummer des Wochentags (weekday). Somit darf beim Import ins Schulportal auch nicht die Option "Datei enthält Datumsangaben" gewählt werden.
+
+Wenn ein Zeitraum für den Export gewählt wurde, enthält die JSON.Datei für die Stunde ein Array von Datumsangaben (dates), aber nicht das Feld Weekday. Dann kann beim Import die Option für mehrere Wochen gewählt werden. Zudem muss beim Export die Option "Termine" ausgewählt sein.
+
 #### DAVINCI JSON-Daten exportieren
 
 Doku in Bearbeitung
@@ -28,6 +34,7 @@ Im Schulprotal HESSEN kann die Datei des XML-Exports aus DAVINCI ausgewertet wer
 1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI XML-Daten exportieren` aus und klicken Sie auf `Weiter`.
 
 2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie entweder `Alle Wochen` oder `Nur Wochen` und geben ein `Von` und `Bis`-Datum ein. Letzteres ermöglicht einen Export von wochenbezogenen Veranstaltungen. Bitte beachten Sie in diesem Falle unbedingt darauf, dass Sie unter `Auswahl` den Haken vor `Termine` gesetzt haben. Klicken Sie auf `Weiter`.
+3. Die Daten werden exportiert. Klicken Sie im Dialogfenster auf `OK`. 
 
 Diese DAVINCI JSON-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
 
