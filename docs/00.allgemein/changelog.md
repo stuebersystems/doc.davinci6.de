@@ -36,6 +36,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 Bitte speichern Sie die Datei lokal und verweisen dann aus DAVINCI über `Kalender > Importieren` auf den Kalender für Ihre Region. 
 [https://my.hidrive.com/share/63dd-bod4u](https://my.hidrive.com/share/63dd-bod4u)
 
+* FIX: Abgleich MAGELLAN über das Schuldatentransferformat
+
 ### Skripte
 
 * FIX: SAC-FW-APO-2014.js
