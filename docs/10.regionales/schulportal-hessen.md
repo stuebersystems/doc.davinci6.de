@@ -73,3 +73,7 @@ Hinweis2|Textfeld einer Mitteilung
 Lerngruppe|
 
 Diese Export Datei (vertretungsplan.csv) müssen Sie nun noch ins Schulportal HESSEN hochladen.
+
+## Weitere Hinweise
+
+Im Zeitrahmen der Stunden und Aufsichten sind nur ganze Zahlenwerte erlaubt, d.h. dass die Eingabe von Werten wie z.B. 1/2 als Stunden- oder Aufsichtsbezeichnungen und Positionen nicht möglich sind.

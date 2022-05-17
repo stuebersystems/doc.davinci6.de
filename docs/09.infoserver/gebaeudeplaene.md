@@ -14,7 +14,7 @@ Wenn Sie möchten, helfen wir Ihnen Ihren SVG-Flurplan in Ihre Anwendung einzube
 
 ## Einbinden von Gebäudeplänen
 
-SIe können mit der Nutzung der Webbox interaktive SVG Gebäudepläne in Ihre Website einbinden. Voraussetzung für die Einbindung der Gebäudpläne ist eine funktionierende Webbox.
+Sie können mit der Nutzung der Webbox interaktive SVG Gebäudepläne in Ihre Website einbinden. Voraussetzung für die Einbindung der Gebäudpläne ist eine funktionierende Webbox.
 
 Sie haben von uns eine Reihe von Dateien zur Darstellung des Gebäudeplanes erhalten. Dies sind folgende:
 
