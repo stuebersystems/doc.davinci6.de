@@ -5,7 +5,7 @@
 | DAVINCI| Kompatibilität|
 | -- | -- |
 | **Betriebssystem 32-Bit** | Windows 8/10 |
-| **Betriebssystem 64-Bit** | Windows 8/10 und Windows Server 2008 R2/2012/2016/2019/2022|
+| **Betriebssystem 64-Bit** | Windows 8/10/11 und Windows Server 2008 R2/2012/2016/2019/2022|
 | **Hardware** | DAVINCI benötigt keine besonderen Hardware-Anforderungen |
 | **Bildschirmauflösung** | Die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten |
 
