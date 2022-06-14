@@ -1,87 +1,85 @@
-# Mehrere Arbeitsplatzrechner einrichten: Die Paths-Datei
+#	Die Paths-Datei
 
-Beim Start von DAVINCI werden Informationen wie zum Beispiel Optionen, Lizenzdaten oder Pfade zur Datei, den Datenordnern uws. aus Dateien gelesen. Diese Dateien werden standardmäßig an einem betriebssystemspezifischen Ort pro DAVINCI-Installation angelegt und dort auch ausgelesen. Alternativ können diese Dateien auch an einer beliebigen anderen Stelle in Ihrem Netzwerk liegen und DAVINCI liest den Pfad zu den Dateien aus der Paths-Datei (daVinci.paths) aus.
+Die Konfigurationsdateien werden für jeden Benutzer eines Computers angelegt. Wenn Sie im Netzwerk mit verschiedenen Clients arbeiten, können Sie eine PATHS-Datei verwenden, um globale Konfigurationen für alle Benutzer herzustellen, beispielsweise eine gemeinsame Druckformatedatei verwenden: Dazu können Sie die XML-Textdatei daVinci.paths für daVinci bzw. die Datei daVinciLook.paths für daVinci LOOK verwenden. 
 
-Der Vorteil einer Paths-Datei ist, dass Sie mehreren Nutzern die identischen Einstellungen in einem Arbeitsschritt an einem zentralen Ort zur Verfügung stellen können.
+In diesen Dateien werden die Pfade für bestimmte Konfigurationsdateien festgelegt. DAVINCI verwendet dann diese Pfadangaben, anstatt der Standardpfade. Beispielsweise unter der Angabe „daVinciPrintFormatFile“ finden Sie diesen Pfad auch im Fenster `Extras > System-Informationen` wieder.
 
-Beispiel: Die DAVINCI Lizenz wird nur an einer einzigen Stelle im Netzwerk eingespielt, ist aber für alle Kollegen erreichbar. Auch beim Einrichten einer neuen Arbeitsplatzsituation spart man sich einzelne Schritte: es genügt die Installation durchzuführen und die DAVINCI.paths im Programmverzeichnis abzulegen.
+## Wie funktioniert es
 
-Folgende Dateien werden beim Programmstart von DAVINCI gelesen:
+Sie kopieren die gewünschten Konfigurationdateien von einem eingerichteten System in ein Verzeichnis, auf das die Nutzer zugreifen können, beispielsweise auf ein freigegebenes Verzeichnis auf Ihrem Server. Die Ablagestellen der einzelen Dateien finden Sie aus DAVINCI oder DAVINCI LOOK heraus unter `Hilfe > Systeminfo`. Sie kopieren die gewünschte nachstehende Vorlage, löschen die nicht benötigten Zeilen, und passen den Pfad so an, dass auf Ihr freigegebenes Serververzeichnis verwiesen wird. Der Pfad endet mit dem jeweiligen Dateinamen, wie in der Vorlage.
+Die fertige Datei benennen Sie dann je nach Vorlage in `daVinciLook.paths` oder `daVinci.paths`, bitte achten Sie darauf, dass die Dateiendung auch `*.paths` ist, und nicht versehentlich durch ausgeblendete Dateierweiterungen noch `*.txt` lautet. 
+Im Abschnitt "Ablagepfade für daVinci.paths und davinciLook.paths" werden die Stellen aufgezählt, an denen die Dateien erkennen würde. 
 
-| Datei           | Inhalt                                               |
-| --------------- | ---------------------------------------------------- |
-| daVinci.lic     | enthält die Lizenzierungsdaten                       |
-| daVinci.opt     | enthält die DAVINCI-Optionseinstellungen             |
-| daVinci.hfm     | enthält die HTML Exportformate                       |
-| daVinci.pfm     | enthält die Druckformate                             |
-| daVinci.cfg     | enthält die aktuellen Login-Daten                     |
-| daVinci.site    | enthält die Standortdaten (Schulname, Adresse, etc.) |
-| daVinci.servers | enthält die Serververbindung und Startdatei          |
+Ein Beispiel:<br/> Sie legen Ihre angepasste `daVinci.paths` parallel zur `daVinci.exe` unter `C:\Program Files (x86)\Stueber Systems\daVinci 6` ab. Beim Programmstart erkennt die DAVINCI die Datei anhand des Dateinames und liest erst die Pfade aus der Datei aus, im Anschluss die Inhalte der Konfigurationsdateien. 
 
-Diese Dateien liegen je nach Betriebssystem an folgenden voreingestellten Speicherorten:
+## Vorlagen 
 
-| Betriebssystem      | Pfad                                     |
-| ------------------- | ---------------------------------------- |
-| Windows Vista       | C:\ProgramData\Stueber Systems\DAVINCI 7 |
-| Windows 7/8         | C:\ProgramData\Stueber Systems\DAVINCI 7 |
-| Windows Server 2008 | C:\ProgramData\Stueber Systems\DAVINCI 7 |
-| Windows 10          | C:\ProgramData\Stueber Systems\DAVINCI 7 |
+Die nachfolgenden Beispiele können Sie als Vorlage in eine Textdatei kopieren und dann den Pfad auf Ihr selbst angelegtes und freigegebenes Serververzeichnis anpassen - nicht benötigte Zeilen löschen Sie.
 
-Über `Hilfe > System Informationen` finden Sie in DAVINCI die Pfade der entsprechenden Dateien:
+### für DAVINCI
 
-*  daVinciOptionFile > daVinci.opt
-*  daVinciPrintFormatFile > daVinci.pfm
-*  daVinciConfigurationFile > daVinciLook.cfg 
-* etc.
-  
-Möchten Sie abweichende Speicherorte für diese Dateien angeben, zum Beispiel damit alle DAVINCI-Arbeitsplatzinstallationen auf dieselben Dateien zugreifen, sind folgende Schritte nötig:
-
-1. Richten Sie einen Arbeitsplatz vollständig ein, damit Sie von diesem Arbeitsplatz aus die ``daVinci.pfm``, die ``daVinci.lic`` und die ``daVinci.opt`` kopieren können. 
-
-2. Wählen Sie einen Speicherort für die Konfigurationsdateien aus. Die Dateien können in einem gemeinsamen Verzeichnis liegen oder Sie wählen für ``daVinci.lic``, die Optionsdatei (`daVinci.opt` und die `daVinci.pfm`,getrennte Verzeichnisse und speichern dort die Dateien.
-
-3. Erstellen Sie mit einem Texteditor eine neue Textdatei und kopieren den nachfolgenden Text in diese Datei. Passen Sie die Pfade bitte auf Ihre angelegten Verzeichnisse an, diese können sich lokal auf dem Rechner oder in Ihrem Netzwerk befinden.
-
-Beispiel:
-
-``` xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Preferences>
-  <Paths>
-    <Entry Name="daVinciPrintFormatFile" Value="D:\Mein Verzeichnis\daVinci.pfm"/>
-    <Entry Name="daVinciOptionsFolder" Value="D:\Mein Verzeichnis\daVinci.opt"/>
-    <Entry Name="daVinciLicenseFolder" Value="D:\Mein Verzeichnis\daVinci.lic"/>
+ <Paths>
+  <Entry Name="daVinciPrintFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.pfm"/>
+  <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.opt"/>
+  <Entry Name="daVinciHTMLFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.hfm"/>
+  <Entry Name="daVinciConfigurationFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.cfg"/>
+  <Entry Name="daVinciSiteFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.site"/>
+  <Entry Name="daVinciServerListFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.servers"/>
   </Paths>
 </Preferences>
 ```
 
-Weiter geht's:
+**Bitte beachten Sie, dass anders als bei MAGELLAN, der Verweispfad jeweils mit dem Dateinamen enden muss.**
 
-1. Speichern Sie diese Textdatei und benennen die Datei anschließend in „daVinci.paths“ um.
+### für DAVINCI LOOK
 
-2. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur daVinci.exe) ab. Beim Programmstart von DAVINCI wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Preferences>
+ <Paths>
+  <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinciLook.opt"/>
+  <Entry Name="daVinciPrintFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.pfm"/>
+  <Entry Name="daVinciConfigurationFile" Value="\\Mein_Server\...\Pathsdateien\daVinciLook.cfg"/>
+  <Entry Name="daVinciServerListFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.servers"/>
+  </Paths>
+</Preferences>
+```
 
-!!! warning "Wichtig"
+**Bitte beachten Sie, dass anders als bei MAGELLAN, der Verweispfad jeweils mit dem Dateinamen enden muss.**
 
-    Wenn Sie per DAVINCI.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der Ablagestelle der daVinci.opt Änderungen vorzunehmen.
+## Ablagepfade für daVinci.paths und davinciLook.paths
 
-Die Paths-Datei `daVinci.paths` kann für DAVINCI die Pfadangaben für folgende Dateien festlegen:
+Sie können die PATHS-Datei im Programmordner oder in den Datenordnern ablegen, siehe dazu die folgende Tabelle. Diese Ordner können je nach Betriebssystemversion variieren. Um welche Ordner es sich genau handelt, können Sie in daVinci bzw. in daVinci LOOK dem Fenster `Hilfe > System-Informationen` entnehmen.
 
-| Name                     | Datei           | Beschreibung                             |
-| ------------------------ | --------------- | ---------------------------------------- |
-| daVinci.lic              | daVinci.lic     | Lizenzdatei                              |
-| daVinciOptionFile        | daVinci.opt     | Optionsdatei                             |
-| daVinciHTMLFormatFile    | daVinci.hfm     | HTML Exportformate                       |
-| daVinciPrintFormatFile   | daVinci.pfm     | Druckformate                             |
-| daVinciConfigurationFile | daVinci.cfg     | Aktuelle Login-Daten                     |
-| daVinciSiteFile          | daVinci.site    | Standortdaten (Schulname, Adresse, etc.) |
-| daVinciServerListFile    | daVinci.servers | Serververbindung und Startdatei          |
+Mögliche Ordner für die Datei “daVinci.paths“ |Mögliche Ordner für die Datei “daVinciLook.paths“ 
+---|---
+daVinciBinFolder	|daVinciLookBinFolder
+daVinciDataFolder	|daVinciLookDataFolder
+daVinciCommonDataFolder	|daVinciLookCommonDataFolder
 
-Die Paths-Datei `daVinciLook.paths` kann für DAVINCI LOOK die Pfadangaben für folgende Dateien festlegen:
+> Die vollständige Pfadangabe zur aktuell verwendeten PATHS-Datei können Sie dem Eintrag „daVinciCustomPathsFile“ im Fenster `Hilfe > System-Informationen` entnehmen.
 
-| Name                     | Datei           | Beschreibung                    |
-| ------------------------ | --------------- | ------------------------------- |
-| daVinciOptionFile        | daVinciLook.opt | Optionsdatei                    |
-| daVinciPrintFormatFile   | daVinci.pfm     | Druckformate                    |
-| daVinciConfigurationFile | daVinciLook.cfg | Aktuelle Login-Daten            |
-| daVinciServerListFile    | daVinci.servers | Serververbindung und Startdatei |
+Die PATH-Datei kann die Pfadangaben für folgende Dateien festlegen:
+
+**daVinci.paths**
+
+Name|Datei|Beschreibung
+---|---|---
+daVinciOptionFile|daVinci.opt|Optionsdatei
+daVinciHTMLFormatFile|daVinci.hfm|HTML Exportformate
+daVinciPrintFormatFile|daVinci.pfm|Druckformate
+daVinciConfigurationFile|daVinci.cfg|Aktuelle Login-Daten
+daVinciSiteFile	|daVinci.site|Standortdaten (Schulname, Adresse, etc.)
+daVinciServerListFile|daVinci.servers|Serververbindung und Startdatei
+
+**daVinciLook.paths**
+
+Name	|Datei	|Beschreibung
+---|---|---
+daVinciOptionFile|	daVinciLook.opt |	Optionsdatei
+daVinciPrintFormatFile	|daVinci.pfm |	Druckformate
+daVinciConfigurationFile	|daVinciLook.cfg|	Aktuelle Login-Daten
+daVinciServerListFile|	daVinci.servers|	Serververbindung und Startdatei
