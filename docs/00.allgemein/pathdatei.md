@@ -22,6 +22,7 @@ Die nachfolgenden Beispiele können Sie als Vorlage in eine Textdatei kopieren u
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Preferences>
  <Paths>
+  <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinciLook.lic"/>
   <Entry Name="daVinciPrintFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.pfm"/>
   <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.opt"/>
   <Entry Name="daVinciHTMLFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.hfm"/>
