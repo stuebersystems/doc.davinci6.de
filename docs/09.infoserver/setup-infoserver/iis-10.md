@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor:
 
 ## Verwenden Sie eine 64-bit-Version von Windows?
 
-Sollten Sie eine 64-bit-Version von Windows einsetzen, gibt es zwei Möglichkeiten.
+Sollten Sie eine 64-bit-Version von Windows einsetzen, gibt es zwei Möglichkeiten, von der Sie bitte nur eine Variante verwenden.
 
 !!! info "Hinweis"
 
