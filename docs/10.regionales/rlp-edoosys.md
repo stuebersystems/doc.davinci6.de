@@ -15,3 +15,4 @@ Dieses Format dient zum Datenaustausch zwischen Schulverwaltungs- und Stundenpla
     Der [Datensatz P1](https://doc.sdtf.stueber.de/davinci-zeilentypen/#zeilentyp-p1) enthält die Schülerdaten. Wenn aus edoo.sys in dieser Form exportiert wird, können auch die Kurswahldaten der Schüler aus edoo.sys in DAVINCI eingelesen werden. 
     Der Artikel ["Fachwahlen werden nicht übernommen (gymnasiale Oberstufe)"](https://svp-rlp.topdesk.net/tas/public/ssp/content/detail/knowledgeitem?unid=de7eb635a52740b98cee8e6f0be10b30) beschreibt, wie Schulen in DAVINCI vorgehen müssen, um die Fachwahlen aus edoo.sys im KURSPLAN zu zeigen.
 
+
