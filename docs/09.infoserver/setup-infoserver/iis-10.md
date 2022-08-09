@@ -1,5 +1,16 @@
 # DAVINCI INFOSERVER und IIS 10
 
+[1]:/assets/images/is/islizenz.png
+[2]:/assets/images/is/iis-win10-add-module.png
+[3]://assets/images/is/iis-win10-add-module-limitations.png
+[4]:/assets/images/is/iis-win10-32bit.png
+[5]:/assets/images/is/_infoserver.dll.64.png
+[6]:/assets/images/is/davinciis-first-test.png
+[7]:/assets/images/is/server-verbindung.jpg
+[8]:/assets/images/is/guid.png
+[9]:/assets/images/is/infoserver.config.png
+[10]:/assets/images/is/infoserver.config01.png
+
 Dieses Kapitel beschreibt die Installation und Konfiguration des DAVINCI INFOSERVER als ISAPI-Modul für Ihren IIS-Web-Server.
 
 !!! info "Hinweis"
@@ -187,13 +198,3 @@ Starten Sie anschließend den Webserver bitte einmal neu.
 
 [![Wechseln Sie zum Tag "CompressionEnabled"][10]][10] 
 
-[1]:/assets/images/is/islizenz.png
-[2]:/assets/images/is/iis-win10-add-module.png
-[3]://assets/images/is/iis-win10-add-module-limitations.png
-[4]:/assets/images/is/iis-win10-32bit.png
-[5]:/assets/images/is/_infoserver.dll.64.png
-[6]:/assets/images/is/davinciis-first-test.png
-[7]:/assets/images/is/server-verbindung.jpg
-[8]:/assets/images/is/guid.png
-[9]:/assets/images/is/infoserver.config.png
-[10]:/assets/images/is/infoserver.config01.png
