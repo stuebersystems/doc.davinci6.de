@@ -24,7 +24,6 @@ Die nachfolgenden Beispiele können Sie als Vorlage in eine Textdatei kopieren u
  <Paths>
   <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinciLook.lic"/>
   <Entry Name="daVinciPrintFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.pfm"/>
-  <Entry Name="daVinciOptionFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.opt"/>
   <Entry Name="daVinciHTMLFormatFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.hfm"/>
   <Entry Name="daVinciConfigurationFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.cfg"/>
   <Entry Name="daVinciSiteFile" Value="\\Mein_Server\...\Pathsdateien\daVinci.site"/>
