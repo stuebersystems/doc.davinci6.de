@@ -28,6 +28,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DAVINCI Version 6.5.78 (unveröffentlicht)
 
+* NEW: Beispieldateien 2022/2023
+
 ## DAVINCI Version 6.5.77 (25.04.2022)
 
 ### Allgemein
