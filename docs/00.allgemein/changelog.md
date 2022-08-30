@@ -37,6 +37,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## DAVINCI Version 6.5.78 (unveröffentlicht)
 
 * NEW: Beispieldateien 2022/2023
+* FIX: RLP-FW-APO-2010.js berücksichtigt Fachstatus "AufgstGK" für aufgestockte Grundkurse
 
 ## DAVINCI Version 6.5.77 (25.04.2022)
 
