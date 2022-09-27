@@ -118,7 +118,7 @@ Folgende Richtlinien stehen zur Auswahl, die die Menge der angezeigten Daten bes
 | Nicht erlaubt | Kein Zugriff erlaubt | keine |
 | Gast | keine Lehrer- /Schülerpläne erlaubt | 2 |
 | Gast | Nur Klassen- und Raumpläne | 2, 3, 4, 5, 6 |
-| Gast | Vertretungsliste erlaubt <br/>nur Vertretungsdaten, keine unveränderten Veranstaltungsdaten | 3 |
+| Gast | Vertretungsliste erlaubt <br/>[nur Vertretungsdaten, keine unveränderten Veranstaltungsdaten] | 3 |
 | Gast | Vertretungsliste, Raumpläne erlaubt | 3, 2 |
 | Gast | Vertretungsliste, Raum-/Klassenpläne erlaubt | 3, 2 |
 | Gast | Vertretungsliste, Raum-/Klassen-/Lehrerpläne erlaubt | 1, 2, 3, 4 |
