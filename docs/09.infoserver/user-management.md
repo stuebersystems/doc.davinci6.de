@@ -113,11 +113,12 @@ Bild [![Richtlinien Infoserver][6]][6]
 
 Folgende Richtlinien stehen zur Auswahl:
 
-| Werte | Bedeutung | Ansichten in DAVINCI-MOBILE (siehe Legende) |
+| Werte | Bedeutung | Ansichten in DAVINCI-MOBILE (siehe Legende) 
 | --- | --- | --- |
 | Nicht erlaubt | Kein Zugriff erlaubt | keine |
+| Gast | keine Lehrer- /Schülerpläne erlaubt | 2 |
 | Gast | Nur Klassen- und Raumpläne | 2, 3, 4, 5, 6 |
-| Gast | Vertretungsliste erlaubt | 3 |
+| Gast | Vertretungsliste erlaubt <br/>nur Vertretungsdaten, keine unveränderten Veranstaltungsdaten | 3 |
 | Gast | Vertretungsliste, Raumpläne erlaubt | 3, 2 |
 | Gast | Vertretungsliste, Raum-/Klassenpläne erlaubt | 3, 2 |
 | Gast | Vertretungsliste, Raum-/Klassen-/Lehrerpläne erlaubt | 1, 2, 3, 4 |
@@ -141,6 +142,10 @@ In Abhängigkeit von den Rechten, die im DAVINCI-EXPLORER eingestellt worden sin
 | 4 | Kalendereinträge (z.B. Ferien) |
 | 5 | Übersichtspläne: Alle Klassen-/Lehrer-Raumpläne heute |
 | 6 | Gebäudeplan: Was wird gerade wo unterrichtet? |
+
+!!! warning "Wichtig"
+
+    Die vorstehenden Ansichten sind sichtbar oder unsichtbar, werden aber entsprechend der Richtlinien mit Daten gefüllt. Hat ein Nutzer beispielsweise das Recht "Vertretungsliste erlaubt", sieht er in den jeweiligen Ansichten (Raumplan, Vertretungsliste...) nur die geänderten Daten (keine unveränderten Daten).
 
 ## Kollegen und Schulleitung
 
