@@ -111,7 +111,7 @@ Bild [![Richtlinien Infoserver][6]][6]
 
 ## Stundenpläne anzeigen
 
-Folgende Richtlinien stehen zur Auswahl:
+Folgende Richtlinien stehen zur Auswahl, die die Menge der angezeigten Daten bestimmen:
 
 | Werte | Bedeutung | Ansichten in DAVINCI-MOBILE (siehe Legende) 
 | --- | --- | --- |
@@ -132,7 +132,7 @@ Folgende Richtlinien stehen zur Auswahl:
 
 ## Legende für die Ansichten in DAVINCI-MOBILE
 
-In Abhängigkeit von den Rechten, die im DAVINCI-EXPLORER eingestellt worden sind, können folgende Übersichten in DAVINCI-MOBILE für Benutzer anzeigt werden:
+In Abhängigkeit von den Rechten, die über die Menge der angezeigten Daten bestimmen, die im DAVINCI-EXPLORER eingestellt worden sind, können folgende Übersichten in DAVINCI-MOBILE für Benutzer anzeigt werden:
 
 | Nr. | Ansicht in DAVINCI-MOBILE |
 | --- | --- |
