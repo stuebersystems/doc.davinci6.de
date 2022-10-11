@@ -34,10 +34,14 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.78 (unveröffentlicht)
+## DAVINCI Version 6.5.79 (unveröffentlicht)
+
+## DAVINCI Version 6.5.78 (11.10.2022)
 
 * NEW: Beispieldateien 2022/2023
 * FIX: RLP-FW-APO-2010.js berücksichtigt Fachstatus "AufgstGK" für aufgestockte Grundkurse
+* FIX: Export > Statistik Rheinland Pfalz D6-Datensatz
+* NEW: Kalenderdateien SJ 2022/2023
 
 ## DAVINCI Version 6.5.77 (25.04.2022)
 
