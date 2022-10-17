@@ -8,7 +8,7 @@ Der Workflow sieht grob wie folgt aus:
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
-+ Dieser Vorgang kann über die Windowsaufgabenplanung automatisiert werden.
++ Dieser Vorgang kann über die Windows Aufgabenplanung automatisiert werden.
 
 ## Voraussetzungen
 
@@ -126,7 +126,7 @@ Eigenschaft                         | Bedeutung
 `daVinci.SduiExport.SourceProvider` | Wert = `Server`
 `daVinci.SduiExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk. `DAVINCI Explorer > Server > Serverinformationen`
 `daVinci.SduiExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)`Systemsteuerung > DAVINCI Server > Netzwerk`
-`daVinci.SduiExport.ServerUserName` | Ein DAVINCI-Benutzername.
+`daVinci.SduiExport.ServerUserName` | Ein DAVINCI-Benutzername.`DAVINCI Explorer > Benutzer`
 `daVinci.SduiExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.`DAVINCI Explorer > Benutzer`
 `daVinci.SduiExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.`DAVINCI Explorer > Plandatei > Start > Eigenschaften`
 
