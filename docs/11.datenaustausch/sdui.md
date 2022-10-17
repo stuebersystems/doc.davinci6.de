@@ -8,6 +8,8 @@ Der Workflow sieht grob wie folgt aus:
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
++ Dieser Vorgang kann über die Windowsaufgabenplanung automatisiert werden.
+
 ## Voraussetzungen
 
 Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DAVINCI benötigt.
@@ -48,6 +50,11 @@ Jetzt können Sie lokale PowerShell-Skripte problemlos starten.
 [6]: https://blog.stueber.de/posts/powershell7-unter-windows-10/
 
 ### PSDaVinci
+
+!!! tip "Hinweis"
+	PSDaVinci ist ein PowerShell-Modul, welches den Workflow zwischen DAVINCI und Sdui orchestriert. PSDaVinci stellt die folgenden PowerShell-Befehle bereit: 
+	`Initialize-DaVinciExport sdui` legt ein Konfigurationsdatei an
+	`Start-DaVinciExport sdui` Übertragung der Daten aus DAVINCI nach Sdui
 
 Installieren Sie das PowerShell-Modul [PSDaVinci][7]:
 
@@ -117,13 +124,15 @@ Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DAVINCI-Datei, d
 Eigenschaft                         | Bedeutung
 ----------------------------------- | ---------
 `daVinci.SduiExport.SourceProvider` | Wert = `Server`
-`daVinci.SduiExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk.
-`daVinci.SduiExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)
+`daVinci.SduiExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk. `DAVINCI Explorer > Server > Serverinformationen`
+`daVinci.SduiExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)`Systemsteuerung > DAVINCI Server > Netzwerk`
 `daVinci.SduiExport.ServerUserName` | Ein DAVINCI-Benutzername.
-`daVinci.SduiExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.
-`daVinci.SduiExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.
+`daVinci.SduiExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.`DAVINCI Explorer > Benutzer`
+`daVinci.SduiExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.`DAVINCI Explorer > Plandatei > Start > Eigenschaften`
 
 Es empfiehlt sich einen seperaten DAVINCI-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DAVINCI anmelden zu können.
+
+Bitte schauen Sie [hier](https://doc.davinci6.stueber.de/06.enterprise/06.benutzer/),wenn Sie Fragen zur Einrichtung der Benutzer in DAVINCI haben.
 
 Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich jederzeit überschrieben werden.
 
@@ -193,7 +202,11 @@ Die Synchronisation zwischen DAVINCI und Sdui kann automatisiert werden. Eine vo
 
 ### Ein Beispiel
 
-Wir wollen, dass der Abgleich zwischen DAVINCI und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
+Wir wollen, dass der Abgleich zwischen DAVINCI und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfigurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
+
+!!! warning  wichtig:
+
+	Damit ein Logfile angelegt wird, bitte vorher den Ordner logs unter c:\davinci anlegen!
 
 Los geht's:
 
