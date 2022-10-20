@@ -36,7 +36,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DAVINCI Version 6.5.79 (unveröffentlicht)
 
+### Allgemein
+
+* FIX: Export Schuldatentransferformat D6 Datensatz
+
 ## DAVINCI Version 6.5.78 (11.10.2022)
+
+### Allgemein
 
 * NEW: Beispieldateien 2022/2023
 * FIX: RLP-FW-APO-2010.js berücksichtigt Fachstatus "AufgstGK" für aufgestockte Grundkurse
