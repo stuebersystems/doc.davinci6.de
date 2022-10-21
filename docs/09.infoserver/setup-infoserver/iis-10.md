@@ -2,7 +2,7 @@
 
 [1]:/assets/images/is/islizenz.png
 [2]:/assets/images/is/iis-win10-add-module.png
-[3]://assets/images/is/iis-win10-add-module-limitations.png
+[3]:/assets/images/is/iis-win10-add-module-limitations.png
 [4]:/assets/images/is/iis-win10-32bit.png
 [5]:/assets/images/is/_infoserver.dll.64.png
 [6]:/assets/images/is/davinciis-first-test.png
