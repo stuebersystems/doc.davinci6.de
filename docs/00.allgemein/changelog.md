@@ -39,6 +39,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * FIX: Export Schuldatentransferformat D6 Datensatz
+* CHANGE: Beim Aufruf des Abgleiches mit MAGELLAN wird für MAGELLAN 9 das 32- und 64-Bit Programmverzeichnis geprüft um das korrekte Anmeldefenster zur eingesetzten höchsten Version zu zeigen.
 
 ## DAVINCI Version 6.5.78 (11.10.2022)
 
