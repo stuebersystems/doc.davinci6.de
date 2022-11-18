@@ -205,7 +205,6 @@ Die Synchronisation zwischen DAVINCI und Sdui kann automatisiert werden. Eine vo
 Wir wollen, dass der Abgleich zwischen DAVINCI und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfigurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
 
 !!! warning  wichtig:
-
 	Damit ein Logfile angelegt wird, bitte vorher den Ordner logs unter c:\davinci anlegen!
 
 Los geht's:
