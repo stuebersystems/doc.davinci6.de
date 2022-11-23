@@ -255,7 +255,7 @@ Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausg
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets konrtollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/sdui/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/sdui/automation-02.png "Name und Beschreibung"
