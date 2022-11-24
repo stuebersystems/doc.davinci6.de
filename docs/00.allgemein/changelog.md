@@ -34,13 +34,21 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.79 (unveröffentlicht)
+## DAVINCI Version 6.5.80 (unveröffentlicht)
+
+### Allgemein
+
+## DAVINCI Version 6.5.79 (24.11.2022)
 
 ### Allgemein
 
 * FIX: Export Schuldatentransferformat D6 Datensatz
 * CHANGE: Beim Aufruf des Abgleiches mit MAGELLAN wird für MAGELLAN 9 das 32- und 64-Bit Programmverzeichnis geprüft um das korrekte Anmeldefenster zur eingesetzten höchsten Version zu zeigen.
 
+### Kursplan
+
+* FIX: `Kursplan > Fachwahlen`:Aktualisieren der Anzeige beim Schülerwechsel korrigiert
+* 
 ## DAVINCI Version 6.5.78 (11.10.2022)
 
 ### Allgemein
