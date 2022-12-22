@@ -36,7 +36,11 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DAVINCI Version 6.5.80 (unveröffentlicht)
 
-### Allgemein
+### Kursplan
+
+* FIX: Synchronisationsproblem bei der Eingabe auf `Kursplan > Fachwahlen`gelöst
+* 
+
 
 ## DAVINCI Version 6.5.79 (24.11.2022)
 
