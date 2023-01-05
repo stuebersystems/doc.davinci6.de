@@ -40,6 +40,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Extras > Plandatei aufräumen` Augräumroutine `Veranstaltung bearbeiten > Teilnehmer Veranstaltung > Schüler`hat ein Schüler keine zur Veranstaltung passende Kurswahl, wird er als Teilnehmer der Veranstaltung gelöscht deaktiviert 
 * FIX: `Dateieigenschaften > Datenschutz> Änderungen publizieren` Samstag/Sonntag werden bei der Auswahl der Tage nicht als Unterrichtstage angenommen
+* FIX: Stammdaten `Extras > Weitere Aktionen > Stammdaten IDs löschen`
 
 ### Kursplan
 
