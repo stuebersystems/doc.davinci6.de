@@ -34,7 +34,11 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.80 (unveröffentlicht)
+## DAVINCI Version 6.5.81 (unveröffentlicht)
+
+### Allgemein
+
+## DAVINCI Version 6.5.80 (06.01.2023)
 
 ### Allgemein
 
