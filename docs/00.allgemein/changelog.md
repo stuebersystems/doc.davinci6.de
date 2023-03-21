@@ -36,6 +36,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
+* CHANGE: Ergänzen der Registrypfade, die für den Abgleich zwischen DAVINCI und MAGELLAN10 genutzt werden
+
 ## DAVINCI Version 6.5.80 (06.01.2023)
 
 ### Allgemein
