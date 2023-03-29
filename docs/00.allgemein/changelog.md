@@ -32,11 +32,20 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.81 (unveröffentlicht)
+## DAVINCI Version 6.5.82 (unveröffentlicht)
+
+### Allgemein
+
+## DAVINCI Version 6.5.81 (29.03.2023)
 
 ### Allgemein
 
 * CHANGE: Ergänzen der Registrypfade, die für den Abgleich zwischen DAVINCI und MAGELLAN10 genutzt werden
+* NEW: Kalenderdateien 2023-2024
+
+### Vertretungsplan
+
+* FIX:Fehlstellen ohne Datumsangabe werden nicht in das ECF-Format ausgegeben 
 
 ## DAVINCI Version 6.5.80 (06.01.2023)
 
