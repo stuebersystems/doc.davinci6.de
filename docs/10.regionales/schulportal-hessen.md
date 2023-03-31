@@ -2,6 +2,8 @@
 
 Mit DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie der Vertretungsplandaten in das Schulportal HESSEN möglich. Das Schulportal HESSEN ist ein Service, der von der _Hessischen Lehrkräfteakademie_ den Schulen zur Verfügung gestellt wird.
 
+Bitte schauen Sie auch [hier](https://support.schulportal.hessen.de/knowledgebase.php?category=76) direkt auf der Seite des Schulportal Hessen und infomrieren sich zu den aktuellen Möglichkeiten.
+
 ## Stunden- und Aufsichtspläne
 
 ## JSON Export
