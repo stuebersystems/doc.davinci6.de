@@ -55,3 +55,32 @@ Ausfall | ausfall
      Die Schlüssel werden von DAVINCI zur Identifiktation der korrekten Daten für die Landesstatistik verwendet und müssen genauso geschrieben werden wie in den beiden Tabellen angegeben, dies gilt insbesondere für die Groß- und Kleinschreibung. Das Kürzel ist dafür nicht relevant, Sie können es daher auch anders benennen bzw. anders schreiben. 
 
 Anschließend können Sie bei `Von`und `Bis` den Zeitraum einstellen, für den die Statistik erstellt werden soll. Klicken Sie dann auf `Aktualisieren` um die Summen von DAVINCI berechnen zu lassen. Speichern Sie das Ergebnis mit `Exportieren` als XML-Datei und senden Sie diese an die Sächsische Bildungsagentur.
+
+### Ausinformationen der XML Datei -In Bearbeitung-
+
+Information | Erläuterung | DAVINCI 
+-|-|-
+hersteller| -|-
+titel| -|-
+version | -|-
+zeitpunkt| -|-
+disch| -|-
+jahr | -|-
+monat| -|-
+fach name| Name des auszuwertenden Faches-|Stammdaten > Fächer > Bezeichnung
+gesamtstundensoll| Unterrichststunden der Schülerinnen und Schüler der entsprechenden Klasse, die laut Berichtszeitraum zu erteilen gewesen wären-|Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum)
+planmaessigerua| Nichteinhaltung der Stundentafel wegen Lehrermangel oder nicht vorhandenen Unterrichtsräumen; Fach wird nicht oder nicht in vollem Umfang unterrichtet -|Differenz zischen Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum) und Ist der verplanten Veranstaltungen
+ausserplanmaessigerua| wegen Krankheit, Fortbildung, Gremienarbeit, fehlendem Fachlehrer (Begleitung Klassenfahrt, Wandertag Exkursion), sonstiges -|Stunden die durch Lehrerfehlzeiten entstehen, Klassenfehlgründe dürfen nicht abgerechnet werden (Stunden gelten als gehalten und stellen keinen Ausfall für die Klasse dar), R:
+Lehrer, die eine Klasse begleiten (Wandertag, Exkursion, Klassenfahrt) müssen ausgetragen werden (Lehrer fährt mit). Stunden, welche der Lehrer in anderen Klassen unterrichtet müssen als Vertretung angezeigt werden, Fehlzeit der Lehrer läuft hier unter dem Fehlgrund „sonstige Gründe“, Abrechnung je ausgewählter Schulform  
+krankheit| -|-
+fortbildung| -|-
+gremienarbeit| -|-
+klassenfahrt| -|-
+wandertag| -|-
+theater| -|-
+sonstiges| -|-
+vertretungsstunden | -|-
+anderesfach | -|V-Lehrer wird zugewiesen UND das Fach wird geändert ODER Lehrer in einem Block übernimmt die Klasse
+gesamt| -|-
+stillbeschaeftigung| -|-
+fachgerecht| -|V-Lehrer wird zugewiesen
