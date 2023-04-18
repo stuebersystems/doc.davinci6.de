@@ -72,15 +72,16 @@ gesamtstundensoll| Unterrichststunden der Schülerinnen und Schüler der entspre
 planmaessigerua| Nichteinhaltung der Stundentafel wegen Lehrermangel oder nicht vorhandenen Unterrichtsräumen; Fach wird nicht oder nicht in vollem Umfang unterrichtet -|Differenz zischen Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum) und Ist der verplanten Veranstaltungen
 ausserplanmaessigerua| wegen Krankheit, Fortbildung, Gremienarbeit, fehlendem Fachlehrer (Begleitung Klassenfahrt, Wandertag Exkursion), sonstiges -|Stunden die durch Lehrerfehlzeiten entstehen, Klassenfehlgründe dürfen nicht abgerechnet werden (Stunden gelten als gehalten und stellen keinen Ausfall für die Klasse dar), R:
 Lehrer, die eine Klasse begleiten (Wandertag, Exkursion, Klassenfahrt) müssen ausgetragen werden (Lehrer fährt mit). Stunden, welche der Lehrer in anderen Klassen unterrichtet müssen als Vertretung angezeigt werden, Fehlzeit der Lehrer läuft hier unter dem Fehlgrund „sonstige Gründe“, Abrechnung je ausgewählter Schulform  
-krankheit| -|-
-fortbildung| -|-
-gremienarbeit| -|-
-klassenfahrt| -|-
-wandertag| -|-
-theater| -|-
-sonstiges| -|-
+krankheit| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund krankheit
+fortbildung| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund fortbildung
+gremienarbeit| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund gremienarbeit
+klassenfahrt| -|-Stunden die durch Lehrerfehlzeiten entstehen mit Grund klassenfahrt
+wandertag| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund wandertag
+theater| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund theater
+sonstiges| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund sonstiges
 vertretungsstunden | -|-
 anderesfach | -|V-Lehrer wird zugewiesen UND das Fach wird geändert ODER Lehrer in einem Block übernimmt die Klasse
 gesamt| -|-
 stillbeschaeftigung| -|-
-fachgerecht| -|V-Lehrer wird zugewiesen
+fachgerecht| -|V-Lehrer wird zugewiesen oder Vertretung entfällt wegen Vertretungsentfallgrund "Selbtsstudium"
+ausfall| - | Vertretung entfällt Vertretungsentfallgrund „Ausfall“ 
