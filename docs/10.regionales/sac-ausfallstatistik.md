@@ -56,7 +56,7 @@ Ausfall | ausfall
 
 Anschließend können Sie bei `Von`und `Bis` den Zeitraum einstellen, für den die Statistik erstellt werden soll. Klicken Sie dann auf `Aktualisieren` um die Summen von DAVINCI berechnen zu lassen. Speichern Sie das Ergebnis mit `Exportieren` als XML-Datei und senden Sie diese an die Sächsische Bildungsagentur.
 
-### Ausinformationen der XML Datei -In Bearbeitung-
+### Ausgabeinformationen der XML Datei -In Bearbeitung-
 
 Information | Erläuterung | DAVINCI 
 -|-|-
@@ -67,11 +67,10 @@ zeitpunkt| -|-
 disch| -|-
 jahr | -|-
 monat| -|-
-fach name| Name des auszuwertenden Faches-|Stammdaten > Fächer > Bezeichnung
+fach name| Name des auszuwertenden Faches|Stammdaten > Fächer > Bezeichnung
 gesamtstundensoll| Unterrichststunden der Schülerinnen und Schüler der entsprechenden Klasse, die laut Berichtszeitraum zu erteilen gewesen wären-|Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum)
 planmaessigerua| Nichteinhaltung der Stundentafel wegen Lehrermangel oder nicht vorhandenen Unterrichtsräumen; Fach wird nicht oder nicht in vollem Umfang unterrichtet -|Differenz zischen Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum) und Ist der verplanten Veranstaltungen
-ausserplanmaessigerua| wegen Krankheit, Fortbildung, Gremienarbeit, fehlendem Fachlehrer (Begleitung Klassenfahrt, Wandertag Exkursion), sonstiges -|Stunden die durch Lehrerfehlzeiten entstehen, Klassenfehlgründe dürfen nicht abgerechnet werden (Stunden gelten als gehalten und stellen keinen Ausfall für die Klasse dar), R:
-Lehrer, die eine Klasse begleiten (Wandertag, Exkursion, Klassenfahrt) müssen ausgetragen werden (Lehrer fährt mit). Stunden, welche der Lehrer in anderen Klassen unterrichtet müssen als Vertretung angezeigt werden, Fehlzeit der Lehrer läuft hier unter dem Fehlgrund „sonstige Gründe“, Abrechnung je ausgewählter Schulform  
+ausserplanmaessigerua| wegen Krankheit, Fortbildung, Gremienarbeit, fehlendem Fachlehrer (Begleitung Klassenfahrt, Wandertag Exkursion), sonstiges |Stunden, die durch Lehrerfehlzeiten entstehen, Klassenfehlgründe dürfen nicht abgerechnet werden (Stunden gelten als gehalten und stellen keinen Ausfall für die Klasse dar),Lehrer, die eine Klasse begleiten (Wandertag, Exkursion, Klassenfahrt) müssen ausgetragen werden (Lehrer fährt mit). Stunden, welche der Lehrer in anderen Klassen unterrichtet, müssen als Vertretung angezeigt werden, Fehlzeit der Lehrer läuft hier unter dem Fehlgrund „sonstige Gründe“, Abrechnung je ausgewählter Schulform  
 krankheit| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund krankheit
 fortbildung| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund fortbildung
 gremienarbeit| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund gremienarbeit
