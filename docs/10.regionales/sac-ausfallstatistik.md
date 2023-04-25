@@ -68,8 +68,8 @@ disch| -|-
 jahr | -|-
 monat| -|-
 fach name| Name des auszuwertenden Faches|Stammdaten > Fächer > Bezeichnung
-gesamtstundensoll| Unterrichststunden der Schülerinnen und Schüler der entsprechenden Klasse, die laut Berichtszeitraum zu erteilen gewesen wären-|Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum)
-planmaessigerua| Nichteinhaltung der Stundentafel wegen Lehrermangel oder nicht vorhandenen Unterrichtsräumen; Fach wird nicht oder nicht in vollem Umfang unterrichtet -|Differenz zischen Stammdaten > Stundentafel > Soll (für den ausgewählten Zeitraum) und Ist der verplanten Veranstaltungen
+gesamtstundensoll| Unterrichststunden der Schülerinnen und Schüler der entsprechenden Klasse, die laut Berichtszeitraum zu erteilen gewesen wären-|verplante Unterrichtsstunden (für den ausgewählten Zeitraum)
+planmaessigerua| Nichteinhaltung der Stundentafel wegen Lehrermangel oder nicht vorhandenen Unterrichtsräumen; Fach wird nicht oder nicht in vollem Umfang unterrichtet -|wird aktuell nicht ausgegeben
 ausserplanmaessigerua| wegen Krankheit, Fortbildung, Gremienarbeit, fehlendem Fachlehrer (Begleitung Klassenfahrt, Wandertag Exkursion), sonstiges |Stunden, die durch Lehrerfehlzeiten entstehen, Klassenfehlgründe dürfen nicht abgerechnet werden (Stunden gelten als gehalten und stellen keinen Ausfall für die Klasse dar),Lehrer, die eine Klasse begleiten (Wandertag, Exkursion, Klassenfahrt) müssen ausgetragen werden (Lehrer fährt mit). Stunden, welche der Lehrer in anderen Klassen unterrichtet, müssen als Vertretung angezeigt werden, Fehlzeit der Lehrer läuft hier unter dem Fehlgrund „sonstige Gründe“, Abrechnung je ausgewählter Schulform  
 krankheit| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund krankheit
 fortbildung| -|Stunden die durch Lehrerfehlzeiten entstehen mit Grund fortbildung
