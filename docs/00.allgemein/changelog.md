@@ -39,6 +39,10 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Extras > Plandatei aufräumen`löscht nicht mehr manuelle Zuordnung von Schülern als Teilnehmer einer Veranstaltung `Veranstaltung bearbeiten > Teilnehmer Veranstaltung > Schüler` hat ein Schüler keine passende Kurswahl wurde er aus der Veranstaltung entfernt
 * Übersicht `Extras > Jetzt` berücksichtigt Vertretungsplaninformationen
 
+### Stundenplan
+
+* FIX: `Stundenplan > Stundenplan > Zeitkonflikte anzeigen` Schienen X und A 
+   
 ### Kursplan
 
 * FIX: `Kursplan > Fachwahl > Sortieren` Darstellungsfehler behoben
