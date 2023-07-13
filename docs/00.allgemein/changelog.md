@@ -37,7 +37,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * FIX: `Extras > Plandatei aufräumen`löscht nicht mehr manuelle Zuordnung von Schülern als Teilnehmer einer Veranstaltung `Veranstaltung bearbeiten > Teilnehmer Veranstaltung > Schüler` hat ein Schüler keine passende Kurswahl wurde er aus der Veranstaltung entfernt
-* Übersicht `Extras > Jetzt` berücksichtigt Vertretungsplaninformationen
+* FIX: Übersicht `Extras > Jetzt` berücksichtigt Vertretungsplaninformationen
+* NEW: Lehrer Soll-Ist-Schlüssel NRW, `Extras > Schlüsselverzeichnisse > Lehrer Soll-Ist-Schlüssel > Importieren` 13_NRW_Lehrer-Soll-Schluessel_BK.keys; 13_NRW_Lehrer-Soll-Schluessel_GES.keys
 
 ### Stundenplan
 

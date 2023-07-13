@@ -100,7 +100,7 @@ Die eingetragene Sperrung wird nun im Planungsfenster angezeigt. Gesperrte Planp
 
 ![Anzeige von Sperrungen](/assets/images/Sperrung01.png)
 
-## Kernzeit eintragen
+### Kernzeit eintragen
 
 Um für einen bestimmten Einzelplan eine Kernzeit zu erfassen, gehen Sie bitte folgendermaßen vor:
 
@@ -134,3 +134,7 @@ Im Rahmen des Erfassens von Kernzeiten für Räume haben Sie außerdem die Optio
 Erfassen Sie dazu für den gewünschten Raum eine Kernzeit der Rangstufe „1“ und wählen Sie im Dialogfenster „Neue Zeitpräferenz“  das  gewünschte Team aus dem Aufklappmenü des Feldes „Team“. Die eingetragene Kernzeit wird nun im Planungsfenster angezeigt. Das Kürzel des zugewiesenen Teams wird dabei in Klammern neben der Rangstufe der Kernzeit angezeigt.  
 
 ![Team](/assets/images/Kernzeit02.png)
+
+## Sammelzuweisung
+
+In den Stammdaten für Klassen, Lehrer, Räume, Fächer haben Sie die Möglichkeit über `Start > Bearbeiten > Zeitpräferenzen` diese auch als Sammelzuweisung für alle zuvor markierten zuzuweisen.
