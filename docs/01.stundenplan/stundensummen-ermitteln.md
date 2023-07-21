@@ -1,5 +1,7 @@
 # Stundensummen ermitteln
 
+## Berechnungskonzepte
+
 In DAVINCI 6 stehen drei verschiedene Berechnungskonzepte zur Verfügung, die Sie für die Ermittlung der Stundensummen benutzen können:
 
 * Faktorbezogene Berechnung
@@ -14,7 +16,7 @@ Tagesbezogen |  Es wird jeden Tag die Anzahl der Stunden gezählt, wobei unterri
 Wochenbezogen | Es wird jeden Tag die Anzahl der Stunden gezählt, wobei die in „Wochenbezogene Summe“ ausgenommenen Wochen nicht mitgezählt werden. Das Resultat ist eine gemittelte Stundensumme über die Wochen des Schuljahres, z.B. „2h x 20 Wochen / 40 Wochen = 1h [je Woche als Mittelwert]“
 Faktorbezogen | Die jeweilige Stundendauer einer Veranstaltung wird mit dem Klassenfaktor (aus Klassensicht) bzw. dem Lehrerfaktor (bei Lehrersicht) multipliziert. Klassenfaktor und Lehrerfaktor können je Veranstaltung über das Dialogfenster „Veranstaltung“ manuell eingegeben werden oder errechnen sich automatisch aus dem Faktor der ggf. zugewiesenen Periode.
 
-## Dauer und Wertung einer Unterrichtstunde festlegen
+### Dauer und Wertung einer Unterrichtstunde festlegen
 
 DAVINCI STUNDENPLAN errechnet auf der Basis der erstellten Unterrichtstermine automatisch die anfallenden Unterrichtsstunden. Dabei wird standardmäßig ein Ausgangswert von 45 Minuten pro Unterrichtsstunde vorausgesetzt. Diesen Ausgangswert für die Stundenzählung können Sie bei Bedarf an Ihre spezifischen Gegebenheiten anpassen.
 
@@ -35,7 +37,7 @@ Um die Dauer der Unterrichtsstunden an Ihre besonderen Erfordernisse anzupassen,
 
 6. Bestätigen Sie Ihre Angaben abschließend mit ``OK``.
 
-## Stunden mit Wertfaktoren
+### Stunden mit Wertfaktoren
 
 In einigen Regionen werden statistisch nicht die realen Zeitstunden sondern die mit Wertfaktoren gewichteten Stunden erfasst, siehe z.B. in Hamburg die Lehrerarbeitszeitkonten. Eine Stunde Mathematik erfordert mehr Vorbereitung als eine Stunde Sport. Daher wird beispielsweise die Mathematik Stunde mit dem Wertfaktor ``1,4`` und die Sport Stunde mit dem Wertfaktor ``1,0`` multipliziert.
 
@@ -47,7 +49,7 @@ Markieren Sie im Dialogfenster ``Plan-Eigenschaften`` im Bereich ``Verreichnungs
 
     Wie Sie im Programmbereich ``Stammdaten`` auf der Registerkarte ``Stundentafeln`` die Lehrer-Wertfaktoren der Unterrichtsfächer eingeben können, entnehmen Sie bitte dem Abschnitt [Stundentafeln](/davinci-stundenplan/stammdaten/stundentafeln.md).
 
-## Faktorbezogene Berechnung aktivieren
+### Faktorbezogene Berechnung aktivieren
 
 ![Summierung](/assets/images/Summierung.Faktorbezogen.png)
 
@@ -74,7 +76,7 @@ Bei der faktorbezogenen Berechnung fließen folgende Informationen in die Berech
 Der Klassen- und der Lehrerfaktor einer Veranstaltung werden von DAVINCI automatisch ermittelt. Beide Faktoren können jeweils einen Wert zwischen „1“ und „0“ annehmen. Der Wert „1“ bedeutet, dass eine Veranstaltung in allen Unterrichtswochen des Planungszeitraums stattfindet.
 Ein Wert kleiner als „1“ bedeutet, dass eine Veranstaltung nicht in allen Unterrichtswochen des Planungszeitraums stattfindet. Die Anzahl der Unterrichtswochen einer bestimmten Veranstaltung wird dabei durch den allgemeinen Wochenfaktor geteilt. Der allgemeine Wochenfaktor steht als statistischer Kennwert für die Anzahl aller Unterrichtswochen des Planungszeitraums und wird vom Planer im Vorfeld definiert.
 
-## Wochenbezogene Berechnung
+### Wochenbezogene Berechnung
 
 Bei der wochenbezogenen Berechnungsweise werden die Stundenwerte der Lehrer und Klassen in den vom Planer definierten Unterrichtswochen zu Jahresstundenwerten addiert. Die zugehörigen Durchschnittswerte ergeben sich, indem die Jahresstundenwerte durch den allgemeinen Wochenfaktor in den Statistikeigenschaften der Datei dividiert werden. Zur Ermittlung der Ist-Stundenwerte werden nur die im Teilfenster „Veranstaltungsliste“ verfügbaren Termininformationen herangezogen. Informationen über Ferien- und Feiertage und andere schulfreie Ereignisse, die nur im Teilfenster „Planungsfenster“ hinterlegt sind, werden nicht berücksichtigt. Allerdings wird berücksichtigt, wenn gesetzte Termine sich im Plan überschneiden z.B. aufgrund von Schienen.
 
@@ -97,7 +99,7 @@ Bei der wochenbezogenen Berechnung fließen folgende Informationen in die Berech
 * Die Angaben in der Spalte „Wochen“ der Veranstaltungsliste
 * Die Angaben in der Spalte „Zeit“ der Terminzeilen in der Veranstaltungsliste
 
-## Tagesbezogene Berechnung
+### Tagesbezogene Berechnung
 
 Bei der tagesbezogenen Berechnung werden die Lehrer-Ist-Werte für die einzelne Unterrichtswoche ermittelt, indem die Dauer der im Teilfenster ``Planungsfenster`` definierten Unterrichtstermine miteinander addiert werden. Informationen über unterrichtsfreie Ereignisse, wie z.B. Ferien oder Feiertage werden dabei berücksichtigt. Der Jahresstundenwert des Lehrer-Ist wird errechnet, indem die Stundenwerte der einzelnen Wochen miteinander addiert werden. Der Wochendurchschnittswert des Lehrer-Ist wird gebildet, indem der Jahresstundenwert durch einen automatisch generierten Wochenfaktor dividiert wird.
 
@@ -118,3 +120,47 @@ Bei der tagesbezogenen Berechnung fließen folgende Informationen in die Berechn
 * Dauer der Unterrichtstermine
 * Überschneidungsinformationen im Planungsfenster
 * Automatisch generierter Wochenfaktor
+
+## Auswertungen
+
+### Jahresverteilung
+
+In der Jahresverteilung bietet eine Übersicht der Stundensummen der einzelnen Kalenderwochen aus Sicht der Lehrkräfte oder Klassen.
+
+In der Jahresverteilung können Sie im Menü `Start > Jahresverteilung > Farben anzeigen` können Sie die einzelnen Wochenwerte farbig nach betsimmten Kriterien ausgeben. Die Einstellzung hierfür machen Sie in den `DAVINCI Optionen > Farben > Jahresverteilung`. Hier können Sie Farben für die Werte 
+
+* Planvorgabe Null
+* Planvorgabe überschritten
+* Planvorgabe unterschritten
+* sonstige Wochen
+
+vornehmen
+
+In der Jahresverteilung können Sie im Menü `Start > Jahresverteilung > Listenansicht` die Ausgabe der Werte in der einzelnen Kalenderwochen auswählen:
+* Soll - Sollstunden laut Stundentafel für die Klassen oder Lehrerzeitkonto für die Lehrkräfte
+* Geplant
+* Verplant
+* Unverplant - Differenz aus Sollstunden und verplanten Stunden
+
+#### Klassen
+
+Spalte | Bedeutung
+-|-
+Kürzel| `Stammdaten > Klasse > Kürzel`
+Name|`Stammdaten > Klasse > Bezeichnung`
+Soll/J|Stundentafelsoll 
+Geplant/J|Schülerist/J
+Summe|Summe der Stunden je nach Auswahl der einzelnen Kalenderwochen
+Kalenderwochen|Stundenanzahl in der Kalenderwoche je nach Auswahl
+
+#### Lehrkräfte
+
+
+Spalte | Bedeutung
+-|-
+Kürzel|`Stammdaten > Lehrer > Kürzel`
+Name|`Stammdaten > Lehrer > Bezeichnung`
+Soll/J|Sollstunden x Wochenfaktor
+Geplant/J|geplante Stunden im Wochenschnitt x Wochenfaktor
+Summe|Summe der Stunden je nach Auswahl der einzelnen Kalenderwochen
+Kalenderwochen|Stundenanzahl in der Kalenderwoche je nach Auswahl
