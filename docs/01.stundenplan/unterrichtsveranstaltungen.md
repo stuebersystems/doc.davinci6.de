@@ -75,13 +75,9 @@ Stundentafel kopieren. Hierbei können Sie aus allen Stundentafeln wählen, die 
 
 !!! info "Hinweis"
 
-    Das Anlegen und Zuweisen einer Stundentafel erweist sich immer dann als sinnvoll, wenn
-eine Klasse vorwiegend im Klassenverband unterrichtet wird. Erfolgt der Unterricht z.B. in der gymnasialen
-Oberstufe oder an einer Hochschule hingegen überwiegend im Kurssystem ist die Arbeit mit einer
-festen Stundentafel in der Regel zu umständlich.
+    Das Anlegen und Zuweisen einer Stundentafel erweist sich immer dann als sinnvoll, wenn eine Klasse vorwiegend im Klassenverband unterrichtet wird. Erfolgt der Unterricht z.B. in der gymnasialen Oberstufe oder an einer Hochschule hingegen überwiegend im Kurssystem ist die Arbeit mit einer festen Stundentafel in der Regel zu umständlich.
 
-Zu Beginn der Arbeit mit dem Programmbereich `„Stundenplan“` empfiehlt es sich, für die meisten
-Klassen an allgemein- und berufsbildenden Schulen die erste Option zu wählen. Damit werden alle auf den Stundentafeln hinterlegten Fächer und Soll-Stunden in die zugehörigen Veranstaltungslisten kopiert und können für die weitere Planung genutzt werden. Die Nutzung der zweiten Variante ist hingegen dann sinnvoll, wenn nachträgliche Änderungen an einer Stundentafel in die Veranstaltungsliste der zugehörigen Klasse übernommen werden sollen
+Zu Beginn der Arbeit mit dem Programmbereich `„Stundenplan“` empfiehlt es sich, für die meisten Klassen an allgemein- und berufsbildenden Schulen die erste Option zu wählen. Damit werden alle auf den Stundentafeln hinterlegten Fächer und Soll-Stunden in die zugehörigen Veranstaltungslisten kopiert und können für die weitere Planung genutzt werden. Die Nutzung der zweiten Variante ist hingegen dann sinnvoll, wenn nachträgliche Änderungen an einer Stundentafel in die Veranstaltungsliste der zugehörigen Klasse übernommen werden sollen
 
 Um Veranstaltungen aus den in den Stammdaten erfassten Stundentafeln zu erzeugen, gehen Sie bitte folgendermaßen vor:
 
