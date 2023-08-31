@@ -7,8 +7,8 @@ Das Ergebnis wird wie folgt angezeigt:
 
 Register | Erläuterungen
 --------|-------------------------------------------
-Ausfall | Summe der zur Vertretung anstehenden Stunden je Tag und die Summe der Ausfallstunden je Tag
-Vertretungen | Summe der zur Vertretung anstehenden Stunden je Lehrer und je Tag
+Ausfall | Anzahl der geplant unterrichtenden Lehrkräfte je Tag
+Vertretungen | Anzahl der ausfallenden Lehrkräfte je Tag
 Diagramm | Grafische Darstellung der Liste auf der Registerkarte „Ausfall“
 Pivot | Pivot Tabelle der Registerkarte „Vertretungen“
 
@@ -62,7 +62,7 @@ Anrechnen | Summe der Anrechenstunden an diesem Tag
 
 Spalte | Erläuterungen
 --------|-------------------------------------------
-Geplant | Summe der geplanten Unterrichtsstunden des Tages
+Geplant | Summe der geplanten Unterrichtsstunden des Tages der Klasssen
 Ist | Summe tatsächlich Unterrichtsstunden des Tages
 Ausfall | Summe der ausgefallenen Lehrerstunden des Tages
 Zusätzlich | Summe der zustätzlichen Lehrerstunden des Tages
