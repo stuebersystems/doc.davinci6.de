@@ -1,22 +1,147 @@
+[23]:/assets/images/vertretungsplan/sub-plan23.png
+[1]:/assets/images/vertretungsplan/sub-plan1.png
+
+[3]:/assets/images/vertretungsplan/sub-plan3.png
+[4]:/assets/images/vertretungsplan/sub-plan4.png
+[24]:/assets/images/vertretungsplan/sub-plan24.png
+[25]:/assets/images/vertretungsplan/sub-plan25.png
+[26]:/assets/images/vertretungsplan/sub-plan26.png
+[27]:/assets/images/vertretungsplan/sub-plan27.png
+[28]:/assets/images/vertretungsplan/sub-plan28.png
+[29]:/assets/images/vertretungsplan/sub-plan29.png
+[30]:/assets/images/vertretungsplan/sub-plan30.png
+[31]:/assets/images/vertretungsplan/sub-plan31.png
+[32]:/assets/images/vertretungsplan/sub-plan32.png
+[33]:/assets/images/vertretungsplan/sub-plan33.png
+[34]:/assets/images/vertretungsplan/sub-plan34.png
+[35]:/assets/images/vertretungsplan/sub-plan35.png
+[36]:/assets/images/vertretungsplan/sub-plan36.png
+[37]:/assets/images/vertretungsplan/sub-plan37.png
+[38]:/assets/images/vertretungsplan/sub-plan38.png
+[39]:/assets/images/vertretungsplan/sub-plan39.png
+[40]:/assets/images/vertretungsplan/sub-plan40.png
+[41]:/assets/images/vertretungsplan/sub-plan41.png
+[42]:/assets/images/vertretungsplan/sub-plan42.png
+[43]:/assets/images/vertretungsplan/sub-plan43.png
+[44]:/assets/images/vertretungsplan/sub-plan44.png
+[45]:/assets/images/vertretungsplan/sub-plan45.png
+[46]:/assets/images/vertretungsplan/sub-plan46.png
+[47]:/assets/images/vertretungsplan/sub-plan47.png
+[48]:/assets/images/vertretungsplan/sub-plan48.png
+[49]:/assets/images/vertretungsplan/sub-plan49.png
+[50]:/assets/images/vertretungsplan/sub-plan50.png
+[51]:/assets/images/vertretungsplan/sub-plan51.png
+[52]:/assets/images/vertretungsplan/sub-plan52.png
+[53]:/assets/images/vertretungsplan/sub-plan53.png
+[54]:/assets/images/vertretungsplan/sub-plan54.png
+[55]:/assets/images/vertretungsplan/sub-plan55.png
+[56]:/assets/images/vertretungsplan/sub-plan56.png
+[57]:/assets/images/vertretungsplan/sub-plan57.png
+[58]:/assets/images/vertretungsplan/sub-plan58.png
+[59]:/assets/images/vertretungsplan/sub-plan59.png
+[60]:/assets/images/vertretungsplan/sub-plan60.png
+[61]:/assets/images/vertretungsplan/sub-plan61.png
+[62]:/assets/images/vertretungsplan/sub-plan62.png
+[63]:/assets/images/vertretungsplan/sub-plan63.png
+[64]:/assets/images/vertretungsplan/sub-plan64.png
+[65]:/assets/images/vertretungsplan/sub-plan65.png
+[66]:/assets/images/vertretungsplan/sub-plan66.png
+[67]:/assets/images/vertretungsplan/sub-plan67.png
+[68]:/assets/images/vertretungsplan/sub-plan68.png
+[69]:/assets/images/vertretungsplan/sub-plan69.png
+[70]:/assets/images/vertretungsplan/sub-plan70.png
+[71]:/assets/images/vertretungsplan/sub-plan71.png
+[82]:/assets/images/vertretungsplan/sub-plan82.png
+[86]:/assets/images/vertretungsplan/sub-plan86.png
+[88]:/assets/images/vertretungsplan/sub-plan88.png
+[89]:/assets/images/vertretungsplan/sub-plan89.png
+[90]:/assets/images/vertretungsplan/sub-plan90.png
+[91]:/assets/images/vertretungsplan/sub-plan91.png
+[92]:/assets/images/vertretungsplan/sub-plan92.png
+[93]:/assets/images/vertretungsplan/sub-plan93.png
+[94]:/assets/images/vertretungsplan/sub-plan94.png
+[95]:/assets/images/vertretungsplan/sub-plan95.png
+[96]:/assets/images/vertretungsplan/sub-plan96.png
+[97]:/assets/images/vertretungsplan/sub-plan97.png
+[98]:/assets/images/vertretungsplan/sub-plan98.png
+[99]:/assets/images/vertretungsplan/sub-plan99.png
+[100]:/assets/images/vertretungsplan/sub-plan100.png
+[101]:/assets/images/vertretungsplan/sub-plan101.png
+[102]:/assets/images/vertretungsplan/sub-plan102.png
+[103]:/assets/images/vertretungsplan/sub-plan103.png
+[104]:/assets/images/vertretungsplan/sub-plan104.png
+[105]:/assets/images/vertretungsplan/sub-plan105.png
+[106]:/assets/images/vertretungsplan/sub-plan106.png
+[107]:/assets/images/vertretungsplan/sub-plan107.png
+[108]:/assets/images/vertretungsplan/sub-plan108.png
+[109]:/assets/images/vertretungsplan/sub-plan109.png
+[110]:/assets/images/vertretungsplan/sub-plan110.png
+[111]:/assets/images/vertretungsplan/sub-plan111.png
+[112]:/assets/images/vertretungsplan/sub-plan112.png
+[113]:/assets/images/vertretungsplan/sub-plan113.png
+[114]:/assets/images/vertretungsplan/sub-plan114.png
+[115]:/assets/images/vertretungsplan/sub-plan115.png
+[116]:/assets/images/vertretungsplan/sub-plan116.png
+[117]:/assets/images/vertretungsplan/sub-plan117.png
+[118]:/assets/images/vertretungsplan/sub-plan118.png
+[119]:/assets/images/vertretungsplan/sub-plan119.png
+[120]:/assets/images/vertretungsplan/sub-plan120.png
+[121]:/assets/images/vertretungsplan/sub-plan121.png
+[122]:/assets/images/vertretungsplan/sub-plan122.png
+[123]:/assets/images/vertretungsplan/sub-plan123.png
+[124]:/assets/images/vertretungsplan/sub-plan124.png
+[125]:/assets/images/vertretungsplan/sub-plan125.png
+[126]:/assets/images/vertretungsplan/sub-plan126.png
+[127]:/assets/images/vertretungsplan/sub-plan127.png
+[128]:/assets/images/vertretungsplan/sub-plan128.png
+[129]:/assets/images/vertretungsplan/sub-plan129.png
+[130]:/assets/images/vertretungsplan/sub-plan130.png
+[131]:/assets/images/vertretungsplan/sub-plan131.png
+[132]:/assets/images/vertretungsplan/sub-plan132.png
+[133]:/assets/images/vertretungsplan/sub-plan133.png
+[134]:/assets/images/vertretungsplan/sub-plan134.png
+[135]:/assets/images/vertretungsplan/sub-plan135.png
+[136]:/assets/images/vertretungsplan/sub-plan136.png
+[137]:/assets/images/vertretungsplan/sub-plan137.png
+[138]:/assets/images/vertretungsplan/sub-plan138.png
+[139]:/assets/images/vertretungsplan/sub-plan139.png
+[140]:/assets/images/vertretungsplan/sub-plan140.png
+[141]:/assets/images/vertretungsplan/sub-plan141.png
+[142]:/assets/images/vertretungsplan/sub-plan142.png
+[143]:/assets/images/vertretungsplan/sub-plan143.png
+
 # Vertretungen
 
 Die eingetragenen Fehlzeiten definieren die Problemstellung, für die der Vertretungsplaner eine Lösung finden muss. Für die abwesenden Lehrer und die nicht verfügbaren Räume muss Ersatz gefunden werden. Die eingetragenen Klassenfehlzeiten geben Aufschluss, welche Lehrer für eine Vertretung außerplanmäßig zur Verfügung stehen. Lehrerunterricht in einer abwesenden Klasse muss nicht vertreten werden.
 
 Für die Erstellung Ihrer Lehrer- und Raumvertretungen steht Ihnen die Ansicht „Vertretungen“ zur Verfügung. Um diese Ansicht zu öffnen, wählen Sie in der Navigationsleiste die Navigationsgruppe Vertretungsplan mit der Ansicht Vertretungen aus.
 
-![Dies ist die Ansicht `Vertretungen`.](/assets/images/vertretungsplan/sub-plan23.png)
+[![Dies ist die Ansicht `Vertretungen`.][23]][23]
 
 ## Aufbau der Ansicht „Vertretungen“
 
 Die Ansicht „Vertretungen“ unterteilt sich in drei grundlegende Bereiche:
 
-* _Fehlzeiten-/Vertretungen-Liste:_ Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
+* **Fehlzeiten-/Vertretungen-Liste**: Oben links befindet sich eine Liste aller aktuellen Raum- und Lehrfehlzeiten. Durch das Markieren eines bestimmten Eintrags, wählen Sie die zu bearbeitende Fehlzeit aus. Wenn Sie für eine Fehlzeit eine Vertretung erstellen, wird die zugehörige Zeile um die Vertretungsinformationen ergänzt.
 
-* _Liste möglicher Vertreter:_ Unten links sehen Sie eine Liste der möglichen Vertreter für die ausgewählte Raum- oder Lehrerfehlzeit. Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und `Fächer` legen Sie die Art der zu erstellenden Vertretung fest.
+* **Liste möglicher Vertreter**: Unten links sehen Sie eine Liste der möglichen Vertreter für die ausgewählte Raum- oder Lehrerfehlzeit. Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und `Fächer` legen Sie die Art der zu erstellenden Vertretung fest.
 
-* _Betroffene-Pläne-Fenster:_ Rechts befindet sich ein Planfenster, in dem die Einzelpläne der von einer Fehlzeit betroffenen bzw. an einer Vertretungslösung beteiligten Lehrer, Räume und Klassen auf unterschiedlichen Registerkarten angezeigt werden. Mit den Registerschaltflächen unterhalb des angezeigten Einzelplans, können Sie zwischen den betroffenen Einzelplänen des markierten Listeneintrags wechseln.
+* **Betroffene-Pläne-Fenster**: Rechts befindet sich ein Planfenster, in dem die Einzelpläne der von einer Fehlzeit betroffenen bzw. an einer Vertretungslösung beteiligten Lehrer, Räume und Klassen auf unterschiedlichen Registerkarten angezeigt werden. Mit den Registerschaltflächen unterhalb des angezeigten Einzelplans, können Sie zwischen den betroffenen Einzelplänen des markierten Listeneintrags wechseln.
 
-![Dies ist die Fehlzeiten-/Vertretungen-Liste in der Ansicht „Vertretungen“.](/assets/images/vertretungsplan/sub-plan24.png)
+* **Funktionsleiste**: Hier finden Sie die wesentlichen Funtionisaufrufe zum Erstellen der Vertretungen
+
+Funktionsaufruf|Bedeutung
+-|-
+Einsetzen|Einsetzen einer ausgewählten vertretung
+Entfällt|Vertretung entfällt, Auswahl eines Entfallgrundes
+Zurücksetzen|Zurücksetzen einer eingesetzen Vertretung
+Zusammenfassen|ZUsammenfassen zwei aufeinanderfolgender Termine zu einer Doppelstunde zur Vertretung
+Teilen| Teilen einer Doppelstunden in Einzelstunden zur Vertretung
+Wie Woche zuvor|Einsetzen der Vertretung aus der Vorwoche
+Hinzufügen|Hinzufügen eines zweiten Vertretungsraumes
+
+
+[![Dies ist die Fehlzeiten-/Vertretungen-Liste in der Ansicht „Vertretungen“.][24]][24]
 
 Zu Beginn der Vertretungserstellung können Sie festlegen, ab welchem Zeitraum die eingetragenen Fehlzeiten in der Fehlzeiten-Liste angezeigt werden.
 
