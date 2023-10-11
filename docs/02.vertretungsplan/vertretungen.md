@@ -629,13 +629,13 @@ Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Frei` 
 
 Im Feld `Lehrer` wird der fehlende Lehrer in Klammern gesetzt.
 
-![Dies ist die Anzeige einer Lehrerfehlzeit in der Fehlzeiten-/Vertretungen-Liste, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan59.png)
+[![Dies ist die Anzeige einer Lehrerfehlzeit in der Fehlzeiten-/Vertretungen-Liste, die durch die Vertretungsalternative „Frei“ vertreten wird.][59]][59]
 
 Der Fehlzeitenbalken im Stundenplan erhält die Aufschrift `Frei`.
 
 Der fehlende Lehrer wird  in Klammern gesetzt.
 
-[Dies ist die Anzeige einer Lehrerfehlzeit im Stundenplan, die durch die Vertretungsalternative „Frei“ vertreten wird.](/assets/images/vertretungsplan/sub-plan60.png)
+[![Dies ist die Anzeige einer Lehrerfehlzeit im Stundenplan, die durch die Vertretungsalternative „Frei“ vertreten wird.][60]][60]
 
 ## Vertretungsräume zuweisen
 
@@ -650,7 +650,7 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen` auf dem Kopfbalken der Vertreterliste.
 
-  _Oder:_ Klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
+  Oder: Klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
 4. Die erstellte Vertretung wird nun in der Liste der offenen Vertretungen und den betroffenen Stundenplänen eingetragen.
 
@@ -666,13 +666,13 @@ Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag „Raum
 
 Im Feld `Raum` wird der neue Raum mit einem Pluszeichen vor den geklammerten bisherigen Raum gestellt.
 
-![Dies ist die Anzeige einer Raumvertretung in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan61.png)
+[![Dies ist die Anzeige einer Raumvertretung in der Fehlzeiten-/Vertretungen-Liste.][61]][61]
 
 Der Änderungsbalken im Stundenplan erhält die Aufschrift `Raumänderung`.
 
 Der neue Raum wird mit einem Pluszeichen vor die Klammer gesetzt.
 
-  ![Dies ist die Anzeige einer Raumvertretung im Stundenplan einer Klasse.](/assets/images/vertretungsplan/sub-plan62.png)
+  [![Dies ist die Anzeige einer Raumvertretung im Stundenplan einer Klasse.][62]][62])
 
 ## Vertretungsfach zuweisen
 
@@ -697,13 +697,13 @@ Das Feld `Art` in der Liste der offenen Vertretungen verändert sich durch die g
 
 Im Feld `Fach` wird das alte Fach eingeklammert und das neue Fach mit einem Pluszeichen vorangestellt.
 
-  ![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.](/assets/images/vertretungsplan/sub-plan63.png)
+  [![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.][63]][63]
 
 Die farbliche Markierung im Stundenplan des bearbeiteten Termins ändert sich nicht.
 
 Das alte Fach wird wie in der Fehlzeiten-Liste eingeklammert und das neue Fach mit einem Pluszeichen vor die Klammer gesetzt.
 
-  ![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.](/assets/images/vertretungsplan/sub-plan64.png)
+  [![Dies ist die Anzeige einer vertretenen Lehrerfehlzeit in der Fehlzeiten-/VertretungenListe, bei der nachträglich das Unterrichtsfach geändert wurde.][64]][64]
 
 ## Termine teilen (und zusammenfassen) 
 
@@ -729,18 +729,6 @@ Die Einzelstunden der mehrstündigen Fehlzeit werden nun wieder zu einer Zeile, 
 ## Aufsichten vertreten
 
 Beim Eintrag einer Fehlzeit für einen Lehrer werden neben seinen eigentlichen Unterrichtsterminen auch seine innerhalb der Fehlzeit liegenden Aufsichten als zu vertretende Elemente in der Liste der offenen Vertretungen festgehalten.
-
-### Beispiel
-
-Der Lehrer „Bru hat am Montag dem 15.10. von 9.30 – 9.45 Uhr Aufsicht im „Hof 2“ und von 9.45 – 10.30 Uhr Unterricht.
-
-![Lehrer „Bru“ hat von 9.30-9.45 Uhr Aufsicht im „Hof 2“.](/assets/images/vertretungsplan/sub-plan68.png)
-
-Trägt man nun die Fehlzeit für den Lehrer „Bru“ von 9.30 bis 10.30 Uhr am Montag dem 29.08. ein, so
-werden in der Fehlzeiten-\/Vertretungen-Liste zwei Elemente erzeugt: Eines für die Aussicht und eines
-für die Unterrichtsstunde.
-
-![Hier sehen Sie eine Aufsichtsfehlzeit und Lehrerfehlzeit in der Liste der Fehlzeiten-/Vertretungen.](/assets/images/vertretungsplan/sub-plan69.png)
 
 Um für eine Aufsicht einen Vertreter zu finden, gehen Sie wie folgt vor:
 
