@@ -128,18 +128,17 @@ Die Ansicht „Vertretungen“ unterteilt sich in drei grundlegende Bereiche:
 
 * **Betroffene-Pläne-Fenster**: Rechts befindet sich ein Planfenster, in dem die Einzelpläne der von einer Fehlzeit betroffenen bzw. an einer Vertretungslösung beteiligten Lehrer, Räume und Klassen auf unterschiedlichen Registerkarten angezeigt werden. Mit den Registerschaltflächen unterhalb des angezeigten Einzelplans, können Sie zwischen den betroffenen Einzelplänen des markierten Listeneintrags wechseln.
 
-* **Funktionsleiste**: Hier finden Sie die wesentlichen Funtionisaufrufe zum Erstellen der Vertretungen
+* **Funktionsleiste**: Hier finden Sie die wesentlichen Funktionsaufrufe zum Erstellen der Vertretungen
 
 Funktionsaufruf|Bedeutung
 -|-
-Einsetzen|Einsetzen einer ausgewählten vertretung
+Einsetzen|Einsetzen einer ausgewählten Vertretung
 Entfällt|Vertretung entfällt, Auswahl eines Entfallgrundes
 Zurücksetzen|Zurücksetzen einer eingesetzen Vertretung
-Zusammenfassen|ZUsammenfassen zwei aufeinanderfolgender Termine zu einer Doppelstunde zur Vertretung
+Zusammenfassen|Zusammenfassen zwei aufeinanderfolgender Termine zu einer Doppelstunde zur Vertretung
 Teilen| Teilen einer Doppelstunden in Einzelstunden zur Vertretung
 Wie Woche zuvor|Einsetzen der Vertretung aus der Vorwoche
 Hinzufügen|Hinzufügen eines zweiten Vertretungsraumes
-
 
 [![Dies ist die Fehlzeiten-/Vertretungen-Liste in der Ansicht „Vertretungen“.][24]][24]
 
@@ -357,7 +356,7 @@ Die erstellte Vertretung wird nun in der L der offenen Vvertretungen ist und den
 
 #### Darstellung 
 
-Das Feld `Art` in der Liste der Offenen Vertretungen zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
+Das Feld `Art` in der Liste der oOffenen Vertretungen zeigt den Eintrag `Geändert` und ist nicht mehr gelb markiert.
 
 Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
 
@@ -382,26 +381,26 @@ Um einen Lehrer als Vertreter im selben Block zuzuweisen, führen Sie bitte folg
 
 4. Aktivieren Sie im erscheinenden Dialogfenster `Anrechnen` die Option `Keine Stunden anrechnen` und bestätigen Sie mit `OK`.
 
-Die erstellte Vertretung wird nun in der Vertretungen-\/Fehlzeiten-Liste und den betroffenen Stundenplänen eingetragen.
+Die erstellte Vertretung wird nun in der Liste der offenen Vertretungen und den betroffenen Stundenplänen eingetragen.
 
-Die Markierung in der Fehlzeiten-\/Vertretungen-Liste und im Stundenplan entspricht der Darstellung bei den zusätzlichen Vertretern, die im vorherigen Kapitel beschrieben wurde.
+Die Markierung in der Liste der offenen Vertretungen und im Stundenplan entspricht der Darstellung bei den zusätzlichen Vertretern, die im vorherigen Kapitel beschrieben wurde.
 
 ### Unterricht zur Vertretung vorziehen
 
 Vertretungslösungen, bei denen der Planer Unterricht von seiner regulären Position auf die Position der Fehlstunde zieht, werden durch den Eintrag `Vorziehen` in der Spalte `Art` gekennzeichnet. Neben dem Eintrag `Vorziehen` wird außerdem der Wochentag und das Kalenderdatum angezeigt, von dem aus ein Verschieben erstmals möglich ist. Der Begriff des Vorziehens bedeutet allerdings nicht, dass die Verschiebung der Vertreterstunde nur von einem Zeitpunkt aus stattfinden kann, der der Fehlstunde zeitlich nachgelagert ist. Wenn beide Termine in der Zukunft liegen, kann vielmehr die planmäßige Vertreterstunde zeitlich auch vor der zu vertretenden Fehlstunde liegen.
 
-![Kann Unterricht der Klasse vorgezogen werden, so stehen in der Liste der Vertreter bei den direkten Vertretern unter der Art `Vorziehen` die zugehörigen Lehrer mit den jeweils möglich vorziehbaren Terminen.](/assets/images/vertretungsplan/sub-plan41.png)
+[![Kann Unterricht der Klasse vorgezogen werden, so stehen in der Liste der Vertreter bei den direkten Vertretern unter der Art `Vorziehen` die zugehörigen Lehrer mit den jeweils möglich vorziehbaren Terminen.][41]][41]
 
 Um eine Vertretung durch Vorziehen von Unterricht zu erstellen, gehen Sie bitte folgendermaßen vor:
 
-1. Markieren Sie in der Fehlzeiten-\/Vertretungen-Liste die Fehlzeit, für die Sie eine Vertretung erstellen wollen.
+1. Markieren Sie in der Liste der offenen Vertretungen die Fehlzeit, für die Sie eine Vertretung erstellen wollen.
 
 2. Lassen Sie die Registerkarte `Direkte Vertreter` geöffnet und markieren Sie einen der angezeigten Lehrertermine mit der Vertretungsart `Vorziehen …`.
 
 3. Klicken Sie auf die Schaltfläche `Einsetzen`, die sich links auf dem Kopfbalken der Vertreterliste befindet oder klicken Sie alternativ die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start >
   Vertretungen` finden.
 
-  ![Dialogfenster „Vertreter vorziehen“](/assets/images/vertretungsplan/sub-plan42.png)
+  [![Dialogfenster „Vertreter vorziehen“][42]][42]
 4. Im Dialogfenster `Vertreter vorziehen` müssen Sie in der Gruppe `Vertretung` auswählen, welche Termin Sie genau vorziehen möchten. Hinter Raum wird dabei der planmäßige Raum der vorzuziehenden Stunden angezeigt. Diesen können Sie optional ändern bzw. über die Schaltfläche Zielraum direkt mit dem Raum des Zieltermins (=Termin der zu vertreten ist) besetzen.
 5. Entscheiden Sie über das Kontrollkästchen Sollen Fehlstellen für die Klasse(n) erzeugt werden?, ob an der ursprünglichen Planposition des vorgezogenen Unterrichts eine „Fehlstelle“ eingefügt wird. Fehlstellen können selbst vertreten werden.
 6. Klicken Sie auf `OK`.
@@ -410,14 +409,13 @@ Die erstellte Vertretung wird nun in der Fehlzeiten-, Vertretungen-Liste und den
 
 #### Darstellung
 
-Das Feld `SArt` in der Liste der offnene Vertretungen zeigt den Eintrag `Verschoben` und ist nicht mehr gelb markiert.
+Das Feld `Art` in der Liste der offnene Vertretungen zeigt den Eintrag `Verschoben` und ist nicht mehr gelb markiert.
 
 Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vertretungslehrer mit einem Pluszeichen vor die Klammer gestellt.
 
 Genauso werden in den Feldern `Fach` und `Raum` die ursprünglichen Einträge eingeklammert und die Vertretungslösungen mit einem Pluszeichen vorangestellt.
 
-![Wird eine Vertretung durch das Vorziehen einer Stunde durchgeführt, so wird dies in der
-Fehlzeiten-/Vertretungen-Liste durch „Von 10.10. Mi 5verschoben" gekennzeichnet.](/assets/images/vertretungsplan/sub-plan43.png)
+[![Wird eine Vertretung durch das Vorziehen einer Stunde durchgeführt, so wird dies in der Fehlzeiten-/Vertretungen-Liste durch „Von 10.10. Mi 5verschoben" gekennzeichnet.][43]][43]
 
 | Termineintrag im Plan | Erläuterung |
 | :--- | :--- |
@@ -450,11 +448,11 @@ Die erzeugte Fehlstelle wird nun in der Fehlzeiten-Liste und in den betroffenen 
 
 Eine neu angelegte Fehlstelle erhält in der LÖiste der Offenen Vertretungen im Feld `Art` den Eintrag `Fehlstelle`.
 
-![Dies ist die Anzeige einer Fehlstelle in der Fehlzeiten-/Vertretungen-Liste vor der Vertretung.](/assets/images/vertretungsplan/sub-plan46.png)
+[![Dies ist die Anzeige einer Fehlstelle in der Fehlzeiten-/Vertretungen-Liste vor der Vertretung.][46]][46]
 
 Für die neue Fehlstelle wird in der Ansicht Stundenplan ein neues Terminfeld angelegt. Der rote Änderungsbalken des Termins erhält die Aufschrift „Fehlstelle“.
 
-![Hier sehen Sie eine neu erzeugte Fehlstelle im Klassenplan.](/assets/images/vertretungsplan/sub-plan47.png)
+[![Hier sehen Sie eine neu erzeugte Fehlstelle im Klassenplan.][47]][47]
 
 Für eine neu angelegte Fehlstelle können Sie genauso wie für andere Fehlzeiten direkte und indirekte Vertreter, Vertretungsräume und Vertretungsfächer einsetzen. Folgen Sie dabei jeweils der Vorgehensweise, die in den betreffenden Unterkapiteln dieses Handbuchs beschrieben ist.
 
@@ -466,13 +464,13 @@ Das Feld `Art` in der Liste der offenen Vertretungen erhält den Eintrag `Zusät
 
 Neue Einträge in den Feldern `Lehrer`, `Fach` und `Raum` werden mit einem Pluszeichen versehen.
 
-![Dies ist die Anzeige einer vertretenen Fehlstelle in der Fehlzeiten-/Vertretungen-Liste.](/assets/images/vertretungsplan/sub-plan48.png)
+[![Dies ist die Anzeige einer vertretenen Fehlstelle in der Fehlzeiten-/Vertretungen-Liste.][48]][48]
 
 Das Terminfeld im Stundenplan behält sein rote Markierung sowie die Aufschrift `Zusätzlich` in Lehrer- und Raumplan bzw. `Vertreten` im Klassenplan.
 
 Neue Lehrer, Räume und Fächer werden wie in der Fehlzeiten-Liste mit einem vorangestellten Pluszeichen markiert
 
-![So wird eine vertretene Fehlstelle im Stundenplan der Klasse angezeigt.](/assets/images/vertretungsplan/sub-plan49.png)
+[![So wird eine vertretene Fehlstelle im Stundenplan der Klasse angezeigt.][49]][49]
 
 !!! info "Hinweis"
     Alle Funktionen, die Sie im Planeditor der Vertretungsansicht ausführen können, können Sie in der gleichen Weise auch in der Stundenplanansicht ausführen. Dies gilt insbesondere auch für das Erzeugen einer Fehlstelle mit der hier beschriebenen Vorgehensweise.
@@ -493,7 +491,7 @@ DAVINCI bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht de
 
 Beide Varianten sollen im Folgenden gesondert vorgestellt werden.
 
-![Dialogfenster „Indirekten Vertreter einsetzen“](/assets/images/vertretungsplan/sub-plan50.png)
+[![Dialogfenster „Indirekten Vertreter einsetzen“][50]][50]
 
 ### Vertreter übernimmt den Unterricht zusätzlich
 
@@ -514,12 +512,11 @@ Die Markierung in den Stundenplänen und der Fehlzeiten-Liste entspricht der Ken
 
 Die neue angelegte Zeile erhält im Feld `Art` inn der Liste der offenen Vertretungen den Eintrag `Freigestellt`.
 
-![Hier sehen Sie einen Eintrag für einen freigestellten Lehrer in der Liste der Fehlzeiten/Vertretungen aus.](/assets/images/vertretungsplan/sub-plan51.png)
-
+[![Hier sehen Sie einen Eintrag für einen freigestellten Lehrer in der Liste der Fehlzeiten/Vertretungen aus.][51]][51]
 
 Das Terminfeld im Stundenplan erhält einen roten Änderungsbalken mit der Aufschrift „Freigestellt“.
 
-![Hier sehen Sie ein Terminfeld für freigestellten Unterricht im Stundenplan.](/assets/images/vertretungsplan/sub-plan52.png)
+[![Hier sehen Sie ein Terminfeld für freigestellten Unterricht im Stundenplan.][52]][52]
 
 ### Vertreter wird vom Unterricht freigestellt
 
@@ -541,7 +538,7 @@ Wenn ein Lehrer über mehrere Wochen fehlt, so besteht die Möglichkeit, bei der
 
 4. Im erscheinenden Dialogfenster finden Sie nun unter Zieltermin neben dem ausgewählten Termin auch alle Folgetermine der folgenden Wochen aufgelistet. Wenn Sie für diese aufgelisteten Termine den gleichen Vertreter einsetzen wollen, müssen Sie das Kontrollkästchen `Folgende Fehltermine analog vertreten` markieren.
 
-  ![Im Dialogfenster "Direkten Vertreter einsetzen" steht im Bereich "Zieltermin" die Option "Folgende Fehltermine analog vertreten“ zur Verfügung.](/assets/images/vertretungsplan/sub-plan42.png)
+  [![Im Dialogfenster "Direkten Vertreter einsetzen" steht im Bereich "Zieltermin" die Option "Folgende Fehltermine analog vertreten“ zur Verfügung.][42]][42]
 
 5. Bestätigen Sie die Auswahlmit OK.
 
@@ -555,12 +552,11 @@ Um einen Vertreter aus der Vorwoche zu übernehmen, gehen Sie bitte folgenderma�
 
 1. Markieren Sie in der Liste der Fehlzeiten\/ Vertretungen die Fehlzeit, für die Sie eine Vertretung erstellen wollen. Falls die Möglichkeit besteht, den Vertreter der Vorwoche zu übernehmen, wird die Schaltfläche Wie Woche zuvor aktiv gesetzt.
 
-  ![Mit der Schaltfläche "Wie Woche zuvor" können Sie den Vertreter der Vorwoche zuweisen.](/assets/images/vertretungsplan/sub-plan53.png)
+  [![Mit der Schaltfläche "Wie Woche zuvor" können Sie den Vertreter der Vorwoche zuweisen.][53]][53]
 
 2. Klicken Sie auf die Schaltfläche `Wie Woche zuvor`, die sich auf dem Kopfbalken der Vertreterliste befindet.
 
 3. Im erscheinenden Dialogfenster `Anrechnen` ist automatisch der Lehrer eingestellt, der in der letzten Woche Vertreter war. Wählen Sie noch die Option für das Anrechnen der Stunden und bestätigen Sie mit `OK`.
-
 
 Die aus der Vorwoche übernommene Vertretung wird nun in der Fehlzeiten-Liste und den korrespondierenden Stundenplänen eingetragen.
 
@@ -575,7 +571,7 @@ folgendermaßen vor:
 
 2. Wählen Sie die rechte Maustaste und wählen Sie im Kontextmenü den Eintrag `Automatik starten` oder betätigen Sie die Schaltfläche `Automatik starten`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
-  ![Die Schaltfläche "Automatik starten" finden Sie in der Menügruppe "Start|Vertretungen" der Ansicht „Vertretungen“](/assets/images/vertretungsplan/sub-plan54.png)
+  [![Die Schaltfläche "Automatik starten" finden Sie in der Menügruppe "Start|Vertretungen" der Ansicht „Vertretungen“][54]][54]
 
 3. Im erscheinenden Dialogfenster `Vertretungsautomatik starten` müssen Sie die Sicherheitsabfrage mit `Ja` bestätigen.
 
@@ -599,13 +595,13 @@ So gelangen Sie zum Schlüsselverzeichnis Vertretungsentfallgründe:
 
 2. Klicken Sie die Schaltfläche `Schlüsselverzeichnisse` in der Menügruppe `Extras > Verwalten`.
 
-  ![Im Auswahlfenster „Schlüsselverzeichnisse" können Sie ein Schlüsselverzeichnis zur Bearbeitung aufrufen.](/assets/images/vertretungsplan/sub-plan55.png)
+  [![Im Auswahlfenster „Schlüsselverzeichnisse" können Sie ein Schlüsselverzeichnis zur Bearbeitung aufrufen.][55]][55]
 
 3. Markieren im Dialogfenster Schlüsselverzeichnisse den Eintrag 27 Vertretungsentfallgründe. Klicken Sie dann auf Bearbeiten.
 
 4. Im Dialogfenster Vertretungsentfallgründe – Schlüsselverzeichnis 27 können Sie nun die Vertretungsentfallgründe editieren.
 
-  ![Im Dialogfenster "Vertretungsentfallgründe - Schlüsselverzeichnis 27" können Sie Gründe für Vertretungsentfall anlegen.](/assets/images/vertretungsplan/sub-plan56.png)
+  [![Im Dialogfenster "Vertretungsentfallgründe - Schlüsselverzeichnis 27" können Sie Gründe für Vertretungsentfall anlegen.][56]][56]
 
 Über das Schlüsselverzeichnis haben Sie die Möglichkeit, eigene Entfallgründe für Vertretungen und damit Ihre eigenen Vertretungsalternativen zu bestimmen. Die Nutzung der Vertretungsalternativen soll im Folgenden exemplarisch am Beispiel der Vertretungsalternative „Frei“ dargestellt werden.
 
@@ -617,11 +613,11 @@ Um einer Klasse für ausfallenden Unterricht eine Freistunde zuzuteilen, gehen S
 
 2. Klicken Sie auf die Schaltfläche `Entfällt`, die sich links auf dem Kopfbalken der Vertreterliste befindet.
 
-  ![Mit der Schaltfläche "Entfällt" können Sie den planmäßigen Unterricht ausfallen lassen.](/assets/images/vertretungsplan/sub-plan57.png)
+  [![Mit der Schaltfläche "Entfällt" können Sie den planmäßigen Unterricht ausfallen lassen.][57]][57]
 
 3. Wählen Sie im erscheinenden Dialogfenster `Vertretung entfällt` als Grund für das Entfallen den Wert mit dem Kürzel Frei aus. Wenn die Teilnehmer des Unterrichts auch frei haben sollen, so markieren Sie zusätzlich das Kontrollkästchen Teilnehmer des Unterrichts haben frei. Alternativ können Sie die Teilnehmer nicht freigeben und durch eine Person vertreten lassen, ohne dass ein Unterricht stattfindet.
 
-  ![Im Dialogfenster "Vertretung entfällt" können Sie einen Vertretungsentfallgrund zuweisen.](/assets/images/vertretungsplan/sub-plan58.png)
+  [![Im Dialogfenster "Vertretung entfällt" können Sie einen Vertretungsentfallgrund zuweisen.][58]][58]
 
 4. Bestätigen Sie Ihre Auswahl abschließend mit `OK`.
 
