@@ -74,6 +74,7 @@ nav:
     - Lizenzieren: 00.allgemein/lizenzieren.md
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
+  - Datensicherung: 00.allgemein/datensicherung.md
   - Pathdatei: 00.allgemein/pathdatei.md
   - Referenzen:
     - Speicherung von Einstellungen: 00.allgemein/dateien.md
