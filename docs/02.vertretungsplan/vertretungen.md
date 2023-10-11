@@ -535,11 +535,13 @@ Um für eine Fehlzeit einen Vertretungsraum zuzuweisen, gehen Sie bitte folgende
 
   _Oder:_ Klicken Sie alternativ auf die Schaltfläche `Einsetzen`, die Sie in der Menügruppe `Start > Vertretungen` finden.
 
-4. Die erstellte Vertretung wird nun in der Liste der offnenn Verte und den betroffenen Stundenplänen eingetragen.
+4. Die erstellte Vertretung wird nun in der Liste der offenen Vertretungen und den betroffenen Stundenplänen eingetragen.
 
 !!! info "Hinweis"
 
     Sie können für eine Raumvertretung sowohl freie als auch besetzte Räume nutzen. Terminkonflikte, die durch das Zuweisen eines bereits besetzten Raums entstehen, müssen Sie ggf. nachträglich auflösen Raumvertretungen werden in der Liste der offenen Vertretungen und im Stundenplan folgendermaßen markiert.
+
+5. Über den Menüaufruf `Hinzufügen` können Sie einen zweiten Vertretungsraum hinzufügen.
 
 ### Darstellung 
 

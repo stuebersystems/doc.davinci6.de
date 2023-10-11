@@ -20,9 +20,8 @@ daVinci.opt | Ihre persönlichen Einstellungen für Farben, Ansichten, Dialogfen
 Das Erstellen der externen Sicherungskopien sollte in die Cloud (das Internet), auf Bandlaufwerke oder auf USB-Sticks erfolgen.
 
 !!! info "Hinweis"
-
     Sorgen Sie unbedingt dafür, dass mindestens einmal täglich Sicherungskopien Ihrer
-Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in Folge eines Hardwarefehlers Ihre gesamten Daten verlieren.
+    Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in Folge eines Hardwarefehlers Ihre gesamten Daten verlieren.
 
 ### Sicherungskopie wiederherstellen
 
@@ -49,9 +48,8 @@ daVinci.opt | Ihre persönlichen Einstellungen für Farben, Ansichten, Dialogfen
 Das Erstellen der externen Sicherungskopien sollte in die Cloud (das Internet), auf Bandlaufwerke oder auf USB-Sticks erfolgen.
 
 !!! info "Hinweis"
-
     Sorgen Sie unbedingt dafür, dass mindestens einmal täglich Sicherungskopien Ihrer
-Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in Folge eines Hardwarefehlers Ihre gesamten Daten verlieren.
+    Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in Folge eines Hardwarefehlers Ihre gesamten Daten verlieren.
 
 ### Sicherungskopie wiederherstellen
 
