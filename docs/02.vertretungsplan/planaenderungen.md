@@ -247,22 +247,21 @@ Welche Darstellung zum Tragen kommt hängt von der Bildschirmauflösung ab. Ist 
 
 ## Lehrer und Raum freistellen
 
-Sie haben im Zusammenhang mit der Zuweisung eines indirekten Vertreters bereits die Möglichkeit kennengelernt, einen Lehrer von seinen planmäßigen Unterrichtsverpflichtungen freizustellen. Die Option, einen Lehrer freizustellen, wird Ihnen standardmäßig angeboten, wenn Sie einen indirekten Vertreter zuweisen. Darüber hinaus besteht die Möglichkeit, einen Lehrer direkt im Planungsfenster der Vertretungsansicht freizustellen. Außerdem steht dort die Funktion des Freistellens nicht nur für Lehrer, sondern auch für Räume zur Verfügung. Sie können für jeden Plantermin entscheiden, ob Sie nur eines oder zwei dieser Terminelemente freistellen möchten. Die Konsequenz ist jeweils, dass der entsprechende Termin in der Fehlzeiten-Liste zur Vertretung angeboten wird.
+Sie haben im Zusammenhang mit der Zuweisung eines indirekten Vertreters bereits die Möglichkeit kennengelernt, einen Lehrer von seinen planmäßigen Unterrichtsverpflichtungen freizustellen. Die Option, einen Lehrer freizustellen, wird Ihnen standardmäßig angeboten, wenn Sie einen indirekten Vertreter zuweisen. 
+
+Darüber hinaus besteht die Möglichkeit, einen Lehrer direkt im Planungsfenster der Vertretungsansicht freizustellen. Außerdem steht dort die Funktion des Freistellens nicht nur für Lehrer, sondern auch für Räume zur Verfügung. Sie können entscheiden, für welchen Zeitraum das Element freigestellt wird. Für die Lehrkräfte können Sie für die Freistellung wahlweise Anrechenstunden hinterlegen. Die Konsequenz ist jeweils, dass der entsprechende Termin in der Fehlzeiten-Liste zur Vertretung angeboten wird.
 
 Worin besteht nun eigentlich der Unterschied zwischen einer normalen Fehlzeit, die Sie in der Fehlzeiten Ansicht erfassen und einer Freistellung? Mit einer Freistellung heben Sie, genauso wie bei einer normalen Fehlzeit, die Zuordnung eines Teilnehmers zu einem bestimmten Termin auf. Im Gegensatz zu einer normalen Fehlzeit, bedeutet aber eine Freistellung, dass der zugehörige Terminteilnehmer für parallel liegende Termine als potenzieller Vertreter zur Verfügung steht.
 
 Um Lehrer bzw. Räume im Planfenster freizustellen, gehen Sie bitte folgendermaßen vor:
 
 1. Rufen Sie den gewünschten Einzelplan auf.
-
 2.  Klicken Sie mit der linken Maustaste auf das gewünschte Terminfeld und betätigen Sie die Schaltfläche `Freistellen` in der Menügruppe `Start > Änderungen`.
-![Freistellen](/assets/images/vertretungsplan/vp21.png)
-4. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
-
-[![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.][169]][169]
-
-5. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums
-  ein.
+[![Freistellen][170]][170]<br>
+3. Wählen Sie im erscheinenden Dialogfenster `Freistellen`, ob die Lehrer oder die Räume des Planobjektes freigestellt werden sollen.
+[![Im Dialogfenster "Freistellen" legen Sie fest, ob Lehrer und/ oder Räume des gewählten Termins freigestellt werden.][169]][169]<br>
+4. Tragen Sie in den Eingabefeldern `Von` und `Bis` den Anfangs- und Endpunkt des Freistellungszeitraums ein.
+5. Wählen Sie optinal `Ànrechnen`und dann `Vorbesetzen` wenn die entstandenen Stunden angerechnet werden sollen.
 6. Ergänzen Sie im Eingabefeld `Bemerkung` optional einen Infotext, der in der Spalte `Bemerkung` der erzeugten Fehlzeiten-Zeile ausgegeben werden soll.
 7. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
@@ -311,4 +310,5 @@ Um eine neue Raumbuchung einzufügen gehen Sie bitte folgendermaßen vor:
 [167]:/assets/images/vertretungsplan/sub-plan167.png
 [168]:/assets/images/vertretungsplan/sub-plan168.png
 [169]:/assets/images/vertretungsplan/sub-plan169.png
+[170]:/assets/images/vertretungsplan/sub-plan170.png
 

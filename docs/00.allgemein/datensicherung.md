@@ -56,5 +56,5 @@ Das Erstellen der externen Sicherungskopien sollte in die Cloud (das Internet), 
 Ihre Sicherungskopie enthält den Namen Ihrer ursprünglichen Datei, das aktuelle Jahr, die Nummer des Tages im Jahr und die Endung ``.BACKUP``. (z.B. Beispiel.2018-04-20-00.backup)
 Um eine Sicherungskopie wieder herzustellen müssen Sie Ihre Datei im Windows-Explorer in eine ``*.daVinci`` Datei umbenennen. Löschen Sie dazu den Punkt, die Zahl und die .BACKUP-Endung.
 
-Soll die Datei für alle Nutzer wieder zur Verfügung gestellt werden, laden Sie diese bitte über den  Sie dies bereits im letzten Jahr getan öffnen Sie das Modul `DAVINCI Explorer >  Plandateien` über die Schaltfläche Hochladen auf den den bestehenden Platzhalter.  
+Soll die Datei für alle Nutzer wieder zur Verfügung gestellt werden, laden Sie diese bitte über den  DAVINCI Explorer hoch. Bitte laden Sie die Datei über das Modul `DAVINCI Explorer >  Plandateien` über die Schaltfläche Hochladen auf den den bestehenden Platzhalter.  
 

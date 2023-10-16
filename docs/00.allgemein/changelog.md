@@ -36,6 +36,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
+* FIX: `Importieren > Exportieren > Export für Schulportal Hessen` Export INformationen bei Freistellungen von Lehrkräften
+
+### Vertretungsplan
+
+CHANGE: Freistellen von Lehrkräften ganztägig oder über mehrere Position möglich, optional können die freigestlleten Stunden angerechnet werden `Start > Änderungen > Freistellen` und `Vertretungsplan > Anrechnungen`
+FIX: Anrechstunden für freigestellte Lehrkräfte `Vertretungsplan > Anrechnungen`und `Start > Änderungen > Freistellen`
+
 
 ## DAVINCI Version 6.5.84 (28.08.2023)
 

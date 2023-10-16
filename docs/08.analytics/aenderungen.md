@@ -34,9 +34,7 @@ Die Übersicht unterscheidet Vertretungen durch Lehrer von Vertretungen durch Er
 * `Extras > Schlüsselverzeichnisse > Lehrerarten`
 * `Extras > Schlüsselverzeichnisse > Vertretungsentfallgründe`
 
-Im Bereich „Filter“ können Sie angeben, über welchen Lehrerarten-Schlüssel ein „Lehrer“ ausgezeichnet wurde und welcher Entfallgrund-Schlüssel „Selbstorgansiertes Lernen“ kennzeichnet. Sie müssen dazu jeden Lehrer in
-der Ansicht ``Stammdaten > Lehrer`` in der Spalte „Art“ als „Lehrer“, „Betreuer“, „Erzieher“ oder anders kennzeichnen. Den Entfallgrund weisen Sie bei der Erstellung eines Entfalls in der Ansicht ``Vertretungsplan > Vertretungen`` im entsprechenden Dialogfenster zu. Bitte beachten Sie,
-dass eine Reihe der Filterangaben nach dem Schlüssel und nicht nach dem Kürzel filtern, d.h. Sie sollten entsprechend die Spalte „Schlüssel“ in den Verzeichnissen ``Lehrerarten`` und ``Vertretungsentfallgründe`` gefüllt haben. Standardmäßig können Sie den Wert aus der Spalte „Kürzel“ in die Spalte „Schlüssel“ übertragen.
+Im Bereich „Filter“ können Sie angeben, über welchen Lehrerarten-Schlüssel ein „Lehrer“ ausgezeichnet wurde und welcher Entfallgrund-Schlüssel „Selbstorgansiertes Lernen“ kennzeichnet. Sie müssen dazu jeden Lehrer in der Ansicht ``Stammdaten > Lehrer`` in der Spalte „Art“ als „Lehrer“, „Betreuer“, „Erzieher“ oder anders kennzeichnen. Den Entfallgrund weisen Sie bei der Erstellung eines Entfalls in der Ansicht ``Vertretungsplan > Vertretungen`` im entsprechenden Dialogfenster zu. Bitte beachten Sie, dass eine Reihe der Filterangaben nach dem Schlüssel und nicht nach dem Kürzel filtern, d.h. Sie sollten entsprechend die Spalte „Schlüssel“ in den Verzeichnissen ``Lehrerarten`` und ``Vertretungsentfallgründe`` gefüllt haben. Standardmäßig können Sie den Wert aus der Spalte „Kürzel“ in die Spalte „Schlüssel“ übertragen.
 
 ### Bereich Zeit
 
