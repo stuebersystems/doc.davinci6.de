@@ -44,7 +44,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Vertretungsplan
 
-CHANGE: Freistellen von Lehrkräften ganztägig oder über mehrere Position möglich, optional können die freigestlleten Stunden angerechnet werden `Start > Änderungen > Freistellen` und `Vertretungsplan > Anrechnungen`
+* CHANGE: Freistellen von Lehrkräften ganztägig oder über mehrere Position möglich, optional können die freigestlleten Stunden angerechnet werden `Start > Änderungen > Freistellen` und `Vertretungsplan > Anrechnungen`
 * FIX: Anrechstunden für freigestellte Lehrkräfte `Vertretungsplan > Anrechnungen`und `Start > Änderungen > Freistellen`
 
 
