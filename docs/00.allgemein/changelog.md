@@ -40,7 +40,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
-* FIX: `Importieren > Exportieren > Export für Schulportal Hessen` Export INformationen bei Freistellungen von Lehrkräften
+* FIX: `Importieren > Exportieren > Export für Schulportal Hessen` Export Informationen bei Freistellungen von Lehrkräften
 
 ### Vertretungsplan
 
