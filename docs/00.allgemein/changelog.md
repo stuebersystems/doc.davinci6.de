@@ -47,6 +47,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Freistellen von Lehrkräften ganztägig oder über mehrere Position möglich, optional können die freigestellten Stunden angerechnet werden `Start > Änderungen > Freistellen` und `Vertretungsplan > Anrechnungen`
 * FIX: Anrechenstunden für freigestellte Lehrkräfte korrigiert `Vertretungsplan > Anrechnungen`und `Start > Änderungen > Freistellen`
 
+### Druck
+
+* FIX: Für Kurslisten wird die ID der Schüler mit ausgegeben.
 
 ## DAVINCI Version 6.5.84 (28.08.2023)
 
