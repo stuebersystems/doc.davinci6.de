@@ -21,7 +21,7 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DAVINCI WEBBOX Version 1.10.6 \[unveröffentlicht\]
+## DAVINCI WEBBOX Version 1.10.6 (unveröffentlicht)
 
 [**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/update/)
 
