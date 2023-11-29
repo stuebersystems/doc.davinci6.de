@@ -37,6 +37,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
+* FIX: `Importieren > Exportieren > Export für Schulportal Hessen` 
+
 ## DAVINCI Version 6.5.85 (16.10.2023)
 
 ### Allgemein
