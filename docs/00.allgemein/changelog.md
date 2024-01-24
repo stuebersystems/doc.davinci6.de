@@ -38,6 +38,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * FIX: `Importieren > Exportieren > Export für Schulportal Hessen` 
+* CHANGE: Abgleich mit MAGELLAN 11 wurde ermöglicht
 
 ## DAVINCI Version 6.5.85 (16.10.2023)
 
