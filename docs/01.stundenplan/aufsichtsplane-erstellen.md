@@ -1,6 +1,6 @@
 # Aufsichtspläne erstellen
 
-Aufsichtspläne können Sie in DAVINCI 6 für jeden Bereich erstellen, den Sie in den Stammdaten auf der Registerkarte `Aufsichtsbereiche` angelegt haben. Aufsichtspläne erstellen Sie ebenfalls im Programmbereich `Stundenplan`. Für diese Aufgabe steht Ihnen der Arbeitsbereich `Aufsichtsplan` zur Verfügung. Um diesen Arbeitsbereich zu öffnen, klicken Sie bitte in der Navigationsleiste am linken Rand des Programmfensters auf den Link `Aufsichten`.
+Aufsichtspläne können Sie in DAVINCI für jeden Bereich erstellen, den Sie in den Stammdaten auf der Registerkarte `Aufsichtsbereiche` angelegt haben. Aufsichtspläne erstellen Sie ebenfalls im Programmbereich `Stundenplan`. Für diese Aufgabe steht Ihnen der Arbeitsbereich `Aufsichtsplan` zur Verfügung. Um diesen Arbeitsbereich zu öffnen, klicken Sie bitte in der Navigationsleiste am linken Rand des Programmfensters auf den Link `Aufsichten`.
 
 ![Programmbereich „Aufsichten“ für die Erstellung von Aufsichtsplänen](/assets/images/SP/stundenplan5.png)
 
@@ -108,11 +108,11 @@ Haben Sie einen Aufsichtsplan für eine bestimmte Kalenderwoche erstellt, könne
 
 ## Aufsichtsautomatik
 
-Bevor Sie die Aufsichtsautomatik starten, müssen Sie die Psotionen, für die Aufsichtlehrer verplant werden sollen definieren.
+Bevor Sie die Aufsichtsautomatik starten, müssen Sie die Positionen, für die Aufsichtlehrer verplant werden sollen, definieren.
 
 Markieren Sie dazu die zeitliche Position im Aufsichtsbereich und wählen dann im Menü `Start > Aufsichten`den Aufruf `Neu`.
 ![Automatik](/assets/images/stundenplan/02.png)
 
-Im Menü `Start > Automatik` können Sie das Dialogfenser zum Start der Automatik aufrufen. Wählen Sie hier die Automatik **Aufsichtsautomatik**. Die Aufsichtsautomatik verplant nu die verfügbaren Aufsichtslehrer.
+Im Menü `Start > Automatik` können Sie das Dialogfenser zum Start der Automatik aufrufen. Wählen Sie hier die Automatik **Aufsichtsautomatik**. Die Aufsichtsautomatik verplant nun die verfügbaren Aufsichtslehrer.
 
-Dabei berücksichtigt wird der Status der Aufsichtslehrer und die Voreinstellungen `Start > Automatik > Automatikvorgaben > Lehrervorgaben`bezüglich der Aufsichtsdauer und -anzahl.
+Dabei berücksichtigt wird der Status der Aufsichtslehrer und die Voreinstellungen `Start > Automatik > Automatikvorgaben > Lehrervorgaben` bezüglich der Aufsichtsdauer und -anzahl.
