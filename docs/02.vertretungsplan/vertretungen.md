@@ -1,6 +1,5 @@
 [23]:/assets/images/vertretungsplan/sub-plan23.png
 [1]:/assets/images/vertretungsplan/sub-plan1.png
-
 [3]:/assets/images/vertretungsplan/sub-plan3.png
 [4]:/assets/images/vertretungsplan/sub-plan4.png
 [24]:/assets/images/vertretungsplan/sub-plan24.png
@@ -136,7 +135,7 @@ Einsetzen|Einsetzen einer ausgewählten Vertretung
 Entfällt|Vertretung entfällt, Auswahl eines Entfallgrundes
 Zurücksetzen|Zurücksetzen einer eingesetzen Vertretung
 Zusammenfassen|Zusammenfassen zwei aufeinanderfolgender Termine zu einer Doppelstunde zur Vertretung
-Teilen| Teilen einer Doppelstunden in Einzelstunden zur Vertretung
+Teilen| Teilen einer Doppelstunde in Einzelstunden zur Vertretung
 Wie Woche zuvor|Einsetzen der Vertretung aus der Vorwoche
 Hinzufügen|Hinzufügen eines zweiten Vertretungsraumes
 
@@ -153,7 +152,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Liste der offe
 | Spalte | Bedeutung |
 | :--- | :--- |
 | Block | Hier wird im Fall von geblocktem Unterricht die Blocknummer des Termins aufgeführt. |
-| Typ | Zeigt mit Hilfe von Symbolen an, ob es sich um eine zu erstellende Lehreränderung <img src="/assets/images/vertretungsplan/sub-plan26.png">, ein Raumänderung <img src="/assets/images/vertretungsplan/sub-plan27.png">, eine Aufsichtsänderung <img src="/assets/images/vertretungsplan/sub-plan28.png">, eine Fehlstelle <img src="/assets/images/vertretungsplan/sub-plan29.png"> oder freigestellten Unterricht <img src="/assets/images/vertretungsplan/sub-plan30.png"> handelt. |
+| Typ | Zeigt mit Hilfe von Symbolen an, ob es sich um eine zu erstellende Lehreränderung<img src="/assets/images/vertretungsplan/sub-plan26.png">, ein Raumänderung <img src="/assets/images/vertretungsplan/sub-plan27.png">, eine Aufsichtsänderung <img src="/assets/images/vertretungsplan/sub-plan28.png">, eine Fehlstelle <img src="/assets/images/vertretungsplan/sub-plan29.png"> oder freigestellten Unterricht <img src="/assets/images/vertretungsplan/sub-plan30.png"> handelt. |
 | Status | Zeigt an, ob es sich um eine offene oder erledigte Lehrer-, Raum-, Aufsichtsänderung oder Fehlstelle handelt |
 | Datum | Dies ist das Datum der Fehlzeit\/Vertretung. |
 | Tag | Hier wird der Wochentag der Fehlzeit\/Vertretung angezeigt. |
@@ -175,7 +174,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Liste der offe
 
       Sie können darüber hinaus die Liste der offenen Vertretungen nach einzelnen Spalten gruppieren, Spalten ein-/ausblenden und nach verschiedenen Kriterien filtern, so dass Sie den angezeigten Ausschnitt der eingetragenen Fehlzeiten/Vertretungen sehr flexibel an Ihre konkreten Erfordernisse anpassen können.
 
-Sobald in der Liste der offenen Vertretungen ein bestimmter Eintrag markiert wird, zeigt die VertreterListe eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
+Sobald in der Liste der offenen Vertretungen ein bestimmter Eintrag markiert wird, zeigt die Liste der Vertreter eine Auswahl der Lehrer, Räume und Fächer an, die als Ersatz zur Verfügung stehen. Dabei bietet sich dem Vertretungsplaner eine Reihe von Instrumenten, mit denen er die angezeigte Auswahl im
 Vorfeld beeinflussen kann.
 
 Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und `Fächer` legt der Vertretungsplaner zunächst die Art der zu erstellenden Vertretung fest. Die mit diesen Vertretungsarten jeweils verbundenen spezifischen Vorgehensweisen werden in den folgenden Abschnitten dieses Kapitels behandelt.
@@ -259,10 +258,11 @@ Sie können hier einstellen, dass Ihnen zur Vertretung von Gruppenunterricht kei
 
 #### Vorziehbare Vertreter
 
-Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft. Soll die Suche auch in der vom Vertretungstermin aus gesehenen Vergangenheit erfolgen, so müssen Sie unter `Start > Einstellungen` unter der Reisterkarten "Anzeigen" das Optionsfeld `Aber nicht aus der Vergangenheit` deaktivieren.
+Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft.
 
-Wie viele Tage in der Zukunft bzw. in Zukunft und Vergangenheit dazu geprüft werden, wird durch den
-Eintrag im Feld `Tage vor Vertretungsdatum für vorziehbare Termine` berücksichtigen beeinflusst.
+Sollen auch Termine in der **Vergangenheit des Vertretungstermines** geprüft werden, müssen Sie hier die Anzahl 0 ändern. Wie viele Tage in Vergangenheit des **Vertretungstermines** dazu geprüft werden, wird durch den Eintrag im Feld `Tage vor Vertretungsdatum für vorziehbare Termine` berücksichtigen beeinflusst.
+
+Durch Aktivieren des Optionsfeld `Aber nicht aus der Vergangenheit` werden Termine die vor dem heutigen Tag (das bezieht sich jeweils auf das heutige Datum) ausgeschlossen. Dies stellt also den Regelfall dar. 
 
 [![Einstellungen für die Vertretungserstellung][34]][34]
 
@@ -296,7 +296,7 @@ Der Eignungskoeffizient ermöglicht, die dargebotene Auswahl der Vertreter nach 
 
 ### Direkte Vertreter (Lehrer hat unterrichtsfrei)
 
-**Vorziehen:** Der Lehrer kann seinen Unterricht in dieser Klasse von der angegebenen Position vorziehen. Sie können unter „Extras|Optionen“ auf der Registerkarte „Vertretungsplan“ angeben, wie viele Tage im Voraus dabei berücksichtigt werden.
+**Vorziehen:** Der Lehrer kann seinen Unterricht in dieser Klasse von der angegebenen Position vorziehen. Sie können unter `Extras > Optionen` auf der Registerkarte „Vertretungsplan“ angeben, wie viele Tage im Voraus dabei berücksichtigt werden.
 
 **Zusätzlich:** Der Lehrer besitzt eine Freistunde und ist noch nicht zum aktuellen Termin als Vertretungslehrer herangezogen worden. Er hat keine negativen Anrechenstunden.
 
@@ -352,7 +352,7 @@ Um einem Lehrer ergänzenden Vertretungsunterricht zuzuweisen, führen Sie bitte
   [![Das Dialogfenster „Anrechnen"][37]][37]
 5. Bestätigen Sie die gewählte Verbuchungsoption mit `OK`.
 
-Die erstellte Vertretung wird nun in der L der offenen Vvertretungen ist und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
+Die erstellte Vertretung wird nun in der Liste der offenen Vertretungen ist und den betroffenen Einzelplänen eingetragen. Bei geblocktem Unterricht können Sie mit die Option `Weitere Termine dieses Lehrers analog vertreten` markieren, um ggf. alle Termine des Lehrers in dem Block vertreten zu lassen.
 
 #### Darstellung 
 
@@ -750,7 +750,7 @@ Im Feld `Lehrer` wird der ursprüngliche Lehrer in Klammern gesetzt und der Vert
 
 ### Markierung vertretener Aufsicht im Stundenplan
 
-Der Aufsichtsbereich im Stundenplan wird geklamert.
+Der Aufsichtsbereich im Stundenplan wird geklammert.
 
 Der Vertreter wird mit eine vorangestellten Pluszeichen und seinem Kürzel vor der Klammer gezeigt.
 

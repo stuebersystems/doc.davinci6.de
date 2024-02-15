@@ -39,3 +39,8 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Importieren > Exportieren > Export für Schulportal Hessen` 
 * CHANGE: Abgleich mit MAGELLAN 11 wurde ermöglicht
+
+### Vertretungsplan
+
+* FIX: Vorziehoptionen vom gleichen Tag als direkte Vertretung
+* 
