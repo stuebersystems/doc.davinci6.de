@@ -122,6 +122,19 @@ WEBBOX Planansicht (Klassenplan)|sichtbar
 WEBBOX Übersicht aller Klassen|nur Mitteilungen sichtbar, <br/>die nicht für **alle** Klassen/Lehrer erfasst wurde
 WEBBOX Vertretungsliste|sichtbar
 
+## Bemerkungen der Veranstaltung
+
+Erfassbar unter `Stundenplan > Veranstaltungsliste > Rechtsklick auf eine Veranstaltung > Veranstaltung bearbeiten > Veranstaltung > Bemerkung`.
+
+Stelle|Sichtbarkeit
+--|--
+LOOK (Lehrerplan) | sichtbar
+LOOK (Klassenplan)|sichtbar
+WEBBOX Planansicht (Lehrerplan)|nicht sichtbar
+WEBBOX Planansicht (Klassenplan)|nicht sichtbar
+WEBBOX Übersicht aller Klassen|nicht sichtbar
+WEBBOX Vertretungsliste|nicht sichtbar
+
 ## Offene Raumfehlzeit (öffentlich)
 
 Stelle|Sichtbarkeit

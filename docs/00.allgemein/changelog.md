@@ -39,7 +39,6 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Sicherheitslücke in Kombination mit DAVINCI WEBBOX und DAVINCI MOBILE in DAVINCI-Server geschlossen. Bei Einsatz des DAVINCI INFOSERVERs bitte unbedingt den DAVINCI SERVER aktualisieren!
 
-
 ## DAVINCI WEBBOX Version 1.10.6 (18.10.2023)
 
 [**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
@@ -62,4 +61,3 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Vertretungsplan
 
 * FIX: Vorziehoptionen vom gleichen Tag als direkte Vertretung
-* 
