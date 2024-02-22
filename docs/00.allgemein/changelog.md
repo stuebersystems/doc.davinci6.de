@@ -21,6 +21,25 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+
+## DAVINCI Version 6.5.87 (22.02.2024)
+
+### DAVINCI SERVER
+
+* FIX: Sicherheitslücke in Kombination mit DAVINCI WEBBOX und DAVINCI MOBILE in DAVINCI-Server geschlossen. Bei Einsatz des DAVINCI INFOSERVERs bitte unbedingt den DAVINCI SERVER aktualisieren!
+
+## DAVINCI WEBBOX Version 1.10.7 (22.02.2024)
+
+[**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
+[**Download**](https://davinci-webbox.stueber.de/)
+
+!!! warning "Wichtig"
+
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+
+* FIX: Sicherheitslücke in Kombination mit DAVINCI WEBBOX und DAVINCI MOBILE in DAVINCI-Server geschlossen. Bei Einsatz des DAVINCI INFOSERVERs bitte unbedingt den DAVINCI SERVER aktualisieren!
+
+
 ## DAVINCI WEBBOX Version 1.10.6 (18.10.2023)
 
 [**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
