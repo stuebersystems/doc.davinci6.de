@@ -22,6 +22,15 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DAVINCI Version 6.5.88 (unveröffentlicht)
+
+### Vertretungsplan
+
+* NEW: In der Anicht `Vertretungen > Vertretungen` steht zum Ändern der Fächer im Vertretungseinsatz ein Teamfilter zur Verfügung. Dieser basiert auf den Eintragungen unter `Stammdaten > Fächer > Teams`
+* FIX: `Vertretungen > Stundenplan > Fach ändern` der Teamfilter beim Ändern des Faches wird berücksichtigt
+
+
+
 ## DAVINCI Version 6.5.87 (22.02.2024)
 
 ### DAVINCI SERVER

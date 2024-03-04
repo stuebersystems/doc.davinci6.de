@@ -108,6 +108,7 @@
 [141]:/assets/images/vertretungsplan/sub-plan141.png
 [142]:/assets/images/vertretungsplan/sub-plan142.png
 [143]:/assets/images/vertretungsplan/sub-plan143.png
+[144]:/assets/images/vertretungsplan/sub-plan189.png
 
 # Vertretungen
 
@@ -672,12 +673,14 @@ Der Änderungsbalken im Stundenplan erhält die Aufschrift `Raumänderung`.
 
 Der neue Raum wird mit einem Pluszeichen vor die Klammer gesetzt.
 
-  [![Dies ist die Anzeige einer Raumvertretung im Stundenplan einer Klasse.][62]][62])
+  [![Dies ist die Anzeige einer Raumvertretung im Stundenplan einer Klasse.][62]][62]
 
 ## Vertretungsfach zuweisen
 
 Für die Vertretungserstellung stehen nicht immer Lehrer zur Verfügung, die den eigentlich vorgesehenen Fachunterricht leisten können. Auch kann nicht immer der Unterricht eines anderen Kollegen vorgezogen werden. Wenn Sie einen fachfremden Vertreter für eine ausgefallene Stunde heranziehen, liegt es nahe, außerdem das Unterrichtsfach zu ändern, damit es der Qualifikation des zugeteilten Lehrers entspricht.
-Vertretungsfächer können Sie für jede bearbeitete Lehrer-Fehlzeit, Fehlstelle und freigestellte LehrerUnterrichtsstunde zuweisen. Die Vorgehensweise ist in allen diesen Fällen gleich. Sobald Sie die Registerkarte `Fächer` der Vertreterliste geöffnet haben, werden alle in der Plandatei hinterlegten Unterrichtsfächer angezeigt.
+Vertretungsfächer können Sie für jede bearbeitete Lehrer-Fehlzeit, Fehlstelle und freigestellte Lehrer-Unterrichtsstunde zuweisen. Die Vorgehensweise ist in allen diesen Fällen gleich. Sobald Sie die Registerkarte `Fächer` der Vertreterliste geöffnet haben, werden alle in der Plandatei hinterlegten Unterrichtsfächer angezeigt. Über den Teamfilter haben, Sie optional die Möglichkeit, die Ausgabe der Fächer einzugrenzen.
+
+[![Fächer mit Teamfilter][189]][189] 
 
 Um für eine bearbeitete Fehlzeit, Fehlstelle oder Freistellung ein Vertretungsfach zuzuweisen, gehen Sie bitte folgendermaßen vor:
 
