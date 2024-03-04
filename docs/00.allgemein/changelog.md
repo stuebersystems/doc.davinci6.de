@@ -22,7 +22,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## DAVINCI Version 6.5.88 (unveröffentlicht)
+## DAVINCI Version 6.5.88 (04.03.2024)
 
 ### Vertretungsplan
 
