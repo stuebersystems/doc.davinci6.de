@@ -25,7 +25,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
-* NEW: SAC-Schulferien_2024-2025.ical - [Download hier](https://my.hidrive.com/share/63dd-bod4u)
+* NEW:  Neue Dateien für Schulferien und Feiertage für alle Bundesländer - [Download hier](https://my.hidrive.com/share/63dd-bod4u)
+
+### Stundenplan
+
+* CHANGE: interne Änderung für den Einleseprozess für Schulferien und Feiertage
+
 
 ## DAVINCI Version 6.5.88 (04.03.2024)
 
