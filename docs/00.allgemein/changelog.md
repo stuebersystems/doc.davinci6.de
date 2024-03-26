@@ -21,6 +21,11 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DAVINCI Version 6.5.89 (unveröffentlicht)
+
+### Allgemein
+
+* NEW: SAC-Schulferien_2024-2025.ical - [Download hier](https://my.hidrive.com/share/63dd-bod4u)
 
 ## DAVINCI Version 6.5.88 (04.03.2024)
 
@@ -29,7 +34,6 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: In der Anicht `Vertretungen > Vertretungen` steht zum Ändern der Fächer im Vertretungseinsatz ein Teamfilter zur Verfügung. Dieser basiert auf den Eintragungen unter `Stammdaten > Fächer > Teams`
 * FIX: `Vertretungen > Stundenplan > Fach ändern` der Teamfilter beim Ändern des Faches wird berücksichtigt
 * FIX: Vorziehoptionen vom gleichen Tag (Tag der Eintragung) als direkte Vertretung
-
 
 ## DAVINCI Version 6.5.87 (22.02.2024)
 
