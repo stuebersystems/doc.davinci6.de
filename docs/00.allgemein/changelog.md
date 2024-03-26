@@ -31,7 +31,6 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: interne Änderung für den Einleseprozess für Schulferien und Feiertage
 
-
 ## DAVINCI Version 6.5.88 (04.03.2024)
 
 ### Vertretungsplan
