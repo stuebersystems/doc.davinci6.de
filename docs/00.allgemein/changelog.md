@@ -25,7 +25,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Allgemein
 
-* NEW:  Neue Dateien für Schulferien und Feiertage für alle Bundesländer - [Download hier](https://my.hidrive.com/share/63dd-bod4u)
+* NEW: Neue Dateien für Schulferien und Feiertage für alle Bundesländer
 
 ### Stundenplan
 
