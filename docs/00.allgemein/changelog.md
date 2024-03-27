@@ -29,7 +29,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Stundenplan
 
-* CHANGE: interne Änderung für den Einleseprozess für Schulferien und Feiertage
+* CHANGE: interne Änderung für den Einleseprozess für die Importdateien Schulferien und Feiertage
 
 ### Vertretungsplan
 
