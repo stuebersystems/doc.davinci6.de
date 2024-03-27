@@ -31,6 +31,10 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: interne Änderung für den Einleseprozess für Schulferien und Feiertage
 
+### Vertretungsplan
+
+* FIX: Bei der Funktion "Wie Woche zuvor" werden auch die Werte aus den Feldern `Info` und `Mitteilung` übernommen
+
 ## DAVINCI Version 6.5.88 (04.03.2024)
 
 ### Vertretungsplan
