@@ -21,7 +21,11 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DAVINCI Version 6.5.89 (unveröffentlicht)
+## DAVINCI Version 6.5.90 (unveröffentlicht)
+
+### Allgemein
+
+## DAVINCI Version 6.5.89 (10.04.2024)
 
 ### Allgemein
 
