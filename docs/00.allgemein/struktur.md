@@ -1,4 +1,4 @@
-# DAVINCI für mehrere Schulen
+# DAVINCI für mehrere Schulen auf einem Server
 
 Situation: Die Installation von DAVINCI für mehrere Schulen soll auf einem gemeinsamen Server geschehen, somit soll der administrative Aufwand eingeschränkt und auch verlagert werden. 
 
@@ -29,7 +29,6 @@ Einige DAVINCI - Dateien siehe `Hilfe > Systeminformationen`im Programm sind sta
 !!! tipp "Hinweis!"
 
     Es ist zusätzlich möglich diese Dateien auch von einer selbstvorgegebenen zentralen Stelle zu laden, die Information wird aus der `MAGELLAN.paths` ausgelesen. Eine Anleitung zum Einsatz einer MAGELLAN.paths beschreiben wir [hier](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/).
-
 
 ## Terminal-Server oder Virtuelle Maschine?
 
