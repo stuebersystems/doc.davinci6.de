@@ -17,4 +17,4 @@ Einige DAVINCI - Dateien siehe `Hilfe > Systeminformationen`im Programm sind sta
 
 !!! tipp "Hinweis!"
 
-    Es ist zusätzlich möglich diese Dateien auch von einer selbstvorgegebenen zentralen Stelle zu laden, die Information wird aus der `MAGELLAN.paths` ausgelesen. Eine Anleitung zum Einsatz einer MAGELLAN.paths beschreiben wir [hier](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/).
+    Es ist zusätzlich möglich diese Dateien auch von einer selbstvorgegebenen zentralen Stelle zu laden, die Information wird aus der `DAVINCI.paths` ausgelesen. Eine Anleitung zum Einsatz einer DAVINCI.paths beschreiben wir [hier](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/).

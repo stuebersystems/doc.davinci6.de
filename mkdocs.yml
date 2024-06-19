@@ -76,7 +76,7 @@ nav:
     - Update: 00.allgemein/update.md
     - Die Update-Infodatei: 00.allgemein/updateinfo.md
     - Terminalserver: 00.allgemein/terminalserver.md
-    - Mehrere DAVINCI Installationen auf einem Server: 0.allgemein/struktur.md
+    - Mehrere DAVINCI Installationen auf einem Server: 00.allgemein/struktur.md
   - Datensicherung: 00.allgemein/datensicherung.md
   - Pathdatei: 00.allgemein/pathdatei.md
   - Referenzen:
