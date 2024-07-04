@@ -21,11 +21,20 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+<<<<<<< HEAD
 ## DaVinci Version 6.5.89 (unveröffentlicht)
+=======
+## DAVINCI Version 6.5.90 (unveröffentlicht)
+
+### Allgemein
+
+## DAVINCI Version 6.5.89 (10.04.2024)
+>>>>>>> 4ade3e45a98e26135ddd30cc2d38b18f4e890652
 
 ### Allgemein
 
 * NEW: Neue Dateien für Schulferien und Feiertage für alle Bundesländer. Sie können die Kalenderdateien auch bereits vorab [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen, müssten nach dem Import in ältere Ausgaben (vor 6.5.89) bitte unter `Kalender > Ereignisse` bitte jeweils das Häkchen für `unterrichtsfrei` aktivieren.
+* FIX: Für den Übertrag nach ENBREA Änderungen beim `Vertretungsplan > Zusatzunterricht` 
 
 ### Stundenplan
 

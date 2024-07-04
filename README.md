@@ -47,7 +47,7 @@ Du hast Python und das Package MkDocs installiert, Du hast dieses Repository gek
 
 1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\davinci`.
 
-2. Tippe den Befehl `mkdocs build` ein. Die DaVinci Dokumentation wird neu generiert.
+2. Tippe den Befehl `mkdocs build` ein. Die DAVINCI Dokumentation wird neu generiert.
 
 3. Um Dir das Ergebnis anzeigen zu lassen, tippe den Befehl `mkdocs serve` ein und öffne die Url `http://127.0.0.1:8000` in Deinem Webbrowser.
 
