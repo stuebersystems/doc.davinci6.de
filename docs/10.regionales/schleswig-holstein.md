@@ -1,8 +1,8 @@
 # Landestatistik Schleswig-Holstein
 
-Als Schule mit Oberstufe müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
+Als Schule mit Oberstufe müssen Sie aus DaVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in Magellan verwendet.
 
-**So exportieren Sie Daten aus DAVINCI:**
+**So exportieren Sie Daten aus DaVinci:**
 
 1. Wählen Sie unter ``Plan > Importieren und Exportieren > Statistikdaten exportieren`` aus und dann mit ``Statistik Schleswig-Holstein exportieren``
 2. Geben Sie eine Exportdatei an. Klicken Sie auf ``OK``. 

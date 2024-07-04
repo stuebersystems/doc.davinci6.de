@@ -53,7 +53,7 @@ Spalte | Inhalt
 Kürzel | Kürzel des Teams
 Bezeichnung | Bezeichnungstext
 E-Mail | E-Mail Adresse des Teams, falls dieses eine eigene Adresse hat
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 !!! info "Hinweis"
 
@@ -63,14 +63,14 @@ ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
 
 ![Stammdaten Gebäude](/assets/images/stundenplan/gebäude.png)
 
-In dieser Registerkarte können Sie die einzelnen Außenstellen oder unterschiedliche Gebäude Ihrer Schule eingeben, soweit der Unterricht nicht in nur einem Gebäude stattfindet. Zusätzlich zu Kürzel und Bezeichnung können Sie hier die einzelnen Wegzeiten vom Hauptgebäude zu dem jeweiligen Gebäude eintragen. Die DAVINCI Automatik achtet bei der Verplanung der Termine darauf, dass Pausen bzw. Freistunden für den Weg zwischen dem Hauptgebäude den Außenstelle vorgesehen werden.
+In dieser Registerkarte können Sie die einzelnen Außenstellen oder unterschiedliche Gebäude Ihrer Schule eingeben, soweit der Unterricht nicht in nur einem Gebäude stattfindet. Zusätzlich zu Kürzel und Bezeichnung können Sie hier die einzelnen Wegzeiten vom Hauptgebäude zu dem jeweiligen Gebäude eintragen. Die DaVinci Automatik achtet bei der Verplanung der Termine darauf, dass Pausen bzw. Freistunden für den Weg zwischen dem Hauptgebäude den Außenstelle vorgesehen werden.
 
 Im Stundenplan werden Terminkonflikte bei der Raumplanung, die durch nicht ausreichende Wegzeiten zwischen Haupt- und Nebengebäuden entstehen, mit einem Warnsymbol rechts unten im Termin markiert. 
 
 Spalte | Inhalt
 --------|-------------------------------------------
 Kürzel | Kürzel des Gebäudes
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 Bezeichnung | Bezeichnung des Gebäudes
 Wegzeit | Wegzeit in Minuten von einem Nebengebäude zum Hauptgebäude
 Campus | Gebäude können wiederum in ``Campus`` zusammengefasst werden. Dazu müssen Sie in der Ansicht ``Stammdaten > Campus`` diese eingeben.
@@ -89,7 +89,7 @@ Faktor | Wert wird für die Umrechnung von Wochenstunden auf Wochenmittelwerte v
 Wochen | Unterrichtswochenmuster
 Wochenanzahl   | Anzahl der Unterrichtswochen, errechnet sich automatisch aufgrund der Spalte "Wochen")
 Team   | ordnet die Periode einem Team zu
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 Eine Periode stellt eine Teilmenge aller Unterrichtswochen eines Planungszeitraums dar. Das Anlegen von Perioden ist immer dann sinnvoll, wenn Sie mit wiederkehrenden Unterricht planen möchten, der nicht in allen Unterrichtswochen in gleicher Weise stattfindet oder eine Klasse nur in bestimmten Wochen unterrichtet werden soll (z.B. Turnusunterricht, Blockklassen).
 
@@ -118,7 +118,7 @@ Schaltfläche | Wofür?
 
 ![Stammdaten Räume](/assets/images/stundenplan/stammdaten.Räume.png)
 
-Geben Sie in der Registerkarte „Räume“ die Räume ein. Sie haben des Weiteren die Möglichkeit, diese Räume genauer zu spezifizieren, d.h. sie unter „Raumart“ z.B. als Fachräume zu bezeichnen und später auf der Registerkarte „Fächer“ den einzelnen Fächern zuzuordnen. Die Raumarten können unter `Extras > Schlüsselverzeichnisse > Raumarten` frei editiert werden. Außerdem können Sie die Zuständigkeit der Abteilungen genau bezeichnen, bei Außenstellen das jeweilige Gebäude angeben und die Kapazität des einzelnen Raumes eintragen. Unter „Betreuer“ kann ein Raumbetreuer eingegeben werden. Dieser erscheint in DAVINCI Look und kann im Raumplan mit ausgedruckt werden.
+Geben Sie in der Registerkarte „Räume“ die Räume ein. Sie haben des Weiteren die Möglichkeit, diese Räume genauer zu spezifizieren, d.h. sie unter „Raumart“ z.B. als Fachräume zu bezeichnen und später auf der Registerkarte „Fächer“ den einzelnen Fächern zuzuordnen. Die Raumarten können unter `Extras > Schlüsselverzeichnisse > Raumarten` frei editiert werden. Außerdem können Sie die Zuständigkeit der Abteilungen genau bezeichnen, bei Außenstellen das jeweilige Gebäude angeben und die Kapazität des einzelnen Raumes eintragen. Unter „Betreuer“ kann ein Raumbetreuer eingegeben werden. Dieser erscheint in DaVinci Look und kann im Raumplan mit ausgedruckt werden.
 
 Spalte | Inhalt
 --|--
@@ -139,7 +139,7 @@ Details | weitere Optionen ``Nicht verfügbar`` und ``Zwingend dieser oder Alter
 Barcode | zur Kennzeichnung des Raums
 Zeitrahmen | siehe `Extras > Zeitrahmen` erstellten Zeitrahmen zuweisen
 Externe ID | ID für ein Fremdprogramm
-DAVINCI-ID   | eindeutige DAVINCI-ID, wird automatisch erzeugt
+DaVinci-ID   | eindeutige DaVinci-ID, wird automatisch erzeugt
 
 ## Aufsichtsbereiche
 
@@ -155,7 +155,7 @@ Kürzel | Kürzel des Aufsichtsbereichs
 Bezeichnung |  Bezeichnungstext
 Zeitrahmen |  Zeitrahmen für die Aufsichten, siehe `Extras > Zeitrahmen`
 Räume |  die an den Aufsichtsbereich angrenzenden Räume, Stammdatenregister "Räume"
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 ## Fächer
 
@@ -179,7 +179,7 @@ Zeitkonto | Konto auf das Stunden des Fachs verbucht werden, siehe ``Extras > Sc
 Fachräume | Fächern, die in Fachräumen unterrichtet werden, kann ein bestimmter Raum oder eine Auswahl an Räumen zugeordnet werden. Diese Räume werden beim Kopieren der Stundentafel automatisch in die Raumvorgabeliste des jeweiligen Fachs übernommen.
 Vertretung | Vertretungsoptionen ``Präsenz``, ``Keine Vertretung`` und ``keine Anrechenstunden``
 Schlüssel | Bundeslandspezifische Kennzeichnung des Fachs
-Details | Zusätzliche Optionen für den MAGELLAN Abgleich `nicht statistikrelevant` und `kein MAGELLAN-Abgleich`
+Details | Zusätzliche Optionen für den Magellan Abgleich `nicht statistikrelevant` und `kein Magellan-Abgleich`
 
 
 !!! info "Hinweis"
@@ -210,7 +210,7 @@ Bildungsgang | Verknüpft mit dem `Schlüsselverzeichnis > Bildungsgänge`
 Profil | Freies Feld (schulspezifisch)
 Team | Teams zu denen die Stundentafel gehört
 Externe ID | ID für Fremdprogramme
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 Klicken Sie auf die Schaltfläche ``…`` in der Spalte „Fächer". Es öffnet sich das Dialogfenster „Stundentafel“.
 
@@ -286,16 +286,16 @@ Fächer | Um die Fächer einzutragen, die der Lehrer unterrichtet, klicken Sie a
 Teams | Sollten Ihre Lehrer Teams bzw. Fachbereichen angehören, so können Sie diese im Dialogfenster „Teams“ auswählen und zuordnen, indem Sie auf Teams klicken, das entsprechende Team im Feld „Verfügbare Teams“ markieren und dann auf `Hinzufügen` klicken. Sie können auch per `Drag&Drop` die Teams aus `Verfügbare Teams` in „Gewählte Teams“ ziehen. Die ausgewählten Teams erscheinen auf der Registerkarte unter Teams.
 E-Mail | E-Mail des Lehrers
 Mobil | Handynummer des Lehrers
-Schule | Schulnummer oder Mandantennummer aus MAGELLAN
+Schule | Schulnummer oder Mandantennummer aus Magellan
 Bemerkung | Freies Bemerkungsfeld
-Details | Zusätzliche Optionen für den MAGELLAN Abgleich ("nicht statistikrelevant" und "kein MAGELLAN Abgleich") und die Option "inaktiv"
+Details | Zusätzliche Optionen für den Magellan Abgleich ("nicht statistikrelevant" und "kein Magellan Abgleich") und die Option "inaktiv"
 Zeitrahmen | siehe "Extras > Zeitrahmen" erstellten Zeitrahmen zuweisen
 Benutzername | Benutzername für den Serverbetrieb, kennzeichnet den Plan des Benutzers/Lehrers
 Personalnr. | Personalnummer
 Stundensatz | Stundensatz, z.B. 50 für 50EUR, kann in Zeitkonto mit "Normierter Stunde" multipliziert werden (siehe `Plan > Eigenschaften > Statistik`)
 Eintritt / Austritt | Eintritts- und Austrittsdatum
 Externe ID | ID für ein Fremdprogramm
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 !!! info "Hinweis"
 
@@ -303,7 +303,7 @@ Zum Einfügen von Lehrersymbolen: Bitte klicken Sie mit der linken Maustaste in 
 
 ### Die Lehrer Soll-Berechnung
 
-Bei der Lehrereinsatzplanung mit DAVINCI wird für jeden Lehrer die Sollvorgabe benötigt, die sich aus den vom Kultusministerium vorgegebenen Pflichtstunden abzüglich Ermäßigungsstunden und zuzüglich Mehrstunden ergibt.
+Bei der Lehrereinsatzplanung mit DaVinci wird für jeden Lehrer die Sollvorgabe benötigt, die sich aus den vom Kultusministerium vorgegebenen Pflichtstunden abzüglich Ermäßigungsstunden und zuzüglich Mehrstunden ergibt.
 
 Zur Eingabe des Soll-Berechnungschemas stehen Ihnen die Lehrer-Soll-Berechnungsschlüssel zur Verfügung, die Sie unter `Extras > Schlüsselverzeichnisse > Lehrer-Soll-Schlüssel` eingeben können. Mit Hilfe dieser Schlüssel können Sie für jeden Lehrer die Pflichtstunden und die individuellen Ermäßigungs- und Mehrstunden angeben, aus denen sich die Sollvorgabe für jeden Lehrer berechnet. Die Sollberechnung kann nach Ihren Vorgaben beliebig detailliert sein.
 
@@ -327,11 +327,11 @@ Sollten Sie in diesem Ordner keine Datei dieses Namens vorfinden, so sind für I
 
 !!! info "Hinweis"
 
-    Für bestimmte Bundesländer werden in DAVINCI bereits die offiziellen Schlüssel mitgeliefert. Sie können Sie im Dialogfenster `Lehrer-Soll-Schlüssel `über die Schaltfläche `Importieren` einlesen.
+    Für bestimmte Bundesländer werden in DaVinci bereits die offiziellen Schlüssel mitgeliefert. Sie können Sie im Dialogfenster `Lehrer-Soll-Schlüssel `über die Schaltfläche `Importieren` einlesen.
 
 #### Soll-Berechnungsschlüssel eingeben
 
-Im `Schlüsselverzeichnis > Lehrer-Soll-Schlüssel` erfassen Sie die entsprechenden Berechnungsschlüssel mit Kürzel, Bezeichnung und Typ ein. Der Typ (Operator) legt fest, wie DAVINCI den Schlüssel zu interpretieren hat.
+Im `Schlüsselverzeichnis > Lehrer-Soll-Schlüssel` erfassen Sie die entsprechenden Berechnungsschlüssel mit Kürzel, Bezeichnung und Typ ein. Der Typ (Operator) legt fest, wie DaVinci den Schlüssel zu interpretieren hat.
 
 Typ| Beschreibung
 -|-
@@ -380,7 +380,7 @@ Die Pflichtstunden können Sie für jeden Lehrer gesondert festlegen. Einen Stan
 
 Alle Lehrer die Sie nun im Stammdatenfenster hinzufügen (neu erfassen), erhalten automatisch den eingetragenen Lehrer-Pfichtstundenwert standardmäßig. Lehrer die bereits im Stammdatenfenster gelistet sind, bleiben von diesem eingetragenen Standardwert unberührt.
 
-![DAVINCI Optionen, Bereich "Einstellungen"](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel04.png)
+![DaVinci Optionen, Bereich "Einstellungen"](/assets/images/stundenplan/stammdaten.lehrer.soll.schluessel04.png)
 
 ## Klassen
 
@@ -405,17 +405,17 @@ Raum | Klassenraum/Stammraum der Klasse
 Stundentafel | Stundentafel der Klasse
 Modus | Unterrichtsmodus `Klassenverband` oder `Kurse`. Wählen Sie `Kurse` für Klassen der gymnasialen Oberstufe
 Stufe | Stufenangabe, wichtig für die gymnasiale Oberstufe
-Schüler | Schüleranzahl, falls Sie keine Schüler in DAVINCI eingeben, wird sonst durch die Schüler unter `Stammdaten > Schüler` automatisch berechnet.
+Schüler | Schüleranzahl, falls Sie keine Schüler in DaVinci eingeben, wird sonst durch die Schüler unter `Stammdaten > Schüler` automatisch berechnet.
 Team | Team bzw. Abteilungen, siehe `Stammdaten > Teams`
 Periode | siehe `Stammdaten > Periode`
-Schule | Schulnummer bzw. Mandantennummer aus MAGELLAN
+Schule | Schulnummer bzw. Mandantennummer aus Magellan
 Bildungsgang | siehe `Extras > Schlüsselverzeichnisse > Bildungsgänge`
 Benutzername | Benutzername für den Serverbetrieb, kennzeichnet den Plan der Klasse 
 Schulform | siehe `Extras > Schlüsselverzeichnisse > Schulformen`
 Gebäude | siehe `Stammdaten > Gebäude`
 Zeitrahmen | Dieser Klasse einen eigenen, unter `Extras > Zeitrahmen` erstellten Zeitrahmen zuweisen
 Attribut | Bundeslandspezifisches Feld
-Details | Zusätzliche Optionen für den MAGELLAN Abgleich `nicht statistikrelevant` und `kein MAGELLAN Abgleich`
+Details | Zusätzliche Optionen für den Magellan Abgleich `nicht statistikrelevant` und `kein Magellan Abgleich`
 Startjahr | Bundeslandspezifisches Feld
 Halbjahr | Bundeslandspezifisches Feld
 Skript | Wählen Sie hier das Fachwahlskript für Oberstufenklassen
@@ -428,13 +428,13 @@ Zeiträume | Zeiträume für alle Veranstaltungen der Klasse
 Ausnahmen | Ausnahme-Zeiträume für alle Veranstaltungen der Klasse
 Kalender | Kalender dieser Klasse, z.B. falls Sie Klassen aus verschiedenen Bundesländern haben
 Externe ID | ID für ein Fremdprogramm
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 ## Ressourcen
 
 ![Stammdaten Ressourcen](/assets/images/StammdatenRessourcen.png)
 
-In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht ``Stammdaten > Ressourcen`` eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. Ausführliche Darstellung der Ressourcenplanung erhalten Sie in der Dokumentation für den [DAVINCI RESSOURCENPLAN](/04.ressourcen/01.allgemeines/).
+In DaVinci können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z.B. Audiogeräte, Beamer, Werkzeugkisten usw. zugeordnet werden. Ressourcen werden in der Ansicht ``Stammdaten > Ressourcen`` eingetragen. Logisch gesehen sind Klassen, Lehrer und Räume spezielle Ressourcenarten, die durch eine Veranstaltung bzw. einen Termin für die zeitliche Verplanung zusammengefasst werden. Ausführliche Darstellung der Ressourcenplanung erhalten Sie in der Dokumentation für den [DaVinci Ressourcenplan](/04.ressourcen/01.allgemeines/).
 
 ## Schüler
 
@@ -444,14 +444,14 @@ In DAVINCI können jeder Veranstaltung bzw. jedem Termin beliebige Ressourcen, z
 
     Die Liste ``Schüler`` besitzt als einzige keine Spalte ``Kürzel``. Einträge in der dieser Liste sollten daher wenigstens die Angaben ``Vorname`` und ``Nachname`` erhalten. 
 
-In der Ansicht ``Stammdaten > Schüler`` erfassen Sie Ihre Schüler. Über die Spalte "Klasse" oder "Stufe" sollte jeder Schüler einer Klasse oder einer Stufe zugeordnet werden. Sollten Sie mit DAVINCI KURSPLAN arbeiten, sollten Sie die Schüler in der Ansicht ``Kursplan > Schüler`` eingeben, da Sie dort gleichzeitig deren Fachwahl erfassen können. Sie können Schüler einer Veranstaltung zuweisen. In der gymnasialen Oberstufe wird im ersten Schritt die Fachwahl der Schüler erfasst, dann das Kursangebot erstellt und dann werden die Schüler den Kursen zugewiesen. Wie Sie zur Kursplanung, d.h. zur Planung mit Schülerkursen vorgehen, erfahren Sie im [DAVINCI KURSPLAN](/03.kursplan/allgemeines/).
+In der Ansicht ``Stammdaten > Schüler`` erfassen Sie Ihre Schüler. Über die Spalte "Klasse" oder "Stufe" sollte jeder Schüler einer Klasse oder einer Stufe zugeordnet werden. Sollten Sie mit DaVinci Kursplan arbeiten, sollten Sie die Schüler in der Ansicht ``Kursplan > Schüler`` eingeben, da Sie dort gleichzeitig deren Fachwahl erfassen können. Sie können Schüler einer Veranstaltung zuweisen. In der gymnasialen Oberstufe wird im ersten Schritt die Fachwahl der Schüler erfasst, dann das Kursangebot erstellt und dann werden die Schüler den Kursen zugewiesen. Wie Sie zur Kursplanung, d.h. zur Planung mit Schülerkursen vorgehen, erfahren Sie im [DaVinci Kursplan](/03.kursplan/allgemeines/).
 
 Spalte | Beschreibung
 --------|-------------------------------------------
 Nachname | Nachname
 Vorname | Vorname
 Mittelname | Mittelname
-Personen-Nr. | Personennummer, für DAVINCI ohne Relevanz
+Personen-Nr. | Personennummer, für DaVinci ohne Relevanz
 Klasse | Klasse bzw. Jahrgang, zu dem der Schüler gehört
 Stufe | Stufenangabe
 Geschlecht | Geschlecht des Schülers. Diese Angabe besitzt keine unmittelbare Relevanz für die Terminplanung. Sie wird aber benötigt, um im Ausdruck sowie im HTML-Export der Stundenpläne der Oberstufenschüler eine Anrede, z.B. "Frau", ergänzen zu können. 
@@ -465,12 +465,12 @@ Straße | Straße
 Bemerkung| Bemerkungstext
 Benutzername | Kennung des Schüler zur Identifzierung des Schülerplans im Serverbetrieb
 Externe ID |  Externe ID für Fremdprogramm
-ID   | Eindeutige DAVINCI-ID, wird automatisch erzeugt
-MAGELLAN-ID | Eindeutige ID für den MAGELLAN Abgleich
+ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
+Magellan-ID | Eindeutige ID für den Magellan Abgleich
 Nicht statistikrelevant | dieser Schüler wird für Statistiken nicht exportiert
-Kein MAGELLAN Abgleich  | dieser Schüler wird beim Datenaustausch mit MAGELLAN nicht importiert oder exportiert
+Kein Magellan Abgleich  | dieser Schüler wird beim Datenaustausch mit Magellan nicht importiert oder exportiert
 Inaktiv         | Dieser Schüler ist nicht mehr aktiv, weil er z.B die Schule verlassen hat
-Keine Fachwahl | Für diesen Schüler wird in DAVINCI keine Fachwahlüberprüfung durchgeführt
+Keine Fachwahl | Für diesen Schüler wird in DaVinci keine Fachwahlüberprüfung durchgeführt
 
 !!! info "Hinweis"
 
@@ -478,4 +478,4 @@ Keine Fachwahl | Für diesen Schüler wird in DAVINCI keine Fachwahlüberprüfun
 
 ## Zeiträume
 
-Diese Registerkarte ist standardmäßig ausgeblendet, da Eintragungen in DAVINCI 6 keine Bedeutung finden.
+Diese Registerkarte ist standardmäßig ausgeblendet, da Eintragungen in DaVinci 6 keine Bedeutung finden.

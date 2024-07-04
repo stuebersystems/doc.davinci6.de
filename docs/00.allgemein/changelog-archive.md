@@ -2,13 +2,13 @@
 
 ## Version 6.0.181 (10.12.2014) Dateiformat 6.0.126 
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 ### Fehlerkorrektur
 
 * SETUP: Fehler beseitigt
-* VERTRETUNGSPLAN: Das Eintragen eines Vertretungslehrer und eine anschließende gesonderte Raumänderung (Fehltzeit Raum) für die gleiche Unterrichtsstunden sind jetzt wieder möglich.
-* VERTRETUNGSPLAN: "Folgende Termine analog vertreten" und Vertretung "Wie Woche zuvor" wieder möglich.
+* Vertretungsplan: Das Eintragen eines Vertretungslehrer und eine anschließende gesonderte Raumänderung (Fehltzeit Raum) für die gleiche Unterrichtsstunden sind jetzt wieder möglich.
+* Vertretungsplan: "Folgende Termine analog vertreten" und Vertretung "Wie Woche zuvor" wieder möglich.
 
 ## Version 6.0.180 (08.12.2014)
 
@@ -18,7 +18,7 @@
 
 ### Fehlerkorrektur
 
-* SETUP: Fehlender Shortcut für DAVINCI
+* SETUP: Fehlender Shortcut für DaVinci
 * VETRETUNGSPLAN: Vorziehen und anschließende Ramänderung fürhte dazu, dass Vertretungslehrer gelöscht wurde. Der Fehler ist behoben.
 
 ## Version 6.0.179 (05.12.2014)
@@ -29,86 +29,86 @@
 
 ## Version 6.0.178 Dateiformat 6.0.125 (04.12.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 ### Fehlerkorrektur
 
 * ALLGEMEIN: Fehlermeldung "Sie dürfen nur Daten Ihres Teams bearbeiten" im lokalen Betrieb korrigiert
-* STUNDENPLAN: bearbeiten der Daten im Mehrbenutzerbetrieb (Stunden setzten, verschieben, Stammdaten bearbeiten) wieder möglich
-* STUNDENPLAN: bearbeiten der Zeitpräfenrenzen im Mehrbenutzerbetrieb wieder möglich
-* STUNDENPLAN: Stammdaten bearbeiten im Mehrbenutzerbetrieb wieder möglich
-* STUNDENPLAN: LUSD Import doppelte Schüler bereinigt
-* STUNDENPLAN: Neue Option in den DAVINCI-Optionen im Register "Ansicht": "Lehrer Ist-Werte in Zeitkonten"; damit kann eingestellt werden, ob im Zeitkonto als "Ist-Wert" der "Geplant-Wert" (lt. Veranstaltungsliste) oder "Verplant-Wert" (lt. gesetzten Stunden) ausgeben werden soll. HINWEIS: Standardmäig wird als "Ist-Wert" der "Geplant-Wert" ausgeben
-* VERTRETUNGSPLAN: bei geblockten Veranstaltungen können Raumvertretungen wieder für Folgetermine übernommen werden
-* VERTRETUNGSPLAN: Fehlstellen können wieder durch "Vorziehen" von Stunden gefüllt werden
-* INFOSERVER: Übergabe der Daten vom daVinci-Server für den Infoserver korrigiert
+* Stundenplan: bearbeiten der Daten im Mehrbenutzerbetrieb (Stunden setzten, verschieben, Stammdaten bearbeiten) wieder möglich
+* Stundenplan: bearbeiten der Zeitpräfenrenzen im Mehrbenutzerbetrieb wieder möglich
+* Stundenplan: Stammdaten bearbeiten im Mehrbenutzerbetrieb wieder möglich
+* Stundenplan: LUSD Import doppelte Schüler bereinigt
+* Stundenplan: Neue Option in den DaVinci-Optionen im Register "Ansicht": "Lehrer Ist-Werte in Zeitkonten"; damit kann eingestellt werden, ob im Zeitkonto als "Ist-Wert" der "Geplant-Wert" (lt. Veranstaltungsliste) oder "Verplant-Wert" (lt. gesetzten Stunden) ausgeben werden soll. HINWEIS: Standardmäig wird als "Ist-Wert" der "Geplant-Wert" ausgeben
+* Vertretungsplan: bei geblockten Veranstaltungen können Raumvertretungen wieder für Folgetermine übernommen werden
+* Vertretungsplan: Fehlstellen können wieder durch "Vorziehen" von Stunden gefüllt werden
+* InfoServer: Übergabe der Daten vom daVinci-Server für den InfoServer korrigiert
 * DRUCK: Ausdruck der Vertretungspläne ergänzt um die Spalten "Original Fach/Lehrer/Raum"
 
 ## Version 6.0.176 (17.10.2014)
 
 ### Neue Funktionen
 
-* STUNDENPLAN: Automatiklauf lässt sich nach Teams filtern
-* STUNDENPLAN: Situation zum Zeitpunkt Register "Räume" zeigt auch Kapazität und Raumart
-* STUNDENPLAN: Stammdaten "Perioden" und "Ressourcen" haben jetzt auch eine Spalte "TEAM"
-* STUNDENPLAN: Veranstaltungsliste > Veranstaltungen fortschreiben: Um PERIODE ergänzt und alle Elemente einer Blockung werden fortgeschrieben.
-* STUNDENPLAN: Veranstaltungsliste > Veranstaltungen befristen: Um PERIODE ergänzt und alle Elemente einer Blockung werden befristet.
-* STUNDENPLAN: Veranstaltungsliste > Veranstaltungen kopieren: Um PERIODE ergänzt. Es kann optional eine Periode auswählen werden, die dann den markiertern Veranstaltungen in Kopie zugewiesen wird.
-* STUNDENPLAN: Neuer Befehl RECHTE MAUSTASTE > Termine verschieben = verschiebt einmalige Termine auf anderen Tag, es können auch mehrere Termine markiert und verschoben werden.
-* STUNDENPLAN: Man kann jetzt den Endzeitpunkt in der Veranstaltungsliste und im Plan mit RECHTE MAUS * TERMINZEITDAUER BERBEITEN verändern.
-* STUNDENPLAN: "Jahresverteilung" - ersten Spalten (Bereich Summen) sind nun fix, in die einzelen Kalenderwochen scrollt man wie gewohnt.
-* * VERTRETUNGSPLAN: Erfassen von Klassenfehlzeit und der daraus resultierende Fehlzeiten/Anrechenstunden von Lehrern, Neu -> über "Hinzufügen" können Lehrer, die die Klasse zur Klassenfehlzeit nicht unterrichten hinzugefügt werden.
-* VERTRETUNGSPLAN: Vorziehen von geblockten Stunden > Beim Vorziehen von geblockten Stunden kann im Dialogfenster "Vorziehen" die neue Option eingstelt werden, ob der gesamte Block (alle Termine des Blocks) vorgezogen werden sollen. 
-* VERTRETUNGSPLAN: Vorziehen von mehrstündigen Veranstaltung > Beim Vorziehen von mehrstündigen Veranstaltungen wird im Plan und im Ausdruck in der Vertretungsinformationen zusätzlich mit ausgewiesen von-bis welcher Position verschoben wurde.
-* INFOSERVER: für die Ausgabe von Klassenvertretungen, Lehrervertretungen und Vertretungslehrern (Parameteraufrufe classsubst, teachersubst und substteacher) gibt es jeweils eine Indexseite
+* Stundenplan: Automatiklauf lässt sich nach Teams filtern
+* Stundenplan: Situation zum Zeitpunkt Register "Räume" zeigt auch Kapazität und Raumart
+* Stundenplan: Stammdaten "Perioden" und "Ressourcen" haben jetzt auch eine Spalte "TEAM"
+* Stundenplan: Veranstaltungsliste > Veranstaltungen fortschreiben: Um PERIODE ergänzt und alle Elemente einer Blockung werden fortgeschrieben.
+* Stundenplan: Veranstaltungsliste > Veranstaltungen befristen: Um PERIODE ergänzt und alle Elemente einer Blockung werden befristet.
+* Stundenplan: Veranstaltungsliste > Veranstaltungen kopieren: Um PERIODE ergänzt. Es kann optional eine Periode auswählen werden, die dann den markiertern Veranstaltungen in Kopie zugewiesen wird.
+* Stundenplan: Neuer Befehl RECHTE MAUSTASTE > Termine verschieben = verschiebt einmalige Termine auf anderen Tag, es können auch mehrere Termine markiert und verschoben werden.
+* Stundenplan: Man kann jetzt den Endzeitpunkt in der Veranstaltungsliste und im Plan mit RECHTE MAUS * TERMINZEITDAUER BERBEITEN verändern.
+* Stundenplan: "Jahresverteilung" - ersten Spalten (Bereich Summen) sind nun fix, in die einzelen Kalenderwochen scrollt man wie gewohnt.
+* * Vertretungsplan: Erfassen von Klassenfehlzeit und der daraus resultierende Fehlzeiten/Anrechenstunden von Lehrern, Neu -> über "Hinzufügen" können Lehrer, die die Klasse zur Klassenfehlzeit nicht unterrichten hinzugefügt werden.
+* Vertretungsplan: Vorziehen von geblockten Stunden > Beim Vorziehen von geblockten Stunden kann im Dialogfenster "Vorziehen" die neue Option eingstelt werden, ob der gesamte Block (alle Termine des Blocks) vorgezogen werden sollen. 
+* Vertretungsplan: Vorziehen von mehrstündigen Veranstaltung > Beim Vorziehen von mehrstündigen Veranstaltungen wird im Plan und im Ausdruck in der Vertretungsinformationen zusätzlich mit ausgewiesen von-bis welcher Position verschoben wurde.
+* InfoServer: für die Ausgabe von Klassenvertretungen, Lehrervertretungen und Vertretungslehrern (Parameteraufrufe classsubst, teachersubst und substteacher) gibt es jeweils eine Indexseite
 * IMPORTIEREN/EXPORTIEREN: Der "Allgemeine Statistikexport" wurde erweitert
 * IMPORTIEREN/EXPORTIEREN: WinLD Export korrigiert bei geblockten Veranstaltungen mit unterschiedlichen Perioden 
 * Allgemein: Extras|Weitere Aktionen|Zeitverschiebung > Verschiebt die Zeitangaben von Terminen, Ereignissen, Fehlzeiten und Änderungen wochenweise. 
 
 ### Fehlerkorrektur
 
-* STUNDENPLAN: Zusatzfenster (F12) können wieder angezeigt werden 
-* STUNDENPLAN: Aktualisierungsproblem beim Wechsel von Ansicht "Liste" zu "Plan und Liste" behoben
-* STUNDENPLAN: Komprimierte DAVINCI Datei kann wieder mit gleichem Namen überschrieben werden
-* VERTRETUNGSPLAN: Anzeige direkter Vertreter bei den indirekten korrigiert
-* VERTRETUNGSPLAN: Statistik|Unterrichtsausfall
-* VERTRETUNGSPLAN: Raumtausch zwischen Veranstaltungen wird nun korrekt im Lehrerplan angezeigt
-* VERTRETUNGSPLAN: Lehrertausch wird in den Lehrplänen wieder korrekt angezeigt 
-* VERTRETUNGSPLAN: wenn das Fach durch Vorziehen einer Veranstaltung geändert wurde, ist Anzeige in Spalte "Fach" wieder wie folgt: „+V-Fach(Fach)“
-* VERTRETUNGSPLAN: Veranstaltung mit Terminfolge größer als 3 wird nun korrekt über den Befehl "Teilen" in Einzelstunden aufgeteilt
-* VERTRETUNGSPLAN: gelbe Markierung für offene Vertretungen von Aufsichten wieder vorhanden
-* KURSPLAN: Fehlende Zuordnung von Schülerfachwahlen zu Kursen behoben
+* Stundenplan: Zusatzfenster (F12) können wieder angezeigt werden 
+* Stundenplan: Aktualisierungsproblem beim Wechsel von Ansicht "Liste" zu "Plan und Liste" behoben
+* Stundenplan: Komprimierte DaVinci Datei kann wieder mit gleichem Namen überschrieben werden
+* Vertretungsplan: Anzeige direkter Vertreter bei den indirekten korrigiert
+* Vertretungsplan: Statistik|Unterrichtsausfall
+* Vertretungsplan: Raumtausch zwischen Veranstaltungen wird nun korrekt im Lehrerplan angezeigt
+* Vertretungsplan: Lehrertausch wird in den Lehrplänen wieder korrekt angezeigt 
+* Vertretungsplan: wenn das Fach durch Vorziehen einer Veranstaltung geändert wurde, ist Anzeige in Spalte "Fach" wieder wie folgt: „+V-Fach(Fach)“
+* Vertretungsplan: Veranstaltung mit Terminfolge größer als 3 wird nun korrekt über den Befehl "Teilen" in Einzelstunden aufgeteilt
+* Vertretungsplan: gelbe Markierung für offene Vertretungen von Aufsichten wieder vorhanden
+* Kursplan: Fehlende Zuordnung von Schülerfachwahlen zu Kursen behoben
 * DRUCK: Beim Druck der Kursliste wird die Klasse des Schüler ausgegeben (vorher alle Klassen des Kurses)
 * DRUCK: Ausdruck von Lehrerplänen mit Veranstaltungsliste wieder möglich
 * DRUCK: Druckformat "Aufsichtsplan" - es können Langnamen der Lehrer ausgegeben werden
 * DRUCK: Druckformat "Veranstaltungsliste Klasse"  - Spalte "Schüler" wird wieder befüllt 
 * ALLGEMEIN: Der Befehl "Plan|Server verwalten" ist nicht verfügbar, wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "NoServerManage=REG_DWORD 0x000000001(1)" angibt.
 * ALLGEMEIN: Wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main"  neu einen DWORD-Wert "NoUpdates=REG_DWORD 0x000000001(1)" angibt, dann wird die Schaltfläche "Extras|Aktualisieren" und die Lizenzeingabe-Schaltflächen ausgeblendet.
-* ALLGEMEIN: Die Daten unter "Plan|DAVINCI-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_LOCAL_MACHINE/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
+* ALLGEMEIN: Die Daten unter "Plan|DaVinci-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_LOCAL_MACHINE/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
 * HTML Export: alle Positionen (voreingestellt bei "Mindestens bis") werden beim Export wieder korrekt ausgegeben
 * HTML Export: Aufsichten bei Lehrern, die nach der Aufsicht in ihrem Plan keinen Unterricht haben, werden nun wieder ausgegeben
-* EXPLORER:  Teamzugehörigkeitsrechte ergänzt
-* LOOK: Anwendung kann pro Arbeitsplatz wieder mehrfach geöffnet werden.
-* LOOK: Lehrersuche in "Lehrer Jetzt" korrigiert 
-* LOOK: Mit der LOOK Installation werden nun auch die Druckformate mit installiert.
+* Explorer:  Teamzugehörigkeitsrechte ergänzt
+* Look: Anwendung kann pro Arbeitsplatz wieder mehrfach geöffnet werden.
+* Look: Lehrersuche in "Lehrer Jetzt" korrigiert 
+* Look: Mit der Look Installation werden nun auch die Druckformate mit installiert.
 
 ## Version 6.0.175 (12.09.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 ### Neue Funktionen
 
 * ALLGEMEIN: Option „Plan|Eigenschaften|Datenschutz|Fehlgrund im Titel geänderter Termine anzeigen“ zeigt jetzt Fehlgrund+Änderungstitel an (vormals nur Fehlgrund bei markierter Option)
-* ALLGEMEIN: Neue Option „Plan|Eigenschaften|Datenschutz Lehrer-Veranstaltungen und -Zeitkonten in DAVINCI LOOK nicht druckbar“ verhindert es, dass Benutzer in DAVINCI LOOK Lehrer-Veranstaltungslisten und Lehrer-Zeitkonten drucken, diese Kollegendaten können also nicht angezeigt werden.
-* STUNDENPLAN: Im Stundenplanbereich gibt es neu unter „Ansicht“ den Aufruf „Drei Pläne“. Es werden Klassen-, Lehrer- und Raum Plan korrespondierend nebeneinander geöffnet.
-* STUNDENPLAN: Neue Ansicht „Stundenplan|Tagesplan“ für das Setzen von Jahresterminen (siehe dazu entsprechendes Kapitel im Benutzerhandbuch).
-* STUNDENPLAN: Beim Aufruf „Jetzt“ wird nun auch die "Position" (Positionsnummer) angezeigt
-* STUNDENPLAN: Unverplant Fenster | neue Option „Ohne Räume verplanen" 
-* VERTRETUNGSPLAN: Die Lehrerart ist jetzt neu einblendbar in der VERTRETUNGEN ERSTELLEN Ansicht.
-* VERTRETUNGSPLAN: Im Dialog Zusatzunterricht können jetzt b Lehrer und Räume gefiltert werden.
-* VERTRETUNGSPLAN: Vertretungsplan|Vertretungen: neue Funktion: Status "offen" kann mit rechter Maustaste auf erledigt gesetzt werden, wenn keine Vertretung erstellt werden soll 
-* VERTRETUNGSPLAN: Zusatzunterricht wird jetzt standardmäßig in Blau ausgewiesen. Die Farbe kann jetzt über das Optionen-Dialogfenster frei gewählt werden.
-* VERTRETUNGSPLAN: Neues Dialogfenster „Raumvertretung“ in der Ansicht VERTRETUNGEN erlaubt es alle Räume im Block bzw. alle Termine des Fehlzeitraums gleichzeitig zu vertreten, analog zu Lehrervertretungen.
+* ALLGEMEIN: Neue Option „Plan|Eigenschaften|Datenschutz Lehrer-Veranstaltungen und -Zeitkonten in DaVinci Look nicht druckbar“ verhindert es, dass Benutzer in DaVinci Look Lehrer-Veranstaltungslisten und Lehrer-Zeitkonten drucken, diese Kollegendaten können also nicht angezeigt werden.
+* Stundenplan: Im Stundenplanbereich gibt es neu unter „Ansicht“ den Aufruf „Drei Pläne“. Es werden Klassen-, Lehrer- und Raum Plan korrespondierend nebeneinander geöffnet.
+* Stundenplan: Neue Ansicht „Stundenplan|Tagesplan“ für das Setzen von Jahresterminen (siehe dazu entsprechendes Kapitel im Benutzerhandbuch).
+* Stundenplan: Beim Aufruf „Jetzt“ wird nun auch die "Position" (Positionsnummer) angezeigt
+* Stundenplan: Unverplant Fenster | neue Option „Ohne Räume verplanen" 
+* Vertretungsplan: Die Lehrerart ist jetzt neu einblendbar in der VERTRETUNGEN ERSTELLEN Ansicht.
+* Vertretungsplan: Im Dialog Zusatzunterricht können jetzt b Lehrer und Räume gefiltert werden.
+* Vertretungsplan: Vertretungsplan|Vertretungen: neue Funktion: Status "offen" kann mit rechter Maustaste auf erledigt gesetzt werden, wenn keine Vertretung erstellt werden soll 
+* Vertretungsplan: Zusatzunterricht wird jetzt standardmäßig in Blau ausgewiesen. Die Farbe kann jetzt über das Optionen-Dialogfenster frei gewählt werden.
+* Vertretungsplan: Neues Dialogfenster „Raumvertretung“ in der Ansicht VERTRETUNGEN erlaubt es alle Räume im Block bzw. alle Termine des Fehlzeitraums gleichzeitig zu vertreten, analog zu Lehrervertretungen.
 * DRUCK: Auswahl filtern nach mehreren Teams möglich
 * DRUCK: Ausdruck "Kurslisten" - Spalten aus dem Stammdatenfenster "Schüler" sind optional ausdruckbar
 * DRUCK: Kursliste lässt sich  vollständig formatieren 
@@ -118,32 +118,32 @@
 
 * ALLGEMEIN: Der Befehl "Plan|Server verwalten" ist nicht verfügbar, wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "NoServerManage=REG_DWORD 0x000000001(1)" angibt.
 * ALLGEMEIN: Wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main"  neu einen DWORD-Wert "NoUpdates=REG_DWORD 0x000000001(1)" angibt, dann wird die Schaltfläche "Extras|Aktualisieren" und die Lizenzeingabe-Schaltflächen ausgeblendet.
-* ALLGEMEIN: Die Daten unter "Plan|DAVINCI-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_LOCAL_MACHINE/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
-* STUNDENPLAN: Automatik erzeugt "Konflikte" – bitte führen Sie einmal den Befehl Extras|Plandatei aufräumen durch und starten dann die Automatik
-* STUNDENPLAN: Exportieren|Statistik Export NRW korrigiert
-* STUNDENPLAN: Mit der F12 Taste kann das Zusatzplanfenster geöffnet werden 
-* STUNDENPLAN: WIN LD Export für ABS unter dem Aufruf "Import/Export|Statistik Bayern WIN LD" integriert
-* STUNDENPLAN: Ausgabe "Dauer" in der Veranstaltungsliste bei gesetzten Terminen korrigiert, wenn angehakt: "Termin-Ende automatisch an Zeitrahmen anpassen"
-* STUNDENPLAN: F6 Klassenplan anzeigen, F7 Lehrerplanplan anzeigen, F8 Raumplanplan anzeigen
-* STUNDENPLAN: Zusatzfenster "Summen" | Lehrplan - Fehler, dass der "Geplant"-Wert verändert wird sobald eine Veranstaltungen gesetzt ist, korrigiert
-* STUNDENPLAN: Jahresverteilung 
-* VERTRETUNGSPLAN: Einrichten einer Fehlzeit mit der Option "Nicht öffentlich" korrigiert, diese wird nun nicht mehr in daVinci Look angezeigt
-* VERTRETUNGSPLAN: "Ressourcen zuweisen" im lokalen Betrieb nun möglich
-* VERTRETUNGSPLAN: "Immer Uhrzeiten anzeigen“ wird auch für den Zusatzunterricht korrekt dargestellt
-* VERTRETUNGSPLAN: Zusatzunterricht - "von" - "bis" Datum kann eingetragen werden
-* VERTRETUNGSPLAN: Zusatzunterricht – Option „Nicht öffentlich“ kann erfasst werden, um diesen ggf. nicht zu veröffentlichen
-* VERTRETUNGSPLAN: Zusatzunterricht – Filtermöglichkeit in Register "Räume" nach "freie Räume", "Raumart", "Kapazität" und "Teams
-* VERTRETUNGSPLAN: Anrechenstunden beim Zusatzunterricht korrekt erfasst
-* VERTRETUNGSPLAN: Ressourcen buchen, zusätzlich gebuchte Raumressource - Eintrag wird im Raumplan angezeigt
-* VERTRETUNGSPLAN: direkte Vertreter die Freistunde haben, werden in Spalte "Art" wieder mit "Zusätzlich" ausgewiesen
-* VERTRETUNGSPLAN: Unterrichtsgarantie Plus/Verlässliche Schule HESSEN - Die externen Vertreter werden in daVinci unter „Stammdaten|Lehrer“ eingetragen und entsprechend der drei Lehrerarten als „Vertreter 1“, „Vertreter 2“, bzw. „Vertreter 3“ in der Spalte „Lehrerart“ gekennzeichnet. (1. Personen ohne Befähigung für ein Lehramt, aber mit abgeschlossenem Studium an einer Hochschule, Fachhochschule oder mit abgeschlossener Berufsausbildung, 2. Personen mit Befähigung für ein Lehramt 3. Personen, auf die 1 und 2 nicht zutreffen) Hierfür definieren Sie im Schlüsselverzeichnis "Lehrerart" die Vertreter "Vertreter1", "Vertreter2" und "Vertreter3". Im Vertretungsplan kann nun neu im "Vertretungen"-Fenster in der Auswahl der möglichen Vertreter die Spalte „Lehrerart“ angezeigt werden. Dort erkennen Sie z.B. am Eintrag „Vertreter1“, dass es sich um einen externen Vertreter der Lehrart1 handelt.
-* VERTRETUNGSPLAN: Raumänderung bei geblockten Unterricht, neues Dialogfenster bei der Vertretungsregelung "Weitere Termine dieses Raums im Block analog vertreten" 
-* VERTRETUNGSPLAN: Priorität" "Fach" erscheint, wenn Lehrer in den Stammdaten diesem Fach zugewiesen ist  
-* VERTRETUNGSPLAN: Priorität" "Klasse" erscheint nur bei wieder bei zusätzlich gehaltenem Unterricht
-* KURSPLAN: Ansicht "Schüler" - Ausdruck der Fachwahlen nur für bestimmte Schüler ist möglich, wenn man die Liste filtert. Man filtert nach den Schülern, für die man die Fachwalliste ausgeben möchte und startet den Druck.
-* KURSPLAN: Ansicht „Kurse“: Sperrt man einen einzelnen Kurs (Haken setzen in Spalte "gesperrt"), wird der Haken sofort gespeichert, ohne erst in eine andere Zeile zu wechseln um zu aktualisieren.
-* KURSPLAN: Ansicht „Kurse" Zusatzfenster "Kursteilnehmer“: Die Schaltfläche „Aus diesem Kurs entfernen“ wurde herausgenommen.
-* EXPLORER: Import Benutzer 
+* ALLGEMEIN: Die Daten unter "Plan|DaVinci-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_LOCAL_MACHINE/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
+* Stundenplan: Automatik erzeugt "Konflikte" – bitte führen Sie einmal den Befehl Extras|Plandatei aufräumen durch und starten dann die Automatik
+* Stundenplan: Exportieren|Statistik Export NRW korrigiert
+* Stundenplan: Mit der F12 Taste kann das Zusatzplanfenster geöffnet werden 
+* Stundenplan: WIN LD Export für ABS unter dem Aufruf "Import/Export|Statistik Bayern WIN LD" integriert
+* Stundenplan: Ausgabe "Dauer" in der Veranstaltungsliste bei gesetzten Terminen korrigiert, wenn angehakt: "Termin-Ende automatisch an Zeitrahmen anpassen"
+* Stundenplan: F6 Klassenplan anzeigen, F7 Lehrerplanplan anzeigen, F8 Raumplanplan anzeigen
+* Stundenplan: Zusatzfenster "Summen" | Lehrplan - Fehler, dass der "Geplant"-Wert verändert wird sobald eine Veranstaltungen gesetzt ist, korrigiert
+* Stundenplan: Jahresverteilung 
+* Vertretungsplan: Einrichten einer Fehlzeit mit der Option "Nicht öffentlich" korrigiert, diese wird nun nicht mehr in daVinci Look angezeigt
+* Vertretungsplan: "Ressourcen zuweisen" im lokalen Betrieb nun möglich
+* Vertretungsplan: "Immer Uhrzeiten anzeigen“ wird auch für den Zusatzunterricht korrekt dargestellt
+* Vertretungsplan: Zusatzunterricht - "von" - "bis" Datum kann eingetragen werden
+* Vertretungsplan: Zusatzunterricht – Option „Nicht öffentlich“ kann erfasst werden, um diesen ggf. nicht zu veröffentlichen
+* Vertretungsplan: Zusatzunterricht – Filtermöglichkeit in Register "Räume" nach "freie Räume", "Raumart", "Kapazität" und "Teams
+* Vertretungsplan: Anrechenstunden beim Zusatzunterricht korrekt erfasst
+* Vertretungsplan: Ressourcen buchen, zusätzlich gebuchte Raumressource - Eintrag wird im Raumplan angezeigt
+* Vertretungsplan: direkte Vertreter die Freistunde haben, werden in Spalte "Art" wieder mit "Zusätzlich" ausgewiesen
+* Vertretungsplan: Unterrichtsgarantie Plus/Verlässliche Schule HESSEN - Die externen Vertreter werden in daVinci unter „Stammdaten|Lehrer“ eingetragen und entsprechend der drei Lehrerarten als „Vertreter 1“, „Vertreter 2“, bzw. „Vertreter 3“ in der Spalte „Lehrerart“ gekennzeichnet. (1. Personen ohne Befähigung für ein Lehramt, aber mit abgeschlossenem Studium an einer Hochschule, Fachhochschule oder mit abgeschlossener Berufsausbildung, 2. Personen mit Befähigung für ein Lehramt 3. Personen, auf die 1 und 2 nicht zutreffen) Hierfür definieren Sie im Schlüsselverzeichnis "Lehrerart" die Vertreter "Vertreter1", "Vertreter2" und "Vertreter3". Im Vertretungsplan kann nun neu im "Vertretungen"-Fenster in der Auswahl der möglichen Vertreter die Spalte „Lehrerart“ angezeigt werden. Dort erkennen Sie z.B. am Eintrag „Vertreter1“, dass es sich um einen externen Vertreter der Lehrart1 handelt.
+* Vertretungsplan: Raumänderung bei geblockten Unterricht, neues Dialogfenster bei der Vertretungsregelung "Weitere Termine dieses Raums im Block analog vertreten" 
+* Vertretungsplan: Priorität" "Fach" erscheint, wenn Lehrer in den Stammdaten diesem Fach zugewiesen ist  
+* Vertretungsplan: Priorität" "Klasse" erscheint nur bei wieder bei zusätzlich gehaltenem Unterricht
+* Kursplan: Ansicht "Schüler" - Ausdruck der Fachwahlen nur für bestimmte Schüler ist möglich, wenn man die Liste filtert. Man filtert nach den Schülern, für die man die Fachwalliste ausgeben möchte und startet den Druck.
+* Kursplan: Ansicht „Kurse“: Sperrt man einen einzelnen Kurs (Haken setzen in Spalte "gesperrt"), wird der Haken sofort gespeichert, ohne erst in eine andere Zeile zu wechseln um zu aktualisieren.
+* Kursplan: Ansicht „Kurse" Zusatzfenster "Kursteilnehmer“: Die Schaltfläche „Aus diesem Kurs entfernen“ wurde herausgenommen.
+* Explorer: Import Benutzer 
 
 ## Version 6.0.173 (22.08.2014)
 
@@ -152,169 +152,169 @@
 * Druckformate: Raumpläne|Wochenplan Räume korrigiert, eingestelltes "Von" und "Bis" Datum wird berücksichtigt
 * Stundenplan: Ansicht "Unterrichtsmatrix", Darstellung bei geblockten Veranstaltungen in Register "Klassen-Lehrer" korrigiert
 * Vertretungsplan: Ansicht "Vertretungen", bei den Vertretungslehrern wird in Spalte "Art" wieder angezeigt, wenn eine Lehrer eine Ausfallstunde aufgrund einer Klassenfehlzeit hat (Ausfallstd Klasse) 
-* Vertretungsplan: Fehlgrundanzeige im Titel geänderter Termine (die man in den DAVINCI-Eigenschaften unter "Vertretungsplan" aktivieren kann) wird nun auch bei Doppelstunden ausgegeben
+* Vertretungsplan: Fehlgrundanzeige im Titel geänderter Termine (die man in den DaVinci-Eigenschaften unter "Vertretungsplan" aktivieren kann) wird nun auch bei Doppelstunden ausgegeben
 * Stundenplan: WinLD-Export löst wieder richtig den WinLD-Export aus 
 * ÜBERSICHTEN: "Zeitkonten" gibt nun auch die Spalten "Bezeichnung" und "Kürzel" der zugwiesenen Lehrer-Soll-Schlüssel aus
-* Neue Ansicht ÜBERSICHTEN: "Jahresplanung" (setzt ANALYTICS Lizenz voraus).
-* Neue Ansicht ÜBERSICHTEN: "Lehrerausfall" überarbeitet, summiert jetzt auch Zusatzunterricht (setzt ANALYTICS Lizenz voraus).
+* Neue Ansicht ÜBERSICHTEN: "Jahresplanung" (setzt Analytics Lizenz voraus).
+* Neue Ansicht ÜBERSICHTEN: "Lehrerausfall" überarbeitet, summiert jetzt auch Zusatzunterricht (setzt Analytics Lizenz voraus).
 * Dialogfenster "Ressourcen/Räume zuweisen" überarbeitet und Fehler korrigiert.
-* Die Daten unter "Plan|DAVINCI-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
+* Die Daten unter "Plan|DaVinci-Optionen|Meine Daten|Allgemein" werden standardmäßig zentral in der Datei "daVinci.site" im gleichen Ordner wie die EXE-Dateien abgelegt. Für zentrale Installationen (z.B. Terminalserver) kann diese Datei im Ordner "daVinciDataFolder" (unter Windows 8 z.B. C:\Users\%BENUTZER%\AppData\Roaming\Stueber Systems\daVinci 6" gepeichert werden, wenn man in der Registry unter "HKEY_CURRENT_USER/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "SiteFileLocal=REG_DWORD 0x000000001(1)" angibt.
 * Wenn man in der Registry unter "HKEY_LOCAL_MACHINE/Software/Stueber Systems/daVinci 6/Main" neu einen DWORD-Wert "NoUpdate=REG_DWORD 0x000000001(1)" angibt, dann wird die Schaltfläche "Extras|Aktualisieren" und die Lizenzeingabe-Schaltflächen ausgeblendet.
 
 ## Version 6.0.172 (31.07.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* STUNDENPLAN: Lehrer-Ist-in-Klasse- und Geplant-Werte beim Setzen im Klassenplans angepasst
-* STUNDENPLAN: Die Felder Wochen und Periode sind in der Terminliste gleich denen der Veranstaltung vorbesetzt
-* STUNDENPLAN: Beim Anpassen der Terminaufteilung (zum Beispiel von 2 auf 1-1) bleibt die Dauer der Veranstaltung gleich
-* STUNDENPLAN: Stundenplanung über Pausen in Stundenlänge angepasst
-* STUNDENPLAN: unter Stammdaten|Klasse|Stufe wird der Wert "0" angezeigt
-* STUNDENPLAN: Raumautomatik für in den Stammdaten vorgebene Fachräume optimiert
-* STUNDENPLAN: Anzeige unter Unterrichtsmatrix|Klassen-Fächer für Veranstaltungen mit Kursnummern korrigiert
-* STUNDENPLAN: Beim Löschen der Raumvorgabe aus der Veranstaltungsliste|Spalte "Räume" bleibt der Raum bei gesetzten Veranstaltungen bestehen
-* STUNDENPLAN: Ausgabe der Differenz im Ausdruck der Lehrer-Soll-Berechnung unter Lehrerplänen korrigiert
-* STUNDENPLAN: Problem beim Speichern von Optionen für Länder außer Deutschland korrigiert
-* VERTRETUNGSPLAN: unter Plan|Eigenschaften|Vertretungsplan kann für DAVINCI und für LOOK eingestellt werden, ob die Fehlgründe für Abwesenheiten gezeigt werden sollen
-* VERTRETUNGSPLAN: wird für einen Termin zuerst der Raum geändert, anschließend eine Lehrerfehlzeit eingetragen, stimmt die Ausgabe in der Vertretungsliste
-* VERTRETUNGSPLAN: Fehlerhafte Einträge in der Änderungsliste (30.12.1899) können über Extras|Plan aufräumen korrigiert werden
+* Stundenplan: Lehrer-Ist-in-Klasse- und Geplant-Werte beim Setzen im Klassenplans angepasst
+* Stundenplan: Die Felder Wochen und Periode sind in der Terminliste gleich denen der Veranstaltung vorbesetzt
+* Stundenplan: Beim Anpassen der Terminaufteilung (zum Beispiel von 2 auf 1-1) bleibt die Dauer der Veranstaltung gleich
+* Stundenplan: Stundenplanung über Pausen in Stundenlänge angepasst
+* Stundenplan: unter Stammdaten|Klasse|Stufe wird der Wert "0" angezeigt
+* Stundenplan: Raumautomatik für in den Stammdaten vorgebene Fachräume optimiert
+* Stundenplan: Anzeige unter Unterrichtsmatrix|Klassen-Fächer für Veranstaltungen mit Kursnummern korrigiert
+* Stundenplan: Beim Löschen der Raumvorgabe aus der Veranstaltungsliste|Spalte "Räume" bleibt der Raum bei gesetzten Veranstaltungen bestehen
+* Stundenplan: Ausgabe der Differenz im Ausdruck der Lehrer-Soll-Berechnung unter Lehrerplänen korrigiert
+* Stundenplan: Problem beim Speichern von Optionen für Länder außer Deutschland korrigiert
+* Vertretungsplan: unter Plan|Eigenschaften|Vertretungsplan kann für DaVinci und für Look eingestellt werden, ob die Fehlgründe für Abwesenheiten gezeigt werden sollen
+* Vertretungsplan: wird für einen Termin zuerst der Raum geändert, anschließend eine Lehrerfehlzeit eingetragen, stimmt die Ausgabe in der Vertretungsliste
+* Vertretungsplan: Fehlerhafte Einträge in der Änderungsliste (30.12.1899) können über Extras|Plan aufräumen korrigiert werden
 * Skript: RLP-FW-APO-BGY-2010.js geändert für den Verordnungstyp GS
 
 ## Version 6.0.171 (18.07.2014)
 
-* STUNDENPLAN: geplant/verplant-Werte im Lehrerplan angepasst
-* STUNDENPLAN: wenn einer Klasse eine Periode zugewiesen wurde, wird diese auch für alle anschließend gesetzten Veranstaltungen übernommen
-* KURSPLAN: Beim Kurswechsel aufgetretene Probleme können über Hilfe|Plan aufräumen behoben werden
-* STUNDENPLAN: unter Stundenplan|Automatik gibt es die Möglichkeit die Raumzuweisungen eines Planes zurückzusetzen. Optional alle Raumzuweisungen oder nur die durch die Automatik erzeugten Zuweisungen.
+* Stundenplan: geplant/verplant-Werte im Lehrerplan angepasst
+* Stundenplan: wenn einer Klasse eine Periode zugewiesen wurde, wird diese auch für alle anschließend gesetzten Veranstaltungen übernommen
+* Kursplan: Beim Kurswechsel aufgetretene Probleme können über Hilfe|Plan aufräumen behoben werden
+* Stundenplan: unter Stundenplan|Automatik gibt es die Möglichkeit die Raumzuweisungen eines Planes zurückzusetzen. Optional alle Raumzuweisungen oder nur die durch die Automatik erzeugten Zuweisungen.
 * Allgemein: bei der Planübernahme fürs neue Schuljahr wird aus der Vorjahresdifferenz ein D-Schlüssel im Zeitkonto des Lehrers angelegt
 
 ### Pre-Release 6.0.170 (15.07.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* STUNDENPLAN: Lehrer-Zeitkonto IST- Wert bei tages- und wochenbezogener Berechunng korrigiert
-* STUNDENPLAN: Aktualisierung des Wochenfaktors bei Perioden: Start|Bearbeiten|Faktor aktualisieren
-* STUNDENPLAN: Ansicht im Stundenplan bei Ereignis erfasst (nicht ganztätig, unterrichtsfrei) korrigiert
-* LOOK: Optionen werden korrekt gespeichert
+* Stundenplan: Lehrer-Zeitkonto IST- Wert bei tages- und wochenbezogener Berechunng korrigiert
+* Stundenplan: Aktualisierung des Wochenfaktors bei Perioden: Start|Bearbeiten|Faktor aktualisieren
+* Stundenplan: Ansicht im Stundenplan bei Ereignis erfasst (nicht ganztätig, unterrichtsfrei) korrigiert
+* Look: Optionen werden korrekt gespeichert
 * HTML Export: Problem beim Abändern duplizierter HTML-Exportformate korrigiert
-* VERTRETUNGSPLAN: Doppelstunden werden bei gesetzter Option (Optionen|Vertretungsplan)als Einzeltermine zur Vertretung in der Vertretungserstellung angeboten
-* VERTRETUNGSPLAN: In der Ansicht Vertretungen|Anrechnungen wird das Lehrerkürzel für Zusatzunterricht mit angezeigt
-* VERTRETUNGSPLAN: Lehrerfehlzeit für Einzelstunde einer Doppelstunde korrigiert
-* VERTRETUNGSPLAN: ganztägige Fehlzeit, die als doppelspaltige Anzeige erscheint bitte mit "Extras|Plandatei aufräumen" korrigieren
+* Vertretungsplan: Doppelstunden werden bei gesetzter Option (Optionen|Vertretungsplan)als Einzeltermine zur Vertretung in der Vertretungserstellung angeboten
+* Vertretungsplan: In der Ansicht Vertretungen|Anrechnungen wird das Lehrerkürzel für Zusatzunterricht mit angezeigt
+* Vertretungsplan: Lehrerfehlzeit für Einzelstunde einer Doppelstunde korrigiert
+* Vertretungsplan: ganztägige Fehlzeit, die als doppelspaltige Anzeige erscheint bitte mit "Extras|Plandatei aufräumen" korrigieren
 * Allgemein: Es kann ein serverseitiges Backup für den Serverbetrieb eingestellt werden. Bitte wählen Sie dazu die Option auf der Resiterkarte "Backup" im daVinci-Server-Control in der Systemsteuerung. Das Backup wird im Arbeitsbereich des daVinci-Servers erstellt, Sie können zusätzlich wählen, nach wie vielen Tagen Backups wieder gelöscht werden sollen.
 * Allgemein: Backup-Dateien werden mit "Datum.backup" benannt, also z.B. „beispiel.2014-07-14.backup“.
-* Allgemein: Die Option für das Nicht-Anzeigen von Fehlgründen gilt nun auch für DAVINCI (unter "Plan|Eigenschaften|Vertretungsplan"). Bisher galt sie nur für LOOK.
+* Allgemein: Die Option für das Nicht-Anzeigen von Fehlgründen gilt nun auch für DaVinci (unter "Plan|Eigenschaften|Vertretungsplan"). Bisher galt sie nur für Look.
 
 
 ## Version 6.0.169 (02.07.2014)
 
-* EXPLORER: Der "Administrator" heißt jetzt "Super-Administrator", da es nun auch einen "Sub-Administrator" (für mandantenfähige DAVINCI Versionen, Dokumentation folgt noch) gibt.
-* STUNDENPLAN: Veranstaltungsliste: Befristung mehrerer markierter Veranstaltungen über "Veranstaltung|Veranstaltung bearbeiten|Veranstaltung befristen" möglich
-* STUNDENPLAN: Duplikate einer bereits gesetzten Veranstaltung werden wieder als unverplant in der Veranstaltungsliste aufgeführt
-* STUNDENPLAN: Eintrag einmaliger Sperrungen
-* VERTRETUNGSPLAN: Unter "Eigenschaften|Vertretungsplan" kann eingestellt werden, wie Fehlgründe in DAVINCI LOOK angezeigt werden (1. „Keine Fehlgründe anzeigen“ - es werden in LOOK keine Fehlgründe angezeigt | 2. „Alle Fehlgründe als "abwesend" anzeigen“ - es werden in LOOK ALLE Fehlgründe als "abwesend" anstatt von z.B. "krank" angezeigt | 3. „Alle Fehlgründe anzeigen“ - es werden in LOOK ALLE Fehlgründe mit der im Schlüsselverzeichnis zugewiesenen Farbe angezeigt)
-* VERTRETUNGSPLAN: beim Erfassen einer Fehlzeit gibt es optional die Möglichkeiten (beides gilt nur für LOOK)Fehlzeiten nicht öffentlch -- Fehlzeit und die damit verbundenen Änderungen werden nicht angezeigt 
-* KURSPLAN: Ansicht "Blöcke|Kursteilnehmer" - wenn man Alternativkurse anklickt, werden nun automatisch passende Schüler farblich markiert
-* KURSPLAN: Blöcke erzeugen, gibt automatisch als Vorgabe die minimal benötigten GK und LK vor
-* LOOK: Ansicht Klasse/ Lehrer/ Raum jetzt in Listenansicht Sortierung nach einem Spaltenkopf wird beibehalten
-* LOOK: Ansicht Klasse/ Lehrer/ Raum jetzt in Listenansicht Ausgabe von-bis
+* Explorer: Der "Administrator" heißt jetzt "Super-Administrator", da es nun auch einen "Sub-Administrator" (für mandantenfähige DaVinci Versionen, Dokumentation folgt noch) gibt.
+* Stundenplan: Veranstaltungsliste: Befristung mehrerer markierter Veranstaltungen über "Veranstaltung|Veranstaltung bearbeiten|Veranstaltung befristen" möglich
+* Stundenplan: Duplikate einer bereits gesetzten Veranstaltung werden wieder als unverplant in der Veranstaltungsliste aufgeführt
+* Stundenplan: Eintrag einmaliger Sperrungen
+* Vertretungsplan: Unter "Eigenschaften|Vertretungsplan" kann eingestellt werden, wie Fehlgründe in DaVinci Look angezeigt werden (1. „Keine Fehlgründe anzeigen“ - es werden in Look keine Fehlgründe angezeigt | 2. „Alle Fehlgründe als "abwesend" anzeigen“ - es werden in Look ALLE Fehlgründe als "abwesend" anstatt von z.B. "krank" angezeigt | 3. „Alle Fehlgründe anzeigen“ - es werden in Look ALLE Fehlgründe mit der im Schlüsselverzeichnis zugewiesenen Farbe angezeigt)
+* Vertretungsplan: beim Erfassen einer Fehlzeit gibt es optional die Möglichkeiten (beides gilt nur für Look)Fehlzeiten nicht öffentlch -- Fehlzeit und die damit verbundenen Änderungen werden nicht angezeigt 
+* Kursplan: Ansicht "Blöcke|Kursteilnehmer" - wenn man Alternativkurse anklickt, werden nun automatisch passende Schüler farblich markiert
+* Kursplan: Blöcke erzeugen, gibt automatisch als Vorgabe die minimal benötigten GK und LK vor
+* Look: Ansicht Klasse/ Lehrer/ Raum jetzt in Listenansicht Sortierung nach einem Spaltenkopf wird beibehalten
+* Look: Ansicht Klasse/ Lehrer/ Raum jetzt in Listenansicht Ausgabe von-bis
 * HTML Export: Zugriffsverletzung beim Export von Klassenvertretungen korrigiert
 * Druckformate und HTML Formate für Stundenpläne: Auf der Registerkarte "Termine" kann über die neue Option "Originaltermine bei Änderungen nicht anzeigen" eingestellt werden, ob z.B. in Raumplänen der durch eine Raumfehlzeit entfallende Termin angezeigt werden soll oder nicht.
 
 ## Version 6.0.168 (24.06.2014)
 
-* STUNDENPLAN: Automatik|Lehrereinsatz zurücksetzen (Auswahl nach nur der Automatik zugewiesenen Lehrern oder alle Lehrer)
-* VERTRETUNGSPLAN: Übersicht Lehrerausfall korrigiert
-* VERTRETUNGSPLAN: HTML-Export Klassenvertretungen
+* Stundenplan: Automatik|Lehrereinsatz zurücksetzen (Auswahl nach nur der Automatik zugewiesenen Lehrern oder alle Lehrer)
+* Vertretungsplan: Übersicht Lehrerausfall korrigiert
+* Vertretungsplan: HTML-Export Klassenvertretungen
 
 ## Version 6.0.167 (23.06.2014)
 
-* VERTRETUNGSPLAN: Aufruf der Änderungsliste korrigiert
+* Vertretungsplan: Aufruf der Änderungsliste korrigiert
 
 ## Version 6.0.166 (20.06.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* LOOK: Wechsel in die Ansicht Räume, Lehrer, Klassen Jetzt korrigiert
-* STUNDENPLAN: Zuweisen von zwei Lehrern in der Veranstaltungsliste wird auch in die Terminzeilen übernommen
-* STUNDENPLAN; Fehler und Planvorbereitungsassistent korrigiert, der dazu führte, dass beim Löschen von Lehrerdaten, die Datei nicht mehr zu bearbeiten war (Bitte beachten Sie, dass die Planübernahme erneut durchgeführt werden muss!)
-* STUNDENPLAN: Überschneidungen beim Setzen, die nur innerhalb des Planes auftreten, werden jetzt als gelber Streifen rechts hinter einem Eintrag angezeigt (d.h. auf den im Plan gelb schraffierte Positionen kann gesetzt werden, wenn der mit einem Strefifen versehene Termin entfernt wird, d.h. es gibt keine weiteren Überschneidungen in anderen Plänen.)
-* STUNDENPLAN: Manuelles Setzen von Terminen ohne Raumzuordnung, wenn diese deaktiviert ist, korrigiert.
-* STUNDENPLAN: Summendaten überarbeitet
-* STUNDENPLAN: Korrekturfunktion "Extras|Datei laden und Zeichensatz korrigieren"
-* STUNDENPLAN: Sternchen links oben in Listen ruft einen „Spalten bearbeiten“ Fensterersatz auf und erleichtert das Bearbeiten der Spalten
-* STUNDENPLAN: Bearbeiten der Spalten klappt nun auch, wenn man in Veranstaltungsliste die Termine aufklickt und dann „Spalten bearbeiten“ das Fenster öffnet oder eben über Sternchen.
-* STUNDENPLAN: Bei Blöcken wird Dauer Null bei klassenfremden Elementen nicht mehr angezeigt.
-* STUNDENPLAN: In Spalte TERMINE der Veranstaltungsliste werden nun immer alle Lehrer/Räume je Termin aufgelistet.
-* STUNDENPLAN: Lehrerart wird im Passende-Lehrer-Fenster angezeigt.
-* STUNDENPLAN: Wechsel im Übersichtsplan korrigiert
-* STUNDENPLAN: Befehl "Veranstaltung bearbeiten|Teilnehmerplanung" - Schaltflächen "entfernen, hinzufügen" wieder aktiv
-* STUNDENPLAN: Stundenplan prüfen - Ergebnisse korrigiert
-* STUNDENPLAN: Automatik für Klassen im Kursmodus korrigiert
-* VERTRETUNGSPLAN: Im Fehlzeiten Dialog kann man angeben, ob die Fehlzeit bzw. die Änderungen nicht veröffentlicht werden soll
-* VERTRETUNGSPLAN: Anzeige vorziehbarere Lehrer kann im OPTIONEN Dialog unter VERTETUNGSPLAN ausgeschaltet werden (z.B. für Grundschulen)
-* VERTRETUNGSPLAN: gleichzeitige Lehrer- und Raumfehlzeit: alle Vertretungselemente werden in einer Zeile angezeigt und sind dort zu bearbeiten (Lehreränderung mit fehlendem Raum (den Ersatzraum muss man ggf. nachtragen) 
-* VERTRETUNGSPLAN: Klasse fehlt: Vorbelegung der Anrechenstunden von Lehrern in geblockten Klassen 
-* VERTRETUNGSPLAN: E-Mail versenden von Änderungsmitteilungen funktioniert wieder.
-* VERTRETUNGSPLAN: Anzeige der Anzahl der freizugebenden und eigenen Änderungen korrigiert
-* VERTRETUNGSPLAN: Neue Option im Dialog "Optionen|Vertretungsplan": Markieren Sie "Aufsichten bei "Direkte Vertreter" anzeigen", wenn Lehrer mit Aufsicht in der Liste "Direkte Vertreter" in der Ansicht "Vertretungsplan" aufgelistet werden sollen. Andernfalls erscheinen Lerher mit Aufsicht dort nicht.
-* VERTRETUNGSPLAN: Vertretungselemente für Aufsichten werden gelb in der Vertretungserstellung markiert
+* Look: Wechsel in die Ansicht Räume, Lehrer, Klassen Jetzt korrigiert
+* Stundenplan: Zuweisen von zwei Lehrern in der Veranstaltungsliste wird auch in die Terminzeilen übernommen
+* Stundenplan; Fehler und Planvorbereitungsassistent korrigiert, der dazu führte, dass beim Löschen von Lehrerdaten, die Datei nicht mehr zu bearbeiten war (Bitte beachten Sie, dass die Planübernahme erneut durchgeführt werden muss!)
+* Stundenplan: Überschneidungen beim Setzen, die nur innerhalb des Planes auftreten, werden jetzt als gelber Streifen rechts hinter einem Eintrag angezeigt (d.h. auf den im Plan gelb schraffierte Positionen kann gesetzt werden, wenn der mit einem Strefifen versehene Termin entfernt wird, d.h. es gibt keine weiteren Überschneidungen in anderen Plänen.)
+* Stundenplan: Manuelles Setzen von Terminen ohne Raumzuordnung, wenn diese deaktiviert ist, korrigiert.
+* Stundenplan: Summendaten überarbeitet
+* Stundenplan: Korrekturfunktion "Extras|Datei laden und Zeichensatz korrigieren"
+* Stundenplan: Sternchen links oben in Listen ruft einen „Spalten bearbeiten“ Fensterersatz auf und erleichtert das Bearbeiten der Spalten
+* Stundenplan: Bearbeiten der Spalten klappt nun auch, wenn man in Veranstaltungsliste die Termine aufklickt und dann „Spalten bearbeiten“ das Fenster öffnet oder eben über Sternchen.
+* Stundenplan: Bei Blöcken wird Dauer Null bei klassenfremden Elementen nicht mehr angezeigt.
+* Stundenplan: In Spalte TERMINE der Veranstaltungsliste werden nun immer alle Lehrer/Räume je Termin aufgelistet.
+* Stundenplan: Lehrerart wird im Passende-Lehrer-Fenster angezeigt.
+* Stundenplan: Wechsel im Übersichtsplan korrigiert
+* Stundenplan: Befehl "Veranstaltung bearbeiten|Teilnehmerplanung" - Schaltflächen "entfernen, hinzufügen" wieder aktiv
+* Stundenplan: Stundenplan prüfen - Ergebnisse korrigiert
+* Stundenplan: Automatik für Klassen im Kursmodus korrigiert
+* Vertretungsplan: Im Fehlzeiten Dialog kann man angeben, ob die Fehlzeit bzw. die Änderungen nicht veröffentlicht werden soll
+* Vertretungsplan: Anzeige vorziehbarere Lehrer kann im OPTIONEN Dialog unter VERTETUNGSPLAN ausgeschaltet werden (z.B. für Grundschulen)
+* Vertretungsplan: gleichzeitige Lehrer- und Raumfehlzeit: alle Vertretungselemente werden in einer Zeile angezeigt und sind dort zu bearbeiten (Lehreränderung mit fehlendem Raum (den Ersatzraum muss man ggf. nachtragen) 
+* Vertretungsplan: Klasse fehlt: Vorbelegung der Anrechenstunden von Lehrern in geblockten Klassen 
+* Vertretungsplan: E-Mail versenden von Änderungsmitteilungen funktioniert wieder.
+* Vertretungsplan: Anzeige der Anzahl der freizugebenden und eigenen Änderungen korrigiert
+* Vertretungsplan: Neue Option im Dialog "Optionen|Vertretungsplan": Markieren Sie "Aufsichten bei "Direkte Vertreter" anzeigen", wenn Lehrer mit Aufsicht in der Liste "Direkte Vertreter" in der Ansicht "Vertretungsplan" aufgelistet werden sollen. Andernfalls erscheinen Lerher mit Aufsicht dort nicht.
+* Vertretungsplan: Vertretungselemente für Aufsichten werden gelb in der Vertretungserstellung markiert
 * ÜBERSICHTEN: Neue Ansicht "Lehrerausfall" listet die Lehrerstundensummen und den Ausfall pro Tag über das gesamte Schuljahr. Diese Übersicht kann insbesondere für die PES Statistik (Rheinland-Pfalz) und die Lehrerausfallstatistik in Bremen und Schleswig-Holstein verwendet werden.
 * HTML-Export: bei Tagesvertretungen nach Klassen/Lehrern/Stunden ist die Dateibenennung geändert (Wochenenden werden nicht mitgezählt)
 * HTML-Export: bei Tagesvertretungen nach Klassen/Lehrern/Stunden ist die Dateibenennung geändert (erste Datei ist mit 001 benannt)
 
 ## Version 6.0.162 (26.05.2014)
 
-* EXPLORER: Installationsproblem behoben
+* Explorer: Installationsproblem behoben
 
 ## Version 6.0.161 (23.05.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* STUNDENPLAN: Eigenschaften|Vertretungsplan die Option "Aenderungen freigeben" funktioniert jetzt auch für den Betrieb ohne DAVINCI SERVER.
-* STUNDENPLAN: Extras|Übersichten zeigen|Jetzt neue Spalten TEAM und GEBÄUDE.
-* STUNDENPLAN: Bei Kürzeleingabe in den Stammdaten wird die genaue Schreibweise beachtet
-* STUNDENPLAN: Neue Option im Dialog "Optionen" für "Parallele Termine kompakt nebeneinander anordnen" (standardmässig markiert). Kann demarkiert werden, dann verändert sich die Reihenfolge paralleler Termine nicht, wenn die Termindauer verändert wird.
-* STUNDENPLAN: Im Dialog "Optionen" neue Option "Immer Uhrzeiten anzeigen" auf Register "Stundenplan" zeigt auf Wunsch immer die Uhrzeit in den Bildschirm-Terminen an.
-* STUNDENPLAN: Verplanung zeitgleicher Termine ohne Block korrigiert
-* STUNDENPLAN: Verplanung einmaliger Veranstaltungen unterschiedlicher Dauer zeitgleich
-* STUNDENPLAN: Doppelstunden-Termine können nun versetzt gesetzt werden (Bsp. Doppelstunde verplant 7.+8. Std., kann nun im Plan per Drag&Drop auf die 8.+9. Std. gesetzt werden)
-* STUNDENPLAN: Aufsichten werden am letzten Tag der Gültigkeit des Planes wieder in den Lehrerplänen angezeigt
-* STUNDENPLAN: "Extras|Weitere Aktionen|Terminende anpassen" - Anpassen bereits gesetzter Termine an den Zeitrahmen (z.B. um das Terminende von Doppelstunden über eine Pause hinweg anzupassen)
-* STUNDENPLAN: Beim manuellen Setzen in der Ansicht STUNDENPLAN konnten evtl. Termine nicht-adaptiv auf Zeitslots gesetzt werden, d.h. ein blauer Balken links im Termin zeigt eine unvollständig abgedeckten Slot an. Dieser Fehler wird durch EXTRAS|PLAN AUFRÄUMEN korrigiert.
-* STUNDENPLAN: einmalige eintägige Sperrungen setzen wurde korrigiert
-* STUNDENPLAN: "Veranstaltung bearbeiten", Aktualisierung der Wochen erfolgt nun beim Ändern einer Periode
-* STUNDENPLAN: nach dem Beenden des Automatiklaufes mit dem x für Schließen des Automatikfensters und dem Setzen einer unverplanten Veranstaltung wird der gesetzte Plan nicht mehr geleert
-* STUNDENPLAN: Feherl Soll-Ist-Differenz korrigiert
-* STUNDENPLAN:Protokoll - Aktionen rückgängig machen  
-* STUNDENPLAN: Mehrfachmarkierung in den Übersichten Zeitkonten, Lehrer Soll-Ist, Fach Soll-Ist, Klassen Soll-Ist  und im Blockauswahlfenster möglich
-* VERTRETUNGSPLAN: neue Funktion "Extras|Terminzeiten anpassen"
-* VERTRETUNGSPLAN: ein durch Raumänderung freigewordener Raum wird als verfügbarer Raum angezeigt
-* VERTRETUNGSPLAN: Raumfehlzeit und anschließender Eintrag einer Lehrerfehlzeit, der von Raumänderung betroffen, wird nun als offenen Vertretung in der Vertretungsliste geführt
-* VERTRETUNGSPLAN: Extras|Plandatei aufräumen entfernt Vertretungseinträge der Änderungsliste mit dem Datum 1899
-* VERTRETUNGSPLAN: Fehlzeiten werden im Zeitplan wieder angezeigt
-* VERTRETUNGSPLAN: Geschwindigkeitsverbesserung im Vertretungsplanbereich für sehr große Dateien
-* VERTRETUNGSPLAN: Raumfehlzeit, betroffener Raum wird nicht mehr als frei zur Raumvertretung angeboten
-* VERTRETUNGSPLAN: beim Erfassen von Klassenfehlzeiten von Pos. x bis Pos.y (ohne ganztägig-Häkchen), werden die unterrichtenden Kollegen mit zur Begleitung gezeigt
-* VERTRETUNGSPLAN: Lehrer-Ist bei "einmaligen" Terminen 
-* VERTRETUNGSPLAN: Fehler beim automatischen Erstellen von Änderungen korrigiert. Es wurden in bestimmten Situationen Ändeurngszueilen gedoppelt.
-* VERTRETUNGSPLAN: Fehler bei Präsenzfächer beseitigt.
-* VERTRETUNGSPLAN: Anzeige eines Lehrers mit Ausfallstunden Klasse als direkter Vertreter
-* VERTRETUNGSPLAN: Freistellen ist nun auch mehrfach mit markieren mehrerer Termine/Positionen möglich.
-* VERTRETUNGSPLAN: Zusatzunterricht | Entfernen der Teilnehmer per Doppelklick wieder möglich 
-* VERTRETUNGSPLAN: beim Eintragen einer Mitteilung wird diese bei allen ausgewählten Planelementen übernommen und angezeigt
-* VERTRETUNGSPLAN: Fehlzeitenerfassung von getauschten Veranstaltungen werden mit erfasst
-* VERTRETUNGSPLAN: Änderungen die in der Änderungsliste als "nicht veröffentlicht" markiert wurden (rechte Maustaste "Nicht Veröffentlichen") werden nun nicht mehr im Ausdruck, HTML-Export in LOOK angezeigt
-* VERTRETUNGSPLAN: doppelter Eintrag für erfasste Fehlzeit der letzten Position (gemäß Zeitrahmen) behoben  
+* Stundenplan: Eigenschaften|Vertretungsplan die Option "Aenderungen freigeben" funktioniert jetzt auch für den Betrieb ohne DaVinci Server.
+* Stundenplan: Extras|Übersichten zeigen|Jetzt neue Spalten TEAM und GEBÄUDE.
+* Stundenplan: Bei Kürzeleingabe in den Stammdaten wird die genaue Schreibweise beachtet
+* Stundenplan: Neue Option im Dialog "Optionen" für "Parallele Termine kompakt nebeneinander anordnen" (standardmässig markiert). Kann demarkiert werden, dann verändert sich die Reihenfolge paralleler Termine nicht, wenn die Termindauer verändert wird.
+* Stundenplan: Im Dialog "Optionen" neue Option "Immer Uhrzeiten anzeigen" auf Register "Stundenplan" zeigt auf Wunsch immer die Uhrzeit in den Bildschirm-Terminen an.
+* Stundenplan: Verplanung zeitgleicher Termine ohne Block korrigiert
+* Stundenplan: Verplanung einmaliger Veranstaltungen unterschiedlicher Dauer zeitgleich
+* Stundenplan: Doppelstunden-Termine können nun versetzt gesetzt werden (Bsp. Doppelstunde verplant 7.+8. Std., kann nun im Plan per Drag&Drop auf die 8.+9. Std. gesetzt werden)
+* Stundenplan: Aufsichten werden am letzten Tag der Gültigkeit des Planes wieder in den Lehrerplänen angezeigt
+* Stundenplan: "Extras|Weitere Aktionen|Terminende anpassen" - Anpassen bereits gesetzter Termine an den Zeitrahmen (z.B. um das Terminende von Doppelstunden über eine Pause hinweg anzupassen)
+* Stundenplan: Beim manuellen Setzen in der Ansicht Stundenplan konnten evtl. Termine nicht-adaptiv auf Zeitslots gesetzt werden, d.h. ein blauer Balken links im Termin zeigt eine unvollständig abgedeckten Slot an. Dieser Fehler wird durch EXTRAS|PLAN AUFRÄUMEN korrigiert.
+* Stundenplan: einmalige eintägige Sperrungen setzen wurde korrigiert
+* Stundenplan: "Veranstaltung bearbeiten", Aktualisierung der Wochen erfolgt nun beim Ändern einer Periode
+* Stundenplan: nach dem Beenden des Automatiklaufes mit dem x für Schließen des Automatikfensters und dem Setzen einer unverplanten Veranstaltung wird der gesetzte Plan nicht mehr geleert
+* Stundenplan: Feherl Soll-Ist-Differenz korrigiert
+* Stundenplan:Protokoll - Aktionen rückgängig machen  
+* Stundenplan: Mehrfachmarkierung in den Übersichten Zeitkonten, Lehrer Soll-Ist, Fach Soll-Ist, Klassen Soll-Ist  und im Blockauswahlfenster möglich
+* Vertretungsplan: neue Funktion "Extras|Terminzeiten anpassen"
+* Vertretungsplan: ein durch Raumänderung freigewordener Raum wird als verfügbarer Raum angezeigt
+* Vertretungsplan: Raumfehlzeit und anschließender Eintrag einer Lehrerfehlzeit, der von Raumänderung betroffen, wird nun als offenen Vertretung in der Vertretungsliste geführt
+* Vertretungsplan: Extras|Plandatei aufräumen entfernt Vertretungseinträge der Änderungsliste mit dem Datum 1899
+* Vertretungsplan: Fehlzeiten werden im Zeitplan wieder angezeigt
+* Vertretungsplan: Geschwindigkeitsverbesserung im Vertretungsplanbereich für sehr große Dateien
+* Vertretungsplan: Raumfehlzeit, betroffener Raum wird nicht mehr als frei zur Raumvertretung angeboten
+* Vertretungsplan: beim Erfassen von Klassenfehlzeiten von Pos. x bis Pos.y (ohne ganztägig-Häkchen), werden die unterrichtenden Kollegen mit zur Begleitung gezeigt
+* Vertretungsplan: Lehrer-Ist bei "einmaligen" Terminen 
+* Vertretungsplan: Fehler beim automatischen Erstellen von Änderungen korrigiert. Es wurden in bestimmten Situationen Ändeurngszueilen gedoppelt.
+* Vertretungsplan: Fehler bei Präsenzfächer beseitigt.
+* Vertretungsplan: Anzeige eines Lehrers mit Ausfallstunden Klasse als direkter Vertreter
+* Vertretungsplan: Freistellen ist nun auch mehrfach mit markieren mehrerer Termine/Positionen möglich.
+* Vertretungsplan: Zusatzunterricht | Entfernen der Teilnehmer per Doppelklick wieder möglich 
+* Vertretungsplan: beim Eintragen einer Mitteilung wird diese bei allen ausgewählten Planelementen übernommen und angezeigt
+* Vertretungsplan: Fehlzeitenerfassung von getauschten Veranstaltungen werden mit erfasst
+* Vertretungsplan: Änderungen die in der Änderungsliste als "nicht veröffentlicht" markiert wurden (rechte Maustaste "Nicht Veröffentlichen") werden nun nicht mehr im Ausdruck, HTML-Export in Look angezeigt
+* Vertretungsplan: doppelter Eintrag für erfasste Fehlzeit der letzten Position (gemäß Zeitrahmen) behoben  
 
-* KURSPLAN: Schüler versetzen, alte Kurs- und Blockzuordnungen der Schüler werden gelöscht
-* KURSPLAN: 2 Leistungskurse des selben Faches im gleichen Block, in der Anicht "passende Kurse" wird der jeweils andere Kurs als Alternativkurs angezeigt
-* KURSPLAN: Ansicht Kursplan|Blöcke|Matrix korrigiert
-* KURSPLAN: Anlegen von neuen Blöcken mit der Bezeichnung von Blöcken, die bereits einmal gelöscht wurden
-* KURSPLAN: Ansicht Fachwahlen: mit dem Markieren aller Schüler  und der Auswahl der Funktion Start|"alle Fachwahlen markieren" können Sie alle Fachwahlen der markierte Schüler aktivieren/deaktivieren
-* KURSPLAN. Eingabe der Fachwahlen direkt in er Ansicht Kursplan|Schüler
-* LOOK: Ansicht Lehrer und Räume jetzt korrekte Anzeige geblockter Veranstaltungen
-* LOOK: Farben für Fehlgründe können wie in DAVINCI Vertretungsplan auch in LOOK ausgegeben werden
+* Kursplan: Schüler versetzen, alte Kurs- und Blockzuordnungen der Schüler werden gelöscht
+* Kursplan: 2 Leistungskurse des selben Faches im gleichen Block, in der Anicht "passende Kurse" wird der jeweils andere Kurs als Alternativkurs angezeigt
+* Kursplan: Ansicht Kursplan|Blöcke|Matrix korrigiert
+* Kursplan: Anlegen von neuen Blöcken mit der Bezeichnung von Blöcken, die bereits einmal gelöscht wurden
+* Kursplan: Ansicht Fachwahlen: mit dem Markieren aller Schüler  und der Auswahl der Funktion Start|"alle Fachwahlen markieren" können Sie alle Fachwahlen der markierte Schüler aktivieren/deaktivieren
+* Kursplan. Eingabe der Fachwahlen direkt in er Ansicht Kursplan|Schüler
+* Look: Ansicht Lehrer und Räume jetzt korrekte Anzeige geblockter Veranstaltungen
+* Look: Farben für Fehlgründe können wie in DaVinci Vertretungsplan auch in Look ausgegeben werden
 * KALENDER: löschen von Terminen im Zusatzkalender korrigiert
 * KALENDER: Eintrag eines ganztägigen Ereignisses mit Erfassen derFehlzeit korrigiert
 * Druck: Klassen-, Lehrer-,Raumpläne mit Wochenauswahl werden korrekt ausgegeben
@@ -328,7 +328,7 @@
 * Allgemein: Strg+R öffnet Auswahl Räume wie in Version 5
 * Allgemein: manuelles Setzen von zeitgleichen Terminen
 * Allgemein: Filterung in der Klassenauswahl bleibt dauerhaft erhalten 
-* Allgemein: Im Schlüsselverzeichnis Fachstatus kann für KURSPLAN die Schriftfarbe pro Wert vorbelegt werden.
+* Allgemein: Im Schlüsselverzeichnis Fachstatus kann für Kursplan die Schriftfarbe pro Wert vorbelegt werden.
 * Export: Export Statistik Bayern Wiederholungfaktor bei geblockten Veransatltungen korrigiert
 * Import SDTF: Beim Importieren des Schuldatentransferformates wird auch das Format L3 berücksichtigt
 
@@ -336,48 +336,48 @@
 
 ## Version 6.0.157 (01.04.2014)
 
-> Leicht geändertes Standardfarbschema für DAVINCI und DAVINCI LOOK verfügbar: Dazu im Dialogfenster "Optionen|Farben" auf "Standardangaben wiederherstellen" klicken.
+> Leicht geändertes Standardfarbschema für DaVinci und DaVinci Look verfügbar: Dazu im Dialogfenster "Optionen|Farben" auf "Standardangaben wiederherstellen" klicken.
 
 * AUFSICHTSPLAN: ein Lehrer der aus einer Aufsicht gelöscht wird, kann dieser wieder zugewiesen werden
 * STAMMDATEN: Im Stammdatenfenster können jetzt Leerzeichen vor das Kürzel eingegeben werden, z.B. " 10a", um die alphabetische Sortierung dazu zu bewegen, " 10a" nach "8a" einzusortieren.
-* STUNDENPLAN: Im Dialogfenster "Extras|Zeitrahmen|Bearbeiten" neue Option "Termine dürfen nur passgenau in Stunde verplant werden": Automatik verplant 45-Minuten-Stunden ausschließlich in eine 45-Minuten Position aber nicht in eine 50-Minuten Position (nur für Zeitrahmen mit unterschiedlichen Positionsdauern).
-* STUNDENPLAN: Im Dialogfenster "Extras|Zeitrahmen|Bearbeiten" neue Option "Termine dürfen nicht über Pause verplant werden": Automatik verplant z.B. keine Doppelstunde über eine 5-Minuten-Pause.
-* STUNDENPLAN: Automatik korrigiert.
-* KURSPLAN: beim Erstellen der Blöcke wird eine Minimalanzahl vorgeschlagen
-* KURSPLAN: Fächer für die Schüler können direkt über die Tastatur eingeben werden
-* KURSPLAN: Ausnahme von Blöcken aus der Automatik
-* KURSPLAN: Sortierung der Schüler mittels Hoch- und Ab Bewegen korrigiert. Optional kann auch per Drag&Drop sortiert werden.
-* KURSPLAN: Löschen von Kursen funktioniert
-* KURSPLAN: Mehrfachzuweisung hinsichtlich der Wahl eines Faches korrigiert
-* VERTRETUNGSPLAN: nicht vertretende Veranstaltungen (offene) werden im Ausdruck nicht ausgegeben
+* Stundenplan: Im Dialogfenster "Extras|Zeitrahmen|Bearbeiten" neue Option "Termine dürfen nur passgenau in Stunde verplant werden": Automatik verplant 45-Minuten-Stunden ausschließlich in eine 45-Minuten Position aber nicht in eine 50-Minuten Position (nur für Zeitrahmen mit unterschiedlichen Positionsdauern).
+* Stundenplan: Im Dialogfenster "Extras|Zeitrahmen|Bearbeiten" neue Option "Termine dürfen nicht über Pause verplant werden": Automatik verplant z.B. keine Doppelstunde über eine 5-Minuten-Pause.
+* Stundenplan: Automatik korrigiert.
+* Kursplan: beim Erstellen der Blöcke wird eine Minimalanzahl vorgeschlagen
+* Kursplan: Fächer für die Schüler können direkt über die Tastatur eingeben werden
+* Kursplan: Ausnahme von Blöcken aus der Automatik
+* Kursplan: Sortierung der Schüler mittels Hoch- und Ab Bewegen korrigiert. Optional kann auch per Drag&Drop sortiert werden.
+* Kursplan: Löschen von Kursen funktioniert
+* Kursplan: Mehrfachzuweisung hinsichtlich der Wahl eines Faches korrigiert
+* Vertretungsplan: nicht vertretende Veranstaltungen (offene) werden im Ausdruck nicht ausgegeben
 * Druck: Beim Tausch von Veranstaltungen wird bei beiden Kollegen im Ausdruck korrekt informiert
 * Druck: Ausdruck von Schülerplänen können nach Tutor filterbar
 * Dokumentation: Schuldatentransferformat korrigiert  K9, R9, L9 
 
 ## Version 6.0.156 (25.03.2014)
 
-* VERTRETUNGSPLAN: Fehlzeitenerfassung für mehrere Lehrer eines Blockes korrigiert
-* VERTRETUNGSPLAN: Ausfallstunden Klasse wird beim betreffenden Lehrer für die Vertretungsertsellung angezeigt  
-* VERTRETUNGSPLAN: Fehlzeitenerfassung aus Sicht alle Wochen | Jahreszahl bezieht sich aud das aktuelle Datum 
-* VERTRETUNGSPLAN: Klassenfehlzeit bei geblockten Fächern korrigiert
-* VERTRETUNGSPLAN: Darstellung bei Fehlzeiten "Klasse" korrigiert 
-* VERTRETUNGSPLAN: Erfassen einer Fehlzeit nur einer Stunde innerhalb einer Doppelstunde
-* VERTRETUNGSPLAN: als fehlend erfasster Raum, wird beim Ändern eines Raumes als fehlend angezeigt
-* VERTRETUNGSPLAN: Ändern von Fach und Raum bei verschobenen Veranstaltungen
-* VERTRETUNGSPLAN: Freistellung einer Einzelstunden werden nur einmal ausgegeben
-* VERTRETUNGSPLAN: Ausgabe Stundenausfall in Vertretungsplan|Statistik|Unterrichtsausfall korrigiert 
-* VERTRETUNGSPLAN: Anrechenstunden für Klassenfehlzeit korrigiert
-* VERTRETUNGSPLAN: freigestellter Lehrer kann nur einmal als direkter Vertreter eingesetzt werden, danach erscheint er als indirekter Vertreter
-* VERTRETUNGSPLAN: weist man einem Kurs einer Veranstaltung über "Räume ändern" einen neuen Raum zu, wird der Raum dann für einen weiteren Kurs derselben Veranstaltung als belegt dargestellt
-* STUNDENPLAN: Plan|Neu|Neues Schuljahr|Unterrichtsverteilung löschen korrigiert
-* STUNDENPLAN: Automatik|Setzautomatik ermöglicht das Umsetzen der Klassen- und Lehrervorgaben
-* STUNDENPLAN: Termin-Ende beim Verplanen automatisch an den Zeitrahmen anpassen korrigiert
-* STUNDENPLAN: Veranstaltungsdetails|löschen der "Periode"(Kürzel) Entfernen der eingetragenen Kalender-"Wochen
-* KURSPLAN: Beim Verschieben von Blöcken werden Konfliktmeldungen für alle betroffenen Schüler erzeugt
+* Vertretungsplan: Fehlzeitenerfassung für mehrere Lehrer eines Blockes korrigiert
+* Vertretungsplan: Ausfallstunden Klasse wird beim betreffenden Lehrer für die Vertretungsertsellung angezeigt  
+* Vertretungsplan: Fehlzeitenerfassung aus Sicht alle Wochen | Jahreszahl bezieht sich aud das aktuelle Datum 
+* Vertretungsplan: Klassenfehlzeit bei geblockten Fächern korrigiert
+* Vertretungsplan: Darstellung bei Fehlzeiten "Klasse" korrigiert 
+* Vertretungsplan: Erfassen einer Fehlzeit nur einer Stunde innerhalb einer Doppelstunde
+* Vertretungsplan: als fehlend erfasster Raum, wird beim Ändern eines Raumes als fehlend angezeigt
+* Vertretungsplan: Ändern von Fach und Raum bei verschobenen Veranstaltungen
+* Vertretungsplan: Freistellung einer Einzelstunden werden nur einmal ausgegeben
+* Vertretungsplan: Ausgabe Stundenausfall in Vertretungsplan|Statistik|Unterrichtsausfall korrigiert 
+* Vertretungsplan: Anrechenstunden für Klassenfehlzeit korrigiert
+* Vertretungsplan: freigestellter Lehrer kann nur einmal als direkter Vertreter eingesetzt werden, danach erscheint er als indirekter Vertreter
+* Vertretungsplan: weist man einem Kurs einer Veranstaltung über "Räume ändern" einen neuen Raum zu, wird der Raum dann für einen weiteren Kurs derselben Veranstaltung als belegt dargestellt
+* Stundenplan: Plan|Neu|Neues Schuljahr|Unterrichtsverteilung löschen korrigiert
+* Stundenplan: Automatik|Setzautomatik ermöglicht das Umsetzen der Klassen- und Lehrervorgaben
+* Stundenplan: Termin-Ende beim Verplanen automatisch an den Zeitrahmen anpassen korrigiert
+* Stundenplan: Veranstaltungsdetails|löschen der "Periode"(Kürzel) Entfernen der eingetragenen Kalender-"Wochen
+* Kursplan: Beim Verschieben von Blöcken werden Konfliktmeldungen für alle betroffenen Schüler erzeugt
 * AUFSICHTSPLAN: bereits zugewiesener Aufsichtslehrer kann einr Position nicht mehrfach zugewiesen werden
-* LOOK: Plananzeige fehlenden Lehrer und Klassen nicht anzeigen korrigiert
-* LOOK: Wechsel in die Anzeige "Lehrer Jetzt" wechselt immer in die aktuelle Kalenderwoche, auch wenn in einer anderen Planansicht eine andere Kalenderwoche geöffnet war
-* LOOK: die Spalte "Info" kann für die Vertretungsplanansicht mit eingeblendet werden.
+* Look: Plananzeige fehlenden Lehrer und Klassen nicht anzeigen korrigiert
+* Look: Wechsel in die Anzeige "Lehrer Jetzt" wechselt immer in die aktuelle Kalenderwoche, auch wenn in einer anderen Planansicht eine andere Kalenderwoche geöffnet war
+* Look: die Spalte "Info" kann für die Vertretungsplanansicht mit eingeblendet werden.
 * Drucken: Druckformat Klassenpläne Ausgabe des Raum-Langname, Lehrer-Langname, Fach-Langname korrigiert
 * Drucken: Druckformat Tagesvertretung nach Klassen VLehrername wird korrekt ausgegeben
 * Drucken: Druckformat Aufsichtspläne Ausgabe des Lehrer-Langname korrigiert
@@ -389,33 +389,33 @@
 
 ## Version 6.0.155 (25.02.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* STUNDENPLAN: daVinci 5 Pläne lassen sich wieder öffnen
-* STUNDENPLAN: in den Automatikvorgaben ist das Verschieben der Spalten in der Ansicht Lehrer- und Klassenvorgaben wieder fehlerfrei möglich
-* STUNDENPLAN: Das Zusatzplanfenster (z.B. rechte Maustaste in STUNDENPLAN Ansicht) kann wieder geöffnet werden. Die Anzeige der Zusatzpläne richtet sich jeweils nach der aktuelle Cursorposition im Plan: Ändert sich die Cursorposition im Plan, so wird die Anzeige der Zusatzpläne aktualisiert. 
-* STUNDENPLAN: Problem "unabhängig von Block" bei geblockten Veranstaltungen unterschiedlicher Länge behoben 
-* STUNDENPLAN: Ansicht "Plan", Anlegen "einmaliger" Veranstaltungen (hier Wiederholung: einmalig)im Planfenster korrigiert.
-* KURSPLAN: Problem beim "Schüler versetzen" behoben. 
-* KURSPLAN: Löschen der Kursnummer im Bereich "Kurse" wieder möglich 
-* KURSPLAN: Übersichten|Kursteilnehmer Export von Bereichsmarkierungen möglich 
-* KURSPLAN: Neue Eingabemaske für das Anlegen eines neuen Kurselementes
-* KURSPLAN: Fachstatus kann jetzt im Bereich "Kurse" in der neuen Spalte "Fachstatus" eingegeben werden.
-* KURSPLAN: Eingebrachte Fächer in den HJ (E1, E2, Q1-Q4) werden nun im Bereich "Fachwahlen" mit einer EINS (1) angezeigt, auch wenn keine Stundenzahl eingetragen wurde, also 1=eingebracht, leer=nicht eingebracht.
-* KURSPLAN: Fachwahlen "markieren" wieder aktiv, wenn Spalten E1, E2, Q1-Q4 ausgeblendet sind
-* KURSPLAN: Lehrerzuweisung funktioniert
-* KURSPLAN: Spalten ein- und ausblenden in der Fachwahl funktioniert
-* KURSPLAN: Neue Option im Bereich "Fachwahlen" ermöglicht es, alle Fachwahlen als "GEWÄHLT" zu setzen
-* VERTRETUNGSPLAN: Darstellung bei Fehlzeiten über Doppelstunden korrigiert
-* VERTRETUNGSPLAN: doppelte Fehlzeiten korrigiert
-* VERTRETUNGSPLAN: Druckvorschau Lehrervertretungen und Vertretungslehrerliste korrigiert
-* VERTRETUNGSPLAN: doppelte Anzeige beim Tausch von Terminen im Lehrerplan korrigiert 
-* VERTRETUNGSPLAN: Raumänderung wird nun korrekt im Plan angezeigt
+* Stundenplan: daVinci 5 Pläne lassen sich wieder öffnen
+* Stundenplan: in den Automatikvorgaben ist das Verschieben der Spalten in der Ansicht Lehrer- und Klassenvorgaben wieder fehlerfrei möglich
+* Stundenplan: Das Zusatzplanfenster (z.B. rechte Maustaste in Stundenplan Ansicht) kann wieder geöffnet werden. Die Anzeige der Zusatzpläne richtet sich jeweils nach der aktuelle Cursorposition im Plan: Ändert sich die Cursorposition im Plan, so wird die Anzeige der Zusatzpläne aktualisiert. 
+* Stundenplan: Problem "unabhängig von Block" bei geblockten Veranstaltungen unterschiedlicher Länge behoben 
+* Stundenplan: Ansicht "Plan", Anlegen "einmaliger" Veranstaltungen (hier Wiederholung: einmalig)im Planfenster korrigiert.
+* Kursplan: Problem beim "Schüler versetzen" behoben. 
+* Kursplan: Löschen der Kursnummer im Bereich "Kurse" wieder möglich 
+* Kursplan: Übersichten|Kursteilnehmer Export von Bereichsmarkierungen möglich 
+* Kursplan: Neue Eingabemaske für das Anlegen eines neuen Kurselementes
+* Kursplan: Fachstatus kann jetzt im Bereich "Kurse" in der neuen Spalte "Fachstatus" eingegeben werden.
+* Kursplan: Eingebrachte Fächer in den HJ (E1, E2, Q1-Q4) werden nun im Bereich "Fachwahlen" mit einer EINS (1) angezeigt, auch wenn keine Stundenzahl eingetragen wurde, also 1=eingebracht, leer=nicht eingebracht.
+* Kursplan: Fachwahlen "markieren" wieder aktiv, wenn Spalten E1, E2, Q1-Q4 ausgeblendet sind
+* Kursplan: Lehrerzuweisung funktioniert
+* Kursplan: Spalten ein- und ausblenden in der Fachwahl funktioniert
+* Kursplan: Neue Option im Bereich "Fachwahlen" ermöglicht es, alle Fachwahlen als "GEWÄHLT" zu setzen
+* Vertretungsplan: Darstellung bei Fehlzeiten über Doppelstunden korrigiert
+* Vertretungsplan: doppelte Fehlzeiten korrigiert
+* Vertretungsplan: Druckvorschau Lehrervertretungen und Vertretungslehrerliste korrigiert
+* Vertretungsplan: doppelte Anzeige beim Tausch von Terminen im Lehrerplan korrigiert 
+* Vertretungsplan: Raumänderung wird nun korrekt im Plan angezeigt
 * KALENDER: neues Ereignis anlegen funktioniert wieder
 * KALENDER: Neue Kalenderdateien für das Schuljahr 2014/15 verfügbar
-* LOOK: Ansicht STUNDENPLAN, Bemerkungstext bei Veranstaltungen wird angezeigt.
-* INFOSERVER: Links, die auf die daVinciApp verwiesen, wurden korrigiert.
-* EXPLORER: Doppelter Aufruf für "Stundentafeln bearbeiten" in den Richtlinien korrigiert
+* Look: Ansicht Stundenplan, Bemerkungstext bei Veranstaltungen wird angezeigt.
+* InfoServer: Links, die auf die daVinciApp verwiesen, wurden korrigiert.
+* Explorer: Doppelter Aufruf für "Stundentafeln bearbeiten" in den Richtlinien korrigiert
 * Drucken: Aufruf aller Aufsichtsbereiche wieder möglich
 * Drucken: "Heute voreinstellen" kann aktiviert und deaktiviert werden
 * Drucken: Langname in der Überschrift wird nun wenn voreingestellt korrekt angezeigt 
@@ -431,54 +431,54 @@
 
 ## Version 6.0.154 (31.01.2014)
 
-* VERTRETUNGSPLAN: Fehler in der Vertretungserstellung beim Erstellen einer Raumfehlzeit behoben. Bereits angelegte überzählige Vertretungselemente bitte in der Änderungsliste löschen.
+* Vertretungsplan: Fehler in der Vertretungserstellung beim Erstellen einer Raumfehlzeit behoben. Bereits angelegte überzählige Vertretungselemente bitte in der Änderungsliste löschen.
 
 ## Version 6.0.153 (27.01.2014)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* STUNDENPLAN: Fehler beim Aufruf des Fensters zur Eingabe von Sperrungen und Kernzeiten beseitigt.
-* STUNDENPLAN: Fehler beim "Plandatei aufräumen" für Sperrungen behoben.
-* STUNDENPLAN: Problem beim Speichern der Einstellungen unter Plan|Eigenschaften|Statistik behoben
-* VERTRETUNGSPLAN: Fehlerkorrektur: Bei Doppelstunden wurden fälschlicherweise mehrfache Vertretungseinträge erstellt. Für neu erstellte Fehlzeiten behoben.
-* VERTRETUNGSPLAN: Gesperrte Räume werden nicht mehr zur Vertretung angeboten.
-* LOOK: Ganztägige Klassenfehlzeiten werden nicht mehr in der Liste sondern nur noch als Hinweis unten aufgeführt.
-* LOOK: Ansicht VERTRETUNGEN neue Spalte INFO einblendbar.
-* LOOK: Problem beim Aufruf mit der Standardansicht "Interaktives Vollbild für Touchscreens" behoben
+* Stundenplan: Fehler beim Aufruf des Fensters zur Eingabe von Sperrungen und Kernzeiten beseitigt.
+* Stundenplan: Fehler beim "Plandatei aufräumen" für Sperrungen behoben.
+* Stundenplan: Problem beim Speichern der Einstellungen unter Plan|Eigenschaften|Statistik behoben
+* Vertretungsplan: Fehlerkorrektur: Bei Doppelstunden wurden fälschlicherweise mehrfache Vertretungseinträge erstellt. Für neu erstellte Fehlzeiten behoben.
+* Vertretungsplan: Gesperrte Räume werden nicht mehr zur Vertretung angeboten.
+* Look: Ganztägige Klassenfehlzeiten werden nicht mehr in der Liste sondern nur noch als Hinweis unten aufgeführt.
+* Look: Ansicht VERTRETUNGEN neue Spalte INFO einblendbar.
+* Look: Problem beim Aufruf mit der Standardansicht "Interaktives Vollbild für Touchscreens" behoben
 
 ## Version 6.0.152 (21.01.2014)
 
-* HINWEIS: Nach dem Installieren des Serviceupdates müssen Sie in DAVINCI und DAVINCI LOOK einmalig Ihr Land bzw. Bundesland einstellen, damit ortsspezifische Funktionen verfügbar werden. 
+* HINWEIS: Nach dem Installieren des Serviceupdates müssen Sie in DaVinci und DaVinci Look einmalig Ihr Land bzw. Bundesland einstellen, damit ortsspezifische Funktionen verfügbar werden. 
 * Export: Beim D6-Datensatz werden auch Veranstaltungen mit der Dauer Null berücksichtigt
-* STUNDENPLAN: korrekte Anzeige von Veranstaltungen auf Schienen
-* STUNDENPLAN: unterschiedliche Sperrungen auf Zeitschienen ist möglich
-* STUNDENPLAN: in der Listenansicht werden die Kalenderwochen ausgegeben
-* VERTRETUNGSPLAN: Verlängern der Termindauer bei Aufsichten möglich, um Aufsichten mit unterschiedlicher Dauer zu erstellen, die zur gleichen Zeit beginnen
-* VERTRETUNGSPLAN: Beim Öffnen der "Vertretungen" Ansicht werden jetzt automatisch entsprechende neue Änderungen aufgrund von Planänderungen erzeugt
-* VERTRETUNGSPLAN: Fehler beim Ausfall von Aufsichtsvertretungen korrigiert
-* VERTRETUNGSPLAN: Klassenfehlzeit als Teil einer Doppelstunde wird korrekt erfasst
-* VERTRETUNGSPLAN: Klassenfehlzeit nur Kurs korrigiert
-* VERTRETUNGSPLAN: Erfassen einer Raumfehlzeit und nachträglich einer Lehrerfehlzeit an der selben Position, fehlender Lehrer wird nun als offene Vertretung angezeigt
-* VERTRETUNGSPLAN: Raumänderung wird korrekt im Lehrerplan ausgegeben
-* VERTRETUNGSPLAN: In der Liste der Anrechnungen werden auch Lehrerfehlzeit mit "0" Anrechenstunden" ausgegeben
-* KURSPLAN: Kurse können beim Blocken von der Automatik ausgenommen werden
-* KURSPLAN: Ansicht "Kurse" - hier werden nun auch "passende Blöcke" angezeigt
-* KURSPLAN: "Block-Eigenschaften ändern" wieder möglich
-* KURSPLAN: Schüler versetzen in die nächste Klasse
-* KURSPLAN: "Fachwahlen erzeugen|Aus Schülerkursen" ist gedacht für den seltenen Fall, dass man Schüler zu Kursen zugeordnet hat. Man kann darüber aus den Schülerkursen die Kurswahl erzeugen. Man kann Schüler außerhalb des KURSPLANS mit Hilfe des Veranstaltungendialogs als TEILNEHMER HINZUFÜGEN, völlig unabhängig vom KURSPLAN Schüler wie auch andere Personen (Lehrer) einem Kurs zuordnen. Man kann so im Nachhinein die Kurswaheln erzeugen.
-* LOOK: Fehler bei der Ansicht des Vertretungsplanes behoben
+* Stundenplan: korrekte Anzeige von Veranstaltungen auf Schienen
+* Stundenplan: unterschiedliche Sperrungen auf Zeitschienen ist möglich
+* Stundenplan: in der Listenansicht werden die Kalenderwochen ausgegeben
+* Vertretungsplan: Verlängern der Termindauer bei Aufsichten möglich, um Aufsichten mit unterschiedlicher Dauer zu erstellen, die zur gleichen Zeit beginnen
+* Vertretungsplan: Beim Öffnen der "Vertretungen" Ansicht werden jetzt automatisch entsprechende neue Änderungen aufgrund von Planänderungen erzeugt
+* Vertretungsplan: Fehler beim Ausfall von Aufsichtsvertretungen korrigiert
+* Vertretungsplan: Klassenfehlzeit als Teil einer Doppelstunde wird korrekt erfasst
+* Vertretungsplan: Klassenfehlzeit nur Kurs korrigiert
+* Vertretungsplan: Erfassen einer Raumfehlzeit und nachträglich einer Lehrerfehlzeit an der selben Position, fehlender Lehrer wird nun als offene Vertretung angezeigt
+* Vertretungsplan: Raumänderung wird korrekt im Lehrerplan ausgegeben
+* Vertretungsplan: In der Liste der Anrechnungen werden auch Lehrerfehlzeit mit "0" Anrechenstunden" ausgegeben
+* Kursplan: Kurse können beim Blocken von der Automatik ausgenommen werden
+* Kursplan: Ansicht "Kurse" - hier werden nun auch "passende Blöcke" angezeigt
+* Kursplan: "Block-Eigenschaften ändern" wieder möglich
+* Kursplan: Schüler versetzen in die nächste Klasse
+* Kursplan: "Fachwahlen erzeugen|Aus Schülerkursen" ist gedacht für den seltenen Fall, dass man Schüler zu Kursen zugeordnet hat. Man kann darüber aus den Schülerkursen die Kurswahl erzeugen. Man kann Schüler außerhalb des KURSPLANS mit Hilfe des Veranstaltungendialogs als TEILNEHMER HINZUFÜGEN, völlig unabhängig vom Kursplan Schüler wie auch andere Personen (Lehrer) einem Kurs zuordnen. Man kann so im Nachhinein die Kurswaheln erzeugen.
+* Look: Fehler bei der Ansicht des Vertretungsplanes behoben
 * Druckformat: Klassenpläne für eine bestimmte Woche korrigiert
 * Druckformat: Tagesvertretung nach Stunden Ausgabe der Lehrerfehlzeit korrigiert
 * Druckformat: Gesamtpläne Klassen und Einzelpläne Klassen; Zeilentrennlinien werden korrekt dargestellt
 * Druckformat: Gesamtplan Lehrer, bei Auswahl von "Tage" von/bis im Layout wird der Plan korrekt ausgegeben
 * Druckformat: Klassenpläne; korrekte Ausgabe der Anfangs- und Endzeit aus Layout|Titel vertikal links|Format
-* ENTERPRISE: Problem beim "Speichern unter" aus dem Serverbetrieb behoben
-* INFOSERVER: Anzeige der fehlenden Lehrer und Klassen oberhalb der Pläne korrigiert
+* Enterprise: Problem beim "Speichern unter" aus dem Serverbetrieb behoben
+* InfoServer: Anzeige der fehlenden Lehrer und Klassen oberhalb der Pläne korrigiert
 * HTML-Export: Anzeige der fehlenden Lehrer und Klassen oberhalb der Pläne korrigiert 
 
 ## Version 6.0.151 (28.11.2013)
 
-* Neuer Befehl: "Extras | Weitere Aktionen | Personennummern erzeugen" übernimmt die Magellan-ID als Personennummer(z.B. für die Infoserver-Schülerplananzeige).
+* Neuer Befehl: "Extras | Weitere Aktionen | Personennummern erzeugen" übernimmt die Magellan-ID als Personennummer(z.B. für die InfoServer-Schülerplananzeige).
 * HTML-Export: "sandbox" Ordner und Bilddateinamen werden kleingeschrieben erzeugt.
 * HTML-Export und Drucken: Bei Lehrern und Schülern kann die "ID" bzw. die "GUID" im Namen ausgegeben werden, wenn dies im Druckformate bzw. HTML-Exporteformate Dialogfenster angegegeben wird.
 * Vertretungsplan: Fehler im Vertretungsplan beseitigt, der zu einer Datei führen konnte, die nicht geladen werden konnte.
@@ -495,7 +495,7 @@
 * HTML-Export: Beim HTML-Export werden anstatt der Lehrer/Klassen/Raumkürzel eine Zahlen als Dateinamenbestandteile exportiert. Dadurch treten keine Probleme mehr mit Sonderzeichen/Umlauten auf.
 * HTML-Export: Formatvorlage davinci.content.minimal.html korrigiert
 * HTML-Export: Aufruf von Kürzel mit Umlauten, Schrägstrichen oder &-Zeichen korrigiert
-* Infoserver:  Aufruf von Kürzel mit Umlauten, Schrägstrichen oder &-Zeichen korrigiert
+* InfoServer:  Aufruf von Kürzel mit Umlauten, Schrägstrichen oder &-Zeichen korrigiert
 * Druckformate: Vorschau der Wochenpläne korrigiert
 * Statistik-Export: für BBS Bayern WinLD korrigiert
 * Vertretungsplan: Erfassen von Fehltzeiten über mehrere Tage korrigiert
@@ -508,8 +508,8 @@
 
 ## Version 6.0.149 (07.11.2013)
 
-* Infoserver: die Auswahlschaltfläche (Lupe) im Klassenplan funktioniert korrekt
-* Infoserver: die für die Pläne gewählten Wochentage werden korrekt angezeigt
+* InfoServer: die Auswahlschaltfläche (Lupe) im Klassenplan funktioniert korrekt
+* InfoServer: die für die Pläne gewählten Wochentage werden korrekt angezeigt
 * Kalender: im Kalender eingetragene Ereignisse, die Doppelstunden im Stundenplan berühren, werden korrekt dargestellt
 * Kalender: Pfad zu den Kalenderdateien in die System-Information eingebaut
 * Kalender: diverse Probleme beim Anlegen von Ereignissen behoben
@@ -583,7 +583,7 @@ Bitte löschen Sie VOR dem Installieren dieses Updates in Ihrer Druckformate-Dat
 Wenn Sie das Update bereis ausgeführt haben sollten, öffnen Sie die Datei "daVinci.pfm" in einem Texteditor und löschen Sie im Text das HTML-Tag ```<item class="RaumGesamtplan"*``` und zwar alles zwischen den Anfangstag ```<item class="RaumGesamtplan"*``` und dem dazugehörigen Ende-Tag ```</item>```. 
 Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben sollte.
 
-! Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+! Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Neue Druckformate "Wochenplan Klassen" und "Wochenplan Räume". Klicken Sie dazu im Druckformate-Fenster auf "Druckformate|Aktualisieren".
 * Druckformat Gesamtplan Räume bezüglich der Ausgabe Tage, Stunden korrigiert
@@ -663,7 +663,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.135 (06.09.2013)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Zusammenführen von Dateien über Schuldatentransferformat, Lehrer-Arbeitszeitkonten werden korrekt dargestellt
 * Mehrfachzuweisung von Fächern in daVinci Kursplan 
@@ -686,10 +686,10 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Druckausgabe für Klassenpläne (Unterricht in Schienen)korrigiert 
 * bei wochenbezogener Berechnung wird das Lehrer-Ist wieder korrekt ausgegeben
 * In der Ansicht Übersichten|Kursteilnehmer werden alle Kursteilnehmer gezeigt
-* daVinci LOOK: Gebäudefilter wird in der Ansicht "Klassen/Räume jetzt" korrekt beachtet.
+* daVinci Look: Gebäudefilter wird in der Ansicht "Klassen/Räume jetzt" korrekt beachtet.
 * daVinci Kursplan: Mehrfachzuweisung bei Kursen möglich
-* daVinci INFOSERVER: Beim Export werden die Kalenderwochen zur Auswahl zum Beispiel der Blockwochen mit übergeben
-* daVinci INFOSERVER: unter Systemsteuerung|daVinci Server (32 Bit|Unterkarte "Infoserver" wird der Pfad zur daVinci.hfm gezeigt, auf die der Infoserver für die Darstellung der Pläne zugreift. Bitte legen Sie an dieser Stelle Ihre bearbeitete daVinci.hfm ab.
+* daVinci InfoServer: Beim Export werden die Kalenderwochen zur Auswahl zum Beispiel der Blockwochen mit übergeben
+* daVinci InfoServer: unter Systemsteuerung|daVinci Server (32 Bit|Unterkarte "InfoServer" wird der Pfad zur daVinci.hfm gezeigt, auf die der InfoServer für die Darstellung der Pläne zugreift. Bitte legen Sie an dieser Stelle Ihre bearbeitete daVinci.hfm ab.
 ! XML-Export von Terminen: Die XML-Tags "Teacher" und "Room" sind in "Teachers" und "Rooms" geändert worden. Zusätzlich sind die neuen Tags "SClasses", "STeachers" und "SRooms" ergänzt worden.
 
 ## Version 6.0.132 (16.08.2013)
@@ -712,7 +712,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Fehlerkorrektur im Kursplan: Nachträgliche Kurszuweisung bei einzelne Schülern per Automatik gelöst
 * Fehlerkorrektur im Bereich "Übersichten|Kursteilnehmer": Wechsel in eine andere Klasse über "Auswahl" (Listenkopf) nun möglich
 * Setzen aus einem Raumplan gelöst
-* daVinci INFOSERVER: Verweise mit Umlauten werden korrekt verarbeitet
+* daVinci InfoServer: Verweise mit Umlauten werden korrekt verarbeitet
 ! Modifiziertes XML-Ausgabeformat für Termine 
 
 ## Version 6.0.130 (07.08.2013)
@@ -734,8 +734,8 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Fehlerkorrektur bei der Wochensummenanzeige in der Ansicht "Stundenplan"
 * Fehlerkorrektur bei der Übersicht "Lehrer Soll-Ist", Lehrer-Differenz wird nun korrekt berechnet
 * Fehlerkorrektur beim Einspielen der Stundentafeln in die Veranstaltungslisten wird die Dauer bei gebrochenen Stundenzahlen (1,5 oder 2,5 Stunden) nun wieder korrekt angezeigt
-* Fehlerkorrektur in daVinci VERTRETUNGSPLAN: in der Vertretungsstatistik ist die Filterung nach Teams nun korrekt
-* Fehlerkorrektur in daVinci ANALYTICS: Summenberechnungsfehler korrigiert, Zusatzunterricht wird beachtet, Druckenfehler beseitigt.
+* Fehlerkorrektur in daVinci Vertretungsplan: in der Vertretungsstatistik ist die Filterung nach Teams nun korrekt
+* Fehlerkorrektur in daVinci Analytics: Summenberechnungsfehler korrigiert, Zusatzunterricht wird beachtet, Druckenfehler beseitigt.
 * Kleinere Fehlerkorrekturen
 
 ## Version 6.0.126 (12.07.2013)
@@ -757,7 +757,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.124 (02.07.2013)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Langsame Anzeige in Oberstufenplänen korrigiert.
 * Schriftgrößeneinstellungen bei den Druckformaten "Einzelplan" korrigiert.
@@ -778,13 +778,13 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.123 (18.06.2013)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
-* Fehler beim Anmelden beim ENTERPRISE Server beiseitigt (Server konnte unter betimmten Umständen Indexdatei nicht laden)
+* Fehler beim Anmelden beim Enterprise Server beiseitigt (Server konnte unter betimmten Umständen Indexdatei nicht laden)
 * Fehler bei Fehlzeit Klasse beeitigt: JEtzt kann auich nur ein Kurs korrekt als Fehlzeit (Entfall) eingegeben werden.
 * Beim Ausdruck von Tagesvertretungsplänen wird der Tag auch dann gedruzckt, wenn nur Fehlzeit-Informationen vorhanden sind, aber die Tabelle selbst leer ist.
 * Anzeige von Kursnummer in Stundenplänen korrigiert.
-* daVinci LOOK: Fehler beim automatischen Neuladen von Infozeiele und Plandatei im lokalen Betrieb korrigiert.
+* daVinci Look: Fehler beim automatischen Neuladen von Infozeiele und Plandatei im lokalen Betrieb korrigiert.
 
 ## Version 6.0.122 (13.06.2013)
 
@@ -826,7 +826,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.120 (17.05.2013)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformatkorrektur updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformatkorrektur updaten!
 
 * Fehler beim Import von Daten im Servermodus beseitigt.
 * Fehler beim Arbeiten im Servermodus (Zugriffsverletzung) beseitigt.
@@ -847,7 +847,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.115 (30.04.2013)
 
-> Bitte daVinci, daVinci LOOK, daVinci INFOSERVER und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look, daVinci InfoServer und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Fehler beim Übernehmen von Blöcken aus Version 5 korrigiert.
 * Fehler in Ansicht "Aufsichten" korrigiert.
@@ -869,7 +869,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ## Version 6.0.112 (18.04.2013)
 
-> Bitte daVinci, daVinci LOOK und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Die Konvertierung von daVinci 5 Dateien funktioniert jetzt wieder
 * Beim Drucken im Serverbetrieb konnten Vertretungsänderungen nicht bzw. nur nach "Änderungen freigeben" gedruckt werden. Dieser Fehler wurde behoben.
@@ -879,39 +879,39 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Fehler beim Export von Vertretungsplänen korrigiert
 * Korrigiertes Fachwahlskript für Berlin
 * WICHTIG: Neue Option "Änderungen freigeben" im Dialog "Plan|Eigenschaften" auf Registerkarte "Vertretungsplan": Dadurch kann nun das explizeite Freigeben von Änderungen in lokalen wie im Servermodus gewählt werden. 
-* Neue Funktion "Kursschnittmenge" in daVinci KURSPLAN
+* Neue Funktion "Kursschnittmenge" in daVinci Kursplan
 * Neue Einstellungsmöglichkeit "Änderungen freigeben" (Datei-Eigenschaften)
-* INFOSERVER Ausgabe korrigiert: Indizes werden korrekt erstellt und Anpassungen für neue HTML5 Vorlagen
+* InfoServer Ausgabe korrigiert: Indizes werden korrekt erstellt und Anpassungen für neue HTML5 Vorlagen
 * Neuer HTML5 kompatibler HTML-Export, siehe dazu überarbeitetes Kapitel 16. "HTML Export" im daVinci Benutzerhandbuch
 * Erweiterter Export Statistik Rheinland-Pfalz
 
 ## Version 6.0.106 (22.03.2013)
 
-* daVinci LOOK Neuladen bei Änderungen im Serverbetrieb klappte nicht und wurde korrigiert.
-* daVinci LOOK: Anzeige der Infozeile unten funktioniert wieder.
+* daVinci Look Neuladen bei Änderungen im Serverbetrieb klappte nicht und wurde korrigiert.
+* daVinci Look: Anzeige der Infozeile unten funktioniert wieder.
 * Fachsortierung korrigiert unter "Kursplan|Fachwahlen"
 * Abstürze beim Ansichtswechel in Kursplan Ansichten korrigiert.
 * Kursblockungsautomatik funktioniert wieder.
-* Beim Neuerstellen von Blöcken in der Ansicht KURSPLAN werden die alten Blöcke gelöscht. Dies war zuvor nicht vollständig der Fall.
+* Beim Neuerstellen von Blöcken in der Ansicht Kursplan werden die alten Blöcke gelöscht. Dies war zuvor nicht vollständig der Fall.
 * Beim Importieren einer mit daVinci 5 erzeugten Schuldatentransferdatei werden die Halbjahre als "Gewählt" markiert übernommen.
 
 ## Version 6.0.105 (20.03.2013)
 
-> Bitte daVinci, daVinci LOOK und daVinci-Server wegen Datenformaterweiterung updaten!
+> Bitte daVinci, daVinci Look und daVinci-Server wegen Datenformaterweiterung updaten!
 
 * Neues Fachwahlskript für das Saarland jetzt verfügbar
-* Warnung "Fach mehrfach am Tag" in der Ansicht STUNDENPLAN
+* Warnung "Fach mehrfach am Tag" in der Ansicht Stundenplan
 * Neues Attribut "Klassenverband" bei Stundentafeln einblendbar, wird beim Kopieren in Veranstaltungsliste übernommen
 * Neue Datensätze im Schuldatentransferformat für Termine (U8) und Zeitpräferenzen (K9, L9, R9, F9)
 * Im Schlüsselverzeichnis-Dialog kann man jetzt wie in den Stammdaten Schlüssel aus der Windows-Zwischenablage einfügen und in diese kopieren (siehe "In Ablage kopieren" und "Aus Ablage einfügen").
-* Beliebig viele Stundenplanfenster können jetzt über ANSICHT|STUNDENPLAN FREI BEWEGLICH geöffent und ggf. auf 2. Monitor geschoben werden wie in Version 5. Das Öffnen eines solchen Stundenplanfensters entspricht auch der Funktion "Zusatzpläne" in der Version 5.
-* im daVinci EXPLORER wird bei "Plandatei|Hinzufügen" anschließend das Dialogfenster zum Hochladen einer Datei angezeigt (entspricht der Schaltfläche "Hochladen")  
+* Beliebig viele Stundenplanfenster können jetzt über ANSICHT|Stundenplan FREI BEWEGLICH geöffent und ggf. auf 2. Monitor geschoben werden wie in Version 5. Das Öffnen eines solchen Stundenplanfensters entspricht auch der Funktion "Zusatzpläne" in der Version 5.
+* im daVinci Explorer wird bei "Plandatei|Hinzufügen" anschließend das Dialogfenster zum Hochladen einer Datei angezeigt (entspricht der Schaltfläche "Hochladen")  
 * Neues Dialogfenster "Bearbeiten|Einzeltermine verplanen" in der Veranstaltungsliste
 * Neues Dialogfenster "Bearbeiten|Barcode neu erstellen" in der Ansicht "Stammdaten|Ressourcen".
 * Neue Option "Barcode-Präfix" Optionen|Einstellungen|Ressourcen
 * Neues Dialogfenster "Bearbeiten|Exemplare erstellen" in der Ansicht "Stammdaten|Ressourcen".
-* Das Handbuch "daVinci RESSOURCENPLAN" ist nun Teil der Auslieferung.
-* Das Handbuch "daVinci ANALYTICS" ist nun Teil der Auslieferung.
+* Das Handbuch "daVinci Ressourcenplan" ist nun Teil der Auslieferung.
+* Das Handbuch "daVinci Analytics" ist nun Teil der Auslieferung.
 * Verbessete Aufsichtsautomatik
 * Fehler im Server-Modus in der Ansicht "Kursplan|Fachwahlen" beseitigt. Die markierten Halbjahre wurden nicht übertragen bzw. es gab eine Fehlermeldung.
 * Funktionen Termindauer verlängern/Termindauer verkürzen/Termin teilen funktionieren jetzt wieder
@@ -920,9 +920,9 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Ansicht "Kursplan|Blöcke": Problem beim Löschen von Blöcken behoben
 * Vertretungsplan: Fehler bei nachträglicher Raumänderung behoben
 * Lehrer/Raumtausch Angaben erschienen nicht im Druck und HTML-Export. Dieser Fehler wurde behoben.
-* Fehlerhafte Lehrer-Ist Berechnung in daVinci ANALYTICS korrigiert
+* Fehlerhafte Lehrer-Ist Berechnung in daVinci Analytics korrigiert
 * Unnötiges Dialogfenster beim Beenden des Exports ins Schuldatentransferformat beseitigt
-* Anzeigefehler im Zeitkonflikte-Fenster in der Ansicht STUNDENPLAN beseitigt.
+* Anzeigefehler im Zeitkonflikte-Fenster in der Ansicht Stundenplan beseitigt.
 
 ## Version 6.0.103 (05.03.2013)
   
@@ -935,12 +935,12 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 * Neue Infozeile in daVinci-Look analog zu Version 5
 * Fehlende Anzeige der verschobenen Stunden im Vertretungsplan beseitigt.
 * Fehlerhafte Fokussierung auf Woche/Stunde bei Umschalten auf Klassen/Lehrer/Raumplan behoben 
-* Anzeigefehler im daVinci EXPLORER für "Analysieren" (daVinci ANALYTICS) behoben
+* Anzeigefehler im daVinci Explorer für "Analysieren" (daVinci Analytics) behoben
 
 ## Version 6.0.102 (18.02.2013)
 
 * Im Vertretungsplan Ansicht "Vertretungen" konnte manchmal die Registerkarte FÄCHER bzw. RÄUME nicht angeklickt werden und somit kein Fach oder Raum modifiziert werden (bei Vertretungen). Dieser Fehler wurde behoben.
-* Anzeigefehler im daVinci EXPLORER für "Analysieren" (daVinci ANALYTICS) behoben.
+* Anzeigefehler im daVinci Explorer für "Analysieren" (daVinci Analytics) behoben.
 * Kleinere Anzeigefehler bei der Vollbildanzeige von daVinci-Look korrigiert.
 ! Bitte auch daVinci-Server updaten!
 
@@ -970,7 +970,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 > Modifiziertes Dateiformat, bitte auch daVinci Server und daVinci Look updaten!
 
-* * daVinci-Infoserver ist nun Teil des Setups
+* * daVinci-InfoServer ist nun Teil des Setups
 * Fehler bei der Anzeige vertauschter Termine beseitigt.
 * Neues Fachwahlskript RLP-FW-APO-BGY-2010.js
 * Neue Spalte "Verordnungstyp" in Ansicht "Stammdaten|Klassen". Angabe für bestimmte Fachwahl-Skripte erforderlich. 
@@ -1034,7 +1034,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 ### Fehlerkorrektur
 
-* Fehler in der Ansicht KURSPLAN, der zum Absturtz des Programms in bestimmten Anzeige situationen führte, beseitigt. Rufen Sie ggf. einmalig den Befehl "Extras|Plandatei aufräumen aus". 
+* Fehler in der Ansicht Kursplan, der zum Absturtz des Programms in bestimmten Anzeige situationen führte, beseitigt. Rufen Sie ggf. einmalig den Befehl "Extras|Plandatei aufräumen aus". 
 
 ## Version 6.0.91 (18.09.2012)
 
@@ -1052,7 +1052,7 @@ Bitte wenden Sie sich mit dieser Datei an unser Support, falls es Probleme geben
 
 * In der Ansicht "Vertretungsplan|Änderungen" kann man mit Rechter-Maustaste Änderungen veröffentlichen bzw. nicht veröffentlichen. 
 * daVinci-Look: Über "Start|daVinci-Optionen|Vollbild" kann jetzt das Logo Ihrer Schule in der Kopfzeile bei Vollbildmodi angezeigt werden.
-* Das neue daVinci KURSPLAN Benutzerhandbuch ist nun Teil dieses Setups und kann auch von unserer Website geladen werden.
+* Das neue daVinci Kursplan Benutzerhandbuch ist nun Teil dieses Setups und kann auch von unserer Website geladen werden.
 
 ### Fehlerkorrektur
 

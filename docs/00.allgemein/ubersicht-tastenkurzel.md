@@ -26,7 +26,7 @@
 | <kbd>Tab          | Nächste Spalte          | -                                                                             |
 | <kbd>Umsch+<kbd>Tab    | Vorherige Spalte        | -                                                                             |
 
-## STUNDENPLAN
+## Stundenplan
 
 | Tastenkürzel | Funktion                                 | Alternative                                                            |
 | ------------ | ---------------------------------------- | ---------------------------------------------------------------------- |
@@ -67,7 +67,7 @@
 | <kbd>F9</kbd>           | Termindauer verlängern                   | `Start > Stundenplan > Termin bearbeiten`                              |
 | <kbd>F11</kbd>          | Neue Kernzeit                            | -                                                                      |
 
-## VERTRETUNGSPLAN
+## Vertretungsplan
 
 | Tastenkürzel | Funktion                  | Alternative |
 | ------------ | ------------------------- | ----------- |
@@ -82,7 +82,7 @@
 | <kbd>STRG</kbd>+<kbd>F12</kbd>     | Termindetails anzeigen    | -           |
 | <kbd>STRG</kbd>+<kbd>Y</kbd>       | Automatik starten         | -           |
 
-## KURSPLAN
+## Kursplan
 
 ### Bereich "Schüler"
 

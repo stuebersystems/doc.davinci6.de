@@ -45,7 +45,7 @@ Um den erzeugten Filter zu aktivieren, bestätigen Sie mit ```OK```. Die Liste, 
 
 Sie können in allen Listen ganze Zeilen in die Windows-Zwischenablage kopieren. Die in die Zwischenablage kopierten Einträge können in anderen Programmen z.B. Excel oder Word wieder einfügt werden. Markieren Sie die entsprechenden Zeilen und wählen ```In Ablage kopieren```.
   
-Sie können umgekehrt auch Zeilen aus der Zwischenablage einfügen. Die Einträge aus der Zwischenablage können z.B. aus Excel oder Word stammen,  müssen jedoch die gleichen Spaltenreihenfolge wie in DAVINCI aufweisen, wobei die Felder in der Zeile mit `Tab`getrennt werden müssen.
+Sie können umgekehrt auch Zeilen aus der Zwischenablage einfügen. Die Einträge aus der Zwischenablage können z.B. aus Excel oder Word stammen,  müssen jedoch die gleichen Spaltenreihenfolge wie in DaVinci aufweisen, wobei die Felder in der Zeile mit `Tab`getrennt werden müssen.
 
 ![In Ablage kopieren](/assets/images/kopieren.png)
 
@@ -58,7 +58,7 @@ einfügen
 
 !!! info "Hinweis"
 
-    Hinweis: Beim Kopieren aus der Windows-Zwischenablage müssen Sie darauf achten, dass die Reihenfolge der Spalteninhalte die gleiche ist, wie in der DAVINCI Tabelle, in die Sie kopieren! Es können nur textbasierte Zellen kopiert werden, also z.B. keine Symbole, Farben, Optionsfelder usw. 
+    Hinweis: Beim Kopieren aus der Windows-Zwischenablage müssen Sie darauf achten, dass die Reihenfolge der Spalteninhalte die gleiche ist, wie in der DaVinci Tabelle, in die Sie kopieren! Es können nur textbasierte Zellen kopiert werden, also z.B. keine Symbole, Farben, Optionsfelder usw. 
 
 ## Eintrag löschen
 
@@ -68,7 +68,7 @@ Um einen Eintrag aus einer Stammdaten-Liste zu entfernen, müssen Sie die zugeh�
 
 !!! warning "Wichtig"
 
-    Wenn Sie Einräge in DAVINCI Löschen, werden Sie immer vom Programm gefragt, ob Sie das gewählte Objekt wirklich löschen möchten. Wenn Sie dieses mit ``OK`` löschen, ist es aus der Datei gelöscht. Eine Rückgängig-Machen Taste gibt es in DAVINCI nicht.
+    Wenn Sie Einräge in DaVinci Löschen, werden Sie immer vom Programm gefragt, ob Sie das gewählte Objekt wirklich löschen möchten. Wenn Sie dieses mit ``OK`` löschen, ist es aus der Datei gelöscht. Eine Rückgängig-Machen Taste gibt es in DaVinci nicht.
 
 ## Feldinhalte kopieren
 
@@ -82,7 +82,7 @@ Sie können einen Zelleninhalt einer Tabelle aus einer Zeile auf mehrere andere 
 
 ![Aufruf "Liste bearbeiten" aus dem Stammdatenfenster heraus](/assets/images/ListeBearbeiten01.png)
 
-Der Inhalt von Listen in den verschiedenen DAVINCI Ansichten kann nur dann verändert werden, wenn die Schaltfläche Liste bearbeiten aktiviert ist. Dies verhindert ungewolltes Verändern des Inhalts. 
+Der Inhalt von Listen in den verschiedenen DaVinci Ansichten kann nur dann verändert werden, wenn die Schaltfläche Liste bearbeiten aktiviert ist. Dies verhindert ungewolltes Verändern des Inhalts. 
 
 ## Listen drucken
 

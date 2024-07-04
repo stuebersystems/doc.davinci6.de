@@ -2,7 +2,7 @@
 
 Die Internetinformationsdienste 10 (kurz IIS 10) sind Bestandteil von Windows 2016 (und Windows 10). Sie stellen u.a. einen vollständigen Web-Server bereit.
 
-Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVERS, Installation der DAVINCI WEBBOX).
+Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DaVinci INFOSERVERS, Installation der DaVinci WebBox).
 
 ## Installation
 

@@ -1,11 +1,11 @@
-# DAVINCI WEBBOX und Apache
+# DaVinci WebBox und Apache
 
-Dieses Kapitel beschreibt die Installation und Konfiguration der DAVINCI WEBBOX auf Ihrem Apache HTTP Server.
+Dieses Kapitel beschreibt die Installation und Konfiguration der DaVinci WebBox auf Ihrem Apache HTTP Server.
 
-Die DAVINCI WEBBOX setzt folgende Installationen voraus:
+Die DaVinci WebBox setzt folgende Installationen voraus:
 
-* DAVINCI SERVER
-* DAVINCI INFOSERVER
+* DaVinci Server
+* DaVinci InfoServer
 
 ## Installation
 
@@ -19,7 +19,7 @@ Gehen Sie wie folgt vor:
 
 ## Konfiguration des Apache HTTP Servers {# Konfiguration des Apache HTTP Servers}
 
-Standardmäßig müssen Sie unter Apache keine weitere Konfiguration für die DAVINCI WEBBOX durchführen.
+Standardmäßig müssen Sie unter Apache keine weitere Konfiguration für die DaVinci WebBox durchführen.
 
 Im Gegensatz zum IIS sind die MIME-Typen für `json`, `woff`  und `svg` bereits registriert. Möchten Sie dies dennoch überprüfen, müssen Sie die folgende Datei in einem Texteditor öffnen:
 
@@ -29,9 +29,9 @@ c:\xampp\apache\conf\mime.types
 
 ## Testen
 
-Um sicherzugehen, dass alles korrekt installiert und konfiguriert ist, empfiehlt sich ein kleiner Test mit der DAVINCI-WEBBOX:
+Um sicherzugehen, dass alles korrekt installiert und konfiguriert ist, empfiehlt sich ein kleiner Test mit der DaVinci-WebBox:
 
-Öffnen Sie Ihren Web-Browser auf demselben Computer, auf dem Sie gerade eben die DAVINCI-WEBBOX installiert haben und tippen Sie folgende URL ein:
+Öffnen Sie Ihren Web-Browser auf demselben Computer, auf dem Sie gerade eben die DaVinci-WebBox installiert haben und tippen Sie folgende URL ein:
 
 ```txt
 http://localhost/davinci-timetable.html
@@ -39,7 +39,7 @@ http://localhost/davinci-timetable.html
 
 Diese URL sollte Ihnen im Idealfall eine Stundenplanansicht zurückliefern, die in etwa so aussieht:
 
-[!["Ein Stundenplan in der DAVINCI-WEBBOX"][1]][1]
+[!["Ein Stundenplan in der DaVinci-WebBox"][1]][1]
 
 Ein weiterer Test:
 
@@ -49,16 +49,16 @@ http://localhost/davinci-substitutions.html
 
 Diese URL sollte Ihnen im Idealfall eine Vertretungsplanansicht zurückliefern, die in etwa so aussieht:
 
-[![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"][2]][2]
+[![ "Eine Vertretungsplanliste in der DaVinci-WebBox"][2]][2]
 
 
 !!! info "Hinweis"
 
-    Die DAVINCI-WEBBOX zeigt auch Inhalte aus erst in der Zukunft gültigen Plänen an. Zurückliegend werden die Daten der letzten beiden Wochen mit ausgegeben.
+    Die DaVinci-WebBox zeigt auch Inhalte aus erst in der Zukunft gültigen Plänen an. Zurückliegend werden die Daten der letzten beiden Wochen mit ausgegeben.
 
-## Die DAVINCI-WEBBOX nutzen
+## Die DaVinci-WebBox nutzen
 
-Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller Aufrufparameter sowie zahlreiche Beispiele für das Einbinden der DAVINCI-WEBBOX in Ihre Webseite.
+Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller Aufrufparameter sowie zahlreiche Beispiele für das Einbinden der DaVinci-WebBox in Ihre Webseite.
 
 [davinci-webbox.stueber.de]: http://davinci-webbox.stueber.de
 

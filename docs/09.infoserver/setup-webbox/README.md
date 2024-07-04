@@ -1,6 +1,6 @@
-# Die DAVINCI-WEBBOX installieren
+# Die DaVinci-WebBox installieren
 
-Die DAVINCI-WEBBOX ist ein HTML5-basiertes Framework zur Live-Anzeige von DAVINCI-Stundenplänen und -Vertretungsplänen. DAVINCI-WEBBOX ist ein Open Source Projekt und kann in jede Webseite integriert werden.
+Die DaVinci-WebBox ist ein HTML5-basiertes Framework zur Live-Anzeige von DaVinci-Stundenplänen und -Vertretungsplänen. DaVinci-WebBox ist ein Open Source Projekt und kann in jede Webseite integriert werden.
 
 Die Installation unter Apache ist für alle Versionen von Windows gleich:
 

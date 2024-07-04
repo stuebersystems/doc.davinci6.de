@@ -14,11 +14,11 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.davinci6.stueber.de/substitution-plan/veroeffentlichung/veroeffentlichung/)
 
-## DAVINCI Version 6.5.61
+## DaVinci Version 6.5.61
 
-### STUNDENPLAN
+### Stundenplan
 
 * NEW: Auswahlfenster - Shortcut `Strg + F` für Auswahlfenster Fächer
 * NEW: Blockelemente im Plan: über `Strg + linke Maustaste` auf das Blockelemnet klicken, können Sie die weiteren geblockten Elemente sichtbar machen, wenn Sie nun ein Element anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
@@ -44,7 +44,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Ansicht `Plan und Liste` und zwei weitere Pläne - Korrespondenz der Pläne sehr verbessert
 * CHANGE: `Stundenplan > Veranstaltung > Neue Veranstaltung` Beim Anlegen einer neuen Veranstaltung in der Veranstaltungsliste ist die Dauer automatisch mit "1" vorbelegt (vormals "0")
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * NEW: Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
   
@@ -64,7 +64,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anrechenstunden, die man einem Lehrer über den Bereich "Anrechnungen" neu hinzugefügt hat (über Befehl `F2` oder grünes Plus in der Registerkarte "Start") werden nun auch in den Bereich "Vertretungen" bei den indirekten/direkten Vertretern in die Spalten +/-AStd/M und +/-AStd/J übergeben
 * FIX: Unter `Start > Planansicht` aktivierte Einstellung `Positionskonflikte anzeigen` gibt wieder korrekt farbliche Markierungen im Planfenster aus
 
-### KURSPLAN
+### Kursplan
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
 * FIX: fälschlichwerweise angezeigte Konflikte werden über `Extras > Plandatei aufräumen` gelöscht
@@ -72,9 +72,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
 * FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile wieder möglich
 
-### LOOK
+### Look
 
-* FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
+* FIX: ein über DaVinci Look gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
 * FIX: Lehrersuche über Suchfeld korrigiert (Wechsel von Lehrer zu Raum und dann wieder zu Lehrerplan führte zu Wechsel in falschen Lehrerplan)
   
 ### DRUCK
@@ -97,12 +97,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
 * FIX: LANIS Export Zeichensatz auf UTF 8 geändert
 
-### Webbox
+### WebBox
 
 * FIX: Vertretungen für eine gleichzeitige Raum- und Lehrerfehlzeit werden in allen betroffenen Plänen angezeigt
 
 
-## DAVINCI Version 6.5.60
+## DaVinci Version 6.5.60
 
 Veröffentlichung: 12.09.2019
 Dateiformat: 6.0.171
@@ -111,49 +111,49 @@ Dateiformat: 6.0.171
 
 * NEW: 13_NRW_Lehrer-Soll-Schluessel.keys
 
-## DAVINCI Version 6.5.59
+## DaVinci Version 6.5.59
 
 Veröffentlichung: 04.09.2019
 Dateiformat: 6.0.171
 
 ### ALLGEMEIN
 
-* NEW: Datenabgleich mit MAGELLAN 7 möglich
+* NEW: Datenabgleich mit Magellan 7 möglich
 * CHANGE: 12_SHL_Lehrer-Soll-Schluessel.keys
 * CHANGE: 23_SHL_Unterrichtsarten.keys
 * CHANGE: 25_SHL_Veranstaltungskategorien.keys
 * CHANGE: 25_SHL_Veranstaltungskategorien.keys
 
-### LOOK
+### Look
 
-* FIX: Die in DAVINCI LOOK bzw. im VERTRETUNGSPLAN gebuchten Ressourcen werden im entsprechenden Ressourcenplan (über Auswahlfenster "verfügbare Ressourcen" zu öffnen) wieder angezeigt
+* FIX: Die in DaVinci Look bzw. im Vertretungsplan gebuchten Ressourcen werden im entsprechenden Ressourcenplan (über Auswahlfenster "verfügbare Ressourcen" zu öffnen) wieder angezeigt
 
-## DAVINCI Version 6.5.58
+## DaVinci Version 6.5.58
 
 Veröffentlichung: 30.07.2019
 Dateiformat: 6.0.171
 
-* NEW: Neue Nachrichtenfunktion: Die DAVINCI-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DAVINCI und DAVINCI LOOK.
+* NEW: Neue Nachrichtenfunktion: Die DaVinci-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von DaVinci und DaVinci Look.
 
 ### DRUCK
 
 * FIX: Kopf- und Fußzeilen in Klassen-, Lehrer- und Vertretungsplänen werden wieder korrekt an den Druckertreiber übergeben
 
-## DAVINCI Version 6.5.57
+## DaVinci Version 6.5.57
 
 Veröffentlichung: 20.06.2019
 Dateiformat: 6.0.171
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Problem beim Öffnen einiger Dateien nach Update auf 6.5.56 behoben
 
-## DAVINCI Version 6.5.56
+## DaVinci Version 6.5.56
 
 Veröffentlichung: 18.06.2019
 Dateiformat: 6.0.171
 
-### SERVER
+### Server
 
 * CHANGE: Ein Benutzer, der einem Mandanten zugeordnet ist und als Admin gekennzeichnet ist hat folgende Rechte:
 
@@ -161,11 +161,11 @@ Dateiformat: 6.0.171
 2. Alle Benutzer seines Mandanten exportieren.
 3. Neue Benutzer importieren, die dann alle automatisch seinem Mandanten zugeordnet werden
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Kalenderdatei für Sachsen für das SJ 2019/2020 (SAC_Schulferien_2019-2020.ical)
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: `Vertretungen > Fehlzeiten` Lehrerfehlzeit wird über eine geplante Vertretung des fehlenden Lehrers verlängert, Vertretung wird nicht zurückgesetzt
 * FIX: `Vertretungen > Vertretungen` Vertreten von Fehlstellen durch Vorziehen wieder möglich
@@ -174,7 +174,7 @@ Dateiformat: 6.0.171
 * FIX: `Vertretungen > Vertretungen` setzen des Fokus bei der Planauswahl und in der Liste der offenen Vertretungen korrigiert
 * FIX: `Vertretungen > Vertretungen` durch Vertretungen verplanter Raum wird nicht mehr als frei dargestellt
 
-### KURSPLAN
+### Kursplan
 
 * FIX: `Kursplan > Blöcke` und `Kursplan > Kurse` farbige Markierung der Schüler für markierte Alterntativkurse wieder vorhanden
 * FIX: `Kursplan > Schüler > Passende Kurse` Zuweisung von Kursen funktioniert wieder
@@ -182,35 +182,35 @@ Dateiformat: 6.0.171
 * FIX: `Kursplan > Kurse > neue Veranstaltung` Löschen eines manuell angelegten Kurses wieder möglich
 * FIX: `Kursplan > Schüler > Passende Kurse` bei der Zuweisung zu einem manuell angelegten Kurs wird die Kursnummer korrekt angezeigt
 
-### LOOK
+### Look
 
-* FIX:  fehlende Anzeige von Zusatzunterricht im lokalen Betrieb kann über `Extras > Plandatei aufräumen` in DAVINCI angezeigt werden
+* FIX:  fehlende Anzeige von Zusatzunterricht im lokalen Betrieb kann über `Extras > Plandatei aufräumen` in DaVinci angezeigt werden
 
 ### Sonstiges
 
 * FIX: LANIS Export - ``Weiter``-Button wieder aktiv
 ![``Plan > Importieren/Eportieren`` Assistent](/assets/images/5.5.56_Bild1.png)
 
-## DAVINCI Version 6.5.55
+## DaVinci Version 6.5.55
 
 Veröffentlichung: 27.02.2019
 Dateiformat: 6.0.171
 
 ### Server
 
-* FIX: Problem beim Anzeigen von Zusatzunterricht mit Fehlzeiten für WEBBOX und App für Schüler und Klassen behoben
+* FIX: Problem beim Anzeigen von Zusatzunterricht mit Fehlzeiten für WebBox und App für Schüler und Klassen behoben
 * FIX: Problem beim Anzeigen von ganztägigen Mitteilungen behoben
 
-### INFOSERVER
+### InfoServer
 
 * FIX: Problem bei aktivierter Komprimierung und 64-Bit DAVINCIIS.dll behoben
 * NEW: Optimierungen zur Geschwindigkeitessteigerung
 
-### STUNDENPLAN
+### Stundenplan
 
 * CHANGE: Mitteilungsfenster überarbeitet: Anordnung, zusätzliche Prüfung bei der Eingabe der Zeiten
 
-## DAVINCI Version 6.5.53 und 6.5.54
+## DaVinci Version 6.5.53 und 6.5.54
 
 Veröffentlichung: 20.02.2019
 Dateiformat: 6.0.171

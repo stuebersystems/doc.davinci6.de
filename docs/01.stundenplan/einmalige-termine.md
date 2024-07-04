@@ -2,17 +2,17 @@
 
 !!! warning "Wichtig"
 
-     Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für DAVINCI JAHRESTERMINE.
+     Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für DaVinci JAHRESTERMINE.
 
-Die meisten Schulen arbeiten In der Regel mit wöchentlichen Termine also z.B. "5 Stunden Deutsch", d.h. fünf Termine verteilt über die Woche mit Wiederholung in jeder Schulwoche. Sollte jede Woche ein anderer Stundenplan erforderlich sein, was bei berufblidenden Schulen der Fall sein kann, ist es möglicherweise sinnvoller mit einmaligen Terminen zu arbeiten. In diesem Fall wären es z.B. "44 Stunden BWL", die über alle Schuljahreswochen auf verschiedene Tage und Uhrzeiten verteilt werden sollen. DAVINCI unterscheidet dazu die Art einer Veranstaltung in "wöchentlich" oder "einmalig". Sollten Sie jede Woche oder nach einem Abschnitt aus mehreren Wochen einen anderen Stundenplan planen müssen, bieten einmalige Termine viele Vorteile.
+Die meisten Schulen arbeiten In der Regel mit wöchentlichen Termine also z.B. "5 Stunden Deutsch", d.h. fünf Termine verteilt über die Woche mit Wiederholung in jeder Schulwoche. Sollte jede Woche ein anderer Stundenplan erforderlich sein, was bei berufblidenden Schulen der Fall sein kann, ist es möglicherweise sinnvoller mit einmaligen Terminen zu arbeiten. In diesem Fall wären es z.B. "44 Stunden BWL", die über alle Schuljahreswochen auf verschiedene Tage und Uhrzeiten verteilt werden sollen. DaVinci unterscheidet dazu die Art einer Veranstaltung in "wöchentlich" oder "einmalig". Sollten Sie jede Woche oder nach einem Abschnitt aus mehreren Wochen einen anderen Stundenplan planen müssen, bieten einmalige Termine viele Vorteile.
 
 ## Einmalige vs. periodische Termine
 
-DAVINCI erlaubt es Ihnen mit periodischen Terminen oder mit einmaligen Terminen zu planen.
+DaVinci erlaubt es Ihnen mit periodischen Terminen oder mit einmaligen Terminen zu planen.
 
 **Periodische Termine** Die Veranstaltung hat im Veranstaltungsfenster bei ``Zeitvorgaben > Wiederholung`` den Wert "periodisch". Dies ist der Standardfall für Allgemeinbildende und viele Berufsbildende Schulen. Die "Dauer", die Sie für eine Versnstaltung eingeben, ist die Stundendauer je Woche. In der Regel sind das alle Unterrichtswochen des Schuljahres bzw. bestimmte Wochen des Schuljahres (periodischer Unterricht). Zwei Stunden BWL für eine periodische Veranstaltung ergeben z.B. zwei einstündige Termine je Woche, die in jeder Unterichtswoche wiederholt werden..
 
-**Einmalige Termine** Die Veranstaltung hat im Veranstaltungsfenster bei ``Zeitvorgaben > Wiederholung`` den Wert "einmalig". In diesem Fall wird die Angabe in der Spalte "Dauer" der Veranstaltungsliste von DAVINCI als absolute Stundenangabe interpretiert, d.h. die Termine dieser Veranstaltung finden nur einmal zu einem bestimmten Termin statt. Zwei Stunden BWL für eine einmalige Veranstaltung ergeben z.b. zwei einstündige Termine irgendwo im Schuljahr.
+**Einmalige Termine** Die Veranstaltung hat im Veranstaltungsfenster bei ``Zeitvorgaben > Wiederholung`` den Wert "einmalig". In diesem Fall wird die Angabe in der Spalte "Dauer" der Veranstaltungsliste von DaVinci als absolute Stundenangabe interpretiert, d.h. die Termine dieser Veranstaltung finden nur einmal zu einem bestimmten Termin statt. Zwei Stunden BWL für eine einmalige Veranstaltung ergeben z.b. zwei einstündige Termine irgendwo im Schuljahr.
 
 ## Soll ich mit periodischen oder einmaligen Terminen arbeiten
 
@@ -24,11 +24,11 @@ Das hängt davon ab, wie oft Ihr Stundenplan über das Schuljahr sich verändert
 
 Für die Statistik bedeutet das:
 
-Bei periodischen Terminen können Sie die Stundensummen als Wochenmittelwerte oder als Jahressummen in DAVINCI ermitteln lassen. Bei einmaligen Terminen machen Wochenmittelwerte keinen Sinn, hier müssen Sie die Summen als Jahressummen in DAVINCI ermitteln. Solange Sie mit periodischen und einmaligen Terminen in Ihrem Plan arbeiten, sollten Sie zwecks Vergleichbarkeit der Zahlen mit Jahressummen arbeiten.
+Bei periodischen Terminen können Sie die Stundensummen als Wochenmittelwerte oder als Jahressummen in DaVinci ermitteln lassen. Bei einmaligen Terminen machen Wochenmittelwerte keinen Sinn, hier müssen Sie die Summen als Jahressummen in DaVinci ermitteln. Solange Sie mit periodischen und einmaligen Terminen in Ihrem Plan arbeiten, sollten Sie zwecks Vergleichbarkeit der Zahlen mit Jahressummen arbeiten.
 
 ## Mit einmalige Termine arbeiten
 
-DAVINCI hat spezielle Funktionen für das Planen einmaliger Termine, die wir im folgenden näher betrachten wollen.
+DaVinci hat spezielle Funktionen für das Planen einmaliger Termine, die wir im folgenden näher betrachten wollen.
 
 ### Einmalige Termine in der Stundentafel
 
@@ -48,7 +48,7 @@ Ist/J|bereits gesetzte Veransatltungen
 Dauer| wird mit dem Soll/J aus der Stundentafel vorbelegt
 Unverplant| noch zu setzende Stunden
 
-Unter ``DAVINCI Optionen > Einstellungen > Veranstaltungsliste`` bei **Wiederholung** einmalig voreinstellen. Wenn Sie nun in der Veranstltungliste eine neue Veranstaltung anlegen, wird diese als einmalig angelegt.
+Unter ``DaVinci Optionen > Einstellungen > Veranstaltungsliste`` bei **Wiederholung** einmalig voreinstellen. Wenn Sie nun in der Veranstltungliste eine neue Veranstaltung anlegen, wird diese als einmalig angelegt.
 
 ![Einmalige Termine in der Veranstaltungsliste](/assets/images/stundenplan/sp03.png)
 

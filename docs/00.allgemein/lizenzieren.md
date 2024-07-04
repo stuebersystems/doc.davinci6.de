@@ -1,9 +1,9 @@
 
 # Lizenzieren
 
-## DAVINCI erstmalig lizenzieren
+## DaVinci erstmalig lizenzieren
 
-Wenn Sie DAVINCI zum ersten Mal nach der Installation starten, öffnet sich der Willkommensassistent, der Ihnen die Option bietet, Ihre Lizenzdaten einzugeben oder, falls Sie diese noch nicht erhalten haben, eine Testlizenz anzufordern.  
+Wenn Sie DaVinci zum ersten Mal nach der Installation starten, öffnet sich der Willkommensassistent, der Ihnen die Option bietet, Ihre Lizenzdaten einzugeben oder, falls Sie diese noch nicht erhalten haben, eine Testlizenz anzufordern.  
 
 ![Willkommensassistent](/assets/images/allgemein/allgemein3.png)
 
@@ -11,7 +11,7 @@ Wenn Sie DAVINCI zum ersten Mal nach der Installation starten, öffnet sich der 
 
 ### Testlizenz anfordern
 
-Sollten Sie noch nicht über Lizenzdaten für DAVINCI verfügen, können Sie mit Hilfe des Willkommensassistenten eine Testlizenz anfordern. Im Willkommensassistenten geben Sie dabei zunächst Ihre individuellen Daten als Lizenznehmer ein. Der Assistent erstellt daraufhin wahlweise eine E-Mail, die Sie direkt aus Ihrem Email-Programm an uns versenden können.
+Sollten Sie noch nicht über Lizenzdaten für DaVinci verfügen, können Sie mit Hilfe des Willkommensassistenten eine Testlizenz anfordern. Im Willkommensassistenten geben Sie dabei zunächst Ihre individuellen Daten als Lizenznehmer ein. Der Assistent erstellt daraufhin wahlweise eine E-Mail, die Sie direkt aus Ihrem Email-Programm an uns versenden können.
 
 Wählen Sie `Eine Testlizenz anfordern` öffnet sich folgendes Fenster:  
 
@@ -21,19 +21,19 @@ Wählen Sie `Eine Testlizenz anfordern` öffnet sich folgendes Fenster:
 
     Bitte tragen Sie unbedingt den Namen Ihrer Schule/Institution ein, für die die Testlizenz ausgestellt werden soll.
 
-Lizenzdaten für den Einsatz von DAVINCI erhalten Sie von uns per E-Mail, sie beinhalten Name, Standort und Schlüssel des Lizenznehmers, die im Text der Lizenzierungs-Email aufgeführt sind. Zusätzlich erhalten Sie im Anhang der Lizenzierungs-Email die Datei DAVINCI6.lic mit Ihren individuellen Lizenzinformationen. Sie können diese Datei importieren über ``Lizenz importieren`` oder die Lizenzdaten per Hand in die vorgesehenen Felder eingeben.
+Lizenzdaten für den Einsatz von DaVinci erhalten Sie von uns per E-Mail, sie beinhalten Name, Standort und Schlüssel des Lizenznehmers, die im Text der Lizenzierungs-Email aufgeführt sind. Zusätzlich erhalten Sie im Anhang der Lizenzierungs-Email die Datei DAVINCI6.lic mit Ihren individuellen Lizenzinformationen. Sie können diese Datei importieren über ``Lizenz importieren`` oder die Lizenzdaten per Hand in die vorgesehenen Felder eingeben.
 
 ![Meine Lizenzdaten eingeben](/assets/images/allgemein/MeineLizenzEingeben.png)
 
 !!! warning "Wichtig"
 
-    Mit der Neuinstallation von DAVINCI öffnet sich nach Eingabe Ihrer Testlizenz/Lizenz automatisch das DAVINCI Optionen-Fenster. Bitte vervollständigen Sie hier unter "Meine Daten" die verpflichtenden Angaben.
+    Mit der Neuinstallation von DaVinci öffnet sich nach Eingabe Ihrer Testlizenz/Lizenz automatisch das DaVinci Optionen-Fenster. Bitte vervollständigen Sie hier unter "Meine Daten" die verpflichtenden Angaben.
 
 ![Daten](/assets/images/allgemein/DAV.Optionen.MeineDatenpng.png)
 
 ## Neue Lizenz erfassen
 
-Die DAVINCI Lizenz erfassen Sie üblicherweise beim Erststart von DAVINCI im Willkommens-Assistenten. Hier lesen Sie nach, wie Sie die Lizenz nachträglich anpassen können, wenn Sie z.B. weitere Module freischalten möchten. Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
+Die DaVinci Lizenz erfassen Sie üblicherweise beim Erststart von DaVinci im Willkommens-Assistenten. Hier lesen Sie nach, wie Sie die Lizenz nachträglich anpassen können, wenn Sie z.B. weitere Module freischalten möchten. Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
 
 * Lizenzdaten von Hand eingeben
 * Lizenzdaten importieren
@@ -45,7 +45,7 @@ Die DAVINCI Lizenz erfassen Sie üblicherweise beim Erststart von DAVINCI im Wil
 ### Lizenzdaten von Hand eingeben
 
 Um Ihre Lizenzdaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor:
-1. Starten Sie DAVINCI und führen Sie den Menüpunkt `Hilfe > Lizenzierung` aus.
+1. Starten Sie DaVinci und führen Sie den Menüpunkt `Hilfe > Lizenzierung` aus.
 2. Betätigen Sie im erscheinenden Dialogfenster „Lizenz" die Schaltfläche `Neue Lizenz`.
 3. Tragen Sie im erscheinenden Dialogfenster „Lizenz ändern“ Ihre Lizenzdaten ein. Diese umfassen den Namen, den Standort und den Schlüssel des Lizenznehmers.
 4. Bestätigen Sie Ihre Eingaben abschließend mit `OK`.
@@ -53,15 +53,15 @@ Um Ihre Lizenzdaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor:
 
 ### Lizenzdaten importieren
 
-Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von DAVINCI automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen `DAVINCI.lic` standardmäßig in folgenden Windows-Verzeichnissen abgelegt:
+Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von DaVinci automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen `DaVinci.lic` standardmäßig in folgenden Windows-Verzeichnissen abgelegt:
 
 | Betriebssystem | Pfad                                                                                |
 | -------------- | ----------------------------------------------------------------------------------- |
-| Windows Vista  | C:\ProgramData\Stueber Software\DAVINCI 6                                           |
-| Windows XP     | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\DAVINCI 6 |
-| Windows 2000   | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\DAVINCI 6 |
+| Windows Vista  | C:\ProgramData\Stueber Software\DaVinci 6                                           |
+| Windows XP     | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\DaVinci 6 |
+| Windows 2000   | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\DaVinci 6 |
 
-Um eine `DAVINCI.lic`-Datei zu importieren, führen Sie bitte folgende Schritte aus:
+Um eine `DaVinci.lic`-Datei zu importieren, führen Sie bitte folgende Schritte aus:
 
 1. Öffnen Sie das Basismodul und führen Sie den Menüpunkt ``Hilfe > Lizenzierung` aus.
 2. Betätigen Sie im erscheinenden Dialogfenster „Lizenz“ die Schaltfläche `Lizenzdatei importieren`.

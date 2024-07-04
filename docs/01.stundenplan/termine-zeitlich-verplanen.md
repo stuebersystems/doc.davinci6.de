@@ -1,9 +1,9 @@
 # Termine zeitlich verplanen
 
-In DAVINCI können Sie Termine zeitlich verplanen, indem Sie manuell z.B. per ``Drag & Drop`` jeden einzelnen Termin im Bildschirmplan in der Ansicht „Stundenplan“ auf die gewünschte Zeitposition schieben oder indem Sie die Automatik starten, welche alle (ausgewählten) Termine selbständig
+In DaVinci können Sie Termine zeitlich verplanen, indem Sie manuell z.B. per ``Drag & Drop`` jeden einzelnen Termin im Bildschirmplan in der Ansicht „Stundenplan“ auf die gewünschte Zeitposition schieben oder indem Sie die Automatik starten, welche alle (ausgewählten) Termine selbständig
 verplant.
 
-Für das manuelle Setzen steht Ihnen im Programmbereich „Stundenplan“ der DAVINCI Planeditor zur Verfügung, mit dem Sie per ``Drag & Drop`` die erstellten Unterrichtstermine in das Planungsfenster
+Für das manuelle Setzen steht Ihnen im Programmbereich „Stundenplan“ der DaVinci Planeditor zur Verfügung, mit dem Sie per ``Drag & Drop`` die erstellten Unterrichtstermine in das Planungsfenster
  Stundenplanpositionen aktivieren. Mit dieser Funktion können Sie in Echtzeit prüfen und anzeigen lassen, welche Planpositionen für einen ausgewählten Unterrichtstermin zur Verfügung stehen und welche Unterrichtstermine für eine ausgewählte Planposition in Frage kommen. Klicken Sie in der Ansicht „Stundenplan“ auf `Ansicht > Plan und Liste` insofern Sie sich noch nicht dort befinden sollten.
 
 ![Planeditor](/assets/images/planeditor.png)

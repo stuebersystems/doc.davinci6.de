@@ -1,6 +1,6 @@
 # Landestatistik Nordrhein-Westfalen
 
-DAVINCI exportiert die Daten für die Nordrhein-Westfälische Landesstatistik.
+DaVinci exportiert die Daten für die Nordrhein-Westfälische Landesstatistik.
 
 **So gehen Sie vor:**
 
@@ -14,12 +14,12 @@ Exportiert werden CSV-Dateien mit folgenden Feldern:
 
 ## Notwendige Angaben für die ABS-Statistik
 
-Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DaVinci bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
-Angabe gemäß Statistik | Angabe in DAVINCI
+Angabe gemäß Statistik | Angabe in DaVinci
 ------------|-------------------
 Klassenkürzel|Klassenkürzel im Stammdatenfenster auf Registerkarte „Klassen“, maximal 4stellig
-Gruppe | wird in DAVINCI nicht erfasst
+Gruppe | wird in DaVinci nicht erfasst
 Fachkürzel|Spalte "Kürzel" im Stammdatenfenster auf Registerkarte „Fächer“, maximal 4stellig
 Wochenstunden|Spalte „Dauer/W“ in der Unterrichtsliste des Planungsfenster
 Lehrerkürzel|Lehrerkürzel im Stammdatenfenster auf Registerkarte „Lehrer“
@@ -27,7 +27,7 @@ Schülerzahl insgesamt|Spalte „Schüler“ in der Unterrichtsliste des Planung
 Schülerzahl weiblich|wird derzeit nicht unterstützt
 Schülerzahl Fremde|wird derzeit nicht unterstützt
 
-Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DaVinci bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Feld        | Stellen | Positionen | Beschreibung
 ------------|-------------------|---|-----
@@ -41,19 +41,19 @@ darunter weiblich|2-stellig |Pos. 19-20 |Schülerinnen im Unterricht
 Fremde|        1-stellig |Pos. 21 | Merkmal für Schüler anderer Schulen
 Bildungsgang |       3-stellig | Pos. 22-24 |
 Produktname |    20-stellig | Pos. 25-44  | Produktname
-Produktversion |   20-stellig | Pos. 45-64  | DAVINCI Produktversion
+Produktversion |   20-stellig | Pos. 45-64  | DaVinci Produktversion
 
 ### Exportformat für die Statistik NRW BBS EXTERN.DAT
 
 ## Notwendige Angaben für die BBS-Statistik
 
-Die folgenden Angaben müssen in DAVINCI bei Berufskollegs gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DaVinci bei Berufskollegs gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
-Angabe gemäß Statistik|Angabe in DAVINCI
+Angabe gemäß Statistik|Angabe in DaVinci
 ------------|-------------------
 Klassenkürzel|Klassenkürzel im Stammdatenfenster auf Registerkarte „Klassen“, maximal 6stellig
-Teilklassenmerkmal|wird in DAVINCI nicht erfasst
-Gruppe|wird in DAVINCI nicht erfasst
+Teilklassenmerkmal|wird in DaVinci nicht erfasst
+Gruppe|wird in DaVinci nicht erfasst
 Fachkürzel|Spalte „Kürzel“ im Stammdatenfenster auf Registerkarte „Fächer“, maximal 4stellig
 Wochenstunden|Spalte „Dauer/W“ in der Unterrichtsliste des Planungsfenster
 Lehrerkürzel|Lehrerkürzel im Stammdatenfenster auf Registerkarte „Lehrer“
@@ -69,8 +69,8 @@ Fach    | 4-stellig |Pos. 12-15 |  Fach
 Lehrer      | 4-stellig |Pos. 16-19 |  Lehrerkürzel
 Schueler    |  2-stellig |Pos. 20-21 |  Schüler insgesamt
 Dummy     | 6-stellig |Pos. 22-27 |  z.Z. leer
-Produktname   |  20-stellig |  Pos. 28-47  |      DAVINCI 
-Produktversion | 20-stellig |  Pos. 48-67  |     DAVINCI Produktversion
+Produktname   |  20-stellig |  Pos. 28-47  |      DaVinci 
+Produktversion | 20-stellig |  Pos. 48-67  |     DaVinci Produktversion
 
 ### Exportformate für die Statistik NRW GPC (Gesundheitsstatistik per PC)
 

@@ -1,6 +1,6 @@
-# DAVINCI-Optionen
+# DaVinci-Optionen
 
-Über `Extras > Optionen` können Sie Ihre DAVINCI Optionen öffnen. Es handelt sich hier um individuelle Einstellungen pro Rechner.
+Über `Extras > Optionen` können Sie Ihre DaVinci Optionen öffnen. Es handelt sich hier um individuelle Einstellungen pro Rechner.
 
 ## Meine Daten
 
@@ -25,7 +25,7 @@ Option| Abbildung
 Eingabe | Erläuterung
 -|-
 Start|Einstellungen einer Startdatei 
-Kennung und Kennwort zum Anmelden am ENTERPRISE Server|Kennung und Kennwort zum Anmelden am ENTERPRISE Server
+Kennung und Kennwort zum Anmelden am Enterprise Server|Kennung und Kennwort zum Anmelden am Enterprise Server
 Backup|Einstellungen zum Anlegen einer Backup Datei 
 Einstellungen|max. Anzahl zuletzt geöffneter Dateien
 
@@ -43,7 +43,7 @@ Serverbetrieb|optische Bestätigung beim Trennen des Serverbetriebs
 Teamfilter|Teamfilter für die Veranstaltungsliste
 Ressourcen|Vorgabewerte beim Erzeugen des Barcodes für Ressourcen
 Prüfungen|aktuell nicht relevant
-Importieren|Vorgabe für den Import aus MAGELLAN oder einer Schuldatentransferdatei
+Importieren|Vorgabe für den Import aus Magellan oder einer Schuldatentransferdatei
 
 ## Ansicht
 
@@ -57,7 +57,7 @@ Ansichten|Ein- und Ausblenden der Ansichten
 Stammdatenregister|Ein- und Ausblenden der Stammdatenregister
 Menü `Plan`im Menüband oben|zuletzt verwendete Dateien löschen
 Lehrer-Ist-Werte in Zeitkonten|Einstellung ob geplant oder Verplanwerte für die Summierung genutzt werden
-DAVINCI Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
+DaVinci Ansichten auf Schulkategorie |Standardvorgaben zurückstellen|
 
 ## Plananzeige
 

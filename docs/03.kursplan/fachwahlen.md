@@ -19,7 +19,7 @@ Die Fachwahlen der Schüler werden in der Ansicht `Kursplan > Fachwahlen` erfass
 
 ### Stammdaten Klassen
 
-In DAVINCI definieren Sie in den DAVINCI-Stammdaten die Klassen. Sie können eine Jahrgangsstufe in Klassen aufteilen (11a, 11b usw.) oder pro Klassenstufe nur eine Klasse eingeben - wichtig ist, dass über das Feld Stufe der Jahrgang zugeordnet wird. Damit sind klassenübergreifende Kurse innerhalb eines Jahrgangs und auch jahgangsüerbgreifende Kurse abbildbar. Des Weiteren geben Sie das Fachwahlskript an, nach dem die Fachwahl überprüft werden soll.
+In DaVinci definieren Sie in den DaVinci-Stammdaten die Klassen. Sie können eine Jahrgangsstufe in Klassen aufteilen (11a, 11b usw.) oder pro Klassenstufe nur eine Klasse eingeben - wichtig ist, dass über das Feld Stufe der Jahrgang zugeordnet wird. Damit sind klassenübergreifende Kurse innerhalb eines Jahrgangs und auch jahgangsüerbgreifende Kurse abbildbar. Des Weiteren geben Sie das Fachwahlskript an, nach dem die Fachwahl überprüft werden soll.
 
 Bitte beachten Sie dazu folgende notwendige Eingaben:
 
@@ -43,9 +43,9 @@ Halbjahre überprüfen, wie es aktuell in Berlin der Fall ist:
 
 !!! warning "Wichtig"
 
-    In den KURSPLAN-Ansichten wird immer mit der Jahrgangsstufe (Spalte „Stufe“) gearbeitet. Wenn Sie z.b den Jahrgang 12 als eine Klasse „12" eingegeben haben, sind Jahrgangstufe und Klasse gleichbedeutend. Wenn Sie den Jahrgang 12 in Klassen 12A, 12B, 12C aufteilen, werden alle Schüler dieser Klassen angezeigt.
+    In den Kursplan-Ansichten wird immer mit der Jahrgangsstufe (Spalte „Stufe“) gearbeitet. Wenn Sie z.b den Jahrgang 12 als eine Klasse „12" eingegeben haben, sind Jahrgangstufe und Klasse gleichbedeutend. Wenn Sie den Jahrgang 12 in Klassen 12A, 12B, 12C aufteilen, werden alle Schüler dieser Klassen angezeigt.
 
-DAVINCI wird mit Fachwahlskripten für verschiedene Bundesländer und Schularten ausgeliefert. Ein Fachwahlskript hat die Dateiendung „.js“. Technisch gesehen ist ein Fachwahlskript eine JavaScript-Datei. Die ersten drei Buchstaben kennzeichnen das Bundesland, die Jahreszahl informiert über die Ausgabe des Skripts bzw. die zugrundeliegende Verordnung.
+DaVinci wird mit Fachwahlskripten für verschiedene Bundesländer und Schularten ausgeliefert. Ein Fachwahlskript hat die Dateiendung „.js“. Technisch gesehen ist ein Fachwahlskript eine JavaScript-Datei. Die ersten drei Buchstaben kennzeichnen das Bundesland, die Jahreszahl informiert über die Ausgabe des Skripts bzw. die zugrundeliegende Verordnung.
 
 Namensanfang der Fachwahlskripte:
 
@@ -92,24 +92,24 @@ Alternativ dazu können Sie die Schüler auch in der Ansicht `Stammdaten > Schü
 
 [![Ansicht `Stammdaten > Schüler`][4]][4]
 
-Wenn Sie in der Schulverwaltung MAGELLAN einsetzen, können Sie u.a. auch Schülerdaten nach DAVINCI übergeben. Weitere Informationen finden Sie dazu im Abschnitt [Fachwahl aus MAGELLAN importieren](https://doc.davinci6.stueber.de/03.kursplan/fachwahlen/#fachwahl-aus-magellan-importieren).
+Wenn Sie in der Schulverwaltung Magellan einsetzen, können Sie u.a. auch Schülerdaten nach DaVinci übergeben. Weitere Informationen finden Sie dazu im Abschnitt [Fachwahl aus Magellan importieren](https://doc.davinci6.stueber.de/03.kursplan/fachwahlen/#fachwahl-aus-magellan-importieren).
 
 !!! info "Hinweis"
 
-    In der Ansicht `Stammdaten > Schüler` können Sie die Schülerdaten mit Cut & Paste aus der Windows Zwischenablage übernehmen. Damit können Sie sehr schnell Ihre Schülerdaten aus Excel oder Word nach DAVINCI importieren.
+    In der Ansicht `Stammdaten > Schüler` können Sie die Schülerdaten mit Cut & Paste aus der Windows Zwischenablage übernehmen. Damit können Sie sehr schnell Ihre Schülerdaten aus Excel oder Word nach DaVinci importieren.
 
-## Fachwahl aus MAGELLAN importieren
+## Fachwahl aus Magellan importieren
 
-Falls Sie MAGELLAN einsetzen, können Sie über den Befehl `Plan > Importieren und Exportieren` die
-Schüler aus MAGELLAN übernehmen. Sie können die Schüler von MAGELLAN importieren, die Fachwahlen eingeben und die Fachwahlen der Schüler dann wieder nach MAGELLAN exportieren.
+Falls Sie Magellan einsetzen, können Sie über den Befehl `Plan > Importieren und Exportieren` die
+Schüler aus Magellan übernehmen. Sie können die Schüler von Magellan importieren, die Fachwahlen eingeben und die Fachwahlen der Schüler dann wieder nach Magellan exportieren.
 
-[![Datenimport von MAGELLAN starten][5]][5]
+[![Datenimport von Magellan starten][5]][5]
 
 !!! info "Hinweis"
 
-    Die Fachwahleingabe ist auch in MAGELLAN möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus MAGELLAN können per Import nach DAVINCI übernommen werden. MAGELLAN verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DAVINCI. DAVINCI bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DAVINCI erfassen sollten.
+    Die Fachwahleingabe ist auch in Magellan möglich, allerdings ohne Stundenzahlen. Die Fachwahlen aus Magellan können per Import nach DaVinci übernommen werden. Magellan verwendet zur Fachwahlüberprüfung das gleiche Fachwahlskript wie DaVinci. DaVinci bietet mehr Funktionen zur Fachwahleingabe. So dass Sie im Zweifelsfall die Fachwahl in DaVinci erfassen sollten.
 
-## Fachwahlen in DAVINCI KURSPLAN eingeben
+## Fachwahlen in DaVinci Kursplan eingeben
 
 ### Fachwahl direkt eintippen in der Ansicht `Kursplan > Fachwahlen`
 
@@ -144,7 +144,7 @@ Sie können Sie die Fachwahlen auch direkt in der Ansicht `Kursplan > Schüler` 
 
 !!! info "Hinweis"
 
-    Damit DAVINCI erkennen kann, welche Kurse welche Unterrichtsart erhalten sollen, also z.B. die Kurse der ersten beiden Spalten sollen die Leistungskurse, die anderen die Grundkurse sein, richtet sich DAVINCI nach den Angaben des ersten Schülers in der Liste. Sie sollten daher den ersten Schüler in der Ansicht `Kursplan > Fachwahl` eingeben. Die weiteren Fachwahlen der Schüler können Sie dann in der Ansicht `Kursplan > Schüler` eintippen.
+    Damit DaVinci erkennen kann, welche Kurse welche Unterrichtsart erhalten sollen, also z.B. die Kurse der ersten beiden Spalten sollen die Leistungskurse, die anderen die Grundkurse sein, richtet sich DaVinci nach den Angaben des ersten Schülers in der Liste. Sie sollten daher den ersten Schüler in der Ansicht `Kursplan > Fachwahl` eingeben. Die weiteren Fachwahlen der Schüler können Sie dann in der Ansicht `Kursplan > Schüler` eintippen.
 
 Die Zellen-Hintergrundfarben ändern sich in der Ansicht `Kursplan > Schüler` sobald weitere Vorgaben in der Planung vorgenommen wurden.
 
@@ -158,15 +158,15 @@ Hier finden Sie eine kurze Erklärung.
 | Grau             | Kurs mit zu geringer Teilnehmerzahl, siehe Spalte „Min. Schüler“ in der Ansicht `Kursplan > Kurse`.  |
 | Gelb             | Kurs mit zu hoher Teilnehmerzahl, siehe Spalte „Min. Schüler“ in der Ansicht `Kursplan > Kurse`. |
 
-Eine Erklärung der Farben können Sie jederzeit über die DAVINCI-Optionen nachlesen. Öffnen Sie diese über `Extras > Optionen`, wechseln Sie in der Navigation auf "Farben" und dann in die Registerkarte "Kursplan". Sie können diese Farben nach Belieben verändern und jederzeit über die Schaltfläche `Standardangabe wiederherstellen` auf den Standard zurücksetzen.
+Eine Erklärung der Farben können Sie jederzeit über die DaVinci-Optionen nachlesen. Öffnen Sie diese über `Extras > Optionen`, wechseln Sie in der Navigation auf "Farben" und dann in die Registerkarte "Kursplan". Sie können diese Farben nach Belieben verändern und jederzeit über die Schaltfläche `Standardangabe wiederherstellen` auf den Standard zurücksetzen.
 
-[![DAVINCI-Optionen, Farben im Bereich Kursplan][11]][11]
+[![DaVinci-Optionen, Farben im Bereich Kursplan][11]][11]
 
 ### Fachwahl durch Anlegen einer Stundentafel in der Ansicht `Kursplan > Schüler` zuweisen
 
 Eine Alternative für das manuelle Erfassen der Fachwahl pro Schüler bieten Ihnen Stundentafeln, die Sie als Vorlagen verwenden können. Mit einer Stundentafel legen Sie klassen- bzw. jahrgangsbezogene Fächerlisten an, welche die offizielle Unterrichtsverpflichtung der zugehörigen Klassen- bzw. Jahrgangsstufen wiederspiegeln.
 
-Stundentafeln geben Sie in der Ansicht `Stammdaten > Stundentafeln` ein. Klicken Sie auf die Schaltfläche in der Spalte „Fächer“, um die Fächer der Stundentafel einzugeben. Genauere Informationen dazu finden Sie im [Abschnitt STUNDENPLAN > Stammdaten > Stundentafeln](https://doc.davinci6.stueber.de/01.stundenplan/stammdaten/#stundentafeln).
+Stundentafeln geben Sie in der Ansicht `Stammdaten > Stundentafeln` ein. Klicken Sie auf die Schaltfläche in der Spalte „Fächer“, um die Fächer der Stundentafel einzugeben. Genauere Informationen dazu finden Sie im [Abschnitt Stundenplan > Stammdaten > Stundentafeln](https://doc.davinci6.stueber.de/01.stundenplan/stammdaten/#stundentafeln).
 
 Mit der Schaltfläche `Start > Fachwahl erzeugen` können Sie für den aktuell markierten Schüler bzw. mehrere markierte Schüler oder alle Schüler des Jahrgangs die Fachwahl aufgrund dieser Stundentafel erzeugen.
 

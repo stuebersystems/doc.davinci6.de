@@ -1,6 +1,6 @@
 # Stundenpläne drucken
 
-Mit DAVINCI können Sie Ihre Pläne in Papierform ausdrucken oder in ein PDF-Dokument übergeben. Das Dialogfenster zum Drucken von Plänen öffnen Sie über das Menüband `Publizieren > Pläne drucken` oder über das Druckersymbol links oben im Anwendungsfenster.
+Mit DaVinci können Sie Ihre Pläne in Papierform ausdrucken oder in ein PDF-Dokument übergeben. Das Dialogfenster zum Drucken von Plänen öffnen Sie über das Menüband `Publizieren > Pläne drucken` oder über das Druckersymbol links oben im Anwendungsfenster.
 
 ![Menüfenster Drucken](/assets/images/stundenplan/drucken1.png)
 
@@ -290,7 +290,7 @@ Um Druckformate, die Sie nicht (mehr) benötigen zu löschen, gehen Sie klicken 
 
 ### Druckformate aktualisieren
 
-Die Druckformate werden in der Datei **daVinci.pfm** (siehe „daVinciPrintFormatFile“ im Dialogfenster ``Hilfe > Systeminformationen``) benutzerspezifisch gespeichert. Der Datei daVinciPrintFormatTemplate (siehe Dialogfenster ``Hilfe > Systeminformationen``) enthält die mit der Installation bzw. mit dem DAVINCI-Update mitgelieferten Druckformate. Wenn Sie Ihre Druckformate mit den DAVINCI-Druckformaten aktualisieren möchten, klicken Sie auf Aktualisieren. Damit werden Ihre Druckformate entsprechend angepasst, wobei nur die Formate gleichen Namens verändert werden, neue anders benannte Druckformate, werden nicht verändert.
+Die Druckformate werden in der Datei **daVinci.pfm** (siehe „daVinciPrintFormatFile“ im Dialogfenster ``Hilfe > Systeminformationen``) benutzerspezifisch gespeichert. Der Datei daVinciPrintFormatTemplate (siehe Dialogfenster ``Hilfe > Systeminformationen``) enthält die mit der Installation bzw. mit dem DaVinci-Update mitgelieferten Druckformate. Wenn Sie Ihre Druckformate mit den DaVinci-Druckformaten aktualisieren möchten, klicken Sie auf Aktualisieren. Damit werden Ihre Druckformate entsprechend angepasst, wobei nur die Formate gleichen Namens verändert werden, neue anders benannte Druckformate, werden nicht verändert.
 
 ## Sammeldruckformate
 

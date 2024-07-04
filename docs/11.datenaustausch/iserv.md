@@ -1,22 +1,22 @@
 # Datenaustausch mit IServ
 
-IServ ist eine Schulplattform für die Digitalisierung von Prozessen in der Schule. DAVINCI kann Stundenplandaten mit IServ abgleichen. Diese werden dann in IServ angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
+IServ ist eine Schulplattform für die Digitalisierung von Prozessen in der Schule. DaVinci kann Stundenplandaten mit IServ abgleichen. Diese werden dann in IServ angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
 
 ## Manueller Datenaustausch mit IServ
 
-### Workflow in DAVINCI
+### Workflow in DaVinci
 
 Die Daten aus DaVinci werden üblicherweise in einer einzelnene JSON-Datei exportiert.
 
-Wählen Sie in DAVINCI über `Plan > Importieren und Exportieren` im Import/Export-Assistent unter Exportieren `DAVINCI JSON-Daten exportieren` aus.
+Wählen Sie in DaVinci über `Plan > Importieren und Exportieren` im Import/Export-Assistent unter Exportieren `DaVinci JSON-Daten exportieren` aus.
 
 Folgendes Fenster öffnet sich:
 
-![DAVINCI JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
+![DaVinci JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
 
 * Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .json
 
-* Zieladresse: in den DAVINCI Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
+* Zieladresse: in den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
 
 ![Upload](/assets/images/Datenaustausch/export2.png)
 
@@ -30,9 +30,9 @@ Folgendes Fenster öffnet sich:
 
 ### Was ist in IServ zu tun?
 
-Klicken Sie auf `Hochladen`, navigieren zur entsprechenden Exportdatei aus DAVINCI und klicken dann auf `OK`.
+Klicken Sie auf `Hochladen`, navigieren zur entsprechenden Exportdatei aus DaVinci und klicken dann auf `OK`.
 
-Wählen Sie anschließend unter Format den Wert `DAVINCI` aus und bestätigen mit `Hochladen`.
+Wählen Sie anschließend unter Format den Wert `DaVinci` aus und bestätigen mit `Hochladen`.
 
 Informationen dazu finden Sie [hier.](https://iserv.eu/doc/modules/timetable/#davinci)
 
@@ -44,13 +44,13 @@ Informationen dazu finden Sie [hier.](https://iserv.eu/doc/modules/timetable/#da
 
 Der Workflow sieht grob wie folgt aus:
 
-+ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Ihre IServ-Instanz
++ Die **DaVinci Console** liest Daten direkt aus einer DaVinci-Datei oder von einem DaVinci-Server und überträgt diese in Ihre IServ-Instanz
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
 ### Voraussetzungen
 
-Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DAVINCI benötigt.
+Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DaVinci benötigt.
 
 #### PowerShell 7
 
@@ -142,29 +142,29 @@ Eigenschaft                          | Bedeutung
 
 Den API-Token für IServ finden Sie in IServ unter `Verwaltung > Module > Stundenplan`.
 
-#### Lokale DAVINCI-Datei
+#### Lokale DaVinci-Datei
 
-Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
+Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DaVinci-Datei** überschrieben werden:
 
 Eigenschaft                          | Bedeutung
 ------------------------------------ | ---------
 `daVinci.IServExport.SourceProvider` | Wert = `File`
-`daVinci.IServExport.SourceFileName` | Vollständiger Dateiname der DAVINCI-Datei
+`daVinci.IServExport.SourceFileName` | Vollständiger Dateiname der DaVinci-Datei
 
-#### DAVINCI-Datei auf einem DAVINCI-Server
+#### DaVinci-Datei auf einem DaVinci-Server
 
-Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird** auf alle Fälle überschrieben werden:
+Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DaVinci-Datei, die auf einem DaVinci-Server gehostet wird** auf alle Fälle überschrieben werden:
 
 Eigenschaft                          | Bedeutung
 ------------------------------------ | ---------
 `daVinci.IServExport.SourceProvider` | Wert = `Server`
-`daVinci.IServExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk.
-`daVinci.IServExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)
-`daVinci.IServExport.ServerUserName` | Ein DAVINCI-Benutzername.
-`daVinci.IServExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.
-`daVinci.IServExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.
+`daVinci.IServExport.ServerName`     | Servername des DaVinci-Servers im lokalen Netzwerk.
+`daVinci.IServExport.ServerPort`     | Portnummer des DaVinci-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)
+`daVinci.IServExport.ServerUserName` | Ein DaVinci-Benutzername.
+`daVinci.IServExport.ServerPassword` | Ein DaVinci-Benutzerkennwort.
+`daVinci.IServExport.ServerFileID`   | Die GUID der DaVinci-Datei auf dem DaVinci-Server.
 
-Es empfiehlt sich einen seperaten DAVINCI-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DAVINCI anmelden zu können.
+Es empfiehlt sich einen seperaten DaVinci-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DaVinci anmelden zu können.
 
 ![Benutzer](/assets/images/datenaustausch/iserv/iserv01.png)
 
@@ -174,11 +174,11 @@ Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich j
 
 	* Der Backslash (= umgedrehter Schrägstrich) in Dateipfaden muss in einer JSON-Datei stets gedoppelt werden, also **\\\\** statt **\\**. 
 	
-	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DAVINCI Datei oder mit einer Datei auf dem DAVINCI Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
+	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DaVinci Datei oder mit einer Datei auf dem DaVinci Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
 
-#### Beispiel für eine lokale DAVINCI-Datei
+#### Beispiel für eine lokale DaVinci-Datei
 
-Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie folgt aussehen:
+Das Ergebnis für den Abgleich mit einer **lokalen DaVinci-Datei** könnte wie folgt aussehen:
 
 ```json
 {
@@ -193,9 +193,9 @@ Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie f
 }
 ```
 
-#### Beispiel für eine DAVINCI-Serverdatei
+#### Beispiel für eine DaVinci-Serverdatei
 
-Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird**, könnte wie folgt aussehen:
+Das Ergebnis für den Abgleich mit **einer DaVinci-Datei, die auf einem DaVinci-Server gehostet wird**, könnte wie folgt aussehen:
 
 ```json
 {
@@ -218,7 +218,7 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 
 1. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
 
-2. Wechseln Sie mit folgendem Befehl in unser DAVINCI-Verzeichnis:
+2. Wechseln Sie mit folgendem Befehl in unser DaVinci-Verzeichnis:
 
     ```
     cd c:\davinci
@@ -230,15 +230,15 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 	Start-DaVinciExport iserv davinci.json
 	```
 
-Die Daten aus DAVINCI werden direkt nach IServ übertragen.	
+Die Daten aus DaVinci werden direkt nach IServ übertragen.	
 
 ### Automation
 
-Die Synchronisation zwischen DAVINCI und IServ kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
+Die Synchronisation zwischen DaVinci und IServ kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
 
 #### Ein Beispiel
 
-Wir wollen, dass der Abgleich zwischen DAVINCI und IServ alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
+Wir wollen, dass der Abgleich zwischen DaVinci und IServ alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DaVinci seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfirgurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
 
 Los geht's:
 
@@ -289,7 +289,7 @@ Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausg
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach IServ alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DaVinci nach IServ alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DaVinci seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/iserv/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/iserv/automation-02.png "Name und Beschreibung"

@@ -1,4 +1,4 @@
-# DAVINCI installieren
+# DaVinci installieren
 
 Gehen Sie wie folgt vor:
 
@@ -46,32 +46,32 @@ Windows  7 / 8 / 10 | C:\Users\[Benutzer]\AppData\Roaming\Stueber Systems\daVinc
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren.
 
-## So starten Sie DAVINCI
+## So starten Sie DaVinci
 
 Unter Windows 7:
 
-* Klicken Sie auf das Windows-Startmenü und dann auf `Programme > STÜBER SYSTEMS > daVinci 6`, um DAVINCI zu starten.
+* Klicken Sie auf das Windows-Startmenü und dann auf `Programme > STÜBER SYSTEMS > daVinci 6`, um DaVinci zu starten.
 
 Unter Windows 8:
 
-* Öffnen Sie die Windows-App-Ansicht und klicken Sie dann auf `STÜBER SYSTEMS > DAVINCI 6`, um DAVINCI zu starten.
+* Öffnen Sie die Windows-App-Ansicht und klicken Sie dann auf `STÜBER SYSTEMS > DaVinci 6`, um DaVinci zu starten.
 
 Unter Windows 10:
 
-* Klicken Sie auf das Windows-Startmenü und dann auf `Alle Apps > STÜBER SYSTEMS > daVinci 6`, um DAVINCI zu starten.
+* Klicken Sie auf das Windows-Startmenü und dann auf `Alle Apps > STÜBER SYSTEMS > daVinci 6`, um DaVinci zu starten.
 
 !!! warning "Wichtig"
 
-    Beim ersten Aufruf von DAVINCI werden Sie gefragt, ob Sie mit der Testversion arbeiten wollen oder ob Sie die Lizenzierungsdaten Ihrer Vollversion eingeben möchten.
+    Beim ersten Aufruf von DaVinci werden Sie gefragt, ob Sie mit der Testversion arbeiten wollen oder ob Sie die Lizenzierungsdaten Ihrer Vollversion eingeben möchten.
 
-## DAVINCI-LOOK installieren
+## DaVinci-Look installieren
 
-Ein ausführliche Beschreibung der Installation von DAVINCI-LOOK finden Sie im Kapitel [DAVINCI-LOOK installieren](https://doc.davinci6.stueber.de/05.look/01.installation/#update)
+Ein ausführliche Beschreibung der Installation von DaVinci-Look finden Sie im Kapitel [DaVinci-Look installieren](https://doc.davinci6.stueber.de/05.look/01.installation/#update)
 
-## DAVINCI-SERVER installieren
+## DaVinci-Server installieren
 
-Ein ausführliche Beschreibung der Installation von DAVINCI-SERVERS finden Sie im Kapitel [DAVINCI-SERVER installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
+Ein ausführliche Beschreibung der Installation von DaVinci-SERVERS finden Sie im Kapitel [DaVinci-Server installieren](https://doc.davinci6.stueber.de/06.enterprise/01.installation/#update)
 
-## DAVINCI-INFOSERVER installieren
+## DaVinci-InfoServer installieren
 
-Ein ausführliche Beschreibung der Installation des DAVINCI-INFOSERVERS finden Sie im Kapitel [DAVINCI-INFOSERVER installieren](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)
+Ein ausführliche Beschreibung der Installation des DaVinci-INFOSERVERS finden Sie im Kapitel [DaVinci-InfoServer installieren](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)

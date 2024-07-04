@@ -8,7 +8,7 @@
 [147]:/assets/images/vertretungsplan/sub-plan147.png
 
 
-Durch Fehlzeiten entstehen für betroffene Termine Änderungselemente, welche die Grundlage für Vertretungen sind. Zu diesen Änderungen zählen auch Zusatzunterricht, Fehlstellen und Raumbuchungen und weitere Änderungen am regulären Plan. Alle Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden in der Änderungsliste chronologisch aufgelistet. Gehen Sie dazu in die Ansicht `Vertretungsplan > Änderungen`. Sie können dort auch gelöscht bzw. teilweise geändert werden. Wenn Sie mit dem DAVINCI ENTERPRISE Server arbeiten, können Sie in den Spalten `Geändert Zeit` und `Geändert von` erkennen, wer wann die letzte Modifikation am jeweiligen Änderungselement durchgeführt hat.
+Durch Fehlzeiten entstehen für betroffene Termine Änderungselemente, welche die Grundlage für Vertretungen sind. Zu diesen Änderungen zählen auch Zusatzunterricht, Fehlstellen und Raumbuchungen und weitere Änderungen am regulären Plan. Alle Änderungen, die Sie in den verschiedenen Ansichten eingeben, werden in der Änderungsliste chronologisch aufgelistet. Gehen Sie dazu in die Ansicht `Vertretungsplan > Änderungen`. Sie können dort auch gelöscht bzw. teilweise geändert werden. Wenn Sie mit dem DaVinci Enterprise Server arbeiten, können Sie in den Spalten `Geändert Zeit` und `Geändert von` erkennen, wer wann die letzte Modifikation am jeweiligen Änderungselement durchgeführt hat.
 
 [![Dies ist die Ansicht „Änderungen“][88]][88]
 
@@ -127,7 +127,7 @@ Die eingetragene Mitteilung wird nun in der Änderungsliste hinterlegt. Sie wird
 
 !!! info "Hinweis"
 
-    Diese Funktion steht Ihnen nur mit dem Modul DAVINCI ENTERPRISE zur Verfügung
+    Diese Funktion steht Ihnen nur mit dem Modul DaVinci Enterprise zur Verfügung
 
 Sie haben bereits die Möglichkeit kennengelernt, im Bereich `Vertretungsplan > Stundenplan > Änderungen`Raumbuchungen vorzunehmen. Die gleiche Möglichkeit steht Ihnen auch in der Ansicht `Vertretungsplan > Änderungen` zur Verfügung. Um in der Ansicht Änderungen eine neue Mitteilung einzufügen gehen Sie bitte folgendermaßen vor:
 
@@ -150,7 +150,7 @@ Sie können mit `Löschen` auch Änderungselemente löschen, die aufgrund von Fe
 
 1. Gehen Sie in die Ansicht `Vertretungsplan > Stundenplan`und rufen Sie den entsprechenden Plan mit der betreffenden Fehlzeit auf.
 
-2. Klicken Sie im Plan auf die Fehlzeit und lassen Sie DAVINCI mit `Rechter Maus > Änderungen neu erstellen` die Änderungen neu erstellen. Unten in der Statuszeile wird wie gewohnt angezeigt, wie viele Änderungen neu erstellt wurden.
+2. Klicken Sie im Plan auf die Fehlzeit und lassen Sie DaVinci mit `Rechter Maus > Änderungen neu erstellen` die Änderungen neu erstellen. Unten in der Statuszeile wird wie gewohnt angezeigt, wie viele Änderungen neu erstellt wurden.
 
 ### Änderungen zurücksetzen
 

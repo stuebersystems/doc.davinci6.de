@@ -1,6 +1,6 @@
 # Das Planungsfenster
 
-Das Planungsfenster ist eines der zentralen Fenster in DAVINCI. Im Planungsfenster wird standardmäßig links das Zusatzfenster, in der Mitte der Plan und rechts die Unterrichtsverteilung bzw. die Veranstaltungsliste angezeigt. In diesem Fenster geben Sie die Unterrichtsverteilung und den Lehrereinsatz ein und können manuell Planänderungen direkt im Bildschirmplan durchführen.
+Das Planungsfenster ist eines der zentralen Fenster in DaVinci. Im Planungsfenster wird standardmäßig links das Zusatzfenster, in der Mitte der Plan und rechts die Unterrichtsverteilung bzw. die Veranstaltungsliste angezeigt. In diesem Fenster geben Sie die Unterrichtsverteilung und den Lehrereinsatz ein und können manuell Planänderungen direkt im Bildschirmplan durchführen.
 
 
 
@@ -253,7 +253,7 @@ Um einen Positionstausch zwischen einem ausgewählten Termin und einem potenziel
 
 !!! info "Hinweis"
 
-    Die Hintergrundfarbe der potenziellen Tauschpartner eines markierten Termins können Sie in den DAVINCI Optionen unter "Farbe" umstellen. 
+    Die Hintergrundfarbe der potenziellen Tauschpartner eines markierten Termins können Sie in den DaVinci Optionen unter "Farbe" umstellen. 
 ``Extras >  Optionen > Farben``
 
 ![Farben](/assets/images/Optionen.verschiebbar.png)

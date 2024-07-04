@@ -1,10 +1,10 @@
-# DAVINCI ANALYTICS
+# DaVinci Analytics
 
 ## Allgemein
 
-Über das Modul DAVINCI ANALYTICS können Sie Ihren Gesamtjahresplan,
+Über das Modul DaVinci Analytics können Sie Ihren Gesamtjahresplan,
 bestehend aus aufeinanderfolgenden Planversionen, statistisch auswerten. So können Sie mit diesem Modul z.B. die Summe der Unterrichtsstunden,den Unterrichtsausfall und die Lehrer-Fehlstunden dateiübergreifend aber für einen Planungszeitraum berechnen.
-Wenn Sie das Modul DAVINCI ANALYTICS lizenziert haben, finden Sie in DAVINCI im Bereich „Übersichten“ folgende Ansichten:
+Wenn Sie das Modul DaVinci Analytics lizenziert haben, finden Sie in DaVinci im Bereich „Übersichten“ folgende Ansichten:
 
 * Änderungen
 * Unterricht
@@ -19,7 +19,7 @@ Die Daten für die Analyse der Übersichten "Änderungen", "Unterricht" und "Unt
 
 ## Arbeit mit mehreren Plandateien
 
-Ergeben sich im Schuljahr weitreichende Änderungen im Stundenplanbereich erstellen Sie in der Regel eine neue DAVINCI Plandatei und pflegen hier Ihre neuen vertretungsregelungen ein. Um die Informationen aus beiden Dateien auszuwerten müssen Sie folgendes beachten:
+Ergeben sich im Schuljahr weitreichende Änderungen im Stundenplanbereich erstellen Sie in der Regel eine neue DaVinci Plandatei und pflegen hier Ihre neuen vertretungsregelungen ein. Um die Informationen aus beiden Dateien auszuwerten müssen Sie folgendes beachten:
 
 Bitte beachten Sie folgende Einstellungen in den Dateieigenschaften `Plan > Eigenschaften > Zeitraum`  
 

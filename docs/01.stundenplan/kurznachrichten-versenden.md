@@ -2,20 +2,20 @@
 
 !!! info "Hinweis"
 
-    Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI LIVEMESSAGE voraus. 
+    Die Nutzung der in diesem Kapitel beschriebenen Funktionalität setzt eine Lizenz des Moduls DaVinci LiveMessage voraus. 
     Für den SMS Versand wird zusätzlich ein SMS-Paket benötigt.
 
-Sie können in DAVINCI jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Vertretungsplanänderungen zu informieren.
+Sie können in DaVinci jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Vertretungsplanänderungen zu informieren.
 
 !!! info "Hinweis"
 
     Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Diese Angaben tragen Sie in der Ansicht ``Stammdaten > Lehrer`` bzw. ``Stammdaten > Schüler`` in den Spalten „E-Mail“ bzw. „Mobil“ ein.
 
-### Einstellung in DAVINCI Optionen Email
+### Einstellung in DaVinci Optionen Email
 
-Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
+Öffnen Sie über `Extras > Optionen` Ihre DaVinci Optionen.
 
-![Einstellung in DAVINCI Optionen Email](/assets/images/stundenplan/sp124.png)
+![Einstellung in DaVinci Optionen Email](/assets/images/stundenplan/sp124.png)
 
 Eingabefeld | Eingabe wie folgt:
 --|--
@@ -27,9 +27,9 @@ Passwort| Passwort des Mailkontos
 SSL-verschlüsselte Verbindung| wenn ja bitte anhaken
 SSL-Modus | geben Sie an ob der Modus Explizit oder Implizit ist
 
-### Einstellung in DAVINCI Optionen Mitteilungen
+### Einstellung in DaVinci Optionen Mitteilungen
 
-Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
+Öffnen Sie über `Extras > Optionen` Ihre DaVinci Optionen.
 
 ![Einstellungen für Änderungs- und Notfallmitteilungen](/assets/images/stundenplan/sp123.png)
 
@@ -47,9 +47,9 @@ Mitteilungstext | Geben Sie hier Mitteilungstext für Notfallmitteilungen ein.
 
 ![Notfallmitteilung senden](/assets/images/stundenplan/notfall.png)
 
-### Einstellung in DAVINCI Optionen SMS Nachrichten
+### Einstellung in DaVinci Optionen SMS Nachrichten
 
-Öffnen Sie über `Extras > Optionen` Ihre DAVINCI Optionen.
+Öffnen Sie über `Extras > Optionen` Ihre DaVinci Optionen.
 
 ![Einstellungen für die SMS Verbindungsdetails](/assets/images/stundenplan/sp122.png)
 
@@ -101,7 +101,7 @@ Zusätzlich zur Übersicht der versendeten SMS sehen Sie im Dialogfenster ``SMS 
 
 !!! info "Hinweis"
 
-    Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LIVEMESSAGE Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.
+    Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LiveMessage Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.
 
 !!! info "Hinweis"
 

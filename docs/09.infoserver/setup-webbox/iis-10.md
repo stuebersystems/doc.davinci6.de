@@ -1,13 +1,13 @@
-# DAVINCI WEBBOX und IIS 10
+# DaVinci WebBox und IIS 10
 
-Dieses Kapitel beschreibt die Installation und Konfiguration der DAVINCI WEBBOX auf Ihrem IIS-Web-Server.
+Dieses Kapitel beschreibt die Installation und Konfiguration der DaVinci WebBox auf Ihrem IIS-Web-Server.
 
-Die DAVINCI WEBBOX setzt folgende Installationen voraus:
+Die DaVinci WebBox setzt folgende Installationen voraus:
 
-* DAVINCI SERVER
-* DAVINCI INFOSERVER
+* DaVinci Server
+* DaVinci InfoServer
 
-## Installation der DAVINCI WEBBOX
+## Installation der DaVinci WebBox
 
 Gehen Sie wie folgt vor:
 
@@ -25,7 +25,7 @@ Gehen Sie wie folgt vor:
 
 1. Starten Sie den IIS-Manager durch Klicken auf `Start > Alle Apps > Windows-Verwaltungsprogramme > Internetinformationsdienste (IIS)-Manager`.
 
-2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DAVINCI WEBBOX installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
+2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DaVinci WebBox installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
 
 3. Auf der rechten Seite doppelklicken Sie auf das Symbol `HTTP-Antwortheader`. Die Ansicht "HTTP-Antwortheader" öffnet sich.
 
@@ -47,7 +47,7 @@ Name|Wert
 
 Überprüfen Sie jetzt bitte noch, ob die MIME-Typen für `json`, `woff` und `svg` registriert sind:
 
-1. Markieren Sie dafür wieder in der linken Navigation Ihre Webseite, in der Sie die DAVINCI WEBBOX installieren wollen.
+1. Markieren Sie dafür wieder in der linken Navigation Ihre Webseite, in der Sie die DaVinci WebBox installieren wollen.
 
 2. Auf der rechten Seite doppelklicken Sie auf das Symbol `MIME-Typ`. Die Ansicht "MIME-Typ" öffnet sich.
 
@@ -70,11 +70,11 @@ Sollten Sie nicht alle drei Einträge finden, müssen Sie die jeweils fehlenden 
 [![Beschriftung][4]][4] 
 
 
-## Die DAVINCI-WEBBOX testen
+## Die DaVinci-WebBox testen
 
-Um sicherzugehen, dass alles korrekt installiert und konfiguriert ist, empfiehlt sich ein kleiner Test mit der DAVINCI-WEBBOX:
+Um sicherzugehen, dass alles korrekt installiert und konfiguriert ist, empfiehlt sich ein kleiner Test mit der DaVinci-WebBox:
 
-Öffnen Sie Ihren Web-Browser auf demselben Computer, auf dem Sie gerade eben die DAVINCI-WEBBOX installiert haben und tippen Sie folgende URL ein:
+Öffnen Sie Ihren Web-Browser auf demselben Computer, auf dem Sie gerade eben die DaVinci-WebBox installiert haben und tippen Sie folgende URL ein:
 
 ```txt
 http://localhost/davinci-timetable.html
@@ -92,21 +92,21 @@ http://localhost/davinci-substitutions.html
 
 Diese URL sollte Ihnen im Idealfall eine Vertretungsplanansicht zurückliefern, die in etwa so aussieht:
 
-![ "Eine Vertretungsplanliste in der DAVINCI-WEBBOX"](/assets/images/webbox-substitutions.png)
+![ "Eine Vertretungsplanliste in der DaVinci-WebBox"](/assets/images/webbox-substitutions.png)
 
 !!! info "Hinweis"
 
-  Die DAVINCI-WEBBOX zeigt auch Inhalte aus erst in der Zukunft gültigen Plänen an. Zurückliegend werden die Daten der letzten beiden Wochen mit ausgegeben.
+  Die DaVinci-WebBox zeigt auch Inhalte aus erst in der Zukunft gültigen Plänen an. Zurückliegend werden die Daten der letzten beiden Wochen mit ausgegeben.
 
-## Die DAVINCI-WEBBOX nutzen
+## Die DaVinci-WebBox nutzen
 
-Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller Aufrufparameter sowie zahlreiche Beispiele für das Einbinden der DAVINCI-WEBBOX in Ihre Webseite.
+Auf der Webseite [davinci-webbox.stueber.de] finden Sie eine Dokumentation aller Aufrufparameter sowie zahlreiche Beispiele für das Einbinden der DaVinci-WebBox in Ihre Webseite.
 
 [davinci-webbox.stueber.de]: http://davinci-webbox.stueber.de
 
-## Die DAVINCI-WEBBOX aktualisieren
+## Die DaVinci-WebBox aktualisieren
 
-Die aktualisierten Dateien der DAVINCI WEBBOX stellen wir auf der Webseite [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/) zum Download zur Verfügung. Bitte laden Sie sich das hinterlegte Ziparchiv herunter und legen es auf dem Rechner ab, auf dem Ihr Webserver läuft. Entpacken Sie die Dateien und legen sie an der entsprechenden Stelle ab, standardmäßig wäre der Pfad `C:\inetpub\wwwroot`.
+Die aktualisierten Dateien der DaVinci WebBox stellen wir auf der Webseite [davinci-webbox.stueber.de](http://davinci-webbox.stueber.de/) zum Download zur Verfügung. Bitte laden Sie sich das hinterlegte Ziparchiv herunter und legen es auf dem Rechner ab, auf dem Ihr Webserver läuft. Entpacken Sie die Dateien und legen sie an der entsprechenden Stelle ab, standardmäßig wäre der Pfad `C:\inetpub\wwwroot`.
 
 [1]:/assets/images/is/webbox-http-header.png
 [2]:/assets/images/is/webbox-register-json.png

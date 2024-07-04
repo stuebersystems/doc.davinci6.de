@@ -1,8 +1,8 @@
-# Erste Schritte in DAVINCI
+# Erste Schritte in DaVinci
 
 ## Programm starten
 
-Durch die [Installation](https://doc.davinci6.stueber.de/00.allgemein/installation/) von DAVINCI wird nicht automatisch eine Verknüpfung auf den Desktop erstellt.  Öffnen Sie DAVINCI daher über `Start > Alle Programme > Stueber Systems`. Sie können mit einem Rechtsklick auf die Symbole im Startmenü selbstständig eine Desktopverknüpfung anlegen, wenn Sie dies wünschen.
+Durch die [Installation](https://doc.davinci6.stueber.de/00.allgemein/installation/) von DaVinci wird nicht automatisch eine Verknüpfung auf den Desktop erstellt.  Öffnen Sie DaVinci daher über `Start > Alle Programme > Stueber Systems`. Sie können mit einem Rechtsklick auf die Symbole im Startmenü selbstständig eine Desktopverknüpfung anlegen, wenn Sie dies wünschen.
 
 ## Plan-Eigenschaften
 
@@ -12,30 +12,30 @@ Das Dialogfenster  `Plan > Eigenschaften` gibt Ihnen Informationen zur aktuellen
 
 !!! info "Hinweis"
 
-    Die Einstellungen im Dialogfenster `Plan > Eigenschaften` werden in der DAVINCI Datei abgelegt.
+    Die Einstellungen im Dialogfenster `Plan > Eigenschaften` werden in der DaVinci Datei abgelegt.
 
 !!! info "Hinweis"
 
     Die Einstellungen im Dialogfenster `Extras > Optionen` werden benutzerspezifisch gespeichert.
 
-## DAVINCI Optionsdateien
+## DaVinci Optionsdateien
 
-DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien liegen, sind teilweise spezifisch für die Betriebssystemversion bzw. den Benutzer. Sie werden durch das DAVINCI Installationsprogramm automatisch entsprechend der Betriebssystemkonventionen festgelegt. Die genauen Namen und Pfadangaben dieser Dateien können Sie dem Fenster `Hilfe > System-Informationen` entnehmen.
+DaVinci  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien liegen, sind teilweise spezifisch für die Betriebssystemversion bzw. den Benutzer. Sie werden durch das DaVinci Installationsprogramm automatisch entsprechend der Betriebssystemkonventionen festgelegt. Die genauen Namen und Pfadangaben dieser Dateien können Sie dem Fenster `Hilfe > System-Informationen` entnehmen.
 
 | Optionsdatei | Beschreibung |
 | --- | --- |
-| daVinciLogo.png | Kundenlogo zum Einbinden in DAVINCI |
-| daVinci.cfg | Aktuelle Login-Daten für DAVINCI |
-| daVinci.opt | Optionsdatei für DAVINCI, Informationen zu den Einstellungsmöglichkeiten für die DAVINCI Optionen finden Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/optionen/)|
+| daVinciLogo.png | Kundenlogo zum Einbinden in DaVinci |
+| daVinci.cfg | Aktuelle Login-Daten für DaVinci |
+| daVinci.opt | Optionsdatei für DaVinci, Informationen zu den Einstellungsmöglichkeiten für die DaVinci Optionen finden Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/optionen/)|
 | daVinci.hfm | HTML Exportformate |
-| daVinci.lic | DAVINCI /DAVINCI Look Lizenzdaten |
-| daVinci.pfm | DAVINCI /DAVINCI Look Druckformate |
+| daVinci.lic | DaVinci /DaVinci Look Lizenzdaten |
+| daVinci.pfm | DaVinci /DaVinci Look Druckformate |
 | daVinci.site | Standortdaten (Schulname, Adresse, etc.) |
 | daVinci.sms | SMS-Logbuch |
 | daVinci.paths | Datei zum Ablegen zentraler Einstellungen, Informationen zu den Einstellungsmöglichkeiten finden Sie [hier](https://doc.davinci6.stueber.de/00.allgemein/pathdatei/) |
-| daVinciExplorer.opt | daVinci EXPLORER Optionsdatei |
-| daVinciLook.cfg | Aktuelle Login-Daten für DAVINCI LOOK |
-| daVinciLook.opt | Optionsdatei für DAVINCI LOOK |
+| daVinciExplorer.opt | daVinci Explorer Optionsdatei |
+| daVinciLook.cfg | Aktuelle Login-Daten für DaVinci Look |
+| daVinciLook.opt | Optionsdatei für DaVinci Look |
 | daVinciServer.opt | Optionsdatei |
 | daVinciServer.cfg | Server-Konfiguration (Eigene IP-Adresse, etc.) |
 | daVinci.servers | Server-Anmeldeinformationen und Serverstartdatei |
@@ -44,7 +44,7 @@ DAVINCI  verwendet diverse Optionsdateien. Die Ordner, in denen diese Dateien li
 
 [![Willkommensfenster][2]][2]
 
-Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird, vermittelt einen ersten Überblick über die Arbeitsumgebung. DAVINCI gliedert sich in sieben Programmbereiche, die für unterschiedliche Aufgaben zuständig sind. Jeder Programmbereich bietet eine speziell an die eigene Funktion angepasste Benutzeroberfläche.
+Die Willkommensansicht, mit der DaVinci beim ersten Programmstart geöffnet wird, vermittelt einen ersten Überblick über die Arbeitsumgebung. DaVinci gliedert sich in sieben Programmbereiche, die für unterschiedliche Aufgaben zuständig sind. Jeder Programmbereich bietet eine speziell an die eigene Funktion angepasste Benutzeroberfläche.
 
 | Bereich | Beschreibung |
 | --- | --- |
@@ -58,17 +58,17 @@ Die Willkommensansicht, mit der DAVINCI beim ersten Programmstart geöffnet wird
 
 ## Plandatei öffnen
 
-Um eine DAVINCI Datei zu öffnen gehen Sie auf Plan und wählen die Datei entweder aus der Liste der bisher geöffneten Dateien aus oder Sie gehen auf `Plan > Öffnen` und wählen die Datei von Ihrem Computer oder einem Netzwerkpfad aus.
+Um eine DaVinci Datei zu öffnen gehen Sie auf Plan und wählen die Datei entweder aus der Liste der bisher geöffneten Dateien aus oder Sie gehen auf `Plan > Öffnen` und wählen die Datei von Ihrem Computer oder einem Netzwerkpfad aus.
 
 !!! info "Hinweis"
 
-    Dateien, die mit der Version DAVINCI 6 erstellt werden, erhalten die Endung `.daVinci`
+    Dateien, die mit der Version DaVinci 6 erstellt werden, erhalten die Endung `.daVinci`
 
 !!! info "Hinweis"
 
-    Dateien, die Sie mit der Vorgängerversion DAVINCI 5 erstellt haben, tragen die Endung `.dav`. Beide Dateitypen können Sie direkt in DAVINCI 6 öffnen. Eine vorherige Konvertierung von `*.dav`-Dateien ist nicht erforderlich.
+    Dateien, die Sie mit der Vorgängerversion DaVinci 5 erstellt haben, tragen die Endung `.dav`. Beide Dateitypen können Sie direkt in DaVinci 6 öffnen. Eine vorherige Konvertierung von `*.dav`-Dateien ist nicht erforderlich.
 
-Bei der Installation von DAVINCI werden Beispieldateien auf Ihren Computer kopiert, die Sie für Tests nutzen können. Diese Beispieldateien werden standardmäßig unter folgendem Dateipfad auf Ihrem Computer gespeichert:
+Bei der Installation von DaVinci werden Beispieldateien auf Ihren Computer kopiert, die Sie für Tests nutzen können. Diese Beispieldateien werden standardmäßig unter folgendem Dateipfad auf Ihrem Computer gespeichert:
 **Windows 8/10** ```C:\Users\Public\Documents\Stueber Systems\daVinci 6\Beispiele```
 
 Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Schnellstart-Schaltfläche Beispiel öffnen betätigen.
@@ -77,20 +77,20 @@ Die Beispieldatei können Sie öffnen, indem Sie auf der Willkommensseite die Sc
 
 !!! info "Hinweis"
 
-    Sie können festlegen, dass bei jedem Programmstart eine bestimmte DAVINCI-Datei automatisch geöffnet wird. Klicken Sie dazu auf `Plan > DAVINCI Optionen` oder auf  `Extras > Optionen`, um das Dialogfenster ``Optionen`` und dort die Registerkarte Plandatei aufzurufen. Aktivieren Sie im Bereich ``Startdatei`` der Eingabeseite ``Plandatei`` die gewünschte Option:
+    Sie können festlegen, dass bei jedem Programmstart eine bestimmte DaVinci-Datei automatisch geöffnet wird. Klicken Sie dazu auf `Plan > DaVinci Optionen` oder auf  `Extras > Optionen`, um das Dialogfenster ``Optionen`` und dort die Registerkarte Plandatei aufzurufen. Aktivieren Sie im Bereich ``Startdatei`` der Eingabeseite ``Plandatei`` die gewünschte Option:
 
 | Auswahl | Beschreibung |
 | --- |  --- |
-|Immer ohne Plandatei starten | Mit dieser Option legen Sie fest, dass DAVINCI beim Programmstart ohne Datei geöffnet wird.|
-|Immer mit Serveranmeldung starten | Wenn Sie DAVINCI ENTERPRISE nutzen, ist es nützlich DAVINCI direkt beim Start automatisch mit dem Server zu verbinden. Geben Sie in dem Dialogfenster bei ``Kennung und Kennwort``Ihre Anmeldedaten an, damit sich DAVINCI auch automatisch beim Programmstart am Server anmeldet.|
-| Immer mit zuletzt geöffneter Plandatei starten | Mit dieser Option startet DAVINCI jeweils mit der Plandatei, die zuletzt auf dem Rechner zur Bearbeitung geöffnet war.|
+|Immer ohne Plandatei starten | Mit dieser Option legen Sie fest, dass DaVinci beim Programmstart ohne Datei geöffnet wird.|
+|Immer mit Serveranmeldung starten | Wenn Sie DaVinci Enterprise nutzen, ist es nützlich DaVinci direkt beim Start automatisch mit dem Server zu verbinden. Geben Sie in dem Dialogfenster bei ``Kennung und Kennwort``Ihre Anmeldedaten an, damit sich DaVinci auch automatisch beim Programmstart am Server anmeldet.|
+| Immer mit zuletzt geöffneter Plandatei starten | Mit dieser Option startet DaVinci jeweils mit der Plandatei, die zuletzt auf dem Rechner zur Bearbeitung geöffnet war.|
 | Immer mit der folgenden Plandatei starten | Geben Sie den Pfad zur gewünschten Plandatei im Textfeld an oder wählen Sie ihn unter Plandatei auswählen direkt aus.|
 
 [![Optionen][4]][4]
 
 ## Neue Plandatei anlegen
 
-Für das Anlegen einer neuen Plandatei steht Ihnen in DAVINCI 6 ein eigener Programmassistent zur Verfügung. Den Planvorbereitungsassistenten können Sie aufrufen, indem Sie auf `Plan > Neu` klicken.
+Für das Anlegen einer neuen Plandatei steht Ihnen in DaVinci 6 ein eigener Programmassistent zur Verfügung. Den Planvorbereitungsassistenten können Sie aufrufen, indem Sie auf `Plan > Neu` klicken.
 
 [![Planvorbereitungsassistent][5]][5]
 
@@ -99,8 +99,8 @@ Folgende Optionen werden Ihnen angeboten:
 | Auswahl | Beschreibung |
 | --- |  --- |
 | Neuen leeren Plan erstellen | Sie können eine neue leere Plandatei anlegen, die keine Daten enthält. |
-| Neuen Plan erstellen und Daten übernehmen | Sie können eine neue Plandatei anlegen und die Stamm-, Unterrichts- und Rahmendaten aus einer anderen DAVINCI-Datei übernehmen, zum Beispiel bei einem Schuljahreswechsel. Bei dieser Option wird Ihnen im folgenden Dialog angeboten,die Klassennummerierungen um eins zu erhöhen (z.B.: „8a“ wird zu „9a“).
-| Neuen leeren Plan erstellen, aber aktuellen Planrahmen übernehmen | Sie können eine neue Plandatei anlegen, die nur die Rahmendaten der aktuell geöffneten DAVINCI-Datei enthält. Dabei werden alle Daten bis auf Fächer, Schlüsselverzeichnisse, Zeitrahmen und der Kalender gelöscht|
+| Neuen Plan erstellen und Daten übernehmen | Sie können eine neue Plandatei anlegen und die Stamm-, Unterrichts- und Rahmendaten aus einer anderen DaVinci-Datei übernehmen, zum Beispiel bei einem Schuljahreswechsel. Bei dieser Option wird Ihnen im folgenden Dialog angeboten,die Klassennummerierungen um eins zu erhöhen (z.B.: „8a“ wird zu „9a“).
+| Neuen leeren Plan erstellen, aber aktuellen Planrahmen übernehmen | Sie können eine neue Plandatei anlegen, die nur die Rahmendaten der aktuell geöffneten DaVinci-Datei enthält. Dabei werden alle Daten bis auf Fächer, Schlüsselverzeichnisse, Zeitrahmen und der Kalender gelöscht|
 
 ### Neuen Plan erstellen und Daten übernehmen (Schuljahreswechsel)
 
@@ -179,11 +179,11 @@ Registerkarte "Positionen"
 
 ### Neuen leeren Plan erstellen (für Neueinsteiger)
 
-Um eine neue Plandatei mit DAVINCI 6 zu erstellen, rufen Sie den Planvorbereitungsassistenten über `Plan > Neu` auf.
+Um eine neue Plandatei mit DaVinci 6 zu erstellen, rufen Sie den Planvorbereitungsassistenten über `Plan > Neu` auf.
 
 Gehen Sie hier wie folgt vor:
 
-* Markieren Sie ``Neuen leeren Plan`` da Sie zum ersten Mal Ihre Stundenplanung mit DAVINCI vornehmen.
+* Markieren Sie ``Neuen leeren Plan`` da Sie zum ersten Mal Ihre Stundenplanung mit DaVinci vornehmen.
 
 [![Planvorbereitunsassistent - Neuen leeren Plan erstellen][16]][16]
 
@@ -201,11 +201,11 @@ Gehen Sie hier wie folgt vor:
 
 ### Sicherungskopie erstellen/wiederherstellen
 
-Um bei jedem Speichern eine Sicherungskopie Ihrer Datei zu erstellen, öffnen Sie die Programm Optionen unter  `Plan > DAVINCI-Optionen` oder `Extras > Optionen` im Reiter `Plandatei`.
+Um bei jedem Speichern eine Sicherungskopie Ihrer Datei zu erstellen, öffnen Sie die Programm Optionen unter  `Plan > DaVinci-Optionen` oder `Extras > Optionen` im Reiter `Plandatei`.
 
-[![DAVINCI Optionen - Backup][18]][18]
+[![DaVinci Optionen - Backup][18]][18]
 
-Wählen Sie im unteren Drittel die Option ``Sicherungskopie (.Backup-Datei) der Datei anlegen`` wenn Sie im lokalen Betrieb (ohne den Einsatz von DAVINCI ENTERPRISE arbeiten). Nun wird bei jedem Speichern von Ihrer Datei eine Sicherungskopie angelegt, welche als Dateierweiterung das Datum und die Endung ``.BACKUP`` trägt.
+Wählen Sie im unteren Drittel die Option ``Sicherungskopie (.Backup-Datei) der Datei anlegen`` wenn Sie im lokalen Betrieb (ohne den Einsatz von DaVinci Enterprise arbeiten). Nun wird bei jedem Speichern von Ihrer Datei eine Sicherungskopie angelegt, welche als Dateierweiterung das Datum und die Endung ``.BACKUP`` trägt.
 
 !!! info "Hinweis"
 
@@ -230,16 +230,16 @@ Daten auf externe Datenträger erstellt  werden. Andernfalls können Sie z.B. in
 
 ### Datei automatisch speichern (im lokalen Betrieb)
 
-Sie können festlegen, dass Ihre DAVINCI-Datei in einem bestimmten Zeitintervall automatisch gespeichert wird. Auch beim automatischen Speichern wird jedes Mal eine Sicherungskopie angelegt. Öffnen Sie die DAVINCI Optionen unter `Plan > DAVINCI-Optionen` oder `Extras > Optionen` im Reiter ``Plandatei`` und wählen die Option ``Automatische Sicherung der Daten nach X Minuten`` und tragen Sie ein, wie viele Minuten zwischen den Sicherungen liegen sollen.
+Sie können festlegen, dass Ihre DaVinci-Datei in einem bestimmten Zeitintervall automatisch gespeichert wird. Auch beim automatischen Speichern wird jedes Mal eine Sicherungskopie angelegt. Öffnen Sie die DaVinci Optionen unter `Plan > DaVinci-Optionen` oder `Extras > Optionen` im Reiter ``Plandatei`` und wählen die Option ``Automatische Sicherung der Daten nach X Minuten`` und tragen Sie ein, wie viele Minuten zwischen den Sicherungen liegen sollen.
 
 ### Plandatei speichern
 
-Um eine Plandatei in dem gewünschten Zielverzeichnis auf Ihrem Rechner zu speichern, klicken Sie auf  `Plan > Speichern unter` und wählen Sie DAVINCI-Datei. Sie haben darüber hinaus die Möglichkeit, eine DAVINCI-Datei in komprimierter Form, also mit deutlich reduzierter Dateigröße zu speichern. Dies bietet sich z.B. an, wenn Sie Ihre Datei per E-Mail versenden möchten. Wenn Sie diese Option wählen, wird Ihre DAVINCI-Datei mit der Endung ``.daVinci.zip`` als gezippte Datei gespeichert.
-Eine ``*.daVinci.zip``-Datei kann mit DAVINCI geöffnet werden, ohne dass diese vorher mit einem externen Programm entpackt werden muss. Die gezippte Plandatei wird beim Öffnen mit DAVINCI automatisch entpackt und im Standardformat ``.daVinci`` geladen.
+Um eine Plandatei in dem gewünschten Zielverzeichnis auf Ihrem Rechner zu speichern, klicken Sie auf  `Plan > Speichern unter` und wählen Sie DaVinci-Datei. Sie haben darüber hinaus die Möglichkeit, eine DaVinci-Datei in komprimierter Form, also mit deutlich reduzierter Dateigröße zu speichern. Dies bietet sich z.B. an, wenn Sie Ihre Datei per E-Mail versenden möchten. Wenn Sie diese Option wählen, wird Ihre DaVinci-Datei mit der Endung ``.daVinci.zip`` als gezippte Datei gespeichert.
+Eine ``*.daVinci.zip``-Datei kann mit DaVinci geöffnet werden, ohne dass diese vorher mit einem externen Programm entpackt werden muss. Die gezippte Plandatei wird beim Öffnen mit DaVinci automatisch entpackt und im Standardformat ``.daVinci`` geladen.
 
 ## Datei speichern (im Serverbetrieb)
 
-Genauere Informationen dazu finden Sie im Teil [DAVINCI SERVER](https://doc.davinci6.stueber.de/06.enterprise/00.allgemeines/).
+Genauere Informationen dazu finden Sie im Teil [DaVinci Server](https://doc.davinci6.stueber.de/06.enterprise/00.allgemeines/).
 
 [1]:/assets/images/stundenplan/Plan-Eigenschaften.png
 [2]:/assets/images/stundenplan/willkommen01.png

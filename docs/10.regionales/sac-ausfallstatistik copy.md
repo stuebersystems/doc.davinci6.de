@@ -2,7 +2,7 @@
 
 Die Übersicht `Übersichten > Ausfallstatistik` liefert die für die Landesstatistik Sachsen benötigten Daten.
 
-Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DAVINCI
+Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DaVinci
 
 1. die entsprechenden Schulformen (berufsbildenden Schulen) bzw. Fächer (allgemeinbildende Schulen) verwenden
 2. die entsprechenden Lehrerfehlgründe verwenden
@@ -11,11 +11,11 @@ Damit die Ausfallstatistik korrekt erstellt werden kann, müssen Sie in DAVINCI
 
 ## Schulformen
 
-![Dialog unter Plan > DAVINCI-Optionen > Meine Daten](/assets/images/sac.optionen.png)
+![Dialog unter Plan > DaVinci-Optionen > Meine Daten](/assets/images/sac.optionen.png)
 
 Sie erhalten von der Sächsischen Bildungsagentur eine XML-Datei mit den Fächern und Schulformen für Sachsen:
 
-1. Geben Sie unter `Plan > DAVINCI-Optionen > Meine Daten`
+1. Geben Sie unter `Plan > DaVinci-Optionen > Meine Daten`
 
 * bei `Schultyp` Ihr Schulartkürzel ein
 * bei `Dienststelle/SchulNr` Ihre Dienststellenummer ein
@@ -49,6 +49,6 @@ Ausfall | ausfall
 
 !!! info "Hinweis"
 
-     Die Schlüssel werden von DAVINCI zur Identifiktation der korrekten Daten für die Landesstatistik verwendet und müssen genauso geschrieben werden wie in den beiden Tabellen angegeben, dies gilt insbesondere für die Groß- und Kleinschreibung. Das Kürzel ist dafür nicht relevant, Sie können es daher auch anders benennen bzw. anders schreiben. 
+     Die Schlüssel werden von DaVinci zur Identifiktation der korrekten Daten für die Landesstatistik verwendet und müssen genauso geschrieben werden wie in den beiden Tabellen angegeben, dies gilt insbesondere für die Groß- und Kleinschreibung. Das Kürzel ist dafür nicht relevant, Sie können es daher auch anders benennen bzw. anders schreiben. 
 
-Anschließend können Sie bei `Von`und `Bis` den Zeitraum einstellen, für den die Statistik erstellt werden soll. Klicken Sie dann auf `Aktualisieren` um die Summen von DAVINCI berechnen zu lassen. Speichern Sie das Ergebnis mit `Exportieren` als XML-Datei und senden Sie diese an die Sächsische Bildungsagentur.
+Anschließend können Sie bei `Von`und `Bis` den Zeitraum einstellen, für den die Statistik erstellt werden soll. Klicken Sie dann auf `Aktualisieren` um die Summen von DaVinci berechnen zu lassen. Speichern Sie das Ergebnis mit `Exportieren` als XML-Datei und senden Sie diese an die Sächsische Bildungsagentur.

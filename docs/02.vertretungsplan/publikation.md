@@ -2,7 +2,7 @@
 
 ## Änderungen veröffentlichen
 
-Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DAVINCI bzw. DAVINCI-LOOK sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
+Die von ihnen durchgeführten Planänderungen sind nicht sofort für alle Benutzer von DaVinci bzw. DaVinci-Look sichtbar. Dazu müssen die Änderungen zuerst explizit veröffentlicht werden.
 
 !!! warning "Wichtig"
 
@@ -26,11 +26,11 @@ So veröffentlichen Sie Änderungen:
 
 3. Dabei können Sie entweder nur Ihre eigene Änderungen veröffentlichen oder auch zusammen mit den Änderungen auch anderer Benutzer. Wählen Sie eine der beiden Optionen aus und bestätigen Sie mit `OK`.
 
-4. In der Änderungsliste wird nun der Spalte `Status` der Wert von `Unveröffentlicht` auf `Veröffentlicht` gesetzt. Jetzt sind die Änderungen für alle anderen Benutzer in DAVINCI bzw. DAVINCI-LOOK sichtbar.
+4. In der Änderungsliste wird nun der Spalte `Status` der Wert von `Unveröffentlicht` auf `Veröffentlicht` gesetzt. Jetzt sind die Änderungen für alle anderen Benutzer in DaVinci bzw. DaVinci-Look sichtbar.
 
 ## Drucken
 
-Der DAVINCI VERTRETUNGSPLAN unterstützt grundsätzlich zwei Arten des Druckens:
+Der DaVinci Vertretungsplan unterstützt grundsätzlich zwei Arten des Druckens:
 
 * **Reine Vertretungspläne:** Hier werden nur die durch die Vertretung entstandenen Veränderungen in Form von Listen ausgegeben. Der reguläre Unterricht wird dabei nicht berücksichtigt. Diese Art des Ausdrucks wird bevorzugt, wenn es nur um eine Auflistung der reinen Änderungen gegenüber dem regulären Plan geht. Dies ist beispielsweise als Informationsquelle für die tägliche Änderungsliste für die Schüler und Lehrer gedacht.
 * **Tagesaktuelle Stundenpläne:** Unter Berücksichtigung des regulären Plans und der eventuellen Veränderungen durch Vertretungen wird der Stundenplan tagesaktuell gedruckt. Auf diese Weise kann beispielsweise der tatsächlich stattfindende Unterrichtsplan einer Woche für eine Klasse oder einen Lehre festgehalten werden, welche von sich in Abhängigkeit von vorhandenen Vertretungsregelungen vom vorab über einen Zeitraum geplanten Unterricht unterscheiden kann. Beide Arten werden in den nachfolgenden Abschnitten näher erläutert.
@@ -251,7 +251,7 @@ Die Detailangaben zu den Exportvorgaben können Sie auf den verschiedenen Regist
 ## Kurznachrichten versenden
 
 !!! info "Hinweis"
-      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls daVincDAVINCI LIVEMESSAGE voraus.
+      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls daVincDAVINCI LiveMessage voraus.
 
 Sie können in daVinci jederzeit Kurznachrichten an Lehrer und Schüler senden. Diese Funktionalität können Sie z.B. verwenden, um Ihre Kollegen schnell über Planänderungen zu informieren. Der Versand kann per E-Mail und/oder per SMS erfolgen.
 
@@ -260,26 +260,26 @@ So rufen Sie das Fenster „Änderungen mitteilen“ auf: Klicken Sie auf die Sc
 !!! info "Hinweis"
       Zuvor müssen Sie bei den betreffenden Lehrern bzw. Schülern die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. Sie tragen diese Angaben in der Ansicht `Stammdaten > Lehrer` bzw `Stammdaten > Schüler` in den Spalten E-Mail bzw. Mobil ein.
 
-## DAVINCI APP und Webbox
+## DaVinci App und WebBox
 
 !!! info "Hinweis"
-      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls DAVINCI ENTREPRISE und DAVINCI INFOSERVER voraus.
+      Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls DaVinci ENTREPRISE und DaVinci InfoServer voraus.
 
-DAVINCI bietet Ihnen die Möglichkeit, Ihre Vertretungsplandaten publikumswirksam und ohne Zeitverzögerung via Internet auf Smart Phones, Tablets und Webseiten zur Verfügung zu stellen.
+DaVinci bietet Ihnen die Möglichkeit, Ihre Vertretungsplandaten publikumswirksam und ohne Zeitverzögerung via Internet auf Smart Phones, Tablets und Webseiten zur Verfügung zu stellen.
 
 Nähere Informationen zur Umsetzung finden Sie [hier](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/)
 
-## DAVINCI LOOK
+## DaVinci Look
 
-Klicken Sie im Modul DAVINCI LOOK auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
+Klicken Sie im Modul DaVinci Look auf `Vertretungsplan` um in die Vertretungsplanansicht zu wechseln. In dieser Ansicht wird für bis zu sechs Tagen der Vertretungsplan angezeigt. Dia Anzeige aktualisiert sich ständig, so dass sie zur Anzeige auf E-Boards eingesetzt werden kann.
 
 Nähere Informationen zur Umsetzung finden Sie [hier](https://doc.davinci6.stueber.de/05.look/02.ansichten/#die-ansicht-vertretungsplan)
 
 ## Public Displays
 
-Sie können den DAVINCI Vertretungsplan oder Stundenplan auf E-Boards in Ihrer Schule publizieren.
+Sie können den DaVinci Vertretungsplan oder Stundenplan auf E-Boards in Ihrer Schule publizieren.
 
-Durch die direkte Integration der DAVINCI WEBBOX in CONFIRE SHOWTIME ist die Umsetzung der Darstellung denkbar einfach.
+Durch die direkte Integration der DaVinci WebBox in CONFIRE SHOWTIME ist die Umsetzung der Darstellung denkbar einfach.
 
 Nähere Informationen zur Umsetzung finden Sie [hier](https://doc.showtime2.stueber.de/howto/create-projects/manage-layouts/davinci.html)
 

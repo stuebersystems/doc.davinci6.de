@@ -181,7 +181,7 @@ Sie können an jede Position des Planungsfensters beliebig viele Unterrichtsterm
 Sie können an jede Position des Planungsfensters beliebig viele Unterrichtstermine platzieren. Für jeden Unterrichtstermin wird an der zugehörigen Plan-position ein Terminfeld angelegt. Mehrere Terminfelder teilen sich dann im Planungsfenster eine Position.
 Befinden sich mehrere Terminfelder auf einer Planposition, so wird dies von daVinci als Terminkonflikt aufgefasst. Ausnahmen hierzu bilden Termine, die einem gemeinsamen Block angehören oder auf unterschiedlichen Zeitschienen der Kategorie „A“  bis „E“ bzw. Y angesiedelt sind.
 
-DAVINCI bietet Ihnen drei unterschiedliche Möglichkeiten wie Sie als Planer beim Setzen mit derartigen Konflikten umgehen können:
+DaVinci bietet Ihnen drei unterschiedliche Möglichkeiten wie Sie als Planer beim Setzen mit derartigen Konflikten umgehen können:
 
 * Termine werden auf eine Planposition platziert und durch das Blitzsymbol sowie die entsprechende farbige Markierung als konfligierende Elemente gekennzeichnet.
 * Wird ein unverplanter Termin auf eine bereits belegte Planposition platziert öffnet sich das Dialogfenster „Terminkollisionen“, das verschiedene Möglichkeiten bietet, den aufgetretenen Konflikt direkt zu bearbeiten.

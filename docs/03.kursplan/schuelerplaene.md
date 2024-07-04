@@ -15,7 +15,7 @@ im Kontextmenü „Stundenplan anzeigen“ wählen oder drücken Sie beim gewäh
 
 !!! info "Hinweis"
 
-    Die Schülerpläne können auch in DAVINCI LOOK und in der DAVINCI APP angezeigt und so Ihrem Kollegium bzw. Ihren Schülern zugänglich gemacht werden.
+    Die Schülerpläne können auch in DaVinci Look und in der DaVinci App angezeigt und so Ihrem Kollegium bzw. Ihren Schülern zugänglich gemacht werden.
 
 ## Schülerpläne drucken
 

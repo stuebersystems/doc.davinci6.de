@@ -4,7 +4,7 @@ Um die Automatik zu starten, klicken Sie bitte auf die obere Hälfte der Schaltf
 
 ![Im Dialogfenster `Automatik starten` stehen Ihnen unterschiedliche Optionen für den Automatikdurchlauf zur Verfügung](/assets/images/Automatik.png)
 
-Die Automatik von DAVINCI besteht aus einer Raum-, Setz- und Lehrerzuordnungsautomatik, die in den folgenden Abschnitten gesondert beschrieben werden. Bevor die Automatik gestartet wird, legen Sie Automatikvorgaben fest:
+Die Automatik von DaVinci besteht aus einer Raum-, Setz- und Lehrerzuordnungsautomatik, die in den folgenden Abschnitten gesondert beschrieben werden. Bevor die Automatik gestartet wird, legen Sie Automatikvorgaben fest:
 
 * Veranstaltungsbezogene Automatikvorgaben
 * Allgemeine Automatikvorgaben
@@ -16,7 +16,7 @@ Erst wenn Sie diese Vorgaben definiert haben, sollten Sie die Automatik starten.
 
 ## Veranstaltungsbezogene Automatikvorgaben
 
-DAVINCI bietet Ihnen die Möglichkeit für jede Veranstaltung individuelle Einstellungen zu treffen, die von der Automatik beim Setzen dieser Veranstaltungen berücksichtigt werden. Diese Einstellungen können Sie im Veranstaltungsfenster in der Ansicht `Zeitdetails` vornehmen. Die Automatikspezifischen Optionen, die Sie hier einstellen können, stehen Ihnen im Bereich `Automatikvorgaben der Veranstaltung zur Verfügung`.
+DaVinci bietet Ihnen die Möglichkeit für jede Veranstaltung individuelle Einstellungen zu treffen, die von der Automatik beim Setzen dieser Veranstaltungen berücksichtigt werden. Diese Einstellungen können Sie im Veranstaltungsfenster in der Ansicht `Zeitdetails` vornehmen. Die Automatikspezifischen Optionen, die Sie hier einstellen können, stehen Ihnen im Bereich `Automatikvorgaben der Veranstaltung zur Verfügung`.
 
 ![In der Ansicht `Zeitdetails` des Dialogfensters `Veranstaltung` können Sie veranstaltungsbezogene Vorgaben für den Automatikdurchlauf einstellen.](/assets/images/VeranstaltungDetailAutomatikvorgaben1.png)
 
@@ -40,7 +40,7 @@ Im Listenfenster unter Zeitpräferenzen können Sie Sperrungen und Kernzeiten f�
 
 ## Automatikvorgaben
 
-DAVINCI bietet Ihnen die Möglichkeit allgemeinverbindliche Einstellungen für alle Veranstaltungen zu treffen, die von der Automatik berücksichtigt werden. Diese Einstellungen können Sie im Dialogfenster `Automatikvorgaben` in verschiedenen Registerkarten treffen. Außerdem haben Sie die Möglichkeit einige Vorgaben für Klassen, Lehrer und Fächer zu treffen. Dafür stehen Ihnen die Registerkarten `Klassenvorgaben`, `Lehrervorgaben` und `Fächervorgaben` zur Verfügung.
+DaVinci bietet Ihnen die Möglichkeit allgemeinverbindliche Einstellungen für alle Veranstaltungen zu treffen, die von der Automatik berücksichtigt werden. Diese Einstellungen können Sie im Dialogfenster `Automatikvorgaben` in verschiedenen Registerkarten treffen. Außerdem haben Sie die Möglichkeit einige Vorgaben für Klassen, Lehrer und Fächer zu treffen. Dafür stehen Ihnen die Registerkarten `Klassenvorgaben`, `Lehrervorgaben` und `Fächervorgaben` zur Verfügung.
 
 Das Dialogfenster `Automatikvorgaben` können Sie aufrufen, indem Sie in der Menügruppe `Start > Automatik` auf die untere Hälfte der Schaltfläche Automatik klicken und den Eintrag `Automatikvorgaben` aus dem Aufklappmenü wählen.
 
@@ -117,7 +117,7 @@ Mit der Fachfolge legen Sie fest, welche Fächer direkt aufeinanderfolgend bzw. 
 
 ## Vorgaben bei der Zuweisung von Lehrern und Räumen - Registerkarte „Optionen“
 
-Für die Verplanung Ihrer Unterrichtstermine können Sie im Dialogfenster `Automatikvorgaben` auf der Registerkarte „Optionen“ festlegen, wie sich die DAVINCI Automatik bei der Zuweisung von Lehrern und Räumen verhalten soll.
+Für die Verplanung Ihrer Unterrichtstermine können Sie im Dialogfenster `Automatikvorgaben` auf der Registerkarte „Optionen“ festlegen, wie sich die DaVinci Automatik bei der Zuweisung von Lehrern und Räumen verhalten soll.
 
 ![Register "Optionen"](/assets/images/Automatikoptionen.png)
 
@@ -142,7 +142,7 @@ Das Dialogfenster [`Zeitrahmen`](/davinci-stundenplan/zeitvorgaben/zeitrahmen/ha
 
 Positionen, die an dieser Stelle nicht mit einem Haken versehen sind, werden von der Automatik nicht für den Beginn von Doppelstunden genutzt. Darüber hinaus können Sie im Dialogfenster für Termine, deren Dauer sich jenseits des Schemas Einzelstunde/ Doppelstunde bewegt, spezifische Zeitkorridore hinterlegen. Die Setz-Automatik darf Termine einer bestimmten Dauer in der Folge nur an diese explizit definierten Stellen im Planraster setzen. Um für Termine unterschiedlicher Dauer fixe Zeitkorridore für die Setzautomatik festzulegen, gehen Sie bitte folgendermaßen vor:
 
-1. Öffnen Sie DAVINCI 6 und blättern Sie zum Menüregister `Extras`.
+1. Öffnen Sie DaVinci 6 und blättern Sie zum Menüregister `Extras`.
 2. Klicken Sie in der Menügruppe `Extras > Verwalten` auf die Schaltfläche `Zeitrahmen`.
 3. Markieren Sie im erscheinenden Dialogfenster `Zeitrahmen` den gewünschten Zeitrahmen
 4. Blättern Sie im Dialogfenster `Zeitrahmen` zur Registerkarte "Positionsschemata".

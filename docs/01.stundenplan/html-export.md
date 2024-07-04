@@ -1,17 +1,17 @@
 # Export statischer HTML-Dateien
 
-DAVINCI bietet zwei alternative Wege an, um HTML-Seiten zu erzeugen:
+DaVinci bietet zwei alternative Wege an, um HTML-Seiten zu erzeugen:
 
 * **Statische HTML-Seiten** durch den HTML-Export über das gleichnamige Dialogfenster in daVinci. Dabei werden eine Reihe von Dateien für die angefragten Stundenpläne bzw. Vertretungspläne erzeugt, die Sie auf Ihre Website hochladen können. Diese Seiten können von [CONFIRE SHOWTIME](https://showtime.stueber.de/) und anderen Anzeigeprogrammen für Info-Bildschirme (Digitales Schwarzes Brett) an Ihrer Schule verwendet werden.
-Hierfür benötigen Sie eine Lizenz für DAVINCI INTERNET.
+Hierfür benötigen Sie eine Lizenz für DaVinci INTERNET.
 
-* **Dynamische HTML-Seiten** über den [DAVINCI INFOSERVER](https://davinci.stueber.de/davinci-infoserver.php). Der Webbrowser erhält dabei mittels des daVinci INFOSERVER vom DAVINCI ENTERPRISE Server die jeweils angeforderte aktuelle Seite, das ständige Erzeugen und Hochladen von Dateien z.B. bei Planänderungen entfällt. Weitere Informationen finden Sie in der Dokumentation zum [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/).
-Hierfür benötigen Sie eine Lizenz für DAVINCI INFOSERVER.
+* **Dynamische HTML-Seiten** über den [DaVinci InfoServer](https://davinci.stueber.de/davinci-infoserver.php). Der Webbrowser erhält dabei mittels des daVinci InfoServer vom DaVinci Enterprise Server die jeweils angeforderte aktuelle Seite, das ständige Erzeugen und Hochladen von Dateien z.B. bei Planänderungen entfällt. Weitere Informationen finden Sie in der Dokumentation zum [DaVinci InfoServer](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/).
+Hierfür benötigen Sie eine Lizenz für DaVinci InfoServer.
 
 !!! info "Hinweis"
 
-    Für den HTML-Export ist eine Lizenz von DAVINCI INTERNET bzw. DAVINCI INFOSERVER erforderlich. 
-    Die nachstehenden Kapitel beziehen sich auf das Erstellen **statischer HTML-Seiten**.  Informationen zum Erstellen **dynamischer HTML-Seiten** finden Sie in der Dokumentation zum [DAVINCI INFOSERVER](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/).
+    Für den HTML-Export ist eine Lizenz von DaVinci INTERNET bzw. DaVinci InfoServer erforderlich. 
+    Die nachstehenden Kapitel beziehen sich auf das Erstellen **statischer HTML-Seiten**.  Informationen zum Erstellen **dynamischer HTML-Seiten** finden Sie in der Dokumentation zum [DaVinci InfoServer](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/).
 
 Sie können Pläne mit und ohne Vertretungsplaninformationen sowie Vertretungspläne als HTML-Seiten exportieren und so auf Ihrer Website publizieren. Rufen Sie dazu das HTML-Export-Fenster auf, welches im Wesentlichen die gleichen Einstellungen wie das Drucken-Fenster (siehe [Publikation per Ausdruck](/davinci-stundenplan/9-stundenplane-drucken/publikation-per-ausdruck.md) aufweist, weshalb wir im vorliegenden Kapitel nur auf die Unterschiede eingehen werden.
 
@@ -59,12 +59,12 @@ Schaltfläche Home|Hier können Sie die Schaltflächen in den HTML-Seiten benenn
 
 Der daVinci HTML Präprozessor erzeugt aus
 
-* den DAVINCI Plandaten
+* den DaVinci Plandaten
 * einer HTML-Seitenvorlage Datei (das ist die im HTML-Exportformat angegebene HTMLSeitenvorlagedatei aus dem Ordner „HTML“, die Standardvorlagedatei heißt „davinci.
 content.main.html“)
 * einer CSS-Layoutvorlage Datei (das ist die im HTML-Exportformat angegebene CSSVorlagedatei aus dem Ordner „CSS“, die Standardvorlagedatei heißt „davinci.
 content.main.css“)
-* den JavaScript-Dateien aus dem Ordner „JS“ die HTML-Dateien, die in dem im HTML-Exportformat angegebenen Export-Unterordner abgelegt werden. DAVINCI erzeugt HTML5 und CSS3 kompatible HTML-Seiten. Im Export-Unterordner werden folgende Dateien bzw. Ordner angelegt:
+* den JavaScript-Dateien aus dem Ordner „JS“ die HTML-Dateien, die in dem im HTML-Exportformat angegebenen Export-Unterordner abgelegt werden. DaVinci erzeugt HTML5 und CSS3 kompatible HTML-Seiten. Im Export-Unterordner werden folgende Dateien bzw. Ordner angelegt:
 
 * Die Indexdatei index.html, die den Index für die nachfolgenden HTML-Dateien enthält
 * Die HTML-Dateien für die Pläne bzw. Vertretungspläne
@@ -72,16 +72,16 @@ content.main.css“)
 
 |Was ist wofür zuständig?|
 |-|
-|Die **HTML-Seitenvorlage-Datei** gibt den Rahmen für alle von DAVINCI erzeugten HTML-Seiten vor. Sie enthält die Inhaltsstruktur der HTML-Datei, aber keine Layoutinformationen.|
+|Die **HTML-Seitenvorlage-Datei** gibt den Rahmen für alle von DaVinci erzeugten HTML-Seiten vor. Sie enthält die Inhaltsstruktur der HTML-Datei, aber keine Layoutinformationen.|
 |Die** CSS-Layoutvorlage-Dateien** enthalten alle Layoutinformationen für die Anzeige der HTML-Dateien in einem Webbrowser, aber keine Inhalte.|
 |Die **JavaScript-Dateien** enthalten JavaScript Code mit speziellen Anzeige-Effekten.|
-|Der **DAVINCI Ordner SANDBOX** wird beim Erzeugen der Ausgabedateien von daVinci ebenfalls mit Inhalt in den Export-Unterordner kopiert.<br/>Er dient sozusagen als Transportordner für alle weiteren Dateien, die für das Layout benötigt werden, z.B. die Logo-Bilddatei.<br/>Insbesondere wird die CSS-Datei in den Sandbox-Ordner kopiert.
+|Der **DaVinci Ordner SANDBOX** wird beim Erzeugen der Ausgabedateien von daVinci ebenfalls mit Inhalt in den Export-Unterordner kopiert.<br/>Er dient sozusagen als Transportordner für alle weiteren Dateien, die für das Layout benötigt werden, z.B. die Logo-Bilddatei.<br/>Insbesondere wird die CSS-Datei in den Sandbox-Ordner kopiert.
 
 !!! info "Hinweis"
 
     **CSS** steht für „Cascading Style Sheets“ (engl. für stufenförmige geschachtelte Layout Vorlagen), womit eine Beschreibungssprache für Stilvorlagen (engl. stylesheets) für strukturierte Dokumente gemeint ist. CSS-Dateien werden in der Regel benutzt, um das Layout von HTML-Dokumenten zu bestimmen. Weiterführende Informationen dazu finden Sie unter dem Stichwort „CSS“ im Internet.
 
-Sowohl die HTML-Seitenvorlage-Datei wie auch die CSS-Layoutvorlage Datei kann DAVINCI-spezifische Platzhalter enthalten, die vom daVinci HTML-Präprozessor beim Erzeugen der Ausgabedateien entsprechend mit DAVINCI-Inhalten ersetzt werden. Ersetzungen werden nur in Dateien mit dem Präfix „davinci.“ durchgeführt. Z.B. wird der Platzhalter %HOMEPAGE% durch den Link zu Ihrer Homepage ersetzt. Die möglichen daVinci Platzhalter sind in den beiden nachfolgenden Kapiteln beschrieben.
+Sowohl die HTML-Seitenvorlage-Datei wie auch die CSS-Layoutvorlage Datei kann DaVinci-spezifische Platzhalter enthalten, die vom daVinci HTML-Präprozessor beim Erzeugen der Ausgabedateien entsprechend mit DaVinci-Inhalten ersetzt werden. Ersetzungen werden nur in Dateien mit dem Präfix „davinci.“ durchgeführt. Z.B. wird der Platzhalter %HOMEPAGE% durch den Link zu Ihrer Homepage ersetzt. Die möglichen daVinci Platzhalter sind in den beiden nachfolgenden Kapiteln beschrieben.
 
 !!! info "Hinweis"
 
@@ -91,9 +91,9 @@ Sowohl die HTML-Seitenvorlage-Datei wie auch die CSS-Layoutvorlage Datei kann DA
 
 !!! info "Hinweis"
 
-    Alle in DAVINCI-Layouts (HTML- und CSS-Dateien) sind für unterschiedliche Bildschirmauflösungen geeignet und können insbesondere auch für iPad/Tablets und iPhone/SmartPhone verwendet werden.
+    Alle in DaVinci-Layouts (HTML- und CSS-Dateien) sind für unterschiedliche Bildschirmauflösungen geeignet und können insbesondere auch für iPad/Tablets und iPhone/SmartPhone verwendet werden.
 
-Die HTML-Seitenvorlagedatei gibt den Rahmen für alle von DAVINCI erzeugten HTML-Seiten vor, also die Index-Datei und alle weiteren HTML-Dateien. Sie enthält die Inhaltsstruktur der HTML-Datei und ggf. Platzhalter, aber keine Layout Informationen. Die Standard Seitenvorlagedatei heißt **davinci.content.main.html**. Den einzige Platzhalter der zwingend in der HTML-Vorlagedatei verwendet werden muss, ist der Platzhalter %DAVINCICONTENT%, der von DAVINCI durch den eigentlichen Inhalt, d.h. den Index, den Plan oder die Vertretungsliste ersetzt wird. Die meisten Platzhalter werden durch die Angaben unter `Meine Daten` im Optionen-Dialogfenster ersetzt.
+Die HTML-Seitenvorlagedatei gibt den Rahmen für alle von DaVinci erzeugten HTML-Seiten vor, also die Index-Datei und alle weiteren HTML-Dateien. Sie enthält die Inhaltsstruktur der HTML-Datei und ggf. Platzhalter, aber keine Layout Informationen. Die Standard Seitenvorlagedatei heißt **davinci.content.main.html**. Den einzige Platzhalter der zwingend in der HTML-Vorlagedatei verwendet werden muss, ist der Platzhalter %DAVINCICONTENT%, der von DaVinci durch den eigentlichen Inhalt, d.h. den Index, den Plan oder die Vertretungsliste ersetzt wird. Die meisten Platzhalter werden durch die Angaben unter `Meine Daten` im Optionen-Dialogfenster ersetzt.
 
 ### Platzhalter für HTML-Seitenvorlage Datei
 
@@ -101,19 +101,19 @@ Platzhalter | Beschreibung | Quelle
 -|-|-
 %HOMEPAGE% | URL zu Ihrer Homepage, z.B. http://www.stueber.de |Eingabefeld „Homepage“ in `Extras > Optionen > Meine Daten`
 %AUTHOR% | Autor | Eingabefelder `Allgemein > Name` und `Allgemein > Stadt` in `Extras > Optionen > Meine Daten`
-%CREATOR% | Programmname | Von DAVINCI vorgegeben, nicht eingebbar
+%CREATOR% | Programmname | Von DaVinci vorgegeben, nicht eingebbar
 %SITENAME1% | Name Ihrer Institution | Eingabefelder `Allgemein > Name` in `Extras > Optionen > Meine Daten`
 %SITENAME2% | Name Ihrer Institution | Eingabefelder `Allgemein > Name` in `Extras > Optionen > Meine Daten`
 %SITENAME3% | Name Ihrer Institution | Eingabefelder `Allgemein > Name` in `Extras > Optionen > Meine Daten`
 %SITECITY% | Ort Ihrer Institution | Eingabefeld `Allgemein > Stadt` in `Extras > Optionen > Meine Daten`
 %SITECODE% | Postleitzahl Ihrer Institution | Eingabefeld `Allgemein > Postleitzahl` in `Extras > Optionen > Meine Daten`
 %SITESTREET% | Straße Ihrer Institution | Eingabefelder `Allgemein > Straße` in `Extras > Optionen > Meine Daten`
-%TIME% | Ausgabeuhrzeit | Wird von DAVINCI automatisch erzeugt
-%NOW<format>% | Ausgabe-Datum-/Zeitangabe | Wird von DAVINCI automatisch erzeugt.<format> beschreibt das Ausgabeformat der Zeitangabe z.B. in der Form „dd.mm.yyyy hh:mm“ für „12.04.2014 11:55“
-%DAVINCICONTENT% | DAVINCI HTML-Plan-/Vertretungsplaninhalt | Wird von DAVINCI automatisch erzeugt
-%PREV% | URL zur vorherigen Datei | Wird von DAVINCI automatisch erzeugt
-%NEXT% | URL zur nächsten Datei | Wird von DAVINCI automatisch erzeugt
-%INDEX% | URL zur Indexdatei | Wird von DAVINCI automatisch erzeugen
+%TIME% | Ausgabeuhrzeit | Wird von DaVinci automatisch erzeugt
+%NOW<format>% | Ausgabe-Datum-/Zeitangabe | Wird von DaVinci automatisch erzeugt.<format> beschreibt das Ausgabeformat der Zeitangabe z.B. in der Form „dd.mm.yyyy hh:mm“ für „12.04.2014 11:55“
+%DAVINCICONTENT% | DaVinci HTML-Plan-/Vertretungsplaninhalt | Wird von DaVinci automatisch erzeugt
+%PREV% | URL zur vorherigen Datei | Wird von DaVinci automatisch erzeugt
+%NEXT% | URL zur nächsten Datei | Wird von DaVinci automatisch erzeugt
+%INDEX% | URL zur Indexdatei | Wird von DaVinci automatisch erzeugen
 
 ### HTML-Vorlagedateien
 
@@ -156,11 +156,11 @@ Platzhalter | Beschreibung | Quelle
 
 ## HTML-Export in eigene Website einbinden
 
-Durch die Veränderung der HTML-Seitenvorlage Datei und der CSS-Layoutvorlage Datei können Sie die Gestaltung des DAVINCI HTML-Exports frei an die Stilvorgaben Ihrer Website anpassen. Ein gutes Nachschlagewerk für die Themen HTML5, CSS und JavaScript finden Sie z.B. auf der Website [http://www.w3schools.com](http://www.w3schools.com).
+Durch die Veränderung der HTML-Seitenvorlage Datei und der CSS-Layoutvorlage Datei können Sie die Gestaltung des DaVinci HTML-Exports frei an die Stilvorgaben Ihrer Website anpassen. Ein gutes Nachschlagewerk für die Themen HTML5, CSS und JavaScript finden Sie z.B. auf der Website [http://www.w3schools.com](http://www.w3schools.com).
 
 !!! info "Hinweis"
 
-    Der DAVINCI INFOSERVER ermöglicht es dynamische Internetseiten zu erzeugen, d.h. die Seite wird erst zum Zeitpunkt des Aufrufs aus einem Webbrowser vom DAVINCI ENTERPRISE Server erzeugt und über den DAVINCI INFOSERVER an den Webbrowser zurückgeliefert. **Vorteil**: Das ständige Exportieren und Hochladen von HTML-Dateien nach jeder Änderung entfällt. Weitere Informationen dazu finden Sie unter [www.stueber.de](https://davinci.stueber.de/davinci-infoserver.php) oder in unserer [Dokumentation](/internet-publication/setup-infoserver/README.md).
+    Der DaVinci InfoServer ermöglicht es dynamische Internetseiten zu erzeugen, d.h. die Seite wird erst zum Zeitpunkt des Aufrufs aus einem Webbrowser vom DaVinci Enterprise Server erzeugt und über den DaVinci InfoServer an den Webbrowser zurückgeliefert. **Vorteil**: Das ständige Exportieren und Hochladen von HTML-Dateien nach jeder Änderung entfällt. Weitere Informationen dazu finden Sie unter [www.stueber.de](https://davinci.stueber.de/davinci-infoserver.php) oder in unserer [Dokumentation](/internet-publication/setup-infoserver/README.md).
 
 ## HTML-Export für Public Displays
 
@@ -170,7 +170,7 @@ HTML-Vorlage | Verwendung für
 -|-
 davinci.content.showtime.subst.html | Automatisch weiterblätternde HTML-Vertretungslisten auf Public Displays
 
-Der DAVINCI INFOSERVER erlaubt es Ihnen, HTML-Seiten auf Ihrer Website zu publizieren, ohne expliziten HTML-Export. Weitere Informationen hierzu finden Sie unter [www.stueber.de](https://davinci.stueber.de/davinci-infoserver.php) oder in unserer [Dokumentation](/internet-publication/setup-infoserver/README.md).
+Der DaVinci InfoServer erlaubt es Ihnen, HTML-Seiten auf Ihrer Website zu publizieren, ohne expliziten HTML-Export. Weitere Informationen hierzu finden Sie unter [www.stueber.de](https://davinci.stueber.de/davinci-infoserver.php) oder in unserer [Dokumentation](/internet-publication/setup-infoserver/README.md).
 
 ## Vertretungslisten für Public Displays
 
@@ -179,14 +179,14 @@ Verwenden Sie die Seitenvorlage **davinci.content.showtime.subst.html** um Vertr
 * davinci.listflip.js
 * davinci.content.main.css
 
-Erzeugen Sie einmal einen HTML-Export mit DAVINCI. Anschließend befinden sich veränderte Kopien dieser beiden Dateien im Ordner „Sandbox“:
+Erzeugen Sie einmal einen HTML-Export mit DaVinci. Anschließend befinden sich veränderte Kopien dieser beiden Dateien im Ordner „Sandbox“:
 
 * Die Datei davinci.content.main.css enthält jetzt die angegebene Schriftgröße und die Datei davinci.listflip.js die Anzahl der Zeilen je Seite. 
 * Kopieren Sie beide Dateien in ein öffentliches Verzeichnis auf Ihrer Website und ändern Sie die URLs auf diese beiden Dateien in der Datei davinci.content.showtime.subst.html.
 
 Variablen in der Datei davinci.listflip.js | Wert
 -|-
-showCount | %MAXROWSPERPAGE% ist der Platzhalter die Anzahl der Zeilen pro Seite. Die Variable %MAXROWSPERPAGE% wird bei einem HTML-Export über DAVINCI automatisch ersetzt.
+showCount | %MAXROWSPERPAGE% ist der Platzhalter die Anzahl der Zeilen pro Seite. Die Variable %MAXROWSPERPAGE% wird bei einem HTML-Export über DaVinci automatisch ersetzt.
 newPageTime | Zeit bis zum Umblättern auf nächste Seite in 1/1000 Sekunden.
 
 ### Ausschnitt aus der Datei "davinci.listflip.js"
@@ -250,7 +250,7 @@ $('#PageInfo').text(pageNo + "/" + pageCount);
 Wichtige Dateien | Beschreibung
 -|-
 jquery.min.js | Datei aus der jQuery-Bibliothek wird von davinci.listflip.js benötigt. Sie können Sie von den Google-Website laden und in einen Ordner auf Ihrer Website kopieren
-davinci.listflip.js | Der DAVINCI List-Flip Effekt. Dort können Sie die Anzeigedauer einer Seite und die Anzahl der Zeilen pro Seite einstellen.
+davinci.listflip.js | Der DaVinci List-Flip Effekt. Dort können Sie die Anzeigedauer einer Seite und die Anzahl der Zeilen pro Seite einstellen.
 davinci.content.main.css | Die eigentliche daVinci CSS-Datei, die das Layout, d.h. Farben, Schriftgrößen usw. bestimmt.
 
 !!! info "Hinweis"

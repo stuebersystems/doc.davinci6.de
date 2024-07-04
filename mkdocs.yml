@@ -1,6 +1,6 @@
 # Project information
-site_name: DAVINCI 6
-site_description: 'DAVINCI 6 Dokumentation'
+site_name: DaVinci 6
+site_description: 'DaVinci 6 Dokumentation'
 site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.davinci6.stueber.de'
 
@@ -84,7 +84,7 @@ nav:
     - Schlüsselverzeichnisse: 00.allgemein/schluesselverzeichnisse.md
   - Datenaustausch: 
     - Import und Export: 11.datenaustausch/import_export.md
-    - Mit MAGELLAN: 11.datenaustausch/magellan.md
+    - Mit Magellan: 11.datenaustausch/magellan.md
     - Mit SDUI: 11.datenaustausch/sdui.md
     - Mit IServ: 11.datenaustausch/iserv.md
     - Schuldatentransferformat: 11.datenaustausch/sdtf.md
@@ -103,13 +103,13 @@ nav:
       - Ausfallstatistik: 10.regionales/sac-ausfallstatistik.md
       - LernSax: 10.regionales/sac-lernsax.md
     - Schleswig-Holstein: 10.regionales/schleswig-holstein.md    
-- STUNDENPLAN: 
+- Stundenplan: 
   - Vorbereitung: 
     - Erste Schritte: 01.stundenplan/erste-schritte-in-davinci.md
     - Mit Listen arbeiten: 01.stundenplan/mit-listen-arbeiten.md
     - Zeitvorgaben: 01.stundenplan/zeitvorgaben.md
     - Schlüsselverzeichnisse: 01.stundenplan/schlusselverzeichnisse.md
-    - DAVINCI Optionen: 01.stundenplan/optionen.md
+    - DaVinci Optionen: 01.stundenplan/optionen.md
   - Stammdaten eingeben: 01.stundenplan/stammdaten.md  
   - Stundenplan erstellen: 
     - Allgemeines: 01.stundenplan/allgemeines.md
@@ -143,7 +143,7 @@ nav:
   - Mit dem Kalender planen: 01.stundenplan/kalender.md
   - Schuljahreswechsel: 01.stundenplan/schuljahreswechsel.md
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- VERTRETUNGSPLAN:
+- Vertretungsplan:
   - Allgemein: 02.vertretungsplan/allgemeines.md
   - Fehlzeiten: 02.vertretungsplan/fehlzeiten.md
   - Vertretungen erstellen: 02.vertretungsplan/vertretungen.md
@@ -154,31 +154,31 @@ nav:
   - Publikationen: 02.vertretungsplan/publikation.md
   - Was wird gezeigt?: 02.vertretungsplan/veroeffentlichung.md
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- KURSPLAN: 
+- Kursplan: 
   - Allgemein: 03.kursplan/allgemeines.md
   - Fachwahlen eingeben: 03.kursplan/fachwahlen.md
   - Kursangebot erstellen: 03.kursplan/kursangebot.md
   - Blocken und Verteilen: 03.kursplan/blocken_verteilen.md
   - Schülerpläne: 03.kursplan/schuelerplaene.md
   - Spezielles: 03.kursplan/spezielles.md
-- RESSOURCENPLAN: 
+- Ressourcenplan: 
   - Allgemeines: 04.ressourcen/01.allgemeines.md
   - So gehen Sie vor: 04.ressourcen/02.einsatz.md
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- LOOK: 
+- Look: 
   - Allgemeines: 05.look/00.allgemeines.md
   - Installation und Update: 05.look/01.installation.md
   - Ansichten: 05.look/02.ansichten.md
   - Funktionalitäten: 05.look/04.funktionalitaeten.md
   - Einrichtung für E-Boards: 05.look/03.eboard.md
-- ENTERPRISE:
+- Enterprise:
   - Allgemeines: 06.enterprise/00.allgemeines.md 
-  - DAVINCI SERVER: 
+  - DaVinci Server: 
     - Installation und Updates: 06.enterprise/01.installation.md
-    - DAVINCI SERVER Control: 06.enterprise/03.control.md
+    - DaVinci Server Control: 06.enterprise/03.control.md
     - Client- und Serververbindung: 06.enterprise/04.verwenden.md
     - Einrichtung: 06.enterprise/02.einrichten.md    
-  - DAVINCI EXPLORER: 
+  - DaVinci Explorer: 
     - Start: 06.enterprise/05.explorer.md
     - Benutzer und Benutzergruppen: 06.enterprise/06.benutzer.md
     - Plandateien: 06.enterprise/07.plandateien.md
@@ -187,7 +187,7 @@ nav:
     - Mandanten: 06.enterprise/09.mandanten.md
     - Planwechsel: 06.enterprise/11.planwechsel.md
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- ANALYTICS: 
+- Analytics: 
     - Allgemein: 08.analytics/allgemeines.md
     - Änderungen: 08.analytics/aenderungen.md
     - Unterricht: 08.analytics/unterricht.md
@@ -195,7 +195,7 @@ nav:
     - Lehrer Arbeitstage: 08.analytics/lehrer_arbeitstage.md
     - Lehrer Mehrarbeit: 08.analytics/lehrermehrarbeit.md
     - Ausfallstatistik: 08.analytics/ausfallstatistik.md
-- INFOSERVER: 
+- InfoServer: 
   - Allgemein: 09.infoserver/allgemeines.md
   - Einrichtung:
     - 1. Web-Server: 
@@ -207,17 +207,17 @@ nav:
       - IIS 7.5: 09.infoserver/setup-webserver/iis-7-5.md
       - IIS 7: 09.infoserver/setup-webserver/iis-7.md
     - 2. Benutzerverwaltung: 09.infoserver/user-management.md
-    - 3. DAVINCI INFOSERVER: 
+    - 3. DaVinci InfoServer: 
       - Allgemein: 09.infoserver/setup-infoserver/README.md
       - Apache: 09.infoserver/setup-infoserver/apache.md
       - IIS 10: 09.infoserver/setup-infoserver/iis-10.md
       - IIS 8.5: 09.infoserver/setup-infoserver/iis-8-5.md
       - IIS 7.5: 09.infoserver/setup-infoserver/iis-7-5.md
-    - 4. DAVINCI WEBBOX: 
+    - 4. DaVinci WebBox: 
       - Allgemein: 09.infoserver/setup-webbox/README.md
       - Apache: 09.infoserver/setup-webbox/apache.md
       - IIS 10: 09.infoserver/setup-webbox/iis-10.md
-    - 5. DAVINCI-MOBILE: 
+    - 5. DaVinci-Mobile: 
       - Allgemein: 09.infoserver/setup-mobile/README.md
       - Voraussetzungen: 09.infoserver/setup-mobile/README.md
   - Was wird gezeigt?: 09.infoserver/veroeffentlichung.md     

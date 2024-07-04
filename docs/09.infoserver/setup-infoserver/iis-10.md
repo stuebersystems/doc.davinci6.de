@@ -1,4 +1,4 @@
-# DAVINCI INFOSERVER und IIS 10
+# DaVinci InfoServer und IIS 10
 
 [1]:/assets/images/is/islizenz.png
 [2]:/assets/images/is/iis-win10-add-module.png
@@ -11,43 +11,43 @@
 [9]:/assets/images/is/infoserver.config.png
 [10]:/assets/images/is/infoserver.config01.png
 
-Dieses Kapitel beschreibt die Installation und Konfiguration des DAVINCI INFOSERVER als ISAPI-Modul für Ihren IIS-Web-Server.
+Dieses Kapitel beschreibt die Installation und Konfiguration des DaVinci InfoServer als ISAPI-Modul für Ihren IIS-Web-Server.
 
 !!! info "Hinweis"
 
     Internet Server API (ISAPI) ist eine Programmierschnittstelle von Microsoft, die sowohl von den Microsoft Internetinformationsdiensten (IIS) wie auch vom Apache Web-Server unterstützt werden. ISAPI-Module erweiteren die Standardfunktionalität von Web-Servern.
 
-Voraussetzung für den Einsatz von DAVINCI INFOSERVER ist eine vorhandene IIS 10 Instanz. Details zur Installation Konfiguration von IIS 10 finden Sie [hier](/09.infoserver/setup-webserver/iis-10.md).
+Voraussetzung für den Einsatz von DaVinci InfoServer ist eine vorhandene IIS 10 Instanz. Details zur Installation Konfiguration von IIS 10 finden Sie [hier](/09.infoserver/setup-webserver/iis-10.md).
 
 ## Lizenzierung
 
-Der DAVINCI INFOSERVER arbeitet mit Daten, die er vom DAVINCI Server erhält. Die Installation und Konfiguration von DAVINCI und DAVINCI ENTERPRISE sind Voraussetzung.
+Der DaVinci InfoServer arbeitet mit Daten, die er vom DaVinci Server erhält. Die Installation und Konfiguration von DaVinci und DaVinci Enterprise sind Voraussetzung.
 
-Damit der DAVINCI Server Daten an den INFOSERVER übergibt, muss für den DAVINCI ENTERPRISE SERVER die entsprechende Lizenz importiert werden.  
+Damit der DaVinci Server Daten an den InfoServer übergibt, muss für den DaVinci Enterprise Server die entsprechende Lizenz importiert werden.  
 Gehen Sie wie folgt vor:
 
-1. Öffnen Sie auf dem Rechner, auf dem Ihr DAVINCI Server läuft bitte den Punkt `Systemsteuerung > daVinci-Server (32 bit) > Karte "Dienst"`. 
+1. Öffnen Sie auf dem Rechner, auf dem Ihr DaVinci Server läuft bitte den Punkt `Systemsteuerung > daVinci-Server (32 bit) > Karte "Dienst"`. 
 2. Unten links öffen Sie den Punkt "Lizenz" und importieren Ihre Lizenzdatei.
 
-[![Bitte importieren Sie die Lizenz im DAVINCI ENTERPRISE Control][1]][1] 
+[![Bitte importieren Sie die Lizenz im DaVinci Enterprise Control][1]][1] 
 
-## Installation des DAVINCI INFOSERVER
+## Installation des DaVinci InfoServer
 
 Gehen Sie wie folgt vor:
 
 1. Öffnen Sie die Webseite `http://download.davinci.stueber.de` in Ihrem Web-Browser.
 
-2. Klicken Sie unterhalb von "DAVINCI-INFOSERVER" auf `Download`. Ihr Web-Browser lädt jetzt das Installationpaket `daVinci6Infoserver.msi` herunter.
+2. Klicken Sie unterhalb von "DaVinci-InfoServer" auf `Download`. Ihr Web-Browser lädt jetzt das Installationpaket `daVinci6Infoserver.msi` herunter.
 
 3. Starten Sie das Installationpaket `daVinci6Infoserver.msi` durch Doppelklick und folgen Sie den Anweisungen des Installationsprogramms.
 
-Nach der Beendigung der Installation finden Sie in Ihrem DAVINCI-Verzeichnis einen neuen Unterordner mit Namen `ISAPI` und dort eine Datei namens `daVinciIS.dll`. Also z.B.
+Nach der Beendigung der Installation finden Sie in Ihrem DaVinci-Verzeichnis einen neuen Unterordner mit Namen `ISAPI` und dort eine Datei namens `daVinciIS.dll`. Also z.B.
 
 ```txt
 C:\Program Files (x86)\Stueber Systems\daVinci 6\ISAPI\daVinciIS.dll
 ```
 
-Dies ist der DAVINCI-INFOSERVER, eine DLL, die Sie nun Ihrem Web-Server als ISAPI-Erweiterung bekannt machen müssen.
+Dies ist der DaVinci-InfoServer, eine DLL, die Sie nun Ihrem Web-Server als ISAPI-Erweiterung bekannt machen müssen.
 
 ## Konfiguration des IIS-Web-Servers
 
@@ -55,13 +55,13 @@ Gehen Sie wie folgt vor:
 
 1. Starten Sie den IIS-Manager durch Klicken auf `Start > Alle Apps > Windows-Verwaltungsprogramme > Internetinformationsdienste (IIS)-Manager`. Alternativ können Sie auch das Dialogfenster "Ausführen" durch der Tastenkombination Windows-Taste und \[R\] öffnen. Geben Sie dort unter "Öffnen" den Befehl **inetmgr** ein, und klicken Sie auf `OK`.
 
-2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DAVINCI-INFOSERVER installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
+2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DaVinci-InfoServer installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
 
 3. Auf der rechten Seite doppelklicken Sie auf das Symbol `Handlerzuordnungen`. Die Ansicht "Handlerzuordnungen" öffnet sich.
 
 4. Klicken Sie nun auf `Modulzuordnung hinzufügen` auf der rechten Seite unter `Aktionen`. Ein Dialogfenster öffnet sich.
 
-5. Tragen Sie in diesem Dialogfenster unter "Anforderungspfad" `daVinciIS.dll` ein, wählen Sie unter "Modul" `IsapiModule` aus, tragen Sie unter "Ausführbare Datei (optional)" den kompletten Pfad zur DAVINCI-INFOSERVER-DLL ein, z.B.
+5. Tragen Sie in diesem Dialogfenster unter "Anforderungspfad" `daVinciIS.dll` ein, wählen Sie unter "Modul" `IsapiModule` aus, tragen Sie unter "Ausführbare Datei (optional)" den kompletten Pfad zur DaVinci-InfoServer-DLL ein, z.B.
 
 ```txt
    C:\Program Files (x86)\Stueber Systems\daVinci 6\ISAPI64\daVinciIS.dll
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor:
 
     Bei 64-Bit-Betriebssystemen schauen Sie bitte diesen [Abschnitt](/09.infoserver/setup-infoserver/iis-10.md#verwenden-sie-eine-64-bit-version-von-windows) an!
 
-1. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DAVINCI-INFOSERVER 6`)
+1. Zu guter letzt vergeben Sie dieser Zuordnung noch einen aussagekräftigen Namen (z.B. `DaVinci-InfoServer 6`)
 
 [!["Modulzuordnung hinzufügen"][2]][2] 
 
@@ -89,7 +89,7 @@ Sollten Sie eine 64-bit-Version von Windows einsetzen, gibt es zwei Möglichkeit
 
     Bitte verwenden Sie nur eine der nachstehenden Varianten!
 
-### 1. Verwenden Sie den Webserver nur für den DAVINCI Infoserver?
+### 1. Verwenden Sie den Webserver nur für den DaVinci InfoServer?
 
 Dann genügt die folgende Einstellung im IIS-Manager:
 
@@ -101,19 +101,19 @@ Dann genügt die folgende Einstellung im IIS-Manager:
 
 ### 2. Andere Anwendungen nutzen parallel den Webserver
 
-Seit der Version DAVINCI 6.5.11 wird bei der DAVINCI Infoserver-Installation ein zweites ISAPI-Verzeichnis (ISAPI64) mit angelegt. In dem Verzeichnis befindet sich eine 64-bit-fähige daVinciIS.dll, auf die Sie verweisen können.
+Seit der Version DaVinci 6.5.11 wird bei der DaVinci InfoServer-Installation ein zweites ISAPI-Verzeichnis (ISAPI64) mit angelegt. In dem Verzeichnis befindet sich eine 64-bit-fähige daVinciIS.dll, auf die Sie verweisen können.
 
 Gehen Sie wie folgt vor:
 
 1. Starten Sie den IIS-Manager durch Klicken auf `Start > Alle Apps > Windows-Verwaltungsprogramme > Internetinformationsdienste (IIS)-Manager`. Alternativ können Sie auch das Dialogfenster "Ausführen" durch der Tastenkombination Windows-Taste und \[R\] öffnen. Geben Sie dort unter "Öffnen" den Befehl **inetmgr** ein, und klicken Sie auf `OK`.
 
-2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DAVINCI-INFOSERVER installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
+2. Markieren Sie in der linken Navigation Ihre Webseite, in der Sie den DaVinci-InfoServer installieren wollen. Standardmäßig ist dies der Eintrag "Default Web Site".
 
 3. Auf der rechten Seite doppelklicken Sie auf das Symbol `Handlerzuordnungen`. Die Ansicht "Handlerzuordnungen" öffnet sich.
 
-4. Doppelklicken Sie nun auf die von Ihnen erstellte `Modulzuordnung` auf der linken Seite standardmäßig heißt sie "DAVINCI-INFOSERVER 6". Das Dialogfenster öffnet sich.
+4. Doppelklicken Sie nun auf die von Ihnen erstellte `Modulzuordnung` auf der linken Seite standardmäßig heißt sie "DaVinci-InfoServer 6". Das Dialogfenster öffnet sich.
 
-5. Ändern Sie unter "Ausführbare Datei" den Pfad zur DAVINCI-INFOSERVER-DLL das Verzeichnis ISAPI64 und die darin enthaltene Datei "daVinciIS.dll" ab.
+5. Ändern Sie unter "Ausführbare Datei" den Pfad zur DaVinci-InfoServer-DLL das Verzeichnis ISAPI64 und die darin enthaltene Datei "daVinciIS.dll" ab.
 
 ```
 ...\Stueber Systems\daVinci 6\ISAPI64\daVinciIS.dll
@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor:
 
 ## Ein erster Test
 
-Unser DAVINCI INFOSERVER ist nun installiert, aber noch nicht konfiguriert. Wir haben ihm nämlich noch nicht gesagt, mit welchem DAVINCI SERVER er kommunizieren soll. Bevor wir dies tun, wollen wir aber zunächst einmal testen, ob der DAVINCI INFOSERVER überhaupt auf Anfragen reagiert.
+Unser DaVinci InfoServer ist nun installiert, aber noch nicht konfiguriert. Wir haben ihm nämlich noch nicht gesagt, mit welchem DaVinci Server er kommunizieren soll. Bevor wir dies tun, wollen wir aber zunächst einmal testen, ob der DaVinci InfoServer überhaupt auf Anfragen reagiert.
 
 1. Öffnen Sie Ihren Web-Browser und tippen Sie ein:
 
@@ -131,29 +131,29 @@ Unser DAVINCI INFOSERVER ist nun installiert, aber noch nicht konfiguriert. Wir 
    http://localhost/davinciis.dll
 ```
 
-2. Wenn Ihr Web-Browser nun folgende vom DAVINCI INFOSERVER generierte Meldung anzeigt, ist der DAVINCI INFOSERVER bereit auf Anfragen zu reagieren:
+2. Wenn Ihr Web-Browser nun folgende vom DaVinci InfoServer generierte Meldung anzeigt, ist der DaVinci InfoServer bereit auf Anfragen zu reagieren:
 
-[![Fehlerseite des DAVINCI INFOSERVERS][6]][6]
+[![Fehlerseite des DaVinci INFOSERVERS][6]][6]
 
-## Den DAVINCI INFOSERVER konfigurieren
+## Den DaVinci InfoServer konfigurieren
 
-Wie bereits erwähnt, ist der DAVINCI INFOSERVER nur ein Vermittler zwischen einem Client wie z.B. dem Web-Browser oder DAVINCI MOBILE und einem DAVINCI SERVER. Voraussetzung für einen sinnvollen Einsatz des DAVINCI INFOSERVERS ist also eine Installation des DAVINCI SERVERS in Ihrem Netzwerk.
+Wie bereits erwähnt, ist der DaVinci InfoServer nur ein Vermittler zwischen einem Client wie z.B. dem Web-Browser oder DaVinci Mobile und einem DaVinci Server. Voraussetzung für einen sinnvollen Einsatz des DaVinci INFOSERVERS ist also eine Installation des DaVinci SERVERS in Ihrem Netzwerk.
 
-Ist dies der Fall, können Sie den DAVINCI INFOSERVER konfigurieren:
+Ist dies der Fall, können Sie den DaVinci InfoServer konfigurieren:
 
-1. Öffnen Sie die Windows-Systemsteuerung und klicken Sie auf `daVinci-Infoserver`. Ein Dialogfenster öffnet sich
+1. Öffnen Sie die Windows-Systemsteuerung und klicken Sie auf `daVinci-InfoServer`. Ein Dialogfenster öffnet sich
 
-2. Wechseln Sie auf die Registerkarte `Server-Verbindung` und tragen Sie dort die Verbindungsdaten zu Ihrem DAVINCI SERVER ein. Für die Kommunikation mit dem DAVINCI-SERVER ist ein Benutzerkonto mit entsprechenden Rechten notwendig. Verwenden Sie bitte als Benutzer Ihren zuvor definierten "Webuser" und das dazugehörige Passwort. Weitere Informationen zum Benutzer "Webuser" finden Sie im Kapitel "Benutzerverwaltung".
+2. Wechseln Sie auf die Registerkarte `Server-Verbindung` und tragen Sie dort die Verbindungsdaten zu Ihrem DaVinci Server ein. Für die Kommunikation mit dem DaVinci-Server ist ein Benutzerkonto mit entsprechenden Rechten notwendig. Verwenden Sie bitte als Benutzer Ihren zuvor definierten "Webuser" und das dazugehörige Passwort. Weitere Informationen zum Benutzer "Webuser" finden Sie im Kapitel "Benutzerverwaltung".
 
 [!["Server-Verbindung"][7]][7] 
 
 3. Der Pfad unter `Webseiten-Pfad` ist in der Regel bereits ausgefüllt und muss nicht geändert werden:
 
 ```
-   c:\ProgramData\Stueber Systems\daVinci 6 Infoserver
+   c:\ProgramData\Stueber Systems\daVinci 6 InfoServer
 ```
 
-4. Wechseln Sie zur Registerkarte `Plandatei`. Hier tragen Sie den Namen der Datei, die Sie auf dem DAVINCI SERVER ansprechen wollen, sowie deren eindeutige GUID ein. In DAVINCI können Sie beide Angaben unter `Plan > Eigenschaften > Allgemein` einsehen, sobald Sie mit dem DAVINCI-SERVER verbunden sind und die Datei geöffnet haben. Alternativ können Sie diese Angaben auch im DAVINCI-EXPLORER durch Aufruf der Eigenschaften einer Plandatei (rechte Maustaste und Eigenschaften) nachschauen.
+4. Wechseln Sie zur Registerkarte `Plandatei`. Hier tragen Sie den Namen der Datei, die Sie auf dem DaVinci Server ansprechen wollen, sowie deren eindeutige GUID ein. In DaVinci können Sie beide Angaben unter `Plan > Eigenschaften > Allgemein` einsehen, sobald Sie mit dem DaVinci-Server verbunden sind und die Datei geöffnet haben. Alternativ können Sie diese Angaben auch im DaVinci-Explorer durch Aufruf der Eigenschaften einer Plandatei (rechte Maustaste und Eigenschaften) nachschauen.
 
 [!["Namen und GUID der Plandatei eintragen"][8]][8] 
 
@@ -178,15 +178,15 @@ http://localhost/davinciIS.dll?type=class
   
 !!! info "Hinweis"
 
-    Sollten Sie bereits den Benutzer `Webuser` eingerichtet und im DAVINCI INFOSERVER Control hinterlegt haben, ist die Meldung `GeIndexPage: User access denied` ebenfalls korrekt und ein Zeichen für einen funktionierenden DAVINCI INFOSERVER.
+    Sollten Sie bereits den Benutzer `Webuser` eingerichtet und im DaVinci InfoServer Control hinterlegt haben, ist die Meldung `GeIndexPage: User access denied` ebenfalls korrekt und ein Zeichen für einen funktionierenden DaVinci InfoServer.
 
 ## Die Übertragungsgeschwindigkeit steigern
 
-Je nach Schulart kann die Menge der übertragene Menge an Daten recht unterschiedlich ausfallen. Infolgedessen kann die Ladezeit bis zur Anzeige in der WEBBOX oder in der App DAVINCI MOBILE auch in einer Berufsschule deutlich mehr Zeit in Anspruch nehmen, als die Ladezeit für die Daten einer Grundschule.
+Je nach Schulart kann die Menge der übertragene Menge an Daten recht unterschiedlich ausfallen. Infolgedessen kann die Ladezeit bis zur Anzeige in der WebBox oder in der App DaVinci Mobile auch in einer Berufsschule deutlich mehr Zeit in Anspruch nehmen, als die Ladezeit für die Daten einer Grundschule.
 
 Um die Ladezeiten möglichst kurz zu halten, kann man einen Parameter aktivieren, der das Datenpaket vor der Übergabe komprimiert.
 
-Um diesen Parameter zu aktivieren, öffnen Sie auf dem Rechner, auf dem Ihr DAVINCI INFOSERVER läuft bitte den Pfad:
+Um diesen Parameter zu aktivieren, öffnen Sie auf dem Rechner, auf dem Ihr DaVinci InfoServer läuft bitte den Pfad:
 
 `C:\ProgramData\Stueber Systems\daVinci 6 InfoServer`
 

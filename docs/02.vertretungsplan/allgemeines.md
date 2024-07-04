@@ -9,7 +9,7 @@
 [7]:/assets/images/vertretungsplan/vp10.png
 [8]:/assets/images/vertretungsplan/sub-plan170.png
 
-Der Stundenplan unterliegt in der Regel täglich Änderungen, die daher kommen, dass Lehrer fehlen oder Unterricht aufgrund von Klassenfahren oder aus anderen Gründen entfällt. Dies führt zu Änderungen im Stundenplan aufgrund von Vertretungen, über die die betroffenen Lehrer und Klassen schnell informiert werden müssen. Dieser Aufgabe dient die Ansicht `Vertretungsplan` in DAVINCI.
+Der Stundenplan unterliegt in der Regel täglich Änderungen, die daher kommen, dass Lehrer fehlen oder Unterricht aufgrund von Klassenfahren oder aus anderen Gründen entfällt. Dies führt zu Änderungen im Stundenplan aufgrund von Vertretungen, über die die betroffenen Lehrer und Klassen schnell informiert werden müssen. Dieser Aufgabe dient die Ansicht `Vertretungsplan` in DaVinci.
 
 [![Vertretungsplan][1]][1]
 
@@ -33,15 +33,15 @@ Wie Sie mit diesen Ansichten arbeiten können, erfahren Sie in den folgenden Kap
 
 ## Vertretungspläne publizieren
 
-DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schnell zu publizieren:
+DaVinci stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schnell zu publizieren:
 
-* [Webbox](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#2-davinci-webbox) oder [DAVINCI App](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#1-davinci-mobile)
+* [WebBox](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#2-davinci-webbox) oder [DaVinci App](https://doc.davinci6.stueber.de/09.infoserver/allgemeines/#1-davinci-mobile)
 * [Per Ausdruck](https://doc.davinci6.stueber.de/02.vertretungsplan/publikation/#drucken)
 * [Als HTML-Pläne](https://doc.davinci6.stueber.de/02.vertretungsplan/publikation/#html-vertretungsplane-exportieren)
 * [Als Kurznachricht per E-Mail oder SMS](https://doc.davinci6.stueber.de/02.vertretungsplan/publikation/#kurznachrichten-versenden)
 * [Über öffentliche Bildschirme (Public Displays) in Ihrer Schule](https://doc.davinci6.stueber.de/05.look/02.ansichten/#die-ansicht-vertretungsplan)
 
-## DAVINCI Planeigenschaften
+## DaVinci Planeigenschaften
 
 Öffen Sie die DaVIINVI Planeigenschaften über die `Plan > Eigenschaften`. Auf der Registerkarte `Datenschutz` finden die Eintragungsmöglichkeiten für den Vertretungsplanbereich:
 
@@ -49,21 +49,21 @@ DAVINCI stellt Ihnen verschiedene Wege zur Verfügung, Ihre Planänderungen schn
 
 ### Änderungen
 
-Setzen Sie den Haken bei "Änderungen freigeben", wenn Sie gezielt entscheiden möchten, ob Änderungen freigegeben werden müssen und damit im Ausdruck, in DAVINCI Look und der Webbox sichtbar sind.
+Setzen Sie den Haken bei "Änderungen freigeben", wenn Sie gezielt entscheiden möchten, ob Änderungen freigegeben werden müssen und damit im Ausdruck, in DaVinci Look und der WebBox sichtbar sind.
 
-Im unteren Bereich können Sie auswählen, für wieviele Tage maximimal Änderungen in der Webbox angezeoigt werden.
+Im unteren Bereich können Sie auswählen, für wieviele Tage maximimal Änderungen in der WebBox angezeoigt werden.
 
-Mit dem Haken bei Mitteilungen für Vertretungslisten nicht publizieren, legen Sie für die Webbox fest, ob die Mittteilungen dort in der Vertretungsliste angezeigt werden oder nicht.
+Mit dem Haken bei Mitteilungen für Vertretungslisten nicht publizieren, legen Sie für die WebBox fest, ob die Mittteilungen dort in der Vertretungsliste angezeigt werden oder nicht.
 
 ### Fehlgründe
 
-Bitte wählen Sie aus, ob die Lehrer-Fehlgründe in DAVINCI LOOK als "abwesend" oder mit dem Text des Schlüsselverzeichnisses "Lehrerfehlgründe" ausgegeben wird.
+Bitte wählen Sie aus, ob die Lehrer-Fehlgründe in DaVinci Look als "abwesend" oder mit dem Text des Schlüsselverzeichnisses "Lehrerfehlgründe" ausgegeben wird.
 
-Über den Haken "Fehlgrund in Lehrerplan anzeigen" können Sie zusätzlich für DAVINCI festlegen, ob der Lehrerfehlgrund hier im Léhrerplan immer mit angezeigt wird.
+Über den Haken "Fehlgrund in Lehrerplan anzeigen" können Sie zusätzlich für DaVinci festlegen, ob der Lehrerfehlgrund hier im Léhrerplan immer mit angezeigt wird.
 
 ### Lehrer-Datenschutz
 
-Bitte wählen Sie aus, ob die Ausdrucke der Lehrer-Veransatltungen und Lehrerzeitkonten aus DAVINCI LOOK heraus möglich ist.
+Bitte wählen Sie aus, ob die Ausdrucke der Lehrer-Veransatltungen und Lehrerzeitkonten aus DaVinci Look heraus möglich ist.
 
 ## Schlüsselverzeichnisse
 
@@ -114,7 +114,7 @@ In den `Stammdaten > Lehrer > Lehrerart` kann zur Auswahl bei der Vertretungsers
 
 ## Vertretungsoptionen
 
-Über den Aufruf `Extras > Verwalten > Optionen` gelangen Sie in das Dialogfenster der DAVINCI-Optionen. Hier  können Sie spezielle Einstellungen für den Vertretungsplan
+Über den Aufruf `Extras > Verwalten > Optionen` gelangen Sie in das Dialogfenster der DaVinci-Optionen. Hier  können Sie spezielle Einstellungen für den Vertretungsplan
 vornehmen. 
 
 ### Allgemeine Vertretungsplanoptionen
@@ -145,7 +145,7 @@ Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Plananzeige` Einstel
 
 [![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Plananzeige`.][6]][6]
 
-Sie können im DAVINCI-Vertretungsplan angeben, wie neue Änderungen im Vertretungsplan in den Stundenplänen auf dem Bildschirm und im Ausdruck speziell gekennzeichnet werden.
+Sie können im DaVinci-Vertretungsplan angeben, wie neue Änderungen im Vertretungsplan in den Stundenplänen auf dem Bildschirm und im Ausdruck speziell gekennzeichnet werden.
 
 Definieren Sie zunächst unter `Zeitpunkt`, ab der eine Änderung als `neu` angesehen wird: den Zeitpunkt, ab der eine Änderung im Vertretungsplan als `neu` angesehen wird. Im Aufklappmenü ist dabei die Standardeinstellungen `Letzte Veröffentlichung`. Bei dieser Einstellung werden alle Änderungen als neu betrachtet, die seit der letzten Veröffentlichung der Änderung durch einen Vertretungsplaner hinzugekommen sind.
 
@@ -158,7 +158,7 @@ Zur analogen Kennzeichnung einer neuen Änderung im Ausdruck folgen Sie bitte de
 
 ### Farben
 
-Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Farben` Farbvorgaben für bestimmte Einstellungen speziell für DAVINCI-Vertretungsplan vornehmen.
+Im Dialogfenster `daVinci-Optionen` können Sie im Bereich `Farben` Farbvorgaben für bestimmte Einstellungen speziell für DaVinci-Vertretungsplan vornehmen.
 
 [![Dies ist das Dialogfenster `daVinci-Optionen` mit dem Bereich `Farben`][7]][7]
 

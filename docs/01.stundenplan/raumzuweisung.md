@@ -1,6 +1,6 @@
 # Raumzuweisung
 
-In DAVINCI stehen Ihnen zwei Wege zur Verfügung, um einer Veranstaltung Räume zuzuordnen:
+In DaVinci stehen Ihnen zwei Wege zur Verfügung, um einer Veranstaltung Räume zuzuordnen:
 
 1. Das Detailfenster `Passende Räume`. Über dieses Fenster können Sie auch bereits gesetzten Terminen im Plan nachträglich Räume zuweisen.
 2. Das Dialogfenster `Veranstaltung`

@@ -2,7 +2,7 @@
 
 Die Internetinformationsdienste 7.0 (kurz IIS 7.0) sind Bestandteil von Windows Server 2008 (und Windows Vista). Eine Teilfunktion der IIS sind die WWW-Dienste, die u.a. einen vollständigen Web-Server bereitstellen.
 
-Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVER, Intstallation der DAVINCI WEBBOX).
+Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DaVinci InfoServer, Intstallation der DaVinci WebBox).
 
 ## Installation
 

@@ -4,7 +4,7 @@
 [5]:/assets/images/stundenplan/05.png
 [6]:/assets/images/stundenplan/06.png
 
-In DAVINCI stehen Ihnen zwei Wege für die Zuweisung der Lehrer zu einer Veranstaltung zur Verfügung.
+In DaVinci stehen Ihnen zwei Wege für die Zuweisung der Lehrer zu einer Veranstaltung zur Verfügung.
 
 1. Das Detailfenster `Passende Lehrer`, über dieses Fenster können Sie auch bereits gesetzten Terminen im Plan nachträglich Lehrer zuweisen.
 

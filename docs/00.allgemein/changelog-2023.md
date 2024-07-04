@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in DAVINCI 6 und in der DAVINCI WEBBOX.
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in DaVinci 6 und in der DaVinci WebBox.
 
 * Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2021](changelog-2021.md)[2020](changelog-2020.md), [2019](changelog-2019.md), [2018](changelog-2018.md), [2017](changelog-2017.md),  [2016](changelog-2016.md), [2015](changelog-2015.md), [2014 und früher](changelog-archive.md).
 
@@ -10,7 +10,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in DAVINCI
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
-    **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
+    **Log4Shell-Schwachstelle**: Unsere Software-Produkte Enbrea, DaVinci, Magellan, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
 
 ## LEGENDE
 
@@ -21,19 +21,19 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DAVINCI WEBBOX Version 1.10.6 (18.10.2023)
+## DaVinci WebBox Version 1.10.6 (18.10.2023)
 
 [**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
 [**Download**](https://davinci-webbox.stueber.de/)
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
 
-## DAVINCI Version 6.5.85 (16.10.2023)
+## DaVinci Version 6.5.85 (16.10.2023)
 
 ### Allgemein
 
@@ -48,7 +48,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Für Kurslisten wird die ID der Schüler mit ausgegeben.
 
-## DAVINCI Version 6.5.84 (28.08.2023)
+## DaVinci Version 6.5.84 (28.08.2023)
 
 ### Allgemein
 
@@ -56,7 +56,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: aktualisierte Beispieldateien
 * FIX: Druckdarstellung korrigiert (Darstellung mit ... in einzelnen Spalten)
   
-## DAVINCI Version 6.5.83 (17.07.2023)
+## DaVinci Version 6.5.83 (17.07.2023)
 
 ### Allgemein
 
@@ -72,24 +72,24 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Kursplan > Fachwahl > Sortieren` Darstellungsfehler behoben
 
-## DAVINCI Version 6.5.82 (25.04.2023)
+## DaVinci Version 6.5.82 (25.04.2023)
 
 ### Allgemein
 
 FIX: Skalierungsfehler in Fenstern/ Ansichten gelöst
 
-## DAVINCI Version 6.5.81 (29.03.2023)
+## DaVinci Version 6.5.81 (29.03.2023)
 
 ### Allgemein
 
-* CHANGE: Ergänzen der Registrypfade, die für den Abgleich zwischen DAVINCI und MAGELLAN10 genutzt werden
+* CHANGE: Ergänzen der Registrypfade, die für den Abgleich zwischen DaVinci und MAGELLAN10 genutzt werden
 * NEW: Kalenderdateien 2023-2024
 
 ### Vertretungsplan
 
 * FIX:Fehlstellen ohne Datumsangabe werden nicht in das ECF-Format ausgegeben 
 
-## DAVINCI Version 6.5.80 (06.01.2023)
+## DaVinci Version 6.5.80 (06.01.2023)
 
 ### Allgemein
 

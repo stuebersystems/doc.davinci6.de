@@ -1,6 +1,6 @@
-# Den DAVINCI-INFOSERVER installieren
+# Den DaVinci-InfoServer installieren
 
-Der DAVINCI INFOSERVER ist ein ISAPI-Modul für den Einsatz im Microsoft IIS-Webserver (IIS = Internet Information Services) oder Apache HTTP Server.
+Der DaVinci InfoServer ist ein ISAPI-Modul für den Einsatz im Microsoft IIS-Webserver (IIS = Internet Information Services) oder Apache HTTP Server.
 
 !!! info "Hinweis"
 

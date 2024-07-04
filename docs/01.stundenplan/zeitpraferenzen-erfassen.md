@@ -1,6 +1,6 @@
 # Zeitpräferenzen erfassen
 
-Zeitpräferenzen geben an, ob bestimmte Zeitpositionen im Plan für eine Klasse, einen Lehrer, einen Raum, ein Fach oder eine Veranstaltung verfügbar sein soll oder nicht. Dabei unterscheidet DAVINCI zwischen Sperrungen und Kernzeiten:
+Zeitpräferenzen geben an, ob bestimmte Zeitpositionen im Plan für eine Klasse, einen Lehrer, einen Raum, ein Fach oder eine Veranstaltung verfügbar sein soll oder nicht. Dabei unterscheidet DaVinci zwischen Sperrungen und Kernzeiten:
 
 * **Sperrung:** Mit einer Sperrung legen Sie fest, dass an einer Stundenplanposition kein Unterricht verplant werden darf oder soll. Für jede Sperrung können Sie vier Gewichtungsstufen vergeben. Diese Gewichtungsstufen werden von der Setzautomatik abgestuft berücksichtigt. Eine Sperrung der Stufe „1“ genießt für die Automatik absoluten Charakter, d.h. die Automatik darf an die gesperrten Stellen keinen Unterricht platzieren. Sperrungen der Rangstufen „2“ bis „4“ besitzen für die Automatik bedingt normativen Charakter, d.h. die Automatik versucht an die gesperrten Termine keinen Unterricht zu platzieren. Falls die Automatik aber keine andere Lösung findet den Unterricht zu verplanen, als diesen an die bedingt gesperrten Positionen zu setzen, werden diese Positionen in die Unterrichtsplanung mit einbezogen. Je niedriger dabei die zugewiesene Zahl, desto höher ist das Gewicht der eingetragenen Sperrung und desto weniger ist die Automatik geneigt gegen eine Sperrung zu verstoßen.
 
@@ -24,7 +24,7 @@ Um Positionen für eine Veranstaltung zu sperren:
 
 !!! info "Hinweis"
 
-    Das Eintragen von Kernzeiten/ Sperrungen nur für bestimmte Kalenderwochen bzw. Tage erfordert eine Lizenz für das DAVINCI Zusatzmodul JAHRESTERMINE.
+    Das Eintragen von Kernzeiten/ Sperrungen nur für bestimmte Kalenderwochen bzw. Tage erfordert eine Lizenz für das DaVinci Zusatzmodul JAHRESTERMINE.
 
 ## Sperrung für einen Plan eintragen
 
@@ -45,7 +45,7 @@ Wählen Sie im Feld „Wiederholung“ den Eintrag „Einmalig“ aus dem Aufkla
 
 !!! info "Hinweis"
 
-    Das Eintragen von Kernzeiten bzw. Sperrungen für bestimmte Tage bzw. Kalenderwochen erfordert eine Lizenz für das DAVINCI Zusatzmodul JAHRESTERMINE.
+    Das Eintragen von Kernzeiten bzw. Sperrungen für bestimmte Tage bzw. Kalenderwochen erfordert eine Lizenz für das DaVinci Zusatzmodul JAHRESTERMINE.
 
 Oder
 
@@ -63,7 +63,7 @@ Zum Eingeben von Kernzeiten gehen Sie analog zum Eingeben von Sperrungen vor, in
 
 !!! info "Hinweis"
 
-    Das Eintragen von Kernzeiten/Sperrungen nur für bestimmte Kalenderwochen erfordert eine Lizenz für das DAVINCI Zusatzmodul JAHRESTERMINE.
+    Das Eintragen von Kernzeiten/Sperrungen nur für bestimmte Kalenderwochen erfordert eine Lizenz für das DaVinci Zusatzmodul JAHRESTERMINE.
 
 ![Kernzeit anlegen](/assets/images/kernzeit.png)
 

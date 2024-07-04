@@ -1,8 +1,8 @@
 # Landestatistik LUSD Hessen
 
-DAVINCI ist für den Datensynchronisation mit dem vom hessischen Kultusministerium herausgegebenen Schulverwaltungsprogramm LUSD zertifiziert.
+DaVinci ist für den Datensynchronisation mit dem vom hessischen Kultusministerium herausgegebenen Schulverwaltungsprogramm LUSD zertifiziert.
 
-Die Daten werden dabei in verschlüsselten XML-Dateien übertragen. Die Verschlüsselung erfolgt mit der frei im Internet verfügbaren Software „GnuPG“, die Sie installieren müssen, bevor Sie in DAVINCI Daten aus LUSD importieren bzw. Daten nach LUSD exportieren können.
+Die Daten werden dabei in verschlüsselten XML-Dateien übertragen. Die Verschlüsselung erfolgt mit der frei im Internet verfügbaren Software „GnuPG“, die Sie installieren müssen, bevor Sie in DaVinci Daten aus LUSD importieren bzw. Daten nach LUSD exportieren können.
 
 ## Vorgehensweise
 
@@ -12,24 +12,24 @@ Führen Sie das Installationsprogramm von GnuPG mit den Standardvorgaben aus.
 
 !!! info "Hinweis"
 
-    Sie können nach LUSD keine in DAVINCI neu angelegten Stammdaten übertragen. Neue Stammdaten müssen immer zuerst in der LUSD erfasst werden und dann über einen Datenimport in DAVINCI übergeben werden.
+    Sie können nach LUSD keine in DaVinci neu angelegten Stammdaten übertragen. Neue Stammdaten müssen immer zuerst in der LUSD erfasst werden und dann über einen Datenimport in DaVinci übergeben werden.
 
 2. Laden Sie mit `Plan > Importieren und Exportieren > Hessen LUSD importieren` die Stammdaten und die Unterrichtsverteilung aus der LUSD. Sie kann aus der LUSD in Form einer verschlüsselten XML-Datei exportiert werden.
 
 ![Import/Export-Assistent, Hessen LUSD importieren](/assets/images/regionales/reg1.png)
 
-3. Erstellen Sie den Stundenplan in DAVINCI.
+3. Erstellen Sie den Stundenplan in DaVinci.
 4. Exportieren Sie mit `Plan > Importieren und Exportieren > Statistikdaten exportieren > Statistik Hessen (LUSD) exportieren`  die verplanten Termine wieder nach LUSD.
 
 ![Import/Export-Assistent, Statistikdaten exportieren > Statistik Hessen (LUSD) exportieren](/assets/images/regionales/reg2.png)
 
 !!! info "Hinweis"
 
-    Sie können in DAVINCI neu eingegebene Kurse nicht nach LUSD übernehmen, weil die LUSD Synchronisation dies leider nicht vorsieht.
+    Sie können in DaVinci neu eingegebene Kurse nicht nach LUSD übernehmen, weil die LUSD Synchronisation dies leider nicht vorsieht.
 
 ## Was wird synchronisiert
 
-Es werden folgende Daten zwischen DAVINCI und LUSD synchronisiert. Es handelt sich um eine echte Untermenge der Daten die in DAVINCI vorhanden sind: So können in DAVINCI z.B. je Termin mehrere Räume zugeordnet sein, in LUSD nur jeweils ein Raum, d.h. alle zweiten und dritten Räume werde nicht synchronisiert.
+Es werden folgende Daten zwischen DaVinci und LUSD synchronisiert. Es handelt sich um eine echte Untermenge der Daten die in DaVinci vorhanden sind: So können in DaVinci z.B. je Termin mehrere Räume zugeordnet sein, in LUSD nur jeweils ein Raum, d.h. alle zweiten und dritten Räume werde nicht synchronisiert.
 
 **Folgende Daten werden synchronisiert:**
 
@@ -93,7 +93,7 @@ Es werden folgende Daten zwischen DAVINCI und LUSD synchronisiert. Es handelt si
 | Feld        | Beschreibung           |
 | ----------- | ---------------------- |
 | Externe ID  | ID des Faches aus LUSD |
-| Kürzel      | Fachkürzel aus DAVINCI |
+| Kürzel      | Fachkürzel aus DaVinci |
 | Schlüssel   | Schlüssel des HKM      |
 | Bezeichnung | Bezeichnung            |
 
@@ -101,22 +101,22 @@ Es werden folgende Daten zwischen DAVINCI und LUSD synchronisiert. Es handelt si
 
 | Feld        | Beschreibung           |
 | ----------- | ---------------------- |
-| Kürzel      | Raumkürzel aus DAVINCI |
+| Kürzel      | Raumkürzel aus DaVinci |
 | Bezeichnung | Bezeichnung            |
 
 ## Lehrer
 
 | Feld         | Beschreibung             |
 | ------------ | ------------------------ |
-| Vorname      | Lehrerkürzel aus DAVINCI |
+| Vorname      | Lehrerkürzel aus DaVinci |
 | Nachname     | Bezeichnung              |
 | Anrechnungen | Summe, siehe Zeitkonto   |
 | Abordnungen  | Summe, siehe Zeitkonto   |
 | Sollstunden  | Summe, siehe Zeitkonto   |
 
-## Perioden (DAVINCI) /Frequenz (LUSD)
+## Perioden (DaVinci) /Frequenz (LUSD)
 
 | Feld        | Beschreibung                   |
 | ----------- | ------------------------------ |
-| Kürzel      | Kürzel der Periode aus DAVINCI |
+| Kürzel      | Kürzel der Periode aus DaVinci |
 | Bezeichnung | Bezeichnung                    |

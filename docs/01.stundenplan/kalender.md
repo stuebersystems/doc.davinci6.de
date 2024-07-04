@@ -1,6 +1,6 @@
 # Mit dem Kalender planen
 
-Der Programmbereich `Kalender` ist ein weiterer grundlegender Bestandteil des Moduls DAVINCI STUNDENPLAN. Die Funktionen dieses Programmbereichs bauen auf den Bereichen `Stammdaten` und `Stundenplan` auf.
+Der Programmbereich `Kalender` ist ein weiterer grundlegender Bestandteil des Moduls DaVinci Stundenplan. Die Funktionen dieses Programmbereichs bauen auf den Bereichen `Stammdaten` und `Stundenplan` auf.
 
 Der Programmbereich `Kalender` ist speziell auf die Planung einmaliger bzw. unregelmäßig wiederkehrender Ereignisse und Veranstaltungen ausgerichtet.
 
@@ -28,7 +28,7 @@ Der Programmbereich `Kalender` dient dem:
 * erfassen von persönlichen schulischen und nicht-schulischen Termine z.B. Prüfungen, Elternsprechstunden oder Zahnarztbesuche. Dafür können Sie einen persönlichen Zusatzkalender anlegen, der nur von Ihnen eingesehen werden kann.
 * erfassen von Aufgabenplanung z.B. die Teilnehmer sowie den Zeitraum für die Vorbereitungen zum „Tag der offenen Tür“.
 
-Die Einträge, die Sie in der Kalenderansicht vornehmen, werden in drei Listen hinterlegt, die Sie in den Ansichten „Ereignisse“, „Aufgaben“ und „Termine“ finden. Die Spaltenfelder dieser Listen zeigen die wesentlichen Angaben zu den erstellten Terminen und Aufgaben. Wie Sie in DAVINCI 6 mit Listen arbeiten, erfahren Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/mit-listen-arbeiten).
+Die Einträge, die Sie in der Kalenderansicht vornehmen, werden in drei Listen hinterlegt, die Sie in den Ansichten „Ereignisse“, „Aufgaben“ und „Termine“ finden. Die Spaltenfelder dieser Listen zeigen die wesentlichen Angaben zu den erstellten Terminen und Aufgaben. Wie Sie in DaVinci 6 mit Listen arbeiten, erfahren Sie [hier](https://doc.davinci6.stueber.de/01.stundenplan/mit-listen-arbeiten).
 
 Es stehen Ihnen stehen folgende Funktionen zur Verfügung:
 
@@ -138,11 +138,11 @@ Um einen Termin wieder aus der Kalenderansicht zu entfernen, markieren Sie den K
 
 ### Termine importieren
 
-DAVINCI 6 unterstützt das iCalender-Format für den Austausch von Kalenderdaten.
+DaVinci 6 unterstützt das iCalender-Format für den Austausch von Kalenderdaten.
 
-Kalenderdaten, die in diesem Format vorliegen, können Sie nach DAVINCI importieren. Dies ermöglicht den Import von Terminen aus zahlreichen anderen Kalenderprogrammen, z.B. Mozilla Sunbird, Google Kalender.
+Kalenderdaten, die in diesem Format vorliegen, können Sie nach DaVinci importieren. Dies ermöglicht den Import von Terminen aus zahlreichen anderen Kalenderprogrammen, z.B. Mozilla Sunbird, Google Kalender.
 
-Um im Programmbereich `Kalender` einen Kalender (z.B.: einen DAVINCI Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
+Um im Programmbereich `Kalender` einen Kalender (z.B.: einen DaVinci Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
 
 !!! info "Hinweis"
 
@@ -151,7 +151,7 @@ Um im Programmbereich `Kalender` einen Kalender (z.B.: einen DAVINCI Ferienkalen
 
 ### Termine exportieren
 
-Sie können die Termindaten eines aufgerufenen Einzelkalenders auch in das „iCalender“-Format exportieren. Dadurch können Sie Ihre Termine aus DAVINCI bequem auch in anderen Kalenderprogrammen nutzen.
+Sie können die Termindaten eines aufgerufenen Einzelkalenders auch in das „iCalender“-Format exportieren. Dadurch können Sie Ihre Termine aus DaVinci bequem auch in anderen Kalenderprogrammen nutzen.
 
 Außerdem stehen Ihnen für einen Export Ihrer Kalendertermine die Formate „Excel“, „TXT“, „HTML“ und „XML“ zur Verfügung.
 
@@ -263,7 +263,7 @@ Zeitkonto |
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, dass an dieser Stelle keine Anrechnungen eingetragen werden. Um Anrechnungen bzw. eine Fehlzeit für die Teilnehmer einzutragen benutzen Sie die Funktion `Fehlzeiten eintragen`. Für diese Funktion benötigen Sie das Modul daVinci VERTRETUNGSPLAN.
+    Bitte beachten Sie, dass an dieser Stelle keine Anrechnungen eingetragen werden. Um Anrechnungen bzw. eine Fehlzeit für die Teilnehmer einzutragen benutzen Sie die Funktion `Fehlzeiten eintragen`. Für diese Funktion benötigen Sie das Modul daVinci Vertretungsplan.
 
 Bestätigen Sie Ihre Angaben mit `Speichern & schließen`. Nach dem Schließen wird das neue Ereignis in den zugehörigen Kalenderansichten sowie auf der Registerkarte „Ereignisse“ hinterlegt.
 
@@ -288,14 +288,14 @@ Wenn Sie alle Teilnehmerdaten erfasst haben, so bestätigen Sie Ihre Angaben mit
 
 ## Termine mit Outlook/Google synchronisieren
 
-DAVINCI 6 bietet die Möglichkeit die Daten des Haupt- und Unterrichtskalenders mit den externen Kalenderprogrammen Microsoft Outlook und Google Kalender zu synchronisieren.
+DaVinci 6 bietet die Möglichkeit die Daten des Haupt- und Unterrichtskalenders mit den externen Kalenderprogrammen Microsoft Outlook und Google Kalender zu synchronisieren.
 
 1. Klicken Sie in auf `Start > Einträge > Synchronisieren` und wählen Sie die gewünschte Richtung der Synchronisation.
 
 ![Aufruf "Synchronisieren"](/assets/images/synchr01.png)
 
-2. Wählen Sie `DAVINCI -> Externer Kalender`, um die Einträge im externen Kalender mit den Bearbeitungen in DAVINCI zu überschreiben.
-3. Wählen Sie `Externer Kalender -> DAVINCI`, um die Einträge in DAVINCI von den Bearbeitungen des externen Kalenders überschreiben zu lassen.
+2. Wählen Sie `DaVinci -> Externer Kalender`, um die Einträge im externen Kalender mit den Bearbeitungen in DaVinci zu überschreiben.
+3. Wählen Sie `Externer Kalender -> DaVinci`, um die Einträge in DaVinci von den Bearbeitungen des externen Kalenders überschreiben zu lassen.
 
 ![Auf der Seite "Kalenderdienst auswählen" legen Sie fest, mit welchem externen Programm der Abgleich erfolgen soll.](/assets/images/synchr02.png)
 
@@ -319,7 +319,7 @@ Auf der nun erscheinenden Assistentenseite teilt sich der Pfad, je nachdem ob Si
 
 ![Auswahl Lehrer-Planeinträge](/assets/images/Lehrerplandaten.synchr.png)
 
-Auf der Assistentenseite `DAVINCI-Kalender auswählen` befindet sich ein Auswahlfeld, mit dem Sie den Kalender auswählen können, dessen Einträge mit `Microsoft Outlook` synchronisiert werden sollen. Zur Auswahl stehen hier der `Hauptkalender` sowie ggf. von Ihnen selbst angelegte Zusatzkalender, z.B. `Mein Kalender`. Bitte beachten Sie: Der Unterrichts-Kalender steht hier nicht zur Auswahl. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+Auf der Assistentenseite `DaVinci-Kalender auswählen` befindet sich ein Auswahlfeld, mit dem Sie den Kalender auswählen können, dessen Einträge mit `Microsoft Outlook` synchronisiert werden sollen. Zur Auswahl stehen hier der `Hauptkalender` sowie ggf. von Ihnen selbst angelegte Zusatzkalender, z.B. `Mein Kalender`. Bitte beachten Sie: Der Unterrichts-Kalender steht hier nicht zur Auswahl. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 
 Nun müssen Sie auswählen, welchen externen Kalender (innerhalb Ihres Google-Kontos bzw. Outlook-Kontos) Sie benutzen wollen und können dann den Assistenten starten.
 

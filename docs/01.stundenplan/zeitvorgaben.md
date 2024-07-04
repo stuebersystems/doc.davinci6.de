@@ -1,6 +1,6 @@
 # Zeitvorgaben
 
-Die Unterrichtsplanung mit DAVINCI 6 basiert auf verschiedenen Zeitvorgaben, die Sie zu Beginn der Planerstellung an Ihre spezifischen Gegebenheiten anpassen sollten.  
+Die Unterrichtsplanung mit DaVinci 6 basiert auf verschiedenen Zeitvorgaben, die Sie zu Beginn der Planerstellung an Ihre spezifischen Gegebenheiten anpassen sollten.  
 
 * **Planungszeitraum**: Die Eckdaten des Planungszeitraums umfassen zum einen die Kalenderdaten z.B. des ganzen oder halben Schuljahrs. Zum anderen aber auch die Wochentage, an denen Unterricht verplant werden soll.
 * **Ferien und Feiertage**: Damit an den bundeslandspezifischen Ferien- und Feiertagen kein Unterricht verplant wird, müssen die Kalenderdaten dieser Ereignisse importiert werden.
@@ -10,7 +10,7 @@ Die Unterrichtsplanung mit DAVINCI 6 basiert auf verschiedenen Zeitvorgaben, die
 
 ## Ferien und Feiertage importieren
 
-DAVINCI 6 unterstützt das iCalender-Format für den Austausch von Kalenderdaten. Kalenderdaten, die in diesem Format vorliegen, können Sie nach DAVINCI importieren. Um im Programmbereich „Kalender“ einen Kalender (z.B.: einen DAVINCI Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
+DaVinci 6 unterstützt das iCalender-Format für den Austausch von Kalenderdaten. Kalenderdaten, die in diesem Format vorliegen, können Sie nach DaVinci importieren. Um im Programmbereich „Kalender“ einen Kalender (z.B.: einen DaVinci Ferienkalender) zu importieren, wählen Sie in der Kalenderansicht `Start > Importieren` und wählen den entsprechenden Kalender aus.
 
 Die offiziellen Feier- und Ferientage Ihres Bundeslandes finden Sie hier:
 
@@ -30,13 +30,13 @@ Im Dialogfenster `Eigenschaften > Zeitraum` können Sie die Zeitraumdaten Ihrer 
 | Ansichten                  | Bedeutung                                                                                                                                                |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Planungszeitraum           | Der Planungszeitraum beschreibt den Zeitraum indem sich die Stammdaten nicht grundlegend verändern (z.B.: ein Schuljahr)                                 |
-| Hauptzeitraum dieser Datei | Die Planversion beschreibt einen Teilabschnitt des angegebenen Planungszeitraums.(z.B.: ein Halbjahr). Start- und Enddatum - die Gültigkeit der Planung. Diese Angaben sind unter anderem wichtig bei der Nutzung von DAVINCI ANALYTICS und dem ENBREA KLASSENBUCH |
+| Hauptzeitraum dieser Datei | Die Planversion beschreibt einen Teilabschnitt des angegebenen Planungszeitraums.(z.B.: ein Halbjahr). Start- und Enddatum - die Gültigkeit der Planung. Diese Angaben sind unter anderem wichtig bei der Nutzung von DaVinci Analytics und dem Enbrea Klassenbuch |
 | Woche                      | Hier können Sie die Unterrichtstage der Woche festlegen.                                                                                                 |
 | Standard-Zeitrahmen        | Mit der Schaltfläche `Standard-Zeitrahmen bearbeiten...` gelangen Sie direkt zum Hauptzeitrahmen und können ihn hier auch bearbeiten.                    |
 
 !!! info "Hinweis"
 
-    Wenn Sie im Laufe des Schuljahres verschiedene Planversionen einsetzen, so handelt es sich dabei um unterschiedliche Plandateien mit gleichem Planungszeitraum aber aufeinanderfolgenden Gültigkeitszeiträumen und Versionsnummern. Über das Modul DAVINCI ANALYTICS können Sie Ihren Gesamtjahresplan bestehend aus aufeinanderfolgenden Planversionen, statistisch auswerten. So können Sie mit diesem Modul z.B. die Summe der Unterrichtsstunden den Unterrichtsausfall und die Lehrer-Fehlstunden Datei übergreifend aber für einen Planungszeitraum berechnen. 
+    Wenn Sie im Laufe des Schuljahres verschiedene Planversionen einsetzen, so handelt es sich dabei um unterschiedliche Plandateien mit gleichem Planungszeitraum aber aufeinanderfolgenden Gültigkeitszeiträumen und Versionsnummern. Über das Modul DaVinci Analytics können Sie Ihren Gesamtjahresplan bestehend aus aufeinanderfolgenden Planversionen, statistisch auswerten. So können Sie mit diesem Modul z.B. die Summe der Unterrichtsstunden den Unterrichtsausfall und die Lehrer-Fehlstunden Datei übergreifend aber für einen Planungszeitraum berechnen. 
 
 ## Unterrichtswochen definieren
 
@@ -66,7 +66,7 @@ In der Registerkarte "Statistik" des Dialogfensters `Eigenschaften` können Sie 
 
 Für die Verplanung Ihrer Unterrichtstermine steht Ihnen ein Stundenraster zur Verfügung. Dieses Stundenraster wird durch die Unterrichtsstunden gebildet, deren Anzahl und Dauer Sie im Zeitrahmen festlegen. Gemeinsam mit den Unterrichts- und Pausenzeiten geben diese Angaben den Zeitrahmen vor, der Ihnen für die Terminplanung in den Wochenstundenplänen zur Verfügung steht. 
 
-Zwei Zeitrahmen sind von DAVINCI bereits vordefiniert:
+Zwei Zeitrahmen sind von DaVinci bereits vordefiniert:
 
 * Hauptzeitrahmen und
 * Aufsichten-Zeitrahmen
@@ -112,7 +112,7 @@ In Register "Positionen" geben Sie an, wann die Stundenpositionen beginnen/enden
 
 | Feld                              | Bedeutung                                                                                                                                                                                                                                                  |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Differenz                         | Gibt die Pausenzeiten an und wird von DAVINCI automatisch berechnet.                                                                                                                                                                                       |
+| Differenz                         | Gibt die Pausenzeiten an und wird von DaVinci automatisch berechnet.                                                                                                                                                                                       |
 | Trennlinie                        | Eine Farbangabe sorgt dafür, dass im Stundenplan an dieser Position eine Trennline in der entsprechenden Farbe erscheint. Sie können so z.B. den Nachmittag grafischen vom Vormittag trennen. Diese Farbe können Sie über die `entf`-Taste wieder löschen. |
 | Doppelstunde                      | Markieren Sie insbedondere die Position, die als Anfangsposition einer Doppelstunde zulässig ist. Wenn sie z.B. die erste, dritte, fünfte usw. markieren, verhindert dies, dass eine Doppelstunde in der zweiten Stunde beginnt und in der dritten endet.  |
 | Schaltfläche `Zeiten vorbesetzen` | Wenn Sie auf diese klicken, wird der Zeitrahmen ab dem zuletzt bearbeiteten Beginn oder Ende Pausenlos bis zur letzten Position automatisch vorbesetzt.                                                                                                    |

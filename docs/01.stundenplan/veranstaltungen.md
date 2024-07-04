@@ -91,7 +91,7 @@ Um einer Veranstaltung im Dialogfenster neue Schüler hinzuzufügen, gehen Sie b
 !!! info "Hinweis"
 
     Wenn Sie mit einem Kurssystem arbeiten, sollten Sie die Schüler-Fachwahlen in der
-Ansicht ``Kursplan`` eingeben. (siehe [DAVINCI KURSPLAN](https://doc.davinci6.stueber.de/03.kursplan/allgemeines//)).
+Ansicht ``Kursplan`` eingeben. (siehe [DaVinci Kursplan](https://doc.davinci6.stueber.de/03.kursplan/allgemeines//)).
 
 ## Ressourcen zuordnen
 
@@ -202,21 +202,21 @@ Die zugehörigen Terminzeilen klappen auf und erscheinen unterhalb der Veranstal
 
 !!! info "Hinweis"
 
-    Der Begriff „Block“ steht in DAVINCI für Unterricht, der an der gleichen Position im Standard Wochenplan erfolgen soll. Blockunterricht kann aus zwei oder mehreren Veranstaltungen bestehen, die gleichzeitig bzw. im periodischen Wechsel in der gleichen Unterrichtsstunde stattfinden.
+    Der Begriff „Block“ steht in DaVinci für Unterricht, der an der gleichen Position im Standard Wochenplan erfolgen soll. Blockunterricht kann aus zwei oder mehreren Veranstaltungen bestehen, die gleichzeitig bzw. im periodischen Wechsel in der gleichen Unterrichtsstunde stattfinden.
 
 Um verschiedene Veranstaltungen miteinander zu einem Block zu verbinden, steht in der Veranstaltungsliste die Spalte ``Block`` zur Verfügung. Weisen zwei (oder mehr) Veranstaltungen den gleichen Eintrag in der Spalte ``Block`` der Veranstaltungsliste auf, so befinden sie sich in einem gemeinsamen Block oder anders gesagt: sind miteinander geblockt. Veranstaltungen, die gemeinsam einen Block bilden, können dabei sowohl aus ein und derselben Veranstaltungsliste als auch aus unterschiedlichen Veranstaltungslisten stammen. Mit dem Instrument des Blocks lassen sich deshalb Klassenteilungen ebenso gut abbilden wie klassenübergreifender Unterricht.
 
 Die Felder der Spalte ``Block`` sind frei editierbar, d.h. Sie können das gewünschte Blockkürzel einfach eintippen.
 
-Sie haben darüber hinaus aber auch die Möglichkeit von DAVINCI eine Blocknummer generieren zu lassen. Gehen Sie dazu bitte folgendermaßen vor:
+Sie haben darüber hinaus aber auch die Möglichkeit von DaVinci eine Blocknummer generieren zu lassen. Gehen Sie dazu bitte folgendermaßen vor:
 
 1. Klicken Sie mit der rechten Maustaste auf die gewünschte Veranstaltung.
 2. Wählen Sie den Befehl „Neuer Block“ aus dem Kontextmenü.
-3. In der Spalte Block der bearbeiteten Veranstaltung wird nun als Blockkürzel eine ganze Zahl größer oder gleich 1 eingetragen. DAVINCI vergibt dabei automtatisch neue Blockkürzel (fortlaufend die nächsthöhere ganze Zahl, die noch nicht als Blockkürzel zugewiesen ist).
+3. In der Spalte Block der bearbeiteten Veranstaltung wird nun als Blockkürzel eine ganze Zahl größer oder gleich 1 eingetragen. DaVinci vergibt dabei automtatisch neue Blockkürzel (fortlaufend die nächsthöhere ganze Zahl, die noch nicht als Blockkürzel zugewiesen ist).
 
 !!! info "Hinweis"
 
-    In den DAVINCI Optionen unter ``Extras > Optionen > Einstellungen`` haben Sie die Möglichkeit den Blockpräfix einzustellen. Sie können hierbei zwischen Klassen, Stufe und keine Päfix wählen.
+    In den DaVinci Optionen unter ``Extras > Optionen > Einstellungen`` haben Sie die Möglichkeit den Blockpräfix einzustellen. Sie können hierbei zwischen Klassen, Stufe und keine Päfix wählen.
 
 Block-Präfix**Klasse**: 8a01 (Klasse 8a und fortlaufend die nächsthöhere ganze Zahl)
 Block-Präfix**Stufe**: 8 (siehe Stammdatenfenster "Klasse" Eintrag in Spalte "Stufe")

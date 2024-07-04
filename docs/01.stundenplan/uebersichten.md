@@ -1,6 +1,6 @@
 # Übersichten
 
-DAVINCI bietet Ihnen eine Reihe von Übersichten, mit denen Sie das Plangeschehen unter verschiedenen Gesichtspunkten auswerten können. Die Übersichten können Sie in verschiedene Datenformate exportieren oder in die Zwischenablage kopieren, indem Sie die Schaltflächen Exportieren bzw. In Ablage kopieren anklicken.
+DaVinci bietet Ihnen eine Reihe von Übersichten, mit denen Sie das Plangeschehen unter verschiedenen Gesichtspunkten auswerten können. Die Übersichten können Sie in verschiedene Datenformate exportieren oder in die Zwischenablage kopieren, indem Sie die Schaltflächen Exportieren bzw. In Ablage kopieren anklicken.
 
 1. Konferenzliste
 2. Klassenlehrerliste
@@ -117,7 +117,7 @@ Klicken Sie auf ``Übersichten > Lehrer Soll-Ist``, um in die Übersicht ``Lehre
 
 !!! info "Hinweis"
 
-    Der Lehrer-Ist Wert in den Zeitkonten und in der Übersicht ``Lehrer Soll-Ist`` hängt von den Einstellungen in den ``DAVINCI Optionen > Ansicht`` ab. Welcher Wert soll bei "Ist" angezeigt werden?
+    Der Lehrer-Ist Wert in den Zeitkonten und in der Übersicht ``Lehrer Soll-Ist`` hängt von den Einstellungen in den ``DaVinci Optionen > Ansicht`` ab. Welcher Wert soll bei "Ist" angezeigt werden?
     * Geplante Stunden solange keine verplant, verplante sonst
     * Geplante Stunden
     * Verplante Stunden

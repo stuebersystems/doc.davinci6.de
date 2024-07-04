@@ -1,10 +1,10 @@
 # Datenaustausch mit Sdui
 
-Sdui bietet Schulen eine DSGVO-konforme Lösung in der digitalen Kommunikation und Organisation mit Lehrern, Schülern und Eltern an. DAVINCI kann Stundenplandaten mit Sdui abgleichen. Diese werden dann in der Sdui-App angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
+Sdui bietet Schulen eine DSGVO-konforme Lösung in der digitalen Kommunikation und Organisation mit Lehrern, Schülern und Eltern an. DaVinci kann Stundenplandaten mit Sdui abgleichen. Diese werden dann in der Sdui-App angezeigt. Die Übertragung kann manuell oder automatisiert erfolgen.
 
 Der Workflow sieht grob wie folgt aus:
 
-+ Die **DAVINCI CONSOLE** liest Daten direkt aus einer DAVINCI-Datei oder von einem DAVINCI-Server und überträgt diese in Ihre Sdui-Instanz
++ Die **DaVinci Console** liest Daten direkt aus einer DaVinci-Datei oder von einem DaVinci-Server und überträgt diese in Ihre Sdui-Instanz
 
 + Mit dem **PowerShell-Modul PSDaVinci** können Sie den Workflow mit einem einzigen Befehl ausführen.
 
@@ -12,7 +12,7 @@ Der Workflow sieht grob wie folgt aus:
 
 ## Voraussetzungen
 
-Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DAVINCI benötigt.
+Es werden PowerShell 7, das PowerShell-Modul PSDaVinci und natürlich eine Installation von DaVinci benötigt.
 
 ### PowerShell 7
 
@@ -52,9 +52,9 @@ Jetzt können Sie lokale PowerShell-Skripte problemlos starten.
 ### PSDaVinci
 
 !!! tip "Hinweis"
-	PSDaVinci ist ein PowerShell-Modul, welches den Workflow zwischen DAVINCI und Sdui orchestriert. PSDaVinci stellt die folgenden PowerShell-Befehle bereit: 
+	PSDaVinci ist ein PowerShell-Modul, welches den Workflow zwischen DaVinci und Sdui orchestriert. PSDaVinci stellt die folgenden PowerShell-Befehle bereit: 
 	`Initialize-DaVinciExport sdui` legt ein Konfigurationsdatei an
-	`Start-DaVinciExport sdui` Übertragung der Daten aus DAVINCI nach Sdui
+	`Start-DaVinciExport sdui` Übertragung der Daten aus DaVinci nach Sdui
 
 Installieren Sie das PowerShell-Modul [PSDaVinci][7]:
 
@@ -112,27 +112,27 @@ Eigenschaft                         | Bedeutung
 
 Die Admin-PIN für Sdui finden Sie in Sdui unter `Administration > Stundenplan > Synchronisation`.
 
-Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DAVINCI-Datei** überschrieben werden:
+Die folgenden Eigenschaften *müssen* beim Abgleich von **einer lokalen DaVinci-Datei** überschrieben werden:
 
 Eigenschaft                         | Bedeutung
 ----------------------------------- | ---------
 `daVinci.SduiExport.SourceProvider` | Wert = `File`
-`daVinci.SduiExport.SourceFileName` | Vollständiger Dateiname der DAVINCI-Datei
+`daVinci.SduiExport.SourceFileName` | Vollständiger Dateiname der DaVinci-Datei
 
-Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird** auf alle Fälle überschrieben werden:
+Die folgenden Eigenschaften *müssen* beim Abgleich von **einer DaVinci-Datei, die auf einem DaVinci-Server gehostet wird** auf alle Fälle überschrieben werden:
 
 Eigenschaft                         | Bedeutung
 ----------------------------------- | ---------
 `daVinci.SduiExport.SourceProvider` | Wert = `Server`
-`daVinci.SduiExport.ServerName`     | Servername des DAVINCI-Servers im lokalen Netzwerk. `DAVINCI Explorer > Server > Serverinformationen`
-`daVinci.SduiExport.ServerPort`     | Portnummer des DAVINCI-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)`Systemsteuerung > DAVINCI Server > Netzwerk`
-`daVinci.SduiExport.ServerUserName` | Ein DAVINCI-Benutzername.`DAVINCI Explorer > Benutzer`
-`daVinci.SduiExport.ServerPassword` | Ein DAVINCI-Benutzerkennwort.`DAVINCI Explorer > Benutzer`
-`daVinci.SduiExport.ServerFileID`   | Die GUID der DAVINCI-Datei auf dem DAVINCI-Server.`DAVINCI Explorer > Plandatei > Start > Eigenschaften`
+`daVinci.SduiExport.ServerName`     | Servername des DaVinci-Servers im lokalen Netzwerk. `DaVinci Explorer > Server > Serverinformationen`
+`daVinci.SduiExport.ServerPort`     | Portnummer des DaVinci-Servers im lokalen Netzwerk.<br/>(Standard ist 8100)`Systemsteuerung > DaVinci Server > Netzwerk`
+`daVinci.SduiExport.ServerUserName` | Ein DaVinci-Benutzername.`DaVinci Explorer > Benutzer`
+`daVinci.SduiExport.ServerPassword` | Ein DaVinci-Benutzerkennwort.`DaVinci Explorer > Benutzer`
+`daVinci.SduiExport.ServerFileID`   | Die GUID der DaVinci-Datei auf dem DaVinci-Server.`DaVinci Explorer > Plandatei > Start > Eigenschaften`
 
-Es empfiehlt sich einen seperaten DAVINCI-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DAVINCI anmelden zu können.
+Es empfiehlt sich einen seperaten DaVinci-Benutzer für diese Funktion anzulegen, er muss lediglich das Recht haben, sich an DaVinci anmelden zu können.
 
-Bitte schauen Sie [hier](https://doc.davinci6.stueber.de/06.enterprise/06.benutzer/),wenn Sie Fragen zur Einrichtung der Benutzer in DAVINCI haben.
+Bitte schauen Sie [hier](https://doc.davinci6.stueber.de/06.enterprise/06.benutzer/),wenn Sie Fragen zur Einrichtung der Benutzer in DaVinci haben.
 
 Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich jederzeit überschrieben werden.
 
@@ -140,11 +140,11 @@ Alle anderen Eigenschaften sind schon vorkonfiguriert, können aber natürlich j
 
 	* Der Backslash (= umgedrehter Schrägstrich) in Dateipfaden muss in einer JSON-Datei stets gedoppelt werden, also **\\\\** statt **\\**. 
 	
-	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DAVINCI Datei oder mit einer Datei auf dem DAVINCI Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
+	* Einige Zeilen in der json Datei sind mit einem "-" versehen. Diese Zeilen sind auskommentiert. Je nachdem, ob Du nun mit einer lokalen DaVinci Datei oder mit einer Datei auf dem DaVinci Server arbeitest, musst Du die "-" entsprechend setzen oder löschen. Bitte schauen dazu auch die nachfolgenden Beispiele an, dort sind für beide Beispiele die benötigten Zeilen enthalten und das "-" ist jeweils entfernt.
 
-### Beispiel für eine lokale DAVINCI Datei
+### Beispiel für eine lokale DaVinci Datei
 
-Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie folgt aussehen:
+Das Ergebnis für den Abgleich mit einer **lokalen DaVinci-Datei** könnte wie folgt aussehen:
 
 ```json
 {
@@ -158,9 +158,9 @@ Das Ergebnis für den Abgleich mit einer **lokalen DAVINCI-Datei** könnte wie f
 }
 ```
 
-### Beispiel für eine DAVINCI-Serverdatei
+### Beispiel für eine DaVinci-Serverdatei
 
-Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-Server gehostet wird**, könnte wie folgt aussehen:
+Das Ergebnis für den Abgleich mit **einer DaVinci-Datei, die auf einem DaVinci-Server gehostet wird**, könnte wie folgt aussehen:
 
 ```json
 {
@@ -182,7 +182,7 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 
 1. Starten Sie PowerShell 7 über das Windows-Menü: `Start > Windows Powershell > Windows Powershell`
 
-2. Wechseln Sie mit folgendem Befehl in unser DAVINCI-Verzeichnis:
+2. Wechseln Sie mit folgendem Befehl in unser DaVinci-Verzeichnis:
 
     ```
     cd c:\davinci
@@ -194,15 +194,15 @@ Das Ergebnis für den Abgleich mit **einer DAVINCI-Datei, die auf einem DAVINCI-
 	Start-DaVinciExport sdui davinci.json
 	```
 
-Die Daten aus DAVINCI werden direkt nach Sdui übertragen.	
+Die Daten aus DaVinci werden direkt nach Sdui übertragen.	
 	
 ## Automation
 
-Die Synchronisation zwischen DAVINCI und Sdui kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
+Die Synchronisation zwischen DaVinci und Sdui kann automatisiert werden. Eine vollständige Automatisierung gelingt am besten über die Windows-Aufgabenplanung. Die Aufgabenplanung ist Bestandteil von Windows und ermöglicht das Starten von Anwendungen einmalig oder wiederkehrend zu festgelegten Zeitpunkten.
 
 ### Ein Beispiel
 
-Wir wollen, dass der Abgleich zwischen DAVINCI und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfigurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
+Wir wollen, dass der Abgleich zwischen DaVinci und Sdui alle 10 Minuten gestartet wird. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DaVinci seit dem letzten Abgleich gegeben hat. Da dieser Prozess im Hintergrund läuft, soll die Ausgabe in einer Textdatei geloggt werden, so dass nachträglich geprüft werden kann, ob die Aktion erfolgreich war oder nicht. Dabei soll jeden Tag eine neue Textdatei angelegt werden. Die Konfigurationsdatei ist in unserem Beispiel unter `c:\davinci\davinci.json` gespeichert.
 
 !!! warning  wichtig:
 	Damit ein Logfile angelegt wird, bitte vorher den Ordner logs unter c:\davinci anlegen!
@@ -255,7 +255,7 @@ Ein Sache ist aber noch wichtig. Standardmäßig wird Ihre Aufgabe nur dann ausg
 
 Das Ergebnis: 
 
-Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DAVINCI nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DAVINCI seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
+Wir haben eine Aufgabe erstellt, die das PowerShell-Cmdlet zum Übertragen der Daten von DaVinci nach Sdui alle 10 Minuten startet. Ein Upload erfolgt nur dann, wenn es auch Änderungen in DaVinci seit dem letzten Abgleich gegeben hat. Die Ausgabe wird in eine Textdatei geloggt, so dass Sie stets kontrollieren können, ob der letzte Übertrag erfolgreich war oder nicht. 
 
 [12]: /assets/images/datenaustausch/sdui/automation-01.png "Einfache Aufgabe erstellen"
 [13]: /assets/images/datenaustausch/sdui/automation-02.png "Name und Beschreibung"

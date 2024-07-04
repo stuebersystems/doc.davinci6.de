@@ -8,67 +8,67 @@ FIX |  Korrektur bestehender Funktionalität
 NEW |  Neue Funktionalität  
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
-## DAVINCI Version 6.5.67 (11.08.2020)
+## DaVinci Version 6.5.67 (11.08.2020)
 
 ### Allgemein
 
 * NEW: Beispieldateien aktualisiert
 
-## DAVINCI Version 6.5.66 (26.06.2020)
+## DaVinci Version 6.5.66 (26.06.2020)
 
-### STUNDENPLAN
+### Stundenplan
 
 * CHANGE: Aufruf `Plan > Importieren und Exportieren > Exportieren | Aufruf "Export f. LANiS`  umbenannt in `Plan > Importieren und Exportieren > Exportieren | Export für Schulportal Hessen`
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX:  `Vertretungsplan > Vertretungen` Beim Zurücksetzen von geblockten Vertretungen wir nur die gewählte Veranstaltung zurückgesetzt nicht alle Vertretungen im Block
 
-### SERVER
+### Server
 
-* FIX: Datenübergabe an Webbox
+* FIX: Datenübergabe an WebBox
 
-### KURSPLAN
+### Kursplan
 
 * FIX: `Kursplan > Blöcke > Start > Kurse und Blöcke bearbeiten > Blockbezeichnungen anpassen`
 * FIX: Fehlermeldung beim Ansichtenwechsel Wechsel der Ansicht aus `Kursplan > Fachwahlen` in die Ansicht `Kursplan > Schüler` mit anschließendem Wechsel der Klasse
 
-## DAVINCI Version 6.5.65 (06.05.2020)
+## DaVinci Version 6.5.65 (06.05.2020)
 
 ### Allgemein
 
-* NEW: Die DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden
+* NEW: Die DaVinci-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden
 
-### STUNDENPLAN
+### Stundenplan
 
-* NEW: Die MAGELLAN/DAVINCI-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
+* NEW: Die Magellan/DaVinci-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
 * FIX: Eintragung `Stammdaten > Schüler > Stufe`; wenn keine Klasse zugeordnet ist, ist eine Klasse zugeordnet, wird die Stufe der Klasse in der Spalte Stufe angezeigt
 * FIX: `Stammdaten > Klassen > Klassen löschen` und `Plan > Neu > Daten übernehmen`beim Löschen der Klasse incl. deren Veranstaltungen wurden Veranstaltungsverweise im Kalender (Veranstaltungen bzw. Kurse können einem Kalendereintrag zugewiesen) nicht gelöscht
 * FIX: manuelle Verplanung von Räume in Berücksichtigung der Vorgaben bei `Planansicht > Verplanen > Räume`
 
-### SERVER
+### Server
 
-CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der Webbox und in der Mobile App gezeigt
+CHANGE: Zusatzunterricht für als fehlend gekennzeichnete Klassen wird auch für Nutzer mit dem Profil `Klasse` in der WebBox und in der Mobile App gezeigt
 
-## DAVINCI Version 6.5.64 (12.03.2020)
+## DaVinci Version 6.5.64 (12.03.2020)
 
-### STUNDENPLAN
+### Stundenplan
 
-* FIX: `Übersichten > Lehrer-Soll-Ist` und `Lehrer-Zeitkonto` - der Ist-Wert wird wieder entsprechend der Einstellungen in den DAVINCI-Optionen unter `Ansicht > Lehrer-Ist Wert in Zeitkonten` angezeigt
+* FIX: `Übersichten > Lehrer-Soll-Ist` und `Lehrer-Zeitkonto` - der Ist-Wert wird wieder entsprechend der Einstellungen in den DaVinci-Optionen unter `Ansicht > Lehrer-Ist Wert in Zeitkonten` angezeigt
 ![Übersichten > Lehrer-Soll-Ist ](/assets/images/liesmich/6.5.64.05.png)
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Vorziehbare Vertreter > Es werden (wenn in den Vertretungseinstellungen aktiviert) KEINE Vertreter mehr aus der Vergangenheit zum Vorziehen angezeigt.
 
-### SERVER
+### Server
 
-FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
+FIX: Datenübergabe für die WebBox bei ganztägigen Mitteilungen
 
-### KURSPLAN
+### Kursplan
 
 * FIX: Wählt man unter `Kursplan > Blöcke` den Aufruf `Blockbezeichnungen anpassen` werden in der Blockbezeichnung die Klassenstufe und die Bandnummer angezeigt
-![Ansicht KURSPLAN > Blöcke](/assets/images/liesmich/6.5.64.04.png)
+![Ansicht Kursplan > Blöcke](/assets/images/liesmich/6.5.64.04.png)
 
 ### DRUCK
 
@@ -78,9 +78,9 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 * FIX: Im Design aktivierte Einstellung "Terminzeilen umbrechen" wird wieder korrekt in den Druck übergeben 
 ![Druckvorschau](/assets/images/liesmich/6.5.64.02.png)
 
-## DAVINCI Version 6.5.63 (18.02.2020)
+## DaVinci Version 6.5.63 (18.02.2020)
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Liste der offenen Vertretungen > Wird ein Eintrag gewählt, passt sich das Planfenster rechts entsprechend an. Wechselt man nun auf einen anderen Eintrag in der Liste der offenen Vertretungen mit gleicher Positionierung, passt sich das Planfenster rechts nun auch wieder richtig an.
 
@@ -88,13 +88,13 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 
 * FIX: neue Kalenderdateien (Ferien und Feiertage) für 2020/2021 verfügbar
 
-### Webbox
+### WebBox
 
 * FIX: vereinzelt fehlten Termine einer Veranstaltung in der Lehrer- und Klassenansicht, dies wurde korrigiert
 
-## DAVINCI Version 6.5.62 (23.01.2020)
+## DaVinci Version 6.5.62 (23.01.2020)
 
-### STUNDENPLAN
+### Stundenplan
 
 * NEW: `Stammdaten > Lehrer` Lehrbefähigung in Spalte Fächer kann wieder eingegeben werden
  
@@ -106,9 +106,9 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
     Ehemals für das Querfomrat angelegte Druckformate müssen Sie bitte noch einmal neu als Querformat speichern. Bitte gehen Sie in die Druckvorschau `Format > Seite einrichten > Seite` und stellen Sie hier das gewünschte Format ein.
   
 
-## DAVINCI Version 6.5.61 (10.01.2020)
+## DaVinci Version 6.5.61 (10.01.2020)
 
-### STUNDENPLAN
+### Stundenplan
 
 * NEW: Auswahlfenster - Shortcut `Strg + F` für Auswahlfenster Fächer
 * NEW: Blockelemente im Plan: über `Strg + linke Maustaste` auf das Blockelemnet klicken, können Sie die weiteren geblockten Elemente sichtbar machen, wenn Sie nun ein Element anklicken, wird dieses oben und damit auch als erstes in der Planansicht dargestellt
@@ -134,7 +134,7 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 * FIX: Ansicht `Plan und Liste` und zwei weitere Pläne - Korrespondenz der Pläne sehr verbessert
 * CHANGE: `Stundenplan > Veranstaltung > Neue Veranstaltung` Beim Anlegen einer neuen Veranstaltung in der Veranstaltungsliste ist die Dauer automatisch mit "1" vorbelegt (vormals "0")
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * NEW:  Bereich `Änderungsliste` > In der Änderungsliste sind die Zellen "Datum" und "Tag" aktuell vertikal miteinander verbunden. Neuer Rechte-Maustaste Befehl in der Änderungsliste `Datumzellen zusammenfassen`. Wenn dies markiert ist, werden die Datumszellen zusammengefasst, sonst nicht.
   
@@ -155,7 +155,7 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 * FIX: Unter `Start > Planansicht` aktivierte Einstellung `Positionskonflikte anzeigen` gibt wieder korrekt farbliche Markierungen im Planfenster aus
 * FIX: erzeugte Vertretung einer Raumfehlzeit wird durch Erfassen einer Lehrerfehlzeit zur selben Zeit nicht mehr zurückgesetzt
 
-### KURSPLAN
+### Kursplan
 
 * FIX: `Kursplan > Fachwahlen` Alle Fachwahlen markieren
 * FIX: fälschlichwerweise angezeigte Konflikte werden über `Extras > Plandatei aufräumen` gelöscht
@@ -163,9 +163,9 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 * FIX: `Kursplan > Fachwahlen` alle Fachwahlen markieren wieder möglich
 * FIX: `Kursplan > Fachwahlen` Löschen einer Fachwahlzeile wieder möglich
 
-### LOOK
+### Look
 
-* FIX: ein über DAVINCI LOOK gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
+* FIX: ein über DaVinci Look gebuchte Ressourcen wird in der Ansicht der Ressource gezeigt
 * FIX: Lehrersuche über Suchfeld korrigiert (Wechsel von Lehrer zu Raum und dann wieder zu Lehrerplan führte zu Wechsel in falschen Lehrerplan)
   
 ### DRUCK
@@ -188,6 +188,6 @@ FIX: Datenübergabe für die Webbox bei ganztägigen Mitteilungen
 * FIX: Übersicht "Ausfallstatistik" > Bitte einmalig über `Extras > Plandatei aufräumen` ausführen, damit werden fehlerhafte Änderungselemente gelöscht.
 * FIX: LANIS Export Zeichensatz auf UTF 8 geändert
 
-### Webbox
+### WebBox
 
 * FIX: Vertretungen für eine gleichzeitige Raum- und Lehrerfehlzeit werden in allen betroffenen Plänen angezeigt

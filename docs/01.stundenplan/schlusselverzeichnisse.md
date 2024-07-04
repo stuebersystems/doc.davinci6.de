@@ -1,8 +1,8 @@
 # Schlüsselverzeichnisse
 
-An vielen Stellen in DAVINCI begegnen Ihnen Auswahlfelder, die mit Daten aus einem bestimmten Schlüsselverzeichnis vorbelegt sind. Die Schlüsselverzeichnisse tragen ihren Namen, weil sie in der Regel Angaben beinhalten, die für die statistische Auswertung der Stundenplandaten benötigt werden.
+An vielen Stellen in DaVinci begegnen Ihnen Auswahlfelder, die mit Daten aus einem bestimmten Schlüsselverzeichnis vorbelegt sind. Die Schlüsselverzeichnisse tragen ihren Namen, weil sie in der Regel Angaben beinhalten, die für die statistische Auswertung der Stundenplandaten benötigt werden.
 
-Alle diese Verzeichnisse enthalten eine Spalte `Schlüssel`, deren Felder mit den Schlüsselwerten versehen werden können, die die Landesstatistikämter für die jährlichen Schulstatistiken herausgeben. Derzeit stehen in DAVINCI verschiedene Schlüsselverzeichnisse zur Verfügung. Die meisten dieser Schlüsselverzeichnisse sind leer und können von den Schulen je nach dem schulform- und landesspezifischen Bedarf gefüllt werden. Einige Schlüsselverzeichnisse, die häufig benötigt werden und besonders typische Einträge aufweisen, sind bereits mit Standard-oder Beispielwerten versehen. Dies betrifft z.B. das Schlüsselverzeichnis `Unterrichtsarten`, dessen Einträge u. a. der Unterscheidung zwischen Leistungskursen, Grundkursen und anderen Kursen dienen. Die Schlüsselverzeichnisse, die bereits mit Daten gefüllt wurden, sind in der Liste der verfügbaren
+Alle diese Verzeichnisse enthalten eine Spalte `Schlüssel`, deren Felder mit den Schlüsselwerten versehen werden können, die die Landesstatistikämter für die jährlichen Schulstatistiken herausgeben. Derzeit stehen in DaVinci verschiedene Schlüsselverzeichnisse zur Verfügung. Die meisten dieser Schlüsselverzeichnisse sind leer und können von den Schulen je nach dem schulform- und landesspezifischen Bedarf gefüllt werden. Einige Schlüsselverzeichnisse, die häufig benötigt werden und besonders typische Einträge aufweisen, sind bereits mit Standard-oder Beispielwerten versehen. Dies betrifft z.B. das Schlüsselverzeichnis `Unterrichtsarten`, dessen Einträge u. a. der Unterscheidung zwischen Leistungskursen, Grundkursen und anderen Kursen dienen. Die Schlüsselverzeichnisse, die bereits mit Daten gefüllt wurden, sind in der Liste der verfügbaren
 Schlüsselverzeichnisse grün markiert.
 
 Die Schlüsselverzeichnisse gehören nicht eigentlich zu den Stammdaten, vielmehr handelt es sich um Daten zweiter Ordnung, die im Wesentlichen der Beschreibung oder Kategorisierung anderer Daten dienen. Sie kommen nicht nur im Programmbereich „Stammdaten“, sondern auch in den anderen Programmbereichen zum Einsatz. Die vollständige Bearbeitung der Stammdaten setzt aber in der Regel voraus, dass bestimmte Schlüsselverzeichnisse im Vorfeld angepasst werden.
@@ -37,13 +37,13 @@ Neue Einträge legen Sie mit `Neuer Schlüssel` oder mit der `EINFG-Taste` an. M
 
 ## Schlüssel importieren
 
-Über ``Importieren`` können Sie Schlüsselverzeichnisse importieren, die von DAVINCI oder von Ihrem Bundesland in einer entsprechenden Schlüsseldatei zur Verfügung gestellt werden. Beim Importieren werden Schlüssel anhand des Kürzels oder des Schlüssels identifiziert: Bestehende Schlüssel werden überschrieben, neue angefügt.
+Über ``Importieren`` können Sie Schlüsselverzeichnisse importieren, die von DaVinci oder von Ihrem Bundesland in einer entsprechenden Schlüsseldatei zur Verfügung gestellt werden. Beim Importieren werden Schlüssel anhand des Kürzels oder des Schlüssels identifiziert: Bestehende Schlüssel werden überschrieben, neue angefügt.
 
 ![Import Lehrerfehlgründe](/assets/images/Lehrerfehlgruende.Import01.png)
 
 !!! info "Hinweis"
 
-    DAVINCI erwartet Schlüsseldateien mit der Endung .KEYS und mit der Nummer des Schlüsselverzeichnisses – siehe Dialogfenster `Extras > Schlüsselverzeichnisse` – als Präfix im Dateinamen, also z.B. „23_Unterrichtsarten.keys“. Standardmäßig sollten die so benannten Schlüsseldateien im Schlüsseldateien Ordner liegen, siehe Dialogfenster `Extras > System-Informationen > Ordner daVinciKeysFolder`.
+    DaVinci erwartet Schlüsseldateien mit der Endung .KEYS und mit der Nummer des Schlüsselverzeichnisses – siehe Dialogfenster `Extras > Schlüsselverzeichnisse` – als Präfix im Dateinamen, also z.B. „23_Unterrichtsarten.keys“. Standardmäßig sollten die so benannten Schlüsseldateien im Schlüsseldateien Ordner liegen, siehe Dialogfenster `Extras > System-Informationen > Ordner daVinciKeysFolder`.
 
 Die Einträge in einer Schlüsseldatei müssen in einer TXT-, CSV- oder KEYS-Datei in einem bestimmten Format gespeichert sein. Eine Zeile des Schlüsselverzeichnisses entspricht dabei einer Zeile in der Importdatei. Das Format der CSV-Datei können Sie dem folgenden Beispiel entnehmen:
 

@@ -1,8 +1,8 @@
 # Einführung
 
-Mit DAVINCI erstellen Sie Stundenpläne und Vertretungspläne per Automatik und publizieren das Ergebnis im Internet oder als Ausdruck. DAVINCI wird von Schulen aller Schularten seit Jahrzehnten erfolgreich eingesetzt. Dieses Handbuch beschreibt die Funktionen des Programms und wie Sie in Ihrer Planungsarbeit Zeit sparen können.
+Mit DaVinci erstellen Sie Stundenpläne und Vertretungspläne per Automatik und publizieren das Ergebnis im Internet oder als Ausdruck. DaVinci wird von Schulen aller Schularten seit Jahrzehnten erfolgreich eingesetzt. Dieses Handbuch beschreibt die Funktionen des Programms und wie Sie in Ihrer Planungsarbeit Zeit sparen können.
 
-DAVINCI wird eingesetzt von:
+DaVinci wird eingesetzt von:
 
 * Grundschulen, Integierten Gesamtschulen, Gymnasien und Berufsbildenden Schulen
 
@@ -14,11 +14,11 @@ DAVINCI wird eingesetzt von:
 
 * Hochschulen und Universitäten
 
-DAVINCI ist eine für Windows XP bis 10 entwickelte Anwendung, die dank ihrer Office-ähnlichen Benutzerführung und trotz eines komplexen Funktionsumfangs sehr leicht erlernbar und bedienbar ist.
+DaVinci ist eine für Windows XP bis 10 entwickelte Anwendung, die dank ihrer Office-ähnlichen Benutzerführung und trotz eines komplexen Funktionsumfangs sehr leicht erlernbar und bedienbar ist.
 
 !!! info "Hinweis"
 
-    STÜBER SYSTEMS bietet Schulungen zu allen Themen der Stundenplanerstellung mit DAVINCI in Berlin, in Frankfurt am Main und bei Ihnen vor Ort an. Die Schulungen helfen Ihnen, schneller die Programme kennen zu lernen und geben Ihnen Tipps wie Sie die Funktionen der Software effizienter nutzen können. Für Schulungsinhalte und Schulungstermine gehen Sie auf [www.stueber.de](http://www.stueber.de/training.php).
+    STÜBER SYSTEMS bietet Schulungen zu allen Themen der Stundenplanerstellung mit DaVinci in Berlin, in Frankfurt am Main und bei Ihnen vor Ort an. Die Schulungen helfen Ihnen, schneller die Programme kennen zu lernen und geben Ihnen Tipps wie Sie die Funktionen der Software effizienter nutzen können. Für Schulungsinhalte und Schulungstermine gehen Sie auf [www.stueber.de](http://www.stueber.de/training.php).
 
 ## Funktionale Highlights
 
@@ -50,11 +50,11 @@ DAVINCI ist eine für Windows XP bis 10 entwickelte Anwendung, die dank ihrer Of
 
 ## Stundenplan erstellen
 
-Für die an die Stammdateneingabe anknüpfenden Planungsschritte steht Ihnen der Programmbereich **Stundenplan** zur Verfügung. Sie können Termine in der Ansicht "Stundenplan" im Planfenster manuell verplanen oder per Automatik verplanen lassen. DAVINCI unterscheidet dabei wöchentliche Termine von einmalig stattfindenden Terminen.
+Für die an die Stammdateneingabe anknüpfenden Planungsschritte steht Ihnen der Programmbereich **Stundenplan** zur Verfügung. Sie können Termine in der Ansicht "Stundenplan" im Planfenster manuell verplanen oder per Automatik verplanen lassen. DaVinci unterscheidet dabei wöchentliche Termine von einmalig stattfindenden Terminen.
 
 !!! info "Hinweis"
 
-    Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für das Modul DAVINCI JAHRESTERMINE. Sie können so z.B. 5 Stunden einer Veranstaltung auf 5 beliebige Daten des Jahres legen.)
+    Zum Verplanen von einmaligen Termine benötigen Sie eine Lizenz für das Modul DaVinci JAHRESTERMINE. Sie können so z.B. 5 Stunden einer Veranstaltung auf 5 beliebige Daten des Jahres legen.)
 
 ## Grundlegende Themen
 
@@ -75,4 +75,4 @@ Schließlich lernen Sie verschiedene Übersichten kennen, mit denen Sie das Plan
 
 Sie können den Bereich **Stundenplan** über die gleichnamige Schaltfläche in der Navigationsleiste am linken Rand des Programmfensters aufrufen.
 
-![Navigationsleiste links](/assets/images/Aufruf.STUNDENPLAN.png)
+![Navigationsleiste links](/assets/images/Aufruf.Stundenplan.png)

@@ -166,7 +166,7 @@ Die nachfolgende Tabelle erläutert die Bedeutung der Spalten der Liste der offe
 | Fach | Zeigt das Fach und ggf. das Vertretungsfach an |
 | Info | Hier können Sie eine Information zur Vertretung angeben, die auch im Ausdruck eingeblendet werden kann. Textvorlagen für dieses Feld können ausgewählt werden, wenn diese in den Vertretungsoptionen definiert sind (siehe Abschnitt "Vordefinierte Infos, Mitteilungen und Bemerkungen") |
 | Mitteilung | Gibt Gelegenheit für eine zusätzliche Mitteilung, die auch im Ausdruck eingeblendet werden kann. Textvorlagen für dieses Feld können ausgewählt werden, wenn diese in den Vertretungsoptionen definiert sind (siehe Abschnitt Vordefinierte Infos, Mitteilungen und Bemerkungen) |
-| Bemerkung | Gibt Gelegenheit für eine zusätzliche interne Bemerkungen, die eigentlich im Ausdruck nicht eingeblendet werden sollte, da sie nur Informationen für den DAVINCI-Vertretungsplaner beinhaltet. Textvorlagen für dieses Feld können ausgewählt werden, wenn diese in den Vertretungsoptionen definiert sind (siehe Abschnitt Vordefinierte Infos, Mitteilungen und Bemerkungen). |
+| Bemerkung | Gibt Gelegenheit für eine zusätzliche interne Bemerkungen, die eigentlich im Ausdruck nicht eingeblendet werden sollte, da sie nur Informationen für den DaVinci-Vertretungsplaner beinhaltet. Textvorlagen für dieses Feld können ausgewählt werden, wenn diese in den Vertretungsoptionen definiert sind (siehe Abschnitt Vordefinierte Infos, Mitteilungen und Bemerkungen). |
 | Entfallgrund | Zeigt bei Vertretungsentfall den zugewiesenen Entfallgrund an. Entfallgründe sind im Schlüsselverzeichnis „Vertretungsentfallgründe“ definiert. |
 | Lehrerart | Kann mit einem Eintrag aus dem Schlüsselverzeichnis „Vertretungslehrerarten“ gefüllt werden |
 | Qualität | Kann mit einem Eintrag aus dem Schlüsselverzeichnis „Vertretungsqualität“ gefüllt werden |
@@ -184,7 +184,7 @@ Mit den Registerkarten `Direkte Vertreter`, `Indirekte Vertreter`, `Räume` und 
 
 Darüber hinaus kann der Planer die Reihenfolge der auf den Registerkarten `Direkte Vertreter` und `Indirekte Vertreter` angebotenen Lehrer nach im Vorfeld festzulegenden Prioritäten organisieren.
 
-Bevor Sie mit DAVINCI Lehrervertretungen erstellen, sollten Sie deshalb klären, welche allgemeinen Prioritäten für die Auswahl Ihrer Vertretungslehrer gelten. Wie Sie dabei vorgehen müssen, erfahren Sie im nächsten Kapitel.
+Bevor Sie mit DaVinci Lehrervertretungen erstellen, sollten Sie deshalb klären, welche allgemeinen Prioritäten für die Auswahl Ihrer Vertretungslehrer gelten. Wie Sie dabei vorgehen müssen, erfahren Sie im nächsten Kapitel.
 
 !!! info "Hinweis"
      Sie können die Liste der angezeigten Vertreter per Klick auf den Spaltentitel sortieren.
@@ -259,7 +259,7 @@ Sie können hier einstellen, dass Ihnen zur Vertretung von Gruppenunterricht kei
 
 #### Vorziehbare Vertreter
 
-Bei der Suche nach möglichen Vertretern wird im DAVINCI-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft.
+Bei der Suche nach möglichen Vertretern wird im DaVinci-Vertretungsplan auch die Option geprüft, ob die Vertretung eines fehlenden Lehrers durch das Vorziehen von Unterricht erfolgen kann. Standardmäßig erfolgt diese Suche durch das Prüfen von vorziehbarem Unterricht in der von der Vertretung betroffenen Klasse in der Zukunft.
 
 Sollen auch Termine in der **Vergangenheit des Vertretungstermines** geprüft werden, müssen Sie hier die Anzahl 0 ändern. Wie viele Tage in Vergangenheit des **Vertretungstermines** dazu geprüft werden, wird durch den Eintrag im Feld `Tage vor Vertretungsdatum für vorziehbare Termine` berücksichtigen beeinflusst.
 
@@ -269,7 +269,7 @@ Durch Aktivieren des Optionsfeld `Aber nicht aus der Vergangenheit` werden Termi
 
 #### Farben in Stundenplänen
 
-Um die in den Stammdaten von DAVINCI festgelegten Farben für Lehrer, Klassen, Fächer und Räume in
+Um die in den Stammdaten von DaVinci festgelegten Farben für Lehrer, Klassen, Fächer und Räume in
 den Stundenplänen nicht anzuzeigen, können Sie `Start` die Schaltfläche "Schwarz/Weiß" aktivieren.
 
 ## Geeignete Vertretungslehrer suchen
@@ -484,7 +484,7 @@ Indirekte Vertreter sind Lehrer, die zum Zeitpunkt des zu vertretenden Termins s
 
     Ist ein mögliche Vertreter Teil einer Blockung, in der ein Lehrer zu vertreten ist, so wird dieser Lehrer in der Liste der direkten Vertreter aufgeführt. Grundsätzlich stehen alle Lehrer für eine Vertretung zur Verfügung, die zum Termin nicht eine Fehlzeit haben bzw. mit einer fehlenden Klasse mitfahren. Sie werden dann entweder als direkte oder als indirekte Vertreter für den Einsatz angeboten.
 
-DAVINCI bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht des indirekten Vertreters:
+DaVinci bietet aber zwei Varianten im Umgang mit dem planmäßigen Unterricht des indirekten Vertreters:
 
 * Der indirekte Vertreter übernimmt den ausgefallenen Unterricht des Kollegen zusätzlich zu seinem eigenen.
 
@@ -588,7 +588,7 @@ Die von der Automatik erstellten Vertretungen werden nun in der Liste der offene
 
 ## Vertretungsalternativen eingeben
 
-Wenn für eine Lehrer-Fehlzeit kein geeigneter Vertreter zur Verfügung steht, dann gibt es in DAVINCI auch die Möglichkeit, einer Klasse für die ausfallenden Unterrichtsstunden verschiedene Alternativen zuzuweisen. Die Alternativen werden aus Basis des Schlüsselverzeichnisses Vertretungsentfallgründe angeboten. Über das Schlüsselverzeichnis haben Sie die Möglichkeit, eigene Entfallgründe für Vertretungen und damit Ihre eigenen Vertretungsalternativen zu bestimmen.
+Wenn für eine Lehrer-Fehlzeit kein geeigneter Vertreter zur Verfügung steht, dann gibt es in DaVinci auch die Möglichkeit, einer Klasse für die ausfallenden Unterrichtsstunden verschiedene Alternativen zuzuweisen. Die Alternativen werden aus Basis des Schlüsselverzeichnisses Vertretungsentfallgründe angeboten. Über das Schlüsselverzeichnis haben Sie die Möglichkeit, eigene Entfallgründe für Vertretungen und damit Ihre eigenen Vertretungsalternativen zu bestimmen.
 
 So gelangen Sie zum Schlüsselverzeichnis Vertretungsentfallgründe:
 

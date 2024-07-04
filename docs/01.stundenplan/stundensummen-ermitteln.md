@@ -2,7 +2,7 @@
 
 ## Berechnungskonzepte
 
-In DAVINCI 6 stehen drei verschiedene Berechnungskonzepte zur Verfügung, die Sie für die Ermittlung der Stundensummen benutzen können:
+In DaVinci 6 stehen drei verschiedene Berechnungskonzepte zur Verfügung, die Sie für die Ermittlung der Stundensummen benutzen können:
 
 * Faktorbezogene Berechnung
 * Wochenbezogene Berechnung
@@ -18,13 +18,13 @@ Faktorbezogen | Die jeweilige Stundendauer einer Veranstaltung wird mit dem Klas
 
 ### Dauer und Wertung einer Unterrichtstunde festlegen
 
-DAVINCI STUNDENPLAN errechnet auf der Basis der erstellten Unterrichtstermine automatisch die anfallenden Unterrichtsstunden. Dabei wird standardmäßig ein Ausgangswert von 45 Minuten pro Unterrichtsstunde vorausgesetzt. Diesen Ausgangswert für die Stundenzählung können Sie bei Bedarf an Ihre spezifischen Gegebenheiten anpassen.
+DaVinci Stundenplan errechnet auf der Basis der erstellten Unterrichtstermine automatisch die anfallenden Unterrichtsstunden. Dabei wird standardmäßig ein Ausgangswert von 45 Minuten pro Unterrichtsstunde vorausgesetzt. Diesen Ausgangswert für die Stundenzählung können Sie bei Bedarf an Ihre spezifischen Gegebenheiten anpassen.
 
 !!! info "Hinweis"
 
     Der Wert für die statistische Einheit einer Unterrichtsstunde kann von dem Umfang abwei-chen, den Sie im Dialogfenster „Zeitrahmen“ für die Erstellung des Stundenrasters angegeben haben.
 
-Standardmäßig geht DAVINCI bei der Stundenzählung davon aus, dass jede geleistete Lehrerstunde unabhängig vom Fach, das gleiche Gewicht erhält. Wenn die Zählung der Lehrerstunden aber auf der Basis fachbezogener Wertfaktoren erfolgen soll, können Sie dies ebenfalls in den allgemeinen Statistikvorgaben des Programms festlegen.
+Standardmäßig geht DaVinci bei der Stundenzählung davon aus, dass jede geleistete Lehrerstunde unabhängig vom Fach, das gleiche Gewicht erhält. Wenn die Zählung der Lehrerstunden aber auf der Basis fachbezogener Wertfaktoren erfolgen soll, können Sie dies ebenfalls in den allgemeinen Statistikvorgaben des Programms festlegen.
 Um die Dauer der Unterrichtsstunden an Ihre besonderen Erfordernisse anzupassen, gehen Sie bitte folgendermaßen vor:
 
 1. Klicken Sie im Menüband auf die Schaltfläche ``Plan``.
@@ -73,7 +73,7 @@ Bei der faktorbezogenen Berechnung fließen folgende Informationen in die Berech
 * Die Angaben in der Spalte „Block“ der Veranstaltungsliste
 * Die Angaben in der Spalte „Wochen“ der Veranstaltungsliste
 
-Der Klassen- und der Lehrerfaktor einer Veranstaltung werden von DAVINCI automatisch ermittelt. Beide Faktoren können jeweils einen Wert zwischen „1“ und „0“ annehmen. Der Wert „1“ bedeutet, dass eine Veranstaltung in allen Unterrichtswochen des Planungszeitraums stattfindet.
+Der Klassen- und der Lehrerfaktor einer Veranstaltung werden von DaVinci automatisch ermittelt. Beide Faktoren können jeweils einen Wert zwischen „1“ und „0“ annehmen. Der Wert „1“ bedeutet, dass eine Veranstaltung in allen Unterrichtswochen des Planungszeitraums stattfindet.
 Ein Wert kleiner als „1“ bedeutet, dass eine Veranstaltung nicht in allen Unterrichtswochen des Planungszeitraums stattfindet. Die Anzahl der Unterrichtswochen einer bestimmten Veranstaltung wird dabei durch den allgemeinen Wochenfaktor geteilt. Der allgemeine Wochenfaktor steht als statistischer Kennwert für die Anzahl aller Unterrichtswochen des Planungszeitraums und wird vom Planer im Vorfeld definiert.
 
 ### Wochenbezogene Berechnung
@@ -127,7 +127,7 @@ Bei der tagesbezogenen Berechnung fließen folgende Informationen in die Berechn
 
 In der Jahresverteilung bietet eine Übersicht der Stundensummen der einzelnen Kalenderwochen aus Sicht der Lehrkräfte oder Klassen.
 
-In der Jahresverteilung können Sie im Menü `Start > Jahresverteilung > Farben anzeigen` können Sie die einzelnen Wochenwerte farbig nach betsimmten Kriterien ausgeben. Die Einstellzung hierfür machen Sie in den `DAVINCI Optionen > Farben > Jahresverteilung`. Hier können Sie Farben für die Werte 
+In der Jahresverteilung können Sie im Menü `Start > Jahresverteilung > Farben anzeigen` können Sie die einzelnen Wochenwerte farbig nach betsimmten Kriterien ausgeben. Die Einstellzung hierfür machen Sie in den `DaVinci Optionen > Farben > Jahresverteilung`. Hier können Sie Farben für die Werte 
 
 * Planvorgabe Null
 * Planvorgabe überschritten

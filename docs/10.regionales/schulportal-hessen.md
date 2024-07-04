@@ -1,6 +1,6 @@
 # Schulportal HESSEN
 
-Mit DAVINCI ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie der Vertretungsplandaten in das Schulportal HESSEN möglich. Das Schulportal HESSEN ist ein Service, der von der _Hessischen Lehrkräfteakademie_ den Schulen zur Verfügung gestellt wird.
+Mit DaVinci ist ein manueller Upload der Stunden- und Aufsichtplandaten sowie der Vertretungsplandaten in das Schulportal HESSEN möglich. Das Schulportal HESSEN ist ein Service, der von der _Hessischen Lehrkräfteakademie_ den Schulen zur Verfügung gestellt wird.
 
 Bitte schauen Sie auch [hier](https://support.schulportal.hessen.de/knowledgebase.php?category=76) direkt auf der Seite des Schulportal Hessen und infomrieren sich zu den aktuellen Möglichkeiten.
 
@@ -15,34 +15,34 @@ Bitte schauen Sie auch [hier](https://support.schulportal.hessen.de/knowledgebas
 
 Generell gilt für den Export für einen Zeitraum:
 
-Wenn Option "Alle Wochen" in DAVINCI gewählt wurde, dann enthält die JSON.Datei keine Terminangaben für die Stunde, sondern nur die Nummer des Wochentags (weekday). Somit darf beim Import ins Schulportal auch nicht die Option "Datei enthält Datumsangaben" gewählt werden.
+Wenn Option "Alle Wochen" in DaVinci gewählt wurde, dann enthält die JSON.Datei keine Terminangaben für die Stunde, sondern nur die Nummer des Wochentags (weekday). Somit darf beim Import ins Schulportal auch nicht die Option "Datei enthält Datumsangaben" gewählt werden.
 
 Wenn ein Zeitraum für den Export gewählt wurde, enthält die JSON.Datei für die Stunde ein Array von Datumsangaben (dates), aber nicht das Feld Weekday. Dann kann beim Import die Option für mehrere Wochen gewählt werden. Zudem muss beim Export die Option "Termine" ausgewählt sein.
 
-#### DAVINCI JSON-Daten exportieren
+#### DaVinci JSON-Daten exportieren
 
 Doku in Bearbeitung
 
-1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI JSON-Daten exportieren` aus und klicken Sie auf `Weiter`.
+1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DaVinci JSON-Daten exportieren` aus und klicken Sie auf `Weiter`.
 
 2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie `alle Wochen` aus. Klicken Sie auf `Weiter`.
 
 ### XML Export (bitte zukünftig nicht mehr verwenden)
 
-Im Schulprotal HESSEN kann die Datei des XML-Exports aus DAVINCI ausgewertet werden. Der XML-Export enthält den Stunden- und Aufsichtsplan aus DAVINCI. Um die Daten im Schulportal HESSEN anzeigen zu lassen, muss der Export der XML-Datei aus Sicht aller Wochen erfolgen. Hier werden jedoch aktuell keine Informationen über die Perioden übergeben.
+Im Schulprotal HESSEN kann die Datei des XML-Exports aus DaVinci ausgewertet werden. Der XML-Export enthält den Stunden- und Aufsichtsplan aus DaVinci. Um die Daten im Schulportal HESSEN anzeigen zu lassen, muss der Export der XML-Datei aus Sicht aller Wochen erfolgen. Hier werden jedoch aktuell keine Informationen über die Perioden übergeben.
 
-#### DAVINCI XML-Daten exportieren
+#### DaVinci XML-Daten exportieren
 
-1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DAVINCI XML-Daten exportieren` aus und klicken Sie auf `Weiter`.
+1. Wählen Sie über `Plan > Importieren und Exportieren > Exportieren > DaVinci XML-Daten exportieren` aus und klicken Sie auf `Weiter`.
 
 2. Geben Sie im Bereich `Datei` über das Eingabefeld die Datei an, in die Sie die Daten exportieren wollen. Im Bereich `Zeitraum` wählen Sie entweder `Alle Wochen` oder `Nur Wochen` und geben ein `Von` und `Bis`-Datum ein. Letzteres ermöglicht einen Export von wochenbezogenen Veranstaltungen. Bitte beachten Sie in diesem Falle unbedingt darauf, dass Sie unter `Auswahl` den Haken vor `Termine` gesetzt haben. Klicken Sie auf `Weiter`.
 3. Die Daten werden exportiert. Klicken Sie im Dialogfenster auf `OK`. 
 
-Diese DAVINCI JSON-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
+Diese DaVinci JSON-Export Datei müssen Sie nun noch in das Schulprotal HESSEN hochladen.
 
 ## Export der Vertretungspläne für das Schulportal HESSEN
 
-Um Vertretungsplaninformationen aus DAVINCI in das Schulportal HESSEN zu übergeben, nutzen Sie bitte die dafür eingebaute Exportfunktion in DAVINCI.
+Um Vertretungsplaninformationen aus DaVinci in das Schulportal HESSEN zu übergeben, nutzen Sie bitte die dafür eingebaute Exportfunktion in DaVinci.
 
 ### So gehen Sie vor
 

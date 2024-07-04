@@ -1,6 +1,6 @@
 # Landestatistik Niedersachsen
 
-DAVINCI exportiert die Daten für die Niedersächsische Landesstatistik. 
+DaVinci exportiert die Daten für die Niedersächsische Landesstatistik. 
 
 **So gehen Sie vor:**
 
@@ -10,7 +10,7 @@ Exportieren Sie mit ``Plan > Importieren und Exportieren > Statistikdaten export
 
 Exportiert wird eine Datei mit festen Feldlängen mit folgenden Feldern:
 
-## Aufbau der von DAVINCI exportierten BBS-Planung Datei
+## Aufbau der von DaVinci exportierten BBS-Planung Datei
 
 Von Stelle | Bis Stelle | Beschreibung
 -------|--------|-------------------

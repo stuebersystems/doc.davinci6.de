@@ -118,7 +118,7 @@ Die Automatik hält folgende Bedingungen ein:
 ## Optimiere Verteilung
 
 Über die Schaltfläche Optimiere Verteilung in der Ansicht Kursplan | Blöcke können Sie jederzeit für
-eine gegebene Blockung die Schülerverteilung optimieren. DAVINCI versucht dabei Teilnehmern aus
+eine gegebene Blockung die Schülerverteilung optimieren. DaVinci versucht dabei Teilnehmern aus
 Kursen mit einer positiven Abweichung, d.h. Kurse bei denen mehr Teilnehmer als optimal zugweisen
 wurden in andere Kurse der Kursgruppe zu versetzen, also z.B. aus dem Kurs M1 in den Kurs M2 oder
 M3, solange dies zu keinem Konflikt und diese Kurse eine negative Abweichung, d.h. weniger Teilnehmer
@@ -219,7 +219,7 @@ So entfernen Sie einen oder mehrere Schüler aus einem Kurs:
 
 ## Kursteilnehmern Alternativkurse zuweisen
 
-Sie können in der Ansicht `Kursplan > Blöcke` mit Hilfe von DAVINCI auf andere Kurse umverteilen. Sie können dabei die Umwahlmöglichkeiten aus der Sichtweise des Alternativkurses oder aus der Sichtweise eines Schülers betrachten.
+Sie können in der Ansicht `Kursplan > Blöcke` mit Hilfe von DaVinci auf andere Kurse umverteilen. Sie können dabei die Umwahlmöglichkeiten aus der Sichtweise des Alternativkurses oder aus der Sichtweise eines Schülers betrachten.
 
 ![](/assets/images/KP/KP_Welche Kursteilnehmer passen in den Alternativkurs de2.png)
 

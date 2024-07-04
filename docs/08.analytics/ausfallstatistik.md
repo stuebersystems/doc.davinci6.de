@@ -57,7 +57,7 @@ Stundenwert = 1 Stunde * 12/24 = 0,5
 
 ## Die Spalten
 
-Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeichneten Lehrerfehlgründe, Klassenfehlgründe und Vertretungsentfallgründe. Dabei geht DAVINCI nach folgender Regel vor: Es erscheinen diejenigen Kürzel als Spalten in der Tabelle, die einen Schlüsselwert in der Spalte "Schlüssel" des jeweiligen Schlüsselverzeichnisses haben. Zusätzlich wird das erste Kürzel als Spalte aufgeführt, dass keinen Eintrag in der Spalte "Schlüssel" hat. Es dient dazu, alle weiteren Gründe zu sammeln, solange diese ebenfalls keine Angabe im Feld "Schlüssel" haben.
+Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeichneten Lehrerfehlgründe, Klassenfehlgründe und Vertretungsentfallgründe. Dabei geht DaVinci nach folgender Regel vor: Es erscheinen diejenigen Kürzel als Spalten in der Tabelle, die einen Schlüsselwert in der Spalte "Schlüssel" des jeweiligen Schlüsselverzeichnisses haben. Zusätzlich wird das erste Kürzel als Spalte aufgeführt, dass keinen Eintrag in der Spalte "Schlüssel" hat. Es dient dazu, alle weiteren Gründe zu sammeln, solange diese ebenfalls keine Angabe im Feld "Schlüssel" haben.
 
 [![Schlüsselverzeichnis > Lehrerfehlgründe][3]][3]
 
@@ -91,4 +91,4 @@ Die Übersicht errechnet sich dynamisch aufgrund der von Ihnen dafür gekennzeic
 
 !!! info "Hinweis"
 
-     Wie Sie mit der Ausfallstatistik die sächsische Landesstatistik erstellen können, erfahren Sie im DAVINCI Benutzerhandbuch unter Regionales im Abschnitt [Sachsen](https://doc.davinci6.stueber.de/10.regionales/sac-ausfallstatistik).
+     Wie Sie mit der Ausfallstatistik die sächsische Landesstatistik erstellen können, erfahren Sie im DaVinci Benutzerhandbuch unter Regionales im Abschnitt [Sachsen](https://doc.davinci6.stueber.de/10.regionales/sac-ausfallstatistik).

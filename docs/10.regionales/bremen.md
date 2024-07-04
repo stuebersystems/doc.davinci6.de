@@ -1,17 +1,17 @@
 # Landestatistik Bremen
 
-DAVINCI exportiert die Daten für die Bremer Lehrer-Ausfallstatistik. Die Übersicht Ausfallstatistik zeigt das Ergebnis der Bremer Ausfallstatistik.
+DaVinci exportiert die Daten für die Bremer Lehrer-Ausfallstatistik. Die Übersicht Ausfallstatistik zeigt das Ergebnis der Bremer Ausfallstatistik.
 
 **So gehen Sie vor:**
 
-1. Erstellen Sie den Vertretungplan in DAVINCI.
+1. Erstellen Sie den Vertretungplan in DaVinci.
 2. Exportieren Sie mit ``Plan > Importieren und Exportieren > Statistikdaten exportieren`` und dann mit ``Statistik Bremen exportieren`` die entsprechenden Daten.
 
 ## Was wird exportiert
 
 Exportiert wird eine CSV-Datei (eine Zeile je Tag) mit folgenden Feldern:
 
-## Aufbau der von DAVINCI exportierten Datei
+## Aufbau der von DaVinci exportierten Datei
 
 Feld        | Beschreibung
 ------------|-------------------

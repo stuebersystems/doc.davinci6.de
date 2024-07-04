@@ -2,7 +2,7 @@
 
 Der Apache HTTP Server ist ein quelloffener und freier Web-Server der Apache Software Foundation und gilt als der meistbenutzte Web-Server im Internet. Der große Vorteil des Apache HTTP Servers ist, dass dieser kostenlos ist und unter nahezu jeder Version von Windows installiert werden kann.
 
-Dieses Kapitel beschreibt die Grundinstallation des Apache HTTP Server. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVER, Intstallation der DAVINCI WEBBOX).
+Dieses Kapitel beschreibt die Grundinstallation des Apache HTTP Server. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DaVinci InfoServer, Intstallation der DaVinci WebBox).
 
 ## Installation
 

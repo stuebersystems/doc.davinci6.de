@@ -1,6 +1,6 @@
 # Aufsichtspläne erstellen
 
-Aufsichtspläne können Sie in DAVINCI für jeden Bereich erstellen, den Sie in den Stammdaten auf der Registerkarte `Aufsichtsbereiche` angelegt haben. Aufsichtspläne erstellen Sie ebenfalls im Programmbereich `Stundenplan`. Für diese Aufgabe steht Ihnen der Arbeitsbereich `Aufsichtsplan` zur Verfügung. Um diesen Arbeitsbereich zu öffnen, klicken Sie bitte in der Navigationsleiste am linken Rand des Programmfensters auf den Link `Aufsichten`.
+Aufsichtspläne können Sie in DaVinci für jeden Bereich erstellen, den Sie in den Stammdaten auf der Registerkarte `Aufsichtsbereiche` angelegt haben. Aufsichtspläne erstellen Sie ebenfalls im Programmbereich `Stundenplan`. Für diese Aufgabe steht Ihnen der Arbeitsbereich `Aufsichtsplan` zur Verfügung. Um diesen Arbeitsbereich zu öffnen, klicken Sie bitte in der Navigationsleiste am linken Rand des Programmfensters auf den Link `Aufsichten`.
 
 ![Programmbereich „Aufsichten“ für die Erstellung von Aufsichtsplänen](/assets/images/SP/stundenplan5.png)
 

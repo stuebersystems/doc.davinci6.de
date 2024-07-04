@@ -14,19 +14,19 @@ CHANGE| Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! warning "Wichtig"
 
-Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?]
+Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?]
 
 
-## DAVINCI Version 6.5.52
+## DaVinci Version 6.5.52
 
 Veröffentlichung: 13.12.2018
 Dateiformat: 6.0.171
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: eingetragene Kernzeiten werden wieder im Planfenster abgebildet
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: "Änderungen mitteilen" -  die fehlenden Lehrer in den Zusatzinformationen werden nicht mehr mehrfach angezeigt
 
@@ -34,40 +34,40 @@ Dateiformat: 6.0.171
 
 * FIX:  Doppelte Anrechnung von Vertretungsstd. bei geblockten Unterricht bei INDIREKTEN Vertretern korrigiert. Sie erhalten nun korrekterweise wieder nur eine Anrechnungsstunde.
 
-### LOOK
+### Look
 
 FIX: Registerkarten unter Planfenster werden wieder angezeigt und laufen synchron mit dem gewählten Element im Plan.
 
-## DAVINCI Version 6.5.51
+## DaVinci Version 6.5.51
 
 Veröffentlichung: 29.11.2018
 Dateiformat: 6.0.171
 
 ### Server
 
-* FIX: Änderungsgründe von Fehlzeiten werden unabhängig von den Einstellungen in DAVINCI nicht für die DAVINCI WEBBOX oder DAVINCI MOBILE übergeben.
-* FIX: Offene Fehlzeiten (ohne abgeschlossene Vertretungsregelung) sind in der DAVINCI WEBBOX und in DAVINCI MOBILE für alle Nutzer außer Nutzer mit Klassen- oder Schülerrechten sichtbar.
+* FIX: Änderungsgründe von Fehlzeiten werden unabhängig von den Einstellungen in DaVinci nicht für die DaVinci WebBox oder DaVinci Mobile übergeben.
+* FIX: Offene Fehlzeiten (ohne abgeschlossene Vertretungsregelung) sind in der DaVinci WebBox und in DaVinci Mobile für alle Nutzer außer Nutzer mit Klassen- oder Schülerrechten sichtbar.
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Extern dat, Ausgabe der Stunden bei Unterricht mit 2 Lehrern
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Fehlzeit im Kursbereich (Fehlzeit eines Lehrers im Kursbereich mit anschließender Fehlzeit eines anderen Kurses führte zum Verschwinden der zuerst eingetragenen Lehrerfehlzeit)
 * FIX: werden Fehlzeiten von Klassen gelöscht, mussten betroffenen offene Vertretungen für Lehrer bisher neu erzeugt werden, dies geschieht nun automatisch
 * FIX: Vertretungsregelung "Wie Woche zuvor" ist wieder möglich
 
-### KURSPLAN
+### Kursplan
 
-* FIX: Im Bereich "KURSPLAN > Schüler" sind beim Schüler "Klasse" und "Tutor" verloren gegangen, dies wurde korrigiert.
-* FIX: Im Bereich "KURSPLAN > Fachwahlen" wurden die Stundenwerte der Kurse verändert, diese Werte stimmen nun wieder.
+* FIX: Im Bereich "Kursplan > Schüler" sind beim Schüler "Klasse" und "Tutor" verloren gegangen, dies wurde korrigiert.
+* FIX: Im Bereich "Kursplan > Fachwahlen" wurden die Stundenwerte der Kurse verändert, diese Werte stimmen nun wieder.
 
 ### KALENDER
 
 * FIX: Beim Anlegen neuer Ereignisse wurden Datumsangaben nicht korrekt übernommen, dies wurde korrigiert.
 
-### LOOK
+### Look
 
 * FIX: offene Lehrerfehlzeiten werden wieder den Lehrer- und Klassenplänen angezeigt
 * FIX: Eintrag von Fehlzeit im Enterprisebetrieb wieder möglich
@@ -84,7 +84,7 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 * NEW: Aktualisierung der LANIS Schnittstelle
 
-## DAVINCI WEBBOX Version 1.10.4 
+## DaVinci WebBox Version 1.10.4 
 
 [**UPDATE-ANLEITUNG**](https://doc.davinci6.stueber.de/09.infoserver/infoserver-und-webbox-aktualisieren/)
 
@@ -94,37 +94,37 @@ NEW: kompakte Wochendarstellung in der Publikation;[48],[50-52] statt [48],[49],
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DAVINCI LOOK und der DAVINCI WEBBOX: [Welche Vertretungsinformationen werden für LOOK oder die WEBBOX publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
-## DAVINCI Version 6.5.50
+## DaVinci Version 6.5.50
 
 Veröffentlichung: 25.10.2018
 Dateiformat: 6.0.171
 
-### STUNDENPLAN
+### Stundenplan
 
-* FIX: Die im Stammdatenfenster eingestellten Farben bei "Lehrer, Klassen, Fach, Raum" (und über die Plan-Eigenschaften aktiviert) werden wieder in die Stundenplanansicht und in LOOK übergeben.
+* FIX: Die im Stammdatenfenster eingestellten Farben bei "Lehrer, Klassen, Fach, Raum" (und über die Plan-Eigenschaften aktiviert) werden wieder in die Stundenplanansicht und in Look übergeben.
 
-## DAVINCI Version 6.5.49
+## DaVinci Version 6.5.49
 
 Veröffentlichung: 22.10.2018
 Dateiformat: 6.0.171
 
-### LOOK
+### Look
 
-* FIX: Nach dem Upate auf DAVINCI LOOK 7.5.48 kam es zu Zugriffsverletztungen über die Suche und beim Öffen von Planfenstern. Dies ist korrigiert.
+* FIX: Nach dem Upate auf DaVinci Look 7.5.48 kam es zu Zugriffsverletztungen über die Suche und beim Öffen von Planfenstern. Dies ist korrigiert.
 
-## DAVINCI Version 6.5.48
+## DaVinci Version 6.5.48
 
 Veröffentlichung: 19.10.2018
 Dateiformat: 6.0.171
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Statistik Nordrhein-Westfalen BBS/ABS - Extern.dat gibt nun richtig die Lehrer-Ist Werte aus 
 * FIX: Statistik Nordrhein-Westfalen BBS/ABS - Extern.dat gibt berücksichtigt dreistellige Schülerzahlen 
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Fehlzeitenerfassung bei Lehrer - wenn man im Fehlzeiten-Erfassen-Fenster mehrere Lehrer hintereinander als fehlend erfasst hat, kam es zu fehlerhaften Einträgen im Lehrerplan - dies ist korrigiert
 * FIX: Raumänderungen werden im Planfenster wieder korrekt angezeigt (+VRaum (Raum)) und wieder mit den Ausdruck übergeben
@@ -133,35 +133,35 @@ Dateiformat: 6.0.171
 
 ![Liste der offenen Vertretungen](/assets/images/6.5.48.01.png)
 
-### KURSPLAN
+### Kursplan
 
 * FIX: Bereich "Schüler" - Blockkonflikte werden wieder angezeigt
 * FIX: Bereich "Schüler" - bei Änderung des Jahrgangs wechselt nun neben der Schülerliste auch wieder der Jahrgang
 
-### LOOK
+### Look
 
-* FIX: Ansicht JETZT, hat man das Layout in der Ansicht JETZT über die DAVINCI Optionen von Liste <-> Matrix umgestellt, kam es zu einer Fehlermeldung. Dies wurde korrigiert.
+* FIX: Ansicht JETZT, hat man das Layout in der Ansicht JETZT über die DaVinci Optionen von Liste <-> Matrix umgestellt, kam es zu einer Fehlermeldung. Dies wurde korrigiert.
 * FIX: Lehrer/Klassen/Räume jetzt in der Matrix wieder komplett ohne Laufbalken einsehbar
 
 ### DRUCK
 
 * FIX: Gesamtplan Lehrer - Sperrzeiten der Lehrer werden wieder an richtiger Position in den Lehrergesamtplan übergeben
 
-## DAVINCI Version 6.5.47
+## DaVinci Version 6.5.47
 
 Veröffentlichung: 19.09.2018
 Dateiformat: 6.0.170
 
-### STUNDENPLAN
+### Stundenplan
 
-* FIX: Mit gesetztem Haken "Vertetungsinfos anzeigen" wurden im STUNDENPLAN Konflikte angezeigt, die es als solche nicht gibt. Dies wurde korrigiert.
+* FIX: Mit gesetztem Haken "Vertetungsinfos anzeigen" wurden im Stundenplan Konflikte angezeigt, die es als solche nicht gibt. Dies wurde korrigiert.
 * FIX: Fehlermeldung beim Öffnen des Zusatzplanfensters im Stundenplanbereich
 * FIX: `Extras > Übersichten anzeigen > Listen`in der Fachkonferenzliste werden die Lehrer gezeigt, die entweder unter `Stammdaten > Fächer` ein Fach eingetragen haben oder es unterrichten.
 * FIX:  Verlegung von Unterricht im Stundenplan mit er Option "Räume nicht verplanen" wird korrekt berücksichtigt
 * FIX:  Zeitkonflikte aufgrund von Kernzeiten werden nicht mehr angezeigt
 * NEW: aktualisierte Lehrer-Soll-Schlüssel für NRW (13_NRW_Lehrer-Soll-Schluessel.key)
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Ansicht ``Vertretungsplan > Fehlzeiten`` - Beim Wechsel von Klasse zu Lehrer über ``Start > Inhalt wechseln > Lehrerbutton`` kam es zu einer Fehlermeldung. 
 * FIX: trägt man eine Klassenfehlzeit ein, kann man für den mitfahrenden Lehrer einen separaten Fehlgrund eingeben, die Farbe dieses Fehlgrundes wird nun mit im Plan dargestellt
@@ -171,7 +171,7 @@ Dateiformat: 6.0.170
 * FIX: Freistellen über mehrere Stunden korrigiert
 * NEW: beim Eintrag von Fehlzeiten werden nur Datumsangaben innerhalb des Planungszeitraumes der Datei zugelassen
 
-### KURSPLAN
+### Kursplan
 
 * FIX:  aufgestockte Grundkurse /  Korrektur der Konfliktanzeige 
 
@@ -185,35 +185,35 @@ Dateiformat: 6.0.170
 * FIX: Sortierung in Tagesvertretung nach Lehrern korrigiert 
 * FIX: html Vorlagen von http auf https umgestellt 
 
-## DAVINCI Version 6.5.46
+## DaVinci Version 6.5.46
 
 Veröffentlichung: 28.08.2018
 Dateiformat: 6.0.170
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Am letzten Tag der Woche wurden die Veranstaltungen nicht korrekt im Plan eingeblendet.
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Am letzten Tag der Woche wurden die Veranstaltungen nicht korrekt im Plan eingeblendet.
 
-### LOOK
+### Look
 
 * FIX: Am letzten Tag der Woche wurden die Veranstaltungen nicht korrekt im Plan eingeblendet.
 
-## DAVINCI Version 6.5.45
+## DaVinci Version 6.5.45
 
 Veröffentlichung: 28.08.2018 
 Dateiformat: 6.0.170
 
 ### Server
 
-* CHANGE: Bislang wurde für den Einsatz vom DAVINCI INFOSERVER mit zwei DAVINCI Servern auf dem Publikationsserver die Auswahl der Einstellung `Sensitiv für Dateiänderungen` in der DAVINCI.users gespeichert. Hat man diese Datei per SIGMA vom Verwaltungsserver auf den Publikationsserver kopiert, ist auch die Einstellung mit übernommen worden. Diese Einstellung wird daher nicht mehr über den DAVINCI Explorer pro Plandatei ausgewählt, sondern wird zentral über das DAVINCI Server Control in der Systemsteuerung des Publikationsservers (nur dort, bitte nie auf dem Verwaltungsserver) ausgewählt. Bitte aktivieren Sie einmalig diese Einstellung!
+* CHANGE: Bislang wurde für den Einsatz vom DaVinci InfoServer mit zwei DaVinci Servern auf dem Publikationsserver die Auswahl der Einstellung `Sensitiv für Dateiänderungen` in der DaVinci.users gespeichert. Hat man diese Datei per SIGMA vom Verwaltungsserver auf den Publikationsserver kopiert, ist auch die Einstellung mit übernommen worden. Diese Einstellung wird daher nicht mehr über den DaVinci Explorer pro Plandatei ausgewählt, sondern wird zentral über das DaVinci Server Control in der Systemsteuerung des Publikationsservers (nur dort, bitte nie auf dem Verwaltungsserver) ausgewählt. Bitte aktivieren Sie einmalig diese Einstellung!
 
 ![](/assets/images/sensitiv.haken.png)
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: `Stammdaten >Schüler` - Import aus der Zwischenablage korrigiert. Es werden nun alle Felder bis auf "Datails" aus der Zwischenablage übernommen. Bitte achten Sie auf Folgendes:
 
@@ -228,7 +228,7 @@ Dateiformat: 6.0.170
 * FIX: beim Öffnen des Fensters "Veranstaltung bearbeiten &gt; Teilnehmer Veranstaltung =&gt; Wechsel auf Teilnehmer Termine" aktualisiert sich die Anzeige
 * FIX:  Über ``Start > Plansicht``  "Keine Angabe in Spalte "Raum" ohne Raum verplanen" können Sie steuern, ob in der manuellen & automatischen Verplanung von Stunden die Raumautomatik greifen soll. 
 
-### VERTRETUNGSPLAN
+### Vertretungsplan
 
 * FIX: Vertreter mit Zusatzunterricht werden bei direkten Vertretern angezeigt 
 * FIX: bei der Verwendung der Dauer einer Position 90min im Zeitrahmen, wird diese Zeit korrekt in den Vertretungsplan für Zusatzunterricht und Mitteilungen übernommen 
@@ -237,7 +237,7 @@ Dateiformat: 6.0.170
 * FIX: ein durch `Änderung > Raum ändern` belegter Raum wird wieder korrekt mit Blitz als belegt angezeigt
 * FIX: Vertreter mit der Option "Vorziehen" werden auch bei vorliegender Raumfehlzeit wieder angeboten
 
-### KURSPLAN
+### Kursplan
 
 * FIX: `Kursplan > Kurse > Schnittmengen` Ausgabe der Schnittmenge korrigiert
 
@@ -245,11 +245,11 @@ Dateiformat: 6.0.170
 
 * NEW: `Kalender > Aufgaben`: Neuer Aufruf: `Aufgaben in Ereignisse umwandeln`
 
-### LOOK
+### Look
 
 * FIX: Suche mit Kürzeln nach Lehrern oder Klassen: aus dem Klassenplan heraus wird die 1. Klasse mit dem Kürzel angezeigt, aus dem Lehrerplan heraus der 1. Lehrer
 
-## DAVINCI WEBBOX Version 1.10.3
+## DaVinci WebBox Version 1.10.3
 
 Veröffentlichung: 09.07.2018
 
@@ -257,12 +257,12 @@ Veröffentlichung: 09.07.2018
 
 * FIX: Wenn man den Parameter "teacherDisplayName" mit dem Wert "lastName" verwendete, klappte der Wechsel vom Klassenplan auf den Lehrerplan (per Klick auf das Termindetail Lehrer) nicht, dieser Punkt wurde korrigiert.
 
-## DAVINCI Version 6.5.44
+## DaVinci Version 6.5.44
 
 Veröffentlichung: 06.07.2018
 Dateiformat: 6.0.170
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Einzelne Veranstaltungen oder die gesamte Veranstaltungsliste einer Klasse kann wieder gelöscht werden.
 * FIX: Zeitrahmen \| Positionsschemata bleiben auch nach dem Trennen vom Server gespeichert
@@ -270,7 +270,7 @@ Dateiformat: 6.0.170
 
 ### KALENDER
 
-* FIX:  Synchronisation von Google nach DAVINCI klappt wieder,  es kann wieder ein Google Kalender ausgewählt werden
+* FIX:  Synchronisation von Google nach DaVinci klappt wieder,  es kann wieder ein Google Kalender ausgewählt werden
 
 ### DRUCK
 
@@ -278,9 +278,9 @@ Dateiformat: 6.0.170
 
 ### SONSTIGES
 
-* FIX: Import/Export: Die Anmeldedaten (`DAVINCI Optionen > Upload`) werden beim Export von JSON-Daten (Beispiel: Auf einen Webserver) mit übergeben.
+* FIX: Import/Export: Die Anmeldedaten (`DaVinci Optionen > Upload`) werden beim Export von JSON-Daten (Beispiel: Auf einen Webserver) mit übergeben.
 
-## DAVINCI WEBBOX Version 1.10.2
+## DaVinci WebBox Version 1.10.2
 
 Veröffentlichung: 10.04.2018
 
@@ -294,23 +294,23 @@ Veröffentlichung: 10.04.2018
 
 * NEW: Gebäudeplan: Eine geöffnete Rauminfo wird auch beim Vergrößern/Verkleinern der Ansicht (STRG+Mausrad) am dazugehörigen Raum gezeigt.
 * Gebäudeplan: Der Parameter teacherDisplayName=lastName (...| middleName | firstName | namePrefix | nameSuffix | nickName | maidenName) ist auch für den Gebäudeplan anwendbar.
-* NEW: Planansicht: Mitteilungen aus der DAVINCI Vertretungsliste (`Vertretungen > Vertretungen > Spalte Mitteilung`) werden im Planfenster mit angezeigt. Diese Mitteilungen gehören jeweils zu einer Änderung, werden daher in abwechselnd (alle 5 s) mit der roten Info "Geändert", "Zusätzlich", "verschoben von" usw. mit gelben Hintergrund eingeblendet. Bitte beachten Sie, dass die Mitteilung aus der Vertretungsliste erst für abgeschlossene Vertretungselemente gezeigt wird, nicht für offene Fehlzeiten.
+* NEW: Planansicht: Mitteilungen aus der DaVinci Vertretungsliste (`Vertretungen > Vertretungen > Spalte Mitteilung`) werden im Planfenster mit angezeigt. Diese Mitteilungen gehören jeweils zu einer Änderung, werden daher in abwechselnd (alle 5 s) mit der roten Info "Geändert", "Zusätzlich", "verschoben von" usw. mit gelben Hintergrund eingeblendet. Bitte beachten Sie, dass die Mitteilung aus der Vertretungsliste erst für abgeschlossene Vertretungselemente gezeigt wird, nicht für offene Fehlzeiten.
 
 ![Beispiel für die Anzeige von Mitteilungen aus der Vertretungsliste](/assets/images/Mitteilungstext.png)
 
-## DAVINCI Version 6.5.43
+## DaVinci Version 6.5.43
 
 Veröffentlichung:  10.04.2018
 Dateiformat: 6.0.170
 
-### STUNDENPLAN
+### Stundenplan
 
 * FIX: Einstellung der Nachkommastellen in den Plan-Eigenschaften unter ``Statistik`` wirkt sich auf den Druck der Lehrer-Zeitkonten aus
 ![Plan-Eigenschaften](/assets/images/6.5.43.01.png)
 
 ![Ausdruck "Lehrer-Zeitkonto"](/assets/images/6.5.43.03.png)
 
-### EXPLORER
+### Explorer
 
 * FIX: Ein Löschen angelegter Benutzer ist wieder möglich.
 
@@ -324,57 +324,57 @@ Dateiformat: 6.0.170
 
 * CHANGE: SDTF: Beim Import des SDTF (Schuldatentransferformats, Beispiel Import aus edoosys) wird als Trennzeichen ein Komma erwartet.
 
-## DAVINCI Version 6.5.42
+## DaVinci Version 6.5.42
 
 Veröffentlichung: 15.03.2018  
 Dateiformat: 6.0.170
 
-* STUNDENPLAN: Zusatzplanfenster kann wieder angezeigt werden
-* STUNDENPLAN: Import aus ASV Bayern, Klassendatei und Stundenplandatei korrigiert
-* VERTRETUNGSPLAN: Aufsichtsvertretungen, Lehrer die bereits eine Aufsichtsvertretung haben werden angezeigt aber mit der Info "Hat bereits Aufsicht"
-* VERTRETUNGSPLAN: Lehrer mit Zusatzunterricht wird nicht mehr bei direkten Vertretern angezeigt, sondern bei den indirekten Vertretern
+* Stundenplan: Zusatzplanfenster kann wieder angezeigt werden
+* Stundenplan: Import aus ASV Bayern, Klassendatei und Stundenplandatei korrigiert
+* Vertretungsplan: Aufsichtsvertretungen, Lehrer die bereits eine Aufsichtsvertretung haben werden angezeigt aber mit der Info "Hat bereits Aufsicht"
+* Vertretungsplan: Lehrer mit Zusatzunterricht wird nicht mehr bei direkten Vertretern angezeigt, sondern bei den indirekten Vertretern
 
-## DAVINCI Version 6.5.41
+## DaVinci Version 6.5.41
 
 Veröffentlichung: 09.03.2018 
 Dateiformat: 6.0.170
 
-* VERTRETUNGSPLAN: Verschieben von Einzelstunden, Anzeige von x-Stunde auf y-Stunde korrigiert
-* VERTRETUNGSPLAN: Ausdruck "Lehrervertretungen" - Zusatzunterricht von Lehrern ohne Klassenzuweisung erscheint nun richtig nur bei den Lehrern, für die Zusatzunterricht angelegt wurde
-* STUNDENPLAN: Export der Schülerkurswahlen korrigiert (`Plan > Importieren und Exportieren > Nach MAGELLAN exportieren > Schülerkurswahlen`)
+* Vertretungsplan: Verschieben von Einzelstunden, Anzeige von x-Stunde auf y-Stunde korrigiert
+* Vertretungsplan: Ausdruck "Lehrervertretungen" - Zusatzunterricht von Lehrern ohne Klassenzuweisung erscheint nun richtig nur bei den Lehrern, für die Zusatzunterricht angelegt wurde
+* Stundenplan: Export der Schülerkurswahlen korrigiert (`Plan > Importieren und Exportieren > Nach Magellan exportieren > Schülerkurswahlen`)
 
-## DAVINCI Version 6.5.40
+## DaVinci Version 6.5.40
 
 Veröffentlichung: 07.02.2018
 Dateiformat: 6.0.170
 
-* VERTRETUNGSPLAN: Fehlstellen, die zunächst vertreten und dann wieder zurückgesetzt wurden, tauchen wieder als offene Fehlstellen in der Liste offenen Vertetungen auf
-* VERTRETUNGSPLAN: `Zurücksetzen` von Vertretungen, hier kam es fälschlicherweise auch zum Zurücksetzen anderer Vertretungen - dies ist nun korrigiert
-* VERTRETUNGSPLAN: ein `Zurücksetzen`von Fehlstellen führt nicht zum Zürücksetzen der erzeugten Vertretungen, durch die die Fehlstelle erzeugt wurde
-* KURSPLAN: Blockungsautomatik - es werden wieder Kurse geblockt und Schüler verteilt
+* Vertretungsplan: Fehlstellen, die zunächst vertreten und dann wieder zurückgesetzt wurden, tauchen wieder als offene Fehlstellen in der Liste offenen Vertetungen auf
+* Vertretungsplan: `Zurücksetzen` von Vertretungen, hier kam es fälschlicherweise auch zum Zurücksetzen anderer Vertretungen - dies ist nun korrigiert
+* Vertretungsplan: ein `Zurücksetzen`von Fehlstellen führt nicht zum Zürücksetzen der erzeugten Vertretungen, durch die die Fehlstelle erzeugt wurde
+* Kursplan: Blockungsautomatik - es werden wieder Kurse geblockt und Schüler verteilt
 * EXPORT: Korrektur des Json Exportes Schülernamen
 
-## DAVINCI Version 6.5.39
+## DaVinci Version 6.5.39
 
 Veröffentlichung: 23.01.2018  
 Dateiformat: 6.0.170
 
 * ALLGEMEIN: korrigiert - Größe der Scrollbalken
-* DAVINCI LOOK: korrigiert - Passwortgeschützter Aufruf der Optionen
-* STUNDENPLAN: korrigiert - Anzeige der Ist-Stunden im Lehrerzeitkonto und in der Übersicht Lehrer-Zeitkonten 
-* STUNDENPLAN:  korrigiert - Passende Lehrer/Passende Räume werden jetzt bei der Analyse im Stundenplan korrekt aktualisiert
-* VERTRETUNGSPLAN: korrigiert - beim Vorziehen zur Vertretungserstellung wird der korrekte ausgewählte Termin eingesetzt
+* DaVinci Look: korrigiert - Passwortgeschützter Aufruf der Optionen
+* Stundenplan: korrigiert - Anzeige der Ist-Stunden im Lehrerzeitkonto und in der Übersicht Lehrer-Zeitkonten 
+* Stundenplan:  korrigiert - Passende Lehrer/Passende Räume werden jetzt bei der Analyse im Stundenplan korrekt aktualisiert
+* Vertretungsplan: korrigiert - beim Vorziehen zur Vertretungserstellung wird der korrekte ausgewählte Termin eingesetzt
 
-## DAVINCI Version 6.5.38.511 WEBBOX Version 1.9.12
+## DaVinci Version 6.5.38.511 WebBox Version 1.9.12
 
 Veröffentlichung: 08.01.2018  
 Dateiformat: 6.0.170
 
 * KALENDER: neue Kalenderdateien (Ferien/Feiertagskalender) für das Schuljahr 2018/2019 stehen zur Verfügung
-* WEBBOX / DAVINCI MOBILE: Korrektur im DAVINCI-INFOSERVER. Anmeldung mit einem Lehrer- und Schüler-Recht an der WEBBOX/DAVINCI-MOBILE wieder möglich.
-* STUNDENPLAN: Fixierung von gesetzten Stunden - werden diese aus dem Plan genommen und wieder neu verplant, ist die Fixierung nun wieder richtig aufgehoben
-* WEBBOX: Farbgebung von Mitteilungen in der WEBBOX nun auch wie die Standardfarbe im Vertretungsplan -gelb-
-* KURSPLAN: Problem beim Anlegen neuer Schüler im KURSPLAN behoben
-* KURSPLAN: Fehler in der automatischen Kursblockung im Servermodus behoben
-* VERTRETUNGSPLAN: Fehlstellen, die durch das Vorziehen von Unterricht erzeugt wurden, werden nun durch ein Zurücksetzen der Vertretungen auch gelöscht (zurückgesetzt)
-* STUNDENPLAN: Aktualisierungsproblem im Zusatzfenster "passende Lehrer", "passende Räume" und "Unverplant" gelöst
+* WebBox / DaVinci Mobile: Korrektur im DaVinci-InfoServer. Anmeldung mit einem Lehrer- und Schüler-Recht an der WebBox/DaVinci-Mobile wieder möglich.
+* Stundenplan: Fixierung von gesetzten Stunden - werden diese aus dem Plan genommen und wieder neu verplant, ist die Fixierung nun wieder richtig aufgehoben
+* WebBox: Farbgebung von Mitteilungen in der WebBox nun auch wie die Standardfarbe im Vertretungsplan -gelb-
+* Kursplan: Problem beim Anlegen neuer Schüler im Kursplan behoben
+* Kursplan: Fehler in der automatischen Kursblockung im Servermodus behoben
+* Vertretungsplan: Fehlstellen, die durch das Vorziehen von Unterricht erzeugt wurden, werden nun durch ein Zurücksetzen der Vertretungen auch gelöscht (zurückgesetzt)
+* Stundenplan: Aktualisierungsproblem im Zusatzfenster "passende Lehrer", "passende Räume" und "Unverplant" gelöst

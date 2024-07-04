@@ -1,12 +1,12 @@
 # Tipps zum Einrichten Ihres Netzwerks
 
-Die Installation und Konfiguration des DAVINCI INFOSERVERS in Ihrem lokalen Netzwerk ist relativ einfach und wird in dieser Dokumentation ausführlich beschrieben. Interessant wird es, wenn Sie Ihren Web-Server und den dort installierten DAVINCI INFOSERVER auch über das Internet verfügbar machen wollen. Hierbei müssen Sie sich oder Ihrem Administrator folgende Fragen stellen:
+Die Installation und Konfiguration des DaVinci INFOSERVERS in Ihrem lokalen Netzwerk ist relativ einfach und wird in dieser Dokumentation ausführlich beschrieben. Interessant wird es, wenn Sie Ihren Web-Server und den dort installierten DaVinci InfoServer auch über das Internet verfügbar machen wollen. Hierbei müssen Sie sich oder Ihrem Administrator folgende Fragen stellen:
 
 1. Besitzt mein Web-Server eine öffentliche IP-Adresse bzw. kann er auf irgendeine andere Art und Weise von außen adressiert werden?
 
 2. Kann ich auf meinen Web-Server mit Hilfe eines leicht zu merkenden DNS-Namens (z.B. `http://www.meineschule.de/davinciis.dll?`) zugreifen?
 
-3. Ist die Netzwerkkommunikation zwischen Web-Server und Client (z.B. Web-Browser, DAVINCI MOBILE etc.) effektiv geschützt?
+3. Ist die Netzwerkkommunikation zwischen Web-Server und Client (z.B. Web-Browser, DaVinci Mobile etc.) effektiv geschützt?
 
 Die Beantwortung dieser Fragen hängt stark von Ihrem konkreten Netzwerk, der bereits eingesetzten Hardware und natürlich organisatorischen Vorgaben ab. Wir können daher im Folgenden nur generelle Hinweise geben. Im Zweifelsfall wenden Sie sich an unser Support Team, damit wir zusammen mit Ihnen nach passenden Lösungen suchen können.
 
@@ -28,7 +28,7 @@ In der Praxis sieht dies jedoch meistens etwas anders aus. Sie besitzen genau ei
 
 Natürlich sind dies nicht alle Möglichkeiten. Sie könnten beispielsweise Ihren Web-Server als Cloud-Lösung betreiben. Das bedeutet allerdings in der Regel zusätzliche Kosten.
 
-Sollten Sie keine Möglichkeit finden, DAVINCI direkt ans Internet zu binden, können Sie trotzdem noch DAVINCI-Pläne als statische HTML-Seiten exportieren und diese auf einen separaten Web-Server hochladen.
+Sollten Sie keine Möglichkeit finden, DaVinci direkt ans Internet zu binden, können Sie trotzdem noch DaVinci-Pläne als statische HTML-Seiten exportieren und diese auf einen separaten Web-Server hochladen.
 
 ## Ein schöner DNS-Name für meinen Web-Server
 
@@ -44,7 +44,7 @@ kann sich niemand merken. Daher existiert in Netzwerken ein Standarddienst namen
 http://www.google.de
 ```
 
-Das gleiche gilt nun für Ihren DAVINCI INFOSERVER. Um Ihre IP-Adresse über einen DNS-Namen abzufragen,  müssen Sie einen derartigen Namen definieren. In der Regel besitzen Sie bereits eine Domäne (z.B. meineschule.de) für Ihre Bildungseinrichtung. Diese sollten Sie nutzen. Richten Sie eine sogenannte Unterdomäne ein (z.B. davinci.meineschule.de) und konfigurieren Sie diese so, dass Sie auf die IP-Adresse Ihres DAVINCI INFOSERVERS bzw. Web-Servers abgebildet wird. Dies funktioniert in der Regel über ein Web-Interface bei Ihrem Domänen-Provider und ist schnell gemacht.
+Das gleiche gilt nun für Ihren DaVinci InfoServer. Um Ihre IP-Adresse über einen DNS-Namen abzufragen,  müssen Sie einen derartigen Namen definieren. In der Regel besitzen Sie bereits eine Domäne (z.B. meineschule.de) für Ihre Bildungseinrichtung. Diese sollten Sie nutzen. Richten Sie eine sogenannte Unterdomäne ein (z.B. davinci.meineschule.de) und konfigurieren Sie diese so, dass Sie auf die IP-Adresse Ihres DaVinci INFOSERVERS bzw. Web-Servers abgebildet wird. Dies funktioniert in der Regel über ein Web-Interface bei Ihrem Domänen-Provider und ist schnell gemacht.
 
 ## Die Netzwerkkommunikation effektiv sichern
 

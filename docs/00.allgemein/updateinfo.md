@@ -1,13 +1,13 @@
 # Die Update-Infodatei
 
-Jedes Installationspaket von DAVINCI besitzt eine korrespondierende Update-Infodatei. Dies ist eine kleine XML-Datei, die es DAVINCI ermöglicht, eine neuere Version automatisch zu erkennen, herunterzuladen und zu installieren. Update-Infodateien besitzen die Dateiendung `.UPDATEINFO`.
+Jedes Installationspaket von DaVinci besitzt eine korrespondierende Update-Infodatei. Dies ist eine kleine XML-Datei, die es DaVinci ermöglicht, eine neuere Version automatisch zu erkennen, herunterzuladen und zu installieren. Update-Infodateien besitzen die Dateiendung `.UPDATEINFO`.
 
-Die Update-Infodateien für DAVINCI und DAVINCI-LOOK finden Sie hier:
+Die Update-Infodateien für DaVinci und DaVinci-Look finden Sie hier:
 
-* [Update-Infodatei für DAVINCI-Setup]
-* [Update-Infodatei für DAVINCI LOOK-Setup]
+* [Update-Infodatei für DaVinci-Setup]
+* [Update-Infodatei für DaVinci Look-Setup]
 
-Sie können die DAVINCI so anpassen, dass aktuelle Updates nicht von unseren Internetseiten, sondern von einem Netzwerkpfad Ihres Netzwerks bezogen werden.
+Sie können die DaVinci so anpassen, dass aktuelle Updates nicht von unseren Internetseiten, sondern von einem Netzwerkpfad Ihres Netzwerks bezogen werden.
 
 ## Lokales Ablegen des Setups
 
@@ -29,7 +29,7 @@ Ein Beispiel für eine Update-Infodatei:
 
 ## Anpassen der Clients
 
-Damit DAVINCI weiß, dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Extras > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
+Damit DaVinci weiß, dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Extras > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
 
-[Update-Infodatei für DAVINCI-Setup]: https://download.stueber.de/bin/de/davinci/v6/davinci6.updateinfo
-[Update-Infodatei für DAVINCI LOOK-Setup]:  https://download.stueber.de/bin/de/davinci/v6/davinci6look.updateinfo
+[Update-Infodatei für DaVinci-Setup]: https://download.stueber.de/bin/de/davinci/v6/davinci6.updateinfo
+[Update-Infodatei für DaVinci Look-Setup]:  https://download.stueber.de/bin/de/davinci/v6/davinci6look.updateinfo

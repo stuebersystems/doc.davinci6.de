@@ -2,7 +2,7 @@
 
 Die Internetinformationsdienste 8.0 (kurz IIS 8.0) sind Bestandteil von Windows Server 2012 (und Windows 8). Sie stellen u.a. einen vollständigen Web-Server bereit.
 
-Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DAVINCI INFOSERVER, Intstallation der DAVINCI WEBBOX).
+Dieses Kapitel beschreibt die Grundinstallation des IIS-Web-Servers. Diese Grundinstallation ist Voraussetzung für alle weiteren Installations- oder Konfigurationsschritte (z.B. Installation des DaVinci InfoServer, Intstallation der DaVinci WebBox).
 
 ## Installation
 

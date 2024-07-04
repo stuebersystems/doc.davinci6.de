@@ -233,11 +233,11 @@ Das Fehlen einer Klasse muss aus zwei Gründen festgehalten werden:
 
 * Der Vertretungsplanersteller muss wissen, welche Lehrer frei werden, wenn eine Klasse über einen gewissen Zeitraum fehlt. Solche Lehrer erhalten negative Anrechenstunden, die bei der Vertretungserstellung unbedingt zu berücksichtigen sind.
 
-Der DAVINCI-Vertretungsplan kann solche freiwerdenden Lehrer natürlich erst dann als mögliche Vertretungslehrer für einen fehlenden Kollegen festhalten, wenn die entsprechenden Informationen über das Fehlen einer Klasse bereits eingegeben sind. Dies bedeutet, dass ein Fehlen einer Klasse möglichst vor einer Vertretungserstellung für einen Lehrer erfasst werden sollte. Tragen Sie analog zur obigen Beschreibung die Fehlzeit für eine Klasse ein.
+Der DaVinci-Vertretungsplan kann solche freiwerdenden Lehrer natürlich erst dann als mögliche Vertretungslehrer für einen fehlenden Kollegen festhalten, wenn die entsprechenden Informationen über das Fehlen einer Klasse bereits eingegeben sind. Dies bedeutet, dass ein Fehlen einer Klasse möglichst vor einer Vertretungserstellung für einen Lehrer erfasst werden sollte. Tragen Sie analog zur obigen Beschreibung die Fehlzeit für eine Klasse ein.
 
 [![Tragen Sie im Dialogfenster "Fehlzeit" beispielsweise die Fehlzeit der Klasse „8a“ am 10.10.2012 von der 1. bis 5. Stunde ein.][17]][17]
 
-Durch den neu eingetragenen Fehlzeitraum der Klasse können einige Lehrer Freistunden erhalten. Diese Freistunden werden vom DAVINCI-Vertretungsplan automatisch in der Vertretungsstatistik festgehalten. Dabei erhält jeder dieser Lehrer pro Freistunde eine negative Ausfallstunde im zugehörigen Monat.
+Durch den neu eingetragenen Fehlzeitraum der Klasse können einige Lehrer Freistunden erhalten. Diese Freistunden werden vom DaVinci-Vertretungsplan automatisch in der Vertretungsstatistik festgehalten. Dabei erhält jeder dieser Lehrer pro Freistunde eine negative Ausfallstunde im zugehörigen Monat.
 
 Entsteht mindestens einem Lehrer durch das Fehlen der Klasse eine Freistunde, so erscheint anschließend das Dialogfenster in dem alle Lehrer aufgelistet sind, die unmittelbar vom Fehlen der Klasse betroffen sind. Dabei werden die negativen in Abhängigkeit vom Fehlzeitraum nach den Monaten ihrer Entstehung angezeigt.
 
@@ -268,7 +268,7 @@ Ansicht hinterlegt.
 
 ## Fehlzeiten löschen
 
-Um eine Fehlzeit wieder aus Ihrer DAVINCI-Datei zu löschen, führen Sie bitte die folgenden Schritte aus:
+Um eine Fehlzeit wieder aus Ihrer DaVinci-Datei zu löschen, führen Sie bitte die folgenden Schritte aus:
 
 1. Klicken Sie mit der rechten Maustaste auf den zu bearbeitenden Eintrag im Fehlzeiten-Zeitplan bzw. in der Fehlzeiten-Liste.
 

@@ -1,9 +1,9 @@
 [![Build Status](https://dev.azure.com/stuebersystems/Websites/_apis/build/status/docs/doc.davinci6.de?branchName=master)](https://dev.azure.com/stuebersystems/Websites/_build/latest?definitionId=50&branchName=master)
 ![Deployment status](https://vsrm.dev.azure.com/stuebersystems/_apis/public/Release/badge/2cc87afa-9a3b-472b-8a3c-3eca48b22dd6/9/10)
 
-# DAVINCI 6 Dokumentation
+# DaVinci 6 Dokumentation
 
-Dies ist die deutsche Dokumentation zu [DAVINCI 6](https://davinci.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
+Dies ist die deutsche Dokumentation zu [DaVinci 6](https://davinci.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
 
 ## MkDocs unter Windows installieren
 
@@ -47,7 +47,7 @@ Du hast Python und das Package MkDocs installiert, Du hast dieses Repository gek
 
 1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\davinci`.
 
-2. Tippe den Befehl `mkdocs build` ein. Die DAVINCI Dokumentation wird neu generiert.
+2. Tippe den Befehl `mkdocs build` ein. Die DaVinci Dokumentation wird neu generiert.
 
 3. Um Dir das Ergebnis anzeigen zu lassen, tippe den Befehl `mkdocs serve` ein und öffne die Url `http://127.0.0.1:8000` in Deinem Webbrowser.
 
