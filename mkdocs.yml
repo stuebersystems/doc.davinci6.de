@@ -230,7 +230,7 @@ nav:
   - Planwechsel: 09.infoserver/planwechsel.md
   - Gebäudepläne: 09.infoserver/gebaeudeplaene.md
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- DaVinci Mobile
+- DaVinci Mobile:
   -  Überblick: 12.mobile/index.md
     - Installation unter Android: 12.mobile/installation-android.md
     - Installation unter iOS: 12.mobile/installation-ios.md
