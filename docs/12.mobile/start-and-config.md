@@ -1,7 +1,7 @@
-[10]:/assets/images/mobile/.png
-[10]:/assets/images/mobile/.png
-[10]:/assets/images/mobile/.png
-[10]:/assets/images/mobile/.png
+[10]:/assets/images/mobile/appicon.png
+[11]:/assets/images/mobile/appappletour.png
+[12]:/assets/images/mobile/appapplesetting.png
+[13]:/assets/images/mobile/appapplesetting2.png
 
 # Starten und einstellen
 
@@ -9,13 +9,13 @@
 
 Um DaVinci-Mobile zu starten, müssen Sie das Icon `DaVinci` auswählen.
 
-![DaVinci Mobile Icon](/assets/images/appicon.png)
+[![DaVinci Mobile Icon][10]][10] 
 
 ### Einführungstour
 
 Beim ersten Aufruf wechselt die App in eine Einführungstour 
 
-![Einführungstour](/assets/images/appappletour.png)
+[![Einführungstour][11]][11] 
  
 Diese Tour zeigt Ihnen mit einigen Slides die wichtigsten Schaltflächen von DaVinci-Mobile. Durch Wischen nach Links gelangen Sie zum jeweils nächsten Slide. Durch Klicken auf den Text `Tour beenden` beenden Sie die Einführungstour. Die Einführungstour können Sie jederzeit erneut starten, wenn Sie 
 
@@ -35,7 +35,7 @@ Wenn Sie die App erstmalig starten, so ist diese mit dem Demoserver von STÜBER 
 
 * Auf Tablets wechseln Sie in die Einstellungen über die Schaltfläche <img src="/assets/images/appiconsettings.svg" alt="Setting Icon" height="24" width="24"> rechts unten.
 
-![Einstellungen](/assets/images/appapplesetting.png)
+[![Einstellungen][12]][12] 
 
 Hier müssen Sie die Zugangdaten Ihrer Schule/Bildungsinstitution eintragen. Dazu müssen Sie zunächst den Demomodus deaktivieren, indem Sie 
 
@@ -47,7 +47,7 @@ Hier müssen Sie die Zugangdaten Ihrer Schule/Bildungsinstitution eintragen. Daz
     * Benutzername
     * Kennwort
 
-![Einstellungen Lehrer Demo](/assets/images/appapplesetting2.png)
+[![Einstellungen Lehrer Demo][13]][13] 
 
 Wenn Sie nach der Angabe der Daten die Schaltfläche `Zurück` wählen, werden aufgrund der Zugangsdaten die Daten vom Server zur Anzeige in der App geladen. In Abhängigkeit von den mit der Kennungen verbundenen Rechten (wie z.B. Schüler, Lehrer, Schulleitung) stellt die App [unterschiedliche Informationen zu Auswahl](usage.md).
 

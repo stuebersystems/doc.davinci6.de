@@ -1,3 +1,18 @@
+[13]:/assets/images/mobile/appiconschedule.png
+[14]:/assets/images/mobile/applessonweekday.png
+[15]:/assets/images/mobile/appallclasses.png
+[16]:/assets/images/mobile/applessondetails.png
+[17]:/assets/images/mobile/appcalendaryearmonth.png
+[18]:/assets/images/mobile/appiconschedule.png
+[19]:/assets/images/mobile/appcalendarcolors.png
+[20]:/assets/images/mobile/appiconsubstitutions.png
+[21]:/assets/images/mobile/appiconfloorplan.png
+[22]:/assets/images/mobile/app-favorites-2.png
+[23]:/assets/images/mobile/app-favorites-1.png
+[24]:/assets/images/mobile/app-favorites-3.png
+[25]:/assets/images/mobile/appiconinfo.png
+
+
 # So funktioniert die App
 
 In Abhängigkeit von den Rechten Ihrer Kennung haben Sie unterschiedliche Navigationsmöglichkeiten in  DaVinci-Mobile. 
@@ -46,7 +61,7 @@ Sollten Sie keine Internetverbindung haben oder der Server der Schule/Bildungsin
 
 ## Die Ansicht "Stundenplan" 
 
-![Stundenplan Icon](/assets/images/appiconschedule.svg)
+[![Stundenplan Icon][13]][13] 
 
 Die Ansicht Stundenplan können Sie wie folgt aufrufen
 
@@ -57,11 +72,11 @@ Tablet      | <img src="/assets/images/appiconschedule.svg" alt="Plan Icon" heig
 
 Als Standard wird Ihr Plan in der aktuellen Woche angezeigt. Durch Anwahl des Spaltentitels eines Wochentags, z.B. in der nachfolgenden Abbildung `Do 10.3.` wechselt die Ansicht auf die Tagesansicht `Freitag 11.03.2016`. Durch erneute Anwahl der Kopfzeile `Freitag 1q.03.2016` kann man wieder in die Wochenansicht wechseln.
 
-![Stundenplan Wochen-/Tagesansicht](/assets/images/applessonweekday.png)
+[![Stundenplan Wochen-/Tagesansicht][14]][14] 
 
 Je nach den Rechten Ihrer Kennung können Sie neben dem eignen Stunden- bzw Vertretungsplan auch weitere Stundenpläne von Lehrer, Klassen und Räumen aufrufen. Neben Einzelplänen können Sie über `Alle Lehrer`, `Alle Klassen` oder `Alle Räume` können Sie alle Lehrer-/Klassen-/Raumpläne des Tages parallel nebeneinander darstellen. Auch hier gilt: Wenn Sie auf den Spaltentitel des Tages klickst, gelangen Sie in die entsprechende Wochenansicht.
 
-![Stundenplan Alle Klassen](/assets/images/appallclasses.png)
+[![Stundenplan Alle Klassen][15]][15] 
 
 ### Aktueller Tag
 
@@ -86,7 +101,7 @@ Parallele Stunden in einem Stundenplan werden gesondert mit der Zusatzinformatio
 
 Da aufgrund der Größe können meist nicht alle Informationen für ein Stundenplanelement angezeigt werden. Wenn Sie die Detailansicht für ein Stundenplanelement öffnen wollen, müssen Sie diese einfach anwählen. Es öffnet sich das ein Fenster mit allen  Detaildaten. 
 
-![Stundenplan Detailansicht](/assets/images/applessondetails.png)
+[![Stundenplan Detailansicht][16]][16] 
 
 Bei parallelen Stunden können Sie die weiteren Stundenplanemente des Blocks durch 
 
@@ -101,17 +116,18 @@ Die Ansicht Stundenplan unterstützt die Anzeige des Stundenplans sowohl im Hoch
 
 ## Die Ansicht "Kalender" 
 
-![Kalender Icon](/assets/images/appiconcalendar.svg)
+[![alender Icon][17]][17] 
+
 
 Die Ansicht Kalender zeigt in einer Monatsübersicht Ferientermine und Unterrichtstage. Tippen Sie auf einen Monat, um diesen zu vergrößern.
 
-![Kalender Jahres-/Monatsansicht](/assets/images/appcalendaryearmonth.png)
+[![Kalender Jahres-/Monatsansicht][18]][18] 
 
 Durch Tippen auf den Monatsnamen kommen Sie erscheint wieder die Jahresansicht. Wenn Sie in der Monatsansicht einen Tag wählen, so erfolgt der Wechsel in die entsprechende Tagesansicht des Stundenplans.
 
 Die Farben im Kalender haben folgende Bedeutung:
 
-![Stundenplan Detailansicht](/assets/images/appcalendarcolors.png)
+[![Stundenplan Detailansicht][19]][19] 
 
 Datum im Kalender | Bedeutung
 ----------------- | ---------
@@ -125,15 +141,17 @@ Datum im Kalender | Bedeutung
 
 ## Die Ansicht "Änderungsliste"
 
-![Änderungsliste Icon](/assets/images/appiconsubstitutions.svg)
+[![Änderungsliste Icon][20]][20] 
+
 
 In der Änderungsliste zeigt die vom Vertretungsplaner geänderten Termine, die Sie auch im Stundenplan sehen, als übersichtliche Liste.
 
-![Änderungsliste Detailansicht](/assets/images/appsubstitution.png)
+[![Änderungsliste Detailansicht][21]][21] 
 
 ## Die Ansicht "Gebäudeplan" 
 
-![Gebäudeplan Icon](/assets/images/appiconfloorplan.svg)
+[![Gebäudeplan Icon][21]][21] 
+
 
 Zeigt den Gebäudeplan Ihrer Schule/Bildungsinstitution mit den aktuellen Raumbelegungen je Ebene und je Schulgebäude. Über die Schaltflächen rechts oben können Sie die Ebenen einstellen, die Sie betrachten möchten. Außerdem können Sie dort auch die Uhrzeit und den Tag ändern.
 
@@ -147,7 +165,7 @@ Zeigt den Gebäudeplan Ihrer Schule/Bildungsinstitution mit den aktuellen Raumbe
 
 DaVinci Mobile erlaubt das Anlegen einer Favoritenliste, in der Sie wichtige Pläne (Lehrer-, Klassen- und/oder Raumpläne) zusammenfassen können. Standardmäßig ist die Favoritenliste leer und wird damit erst gar nicht angezeigt. 
 
-![Favoritenmenü](/assets/images/app-favorites-2.png)
+[![Favoritenmenü][22]][22] 
 
 Um einen Lehrer-, Klassen- oder Raumplan zur Favoritenliste hinzuzufügen, gehen Sie wie folgt vor:
 
@@ -155,7 +173,7 @@ Um einen Lehrer-, Klassen- oder Raumplan zur Favoritenliste hinzuzufügen, gehen
 
 2. Es erscheint ein kleines Herz neben dem Eintrag. Das bedeutet, dieser Plan ist ab sofort Teil der Favoritenliste. 
 
-![Einen Plan als Favorit markieren](/assets/images/app-favorites-1.png)
+[![Einen Plan als Favorit markieren][23]][23] 
 
 Ab sofort können Sie diesen Plan direkt aus der Favoritenliste heraus aufrufen:
 
@@ -165,7 +183,8 @@ Ab sofort können Sie diesen Plan direkt aus der Favoritenliste heraus aufrufen:
 
 3. Wählen Sie den gewünschten Plan aus.
 
-![Pläne in der Favoritenliste](/assets/images/app-favorites-3.png)
+[![Pläne in der Favoritenliste][24]][24] 
+
 
 Möchten Sie einen Eintrag aus der Favoritenliste löschen, gehen Sie wie folgt vor:
 
@@ -177,6 +196,7 @@ Möchten Sie einen Eintrag aus der Favoritenliste löschen, gehen Sie wie folgt 
 
 ## Info
 
-![Info Icon](/assets/images/appiconinfo.svg)
+[![Info Icon][25]][25] 
+
 
 Hier finden Sie zur diverse Informationen zu DaVinci-Mobile. Unter anderem werden hier das Datum der letzten Aktualisierung und das Versionsdatum angezeigt.
