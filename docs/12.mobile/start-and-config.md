@@ -1,3 +1,8 @@
+[10]:/assets/images/mobile/.png
+[10]:/assets/images/mobile/.png
+[10]:/assets/images/mobile/.png
+[10]:/assets/images/mobile/.png
+
 # Starten und einstellen
 
 ## Starten

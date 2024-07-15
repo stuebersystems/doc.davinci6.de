@@ -1,8 +1,8 @@
 [1]:/assets/images/mobile/appandroidplaystoremarked.png
-[2]:/assets/images/mobile/appandroidplaystoremarked.png
-[3]:/assets/images/mobile/appandroidplaystoremarked.png
-[4]:/assets/images/mobile/appandroidplaystoremarked.png
-[5]:/assets/images/mobile/appandroidplaystoremarked.png
+[2]:/assets/images/mobile/appandroidinstall1.png
+[3]:/assets/images/mobile/appandroidinstall2.png
+[4]:/assets/images/mobile/appandroidinstall3.png
+[5]:/assets/images/mobile/appandroiddesktop.png
 
 
 # Installation unter Android
