@@ -232,7 +232,7 @@ nav:
   - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - DaVinci Mobile:
   -  Überblick: 12.mobile/index.md
-    - Installation unter Android: 12.mobile/installation-android.md
-    - Installation unter iOS: 12.mobile/installation-ios.md
-    - Starten und Einstellen: 12.mobile/start-and-config.md
-    - So funktioniert die App: 12.mobile/usage.md
+  - Installation unter Android: 12.mobile/installation-android.md
+  - Installation unter iOS: 12.mobile/installation-ios.md
+  - Starten und Einstellen: 12.mobile/start-and-config.md
+  - So funktioniert die App: 12.mobile/usage.md
