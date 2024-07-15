@@ -33,19 +33,19 @@ Hier finden Sie eine Übersicht der verwendeten Schältflächen in DaVinci-Mobil
 Schaltfläche                                 | Bedeutung
 -------------------------------------------- | ---------
 Mein Plan                                    | Mein Stundenplan
-<img src="/assets/images/appiconmenu.svg"/>          | Öffnet Auswahl für Klassen, Lehrer, Räume
-<img src="/assets/images/appiconstar.svg"/>          | Heute
-<img src="/assets/images/appiconnav-left.svg"/>      | Woche/Tag zurück
-<img src="/assets/images/appiconnav-right.svg"/>     | Woche/Tag vor
-<img src="/assets/images/appiconschedule.svg"/>      | Ansicht "Stundenplan"
-<img src="/assets/images/appiconsubstitutions.svg"/> | Ansicht "Änderungsliste"
-<img src="/assets/images/appiconcalendar.svg"/>      | Ansicht "Kalender"
-<img src="/assets/images/appiconfloorplan.svg"/>     | Ansicht "Gebäudeplan"
-<img src="/assets/images/appiconrefresh.svg"/>       | Aktualisiere Anzeige
-<img src="/assets/images/appiconsettings.svg"/>      | Einstellungen
-<img src="/assets/images/appiconinfo.svg"/>          | Informationen zum Stundenplan
-<img src="/assets/images/appiconintro.svg"/>         | Startet Einführungstour neu
-<img src="/assets/images/appiconblock.png"/>         | mehrere Termine zur gleichen Zeit
+<img src="/assets/images/mobile/appiconmenu.svg"/>          | Öffnet Auswahl für Klassen, Lehrer, Räume
+<img src="/assets/images/mobile/appiconstar.svg"/>          | Heute
+<img src="/assets/images/mobile/appiconnav-left.svg"/>      | Woche/Tag zurück
+<img src="/assets/images/mobile/appiconnav-right.svg"/>     | Woche/Tag vor
+<img src="/assets/images/mobile/appiconschedule.svg"/>      | Ansicht "Stundenplan"
+<img src="/assets/images/mobile/appiconsubstitutions.svg"/> | Ansicht "Änderungsliste"
+<img src="/assets/images/mobile/appiconcalendar.svg"/>      | Ansicht "Kalender"
+<img src="/assets/images/mobile/appiconfloorplan.svg"/>     | Ansicht "Gebäudeplan"
+<img src="/assets/images/mobile/appiconrefresh.svg"/>       | Aktualisiere Anzeige
+<img src="/assets/images/mobile/appiconsettings.svg"/>      | Einstellungen
+<img src="/assets/images/mobile/appiconinfo.svg"/>          | Informationen zum Stundenplan
+<img src="/assets/images/mobile/appiconintro.svg"/>         | Startet Einführungstour neu
+<img src="/assets/images/mobile/appiconblock.png"/>         | mehrere Termine zur gleichen Zeit
 
 ## Anzeige aktualisieren
 
