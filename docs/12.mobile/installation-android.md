@@ -1,3 +1,11 @@
+[1]:/assets/images/mobile/appandroidplaystoremarked.png
+
+
+
+
+
+
+
 # Installation unter Android
 
 !!! warning "Wichtig!"
@@ -6,7 +14,7 @@
 
 Um die kostenlose App DAVINCI-MOBILE unter Android zu installieren, müssen Sie auf Ihrem SmartPhone oder Tablet den `Google Playstore` starten.
 
-![Google Play Store](/assets/images/appandroidplaystoremarked.png "Google Play Store")
+[![Google Play Store][1]][1] 
 
 Suchen Sie im Play Store nach der App `DAVINCI-MOBILE`, indem Sie in der Suchfunktion das Stichwort `DAVINCI MOBILE` eingeben und die Eingabe bestätigen.
 
