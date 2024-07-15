@@ -22,7 +22,7 @@ Wenn Sie Magellan  und DaVinci gemeinsam einsetzen, so haben Sie den Vorteil, da
 
 !!! info "Hinweis"
 
-    Vor jedem Datenaustausch sollten Sie eine [Datensicherung](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/#unterpunkt-datensicherung) der Magellan-Datenbank (MAGELLAN7.fdb) und der DaVinci-Plandatei (*.daVinci) durchführen.
+    Vor jedem Datenaustausch sollten Sie eine [Datensicherung](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/#unterpunkt-datensicherung) der Magellan-Datenbank (MAGELLAN7.FDB) und der DaVinci-Plandatei (*.daVinci) durchführen.
 
 Nicht alle Stammdatenfelder aus DaVinci sind auch in Magellan vorhanden und umgekehrt. Werden die vorhandenen Daten beim Austausch aktualisiert (überschrieben), können vorhandene Einträge verloren gehen, z.B. bei den Klassen der Klassenraum oder bei den Stundentafeln die Soll-Stunden. Bitte entscheiden Sie mit Bedacht, welche Daten Sie austauschen.
 
