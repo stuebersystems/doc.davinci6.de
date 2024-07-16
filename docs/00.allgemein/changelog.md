@@ -21,15 +21,14 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-<<<<<<< HEAD
-## DaVinci Version 6.5.89 (unveröffentlicht)
-=======
+
 ## DAVINCI Version 6.5.90 (unveröffentlicht)
 
-### Allgemein
+#### Allgemein
+
+* CHANGE: Icons, Symbole und Splashscreens
 
 ## DAVINCI Version 6.5.89 (10.04.2024)
->>>>>>> 4ade3e45a98e26135ddd30cc2d38b18f4e890652
 
 ### Allgemein
 
