@@ -25,6 +25,10 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DAVINCI Version 6.5.90 (25.07.2024)
 
+### Enbrea
+
+* FIX: Datenübertrag nach Enbrea: Export von Vertretungsplaninfos auch über den Planungszeitraum hinaus möglich.
+
 ### Allgemein
 
 * CHANGE: Icons, Symbole und Splashscreens
@@ -34,6 +38,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * NEW: Neue Dateien für Schulferien und Feiertage für alle Bundesländer. Sie können die Kalenderdateien auch bereits vorab [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen, müssten nach dem Import in ältere Ausgaben (vor 6.5.89) bitte unter `Kalender > Ereignisse` bitte jeweils das Häkchen für `unterrichtsfrei` aktivieren.
+
+### Enbrea
+
 * FIX: Für den Übertrag nach ENBREA Änderungen beim `Vertretungsplan > Zusatzunterricht` 
 
 ### Stundenplan
