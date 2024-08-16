@@ -23,6 +23,10 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ---
 ## DAVINCI Version 6.5.91 (unveröffentlicht)
 
+### Allgemein
+
+* CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
+
 ## DAVINCI Version 6.5.90 (25.07.2024)
 
 ### Enbrea
