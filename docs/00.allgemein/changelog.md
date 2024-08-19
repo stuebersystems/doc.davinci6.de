@@ -21,7 +21,9 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DAVINCI Version 6.5.91 (unveröffentlicht)
 
+<<<<<<< HEAD
 ## DAVINCI Version 6.5.91 (unveröffentlicht)
 
 #### Vertretungsplan
@@ -29,8 +31,19 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
 
 ## DAVINCI Version 6.5.90 (25.07.2024)
+=======
+### Allgemein
 
-#### Allgemein
+* CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
+
+## DAVINCI Version 6.5.90 (25.07.2024)
+
+### Enbrea
+>>>>>>> f2241c2eace35145a52d237d9d1dc06e2e3739c7
+
+* FIX: Datenübertrag nach Enbrea: Export von Vertretungsplaninfos auch über den Planungszeitraum hinaus möglich.
+
+### Allgemein
 
 * CHANGE: Icons, Symbole und Splashscreens
 
@@ -39,6 +52,9 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * NEW: Neue Dateien für Schulferien und Feiertage für alle Bundesländer. Sie können die Kalenderdateien auch bereits vorab [hier](https://my.hidrive.com/share/63dd-bod4u) herunterladen, müssten nach dem Import in ältere Ausgaben (vor 6.5.89) bitte unter `Kalender > Ereignisse` bitte jeweils das Häkchen für `unterrichtsfrei` aktivieren.
+
+### Enbrea
+
 * FIX: Für den Übertrag nach ENBREA Änderungen beim `Vertretungsplan > Zusatzunterricht` 
 
 ### Stundenplan
