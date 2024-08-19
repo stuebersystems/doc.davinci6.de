@@ -22,7 +22,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## DAVINCI Version 6.5.90 (unveröffentlicht)
+## DAVINCI Version 6.5.91 (unveröffentlicht)
+
+#### Vertretungsplan
+
+* FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
+
+## DAVINCI Version 6.5.90 (25.07.2024)
 
 #### Allgemein
 

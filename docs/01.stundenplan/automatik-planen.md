@@ -312,6 +312,8 @@ Die Automatik weist daraufhin den verplanten Terminen ohne Lehrerzuordnung passe
 
 Sie können die Lehrerzuordnungsautomatik auch zusammen mit der Setz- und der Raumautomatik starten, indem Sie die beiden entsprechenden Optionen markieren. Jedoch kann die Lehrerautomatik nur alleine gestartet werden, wenn vorher die Setzautomatik gelaufen ist oder die Veranstaltungen bereits manuell ohne Lehrer gesetzt wurden.
 
+## Sperrungsautomatik
+
 ## Ergebnisse des Automatikdurchlaufs kontrollieren
 
 Die Ergebnisse des Automatikdurchlaufs können Sie im Dialogfenster `Automatik` überprüfen. In diesem Fenster werden alle Veränderungen angezeigt, die von der Automatik geplant werden.
