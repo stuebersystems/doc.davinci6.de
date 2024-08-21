@@ -22,7 +22,11 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## DAVINCI Version 6.5.91 (unveröffentlicht)
+## DaVinci Version 6.5.91 (unveröffentlicht)
+
+#### DaVinci Konsole
+
+* FIX: Problem beim Übertrag von Plandaten/Vertretungsdaten mit neuem Hauptzeitraum gelöst
 
 ### Allgemein
 
@@ -32,7 +36,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
 
-## DAVINCI Version 6.5.90 (25.07.2024)
+## DaVinci Version 6.5.90 (25.07.2024)
 
 ### Allgemein
 
@@ -42,7 +46,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Datenübertrag nach Enbrea: Export von Vertretungsplaninfos auch über den Planungszeitraum hinaus möglich.
 
-## DAVINCI Version 6.5.89 (10.04.2024)
+## DaVinci Version 6.5.89 (10.04.2024)
 
 ### Allgemein
 
@@ -76,23 +80,23 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DaVinci WebBox Version 1.10.7 (22.02.2024)
 
-[**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
-[**Download**](https://davinci-webbox.stueber.de/)
+[**Update-Anleitung**](https://doc.DaVinci6.stueber.de/09.infoserver/update/) <br/>
+[**Download**](https://DaVinci-webbox.stueber.de/)
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.DaVinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
 * FIX: Sicherheitslücke in Kombination mit DaVinci WebBox und DaVinci Mobile in DaVinci-Server geschlossen. Bei Einsatz des DaVinci INFOSERVERs bitte unbedingt den DaVinci Server aktualisieren!
 
 ## DaVinci WebBox Version 1.10.6 (18.10.2023)
 
-[**Update-Anleitung**](https://doc.davinci6.stueber.de/09.infoserver/update/) <br/>
-[**Download**](https://davinci-webbox.stueber.de/)
+[**Update-Anleitung**](https://doc.DaVinci6.stueber.de/09.infoserver/update/) <br/>
+[**Download**](https://DaVinci-webbox.stueber.de/)
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.davinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
+    Bitte beachten Sie unsere Dokumentation hinsichtlich des Umgangs mit Veröffentlichungen in DaVinci Look und der DaVinci WebBox: [Welche Vertretungsinformationen werden für Look oder die WebBox publiziert?](https://doc.DaVinci6.stueber.de/02.vertretungsplan/veroeffentlichung/)
 
 * FIX: Der Parameter `substitutionShowExtra` wurde korrigiert
 * NEW: Die Bezeichnung des Klassenfehlgrunds wird am oberen Rand des Terminfensters hinter der Info "Klassen fehlt" eingeblendet. Ein Beispiel: "Klasse fehlt: Distanzunterricht"
