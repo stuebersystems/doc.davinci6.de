@@ -21,31 +21,26 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+
 ## DAVINCI Version 6.5.91 (unveröffentlicht)
 
-<<<<<<< HEAD
-## DAVINCI Version 6.5.91 (unveröffentlicht)
+### Allgemein
+
+* CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
 
 #### Vertretungsplan
 
 * FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
 
 ## DAVINCI Version 6.5.90 (25.07.2024)
-=======
-### Allgemein
-
-* CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
-
-## DAVINCI Version 6.5.90 (25.07.2024)
-
-### Enbrea
->>>>>>> f2241c2eace35145a52d237d9d1dc06e2e3739c7
-
-* FIX: Datenübertrag nach Enbrea: Export von Vertretungsplaninfos auch über den Planungszeitraum hinaus möglich.
 
 ### Allgemein
 
 * CHANGE: Icons, Symbole und Splashscreens
+
+### Enbrea
+
+* FIX: Datenübertrag nach Enbrea: Export von Vertretungsplaninfos auch über den Planungszeitraum hinaus möglich.
 
 ## DAVINCI Version 6.5.89 (10.04.2024)
 
