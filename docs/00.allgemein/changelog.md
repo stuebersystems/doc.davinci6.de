@@ -21,6 +21,9 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DaVinci Webbox v1.10.8 (unveröffentlicht)
+
+* NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
 
 ## DaVinci Version 6.5.91 (unveröffentlicht)
 
