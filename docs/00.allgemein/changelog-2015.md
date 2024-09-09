@@ -567,8 +567,8 @@
 
 ### Verbesserte bzw. geänderte Funktion
 
-* Allgemein: JSON-Export gemäß Spezifikation (siehe http://doc.stueber.de/ontimejs-json/introduction) 
-* DaVinci Look: Neues "Benutzerhandbuch" unter http://doc.davinci6.stueber.de/course-plan/index.html
+* Allgemein: JSON-Export gemäß Spezifikation (siehe https://stuebersystems.github.io/doc.ontimejs-json) 
+* DaVinci Look: Neues "Benutzerhandbuch" unter https://doc.davinci6.stueber.de/course-plan/index.html
 
 ### Fehlerkorrektur
 
