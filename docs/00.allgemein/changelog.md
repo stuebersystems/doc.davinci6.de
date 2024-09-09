@@ -35,6 +35,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
 * FIX: `Stammdaten > Lehrer > Details > Keine Aufsicht` Eintrag kann wieder gelöscht uns gespeichert werden
+* CHANGE: `Export > Statistik > Schulportal Hessen` Export der Aufsichten erweitert um den Aufischtsbereich, dieser wir din der Spalte Raum ausgegeben
 
 ### Vertretungsplan
 
