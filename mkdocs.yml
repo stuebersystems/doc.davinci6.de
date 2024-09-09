@@ -24,6 +24,7 @@ theme:
     features:
         - navigation.footer
         - navigation.instant
+        - navigation.tabs
         - navigation.top
         - search.highlight
         - search.share
