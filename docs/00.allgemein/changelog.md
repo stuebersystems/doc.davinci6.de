@@ -38,6 +38,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Vertretungsplan
 
 * FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
+* FIX: Ausgabe in `Vertretungsplan > Änderungsliste > Fach` korrigiert
 
 ## DaVinci Version 6.5.90 (25.07.2024)
 
