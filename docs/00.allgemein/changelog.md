@@ -34,11 +34,16 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * CHANGE: `13_NRW_Lehrer-Soll-Schlüssel.txt` Schlüsselwerte ergänzt
+* FIX: `Stammdaten > Lehrer > Details > Keine Aufsicht` Eintrag kann wieder gelöscht uns gespeichert werden
 
-#### Vertretungsplan
+### Vertretungsplan
 
 * FIX: beim Vorziehen von Veranstaltungen mit Kursnummer wird auch die Kursnummer mit vorgezogen
 * FIX: Ausgabe in `Vertretungsplan > Änderungsliste > Fach` korrigiert
+
+### DaVinci Look
+
+* FIX: `Extras > Otionen > Plananzeige > Änderungen`neue Änderungen werden wi gekennzeichnet dargestellt
 
 ## DaVinci Version 6.5.90 (25.07.2024)
 
