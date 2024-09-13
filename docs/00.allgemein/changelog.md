@@ -25,7 +25,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
 
-## DaVinci Version 6.5.91 (unveröffentlicht)
+## DaVinci Version 6.5.91 (13.09.2024)
 
 #### DaVinci Konsole
 
