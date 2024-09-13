@@ -44,7 +44,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### DaVinci Look
 
-* FIX: `Extras > Otionen > Plananzeige > Änderungen`neue Änderungen werden wi gekennzeichnet dargestellt
+* FIX: `Extras > Otionen > Plananzeige > Änderungen` neue Änderungen werden wie gekennzeichnet dargestellt
 
 ## DaVinci Version 6.5.90 (25.07.2024)
 
