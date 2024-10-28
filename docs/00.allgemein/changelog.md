@@ -28,6 +28,10 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## DaVinci Version 6.5.92 (unveröffentlicht)
 
+### Allgemein
+
+* FIX: Export Json Format  gibt Schüler wieder aus
+* 
 ### Vertretungsplan
 
 * FIX: Anlegen einer neuen Fehlzeit in der Ansicht `Vertretungen > Plan und Zeitplan`
