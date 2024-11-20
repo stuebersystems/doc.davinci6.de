@@ -25,22 +25,15 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
   
-
-## DaVinci Version 6.5.92 (unveröffentlicht)
+## DaVinci Version 6.5.92 (20.11.2024)
 
 ### Allgemein
 
-* FIX: Export Json Format  gibt Schüler wieder aus
-* 
+* FIX: Exportformat Json gibt Schüler aus
+
 ### Vertretungsplan
 
 * FIX: Anlegen einer neuen Fehlzeit in der Ansicht `Vertretungen > Plan und Zeitplan`
-
-## DaVinci Version 6.5.91 (unveröffentlicht)
-
-#### DaVinci Vertretungsplan
-
-* FIX: Problem beim Anlegen von Fehlzeiten behoben
 
 ## DaVinci Version 6.5.91 (13.09.2024)
 
