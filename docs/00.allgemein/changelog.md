@@ -25,14 +25,18 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
   
-
-## DaVinci Version 6.5.92 (unveröffentlicht)
+## DaVinci Version 6.5.92 (20.11.2024)
 
 ### Allgemein
 
+<<<<<<< HEAD
 * FIX: Export Json Format  gibt Schüler wieder aus
 * FIX: `Kalender > Neues Ereignis im Zusatzkalender` Unter bestimmten Umständen wurde die Verbindung der Teilnehmer (z. B. Lehrer, Klassen) eines Kalendereintrags zum Hauptplan unterbrochen. Da Zusatzkalender separat gespeichert werden, wird diese Verbindung nun beim Laden der Einträge automatisch wiederhergestellt.
   
+=======
+* FIX: Exportformat Json gibt Schüler aus
+
+>>>>>>> 5a4dcab3540bf6654a0934020dc67b8fa68c6bff
 ### Vertretungsplan
 
 * FIX: Anlegen einer neuen Fehlzeit in der Ansicht `Vertretungen > Plan und Zeitplan`
