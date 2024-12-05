@@ -2,7 +2,7 @@
 
 Aufsichtspläne können Sie in DaVinci für jeden Bereich erstellen, den Sie in den Stammdaten auf der Registerkarte `Aufsichtsbereiche` angelegt haben. Aufsichtspläne erstellen Sie ebenfalls im Programmbereich `Stundenplan`. Für diese Aufgabe steht Ihnen der Arbeitsbereich `Aufsichtsplan` zur Verfügung. Um diesen Arbeitsbereich zu öffnen, klicken Sie bitte in der Navigationsleiste am linken Rand des Programmfensters auf den Link `Aufsichten`.
 
-![Programmbereich „Aufsichten“ für die Erstellung von Aufsichtsplänen](/assets/images/SP/stundenplan5.png)
+![Programmbereich „Aufsichten“ für die Erstellung von Aufsichtsplänen](/assets/images/sp/stundenplan5.png)
 
 ## Aufbau der Ansicht "Aufsichtspläne"
 
@@ -21,7 +21,7 @@ Um nun die Planung für einen bestimmten Aufsichtsbereich zu erstellen, müssen 
 1. Klicken Sie in der Menügruppe `Start > Aktuelle Ansicht` auf die Schaltfläche `Auswahl`.
 2. Blättern Sie im erscheinenden Dialogfenster „Auswahl“ zur Registerkarte „Bereiche“.
 
-![Auswahlfenster Bereiche](/assets/images/SP/stundenplan6.png)
+![Auswahlfenster Bereiche](/assets/images/sp/stundenplan6.png)
 
 3. Markieren Sie den gewünschten Aufsichtsbereich.
 4. Bestätigen Sie Ihre Auswahl mit `ok`.
@@ -30,7 +30,7 @@ Der ausgewählte Aufsichtsbereichsplan wird nun im Planeditor des Arbeitsbereich
 
 Links auf der Titelleiste des Planeditors befinden sich außerdem zwei entgegengesetzt ausgerichtete Pfeilschaltflächen, mit denen Sie zum vorherigen bzw. nächsten Aufsichtsbereichsplan weiterblättern können. 
 
-![Ein Blättern zwischen den Planfenstern der Aufsichtsbereiche ist auch über die Pfeile links oben möglich ](/assets/images/SP/stundenplan7.png)
+![Ein Blättern zwischen den Planfenstern der Aufsichtsbereiche ist auch über die Pfeile links oben möglich ](/assets/images/sp/stundenplan7.png)
 
 Mit der linken Pfeilschaltfläche blättern Sie dabei zum vorherigen und mit der rechten Pfeilschaltfläche zum nächsten Aufsichtsbereichsplan gemäß der Reihenfolge der Einträge auf der Registerkarte `Aufsichtsbereiche` in den Stammdaten.
 
@@ -52,7 +52,7 @@ Um die zeitliche Geltungsdauer eines Aufsichtsbereichsplans festzulegen, gehen S
 |Vorherige Woche | Mit dieser Option öffnen Sie den Aufsichtsbereichsplan für die Kalenderwoche, die der gerade geöffneten vorausliegt.|
 |Datum …| Mit dieser Option öffnen Sie den Aufsichtsplan für die Kalenderwoche, in der das im Eingabefeld eingestallte Datum liegt.|
 
-![über die Schaltfläche `Gehe zu` stehen Ihnen folgende Optionen zur Auswahl](/assets/images/SP/stundenplan8.png)
+![über die Schaltfläche `Gehe zu` stehen Ihnen folgende Optionen zur Auswahl](/assets/images/sp/stundenplan8.png)
 
 Der Plan des aufgerufenen Aufsichtsbereichs öffnet sich nun mit der gewählten Wocheneinstellung. Der zugrundeliegende Wochenbezug wird rechts auf dem Titelbalken des Planfensters angezeigt. Hier erscheint entweder der Eintrag `Alle Wochen` oder der Hinweis auf die konkrete Kalenderwoche mit dem Anfangs und Enddatum der aufgerufenen Kalenderwoche.
 
@@ -96,7 +96,7 @@ Bei Bedarf können Sie an der gleichen Position beliebig viele weitere Aufsichts
 3. Klicken Sie auf die Schaltfläche `Neu` in der Menügruppe `Start > Aufsichten` ODER klicken Sie um Zusatzfenster rechts auf die Schaltfläche `Neue Aufsicht` um den ersten Aufsichtslehrer zuweisen.
 4. Alle weiteren Lehrer, die zur selben Zeit in diese Aufsicht fließen sollen, weisen Sie ebenfalls über das Zusatzfenster rechts über die Schaltfläche `Neue Aufsicht` ODER über die Schaltfläche `Neuer Aufsichtslehrer` in der Menügruppe `Start > Aufsichten`  .
 
-![Damit Lehrer "Del" als zusätzlicher Aufsichtslehrer zugeteilt wird, weisen Sie Ihn wie folgt zu:](/assets/images/\sp\stundenplan12.png)
+![Damit Lehrer "Del" als zusätzlicher Aufsichtslehrer zugeteilt wird, weisen Sie Ihn wie folgt zu:](/assets/images/sp/stundenplan12.png)
 
 Der gewählte Lehrer wird nun als zusätzlicher Aufsichtslehrer an der markierten Position eingesetzt. 
 
