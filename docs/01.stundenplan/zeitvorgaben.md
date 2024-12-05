@@ -75,11 +75,11 @@ Zwei Zeitrahmen sind von DaVinci bereits vordefiniert:
 
     Sie können jeder Klasse und jedem Aufsichtsbereich in der Ansicht `Stammdaten` einen eigenen Zeitrahmen zuordnen. Wenn Sie z.B. bei Ihren Klassen zusätzlich zum 45-Minuten-Stundenraster auch Klassen mit 50-Minutenraster haben, brauchen Sie nur mit `Neu` einen weiteren Zeitrahmen mit 50-Minuten-Stunden hinzuzufügen. Wenn kein Zeitrahmen angegeben wurde, gilt stets der Hauptzeitrahmen.
 
-![Zeitrahmen](/assets/images/Zeitrahmen.png)
+![Zeitrahmen](/assets/images/zeitrahmen.png)
 
 Um z.B. den Hauptzeitrahmen zu ändern, klicken Sie auf ``Extras > Zeitrahmen``, markieren Sie im Zeitrahmen-Fenster den Eintrag ``Standard`` und klicken Sie auf ``Bearbeiten``.
 
-## HauptZeitrahmen
+## Hauptzeitrahmen
 
 ### Allgemein
 

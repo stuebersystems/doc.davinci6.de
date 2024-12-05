@@ -159,7 +159,7 @@ ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 ## Fächer
 
-![Stammdaten Fächer](/assets/images/stundenplan/Stammdaten.Fächer.png)
+![Stammdaten Fächer](/assets/images/stundenplan/StammdatenFächer.png)
 
 Die Fächer müssen mit Kürzel und optional mit Langnamen eingegeben werden. Bei der Oberstufenstundenplanung können Sie den Fachstatus, z.B. Grund- oder Leistungskurs, bestimmen. Unter „Schlüssel“ können Sie jedem Fach einen Statistikschlüssel zuweisen. Für die Jahresstatistik wird dann dieser Statistikschlüssel anstelle des Kürzels verwendet.
 
