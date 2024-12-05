@@ -31,10 +31,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Allgemein
 
 * FIX: Export Json Format  gibt Schüler wieder aus
-* 
+* FIX: `Kalender > Neues Ereignis im Zusatzkalender` Unter bestimmten Umständen wurde die Verbindung der Teilnehmer (z. B. Lehrer, Klassen) eines Kalendereintrags zum Hauptplan unterbrochen. Da Zusatzkalender separat gespeichert werden, wird diese Verbindung nun beim Laden der Einträge automatisch wiederhergestellt.
+  
 ### Vertretungsplan
 
 * FIX: Anlegen einer neuen Fehlzeit in der Ansicht `Vertretungen > Plan und Zeitplan`
+* FIX: Fehlzeit für den letzten Tag des Planungszeitraumes anlegen
 
 ## DaVinci Version 6.5.91 (13.09.2024)
 
