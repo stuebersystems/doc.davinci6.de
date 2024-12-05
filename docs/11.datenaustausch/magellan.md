@@ -36,17 +36,17 @@ Sie können die Magellan-Daten in eine leere oder eine DaVinci-Datei, die bereit
 2. Markieren Sie auf der ersten Assistentenseite im Bereich `Importieren` den Eintrag `Von Magellan importieren`. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 3. Geben Sie im erscheinenden Dialogfenster `Magellan-Anmeldung` Benutzername und Kennwort des Administratorkontos ein und bestätigen Sie Ihre Zugangsdaten mit `OK`: der Assistent `Magellan-Datenaustausch` wird geöffnet.
 
-![Hier sehen Sie die erste Seite des Assistenten "Magellan-Datenaustausch"](/assets/images/Datenaustausch/datenaustausch2.png)
+![Hier sehen Sie die erste Seite des Assistenten "Magellan-Datenaustausch"](/assets/images/datenaustausch/datenaustausch2.png)
 
 4. Bestätigen Sie auf der ersten Seite des Assistenten die Option `Daten aus Magellan in eine SDTF-6.Datei schreiben` mit `Weiter`.
 5. Wählen Sie auf der folgenden Assistentenseite in den Feldern `Übertrage Daten aus folgendem Mandanten` und `Übertrage Daten aus folgendem Zeitraum` den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 6. Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereiche nach DaVinci. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 
-![Hier wählen Sie die Daten aus, die aus Magellan übernommen werden](/assets/images/Datenaustausch/datenaustausch3.png)
+![Hier wählen Sie die Daten aus, die aus Magellan übernommen werden](/assets/images/datenaustausch/datenaustausch3.png)
 
 7. Drücken Sie auf der nächsten Assistentenseite die Schaltfläche Starten. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DaVinci-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
-![Magellan Export](/assets/images/Datenaustausch/datenaustausch4.png)
+![Magellan Export](/assets/images/datenaustausch/datenaustausch4.png)
 
 ### Sie können folgende Daten aus Magellan übernehmen
 
@@ -93,11 +93,11 @@ Wenn Sie eine leere Magellan-Datenbank mit Daten aus DaVinci füllen möchten, m
 4. Bestätigen Sie auf der ersten Seite des Assistenten die Option `Daten aus einer SDTF-Datei nach Magellan schreiben` mit Weiter.
 5. Wählen Sie in den Feldern `Übertrage Daten in folgenden Mandanten` und `Übertrage Daten in folgendem Zeitraum` den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 
-![Hier wählen Sie den Mandanten und den Zeitraum aus, in den die Daten übertragen werden.](/assets/images/Datenaustausch/datenaustausch5.png)
+![Hier wählen Sie den Mandanten und den Zeitraum aus, in den die Daten übertragen werden.](/assets/images/datenaustausch/datenaustausch5.png)
 
 6. Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereiche nach Magellan. Bestätigen Sie Ihre Auswahl mit `Weiter`.
 
-![Hier wählen Sie die Daten aus, die nach Magellan übertragen werden](/assets/images/Datenaustausch/datenaustausch6.png)
+![Hier wählen Sie die Daten aus, die nach Magellan übertragen werden](/assets/images/datenaustausch/datenaustausch6.png)
 
 1. Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`. Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVIDAV-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
