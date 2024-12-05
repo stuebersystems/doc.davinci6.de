@@ -6,7 +6,7 @@ Das Planungsfenster ist eines der zentralen Fenster in DaVinci. Im Planungsfenst
 
 So können Sie z.B. über die Menügruppe ``Start > Stundenplan`` das zentrale Dialogfenster zur Bearbeitung der Termindaten aufrufen, um neue Termine einzufügen und bereits gesetzte Termine zu bearbeiten. Natürlich können Sie gesetzte Termine auch wieder aus dem Planungsfenster löschen. Außerdem besteht die Möglichkeit vorhandene Terminfelder zu duplizieren. Weitere Funktionen erlauben Ihnen, Doppelstunden-Termine zu teilen oder Termine um eine Stunde zu verlängern oder zu verkürzen.
 
-![Detailbereich/Zusatzfenster der Stundenplanansicht](/assets/images/Detailbereich.png)
+![Detailbereich/Zusatzfenster der Stundenplanansicht](/assets/images/detailbereich.png)
 
 Im Planungsfenster können Sie mit Hilfe der Detailfenster ``Passende Lehrer`` und ``Passende Räume`` bei bereits gesetzten Terminen Lehrer und Räume hinzufügen, ersetzen oder entfernen.
 
