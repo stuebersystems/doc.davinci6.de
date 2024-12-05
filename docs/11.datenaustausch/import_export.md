@@ -14,7 +14,7 @@ Der Ablauf ist hier beschrieben:
 
 ### DaVinci Änderungen für den Planwechsel importieren
 
-![DaVinci Änderungen für den Planwechsel importieren](/assets/images/Datenaustausch/export12.png)
+![DaVinci Änderungen für den Planwechsel importieren](/assets/images/datenaustausch/export12.png)
 
 * Importdatei: Geben Sie hier die Datei an, aus der Sie die Daten importieren möchten. Importiert werden Vertretungsplaninformatione. Dazu gehören Lehrer-Fehlzeiten und Anrechnungen.
 
@@ -26,7 +26,7 @@ Der Ablauf ist hier beschrieben:
 
 ### DaVinci Schlüsseldatei importieren
 
-![DaVinci Schlüsseldatei importieren](/assets/images/Datenaustausch/export13.png)
+![DaVinci Schlüsseldatei importieren](/assets/images/datenaustausch/export13.png)
 
 Hier können Sie Schlüsseldateien für DaVinci importieren. Sie können dabei entscheiden, ob Einträge mit identischen Ürzel oder Schlüssel ersetzt werden.
 
@@ -53,12 +53,12 @@ Das Vorgehen ist hier beschrieben:
 ### ASC Timetable XML 2012 importieren
 
 Der Ablauf ist hier beschrieben:
-![ASC Timetable XML 2012 importieren](/assets/images/Datenaustausch/export14.png)
+![ASC Timetable XML 2012 importieren](/assets/images/datenaustausch/export14.png)
 
 ### Meinen externen Kalender synchronisieren
 
 Über diesen Aufruf können Sie Ihreeingetragenen unterrichtstermine in eine externen Kalender übertragen:
-![Meinen externen Kalender synchronisieren](/assets/images/Datenaustausch/synchronisieren.png)
+![Meinen externen Kalender synchronisieren](/assets/images/datenaustausch/synchronisieren.png)
 
 Wählen Sie Ihr Kürzel aus und den entsprechenden Kalenderdienst.
 
@@ -76,13 +76,13 @@ Der Ablauf ist hier beschrieben:
 
 ### Statistikdaten exportieren
 
-![Statistikdaten exportieren](/assets/images/Datenaustausch/export11.png)
+![Statistikdaten exportieren](/assets/images/datenaustausch/export11.png)
 
 Das Ergebnis ist eine Textdatei (.txt), die dem Schuldatentransferformat entspricht.
 
 #### Allgemeines Statistikformat exportieren
 
-![Allgemeines Statistikformat exportieren](/assets/images/Datenaustausch/export11.png)
+![Allgemeines Statistikformat exportieren](/assets/images/datenaustausch/export11.png)
 
 #### Statistik Bremen Unterrichtsausfall exportieren
 
@@ -137,7 +137,7 @@ Der Ablauf ist hier beschrieben:
 
 ### DaVinci Schuldatentransferdatei exportieren
 
-![DaVinci Schuldatentransferdatei exportieren](/assets/images/Datenaustausch/export9.png)
+![DaVinci Schuldatentransferdatei exportieren](/assets/images/datenaustausch/export9.png)
 
 Der Ablauf ist hier beschrieben:
 
@@ -149,13 +149,13 @@ Der Ablauf ist hier beschrieben:
 
     Diese Funktion wird zukunftig nicht mehr unterstützt. Verwenden Sie bittestattdessen `DaVinci JSON-Daten exportieren`.
 
-![DaVinci XML-Daten exportieren](/assets/images/Datenaustausch/export8.png)
+![DaVinci XML-Daten exportieren](/assets/images/datenaustausch/export8.png)
 
 * Datei: Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .xml
 
 * Zieladresse: in den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
 
-![Upload](/assets/images/Datenaustausch/export2.png)
+![Upload](/assets/images/datenaustausch/export2.png)
 
 * Zeitraum: Auswahl des zu exportierenden Zeitraumes
 
@@ -163,13 +163,13 @@ Der Ablauf ist hier beschrieben:
 
 ### DaVinci JSON-Daten exportieren
 
-![DaVinci JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
+![DaVinci JSON-Daten exportieren](/assets/images/datenaustausch/export1.png)
 
 * Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .json
 
 * Zieladresse: in den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
 
-![Upload](/assets/images/Datenaustausch/export2.png)
+![Upload](/assets/images/datenaustausch/export2.png)
 
 * Zeitraum: Auswahl des zu exportierenden Zeitraumes
 
@@ -177,7 +177,7 @@ Der Ablauf ist hier beschrieben:
 
 ### DaVinci Benutzerdaten exportieren
 
-![DaVinci Benutzerdaten exportieren](/assets/images/Datenaustausch/export7.png)
+![DaVinci Benutzerdaten exportieren](/assets/images/datenaustausch/export7.png)
 
 Dieser Export benötigen Sie zur Einrichtung der Benutzerrechte im DaVinci Explorer. Die in DaVinci erzeugten Benutzernamen für Schüler, Klassen oder Lehrer können exportiert und im DaVinci-Explorer wieder importiert werden.
 
@@ -187,23 +187,23 @@ Dieser Export benötigen Sie zur Einrichtung der Benutzerrechte im DaVinci Explo
 
 ### Upload allgemein
 
-![Upload allgemein](/assets/images/Datenaustausch/export6.png)
+![Upload allgemein](/assets/images/datenaustausch/export6.png)
 
 Geben Sie hier bitte die Zieladresse für den Upload nach Webweaver ein. Klicken Sie dazu auf `Verbindungsdetails` und Sie gelangen in die DaVinci Optionen.
 
 In den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatisch beim Export auch an die Zieladresse übertragen
 
-![Upload](/assets/images/Datenaustausch/export2.png)
+![Upload](/assets/images/datenaustausch/export2.png)
 
 ### Upload nach Webweaver
 
-![Upload nach Webweaver](/assets/images/Datenaustausch/export2.png)
+![Upload nach Webweaver](/assets/images/datenaustausch/export2.png)
 
 Geben Sie hier bitte die Zieladresse für den Upload nach Webweaver ein. Klicken Sie dazu auf `Verbindungsdetails` und Sie gelangen in die DaVinci Optionen.
 
 In den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatisch beim Export auch an die Zieladresse übertragen
 
-![Upload](/assets/images/Datenaustausch/export2.png)
+![Upload](/assets/images/datenaustausch/export2.png)
 
 ### Export für Schulportal Hessen
 
