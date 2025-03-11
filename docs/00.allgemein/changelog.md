@@ -25,12 +25,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
   
-## DaVinci Version 6.5.93 (unveröffentlicht)
+## DaVinci Version 6.5.93 (11.03.2025)
 
 ### Stundeplan
 
 * FIX: `Stundenplan > Unterrichtsmatrix` Anlegen und Bearbeiten einer neuen Veranstaltung korrigiert
-
+* FIX: Fehler beim Entfernen von Freistellungen korrigiert
 
 ## DaVinci Version 6.5.92 (20.11.2024)
 
