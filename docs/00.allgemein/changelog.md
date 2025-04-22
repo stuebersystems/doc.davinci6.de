@@ -21,8 +21,9 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DaVinci Webbox v1.10.8 (unveröffentlicht)
+## DaVinci Webbox v1.10.9 (22.05.2025)
 
+* FIX: Teilweise falsche Anzeige bei Ferieneinträgen
 * NEW: Separate Spalte in der Ansicht "Alle Klassen" zu Anzeige der Mitteilungen für "Alle Klassen/Lehrer" oder "Alle Klassen"
   
 ## DaVinci Version 6.5.93 (11.03.2025)
