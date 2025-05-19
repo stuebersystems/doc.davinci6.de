@@ -12,13 +12,13 @@ Wählen Sie in DaVinci über `Plan > Importieren und Exportieren` im Import/Expo
 
 Folgendes Fenster öffnet sich:
 
-![DaVinci JSON-Daten exportieren](/assets/images/Datenaustausch/export1.png)
+![DaVinci JSON-Daten exportieren](/assets/images/datenaustausch/export1.png)
 
 * Geben Sie die Datei an, in die Sie Daten exportieren wollen: Das Ergebis ist hier eine Datei mit der Endung .json
 
 * Zieladresse: in den DaVinci Optionen `Extras > Optionen > Upload` können Sie Vorgaben für den automatischen Upload für Dateien machen. Wenn Sie den Haken setzen, werden die Daten automatische beim Export auch an die Zieladresse übertragen
 
-![Upload](/assets/images/Datenaustausch/export2.png)
+![Upload](/assets/images/datenaustausch/export2.png)
 
 !!! info "Hinweis"
 
