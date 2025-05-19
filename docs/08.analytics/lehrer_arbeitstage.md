@@ -13,7 +13,7 @@
 
 ## Ansicht "Übersicht"
 
-![Ansicht Übersicht](/assets/images/LehrerArbeitstage1.png)
+![Ansicht Übersicht](/assets/images/Lehrerarbeitstage1.png)
 
 ## Bereich Merkmale
 

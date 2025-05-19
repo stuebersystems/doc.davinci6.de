@@ -116,7 +116,7 @@ Schaltfläche | Wofür?
 
 ## Räume
 
-![Stammdaten Räume](/assets/images/stundenplan/stammdaten.Räume.png)
+![Stammdaten Räume](/assets/images/stundenplan/stammdaten.räume.png)
 
 Geben Sie in der Registerkarte „Räume“ die Räume ein. Sie haben des Weiteren die Möglichkeit, diese Räume genauer zu spezifizieren, d.h. sie unter „Raumart“ z.B. als Fachräume zu bezeichnen und später auf der Registerkarte „Fächer“ den einzelnen Fächern zuzuordnen. Die Raumarten können unter `Extras > Schlüsselverzeichnisse > Raumarten` frei editiert werden. Außerdem können Sie die Zuständigkeit der Abteilungen genau bezeichnen, bei Außenstellen das jeweilige Gebäude angeben und die Kapazität des einzelnen Raumes eintragen. Unter „Betreuer“ kann ein Raumbetreuer eingegeben werden. Dieser erscheint in DaVinci Look und kann im Raumplan mit ausgedruckt werden.
 
@@ -159,7 +159,7 @@ ID   | Eindeutige DaVinci-ID, wird automatisch erzeugt
 
 ## Fächer
 
-![Stammdaten Fächer](/assets/images/stundenplan/StammdatenFächer.png)
+![Stammdaten Fächer](/assets/images/stundenplan/Stammdaten.fächer.png)
 
 Die Fächer müssen mit Kürzel und optional mit Langnamen eingegeben werden. Bei der Oberstufenstundenplanung können Sie den Fachstatus, z.B. Grund- oder Leistungskurs, bestimmen. Unter „Schlüssel“ können Sie jedem Fach einen Statistikschlüssel zuweisen. Für die Jahresstatistik wird dann dieser Statistikschlüssel anstelle des Kürzels verwendet.
 

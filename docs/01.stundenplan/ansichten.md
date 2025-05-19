@@ -40,7 +40,7 @@ Die Standardansicht mit der Aufteilung in die drei Teilfenster können Sie flexi
 
 ## Beliebig viele Pläne anzeigen
 
-![Ansichten > Anordnung](/assets/images/SP/stundenplan1.png)
+![Ansichten > Anordnung](/assets/images/sp/stundenplan1.png)
 
 Mit der Schaltfläche `Plan hinzufügen` in die Registerkarte `Ansicht` im Menüband können Sie beliebig viele Pläne in der Ansicht hinzufügen. Wenn Sie einen Plan mit der Maus anklicken, können Sie diesen mit Plan wieder aus der Ansicht entfernen. Mit der `Ansicht horizontal teilen` können Sie die Ansicht horizontal in zwei übereinanderliegende Bereiche aufteilen.
 
@@ -54,13 +54,13 @@ Mit `Plan hinzufügen` werden neue Pläne innerhalb des Anwendungsfensters hinzu
 
 Neben diesen Basisansichten können Sie außerdem wählen, ob der Detailbereich (Zusatzfenster) auf der rechten oder der linken Seite des Programmfensters eingefügt werden soll. Mit den Optionen `Links` und `Rechts` im Aufklappmenü der Schaltfläche `Detailbereich` können Sie den Detailbereich an die gewünschte Seite des Programmfensters verschieben.
 
-![Detailbereich anordnen](/assets/images/SP/stundenplan2.png)
+![Detailbereich anordnen](/assets/images/sp/stundenplan2.png)
 
 Wenn Sie den Detailbereich gerade nicht benötigen und den Anzeigebereich des Planungsfensters oder der Veranstaltungsliste vergrößern möchten, dann können Sie den Detailbereich ausblenden.
 Klicken Sie dazu einfach im Titelbalken des Detailbereichs mit der linken Maustaste auf das Doppelpfeil-Symbol am rechten Rand. Der Detailbereich wird nun auf einen schmalen Streifen am linken Rand des Programmfensters minimiert. Um den Detailbereich wieder einzublenden, klicken Sie einfach erneut auf das Doppelpfeilsymbol, das weiterhin auch im eingeklappten Zustand des Detailbereichs zu sehen ist.
 
-![Detailbereich geöffnet](/assets/images/SP/stundenplan3.png)
+![Detailbereich geöffnet](/assets/images/sp/stundenplan3.png)
 
-![Detailbereich minimiert](/assets/images/SP/stundenplan4.png)
+![Detailbereich minimiert](/assets/images/sp/stundenplan4.png)
 
 Wir werden in den folgenden Abschnitten jeweils darauf hinweisen, welche der soeben genannten Basisansichten wir für die vorgestellten Planungsschritte als die beste Lösung ansehen.
