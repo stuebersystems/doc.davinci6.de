@@ -137,9 +137,17 @@ Registerkarte „Statistik“
 
 #### Schritt 2 - Kalenderdaten importieren
 
-Laden Sie den Kalender für Ihr Bundesland, um die Ferien- und Feiertage zu importieren.
+Bevor Sie Kalenderdaten importieren können, müssen Sie zunächst die für Sie passenden Kalenderdateien erzeugen. Über unseren Explorer auf Basis der Open Holiday API können Sie die Kalenderdateien für die Import nach DaVinci selbst generieren.
 
-`…:\Users\Public\Documents\Stueber Systems\daVinci 6\Kalender`
+1. Öffnen Sie die Webseite https://explorer.openholidaysapi.org/de/ des Open Holiday Explorers.   
+2. Wählen Sie im Open Holiday Explorer Ihr Bundesland aus.
+3. Wählen Sie die Ferienart aus (Feiertage / Schulferien).
+4. Geben Sie Start- und Enddatum ein.
+5. Klicken Sie auf den Schaltfläche ``Als iCal herunterladen``, um die iCal Datei herunterzuladen.
+
+Sie müssen dies einmal für die Ferienart "Feiertage" und einmal für "Schulferien" machen.
+
+Beide so erzeugten iCal-Dateien können Sie dann in DaVinci importieren.
 
 [![Kalender importieren][12]][12]
 
@@ -245,7 +253,7 @@ Genauere Informationen dazu finden Sie im Teil [DaVinci Server](https://doc.davi
 [2]:/assets/images/stundenplan/willkommen01.png
 [3]:/assets/images/stundenplan/Bsp.DAteien.png
 [4]:/assets/images/stundenplan/DAV.Optionen.PLandatei.png
-[5]:/assets/images/stundenplan/Planvorbereitungsassistent01.png
+[5]:/assets/images/stundenplan/Neuen.leeren.Plan.png
 [6]:/assets/images/stundenplan/Neuen.Plan.erstellen.Daten.übernehmen.png
 [7]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.png
 [8]:/assets/images/stundenplan/Neuen.Plan.Neues.SJ.Löschen.Übernehmen.png
