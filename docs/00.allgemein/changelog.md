@@ -14,6 +14,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.94 (19.05.2025)
+
+### Stundenplan
+
+* FIX: Export Vertretungsdaten LANIS
+* FIX: Datumseintrag bei Zusatzkalendern
+
 ## DaVinci Webbox v1.10.10 (28.04.2025)
 
 [**Update-Anleitung**](https://doc.DaVinci6.stueber.de/09.infoserver/update/) <br/>
