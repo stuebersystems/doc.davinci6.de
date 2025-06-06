@@ -14,6 +14,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.95 (06.06.2025)
+
+### Stundenplan
+
+* NEW: Neues Exportformat XSLX für Listen (Konferenzlisten etc.)
+* FIX: Lehrkräfte mit einmaligen Sperrungen wurden trotzdem als mögliche Vertreter angezeigt
+
 ## DaVinci Version 6.5.94 (19.05.2025)
 
 ### Stundenplan
