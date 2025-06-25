@@ -14,6 +14,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.96 (25.06.2025)
+
+### Stundenplan
+
+* FIX: Korrupte Plandatei nach Löschen von Räumen in den Stammdaten
+* FIX: Beim Anlegen einer neuen Stundenplandatei hatte der Standardzeitrahmen intern keinen Namen.
+
 ## DaVinci Version 6.5.95 (06.06.2025)
 
 ### Stundenplan
