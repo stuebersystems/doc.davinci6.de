@@ -14,7 +14,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-# DaVinci Version 6.5.97 (24.07.2025)
+## DaVinci Version 6.5.97 (24.07.2025)
 
 ### Stundenplan
 
