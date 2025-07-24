@@ -14,6 +14,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+# DaVinci Version 6.5.97 (24.07.2025)
+
+### Stundenplan
+
+* FIX: Automatikvorgabe Lehrervorgabe "Freie Tage je Woche" wird jetzt korrekt von der Sperrautoamtik berücksichtigt
+
 ## DaVinci Version 6.5.96 (25.06.2025)
 
 ### Stundenplan

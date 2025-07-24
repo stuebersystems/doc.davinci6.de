@@ -93,12 +93,16 @@ Hier können Sie die maximale Anzahl der Unterrichtstage einer Klasse pro Woche 
 ![Auf der Registerkarte ``Klassenvorgaben`` des Dialogfensters ``Automatikvorgaben`` legen Sie klassenbezogene Einstellungen für den Automatikdurchlauf fest.](/assets/images/Klassenvorgaben.png)
 
 ## Lehrerbezogene Automatikvorgaben - Register "Lehrervorgaben"
-
 Auf der Registerkarte "Lehrervorgaben" können Sie lehrerbezogene Einstellungen treffen.
 
-Hier können Sie die maximale Anzahl der Unterrichtstage einer Klasse pro Woche sowie die maximale Anzahl der Unterrichtsstunden pro Tag festlegen. Außerdem geben Sie hier an, wie viele Springstunden ein Lehrer maximal erhalten soll.
+Hier können Sie die maximale Anzahl der Unterrichtstage eines Lehrers pro Woche sowie die maximale Anzahl der Unterrichtsstunden pro Tag festlegen. Außerdem geben Sie hier an, wie viele Springstunden ein Lehrer maximal erhalten soll.
 
 ![Auf der Registerkarte ``Lehrervorgaben`` des Dialogfensters ``Automatikvorgaben`` legen Sie lehrerbezogene Einstellungen für den Automatikdurchlauf fest.](/assets/images/Lehrervorgaben.png)
+
+| Freie Tage je Woche | Bedeutung für die Sperrautomatik    |
+| ------------------- | ----------------------------------- |
+| 1                   | 1 Tag                               |
+| 2-3                 | 2 bis 3 Tage                        |
 
 ## Fächerbezogene Automatikvorgaben - Register "Fächervorgaben"
 
@@ -313,6 +317,10 @@ Die Automatik weist daraufhin den verplanten Terminen ohne Lehrerzuordnung passe
 Sie können die Lehrerzuordnungsautomatik auch zusammen mit der Setz- und der Raumautomatik starten, indem Sie die beiden entsprechenden Optionen markieren. Jedoch kann die Lehrerautomatik nur alleine gestartet werden, wenn vorher die Setzautomatik gelaufen ist oder die Veranstaltungen bereits manuell ohne Lehrer gesetzt wurden.
 
 ## Sperrungsautomatik
+
+Die Sperrautomatik führt Sperrungen auf Basis der Klassenvorgaben "Tage je Woche" und Lehrervorgaben "Freie Tage je Woche" durch. Solche Sperrungen sind dann mit einem "AX" im Plan gekennzeichnet.
+
+![Automatiksperrung](/assets/images/automatiksperrung.png)
 
 ## Ergebnisse des Automatikdurchlaufs kontrollieren
 
