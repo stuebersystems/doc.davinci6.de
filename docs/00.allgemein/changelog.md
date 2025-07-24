@@ -18,7 +18,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Stundenplan
 
-* FIX: Automatikvorgabe Lehrervorgabe "Freie Tage je Woche" wird jetzt korrekt von der Sperrautoamtik berücksichtigt
+* FIX: Automatikvorgabe Lehrervorgabe "Freie Tage je Woche" wird jetzt korrekt von der Sperrautomatik berücksichtigt
 
 ## DaVinci Version 6.5.96 (25.06.2025)
 
