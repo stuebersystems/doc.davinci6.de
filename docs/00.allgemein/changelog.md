@@ -14,6 +14,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.98 (30.07.2025)
+
+### Stundenplan
+
+* NEW: Bessere Unterstützung von Mitteilungen beim JSON-Export. ACHTUNG: Die Logik beim Export der Mitteilungen hat sich leichtgeändert, bitte unbedingt auch (je nach Einsatz) DaVinci Infoserver, DaVinci Webbox und DaVinci Mobile aktualisieren.
+
 ## DaVinci Version 6.5.97 (24.07.2025)
 
 ### Stundenplan
