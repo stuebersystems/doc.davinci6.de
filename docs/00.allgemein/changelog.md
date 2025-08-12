@@ -20,7 +20,6 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Import/Export-Assistent: Anpassung Datenabgleich mit Magellan an die neue Version 12 von Magellan.
 
-
 ## DaVinci Version 6.5.98 (30.07.2025)
 
 ### Stundenplan
