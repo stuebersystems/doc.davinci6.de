@@ -14,6 +14,13 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.99 (12.08.2025)
+
+### Stundenplan
+
+* FIX: Import/Export-Assistent: Anpassung Datenabgleich mit Magellan an die neue Version 12 von Magellan.
+
+
 ## DaVinci Version 6.5.98 (30.07.2025)
 
 ### Stundenplan
