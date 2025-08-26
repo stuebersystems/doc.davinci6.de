@@ -14,6 +14,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.100 (26.08.2025)
+
+### Stundenplan
+
+* FIX: Export nach Enbrea: Anpassung des Exports für Ereignisse.
+
 ## DaVinci Version 6.5.99 (12.08.2025)
 
 ### Stundenplan
