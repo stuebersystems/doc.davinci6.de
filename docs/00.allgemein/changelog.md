@@ -13,6 +13,11 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DaVinci Version 6.5.101 (15.09.2025)
+
+### Stundenplan
+
+* FIX: Aktualisierung der DaVinci Console.
 
 ## DaVinci Version 6.5.100 (26.08.2025)
 
