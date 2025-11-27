@@ -13,6 +13,17 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DaVinci Version 6.5.102 (noch nicht veröffentlicht)
+
+### Stundenplan
+
+* FIX: Drucken von Stundenplan mit Vertretungsinformationen.
+
+### Vertretungsplan
+
+* NEW: Plan > DaVinci Optionen > Vertretungsplan: Option zur automatischen Übernahme der Bemerkung aus der Veranstaltung in die Info des Vertretungselements.
+* NEW: Vertretungen > Vertretungen: Für ein Vertretungselement kann man über das Kontextmenü die Bemerkung der Veranstaltung in das Feld "Info" des Vertretungselements übernehmen.
+
 ## DaVinci Version 6.5.101 (15.09.2025)
 
 ### Stundenplan

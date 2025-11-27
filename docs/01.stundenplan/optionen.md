@@ -140,7 +140,10 @@ Eingabe | Erläuterung
 Vordefinierte Infos| Eingabe von vordefinierten Infos zur Auswahl in `Vertretungen > Vertretungen`
 Vordefinierte Mitteilungen|Eingabe von vordefinierten Mitteilungen zur Auswahl in `Vertretungen > Vertretungen`
 Vordefinierte Bemerkungen|Eingabe von vordefinierten Bemerkungen zur Auswahl in `Vertretungen > Vertretungen`
-Einstellungen| Voreinstellungen für die Vertretungsplanung
+Einstellungen| Voreinstellungen für die Vertretungsplanung. 
+
+### Automatische Übernahme der Bemerkung aus Veranstaltung
+Markiert man diese Einstellung, so wird beim Erstellen einer Vertretung geprüft, ob das passende Veranstaltungselement im Stundenplan eine Bemerkung besitzt. Ist dies der Fall, dann wird die Bemerkung der Veranstaltung automatisch in das Feld "Info" des Vertretungselements übernommen.
 
 ## Kursplan
 
