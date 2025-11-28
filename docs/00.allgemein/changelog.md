@@ -13,11 +13,13 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DaVinci Version 6.5.102 (noch nicht veröffentlicht)
+## DaVinci Version 6.5.103 (noch nicht veröffentlicht)
 
 ### Stundenplan
 
 * FIX: Drucken von Stundenplan mit Vertretungsinformationen.
+
+## DaVinci Version 6.5.102 (28.11.2025)
 
 ### Vertretungsplan
 
