@@ -13,7 +13,11 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## DaVinci Version 6.5.106 (noch nicht veröffentlicht)
 
+### Vertretungsplan
+
+* FIX: Fehlzeiten: Hat ein Lehrer negative Anrechenstunden durch das Fehlen seiner Klasse erhalten und dieser Lehrer fehlt dann nachträglich selbst zur Abwesenheitszeit der Klasse, so werden jetzt seine negativen Anrechenstunden wieder zurückgesetzt.
 
 ## DaVinci Version 6.5.105 (05.02.2026)
 
