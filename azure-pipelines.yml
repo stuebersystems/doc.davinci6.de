@@ -26,6 +26,8 @@ stages:
         workingDirectory: '$(Build.SourcesDirectory)'
     - task: PowerShell@2
       displayName: Build MkDocs project
+      env:
+        NO_MKDOCS_2_WARNING: 1
       inputs:
         targetType: 'inline'
         pwsh: true
