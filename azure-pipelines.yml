@@ -1,45 +1,55 @@
 pool:
-  vmImage: 'windows-2022'
+  vmImage: 'ubuntu-latest'
     
-steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-    addToPath: true
-    architecture: 'x64'
-- task: PowerShell@2
-  displayName: Install MkDocs
-  inputs:
-    targetType: 'inline'
-    script: |
-      pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-img2fig-plugin --disable-pip-version-check
-    failOnStderr: false
-    workingDirectory: '$(Build.SourcesDirectory)'
-- task: PowerShell@2
-  displayName: Build with MkDocs
-  inputs:
-    targetType: 'inline'
-    script: |
-      mkdocs build -q
-    failOnStderr: true
-    workingDirectory: '$(Build.SourcesDirectory)'
-- task: ArchiveFiles@2
-  displayName: 'Create Zip archive'
-  inputs:
-    rootFolderOrFile: 'site'
-    includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
-- task: CopyFiles@2
-  displayName: 'Copy Maintenance Page'
-  inputs:
-    Contents: 'nginx-maintenance.html'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-    OverWrite: true
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Zip archive'
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+stages:
+
+- stage: build
+  displayName: Build Website
+  jobs:
+  - job: create_website
+    displayName: Build and Archive
+    steps:
+    - checkout: self
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '3.x'
+        addToPath: true
+        architecture: 'x64'
+    - task: PowerShell@2
+      displayName: Install MkDocs
+      inputs:
+        targetType: 'inline'
+        pwsh: true
+        script: |
+          pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-img2fig-plugin --disable-pip-version-check
+        failOnStderr: false
+        workingDirectory: '$(Build.SourcesDirectory)'
+    - task: PowerShell@2
+      displayName: Build MkDocs project
+      inputs:
+        targetType: 'inline'
+        pwsh: true
+        script: |
+          mkdocs build -q
+        failOnStderr: true
+        workingDirectory: '$(Build.SourcesDirectory)'
+    - task: ArchiveFiles@2
+      displayName: 'Create Zip archive'
+      inputs:
+        rootFolderOrFile: 'site'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+        replaceExistingArchive: true
+    - task: CopyFiles@2
+      displayName: 'Copy Maintenance Page'
+      inputs:
+        Contents: 'nginx-maintenance.html'
+        TargetFolder: '$(Build.ArtifactStagingDirectory)'
+        OverWrite: true
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish build artifacts'
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
