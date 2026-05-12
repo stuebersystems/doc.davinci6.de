@@ -13,7 +13,7 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
-## DaVinci Version 6.5.106 (noch nicht veröffentlicht)
+## DaVinci Version 6.5.106 (08.05.2026)
 
 ### Vertretungsplan
 
