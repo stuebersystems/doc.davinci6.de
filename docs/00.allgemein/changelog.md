@@ -13,6 +13,13 @@ NEW |  Neue Funktionalität
 CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+
+## DaVinci Version 6.5.107 (13.05.2026)
+
+### Allgemein
+
+* NEW: Support für OpenT8. DaVinci kann jetzt seine Stundenplandaten via **Datei > Speichern unter** optional in das [OpenT8-Format](https://openpotato.github.io/opent8/) speichern.
+
 ## DaVinci Version 6.5.106 (08.05.2026)
 
 ### Vertretungsplan
