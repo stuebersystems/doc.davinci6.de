@@ -14,7 +14,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## DaVinci Version 6.5.107 (13.05.2026)
+## DaVinci Version 6.5.107 (14.05.2026)
 
 ### Allgemein
 
