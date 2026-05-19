@@ -14,6 +14,12 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.108 (19.05.2026)
+
+### Allgemein
+
+* FIX: Fehler beim Export von EC-Dateien durch die DaVinci Console behoben.
+
 ## DaVinci Version 6.5.107 (14.05.2026)
 
 ### Allgemein
