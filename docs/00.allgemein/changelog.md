@@ -22,7 +22,7 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Stundenplan
 
-* FIX: ÜStundenplan > Veranstaltung aus Stundentafel erzeugen: Fehler bei einmaligen Veranstaltungen behoben.
+* FIX: Stundenplan > Veranstaltung aus Stundentafel erzeugen: Fehler bei einmaligen Veranstaltungen behoben.
 
 ## DaVinci Version 6.5.108 (19.05.2026)
 
