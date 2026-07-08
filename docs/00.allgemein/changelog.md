@@ -14,6 +14,16 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.109 (08.07.2026)
+
+### Allgemein
+
+* FIX: Fehler beim Export von EC-Dateien durch die DaVinci Console behoben.
+
+### Stundenplan
+
+* FIX: ÜStundenplan > Veranstaltung aus Stundentafel erzeugen: Fehler bei einmaligen Veranstaltungen behoben.
+
 ## DaVinci Version 6.5.108 (19.05.2026)
 
 ### Allgemein
