@@ -238,7 +238,7 @@ nav:
   - Allgemein: 09.infoserver/allgemeines.md
   - Einrichtung:
     - 1. Web-Server: 
-      - Allgemeines: 09.infoserver/setup-webserver/README.md
+      - Allgemeines: 09.infoserver/setup-webserver/index.md
       - Apache: 09.infoserver/setup-webserver/apache.md
       - IIS 10: 09.infoserver/setup-webserver/iis-10.md
       - IIS 8.5: 09.infoserver/setup-webserver/iis-8-5.md
@@ -247,18 +247,18 @@ nav:
       - IIS 7: 09.infoserver/setup-webserver/iis-7.md
     - 2. Benutzerverwaltung: 09.infoserver/user-management.md
     - 3. DaVinci InfoServer: 
-      - Allgemein: 09.infoserver/setup-infoserver/README.md
+      - Allgemein: 09.infoserver/setup-infoserver/index.md
       - Apache: 09.infoserver/setup-infoserver/apache.md
       - IIS 10: 09.infoserver/setup-infoserver/iis-10.md
       - IIS 8.5: 09.infoserver/setup-infoserver/iis-8-5.md
       - IIS 7.5: 09.infoserver/setup-infoserver/iis-7-5.md
     - 4. DaVinci WebBox: 
-      - Allgemein: 09.infoserver/setup-webbox/README.md
+      - Allgemein: 09.infoserver/setup-webbox/index.md
       - Apache: 09.infoserver/setup-webbox/apache.md
       - IIS 10: 09.infoserver/setup-webbox/iis-10.md
     - 5. DaVinci-Mobile: 
-      - Allgemein: 09.infoserver/setup-mobile/README.md
-      - Voraussetzungen: 09.infoserver/setup-mobile/README.md
+      - Allgemein: 09.infoserver/setup-mobile/index.md
+      - Voraussetzungen: 09.infoserver/setup-mobile/index.md
   - Was wird gezeigt?: 09.infoserver/veroeffentlichung.md     
   - Sicherheit: 09.infoserver/security.md
   - Netzwerktipps: 09.infoserver/network-configuration.md

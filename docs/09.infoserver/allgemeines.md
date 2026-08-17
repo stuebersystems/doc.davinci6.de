@@ -12,9 +12,9 @@ Die DaVinci WebBox funktioniert ähnlich wie DaVinci Mobile und ist zum Einsatz 
 
 Voraussetzungen für den Einsatz der DaVinci WebBox:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/)
+1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/index.md)
 2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management/)
-3. [Installation des DaVinci INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/)
+3. [Installation des DaVinci INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/index.md)
 4. [Konfiguration der DaVinci WebBox](https://doc.davinci6.stueber.de/09.infoserver/setup-webbox/)
 
 !!! info "Hinweis"
