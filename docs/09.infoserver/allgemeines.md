@@ -12,10 +12,10 @@ Die DaVinci WebBox funktioniert ähnlich wie DaVinci Mobile und ist zum Einsatz 
 
 Voraussetzungen für den Einsatz der DaVinci WebBox:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/index.md)
-2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management/)
-3. [Installation des DaVinci INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/index.md)
-4. [Konfiguration der DaVinci WebBox](https://doc.davinci6.stueber.de/09.infoserver/setup-webbox/)
+1. [Installation eines Web-Servers](setup-webserver/index.md)
+2. [Einrichten der Benutzer](user-management.md)
+3. [Installation des DaVinci INFOSERVERS](setup-infoserver/index.md)
+4. [Konfiguration der DaVinci WebBox](setup-webbox/index.md)
 
 !!! info "Hinweis"
 
@@ -29,11 +29,11 @@ DaVinci Mobile kommuniziert mit einem DaVinci InfoServer. Dieser kommuniziert wi
 
 Voraussetzungen für den Einsatz von DaVinci Mobile:
 
-1. [Installation eines Web-Servers](https://doc.davinci6.stueber.de/09.infoserver/setup-webserver/)
-2. [Einrichten der Benutzer](https://doc.davinci6.stueber.de/09.infoserver/user-management/)
-3. [Installation des DaVinci INFOSERVERS](https://doc.davinci6.stueber.de/09.infoserver/setup-infoserver/)
-4. [Konfiguration der DaVinci WebBox (zum Test)](https://doc.davinci6.stueber.de/09.infoserver/setup-webbox/)
-5. [Installation von DaVinci Mobile auf Ihrem Mobilgerät](https://doc.davinci6.stueber.de/09.infoserver/setup-mobile/)
+1. [Installation eines Web-Servers](setup-webserver/index.md)
+2. [Einrichten der Benutzer](user-management.md)
+3. [Installation des DaVinci INFOSERVERS](setup-infoserver/index.md)
+4. [Konfiguration der DaVinci WebBox (zum Test)](setup-webbox/index.md)
+5. [Installation von DaVinci Mobile auf Ihrem Mobilgerät](setup-mobile/index.md)
 
 !!! info "Hinweis"
 
