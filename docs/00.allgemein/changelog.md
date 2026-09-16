@@ -14,11 +14,18 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.110 (16.09.2026)
+
+### Allgemein
+
+* FIX: Fehler beim Export von ECF-Dateien durch die DaVinci Console behoben.
+* FIX: Fehler beim Speichern von OpenT8-Dateien behoben.
+
 ## DaVinci Version 6.5.109 (08.07.2026)
 
 ### Allgemein
 
-* FIX: Fehler beim Export von EC-Dateien durch die DaVinci Console behoben.
+* FIX: Fehler beim Export von ECF-Dateien durch die DaVinci Console behoben.
 
 ### Stundenplan
 
