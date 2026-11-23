@@ -14,6 +14,17 @@ CHANGE|  Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## DaVinci Version 6.5.111 (23.11.2026)
+
+### Stundenplan
+
+* NEW: Erweiterung des Enbrea Abgleichs bei Mitteilungen
+
+### Vertretungenplan
+
+* NEW: Erweiterung des Enbrea Abgleichs bei Mitteilungen für Vertretungen
+
+
 ## DaVinci Version 6.5.110 (16.09.2026)
 
 ### Allgemein
